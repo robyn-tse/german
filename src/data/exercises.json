@@ -8,7 +8,7 @@
     "answer": "stehe auf",
     "full_de": "Ich stehe jeden Morgen um 6 Uhr auf.",
     "en": "I get up every morning at 6 o'clock.",
-    "vocab_id": "aufstehen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -22,7 +22,7 @@
     "answer": "ein",
     "full_de": "Kaufst du heute im Supermarkt ein?",
     "en": "Are you shopping at the supermarket today?",
-    "vocab_id": "einkaufen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -36,7 +36,7 @@
     "answer": "fangen an",
     "full_de": "Wir fangen morgen mit dem Deutschkurs an.",
     "en": "We start the German course tomorrow.",
-    "vocab_id": "anfangen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -64,7 +64,7 @@
     "answer": "kommt an",
     "full_de": "Das Flugzeug kommt pünktlich an.",
     "en": "The plane arrives on time.",
-    "vocab_id": "ankommen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -78,7 +78,7 @@
     "answer": "an",
     "full_de": "Mach bitte das Licht an! Es ist dunkel.",
     "en": "Please turn on the light! It is dark.",
-    "vocab_id": "anmachen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -92,7 +92,7 @@
     "answer": "aus",
     "full_de": "Mach bitte das Radio aus! Es ist zu laut.",
     "en": "Please turn off the radio! It is too loud.",
-    "vocab_id": "ausmachen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -106,7 +106,7 @@
     "answer": "sehen fern",
     "full_de": "Am Abend sehen wir oft fern.",
     "en": "In the evening, we often watch TV.",
-    "vocab_id": "fernsehen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -120,7 +120,7 @@
     "answer": "mit",
     "full_de": "Kommst du heute Abend mit?",
     "en": "Are you coming along tonight?",
-    "vocab_id": "mitkommen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -134,7 +134,7 @@
     "answer": "hole ab",
     "full_de": "Ich hole dich vom Bahnhof ab.",
     "en": "I am picking you up from the train station.",
-    "vocab_id": "abholen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -148,7 +148,7 @@
     "answer": "fährt ab",
     "full_de": "Der Zug fährt um 9 Uhr ab.",
     "en": "The train departs at 9 o'clock.",
-    "vocab_id": "abfahren",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -162,7 +162,7 @@
     "answer": "auf",
     "full_de": "Räumst du bitte dein Zimmer auf?",
     "en": "Are you tidying up your room, please?",
-    "vocab_id": "aufraeumen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -176,7 +176,7 @@
     "answer": "macht auf",
     "full_de": "Das Kind macht das Buch auf und liest.",
     "en": "The child opens the book and reads.",
-    "vocab_id": "aufmachen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -190,7 +190,7 @@
     "answer": "zu",
     "full_de": "Bitte machen Sie die Tür zu. Es zieht!",
     "en": "Please close the door. There is a draft!",
-    "vocab_id": "zumachen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -204,7 +204,7 @@
     "answer": "lade ein",
     "full_de": "Ich lade dich zu meiner Party ein.",
     "en": "I invite you to my party.",
-    "vocab_id": "einladen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -218,7 +218,7 @@
     "answer": "an",
     "full_de": "Ziehst du heute die Jacke an?",
     "en": "Are you putting on the jacket today?",
-    "vocab_id": "anziehen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -232,7 +232,7 @@
     "answer": "ziehen aus",
     "full_de": "Im Sommer ziehen wir die Jacke aus.",
     "en": "In summer, we take off the jacket.",
-    "vocab_id": "ausziehen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -246,7 +246,7 @@
     "answer": "hält an",
     "full_de": "Der Bus hält hier nicht an.",
     "en": "The bus does not stop here.",
-    "vocab_id": "anhalten",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -260,7 +260,7 @@
     "answer": "bringt mit",
     "full_de": "Wann bringt ihr das Buch mit?",
     "en": "When are you bringing the book along?",
-    "vocab_id": "mitbringen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -274,7 +274,7 @@
     "answer": "bereitet vor",
     "full_de": "Er bereitet das Abendessen vor.",
     "en": "He is preparing dinner.",
-    "vocab_id": "vorbereiten",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -288,7 +288,7 @@
     "answer": "lernen kennen",
     "full_de": "Wir lernen heute neue Wörter kennen.",
     "en": "We learn new words today.",
-    "vocab_id": "kennenlernen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -302,7 +302,7 @@
     "answer": "hört auf",
     "full_de": "Der Unterricht hört um 12 Uhr auf.",
     "en": "The class ends at 12 o'clock.",
-    "vocab_id": "aufhoeren",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -316,7 +316,7 @@
     "answer": "kommt an",
     "full_de": "Herr Müller kommt im Hotel an.",
     "en": "Mr. Müller arrives at the hotel.",
-    "vocab_id": "ankommen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -330,7 +330,7 @@
     "answer": "zu",
     "full_de": "Macht ihr die Fenster zu? Es regnet.",
     "en": "Are you closing the windows? It is raining.",
-    "vocab_id": "zumachen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -344,7 +344,7 @@
     "answer": "nehme mit",
     "full_de": "Ich nehme einen Regenschirm mit.",
     "en": "I am taking an umbrella with me.",
-    "vocab_id": "mitnehmen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -358,7 +358,7 @@
     "answer": "stehst auf",
     "full_de": "Wann stehst du am Samstag auf?",
     "en": "When do you get up on Saturday?",
-    "vocab_id": "aufstehen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -372,7 +372,7 @@
     "answer": "kauft ein",
     "full_de": "Meine Freundin kauft am Samstag ein.",
     "en": "My girlfriend goes shopping on Saturday.",
-    "vocab_id": "einkaufen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -400,7 +400,7 @@
     "answer": "sehen fern",
     "full_de": "Die Kinder sehen nicht viel fern.",
     "en": "The children do not watch much TV.",
-    "vocab_id": "fernsehen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -414,7 +414,7 @@
     "answer": "hole ab",
     "full_de": "Ich hole meine Tochter von der Schule ab.",
     "en": "I am picking up my daughter from school.",
-    "vocab_id": "abholen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -428,7 +428,7 @@
     "answer": "fängt an",
     "full_de": "Wann fängt der Film an?",
     "en": "When does the movie start?",
-    "vocab_id": "anfangen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -442,7 +442,7 @@
     "answer": "räumen auf",
     "full_de": "Wir räumen die Küche auf.",
     "en": "We are tidying up the kitchen.",
-    "vocab_id": "aufraeumen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -456,7 +456,7 @@
     "answer": "auf",
     "full_de": "Bitte machen Sie das Buch auf auf Seite 10.",
     "en": "Please open the book on page 10.",
-    "vocab_id": "aufmachen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -470,7 +470,7 @@
     "answer": "lade ein",
     "full_de": "Ich lade meine Familie zum Essen ein.",
     "en": "I invite my family for a meal.",
-    "vocab_id": "einladen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -484,7 +484,7 @@
     "answer": "fährt ab",
     "full_de": "Der Zug fährt pünktlich ab.",
     "en": "The train departs on time.",
-    "vocab_id": "abfahren",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -498,7 +498,7 @@
     "answer": "mit",
     "full_de": "Nimmst du ein Stück Kuchen mit?",
     "en": "Are you taking a piece of cake with you?",
-    "vocab_id": "mitnehmen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -512,7 +512,7 @@
     "answer": "zieht an",
     "full_de": "Er zieht seine Schuhe an.",
     "en": "He is putting on his shoes.",
-    "vocab_id": "anziehen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -526,7 +526,7 @@
     "answer": "bringen mit",
     "full_de": "Wir bringen Getränke zur Party mit.",
     "en": "We are bringing drinks to the party.",
-    "vocab_id": "mitbringen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -540,7 +540,7 @@
     "answer": "hörst auf",
     "full_de": "Wann hörst du mit der Arbeit auf?",
     "en": "When do you finish work?",
-    "vocab_id": "aufhoeren",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -554,7 +554,7 @@
     "answer": "mit",
     "full_de": "Kommen Sie heute Abend mit?",
     "en": "Are you coming along tonight?",
-    "vocab_id": "mitkommen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -568,7 +568,7 @@
     "answer": "ein",
     "full_de": "Schalten Sie bitte den Computer ein.",
     "en": "Please turn on the computer.",
-    "vocab_id": "einschalten",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -582,7 +582,7 @@
     "answer": "schaltet aus",
     "full_de": "Er schaltet den Fernseher aus.",
     "en": "He turns off the TV.",
-    "vocab_id": "ausschalten",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -596,7 +596,7 @@
     "answer": "packe ein",
     "full_de": "Ich packe meinen Koffer ein.",
     "en": "I am packing my suitcase.",
-    "vocab_id": "einpacken",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -610,7 +610,7 @@
     "answer": "packen aus",
     "full_de": "Wir packen die Geschenke aus.",
     "en": "We are unpacking the presents.",
-    "vocab_id": "auspacken",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -624,7 +624,7 @@
     "answer": "füllt aus",
     "full_de": "Das Formular füllt man hier aus.",
     "en": "One fills out the form here.",
-    "vocab_id": "ausfuellen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -638,7 +638,7 @@
     "answer": "stellt aus",
     "full_de": "Der Arzt stellt ein Rezept aus.",
     "en": "The doctor issues a prescription.",
-    "vocab_id": "ausstellen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -652,7 +652,7 @@
     "answer": "holt ab",
     "full_de": "Das Auto holt uns am Hotel ab.",
     "en": "The car picks us up at the hotel.",
-    "vocab_id": "abholen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -666,7 +666,7 @@
     "answer": "fangen an",
     "full_de": "Wir fangen jetzt mit der Übung an.",
     "en": "We are starting the exercise now.",
-    "vocab_id": "anfangen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -680,7 +680,7 @@
     "answer": "macht sauber",
     "full_de": "Der Lehrer macht die Tafel sauber.",
     "en": "The teacher cleans the board.",
-    "vocab_id": "saubermachen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -694,7 +694,7 @@
     "answer": "an",
     "full_de": "Bitte kreuzen Sie die richtige Antwort an.",
     "en": "Please tick the correct answer.",
-    "vocab_id": "ankreuzen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -708,7 +708,7 @@
     "answer": "aufstehen",
     "full_de": "Ich muss morgen früh aufstehen.",
     "en": "I have to get up early tomorrow.",
-    "vocab_id": "aufstehen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -722,7 +722,7 @@
     "answer": "einkaufen",
     "full_de": "Kannst du heute einkaufen?",
     "en": "Can you go shopping today?",
-    "vocab_id": "einkaufen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -750,7 +750,7 @@
     "answer": "mitkommen",
     "full_de": "Möchtest du ins Kino mitkommen?",
     "en": "Would you like to come along to the cinema?",
-    "vocab_id": "mitkommen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -764,7 +764,7 @@
     "answer": "abholen",
     "full_de": "Wann soll ich dich abholen?",
     "en": "When should I pick you up?",
-    "vocab_id": "abholen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -778,7 +778,7 @@
     "answer": "ausmachen",
     "full_de": "Du musst das Licht ausmachen. Es ist hell genug.",
     "en": "You have to turn off the light. It is bright enough.",
-    "vocab_id": "ausmachen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -792,7 +792,7 @@
     "answer": "anhalten",
     "full_de": "Hier muss der Zug anhalten.",
     "en": "The train must stop here.",
-    "vocab_id": "anhalten",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -806,7 +806,7 @@
     "answer": "einladen",
     "full_de": "Ich möchte meine Freunde einladen.",
     "en": "I would like to invite my friends.",
-    "vocab_id": "einladen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -820,7 +820,7 @@
     "answer": "fernsehen",
     "full_de": "Die Kinder dürfen heute fernsehen.",
     "en": "The children are allowed to watch TV today.",
-    "vocab_id": "fernsehen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -834,7 +834,7 @@
     "answer": "anfangen",
     "full_de": "Wann wollen wir anfangen? Der Kurs wartet.",
     "en": "When do we want to start? The class is waiting.",
-    "vocab_id": "anfangen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -848,7 +848,7 @@
     "answer": "aufräumen",
     "full_de": "Du musst dein Zimmer aufräumen.",
     "en": "You have to tidy up your room.",
-    "vocab_id": "aufraeumen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -862,7 +862,7 @@
     "answer": "aufmachen",
     "full_de": "Können Sie bitte das Fenster aufmachen?",
     "en": "Could you please open the window?",
-    "vocab_id": "aufmachen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -876,7 +876,7 @@
     "answer": "anziehen",
     "full_de": "Ich will eine warme Jacke anziehen.",
     "en": "I want to put on a warm jacket.",
-    "vocab_id": "anziehen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -890,7 +890,7 @@
     "answer": "mitbringen",
     "full_de": "Kannst du eine Flasche Wasser mitbringen?",
     "en": "Can you bring a bottle of water along?",
-    "vocab_id": "mitbringen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -904,7 +904,7 @@
     "answer": "ausfüllen",
     "full_de": "Wir müssen das Formular ausfüllen.",
     "en": "We have to fill out the form.",
-    "vocab_id": "ausfuellen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -918,7 +918,7 @@
     "answer": "abfahren",
     "full_de": "Der Zug soll jetzt abfahren.",
     "en": "The train is supposed to depart now.",
-    "vocab_id": "abfahren",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -932,7 +932,7 @@
     "answer": "kennenlernen",
     "full_de": "Möchtest du neue Leute kennenlernen?",
     "en": "Would you like to meet new people?",
-    "vocab_id": "kennenlernen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -946,7 +946,7 @@
     "answer": "vorbereiten",
     "full_de": "Er muss die Hausaufgabe vorbereiten.",
     "en": "He has to prepare the homework.",
-    "vocab_id": "vorbereiten",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -960,7 +960,7 @@
     "answer": "einpacken",
     "full_de": "Wir wollen den Koffer einpacken.",
     "en": "We want to pack the suitcase.",
-    "vocab_id": "einpacken",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -974,7 +974,7 @@
     "answer": "aufhören",
     "full_de": "Wann wollt ihr aufhören?",
     "en": "When do you want to stop?",
-    "vocab_id": "aufhoeren",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -988,7 +988,7 @@
     "answer": "anmachen",
     "full_de": "Kannst du bitte das Radio anmachen?",
     "en": "Can you please turn on the radio?",
-    "vocab_id": "anmachen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -1002,7 +1002,7 @@
     "answer": "zumachen",
     "full_de": "Sie müssen die Tür zumachen.",
     "en": "You must close the door.",
-    "vocab_id": "zumachen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -1016,7 +1016,7 @@
     "answer": "mitnehmen",
     "full_de": "Ich möchte meinen Hund mitnehmen.",
     "en": "I would like to take my dog with me.",
-    "vocab_id": "mitnehmen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -1030,7 +1030,7 @@
     "answer": "ankreuzen",
     "full_de": "Wir müssen die richtige Antwort ankreuzen.",
     "en": "We must tick the correct answer.",
-    "vocab_id": "ankreuzen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -1044,7 +1044,7 @@
     "answer": "ausziehen",
     "full_de": "Du darfst die Schuhe im Haus ausziehen.",
     "en": "You may take off your shoes in the house.",
-    "vocab_id": "ausziehen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -1058,7 +1058,7 @@
     "answer": "besuche",
     "full_de": "Ich besuche meine Großeltern am Wochenende.",
     "en": "I am visiting my grandparents on the weekend.",
-    "vocab_id": "besuchen",
+    "vocab_id": null,
     "tags": [
       "untrennbar"
     ]
@@ -1100,7 +1100,7 @@
     "answer": "gefällt",
     "full_de": "Das Hotel gefällt mir gut.",
     "en": "I like the hotel.",
-    "vocab_id": "gefallen",
+    "vocab_id": null,
     "tags": [
       "untrennbar"
     ]
@@ -1114,7 +1114,7 @@
     "answer": "verkauft",
     "full_de": "Er verkauft seiner Mutter ein Geschenk.",
     "en": "He is selling a present to his mother.",
-    "vocab_id": "verkaufen",
+    "vocab_id": null,
     "tags": [
       "untrennbar"
     ]
@@ -1142,7 +1142,7 @@
     "answer": "gefällt",
     "full_de": "Das Kleid gefällt meiner Schwester sehr gut.",
     "en": "My sister likes the dress very much.",
-    "vocab_id": "gefallen",
+    "vocab_id": null,
     "tags": [
       "untrennbar"
     ]
@@ -1184,7 +1184,7 @@
     "answer": "bestellt",
     "full_de": "Sie bestellt Saft statt Bier.",
     "en": "She orders juice instead of beer.",
-    "vocab_id": "bestellen",
+    "vocab_id": null,
     "tags": [
       "untrennbar"
     ]
@@ -1198,7 +1198,7 @@
     "answer": "verdient",
     "full_de": "Er verdient viel Geld.",
     "en": "He earns a lot of money.",
-    "vocab_id": "verdienen",
+    "vocab_id": null,
     "tags": [
       "untrennbar"
     ]
@@ -1212,7 +1212,7 @@
     "answer": "bezahlt",
     "full_de": "Wer bezahlt die Rechnung?",
     "en": "Who is paying the bill?",
-    "vocab_id": "bezahlen",
+    "vocab_id": null,
     "tags": [
       "untrennbar"
     ]
@@ -1226,7 +1226,7 @@
     "answer": "stehe auf",
     "full_de": "Ich stehe jeden Morgen um 7 Uhr auf.",
     "en": "I get up every morning at 7 o'clock.",
-    "vocab_id": "aufstehen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -1240,7 +1240,7 @@
     "answer": "räumen auf",
     "full_de": "Wir räumen die Wohnung am Samstag auf.",
     "en": "We are tidying up the apartment on Saturday.",
-    "vocab_id": "aufraeumen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -1254,7 +1254,7 @@
     "answer": "lädt ein",
     "full_de": "Sie lädt ihre Freundin zum Geburtstag ein.",
     "en": "She invites her friend for her birthday.",
-    "vocab_id": "einladen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -1268,7 +1268,7 @@
     "answer": "bestätige",
     "full_de": "Ich bestätige den Termin.",
     "en": "I am confirming the appointment.",
-    "vocab_id": "bestaetigen",
+    "vocab_id": null,
     "tags": [
       "untrennbar"
     ]
@@ -1282,7 +1282,7 @@
     "answer": "macht aus",
     "full_de": "Er macht das Licht aus, wenn er geht.",
     "en": "He turns off the light when he leaves.",
-    "vocab_id": "ausmachen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -1310,7 +1310,7 @@
     "answer": "fährt ab",
     "full_de": "Der Bus fährt pünktlich ab.",
     "en": "The bus departs on time.",
-    "vocab_id": "abfahren",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -1324,7 +1324,7 @@
     "answer": "füllt aus",
     "full_de": "Frau Schneider füllt die Dokumente aus.",
     "en": "Mrs. Schneider fills out the documents.",
-    "vocab_id": "ausfuellen",
+    "vocab_id": null,
     "tags": [
       "trennbar"
     ]
@@ -1352,7 +1352,7 @@
     "answer": "besprechen",
     "full_de": "Wir besprechen ein neues Thema.",
     "en": "We are discussing a new topic.",
-    "vocab_id": "besprechen",
+    "vocab_id": null,
     "tags": [
       "untrennbar"
     ]
@@ -1394,7 +1394,7 @@
     "answer": "ein",
     "full_de": "Schaltest du bitte den Fernseher ein?",
     "en": "Are you turning on the TV, please?",
-    "vocab_id": "einschalten",
+    "vocab_id": null,
     "tags": [
       "untrennbar"
     ]
@@ -1450,7 +1450,7 @@
     "answer": "der",
     "full_de": "Der Hund schläft.",
     "en": null,
-    "vocab_id": "hund",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1464,7 +1464,7 @@
     "answer": "die",
     "full_de": "Die Katze läuft schnell.",
     "en": null,
-    "vocab_id": "katze",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1492,7 +1492,7 @@
     "answer": "der",
     "full_de": "Der Tisch ist schwer.",
     "en": null,
-    "vocab_id": "tisch",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1506,7 +1506,7 @@
     "answer": "die",
     "full_de": "Die Lampe ist hell.",
     "en": null,
-    "vocab_id": "lampe",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1520,7 +1520,7 @@
     "answer": "der",
     "full_de": "Der Stuhl steht am Fenster.",
     "en": null,
-    "vocab_id": "stuhl",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1576,7 +1576,7 @@
     "answer": "das",
     "full_de": "Das Haus ist alt.",
     "en": null,
-    "vocab_id": "haus",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1590,7 +1590,7 @@
     "answer": "das",
     "full_de": "Das Fenster ist offen.",
     "en": null,
-    "vocab_id": "fenster",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1604,7 +1604,7 @@
     "answer": "die",
     "full_de": "Die Tür ist zu.",
     "en": null,
-    "vocab_id": "tuer",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1618,7 +1618,7 @@
     "answer": "der",
     "full_de": "Der Apfel liegt auf dem Tisch.",
     "en": null,
-    "vocab_id": "apfel",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1632,7 +1632,7 @@
     "answer": "die",
     "full_de": "Die Banane ist gelb.",
     "en": null,
-    "vocab_id": "banane",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1646,7 +1646,7 @@
     "answer": "das",
     "full_de": "Das Brot ist frisch.",
     "en": null,
-    "vocab_id": "brot",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1660,7 +1660,7 @@
     "answer": "die",
     "full_de": "Die Milch ist kalt.",
     "en": null,
-    "vocab_id": "milch",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1674,7 +1674,7 @@
     "answer": "das",
     "full_de": "Das Wasser ist klar.",
     "en": null,
-    "vocab_id": "wasser",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1688,7 +1688,7 @@
     "answer": "der",
     "full_de": "Der Lehrer spricht laut.",
     "en": null,
-    "vocab_id": "lehrer",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1702,7 +1702,7 @@
     "answer": "die",
     "full_de": "Die Schülerin schreibt.",
     "en": null,
-    "vocab_id": "schuelerin",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1716,7 +1716,7 @@
     "answer": "der",
     "full_de": "Der Arzt arbeitet im Krankenhaus.",
     "en": null,
-    "vocab_id": "arzt",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1730,7 +1730,7 @@
     "answer": "die",
     "full_de": "Die Uhr hängt an der Wand.",
     "en": null,
-    "vocab_id": "uhr",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1786,7 +1786,7 @@
     "answer": "die",
     "full_de": "Die Sterne funkeln.",
     "en": null,
-    "vocab_id": "stern",
+    "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
@@ -1801,7 +1801,7 @@
     "answer": "die",
     "full_de": "Die Blume ist schön.",
     "en": null,
-    "vocab_id": "blume",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1815,7 +1815,7 @@
     "answer": "der",
     "full_de": "Der Baum ist groß.",
     "en": null,
-    "vocab_id": "baum",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1829,7 +1829,7 @@
     "answer": "die",
     "full_de": "Die Schüler lachen.",
     "en": null,
-    "vocab_id": "schueler",
+    "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
@@ -1859,7 +1859,7 @@
     "answer": "die",
     "full_de": "Die Eltern warten vor der Schule.",
     "en": null,
-    "vocab_id": "eltern",
+    "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
@@ -1888,7 +1888,7 @@
     "answer": "die",
     "full_de": "Die Katze trinkt Milch.",
     "en": null,
-    "vocab_id": "katze",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1902,7 +1902,7 @@
     "answer": "der",
     "full_de": "Der Vogel singt.",
     "en": null,
-    "vocab_id": "vogel",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -1944,7 +1944,7 @@
     "answer": "die",
     "full_de": "Die Spiele sind interessant.",
     "en": null,
-    "vocab_id": "spiel",
+    "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
@@ -1959,7 +1959,7 @@
     "answer": "die",
     "full_de": "Die Lehrerinnen arbeiten heute.",
     "en": null,
-    "vocab_id": "lehrerin",
+    "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
@@ -1989,7 +1989,7 @@
     "answer": "die",
     "full_de": "Die Bäume stehen im Wald.",
     "en": null,
-    "vocab_id": "baum",
+    "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
@@ -2019,7 +2019,7 @@
     "answer": "die",
     "full_de": "Die Klasse ist laut.",
     "en": null,
-    "vocab_id": "klasse",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2033,7 +2033,7 @@
     "answer": "die",
     "full_de": "Die Tische sind sauber.",
     "en": null,
-    "vocab_id": "tisch",
+    "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
@@ -2048,7 +2048,7 @@
     "answer": "die",
     "full_de": "Die Türen sind geschlossen.",
     "en": null,
-    "vocab_id": "tuer",
+    "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
@@ -2063,7 +2063,7 @@
     "answer": "die",
     "full_de": "Die Schüler lesen Bücher.",
     "en": null,
-    "vocab_id": "schueler",
+    "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
@@ -2106,7 +2106,7 @@
     "answer": "die",
     "full_de": "Die Tiere schlafen im Zoo.",
     "en": null,
-    "vocab_id": "tier",
+    "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
@@ -2121,7 +2121,7 @@
     "answer": "eine",
     "full_de": "Das ist eine Schwester.",
     "en": null,
-    "vocab_id": "schwester",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2163,7 +2163,7 @@
     "answer": "ein",
     "full_de": "Das ist ein Haus.",
     "en": null,
-    "vocab_id": "haus",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2191,7 +2191,7 @@
     "answer": "ein",
     "full_de": "Er ist ein Lehrer.",
     "en": null,
-    "vocab_id": "lehrer",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2205,7 +2205,7 @@
     "answer": "eine",
     "full_de": "Ich suche eine Katze.",
     "en": null,
-    "vocab_id": "katze",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2219,7 +2219,7 @@
     "answer": "ein",
     "full_de": "Das ist ein Stuhl.",
     "en": null,
-    "vocab_id": "stuhl",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2247,7 +2247,7 @@
     "answer": "eine",
     "full_de": "Das ist eine Lampe.",
     "en": null,
-    "vocab_id": "lampe",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2261,7 +2261,7 @@
     "answer": "ein",
     "full_de": "Hier ist ein Tisch.",
     "en": null,
-    "vocab_id": "tisch",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2289,7 +2289,7 @@
     "answer": "einen",
     "full_de": "Er trinkt einen Saft.",
     "en": null,
-    "vocab_id": "saft",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2303,7 +2303,7 @@
     "answer": "eine",
     "full_de": "Das ist eine Freundin.",
     "en": null,
-    "vocab_id": "freundin",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2317,7 +2317,7 @@
     "answer": "einen",
     "full_de": "Ich brauche einen Stift.",
     "en": null,
-    "vocab_id": "stift",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2331,7 +2331,7 @@
     "answer": "eine",
     "full_de": "Sie kauft eine Blume.",
     "en": null,
-    "vocab_id": "blume",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2345,7 +2345,7 @@
     "answer": "einen",
     "full_de": "Ich sehe einen Vogel.",
     "en": null,
-    "vocab_id": "vogel",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2373,7 +2373,7 @@
     "answer": "einen",
     "full_de": "Ich kenne einen Arzt.",
     "en": null,
-    "vocab_id": "arzt",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2415,7 +2415,7 @@
     "answer": "eine",
     "full_de": "Sie hat eine Idee.",
     "en": null,
-    "vocab_id": "idee",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2429,7 +2429,7 @@
     "answer": "einen",
     "full_de": "Ich finde einen Schlüssel.",
     "en": null,
-    "vocab_id": "schluessel",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2443,7 +2443,7 @@
     "answer": "ein",
     "full_de": "Das ist ein Apfel.",
     "en": null,
-    "vocab_id": "apfel",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2457,7 +2457,7 @@
     "answer": "einen",
     "full_de": "Ich sehe einen Hund.",
     "en": null,
-    "vocab_id": "hund",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2471,7 +2471,7 @@
     "answer": "einen",
     "full_de": "Er hat einen Bruder.",
     "en": null,
-    "vocab_id": "bruder",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2485,7 +2485,7 @@
     "answer": "ein",
     "full_de": "Das ist ein Fenster.",
     "en": null,
-    "vocab_id": "fenster",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2499,7 +2499,7 @@
     "answer": "einer",
     "full_de": "Ich lebe in einer Stadt.",
     "en": null,
-    "vocab_id": "stadt",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2513,7 +2513,7 @@
     "answer": "eine",
     "full_de": "Sie hat eine Frage.",
     "en": null,
-    "vocab_id": "frage",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2527,7 +2527,7 @@
     "answer": "ein",
     "full_de": "Das ist ein Problem.",
     "en": null,
-    "vocab_id": "problem",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2541,7 +2541,7 @@
     "answer": "ein",
     "full_de": "Ich habe ein Spiel.",
     "en": null,
-    "vocab_id": "spiel",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2555,7 +2555,7 @@
     "answer": "ein",
     "full_de": "Das ist ein Lehrerzimmer.",
     "en": null,
-    "vocab_id": "lehrerzimmer",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2569,7 +2569,7 @@
     "answer": "ein",
     "full_de": "Ich esse ein Brot.",
     "en": null,
-    "vocab_id": "brot",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2583,7 +2583,7 @@
     "answer": "ein",
     "full_de": "Das ist ein Buchladen.",
     "en": null,
-    "vocab_id": "buchladen",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2597,7 +2597,7 @@
     "answer": "einen",
     "full_de": "Sie hat einen Rucksack.",
     "en": null,
-    "vocab_id": "rucksack",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2611,7 +2611,7 @@
     "answer": "einen",
     "full_de": "Ich schenke dir einen Ball.",
     "en": null,
-    "vocab_id": "ball",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2639,7 +2639,7 @@
     "answer": "einen",
     "full_de": "Ich sehe einen Stern.",
     "en": null,
-    "vocab_id": "stern",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2667,7 +2667,7 @@
     "answer": "ein",
     "full_de": "Ich höre ein Lied.",
     "en": null,
-    "vocab_id": "lied",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2681,7 +2681,7 @@
     "answer": "eine",
     "full_de": "Das ist eine Uhr.",
     "en": null,
-    "vocab_id": "uhr",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2709,7 +2709,7 @@
     "answer": "eine",
     "full_de": "Sie braucht eine Pizza.",
     "en": null,
-    "vocab_id": "pizza",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2723,7 +2723,7 @@
     "answer": "ein",
     "full_de": "Das ist ein Balkon.",
     "en": null,
-    "vocab_id": "balkon",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2737,7 +2737,7 @@
     "answer": "einen",
     "full_de": "Ich finde einen Job.",
     "en": null,
-    "vocab_id": "job",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2751,7 +2751,7 @@
     "answer": "ein",
     "full_de": "Das ist ein Meer.",
     "en": null,
-    "vocab_id": "meer",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2765,7 +2765,7 @@
     "answer": "einen",
     "full_de": "Ich habe einen Plan.",
     "en": null,
-    "vocab_id": "plan",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]
@@ -2807,7 +2807,7 @@
     "answer": "ein",
     "full_de": "Das ist ein Geschenk.",
     "en": null,
-    "vocab_id": "geschenk",
+    "vocab_id": null,
     "tags": [
       "artikel"
     ]

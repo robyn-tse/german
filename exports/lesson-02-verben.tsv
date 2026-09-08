@@ -1,165 +1,75 @@
 #separator:tab
 #html:false
 #columns:Front	Back	Tags
-erkennen	to recognize	lesson2::verben lesson2::untrennbar
-entscheiden	to decide	lesson2::verben lesson2::untrennbar
-abfahren	to depart / to leave	lesson2::verben lesson2::trennbar
-anfangen	to begin / to start	lesson2::verben lesson2::trennbar
-aufräumen	to tidy up / to clean up	lesson2::verben lesson2::trennbar
-ausgehen	to go out	lesson2::verben lesson2::trennbar
-beistehen	to stand by / to support	lesson2::verben lesson2::trennbar
-einkaufen	to shop / to buy	lesson2::verben lesson2::trennbar
-mitkommen	to come along	lesson2::verben lesson2::trennbar
-nachfragen	to inquire / to ask	lesson2::verben lesson2::trennbar
-vorstellen	to introduce / to present	lesson2::verben lesson2::trennbar
-weggehen	to go away / to leave	lesson2::verben lesson2::trennbar
-besuchen	to visit	lesson2::verben lesson2::untrennbar
-empfehlen	to recommend	lesson2::verben lesson2::untrennbar
-gehören	to belong	lesson2::verben lesson2::untrennbar
-missverstehen	to misunderstand	lesson2::verben lesson2::untrennbar
-verstehen	to understand	lesson2::verben lesson2::untrennbar
-zerstören	to destroy	lesson2::verben lesson2::untrennbar
-kaufen	to buy	lesson2::verben
-kochen	to cook	lesson2::verben
-haben	to have	lesson2::verben lesson2::merken
-sein	to be	lesson2::verben lesson2::merken
-aufstehen	to get up	lesson2::verben lesson2::trennbar
-anrufen	to call	lesson2::verben lesson2::trennbar
-ankommen	to arrive	lesson2::verben lesson2::trennbar
-anmachen	to turn on	lesson2::verben lesson2::trennbar
-ausmachen	to turn off	lesson2::verben lesson2::trennbar
-fernsehen	to watch TV	lesson2::verben lesson2::trennbar
-abholen	to pick up	lesson2::verben lesson2::trennbar
-aufmachen	to open	lesson2::verben lesson2::trennbar
-zumachen	to close	lesson2::verben lesson2::trennbar
-einladen	to invite	lesson2::verben lesson2::trennbar
-anziehen	to put on / to get dressed	lesson2::verben lesson2::trennbar
-ausziehen	to take off / to undress	lesson2::verben lesson2::trennbar
-anhalten	to stop	lesson2::verben lesson2::trennbar
-mitbringen	to bring along	lesson2::verben lesson2::trennbar
-vorbereiten	to prepare	lesson2::verben lesson2::trennbar
-kennenlernen	to get to know / to meet	lesson2::verben lesson2::trennbar
-aufhören	to stop / to end	lesson2::verben lesson2::trennbar
-mitnehmen	to take along	lesson2::verben lesson2::trennbar
-einschalten	to switch on	lesson2::verben lesson2::trennbar
-ausschalten	to switch off	lesson2::verben lesson2::trennbar
-einpacken	to pack	lesson2::verben lesson2::trennbar
-auspacken	to unpack	lesson2::verben lesson2::trennbar
-ausfüllen	to fill out	lesson2::verben lesson2::trennbar
-ausstellen	to issue	lesson2::verben lesson2::trennbar
-saubermachen	to clean	lesson2::verben lesson2::trennbar
-ankreuzen	to tick	lesson2::verben lesson2::trennbar
-erklären	to explain	lesson2::verben lesson2::untrennbar
-gefallen	to please / to be liked	lesson2::verben lesson2::untrennbar
-verkaufen	to sell	lesson2::verben lesson2::untrennbar
-bekommen	to get / to receive	lesson2::verben lesson2::untrennbar
-vergessen	to forget	lesson2::verben lesson2::untrennbar
-beginnen	to begin	lesson2::verben lesson2::untrennbar
-bestellen	to order	lesson2::verben lesson2::untrennbar
-verdienen	to earn	lesson2::verben lesson2::untrennbar
-bezahlen	to pay	lesson2::verben lesson2::untrennbar
-bestätigen	to confirm	lesson2::verben lesson2::untrennbar
-besprechen	to discuss	lesson2::verben lesson2::untrennbar
-abreisen	to leave / to depart	lesson2::verben lesson2::trennbar
-ablesen	to read from	lesson2::verben lesson2::trennbar
-abnehmen	to lose weight	lesson2::verben lesson2::trennbar
-anschauen	to look at	lesson2::verben lesson2::trennbar
-angreifen	to touch	lesson2::verben lesson2::trennbar
-anbieten	to offer	lesson2::verben lesson2::trennbar
-aufladen	to charge	lesson2::verben lesson2::trennbar
-aufbauen	to build / to set up	lesson2::verben lesson2::trennbar
-ausdenken	to think up	lesson2::verben lesson2::trennbar
-ausdrucken	to print	lesson2::verben lesson2::trennbar
-beibringen	to teach	lesson2::verben lesson2::trennbar
-beitragen	to contribute	lesson2::verben lesson2::trennbar
-einsteigen	to get in / to get on	lesson2::verben lesson2::trennbar
-einbrechen	to break in	lesson2::verben lesson2::trennbar
-herkommen	to come here	lesson2::verben lesson2::trennbar
-herstellen	to produce	lesson2::verben lesson2::trennbar
-hinfahren	to drive there / to go there	lesson2::verben lesson2::trennbar
-hinfallen	to fall down	lesson2::verben lesson2::trennbar
-hinstellen	to put down	lesson2::verben lesson2::trennbar
-hingehen	to go there	lesson2::verben lesson2::trennbar
-hinbewegen	to move toward	lesson2::verben lesson2::trennbar
-hineinfahren	to drive in	lesson2::verben lesson2::trennbar
-hineinlegen	to put in	lesson2::verben lesson2::trennbar
-hineinsehen	to look in	lesson2::verben lesson2::trennbar
-hineingehen	to go in	lesson2::verben lesson2::trennbar
-losfahren	to set off / to drive off	lesson2::verben lesson2::trennbar
-losgehen	to set off / to start	lesson2::verben lesson2::trennbar
-loslachen	to burst out laughing	lesson2::verben lesson2::trennbar
-losstürmen	to storm off	lesson2::verben lesson2::trennbar
-mitfahren	to ride along	lesson2::verben lesson2::trennbar
-mitmachen	to join in	lesson2::verben lesson2::trennbar
-vorfahren	to drive up	lesson2::verben lesson2::trennbar
-vorbestellen	to pre-order	lesson2::verben lesson2::trennbar
-wegbringen	to take away	lesson2::verben lesson2::trennbar
-wegfahren	to drive away	lesson2::verben lesson2::trennbar
-weggeben	to give away	lesson2::verben lesson2::trennbar
-wegwerfen	to throw away	lesson2::verben lesson2::trennbar
-wegschmeißen	to chuck away	lesson2::verben lesson2::trennbar
-zudecken	to cover up	lesson2::verben lesson2::trennbar
-zudrehen	to turn off	lesson2::verben lesson2::trennbar
-zusenden	to send to	lesson2::verben lesson2::trennbar
-zuwerfen	to throw to	lesson2::verben lesson2::trennbar
-zurückkehren	to return	lesson2::verben lesson2::trennbar
-zurückgeben	to give back	lesson2::verben lesson2::trennbar
-zurückfahren	to drive back	lesson2::verben lesson2::trennbar
-beachten	to pay attention to / to observe	lesson2::verben lesson2::untrennbar
-beantworten	to answer	lesson2::verben lesson2::untrennbar
-entfernen	to remove	lesson2::verben lesson2::untrennbar
-entkommen	to escape	lesson2::verben lesson2::untrennbar
-entgleisen	to derail	lesson2::verben lesson2::untrennbar
-erhellen	to light up	lesson2::verben lesson2::untrennbar
-erstarren	to freeze / to stiffen	lesson2::verben lesson2::untrennbar
-erkranken	to fall ill	lesson2::verben lesson2::untrennbar
-erschießen	to shoot dead	lesson2::verben lesson2::untrennbar
-misslingen	to fail	lesson2::verben lesson2::untrennbar
-missraten	to turn out badly	lesson2::verben lesson2::untrennbar
-verlassen	to leave	lesson2::verben lesson2::untrennbar
-verpassen	to miss	lesson2::verben lesson2::untrennbar
-zerbrechen	to break	lesson2::verben lesson2::untrennbar
-zerschlagen	to smash	lesson2::verben lesson2::untrennbar
-zerreißen	to tear	lesson2::verben lesson2::untrennbar
+erwerben	to acquire	lesson2::verben lesson2::essentials lesson2::untrennbar
+investieren	to invest	lesson2::verben lesson2::essentials
+analysieren	to analyze	lesson2::verben lesson2::essentials
+bewerten	to evaluate	lesson2::verben lesson2::essentials lesson2::untrennbar
+übernehmen	to acquire / to take over	lesson2::verben lesson2::essentials lesson2::untrennbar
+wachsen	to grow	lesson2::verben lesson2::essentials
+steigen	to increase / to rise	lesson2::verben lesson2::essentials
+entwickeln	to develop	lesson2::verben lesson2::essentials lesson2::untrennbar
+finanzieren	to finance	lesson2::verben lesson2::essentials
+verhandeln	to negotiate	lesson2::verben lesson2::essentials lesson2::untrennbar
+integrieren	to integrate	lesson2::verben lesson2::essentials
+bewältigen	to manage / to overcome	lesson2::verben lesson2::essentials lesson2::untrennbar
+optimieren	to optimize	lesson2::verben lesson2::essentials
+stärken	to strengthen	lesson2::verben lesson2::essentials
+reduzieren	to reduce	lesson2::verben lesson2::essentials
+erzielen	to achieve / to generate	lesson2::verben lesson2::essentials lesson2::untrennbar
+nutzen	to use / to leverage	lesson2::verben lesson2::essentials
+erkennen	to identify / to recognize	lesson2::verben lesson2::essentials lesson2::untrennbar
+entscheiden	to decide	lesson2::verben lesson2::essentials lesson2::untrennbar
+umsetzen	to implement	lesson2::verben lesson2::essentials lesson2::trennbar
+kaufen	to buy	lesson2::verben lesson2::essentials
+haben	to have	lesson2::verben lesson2::essentials lesson2::merken
+sein	to be	lesson2::verben lesson2::essentials lesson2::merken
 fliegen	to fly	lesson2::verben
 fahren	to drive / to ride	lesson2::verben
 segeln	to sail	lesson2::verben
 vorbeigehen	to go past	lesson2::verben lesson2::trennbar
-geben	to give	lesson2::verben lesson2::untrennbar
-leben	to live	lesson2::verben
-machen	to make	lesson2::verben
-laufen	to walk / to run	lesson2::verben
-gehen	to go	lesson2::verben lesson2::untrennbar
-benutzen	to use	lesson2::verben lesson2::untrennbar
-essen	to eat	lesson2::verben
-denken	to think	lesson2::verben
-kommen	to come	lesson2::verben
-tun	to do	lesson2::verben
-sagen	to say	lesson2::verben
-wissen	to know	lesson2::verben
-sehen	to see	lesson2::verben
-wollen	to want	lesson2::verben
-finden	to find	lesson2::verben
-erzählen	to tell	lesson2::verben lesson2::untrennbar
-fragen	to ask	lesson2::verben
-versuchen	to try	lesson2::verben lesson2::untrennbar
-arbeiten	to work	lesson2::verben
-fühlen	to feel	lesson2::verben
-bleiben	to stay	lesson2::verben
-lesen	to read	lesson2::verben
-schreiben	to write	lesson2::verben
-spielen	to play	lesson2::verben
-zahlen	to pay	lesson2::verben
-schlafen	to sleep	lesson2::verben
-sitzen	to sit	lesson2::verben
-stehen	to stand	lesson2::verben
-helfen	to help	lesson2::verben
-lernen	to learn	lesson2::verben
-unterrichten	to teach	lesson2::verben lesson2::untrennbar
-tragen	to carry	lesson2::verben
-brauchen	to need	lesson2::verben
-hoffen	to hope	lesson2::verben
-bringen	to bring	lesson2::verben
-passen	to fit	lesson2::verben
-lassen	to let	lesson2::verben
-trinken	to drink	lesson2::verben
+bekommen	to get	lesson2::verben lesson2::essentials lesson2::untrennbar
+geben	to give	lesson2::verben lesson2::essentials lesson2::untrennbar
+leben	to live	lesson2::verben lesson2::essentials
+machen	to make	lesson2::verben lesson2::essentials
+laufen	to walk / to run	lesson2::verben lesson2::essentials
+gehen	to go	lesson2::verben lesson2::essentials lesson2::untrennbar
+benutzen	to use	lesson2::verben lesson2::essentials lesson2::untrennbar
+essen	to eat	lesson2::verben lesson2::essentials
+denken	to think	lesson2::verben lesson2::essentials
+kommen	to come	lesson2::verben lesson2::essentials
+tun	to do	lesson2::verben lesson2::essentials
+sagen	to say	lesson2::verben lesson2::essentials
+wissen	to know	lesson2::verben lesson2::essentials
+sehen	to see	lesson2::verben lesson2::essentials
+wollen	to want	lesson2::verben lesson2::essentials
+finden	to find	lesson2::verben lesson2::essentials
+erzählen	to tell	lesson2::verben lesson2::essentials lesson2::untrennbar
+fragen	to ask	lesson2::verben lesson2::essentials
+versuchen	to try	lesson2::verben lesson2::essentials lesson2::untrennbar
+anrufen	to call	lesson2::verben lesson2::essentials lesson2::trennbar
+arbeiten	to work	lesson2::verben lesson2::essentials
+fühlen	to feel	lesson2::verben lesson2::essentials
+bleiben	to stay	lesson2::verben lesson2::essentials
+beginnen	to begin	lesson2::verben lesson2::essentials lesson2::untrennbar
+lesen	to read	lesson2::verben lesson2::essentials
+schreiben	to write	lesson2::verben lesson2::essentials
+spielen	to play	lesson2::verben lesson2::essentials
+zahlen	to pay	lesson2::verben lesson2::essentials
+schlafen	to sleep	lesson2::verben lesson2::essentials
+sitzen	to sit	lesson2::verben lesson2::essentials
+stehen	to stand	lesson2::verben lesson2::essentials
+helfen	to help	lesson2::verben lesson2::essentials
+verstehen	to understand	lesson2::verben lesson2::essentials lesson2::untrennbar
+lernen	to learn	lesson2::verben lesson2::essentials
+unterrichten	to teach	lesson2::verben lesson2::essentials lesson2::untrennbar
+tragen	to carry	lesson2::verben lesson2::essentials
+brauchen	to need	lesson2::verben lesson2::essentials
+erklären	to explain	lesson2::verben lesson2::essentials lesson2::untrennbar
+vergessen	to forget	lesson2::verben lesson2::essentials lesson2::untrennbar
+hoffen	to hope	lesson2::verben lesson2::essentials
+bringen	to bring	lesson2::verben lesson2::essentials
+passen	to fit	lesson2::verben lesson2::essentials
+verlassen	to leave	lesson2::verben lesson2::essentials lesson2::untrennbar
+lassen	to let	lesson2::verben lesson2::essentials
+trinken	to drink	lesson2::verben lesson2::essentials

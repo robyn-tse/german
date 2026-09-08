@@ -1,18 +1,18 @@
 #separator:tab
 #html:false
 #columns:Front	Back	Tags
-eins	one	lesson2::zahlen
-zwei	two	lesson2::zahlen
-drei	three	lesson2::zahlen
-vier	four	lesson2::zahlen
-fünf	five	lesson2::zahlen
-sechs	six	lesson2::zahlen
-sieben	seven	lesson2::zahlen
-acht	eight	lesson2::zahlen
-neun	nine	lesson2::zahlen
-zehn	ten	lesson2::zahlen
-elf	eleven	lesson2::zahlen
-zwölf	twelve	lesson2::zahlen
+eins	one	lesson2::zahlen lesson2::essentials
+zwei	two	lesson2::zahlen lesson2::essentials
+drei	three	lesson2::zahlen lesson2::essentials
+vier	four	lesson2::zahlen lesson2::essentials
+fünf	five	lesson2::zahlen lesson2::essentials
+sechs	six	lesson2::zahlen lesson2::essentials
+sieben	seven	lesson2::zahlen lesson2::essentials
+acht	eight	lesson2::zahlen lesson2::essentials
+neun	nine	lesson2::zahlen lesson2::essentials
+zehn	ten	lesson2::zahlen lesson2::essentials
+elf	eleven	lesson2::zahlen lesson2::essentials
+zwölf	twelve	lesson2::zahlen lesson2::essentials
 dreizehn	thirteen	lesson2::zahlen
 vierzehn	fourteen	lesson2::zahlen
 fünfzehn	fifteen	lesson2::zahlen
@@ -20,17 +20,17 @@ sechszehn	sixteen	lesson2::zahlen
 siebzehn	seventeen	lesson2::zahlen
 achtzehn	eighteen	lesson2::zahlen
 neunzehn	nineteen	lesson2::zahlen
-zwanzig	twenty	lesson2::zahlen
-dreißig	thirty	lesson2::zahlen
-vierzig	forty	lesson2::zahlen
-fünfzig	fifty	lesson2::zahlen
-sechzig	sixty	lesson2::zahlen
-siebzig	seventy	lesson2::zahlen
-achtzig	eighty	lesson2::zahlen
-neunzig	ninety	lesson2::zahlen
-hundert	one hundred	lesson2::zahlen
+zwanzig	twenty	lesson2::zahlen lesson2::essentials
+dreißig	thirty	lesson2::zahlen lesson2::essentials
+vierzig	forty	lesson2::zahlen lesson2::essentials
+fünfzig	fifty	lesson2::zahlen lesson2::essentials
+sechzig	sixty	lesson2::zahlen lesson2::essentials
+siebzig	seventy	lesson2::zahlen lesson2::essentials
+achtzig	eighty	lesson2::zahlen lesson2::essentials
+neunzig	ninety	lesson2::zahlen lesson2::essentials
+hundert	one hundred	lesson2::zahlen lesson2::essentials
 zweihundert	two hundred	lesson2::zahlen
-tausend	one thousand	lesson2::zahlen
+tausend	one thousand	lesson2::zahlen lesson2::essentials
 zweitausend	two thousand	lesson2::zahlen
 erste	first	lesson2::zahlen
 zweite	second	lesson2::zahlen

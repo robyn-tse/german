@@ -1,40 +1,40 @@
 #separator:tab
 #html:false
 #columns:Front	Back	Tags
-gut	well / good	lesson2::adjektive
-schlecht	bad	lesson2::adjektive
+gut	well / good	lesson2::adjektive lesson2::essentials
+schlecht	bad	lesson2::adjektive lesson2::essentials
 weit	far	lesson2::adjektive
 früh	early	lesson2::adjektive
 spät	late	lesson2::adjektive
-teuer	expensive	lesson2::adjektive
-billig	cheap	lesson2::adjektive
+teuer	expensive	lesson2::adjektive lesson2::essentials
+billig	cheap	lesson2::adjektive lesson2::essentials
 kostenlos	free	lesson2::adjektive
 gratis	complimentary	lesson2::adjektive
 sicher	sure / safe	lesson2::adjektive
-schön	beautiful	lesson2::adjektive
+schön	beautiful	lesson2::adjektive lesson2::essentials
 hässlich	ugly	lesson2::adjektive
-klein	small	lesson2::adjektive
-groß	big	lesson2::adjektive
-neu	new	lesson2::adjektive
-lang	long	lesson2::adjektive
+klein	small	lesson2::adjektive lesson2::essentials
+groß	big	lesson2::adjektive lesson2::essentials
+neu	new	lesson2::adjektive lesson2::essentials
+lang	long	lesson2::adjektive lesson2::essentials
 großartig	Great	lesson2::adjektive
-alt	old	lesson2::adjektive
-jung	young	lesson2::adjektive
+alt	old	lesson2::adjektive lesson2::essentials
+jung	young	lesson2::adjektive lesson2::essentials
 anders	different	lesson2::adjektive
-wichtig	important	lesson2::adjektive
+wichtig	important	lesson2::adjektive lesson2::essentials
 lustig	funny	lesson2::adjektive
 ernst	serious	lesson2::adjektive
 stark	strong	lesson2::adjektive
-einfach	easy	lesson2::adjektive
-schwer	difficult / heavy	lesson2::adjektive
+einfach	easy	lesson2::adjektive lesson2::essentials
+schwer	difficult / heavy	lesson2::adjektive lesson2::essentials
 arm	poor	lesson2::adjektive
 reich	rich	lesson2::adjektive
 glücklich	happy	lesson2::adjektive
 traurig	sad	lesson2::adjektive
-heiß	hot	lesson2::adjektive
-kalt	cold	lesson2::adjektive
-schnell	fast / quickly	lesson2::adjektive
-langsam	slow	lesson2::adjektive
+heiß	hot	lesson2::adjektive lesson2::essentials
+kalt	cold	lesson2::adjektive lesson2::essentials
+schnell	fast / quickly	lesson2::adjektive lesson2::essentials
+langsam	slow	lesson2::adjektive lesson2::essentials
 nah	near	lesson2::adjektive
 altmodisch	old-fashioned	lesson2::adjektive
 modern	modern	lesson2::adjektive
@@ -49,15 +49,15 @@ unfreundlich	unfriendly	lesson2::adjektive
 sauber	clean	lesson2::adjektive
 schmutzig	dirty	lesson2::adjektive
 gefährlich	dangerous	lesson2::adjektive
-kurz	short	lesson2::adjektive
+kurz	short	lesson2::adjektive lesson2::essentials
 leicht	light (in weight)	lesson2::adjektive
 niedrig	low	lesson2::adjektive
-schwarz	black	lesson2::adjektive
-weiß	white	lesson2::adjektive
-rot	red	lesson2::adjektive
-blau	blue	lesson2::adjektive
-grün	green	lesson2::adjektive
-gelb	yellow	lesson2::adjektive
+schwarz	black	lesson2::adjektive lesson2::essentials
+weiß	white	lesson2::adjektive lesson2::essentials
+rot	red	lesson2::adjektive lesson2::essentials
+blau	blue	lesson2::adjektive lesson2::essentials
+grün	green	lesson2::adjektive lesson2::essentials
+gelb	yellow	lesson2::adjektive lesson2::essentials
 orange	orange	lesson2::adjektive
 braun	brown	lesson2::adjektive
 grau	gray	lesson2::adjektive

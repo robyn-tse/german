@@ -19,6 +19,25 @@
 
 const hasPrefix = (e) => e.tags.includes('trennbar') || e.tags.includes('untrennbar');
 const stripArticle = (german) => german.replace(/^(der|die|das) /, '');
+
+// Every mode function receives (entry, ctx) where ctx = { vocab, exercises, rules }.
+// Longest matching suffix wins (-keit before -t, -ion before -n).
+// strict: skip rules marked weak and require a real stem in front of the ending,
+// so "Ort" is not treated as an -t word or "Zoo" as an -o word.
+export function ruleFor(word, rules, strict = false) {
+  const w = word.toLowerCase();
+  let best = null;
+  for (const r of rules) {
+    if (strict && r.weak) continue;
+    const s = r.suffix.toLowerCase();
+    const isPrefix = s.endsWith('-');
+    const hit = isPrefix ? w.startsWith(s.slice(0, -1)) : w.endsWith(s.slice(1));
+    if (!hit) continue;
+    if (strict && !isPrefix && w.length < s.length - 1 + 3) continue;
+    if (!best || s.length > best.suffix.length) best = r;
+  }
+  return best;
+}
 const ARTICLE_NOTE = {
   der: 'masculine', die: 'feminine', das: 'neuter',
   ein: 'ein: masculine or neuter (nominative), neuter (accusative)',
@@ -65,14 +84,33 @@ export const modes = [
     reveal: (e) => (e.pos === 'noun' ? `Article: ${e.german}` : null),
   },
   {
+    id: 'gender-rule',
+    label: 'Gender rule',
+    description: 'A noun ends in … — which article? The rules from the article handout.',
+    source: 'rules',
+    filter: () => true,
+    prompt: (r) => r.suffix,
+    answer: (r) => r.gender,
+    input: { type: 'choice', options: ['der', 'die', 'das'] },
+    reveal: (r) => `${r.examples.join(', ')}${r.notes ? ' · ' + r.notes : ''}`,
+  },
+  {
     id: 'gender',
     label: 'Gender',
-    description: 'Pick der, die or das for a noun.',
-    filter: (e) => e.pos === 'noun' && !!e.gender,
+    description: 'Apply the rules: pick der, die or das for a noun whose ending has a rule.',
+    // Only nouns a suffix rule applies to, so this drills the rules rather than
+    // brute memorisation. Exceptions to a rule are still asked (and explained).
+    filter: (e, ctx) => e.pos === 'noun' && !!e.gender && !!ruleFor(stripArticle(e.german), ctx.rules, true),
     prompt: (e) => stripArticle(e.german),
     answer: (e) => e.gender,
     input: { type: 'choice', options: ['der', 'die', 'das'] },
-    reveal: (e) => (e.notes && /suffix/i.test(e.notes) ? e.notes : null),
+    reveal: (e, ctx) => {
+      const r = ruleFor(stripArticle(e.german), ctx.rules, true);
+      if (!r) return null;
+      return r.gender === e.gender
+        ? `Rule: ${r.suffix} → ${r.gender}`
+        : `Exception! ${r.suffix} is usually ${r.gender}, but it's ${e.german}`;
+    },
   },
   {
     id: 'prefix',

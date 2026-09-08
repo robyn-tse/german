@@ -3,7 +3,9 @@ number: 2
 date: 2026-09-08
 title: Present tense, prefixes, and articles
 topics: [verb-conjugation, prefixes, articles, perfekt]
-homework: []
+homework:
+  - text: "Praefix_A1 worksheet: fill in the 100 separable-verb sentences"
+    done: false
 sources:
   - Praefixe.pdf
   - Praefix_A1.rtf
@@ -86,54 +88,31 @@ Never split, never stressed. *Ich **be**suche dich.* (not *Ich suche be…*)
 - No indefinite article in the plural: *Da sind Kinder. **Die** Kinder spielen.*
 - A masculine **object** takes **einen**: *Er trinkt **einen** Saft.*
 
-## Gender by suffix
+## Gender by ending
 
-**die**
+The ending tells you the article most of the time. Plural is always **die**.
 
-| Suffix | Examples |
-|---|---|
-| **-e** | die Lampe, die Sprache, die Tasche |
-| **-ion** | die Nation, die Region, die Diskussion |
-| **-age** | die Garage, die Passage |
-| **-schaft** | die Wirtschaft, die Gesellschaft, die Freundschaft |
-| **-heit** | die Freiheit, die Gesundheit, die Gelegenheit |
-| **-keit** | die Möglichkeit, die Schwierigkeit, die Schnelligkeit |
-| **-ung** | die Zeitung, die Wohnung, die Umleitung |
-| -t | die Fahrt, die Tat, die Nacht |
-| -ei | die Wäscherei, die Bäckerei |
-| -ie | die Psychologie, die Arterie |
-| -in | die Prinzessin, die Ärztin |
-| -ur | die Agentur, die Manufaktur |
-| -ik | die Physik, die Metrik |
-| -anz | die Akzeptanz, die Ignoranz |
-| -tät | die Qualität, die Fakultät |
-| -ade | die Parade, die Marmelade |
-| -enz | die Präsenz, die Tendenz |
+| der (masculine) | die (feminine) | das (neuter) |
+|---|---|---|
+| **-er** der Rentner | **-e** die Tasche | **-chen** das Mädchen |
+| **-ling** der Schützling | **-t** die Fahrt | **-lein** das Kindlein |
+| **-or** der Reaktor | **-ei** die Wäscherei | **-um** das Publikum |
+| **-ist** der Journalist | **-ie** die Psychologie | **-nis** das Zeugnis |
+| **-ismus** der Kapitalismus | **-in** die Prinzessin | **-tum** das Altertum |
+| **-ant** der Praktikant | **-schaft** die Freundschaft | **-ment** das Instrument |
+| **-ent** der Student | **-heit** die Gelegenheit | **-o** das Radio |
+| **-ich** der Teppich | **-keit** die Schnelligkeit | **-ma** das Thema |
+| **-ast** der Ballast | **-ung** die Zeitung | **-em** das System |
+|  | **-ion** die Diskussion |  |
+|  | **-age** die Garage |  |
+|  | **-ur** die Agentur |  |
+|  | **-ik** die Physik |  |
+|  | **-anz** die Akzeptanz |  |
+|  | **-tät** die Qualität |  |
+|  | **-ade** die Parade |  |
+|  | **-enz** die Präsenz |  |
 
-**der**
-
-| Suffix | Examples |
-|---|---|
-| **-er** | der Drucker, der Computer, der Rentner |
-| -ling | der Schützling, der Schmetterling |
-| -or | der Reaktor, der Professor |
-| -ist | der Journalist, der Pazifist |
-| -ismus | der Kapitalismus, der Mechanismus |
-
-**das**
-
-| Suffix | Examples |
-|---|---|
-| **-o** | das Radio, das Kino, das Auto |
-| -chen | das Mädchen, das Heftchen |
-| -lein | das Kindlein, das Bächlein |
-| -um | das Publikum, das Zentrum |
-| -nis | das Zeugnis, das Ergebnis |
-| -tum | das Altertum, das Datum |
-| -ment | das Instrument, das Parlament |
-| Ge- | das Gehölz, das Gemüse, das Geräusch |
-
-Tendencies, not laws: der Name, der Junge, das Auge. Category rules (seasons, months and weekdays are der; numbers and flowers are die; colours and metals are das) are on the [Articles](../../grammar/articles/) page.
+**Ge-** at the start is usually **das**: das Gemüse, das Geräusch. Tendencies, not laws: der Name, der Junge, das Auge.
 
 ## Possessive pronouns (nominative)
 
@@ -155,3 +134,4 @@ Tendencies, not laws: der Name, der Junge, das Auge. Category rules (seasons, mo
 - [Artikel-Übungen](../../sources/lesson-02/300_Artikel_Uebungen_2.rtf) (worksheet, drills below)
 - [Wortliste: Alltag, Reise, Zahlen, Verben, Adjektive …](../../sources/lesson-02/4Wortliste.rtf) (in the vocab table under the tag `wortliste`)
 - [English Compass word list A1–B1](../../sources/lesson-02/1Wortliste_A1_A2_B1.pdf) (reference glossary)
+- Der/die/das endings chart (Das Akademie)

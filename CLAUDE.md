@@ -165,6 +165,14 @@ Additional conventions the script does not check but you must follow:
 - `notes` is the catch-all for anything with no field (stem-vowel changes, "über- is inseparable
   here", cross-references).
 
+### Gender rule template
+
+```json
+{ "id": "suffix-ung", "suffix": "-ung", "gender": "die", "examples": ["die Zeitung", "die Wohnung"], "lesson": 2, "tags": ["genus"], "notes": null }
+```
+
+Prefix rules use a trailing hyphen in `id`/`suffix` semantics (`"suffix": "Ge-"`). Longest match wins in the quiz (-ment beats -ent).
+
 ### Vocab entry template
 
 ```json
@@ -281,7 +289,23 @@ spaced repetition; Anki owns scheduling.
 - `noindex` is set sitewide in `src/layouts/Base.astro`.
 - Do not build: dashboards, global search, interactive homework, audio, or any AI feature in the site.
 
-## Deliberately excluded
+## What counts as vocab, and the essentials set
 
-- The 20 M&A verbs from `50_Verben.rtf` (lesson 2) were cut at Robyn's request on 2026-09-08. Do not
-  re-add them if the file is reprocessed; erkennen and entscheiden stay only as prefix examples.
+Robyn is starting from zero and wants a **small, concentrated set** first, not hundreds of words.
+So:
+
+- **Vocab sources are the tutor's vocabulary lists only**: `50_Verben.rtf` (tag `verben50`) and
+  the phrase list `4Wortliste` (tag `wortliste`). Words that merely appear in worksheets, handout
+  example tables or grammar explanations are **not** vocab entries; worksheets go to
+  `exercises.json`, handout rules to the grammar pages and `gender-rules.json`.
+- Every entry that belongs to the starter core carries the tag **`essentials`**. The vocab table,
+  the quiz and the lesson page show essentials by default with a one-tap "show all". When adding a
+  lesson, tag the handful of words the tutor actually drilled as essentials; leave list padding
+  untagged. Keep essentials well under ~250 in total; if it grows past that, ask before adding more.
+- The English Compass word list (`1Wortliste_A1_A2_B1.pdf`, 4,000 rows) is parsed by
+  `scripts/parse-compass.py` but **not loaded**. If Robyn later wants some of it, pull a chosen
+  subset, not all of A1.
+- Gender content is **rules only** (ending → article) from the article handout and the Das Akademie
+  chart, in `src/data/gender-rules.json`; there is no category memorisation (months, seasons …).
+  The *Gender* quiz mode only asks nouns a rule applies to; *Gender rule* asks the endings.
+- Genders for phrase-list nouns without articles were added by Claude and are listed in the report.

@@ -22,7 +22,7 @@ const CATEGORY = {
   noun: 'nomen', verb: 'verben', adjective: 'adjektive', phrase: 'phrasen', adverb: 'adverbien',
   preposition: 'praepositionen', conjunction: 'konjunktionen', pronoun: 'pronomen', number: 'zahlen', other: 'sonstiges',
 };
-const TAG_PASSTHROUGH = new Set(['trennbar', 'untrennbar', 'genus', 'merken']);
+const TAG_PASSTHROUGH = new Set(['essentials', 'trennbar', 'untrennbar', 'genus', 'merken']);
 
 const vocab = JSON.parse(readFileSync(path.join(root, 'src/data/vocab.json'), 'utf8'));
 const byCategory = new Map();

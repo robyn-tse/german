@@ -43,6 +43,7 @@ const sets = [...new Set(exercises.map((e) => e.set))].map((set) => ({
   mode: modes.find((m) => m.source === 'exercises' && exercises.some((e) => e.set === set && m.filter(e)))?.id,
 }));
 
+const essentialCount = vocab.filter((v) => v.tags.includes('essentials')).length;
 const groups = POS_ORDER
   .map((pos) => ({ pos, label: POS_LABEL[pos], items: vocab.filter((v) => v.pos === pos) }))
   .filter((g) => g.items.length > 0);
@@ -96,22 +97,31 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
   </section>
 
   <section class="section" aria-labelledby="vocab">
-    <h2 id="vocab">Vocabulary introduced <span class="muted small">({vocab.length})</span></h2>
+    <h2 id="vocab">Vocabulary <span class="muted small">({essentialCount} essentials · {vocab.length} total)</span></h2>
+    <p class="small muted">Essentials are shown; <button type="button" class="linkish" id="show-all">show all {vocab.length} words</button>.</p>
     {groups.map((g) => (
       <div class="group">
         <h3>{g.label} <span class="muted small">({g.items.length})</span></h3>
         <ul class="words">
           {g.items.map((e) => (
-            <li>
+            <li class:list={{ extra: !e.tags.includes('essentials') }} hidden={!e.tags.includes('essentials')}>
               <span class="de"><Word german={e.german} /> <Incomplete entry={e} /></span>
               <span class="en">{e.english}</span>
-              {e.tags.length > 0 && <span class="tags">{e.tags.map((t) => <span class="chip">{t}</span>)}</span>}
+              {e.tags.filter((t) => t !== 'essentials').length > 0 && (
+                <span class="tags">{e.tags.filter((t) => t !== 'essentials').map((t) => <span class="chip">{t}</span>)}</span>
+              )}
             </li>
           ))}
         </ul>
       </div>
     ))}
     <p class="small"><a href={url(`/vocab/`) + `?lesson=${lesson.data.number}`}>Open in the vocab table →</a></p>
+    <script>
+      document.getElementById('show-all')?.addEventListener('click', (ev) => {
+        document.querySelectorAll<HTMLElement>('.words li.extra').forEach((li) => (li.hidden = false));
+        (ev.currentTarget as HTMLElement).closest('p')!.hidden = true;
+      });
+    </script>
   </section>
 
   {sets.length > 0 && (
@@ -157,5 +167,6 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
   }
   .sets { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.4rem; max-width: 40rem; }
   .sets li { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.4rem 0; border-bottom: 1px solid var(--border); }
+  .linkish { all: unset; cursor: pointer; color: var(--accent); text-decoration: underline; }
   .pager { display: flex; justify-content: space-between; margin-top: 3rem; }
 </style>

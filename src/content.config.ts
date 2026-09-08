@@ -109,4 +109,23 @@ const exercises = defineCollection({
   schema: exerciseSchema,
 });
 
-export const collections = { lessons, grammar, vocab, exercises };
+// ---------------------------------------------------------------------------
+// Gender rules: "a noun ending in X is usually <article>", from the tutor's
+// article handout. Drilled by the "Gender rule" quiz mode.
+// ---------------------------------------------------------------------------
+const genderRules = defineCollection({
+  loader: file('src/data/gender-rules.json'),
+  schema: z.object({
+    id: z.string(),
+    suffix: z.string(),
+    gender: z.enum(['der', 'die', 'das']),
+    // weak: true = too many exceptions to drill on real words (-t, -er); still asked as a rule
+    weak: z.boolean().default(false),
+    examples: z.array(z.string()).default([]),
+    lesson: z.number().int().positive(),
+    tags: z.array(z.string()).default([]),
+    notes: z.string().nullable().default(null),
+  }),
+});
+
+export const collections = { lessons, grammar, vocab, exercises, genderRules };

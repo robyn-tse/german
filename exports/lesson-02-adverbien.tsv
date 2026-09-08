@@ -1,34 +1,34 @@
 #separator:tab
 #html:false
 #columns:Front	Back	Tags
-ja	yes	lesson2::adverbien
-nein	no	lesson2::adverbien
-vielleicht	maybe	lesson2::adverbien
-wo	where	lesson2::adverbien
-wann	when	lesson2::adverbien
-warum	why	lesson2::adverbien
-links	left	lesson2::adverbien
-rechts	right	lesson2::adverbien
-hier	here	lesson2::adverbien
-dort	there	lesson2::adverbien
+ja	yes	lesson2::adverbien lesson2::essentials
+nein	no	lesson2::adverbien lesson2::essentials
+vielleicht	maybe	lesson2::adverbien lesson2::essentials
+wo	where	lesson2::adverbien lesson2::essentials
+wann	when	lesson2::adverbien lesson2::essentials
+warum	why	lesson2::adverbien lesson2::essentials
+links	left	lesson2::adverbien lesson2::essentials
+rechts	right	lesson2::adverbien lesson2::essentials
+hier	here	lesson2::adverbien lesson2::essentials
+dort	there	lesson2::adverbien lesson2::essentials
 zurück	back	lesson2::adverbien
 hoch	up / tall	lesson2::adverbien
 runter	down	lesson2::adverbien
-geradeaus	straight on	lesson2::adverbien
-jetzt	now	lesson2::adverbien
-heute	today	lesson2::adverbien
-morgen	tomorrow	lesson2::adverbien
-gestern	yesterday	lesson2::adverbien
-wieder	again	lesson2::adverbien
-immer	always	lesson2::adverbien
+geradeaus	straight on	lesson2::adverbien lesson2::essentials
+jetzt	now	lesson2::adverbien lesson2::essentials
+heute	today	lesson2::adverbien lesson2::essentials
+morgen	tomorrow	lesson2::adverbien lesson2::essentials
+gestern	yesterday	lesson2::adverbien lesson2::essentials
+wieder	again	lesson2::adverbien lesson2::essentials
+immer	always	lesson2::adverbien lesson2::essentials
 weg	away	lesson2::adverbien
 hinunter	down	lesson2::adverbien
 gerade	just	lesson2::adverbien
-nie	never	lesson2::adverbien
-oft	often	lesson2::adverbien
-nur	only	lesson2::adverbien
+nie	never	lesson2::adverbien lesson2::essentials
+oft	often	lesson2::adverbien lesson2::essentials
+nur	only	lesson2::adverbien lesson2::essentials
 ziemlich	quite	lesson2::adverbien
 wirklich	really	lesson2::adverbien
-noch	still	lesson2::adverbien
-dann	then	lesson2::adverbien
-sehr	very	lesson2::adverbien
+noch	still	lesson2::adverbien lesson2::essentials
+dann	then	lesson2::adverbien lesson2::essentials
+sehr	very	lesson2::adverbien lesson2::essentials

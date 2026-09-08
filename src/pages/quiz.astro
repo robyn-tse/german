@@ -5,7 +5,8 @@ import { modes } from '../lib/quiz-modes.js';
 
 const entries = (await getCollection('vocab')).map((v) => v.data);
 const exercises = (await getCollection('exercises')).map((v) => v.data);
-const lessons = [...new Set([...entries, ...exercises].map((e) => e.lesson))].sort((a, b) => a - b);
+const rules = (await getCollection('genderRules')).map((v) => v.data);
+const lessons = [...new Set([...entries, ...exercises, ...rules].map((e) => e.lesson))].sort((a, b) => a - b);
 const tags = [...new Set(entries.flatMap((e) => e.tags))].sort();
 const minLesson = lessons[0] ?? 1;
 const maxLesson = lessons[lessons.length - 1] ?? 1;
@@ -42,9 +43,10 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
         <label>Tag
           <select name="tag">
             <option value="">any</option>
-            {tags.map((t) => <option value={t}>{t}</option>)}
+            {tags.filter((t) => t !== 'essentials').map((t) => <option value={t}>{t}</option>)}
           </select>
         </label>
+        <label class="check"><input type="checkbox" name="essentials" checked /> Essentials only</label>
         <label>Questions
           <input type="number" name="length" min="1" max="200" value="15" inputmode="numeric" />
         </label>
@@ -96,6 +98,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
 <script>
   import vocab from '../data/vocab.json';
   import exercises from '../data/exercises.json';
+  import rules from '../data/gender-rules.json';
   import { modes, getMode } from '../lib/quiz-modes.js';
   import { compareTyped, compareChoice } from '../lib/compare.js';
   import { loadStats, record, resetStats } from '../lib/quiz-stats.js';
@@ -110,9 +113,11 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
 
   type Entry = any;
   let stats = loadStats();
-  const ALL: Record<string, Entry[]> = { vocab, exercises };
+  const ALL: Record<string, Entry[]> = { vocab, exercises, rules };
+  const ctx = ALL;
   const dataFor = (mode: any): Entry[] => ALL[mode.source ?? 'vocab'];
-  const lookup = (id: string): Entry | undefined => vocab.find((e) => e.id === id) ?? exercises.find((e) => e.id === id);
+  const lookup = (id: string): Entry | undefined =>
+    vocab.find((e) => e.id === id) ?? exercises.find((e) => e.id === id) ?? rules.find((e) => e.id === id);
 
   // --- pool + config ------------------------------------------------------
   function readConfig() {
@@ -122,13 +127,20 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
       from: Number(fd.get('from')) || 1,
       to: Number(fd.get('to')) || 999,
       tag: String(fd.get('tag') || ''),
+      essentials: fd.get('essentials') === 'on',
       length: Math.max(1, Number(fd.get('length')) || 15),
     };
   }
   function poolFor(cfg: ReturnType<typeof readConfig>) {
     const mode = getMode(cfg.mode)!;
     return dataFor(mode).filter(
-      (e) => mode.filter(e) && e.lesson >= cfg.from && e.lesson <= cfg.to && (!cfg.tag || e.tags.includes(cfg.tag)),
+      (e) =>
+        mode.filter(e, ctx) &&
+        e.lesson >= cfg.from &&
+        e.lesson <= cfg.to &&
+        (!cfg.tag || e.tags.includes(cfg.tag)) &&
+        // essentials applies to vocab only; worksheets and rules are small sets already
+        (!cfg.essentials || (mode.source ?? 'vocab') !== 'vocab' || e.tags.includes('essentials')),
     );
   }
   function updatePoolInfo() {
@@ -183,9 +195,9 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     if (index >= queue.length) return finish();
     const entry = queue[index];
     $('qnum').textContent = `${index + 1} / ${queue.length}`;
-    $('prompt').textContent = mode.prompt(entry);
+    $('prompt').textContent = mode.prompt(entry, ctx);
     $('prompt').setAttribute('lang', mode.id === 'en-de' ? 'en' : 'de');
-    const sub = mode.subprompt ? mode.subprompt(entry) : null;
+    const sub = mode.subprompt ? mode.subprompt(entry, ctx) : null;
     $('subprompt').textContent = sub ?? '';
     $('subprompt').hidden = !sub;
     feedback.hidden = true;
@@ -238,10 +250,10 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     if (!session) return;
     const { mode, queue, index } = session;
     const entry = queue[index];
-    const expected = mode.answer(entry);
+    const expected = mode.answer(entry, ctx);
     const result =
       mode.input === 'typed'
-        ? compareTyped(given, mode.accept ? mode.accept(entry) : [{ text: expected, note: null }])
+        ? compareTyped(given, mode.accept ? mode.accept(entry, ctx) : [{ text: expected, note: null }])
         : compareChoice(given, expected);
 
     record(stats, entry.id, result.correct);
@@ -263,7 +275,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
       li.textContent = n;
       notes.append(li);
     }
-    const reveal = mode.reveal ? mode.reveal(entry) : null;
+    const reveal = mode.reveal ? mode.reveal(entry, ctx) : null;
     $('reveal').textContent = reveal ?? '';
     $('reveal').hidden = !reveal;
     const s = stats[entry.id];
@@ -318,7 +330,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
       ul.className = 'missed';
       for (const r of missed) {
         const li = document.createElement('li');
-        li.innerHTML = `<span lang="de">${escape(mode.prompt(r.entry))}</span> <span class="muted">→</span> ${renderAnswer(r.entry, mode.answer(r.entry))}` +
+        li.innerHTML = `<span lang="de">${escape(mode.prompt(r.entry, ctx))}</span> <span class="muted">→</span> ${renderAnswer(r.entry, mode.answer(r.entry, ctx))}` +
           (r.given ? ` <span class="small muted">(you: ${escape(r.given)})</span>` : '');
         ul.append(li);
       }
@@ -356,7 +368,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     const tb = document.createElement('tbody');
     for (const r of rows) {
       const tr = document.createElement('tr');
-      const label = r.entry.german ?? r.entry.full_de;
+      const label = r.entry.german ?? r.entry.full_de ?? r.entry.suffix;
       tr.innerHTML = `<td lang="de">${renderAnswer(r.entry, label)}</td><td>${r.attempts}</td><td>${r.errors}</td>`;
       tb.append(tr);
     }
@@ -390,6 +402,8 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   .row label { display: grid; gap: 0.25rem; font-size: 0.9rem; }
   .row input, .row select { padding: 0.4em 0.5em; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); min-height: 2.4rem; }
   .row input[type=number] { width: 4.5rem; }
+  .row label.check { display: inline-flex; flex-direction: row; align-items: center; gap: 0.4rem; align-self: end; min-height: 2.4rem; }
+  .row label.check input { accent-color: var(--accent); width: 1.1rem; height: 1.1rem; }
   .range { display: inline-flex; align-items: center; gap: 0.4rem; }
 
   .play { max-width: 40rem; }

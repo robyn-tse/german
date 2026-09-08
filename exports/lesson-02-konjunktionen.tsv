@@ -1,11 +1,11 @@
 #separator:tab
 #html:false
 #columns:Front	Back	Tags
-und	and	lesson2::konjunktionen
-oder	or	lesson2::konjunktionen
-weil	because	lesson2::konjunktionen
+und	and	lesson2::konjunktionen lesson2::essentials
+oder	or	lesson2::konjunktionen lesson2::essentials
+weil	because	lesson2::konjunktionen lesson2::essentials
 als	as / than	lesson2::konjunktionen
-aber	but	lesson2::konjunktionen
-wenn	if / when	lesson2::konjunktionen
+aber	but	lesson2::konjunktionen lesson2::essentials
+wenn	if / when	lesson2::konjunktionen lesson2::essentials
 so / daher	so	lesson2::konjunktionen
-dass	that	lesson2::konjunktionen
+dass	that	lesson2::konjunktionen lesson2::essentials

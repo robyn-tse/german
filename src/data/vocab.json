@@ -1,23 +1,476 @@
 [
   {
-    "id": "erkennen",
-    "german": "erkennen",
-    "english": "to recognize",
+    "id": "erwerben",
+    "german": "erwerben",
+    "english": "to acquire",
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": "Ich erkenne das.",
-    "example_en": "I recognise that.",
+    "example_de": "Unternehmen erwerben innovative KI-Start-ups, um ihre Wettbewerbsfähigkeit zu stärken.",
+    "example_en": "Companies acquire innovative AI start-ups to strengthen their competitiveness.",
     "lesson": 2,
     "tags": [
-      "untrennbar"
+      "essentials",
+      "untrennbar",
+      "verben50"
     ],
-    "notes": "Lesson-2 example for the inseparable prefix er-. Mixed verb: weak endings but a stem-vowel change (erkannte, erkannt).",
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": {
+        "ich": "erwerbe"
+      },
+      "praeteritum": "erwarb",
+      "partizip_ii": "erworben"
+    }
+  },
+  {
+    "id": "investieren",
+    "german": "investieren",
+    "english": "to invest",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Viele Private-Equity-Fonds investieren im Jahr 2026 in Schweizer Technologieunternehmen.",
+    "example_en": "Many private-equity funds are investing in Swiss technology companies in 2026.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "verben50"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "investiere"
+      },
+      "praeteritum": "investierte",
+      "partizip_ii": "investiert"
+    }
+  },
+  {
+    "id": "analysieren",
+    "german": "analysieren",
+    "english": "to analyze",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "M&A-Direktoren analysieren Markttrends und potenzielle Übernahmeziele.",
+    "example_en": "M&A directors analyze market trends and potential takeover targets.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "verben50"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "analysiere"
+      },
+      "praeteritum": "analysierte",
+      "partizip_ii": "analysiert"
+    }
+  },
+  {
+    "id": "bewerten",
+    "german": "bewerten",
+    "english": "to evaluate",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Die Teams bewerten finanzielle Risiken und Synergiepotenziale.",
+    "example_en": "The teams evaluate financial risks and synergy potential.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "untrennbar",
+      "verben50"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "bewerte"
+      },
+      "praeteritum": "bewertete",
+      "partizip_ii": "bewertet"
+    }
+  },
+  {
+    "id": "uebernehmen",
+    "german": "übernehmen",
+    "english": "to acquire / to take over",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Große Konzerne übernehmen spezialisierte Softwareunternehmen.",
+    "example_en": "Large corporations take over specialised software companies.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "untrennbar",
+      "verben50"
+    ],
+    "notes": "über- can be separable or inseparable depending on the verb; in übernehmen it is inseparable (ich übernehme, übernommen). Not one of the 8 inseparable prefixes covered in lesson 2.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": {
+        "ich": "übernehme"
+      },
+      "praeteritum": "übernahm",
+      "partizip_ii": "übernommen"
+    }
+  },
+  {
+    "id": "wachsen",
+    "german": "wachsen",
+    "english": "to grow",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Der Schweizer M&A-Markt wächst trotz geopolitischer Unsicherheiten.",
+    "example_en": "The Swiss M&A market is growing despite geopolitical uncertainty.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "verben50"
+    ],
+    "notes": "Stem vowel changes in du/er: du wächst, er wächst.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "sein",
+      "present": {
+        "ich": "wachse"
+      },
+      "praeteritum": "wuchs",
+      "partizip_ii": "gewachsen"
+    }
+  },
+  {
+    "id": "steigen",
+    "german": "steigen",
+    "english": "to increase / to rise",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Das Deal-Volumen steigt im Jahr 2026 deutlich an.",
+    "example_en": "Deal volume is rising significantly in 2026.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "verben50"
+    ],
+    "notes": "The source example actually uses the separable verb ansteigen (steigt … an), not plain steigen.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "sein",
+      "present": {
+        "ich": "steige"
+      },
+      "praeteritum": "stieg",
+      "partizip_ii": "gestiegen"
+    }
+  },
+  {
+    "id": "entwickeln",
+    "german": "entwickeln",
+    "english": "to develop",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Unternehmen entwickeln neue KI-basierte Geschäftsmodelle.",
+    "example_en": "Companies are developing new AI-based business models.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "untrennbar",
+      "verben50"
+    ],
+    "notes": "-eln verbs drop the e in the ich-form: ich entwickle.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "entwickle"
+      },
+      "praeteritum": "entwickelte",
+      "partizip_ii": "entwickelt"
+    }
+  },
+  {
+    "id": "finanzieren",
+    "german": "finanzieren",
+    "english": "to finance",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Banken finanzieren zahlreiche internationale Transaktionen.",
+    "example_en": "Banks finance numerous international transactions.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "verben50"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "finanziere"
+      },
+      "praeteritum": "finanzierte",
+      "partizip_ii": "finanziert"
+    }
+  },
+  {
+    "id": "verhandeln",
+    "german": "verhandeln",
+    "english": "to negotiate",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Die Parteien verhandeln über den endgültigen Kaufpreis.",
+    "example_en": "The parties are negotiating the final purchase price.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "untrennbar",
+      "verben50"
+    ],
+    "notes": "-eln verbs drop the e in the ich-form: ich verhandle.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "verhandle"
+      },
+      "praeteritum": "verhandelte",
+      "partizip_ii": "verhandelt"
+    }
+  },
+  {
+    "id": "integrieren",
+    "german": "integrieren",
+    "english": "to integrate",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Nach dem Deal integrieren die Unternehmen ihre Geschäftsbereiche.",
+    "example_en": "After the deal the companies integrate their business units.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "verben50"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "integriere"
+      },
+      "praeteritum": "integrierte",
+      "partizip_ii": "integriert"
+    }
+  },
+  {
+    "id": "bewaeltigen",
+    "german": "bewältigen",
+    "english": "to manage / to overcome",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "M&A-Direktoren müssen komplexe Integrationsprozesse bewältigen.",
+    "example_en": "M&A directors have to manage complex integration processes.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "untrennbar",
+      "verben50"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "bewältige"
+      },
+      "praeteritum": "bewältigte",
+      "partizip_ii": "bewältigt"
+    }
+  },
+  {
+    "id": "optimieren",
+    "german": "optimieren",
+    "english": "to optimize",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Viele Unternehmen optimieren ihr Portfolio durch Carve-outs.",
+    "example_en": "Many companies optimise their portfolio through carve-outs.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "verben50"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "optimiere"
+      },
+      "praeteritum": "optimierte",
+      "partizip_ii": "optimiert"
+    }
+  },
+  {
+    "id": "staerken",
+    "german": "stärken",
+    "english": "to strengthen",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Akquisitionen stärken die Marktposition eines Unternehmens.",
+    "example_en": "Acquisitions strengthen a company's market position.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "verben50"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "stärke"
+      },
+      "praeteritum": "stärkte",
+      "partizip_ii": "gestärkt"
+    }
+  },
+  {
+    "id": "reduzieren",
+    "german": "reduzieren",
+    "english": "to reduce",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Banken reduzieren ihre Kosten durch Digitalisierung.",
+    "example_en": "Banks reduce their costs through digitalisation.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "verben50"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "reduziere"
+      },
+      "praeteritum": "reduzierte",
+      "partizip_ii": "reduziert"
+    }
+  },
+  {
+    "id": "erzielen",
+    "german": "erzielen",
+    "english": "to achieve / to generate",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Investoren möchten langfristige Renditen erzielen.",
+    "example_en": "Investors want to generate long-term returns.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "untrennbar",
+      "verben50"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "erziele"
+      },
+      "praeteritum": "erzielte",
+      "partizip_ii": "erzielt"
+    }
+  },
+  {
+    "id": "nutzen",
+    "german": "nutzen",
+    "english": "to use / to leverage",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Unternehmen nutzen künstliche Intelligenz für die Due Diligence.",
+    "example_en": "Companies use artificial intelligence for due diligence.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "verben50"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "nutze"
+      },
+      "praeteritum": "nutzte",
+      "partizip_ii": "genutzt"
+    }
+  },
+  {
+    "id": "erkennen",
+    "german": "erkennen",
+    "english": "to identify / to recognize",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Analysten erkennen neue Marktchancen frühzeitig.",
+    "example_en": "Analysts identify new market opportunities early.",
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "untrennbar",
+      "verben50"
+    ],
+    "notes": "Also the lesson-2 example for the inseparable prefix er-: Ich erkenne das. Mixed verb: weak endings but a stem-vowel change (erkannte, erkannt).",
     "verb": {
       "separable": false,
       "strength": "mixed",
       "aux": "haben",
-      "present": null,
+      "present": {
+        "ich": "erkenne"
+      },
       "praeteritum": "erkannte",
       "partizip_ii": "erkannt"
     }
@@ -29,987 +482,52 @@
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": "Ich entscheide.",
-    "example_en": "I decide.",
+    "example_de": "Der Verwaltungsrat entscheidet über die Akquisition.",
+    "example_en": "The board of directors decides on the acquisition.",
     "lesson": 2,
     "tags": [
-      "untrennbar"
+      "essentials",
+      "untrennbar",
+      "verben50"
     ],
-    "notes": "Lesson-2 example for the inseparable prefix ent-.",
+    "notes": "Also the lesson-2 example for the inseparable prefix ent-: Ich entscheide.",
     "verb": {
       "separable": false,
       "strength": "strong",
       "aux": "haben",
-      "present": null,
+      "present": {
+        "ich": "entscheide"
+      },
       "praeteritum": "entschied",
       "partizip_ii": "entschieden"
     }
   },
   {
-    "id": "abfahren",
-    "german": "abfahren",
-    "english": "to depart / to leave",
+    "id": "umsetzen",
+    "german": "umsetzen",
+    "english": "to implement",
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": "Ich fahre ab.",
-    "example_en": "I'm leaving.",
+    "example_de": "Nach dem Closing setzen die Teams die Integrationsstrategie um.",
+    "example_en": "After closing, the teams implement the integration strategy.",
     "lesson": 2,
     "tags": [
-      "trennbar"
+      "essentials",
+      "trennbar",
+      "verben50"
     ],
-    "notes": "Lesson-2 example for the separable prefix ab-.",
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "fuhr ab",
-      "partizip_ii": "abgefahren"
-    }
-  },
-  {
-    "id": "prefix-ab",
-    "german": "ab-",
-    "english": "off, away, down",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich fahre ab.",
-    "example_en": "I'm leaving.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and ab- moves to the end: abfahren → Ich fahre ab.",
-    "verb": null
-  },
-  {
-    "id": "anfangen",
-    "german": "anfangen",
-    "english": "to begin / to start",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich fange an.",
-    "example_en": "I'm starting.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Lesson-2 example for the separable prefix an-.",
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "fing an",
-      "partizip_ii": "angefangen"
-    }
-  },
-  {
-    "id": "prefix-an",
-    "german": "an-",
-    "english": "on, at, toward; starting",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich fange an.",
-    "example_en": "I'm starting.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and an- moves to the end: anfangen → Ich fange an.",
-    "verb": null
-  },
-  {
-    "id": "aufraeumen",
-    "german": "aufräumen",
-    "english": "to tidy up / to clean up",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich räume auf.",
-    "example_en": "I'm tidying up.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Lesson-2 example for the separable prefix auf-.",
+    "notes": "Separable: um- moves to the end (ich setze um). um- is not one of the 10 separable prefixes covered in lesson 2.",
     "verb": {
       "separable": true,
       "strength": "weak",
       "aux": "haben",
-      "present": null,
-      "praeteritum": "räumte auf",
-      "partizip_ii": "aufgeräumt"
+      "present": {
+        "ich": "setze um"
+      },
+      "praeteritum": "setzte um",
+      "partizip_ii": "umgesetzt"
     }
-  },
-  {
-    "id": "prefix-auf",
-    "german": "auf-",
-    "english": "up, open",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich räume auf.",
-    "example_en": "I'm tidying up.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and auf- moves to the end: aufräumen → Ich räume auf.",
-    "verb": null
-  },
-  {
-    "id": "ausgehen",
-    "german": "ausgehen",
-    "english": "to go out",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich gehe aus.",
-    "example_en": "I'm going out.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Lesson-2 example for the separable prefix aus-.",
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "ging aus",
-      "partizip_ii": "ausgegangen"
-    }
-  },
-  {
-    "id": "prefix-aus",
-    "german": "aus-",
-    "english": "out",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich gehe aus.",
-    "example_en": "I'm going out.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and aus- moves to the end: ausgehen → Ich gehe aus.",
-    "verb": null
-  },
-  {
-    "id": "beistehen",
-    "german": "beistehen",
-    "english": "to stand by / to support",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich stehe bei.",
-    "example_en": "I'm standing by (someone).",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Lesson-2 example for the separable prefix bei-.",
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "stand bei",
-      "partizip_ii": "beigestanden"
-    }
-  },
-  {
-    "id": "prefix-bei",
-    "german": "bei-",
-    "english": "alongside, with",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich stehe bei.",
-    "example_en": "I'm standing by (someone).",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and bei- moves to the end: beistehen → Ich stehe bei.",
-    "verb": null
-  },
-  {
-    "id": "einkaufen",
-    "german": "einkaufen",
-    "english": "to shop / to buy",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich kaufe ein.",
-    "example_en": "I'm shopping.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Lesson-2 example for the separable prefix ein-.",
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "kaufte ein",
-      "partizip_ii": "eingekauft"
-    }
-  },
-  {
-    "id": "prefix-ein",
-    "german": "ein-",
-    "english": "in, into",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich kaufe ein.",
-    "example_en": "I'm shopping.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and ein- moves to the end: einkaufen → Ich kaufe ein.",
-    "verb": null
-  },
-  {
-    "id": "mitkommen",
-    "german": "mitkommen",
-    "english": "to come along",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich komme mit.",
-    "example_en": "I'm coming along.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Lesson-2 example for the separable prefix mit-.",
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "kam mit",
-      "partizip_ii": "mitgekommen"
-    }
-  },
-  {
-    "id": "prefix-mit",
-    "german": "mit-",
-    "english": "along, with",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich komme mit.",
-    "example_en": "I'm coming along.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and mit- moves to the end: mitkommen → Ich komme mit.",
-    "verb": null
-  },
-  {
-    "id": "nachfragen",
-    "german": "nachfragen",
-    "english": "to inquire / to ask",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich frage nach.",
-    "example_en": "I'm asking (following up).",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Lesson-2 example for the separable prefix nach-.",
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "fragte nach",
-      "partizip_ii": "nachgefragt"
-    }
-  },
-  {
-    "id": "prefix-nach",
-    "german": "nach-",
-    "english": "after, following up",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich frage nach.",
-    "example_en": "I'm asking (following up).",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and nach- moves to the end: nachfragen → Ich frage nach.",
-    "verb": null
-  },
-  {
-    "id": "vorstellen",
-    "german": "vorstellen",
-    "english": "to introduce / to present",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich stelle vor.",
-    "example_en": "I'm introducing (something).",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Lesson-2 example for the separable prefix vor-.",
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "stellte vor",
-      "partizip_ii": "vorgestellt"
-    }
-  },
-  {
-    "id": "prefix-vor",
-    "german": "vor-",
-    "english": "before, forward, in front",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich stelle vor.",
-    "example_en": "I'm introducing (something).",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and vor- moves to the end: vorstellen → Ich stelle vor.",
-    "verb": null
-  },
-  {
-    "id": "weggehen",
-    "german": "weggehen",
-    "english": "to go away / to leave",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich gehe weg.",
-    "example_en": "I'm going away.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Lesson-2 example for the separable prefix weg-.",
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "ging weg",
-      "partizip_ii": "weggegangen"
-    }
-  },
-  {
-    "id": "prefix-weg",
-    "german": "weg-",
-    "english": "away",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich gehe weg.",
-    "example_en": "I'm going away.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and weg- moves to the end: weggehen → Ich gehe weg.",
-    "verb": null
-  },
-  {
-    "id": "besuchen",
-    "german": "besuchen",
-    "english": "to visit",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich besuche dich.",
-    "example_en": "I'm visiting you.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Lesson-2 example for the inseparable prefix be-.",
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "besuchte",
-      "partizip_ii": "besucht"
-    }
-  },
-  {
-    "id": "prefix-be",
-    "german": "be-",
-    "english": "makes the verb act directly on an object",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich besuche dich.",
-    "example_en": "I'm visiting you.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: besuchen → Ich besuche dich.",
-    "verb": null
-  },
-  {
-    "id": "empfehlen",
-    "german": "empfehlen",
-    "english": "to recommend",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich empfehle das.",
-    "example_en": "I recommend that.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Lesson-2 example for the inseparable prefix emp-.",
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "empfahl",
-      "partizip_ii": "empfohlen"
-    }
-  },
-  {
-    "id": "prefix-emp",
-    "german": "emp-",
-    "english": "variant of ent- before f",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich empfehle das.",
-    "example_en": "I recommend that.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: empfehlen → Ich empfehle das.",
-    "verb": null
-  },
-  {
-    "id": "prefix-ent",
-    "german": "ent-",
-    "english": "away, un-, de-",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich entscheide.",
-    "example_en": "I decide.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: entscheiden → Ich entscheide.",
-    "verb": null
-  },
-  {
-    "id": "prefix-er",
-    "german": "er-",
-    "english": "achieving, bringing about",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich erkenne das.",
-    "example_en": "I recognise that.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: erkennen → Ich erkenne das.",
-    "verb": null
-  },
-  {
-    "id": "gehoeren",
-    "german": "gehören",
-    "english": "to belong",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Das gehört mir.",
-    "example_en": "That belongs to me.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Lesson-2 example for the inseparable prefix ge-.",
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "gehörte",
-      "partizip_ii": "gehört"
-    }
-  },
-  {
-    "id": "prefix-ge",
-    "german": "ge-",
-    "english": "no fixed meaning; also the Partizip II marker",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Das gehört mir.",
-    "example_en": "That belongs to me.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: gehören → Das gehört mir.",
-    "verb": null
-  },
-  {
-    "id": "missverstehen",
-    "german": "missverstehen",
-    "english": "to misunderstand",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich missverstehe dich.",
-    "example_en": "I misunderstand you.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Lesson-2 example for the inseparable prefix miss-.",
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "missverstand",
-      "partizip_ii": "missverstanden"
-    }
-  },
-  {
-    "id": "prefix-miss",
-    "german": "miss-",
-    "english": "mis-, wrongly",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich missverstehe dich.",
-    "example_en": "I misunderstand you.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: missverstehen → Ich missverstehe dich.",
-    "verb": null
-  },
-  {
-    "id": "verstehen",
-    "german": "verstehen",
-    "english": "to understand",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich verstehe dich.",
-    "example_en": "I understand you.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar",
-      "wortliste"
-    ],
-    "notes": "Lesson-2 example for the inseparable prefix ver-.",
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "verstand",
-      "partizip_ii": "verstanden"
-    }
-  },
-  {
-    "id": "prefix-ver",
-    "german": "ver-",
-    "english": "change, away, wrongly; often no clear meaning",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich verstehe dich.",
-    "example_en": "I understand you.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: verstehen → Ich verstehe dich.",
-    "verb": null
-  },
-  {
-    "id": "zerstoeren",
-    "german": "zerstören",
-    "english": "to destroy",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich zerstöre das.",
-    "example_en": "I'm destroying that.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Lesson-2 example for the inseparable prefix zer-.",
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "zerstörte",
-      "partizip_ii": "zerstört"
-    }
-  },
-  {
-    "id": "prefix-zer",
-    "german": "zer-",
-    "english": "apart, to pieces",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich zerstöre das.",
-    "example_en": "I'm destroying that.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: zerstören → Ich zerstöre das.",
-    "verb": null
-  },
-  {
-    "id": "lampe",
-    "german": "die Lampe",
-    "english": "the lamp",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus",
-      "artikel-uebung"
-    ],
-    "notes": "Gender-by-suffix example: -e → die.",
-    "verb": null
-  },
-  {
-    "id": "sprache",
-    "german": "die Sprache",
-    "english": "the language",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -e → die.",
-    "verb": null
-  },
-  {
-    "id": "nation",
-    "german": "die Nation",
-    "english": "the nation",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ion → die.",
-    "verb": null
-  },
-  {
-    "id": "region",
-    "german": "die Region",
-    "english": "the region",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ion → die.",
-    "verb": null
-  },
-  {
-    "id": "garage",
-    "german": "die Garage",
-    "english": "the garage",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -age → die.",
-    "verb": null
-  },
-  {
-    "id": "passage",
-    "german": "die Passage",
-    "english": "the passage",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -age → die.",
-    "verb": null
-  },
-  {
-    "id": "wirtschaft",
-    "german": "die Wirtschaft",
-    "english": "the economy",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -schaft → die.",
-    "verb": null
-  },
-  {
-    "id": "gesellschaft",
-    "german": "die Gesellschaft",
-    "english": "the society / the company",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -schaft → die.",
-    "verb": null
-  },
-  {
-    "id": "freiheit",
-    "german": "die Freiheit",
-    "english": "the freedom",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -heit → die.",
-    "verb": null
-  },
-  {
-    "id": "gesundheit",
-    "german": "die Gesundheit",
-    "english": "the health",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -heit → die.",
-    "verb": null
-  },
-  {
-    "id": "moeglichkeit",
-    "german": "die Möglichkeit",
-    "english": "the possibility",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -keit → die.",
-    "verb": null
-  },
-  {
-    "id": "schwierigkeit",
-    "german": "die Schwierigkeit",
-    "english": "the difficulty",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -keit → die.",
-    "verb": null
-  },
-  {
-    "id": "zeitung",
-    "german": "die Zeitung",
-    "english": "the newspaper",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ung → die.",
-    "verb": null
-  },
-  {
-    "id": "wohnung",
-    "german": "die Wohnung",
-    "english": "the apartment / the flat",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ung → die.",
-    "verb": null
-  },
-  {
-    "id": "drucker",
-    "german": "der Drucker",
-    "english": "the printer",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -er → der.",
-    "verb": null
-  },
-  {
-    "id": "computer",
-    "german": "der Computer",
-    "english": "the computer",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -er → der.",
-    "verb": null
-  },
-  {
-    "id": "radio",
-    "german": "das Radio",
-    "english": "the radio",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -o → das.",
-    "verb": null
-  },
-  {
-    "id": "kino",
-    "german": "das Kino",
-    "english": "the cinema",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus",
-      "wortliste",
-      "orte"
-    ],
-    "notes": "Gender-by-suffix example: -o → das.",
-    "verb": null
-  },
-  {
-    "id": "auto",
-    "german": "das Auto",
-    "english": "the car",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus",
-      "artikel-uebung",
-      "wortliste"
-    ],
-    "notes": "Gender-by-suffix example: -o → das.",
-    "verb": null
   },
   {
     "id": "kaufen",
@@ -1022,6 +540,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": "Model weak verb for the present-tense endings in lesson 2.",
@@ -1042,34 +561,6 @@
     }
   },
   {
-    "id": "kochen",
-    "german": "kochen",
-    "english": "to cook",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [],
-    "notes": "Model weak verb in the tutor's handout (Artikel_Erkla_rung.pdf).",
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "koche",
-        "du": "kochst",
-        "er": "kocht",
-        "wir": "kochen",
-        "ihr": "kocht",
-        "sie": "kochen"
-      },
-      "praeteritum": "kochte",
-      "partizip_ii": "gekocht"
-    }
-  },
-  {
     "id": "haben",
     "german": "haben",
     "english": "to have",
@@ -1080,6 +571,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "merken",
       "wortliste"
     ],
@@ -1111,6 +603,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "merken",
       "wortliste"
     ],
@@ -1132,3864 +625,6 @@
     }
   },
   {
-    "id": "aufstehen",
-    "german": "aufstehen",
-    "english": "to get up",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich stehe jeden Morgen um 6 Uhr auf.",
-    "example_en": "I get up every morning at 6 o'clock.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "stand auf",
-      "partizip_ii": "aufgestanden"
-    }
-  },
-  {
-    "id": "anrufen",
-    "german": "anrufen",
-    "english": "to call",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Er ruft seine Mutter jeden Sonntag an.",
-    "example_en": "He calls his mother every Sunday.",
-    "lesson": 2,
-    "tags": [
-      "trennbar",
-      "wortliste"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "rief an",
-      "partizip_ii": "angerufen"
-    }
-  },
-  {
-    "id": "ankommen",
-    "german": "ankommen",
-    "english": "to arrive",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Das Flugzeug kommt pünktlich an.",
-    "example_en": "The plane arrives on time.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "kam an",
-      "partizip_ii": "angekommen"
-    }
-  },
-  {
-    "id": "anmachen",
-    "german": "anmachen",
-    "english": "to turn on",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Mach bitte das Licht an! Es ist dunkel.",
-    "example_en": "Please turn on the light! It is dark.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "machte an",
-      "partizip_ii": "angemacht"
-    }
-  },
-  {
-    "id": "ausmachen",
-    "german": "ausmachen",
-    "english": "to turn off",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Mach bitte das Radio aus! Es ist zu laut.",
-    "example_en": "Please turn off the radio! It is too loud.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "machte aus",
-      "partizip_ii": "ausgemacht"
-    }
-  },
-  {
-    "id": "fernsehen",
-    "german": "fernsehen",
-    "english": "to watch TV",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Am Abend sehen wir oft fern.",
-    "example_en": "In the evening, we often watch TV.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "sah fern",
-      "partizip_ii": "ferngesehen"
-    }
-  },
-  {
-    "id": "abholen",
-    "german": "abholen",
-    "english": "to pick up",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich hole dich vom Bahnhof ab.",
-    "example_en": "I am picking you up from the train station.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "holte ab",
-      "partizip_ii": "abgeholt"
-    }
-  },
-  {
-    "id": "aufmachen",
-    "german": "aufmachen",
-    "english": "to open",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Das Kind macht das Buch auf und liest.",
-    "example_en": "The child opens the book and reads.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "machte auf",
-      "partizip_ii": "aufgemacht"
-    }
-  },
-  {
-    "id": "zumachen",
-    "german": "zumachen",
-    "english": "to close",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Bitte machen Sie die Tür zu. Es zieht!",
-    "example_en": "Please close the door. There is a draft!",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "machte zu",
-      "partizip_ii": "zugemacht"
-    }
-  },
-  {
-    "id": "einladen",
-    "german": "einladen",
-    "english": "to invite",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich lade dich zu meiner Party ein.",
-    "example_en": "I invite you to my party.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "lud ein",
-      "partizip_ii": "eingeladen"
-    }
-  },
-  {
-    "id": "anziehen",
-    "german": "anziehen",
-    "english": "to put on / to get dressed",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ziehst du heute die Jacke an?",
-    "example_en": "Are you putting on the jacket today?",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "zog an",
-      "partizip_ii": "angezogen"
-    }
-  },
-  {
-    "id": "ausziehen",
-    "german": "ausziehen",
-    "english": "to take off / to undress",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Im Sommer ziehen wir die Jacke aus.",
-    "example_en": "In summer, we take off the jacket.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "zog aus",
-      "partizip_ii": "ausgezogen"
-    }
-  },
-  {
-    "id": "anhalten",
-    "german": "anhalten",
-    "english": "to stop",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Der Bus hält hier nicht an.",
-    "example_en": "The bus does not stop here.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "hielt an",
-      "partizip_ii": "angehalten"
-    }
-  },
-  {
-    "id": "mitbringen",
-    "german": "mitbringen",
-    "english": "to bring along",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Wann bringt ihr das Buch mit?",
-    "example_en": "When are you bringing the book along?",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "mixed",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "brachte mit",
-      "partizip_ii": "mitgebracht"
-    }
-  },
-  {
-    "id": "vorbereiten",
-    "german": "vorbereiten",
-    "english": "to prepare",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Er bereitet das Abendessen vor.",
-    "example_en": "He is preparing dinner.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "bereitete vor",
-      "partizip_ii": "vorbereitet"
-    }
-  },
-  {
-    "id": "kennenlernen",
-    "german": "kennenlernen",
-    "english": "to get to know / to meet",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Wir lernen heute neue Wörter kennen.",
-    "example_en": "We learn new words today.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "lernte kennen",
-      "partizip_ii": "kennengelernt"
-    }
-  },
-  {
-    "id": "aufhoeren",
-    "german": "aufhören",
-    "english": "to stop / to end",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Der Unterricht hört um 12 Uhr auf.",
-    "example_en": "The class ends at 12 o'clock.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "hörte auf",
-      "partizip_ii": "aufgehört"
-    }
-  },
-  {
-    "id": "mitnehmen",
-    "german": "mitnehmen",
-    "english": "to take along",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich nehme einen Regenschirm mit.",
-    "example_en": "I am taking an umbrella with me.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "nahm mit",
-      "partizip_ii": "mitgenommen"
-    }
-  },
-  {
-    "id": "einschalten",
-    "german": "einschalten",
-    "english": "to switch on",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Schalten Sie bitte den Computer ein.",
-    "example_en": "Please turn on the computer.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "schaltete ein",
-      "partizip_ii": "eingeschaltet"
-    }
-  },
-  {
-    "id": "ausschalten",
-    "german": "ausschalten",
-    "english": "to switch off",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Er schaltet den Fernseher aus.",
-    "example_en": "He turns off the TV.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "schaltete aus",
-      "partizip_ii": "ausgeschaltet"
-    }
-  },
-  {
-    "id": "einpacken",
-    "german": "einpacken",
-    "english": "to pack",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich packe meinen Koffer ein.",
-    "example_en": "I am packing my suitcase.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "packte ein",
-      "partizip_ii": "eingepackt"
-    }
-  },
-  {
-    "id": "auspacken",
-    "german": "auspacken",
-    "english": "to unpack",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Wir packen die Geschenke aus.",
-    "example_en": "We are unpacking the presents.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "packte aus",
-      "partizip_ii": "ausgepackt"
-    }
-  },
-  {
-    "id": "ausfuellen",
-    "german": "ausfüllen",
-    "english": "to fill out",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Das Formular füllt man hier aus.",
-    "example_en": "One fills out the form here.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "füllte aus",
-      "partizip_ii": "ausgefüllt"
-    }
-  },
-  {
-    "id": "ausstellen",
-    "german": "ausstellen",
-    "english": "to issue",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Der Arzt stellt ein Rezept aus.",
-    "example_en": "The doctor issues a prescription.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "stellte aus",
-      "partizip_ii": "ausgestellt"
-    }
-  },
-  {
-    "id": "saubermachen",
-    "german": "saubermachen",
-    "english": "to clean",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Der Lehrer macht die Tafel sauber.",
-    "example_en": "The teacher cleans the board.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "machte sauber",
-      "partizip_ii": "saubergemacht"
-    }
-  },
-  {
-    "id": "ankreuzen",
-    "german": "ankreuzen",
-    "english": "to tick",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Bitte kreuzen Sie die richtige Antwort an.",
-    "example_en": "Please tick the correct answer.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "kreuzte an",
-      "partizip_ii": "angekreuzt"
-    }
-  },
-  {
-    "id": "erklaeren",
-    "german": "erklären",
-    "english": "to explain",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Der Lehrer erklärt das Grammatikthema.",
-    "example_en": "The teacher explains the grammar topic.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar",
-      "wortliste"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "erklärte",
-      "partizip_ii": "erklärt"
-    }
-  },
-  {
-    "id": "gefallen",
-    "german": "gefallen",
-    "english": "to please / to be liked",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Das Hotel gefällt mir gut.",
-    "example_en": "I like the hotel.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "gefiel",
-      "partizip_ii": "gefallen"
-    }
-  },
-  {
-    "id": "verkaufen",
-    "german": "verkaufen",
-    "english": "to sell",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Er verkauft seiner Mutter ein Geschenk.",
-    "example_en": "He is selling a present to his mother.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "verkaufte",
-      "partizip_ii": "verkauft"
-    }
-  },
-  {
-    "id": "bekommen",
-    "german": "bekommen",
-    "english": "to get / to receive",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Wir bekommen heute ein neues Auto.",
-    "example_en": "We are getting a new car today.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar",
-      "wortliste"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "bekam",
-      "partizip_ii": "bekommen"
-    }
-  },
-  {
-    "id": "vergessen",
-    "german": "vergessen",
-    "english": "to forget",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich vergesse die Hausaufgabe.",
-    "example_en": "I am forgetting the homework.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar",
-      "wortliste"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "vergaß",
-      "partizip_ii": "vergessen"
-    }
-  },
-  {
-    "id": "beginnen",
-    "german": "beginnen",
-    "english": "to begin",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Wann beginnt der Deutschkurs?",
-    "example_en": "When does the German course begin?",
-    "lesson": 2,
-    "tags": [
-      "untrennbar",
-      "wortliste"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "begann",
-      "partizip_ii": "begonnen"
-    }
-  },
-  {
-    "id": "bestellen",
-    "german": "bestellen",
-    "english": "to order",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Sie bestellt Saft statt Bier.",
-    "example_en": "She orders juice instead of beer.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "bestellte",
-      "partizip_ii": "bestellt"
-    }
-  },
-  {
-    "id": "verdienen",
-    "german": "verdienen",
-    "english": "to earn",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Er verdient viel Geld.",
-    "example_en": "He earns a lot of money.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "verdiente",
-      "partizip_ii": "verdient"
-    }
-  },
-  {
-    "id": "bezahlen",
-    "german": "bezahlen",
-    "english": "to pay",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Wer bezahlt die Rechnung?",
-    "example_en": "Who is paying the bill?",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "bezahlte",
-      "partizip_ii": "bezahlt"
-    }
-  },
-  {
-    "id": "bestaetigen",
-    "german": "bestätigen",
-    "english": "to confirm",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ich bestätige den Termin.",
-    "example_en": "I am confirming the appointment.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "bestätigte",
-      "partizip_ii": "bestätigt"
-    }
-  },
-  {
-    "id": "besprechen",
-    "german": "besprechen",
-    "english": "to discuss",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Wir besprechen ein neues Thema.",
-    "example_en": "We are discussing a new topic.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "besprach",
-      "partizip_ii": "besprochen"
-    }
-  },
-  {
-    "id": "abreisen",
-    "german": "abreisen",
-    "english": "to leave / to depart",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "reiste ab",
-      "partizip_ii": "abgereist"
-    }
-  },
-  {
-    "id": "ablesen",
-    "german": "ablesen",
-    "english": "to read from",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "las ab",
-      "partizip_ii": "abgelesen"
-    }
-  },
-  {
-    "id": "abnehmen",
-    "german": "abnehmen",
-    "english": "to lose weight",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "nahm ab",
-      "partizip_ii": "abgenommen"
-    }
-  },
-  {
-    "id": "anschauen",
-    "german": "anschauen",
-    "english": "to look at",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "schaute an",
-      "partizip_ii": "angeschaut"
-    }
-  },
-  {
-    "id": "angreifen",
-    "german": "angreifen",
-    "english": "to touch",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "The handout glosses this as \"to touch\" (Austrian usage); in standard German angreifen means to attack.",
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "griff an",
-      "partizip_ii": "angegriffen"
-    }
-  },
-  {
-    "id": "anbieten",
-    "german": "anbieten",
-    "english": "to offer",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "bot an",
-      "partizip_ii": "angeboten"
-    }
-  },
-  {
-    "id": "aufladen",
-    "german": "aufladen",
-    "english": "to charge",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "lud auf",
-      "partizip_ii": "aufgeladen"
-    }
-  },
-  {
-    "id": "aufbauen",
-    "german": "aufbauen",
-    "english": "to build / to set up",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "baute auf",
-      "partizip_ii": "aufgebaut"
-    }
-  },
-  {
-    "id": "ausdenken",
-    "german": "ausdenken",
-    "english": "to think up",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Usually reflexive: sich etwas ausdenken.",
-    "verb": {
-      "separable": true,
-      "strength": "mixed",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "dachte aus",
-      "partizip_ii": "ausgedacht"
-    }
-  },
-  {
-    "id": "ausdrucken",
-    "german": "ausdrucken",
-    "english": "to print",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "druckte aus",
-      "partizip_ii": "ausgedruckt"
-    }
-  },
-  {
-    "id": "beibringen",
-    "german": "beibringen",
-    "english": "to teach",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "mixed",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "brachte bei",
-      "partizip_ii": "beigebracht"
-    }
-  },
-  {
-    "id": "beitragen",
-    "german": "beitragen",
-    "english": "to contribute",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "trug bei",
-      "partizip_ii": "beigetragen"
-    }
-  },
-  {
-    "id": "einsteigen",
-    "german": "einsteigen",
-    "english": "to get in / to get on",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "stieg ein",
-      "partizip_ii": "eingestiegen"
-    }
-  },
-  {
-    "id": "einbrechen",
-    "german": "einbrechen",
-    "english": "to break in",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "brach ein",
-      "partizip_ii": "eingebrochen"
-    }
-  },
-  {
-    "id": "herkommen",
-    "german": "herkommen",
-    "english": "to come here",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "kam her",
-      "partizip_ii": "hergekommen"
-    }
-  },
-  {
-    "id": "herstellen",
-    "german": "herstellen",
-    "english": "to produce",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "stellte her",
-      "partizip_ii": "hergestellt"
-    }
-  },
-  {
-    "id": "hinfahren",
-    "german": "hinfahren",
-    "english": "to drive there / to go there",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "fuhr hin",
-      "partizip_ii": "hingefahren"
-    }
-  },
-  {
-    "id": "hinfallen",
-    "german": "hinfallen",
-    "english": "to fall down",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "fiel hin",
-      "partizip_ii": "hingefallen"
-    }
-  },
-  {
-    "id": "hinstellen",
-    "german": "hinstellen",
-    "english": "to put down",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "stellte hin",
-      "partizip_ii": "hingestellt"
-    }
-  },
-  {
-    "id": "hingehen",
-    "german": "hingehen",
-    "english": "to go there",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "ging hin",
-      "partizip_ii": "hingegangen"
-    }
-  },
-  {
-    "id": "hinbewegen",
-    "german": "hinbewegen",
-    "english": "to move toward",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "bewegte hin",
-      "partizip_ii": "hinbewegt"
-    }
-  },
-  {
-    "id": "hineinfahren",
-    "german": "hineinfahren",
-    "english": "to drive in",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "fuhr hinein",
-      "partizip_ii": "hineingefahren"
-    }
-  },
-  {
-    "id": "hineinlegen",
-    "german": "hineinlegen",
-    "english": "to put in",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "legte hinein",
-      "partizip_ii": "hineingelegt"
-    }
-  },
-  {
-    "id": "hineinsehen",
-    "german": "hineinsehen",
-    "english": "to look in",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "sah hinein",
-      "partizip_ii": "hineingesehen"
-    }
-  },
-  {
-    "id": "hineingehen",
-    "german": "hineingehen",
-    "english": "to go in",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "ging hinein",
-      "partizip_ii": "hineingegangen"
-    }
-  },
-  {
-    "id": "losfahren",
-    "german": "losfahren",
-    "english": "to set off / to drive off",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "fuhr los",
-      "partizip_ii": "losgefahren"
-    }
-  },
-  {
-    "id": "losgehen",
-    "german": "losgehen",
-    "english": "to set off / to start",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "ging los",
-      "partizip_ii": "losgegangen"
-    }
-  },
-  {
-    "id": "loslachen",
-    "german": "loslachen",
-    "english": "to burst out laughing",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "lachte los",
-      "partizip_ii": "losgelacht"
-    }
-  },
-  {
-    "id": "losstuermen",
-    "german": "losstürmen",
-    "english": "to storm off",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "stürmte los",
-      "partizip_ii": "losgestürmt"
-    }
-  },
-  {
-    "id": "mitfahren",
-    "german": "mitfahren",
-    "english": "to ride along",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "fuhr mit",
-      "partizip_ii": "mitgefahren"
-    }
-  },
-  {
-    "id": "mitmachen",
-    "german": "mitmachen",
-    "english": "to join in",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "machte mit",
-      "partizip_ii": "mitgemacht"
-    }
-  },
-  {
-    "id": "vorfahren",
-    "german": "vorfahren",
-    "english": "to drive up",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "fuhr vor",
-      "partizip_ii": "vorgefahren"
-    }
-  },
-  {
-    "id": "vorbestellen",
-    "german": "vorbestellen",
-    "english": "to pre-order",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "bestellte vor",
-      "partizip_ii": "vorbestellt"
-    }
-  },
-  {
-    "id": "wegbringen",
-    "german": "wegbringen",
-    "english": "to take away",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "mixed",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "brachte weg",
-      "partizip_ii": "weggebracht"
-    }
-  },
-  {
-    "id": "wegfahren",
-    "german": "wegfahren",
-    "english": "to drive away",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "fuhr weg",
-      "partizip_ii": "weggefahren"
-    }
-  },
-  {
-    "id": "weggeben",
-    "german": "weggeben",
-    "english": "to give away",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "gab weg",
-      "partizip_ii": "weggegeben"
-    }
-  },
-  {
-    "id": "wegwerfen",
-    "german": "wegwerfen",
-    "english": "to throw away",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "warf weg",
-      "partizip_ii": "weggeworfen"
-    }
-  },
-  {
-    "id": "wegschmeissen",
-    "german": "wegschmeißen",
-    "english": "to chuck away",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "schmiss weg",
-      "partizip_ii": "weggeschmissen"
-    }
-  },
-  {
-    "id": "zudecken",
-    "german": "zudecken",
-    "english": "to cover up",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "deckte zu",
-      "partizip_ii": "zugedeckt"
-    }
-  },
-  {
-    "id": "zudrehen",
-    "german": "zudrehen",
-    "english": "to turn off",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "drehte zu",
-      "partizip_ii": "zugedreht"
-    }
-  },
-  {
-    "id": "zusenden",
-    "german": "zusenden",
-    "english": "to send to",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "mixed",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "sandte zu",
-      "partizip_ii": "zugesandt"
-    }
-  },
-  {
-    "id": "zuwerfen",
-    "german": "zuwerfen",
-    "english": "to throw to",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "warf zu",
-      "partizip_ii": "zugeworfen"
-    }
-  },
-  {
-    "id": "zurueckkehren",
-    "german": "zurückkehren",
-    "english": "to return",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "kehrte zurück",
-      "partizip_ii": "zurückgekehrt"
-    }
-  },
-  {
-    "id": "zurueckgeben",
-    "german": "zurückgeben",
-    "english": "to give back",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "gab zurück",
-      "partizip_ii": "zurückgegeben"
-    }
-  },
-  {
-    "id": "zurueckfahren",
-    "german": "zurückfahren",
-    "english": "to drive back",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": true,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "fuhr zurück",
-      "partizip_ii": "zurückgefahren"
-    }
-  },
-  {
-    "id": "beachten",
-    "german": "beachten",
-    "english": "to pay attention to / to observe",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "beachtete",
-      "partizip_ii": "beachtet"
-    }
-  },
-  {
-    "id": "beantworten",
-    "german": "beantworten",
-    "english": "to answer",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "beantwortete",
-      "partizip_ii": "beantwortet"
-    }
-  },
-  {
-    "id": "entfernen",
-    "german": "entfernen",
-    "english": "to remove",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "entfernte",
-      "partizip_ii": "entfernt"
-    }
-  },
-  {
-    "id": "entkommen",
-    "german": "entkommen",
-    "english": "to escape",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "entkam",
-      "partizip_ii": "entkommen"
-    }
-  },
-  {
-    "id": "entgleisen",
-    "german": "entgleisen",
-    "english": "to derail",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "entgleiste",
-      "partizip_ii": "entgleist"
-    }
-  },
-  {
-    "id": "erhellen",
-    "german": "erhellen",
-    "english": "to light up",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "erhellte",
-      "partizip_ii": "erhellt"
-    }
-  },
-  {
-    "id": "erstarren",
-    "german": "erstarren",
-    "english": "to freeze / to stiffen",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "erstarrte",
-      "partizip_ii": "erstarrt"
-    }
-  },
-  {
-    "id": "erkranken",
-    "german": "erkranken",
-    "english": "to fall ill",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "erkrankte",
-      "partizip_ii": "erkrankt"
-    }
-  },
-  {
-    "id": "erschiessen",
-    "german": "erschießen",
-    "english": "to shoot dead",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "erschoss",
-      "partizip_ii": "erschossen"
-    }
-  },
-  {
-    "id": "misslingen",
-    "german": "misslingen",
-    "english": "to fail",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "misslang",
-      "partizip_ii": "misslungen"
-    }
-  },
-  {
-    "id": "missraten",
-    "german": "missraten",
-    "english": "to turn out badly",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "sein",
-      "present": null,
-      "praeteritum": "missriet",
-      "partizip_ii": "missraten"
-    }
-  },
-  {
-    "id": "verlassen",
-    "german": "verlassen",
-    "english": "to leave",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar",
-      "wortliste"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "verließ",
-      "partizip_ii": "verlassen"
-    }
-  },
-  {
-    "id": "verpassen",
-    "german": "verpassen",
-    "english": "to miss",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "The handout lists the form \"verpasst\"; the infinitive is verpassen.",
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "verpasste",
-      "partizip_ii": "verpasst"
-    }
-  },
-  {
-    "id": "zerbrechen",
-    "german": "zerbrechen",
-    "english": "to break",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "zerbrach",
-      "partizip_ii": "zerbrochen"
-    }
-  },
-  {
-    "id": "zerschlagen",
-    "german": "zerschlagen",
-    "english": "to smash",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "zerschlug",
-      "partizip_ii": "zerschlagen"
-    }
-  },
-  {
-    "id": "zerreissen",
-    "german": "zerreißen",
-    "english": "to tear",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": null,
-      "praeteritum": "zerriss",
-      "partizip_ii": "zerrissen"
-    }
-  },
-  {
-    "id": "prefix-her",
-    "german": "her-",
-    "english": "here, toward the speaker",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Komm her, ich muss dir etwas zeigen!",
-    "example_en": "Come here, I have to show you something!",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and her- moves to the end. Example verb: herkommen.",
-    "verb": null
-  },
-  {
-    "id": "prefix-hin",
-    "german": "hin-",
-    "english": "there, away from the speaker; down",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Ahmad bringt den Kuchen morgen hin.",
-    "example_en": "Ahmad is bringing the cake there tomorrow.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and hin- moves to the end. Example verb: hingehen.",
-    "verb": null
-  },
-  {
-    "id": "prefix-hinein",
-    "german": "hinein-",
-    "english": "into, from outside to inside",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Möchtest du hineingehen oder lieber draußen sitzen?",
-    "example_en": "Would you like to go in or rather sit outside?",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and hinein- moves to the end. Example verb: hineingehen.",
-    "verb": null
-  },
-  {
-    "id": "prefix-los",
-    "german": "los-",
-    "english": "off, starting",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Wir werden um 20 Uhr losgehen, kommst du mit?",
-    "example_en": "We will set off at 8 pm, are you coming along?",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and los- moves to the end. Example verb: losgehen.",
-    "verb": null
-  },
-  {
-    "id": "prefix-zu",
-    "german": "zu-",
-    "english": "closing; toward a goal",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Machst du bitte das Fenster zu? Mir ist kalt!",
-    "example_en": "Would you please close the window? I am cold!",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and zu- moves to the end. Example verb: zumachen.",
-    "verb": null
-  },
-  {
-    "id": "prefix-zurueck",
-    "german": "zurück-",
-    "english": "back",
-    "pos": "prefix",
-    "gender": null,
-    "plural": null,
-    "example_de": "Kannst du mir bitte meinen Stift zurückgeben?",
-    "example_en": "Can you please give me back my pen?",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable. In a main clause the verb stays in second position and zurück- moves to the end. Example verb: zurückgeben.",
-    "verb": null
-  },
-  {
-    "id": "mann",
-    "german": "der Mann",
-    "english": "the man",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "koerper"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "frau",
-    "german": "die Frau",
-    "english": "the woman",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "koerper"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "kind",
-    "german": "das Kind",
-    "english": "the child",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "hund",
-    "german": "der Hund",
-    "english": "the dog",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "katze",
-    "german": "die Katze",
-    "english": "the cat",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "schule",
-    "german": "die Schule",
-    "english": "the school",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "orte"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "tisch",
-    "german": "der Tisch",
-    "english": "the table",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "stuhl",
-    "german": "der Stuhl",
-    "english": "the chair",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "bus",
-    "german": "der Bus",
-    "english": "the bus",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "reise"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "zug",
-    "german": "der Zug",
-    "english": "the train",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "reise"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "haus",
-    "german": "das Haus",
-    "english": "the house",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "fenster",
-    "german": "das Fenster",
-    "english": "the window",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "tuer",
-    "german": "die Tür",
-    "english": "the door",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "apfel",
-    "german": "der Apfel",
-    "english": "the apple",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "banane",
-    "german": "die Banane",
-    "english": "the banana",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "brot",
-    "german": "das Brot",
-    "english": "the bread",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "milch",
-    "german": "die Milch",
-    "english": "the milk",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "wasser",
-    "german": "das Wasser",
-    "english": "the water",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "lehrer",
-    "german": "der Lehrer",
-    "english": "the teacher",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "schuelerin",
-    "german": "die Schülerin",
-    "english": "the pupil",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "arzt",
-    "german": "der Arzt",
-    "english": "the doctor",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "uhr",
-    "german": "die Uhr",
-    "english": "the clock / the watch",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "buch",
-    "german": "das Buch",
-    "english": "the book",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "sonne",
-    "german": "die Sonne",
-    "english": "the sun",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "mond",
-    "german": "der Mond",
-    "english": "the moon",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "stern",
-    "german": "der Stern",
-    "english": "the star",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "blume",
-    "german": "die Blume",
-    "english": "the flower",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "baum",
-    "german": "der Baum",
-    "english": "the tree",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "schueler",
-    "german": "der Schüler",
-    "english": "the pupil",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "freund",
-    "german": "der Freund",
-    "english": "the friend",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "eltern",
-    "german": "die Eltern",
-    "english": "the parents",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": "Plural-only noun.",
-    "verb": null
-  },
-  {
-    "id": "familie",
-    "german": "die Familie",
-    "english": "the family",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "vogel",
-    "german": "der Vogel",
-    "english": "the bird",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "schwimmbad",
-    "german": "das Schwimmbad",
-    "english": "the swimming pool",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "orte"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "park",
-    "german": "der Park",
-    "english": "the park",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "orte"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "spiel",
-    "german": "das Spiel",
-    "english": "the game",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "lehrerin",
-    "german": "die Lehrerin",
-    "english": "the teacher",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "klasse",
-    "german": "die Klasse",
-    "english": "the class",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "maedchen",
-    "german": "das Mädchen",
-    "english": "the girl",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "koerper",
-      "genus"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "junge",
-    "german": "der Junge",
-    "english": "the boy",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "koerper"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "tier",
-    "german": "das Tier",
-    "english": "the animal",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "schwester",
-    "german": "die Schwester",
-    "english": "the sister",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "tasche",
-    "german": "die Tasche",
-    "english": "the bag",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "einkaufen",
-      "genus"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "saft",
-    "german": "der Saft",
-    "english": "the juice",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "freundin",
-    "german": "die Freundin",
-    "english": "the friend / the girlfriend",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "stift",
-    "german": "der Stift",
-    "english": "the pen",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "fahrrad",
-    "german": "das Fahrrad",
-    "english": "the bicycle",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "reise"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "idee",
-    "german": "die Idee",
-    "english": "the idea",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "schluessel",
-    "german": "der Schlüssel",
-    "english": "the key",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "bruder",
-    "german": "der Bruder",
-    "english": "the brother",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "stadt",
-    "german": "die Stadt",
-    "english": "the city / the town",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "frage",
-    "german": "die Frage",
-    "english": "the question",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "problem",
-    "german": "das Problem",
-    "english": "the problem",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "lehrerzimmer",
-    "german": "das Lehrerzimmer",
-    "english": "the staff room",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "buchladen",
-    "german": "der Buchladen",
-    "english": "the bookshop",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "rucksack",
-    "german": "der Rucksack",
-    "english": "the backpack",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "ball",
-    "german": "der Ball",
-    "english": "the ball",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "supermarkt",
-    "german": "der Supermarkt",
-    "english": "the supermarket / the grocery store",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "orte"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "flughafen",
-    "german": "der Flughafen",
-    "english": "the airport",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "reise",
-      "orte"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "lied",
-    "german": "das Lied",
-    "english": "the song",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "pizza",
-    "german": "die Pizza",
-    "english": "the pizza",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "balkon",
-    "german": "der Balkon",
-    "english": "the balcony",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "job",
-    "german": "der Job",
-    "english": "the job",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "meer",
-    "german": "das Meer",
-    "english": "the sea",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "plan",
-    "german": "der Plan",
-    "english": "the plan",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "zoo",
-    "german": "der Zoo",
-    "english": "the zoo",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "orte"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "geschenk",
-    "german": "das Geschenk",
-    "english": "the present / the gift",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "kaffeemaschine",
-    "german": "die Kaffeemaschine",
-    "english": "the coffee machine",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "fernseher",
-    "german": "der Fernseher",
-    "english": "the television",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "broetchen",
-    "german": "das Brötchen",
-    "english": "the bread roll",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "museum",
-    "german": "das Museum",
-    "english": "the museum",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "orte"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "flugzeug",
-    "german": "das Flugzeug",
-    "english": "the aeroplane",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "reise"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "kartoffel",
-    "german": "die Kartoffel",
-    "english": "the potato",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "bahnhof",
-    "german": "der Bahnhof",
-    "english": "the train station",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "orte"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "u-bahn",
-    "german": "die U-Bahn",
-    "english": "the underground / the subway",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "baeckerei",
-    "german": "die Bäckerei",
-    "english": "the bakery",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung",
-      "wortliste",
-      "orte",
-      "genus"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "uebung",
-    "german": "die Übung",
-    "english": "the exercise",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "tee",
-    "german": "der Tee",
-    "english": "the tea",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "kaffee",
-    "german": "der Kaffee",
-    "english": "the coffee",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "film",
-    "german": "der Film",
-    "english": "the film",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "boot",
-    "german": "das Boot",
-    "english": "the boat",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "zeit",
-    "german": "die Zeit",
-    "english": "the time",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "elefant",
-    "german": "der Elefant",
-    "english": "the elephant",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "eis",
-    "german": "das Eis",
-    "english": "the ice cream / the ice",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "hut",
-    "german": "der Hut",
-    "english": "the hat",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "hilfe",
-    "german": "die Hilfe",
-    "english": "the help",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "messer",
-    "german": "das Messer",
-    "english": "the knife",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "tomate",
-    "german": "die Tomate",
-    "english": "the tomato",
-    "pos": "noun",
-    "gender": "die",
-    "plural": "Tomaten",
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "student",
-    "german": "der Student",
-    "english": "the student",
-    "pos": "noun",
-    "gender": "der",
-    "plural": "Studenten",
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "handy",
-    "german": "das Handy",
-    "english": "the mobile phone",
-    "pos": "noun",
-    "gender": "das",
-    "plural": "Handys",
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": null,
-    "verb": null
-  },
-  {
-    "id": "geschwister",
-    "german": "die Geschwister",
-    "english": "the siblings",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "artikel-uebung"
-    ],
-    "notes": "Plural-only noun.",
-    "verb": null
-  },
-  {
     "id": "ja",
     "german": "ja",
     "english": "yes",
@@ -5000,6 +635,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5017,6 +653,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5034,6 +671,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5051,6 +689,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5068,6 +707,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5085,6 +725,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5102,6 +743,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5119,6 +761,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5136,6 +779,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5160,7 +804,7 @@
     "verb": null
   },
   {
-    "id": "hilfe-2",
+    "id": "hilfe",
     "german": "Hilfe!",
     "english": "Help!",
     "pos": "phrase",
@@ -5187,6 +831,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5194,7 +839,7 @@
     "verb": null
   },
   {
-    "id": "gesundheit-2",
+    "id": "gesundheit",
     "german": "Gesundheit!",
     "english": "Bless you!",
     "pos": "phrase",
@@ -5238,6 +883,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5255,6 +901,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5272,6 +919,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5289,6 +937,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "alltag"
     ],
@@ -5306,6 +955,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "vorstellen"
     ],
@@ -5323,6 +973,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "vorstellen"
     ],
@@ -5340,6 +991,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "vorstellen"
     ],
@@ -5357,6 +1009,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "vorstellen"
     ],
@@ -5374,6 +1027,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "vorstellen"
     ],
@@ -5408,6 +1062,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "vorstellen"
     ],
@@ -5425,6 +1080,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "vorstellen"
     ],
@@ -5459,6 +1115,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "vorstellen"
     ],
@@ -5612,6 +1269,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "begruessung"
     ],
@@ -5629,6 +1287,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "begruessung"
     ],
@@ -5646,6 +1305,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "begruessung"
     ],
@@ -5663,6 +1323,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "begruessung"
     ],
@@ -5680,6 +1341,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "begruessung"
     ],
@@ -5697,6 +1359,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "begruessung"
     ],
@@ -5714,6 +1377,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "begruessung"
     ],
@@ -5731,6 +1395,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "begruessung"
     ],
@@ -5748,6 +1413,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "begruessung"
     ],
@@ -5765,6 +1431,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "begruessung"
     ],
@@ -5918,6 +1585,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "reise"
     ],
@@ -5935,6 +1603,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "reise"
     ],
@@ -5952,6 +1621,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "reise",
       "zeit"
@@ -6045,6 +1715,25 @@
     "verb": null
   },
   {
+    "id": "flughafen",
+    "german": "der Flughafen",
+    "english": "the airport",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "reise",
+      "orte"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
     "id": "hafen",
     "german": "der Hafen",
     "english": "the port",
@@ -6079,9 +1768,61 @@
     "verb": null
   },
   {
+    "id": "flugzeug",
+    "german": "das Flugzeug",
+    "english": "the aeroplane",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "wortliste",
+      "reise"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "zug",
+    "german": "der Zug",
+    "english": "the train",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "reise"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
     "id": "schiff",
     "german": "das Schiff",
     "english": "the ship",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "wortliste",
+      "reise"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "fahrrad",
+    "german": "das Fahrrad",
+    "english": "the bike",
     "pos": "noun",
     "gender": "das",
     "plural": null,
@@ -6106,6 +1847,24 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "wortliste",
+      "reise"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "bus",
+    "german": "der Bus",
+    "english": "the bus",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
       "wortliste",
       "reise"
     ],
@@ -6195,6 +1954,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "wegbeschreibung"
     ],
@@ -6212,6 +1972,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "wegbeschreibung"
     ],
@@ -6229,6 +1990,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "wegbeschreibung"
     ],
@@ -6246,6 +2008,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "wegbeschreibung"
     ],
@@ -6314,6 +2077,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "wegbeschreibung"
     ],
@@ -6348,6 +2112,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "wegbeschreibung"
     ],
@@ -6543,6 +2308,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6560,6 +2326,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6577,6 +2344,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6594,6 +2362,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6628,6 +2397,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6645,6 +2415,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6662,6 +2433,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6679,6 +2451,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6696,6 +2469,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6713,6 +2487,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6764,6 +2539,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6781,6 +2557,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6798,6 +2575,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6815,6 +2593,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6832,6 +2611,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6849,6 +2629,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -6866,6 +2647,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zeit"
     ],
@@ -7196,6 +2978,24 @@
     "verb": null
   },
   {
+    "id": "supermarkt",
+    "german": "der Supermarkt",
+    "english": "the grocery store / the supermarket",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "orte"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
     "id": "krankenhaus",
     "german": "das Krankenhaus",
     "english": "the hospital",
@@ -7240,6 +3040,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "orte"
     ],
@@ -7308,6 +3109,24 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
+      "wortliste",
+      "orte"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "baeckerei",
+    "german": "die Bäckerei",
+    "english": "the bakery",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
       "wortliste",
       "orte"
     ],
@@ -7349,11 +3168,45 @@
     "verb": null
   },
   {
+    "id": "kino",
+    "german": "das Kino",
+    "english": "the cinema",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "wortliste",
+      "orte"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
     "id": "tankstelle",
     "german": "die Tankstelle",
     "english": "the gas station",
     "pos": "noun",
     "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "wortliste",
+      "orte"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "museum",
+    "german": "das Museum",
+    "english": "the museum",
+    "pos": "noun",
+    "gender": "das",
     "plural": null,
     "example_de": null,
     "example_en": null,
@@ -7383,6 +3236,24 @@
     "verb": null
   },
   {
+    "id": "schule",
+    "german": "die Schule",
+    "english": "the school",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "orte"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
     "id": "platz",
     "german": "der Platz",
     "english": "the square",
@@ -7393,6 +3264,41 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "wortliste",
+      "orte"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "zoo",
+    "german": "der Zoo",
+    "english": "the zoo",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "wortliste",
+      "orte"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "bahnhof",
+    "german": "der Bahnhof",
+    "english": "the train station",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
       "wortliste",
       "orte"
     ],
@@ -7439,6 +3345,23 @@
     "english": "the shopping mall",
     "pos": "noun",
     "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "wortliste",
+      "orte"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "park",
+    "german": "der Park",
+    "english": "the park",
+    "pos": "noun",
+    "gender": "der",
     "plural": null,
     "example_de": null,
     "example_en": null,
@@ -7621,6 +3544,23 @@
     "verb": null
   },
   {
+    "id": "schwimmbad",
+    "german": "das Schwimmbad",
+    "english": "the swimming pool",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "wortliste",
+      "orte"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
     "id": "theater",
     "german": "das Theater",
     "english": "the theater",
@@ -7750,6 +3690,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "einkaufen"
     ],
@@ -7767,6 +3708,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "einkaufen"
     ],
@@ -7801,6 +3743,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "einkaufen"
     ],
@@ -7839,6 +3782,23 @@
       "einkaufen"
     ],
     "notes": "The list gives \"Trolley / Warenkorb\".",
+    "verb": null
+  },
+  {
+    "id": "tasche",
+    "german": "die Tasche",
+    "english": "the bag",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "wortliste",
+      "einkaufen"
+    ],
+    "notes": null,
     "verb": null
   },
   {
@@ -8090,6 +4050,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "restaurant"
     ],
@@ -8107,6 +4068,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "restaurant"
     ],
@@ -8124,6 +4086,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "restaurant"
     ],
@@ -8141,6 +4104,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "restaurant"
     ],
@@ -8345,6 +4309,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "hotel"
     ],
@@ -8685,6 +4650,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -8702,6 +4668,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -8719,6 +4686,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -8736,6 +4704,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -8753,6 +4722,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -8770,6 +4740,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -8787,6 +4758,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -8804,6 +4776,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -8821,6 +4794,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -8838,6 +4812,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -8855,6 +4830,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -8872,6 +4848,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -9008,6 +4985,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -9025,6 +5003,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -9042,6 +5021,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -9059,6 +5039,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -9076,6 +5057,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -9093,6 +5075,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -9110,6 +5093,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -9127,6 +5111,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -9144,6 +5129,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -9178,6 +5164,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "zahlen"
     ],
@@ -9365,6 +5352,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -9381,6 +5369,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -9397,6 +5386,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -9413,6 +5403,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -9429,6 +5420,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -9445,6 +5437,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -9461,6 +5454,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -9477,7 +5471,78 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "mann",
+    "german": "der Mann",
+    "english": "the man",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "koerper"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "frau",
+    "german": "die Frau",
+    "english": "the woman",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "koerper"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "junge",
+    "german": "der Junge",
+    "english": "the boy",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "wortliste",
+      "koerper"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "maedchen",
+    "german": "das Mädchen",
+    "english": "the girl",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "wortliste",
+      "koerper"
     ],
     "notes": null,
     "verb": null
@@ -9510,6 +5575,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "koerper"
     ],
@@ -9578,6 +5644,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "koerper"
     ],
@@ -9813,6 +5880,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -9829,6 +5897,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -9845,6 +5914,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -9877,6 +5947,23 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "wortliste"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "kind",
+    "german": "das Kind",
+    "english": "the child",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -9931,6 +6018,72 @@
     "verb": null
   },
   {
+    "id": "mond",
+    "german": "der Mond",
+    "english": "the moon",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "wortliste"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "sonne",
+    "german": "die Sonne",
+    "english": "the sun",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "wortliste"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "auto",
+    "german": "das Auto",
+    "english": "the car",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "buch",
+    "german": "das Buch",
+    "english": "the book",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
     "id": "welt",
     "german": "die Welt",
     "english": "the world",
@@ -9941,6 +6094,40 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "wortliste"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "familie",
+    "german": "die Familie",
+    "english": "the family",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "freund",
+    "german": "der Freund",
+    "english": "the friend",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -9963,6 +6150,31 @@
     "verb": null
   },
   {
+    "id": "bekommen",
+    "german": "bekommen",
+    "english": "to get",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "untrennbar"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "bekam",
+      "partizip_ii": "bekommen"
+    }
+  },
+  {
     "id": "geben",
     "german": "geben",
     "english": "to give",
@@ -9973,6 +6185,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "untrennbar"
     ],
@@ -9997,6 +6210,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10020,6 +6234,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10043,6 +6258,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10066,6 +6282,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "untrennbar"
     ],
@@ -10090,6 +6307,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "untrennbar"
     ],
@@ -10114,6 +6332,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10137,6 +6356,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10160,6 +6380,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10183,6 +6404,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10206,6 +6428,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10229,6 +6452,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10252,6 +6476,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10275,6 +6500,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10298,6 +6524,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10321,6 +6548,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "untrennbar"
     ],
@@ -10345,6 +6573,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10368,6 +6597,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "untrennbar"
     ],
@@ -10382,6 +6612,31 @@
     }
   },
   {
+    "id": "anrufen",
+    "german": "anrufen",
+    "english": "to call",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "trennbar"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": true,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "rief an",
+      "partizip_ii": "angerufen"
+    }
+  },
+  {
     "id": "arbeiten",
     "german": "arbeiten",
     "english": "to work",
@@ -10392,6 +6647,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10415,6 +6671,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10438,6 +6695,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10451,6 +6709,31 @@
     }
   },
   {
+    "id": "beginnen",
+    "german": "beginnen",
+    "english": "to begin",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "untrennbar"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "begann",
+      "partizip_ii": "begonnen"
+    }
+  },
+  {
     "id": "lesen",
     "german": "lesen",
     "english": "to read",
@@ -10461,6 +6744,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10484,6 +6768,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10507,6 +6792,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10530,6 +6816,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10553,6 +6840,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10576,6 +6864,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10599,6 +6888,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10622,6 +6912,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10635,6 +6926,31 @@
     }
   },
   {
+    "id": "verstehen",
+    "german": "verstehen",
+    "english": "to understand",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "untrennbar"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "verstand",
+      "partizip_ii": "verstanden"
+    }
+  },
+  {
     "id": "lernen",
     "german": "lernen",
     "english": "to learn",
@@ -10645,6 +6961,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10668,6 +6985,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste",
       "untrennbar"
     ],
@@ -10692,6 +7010,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10715,6 +7034,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10728,6 +7048,56 @@
     }
   },
   {
+    "id": "erklaeren",
+    "german": "erklären",
+    "english": "to explain",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "untrennbar"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "erklärte",
+      "partizip_ii": "erklärt"
+    }
+  },
+  {
+    "id": "vergessen",
+    "german": "vergessen",
+    "english": "to forget",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "untrennbar"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "vergaß",
+      "partizip_ii": "vergessen"
+    }
+  },
+  {
     "id": "hoffen",
     "german": "hoffen",
     "english": "to hope",
@@ -10738,6 +7108,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10761,6 +7132,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10784,6 +7156,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10797,6 +7170,31 @@
     }
   },
   {
+    "id": "verlassen",
+    "german": "verlassen",
+    "english": "to leave",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "essentials",
+      "wortliste",
+      "untrennbar"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "verließ",
+      "partizip_ii": "verlassen"
+    }
+  },
+  {
     "id": "lassen",
     "german": "lassen",
     "english": "to let",
@@ -10807,6 +7205,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10830,6 +7229,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10853,6 +7253,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10885,6 +7286,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10901,6 +7303,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10917,6 +7320,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10933,6 +7337,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10965,6 +7370,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -10981,6 +7387,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11013,6 +7420,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11077,6 +7485,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11093,6 +7502,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11173,6 +7583,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11189,6 +7600,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11205,6 +7617,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11221,6 +7634,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11461,6 +7875,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11509,6 +7924,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11525,6 +7941,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11541,6 +7958,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11557,6 +7975,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11573,6 +7992,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11589,6 +8009,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11749,6 +8170,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11765,6 +8187,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11829,6 +8252,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11845,6 +8269,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11861,6 +8286,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11909,6 +8335,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11925,6 +8352,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11941,6 +8369,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -11973,6 +8402,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -12069,6 +8499,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -12101,6 +8532,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -12117,6 +8549,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -12133,6 +8566,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -12149,6 +8583,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -12197,6 +8632,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -12229,6 +8665,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -12245,6 +8682,7 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
@@ -12277,889 +8715,10 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
+      "essentials",
       "wortliste"
     ],
     "notes": null,
-    "verb": null
-  },
-  {
-    "id": "rentner",
-    "german": "der Rentner",
-    "english": "the pensioner",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -er → der.",
-    "verb": null
-  },
-  {
-    "id": "schuetzling",
-    "german": "der Schützling",
-    "english": "the protégé",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ling → der.",
-    "verb": null
-  },
-  {
-    "id": "schmetterling",
-    "german": "der Schmetterling",
-    "english": "the butterfly",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ling → der.",
-    "verb": null
-  },
-  {
-    "id": "reaktor",
-    "german": "der Reaktor",
-    "english": "the reactor",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -or → der.",
-    "verb": null
-  },
-  {
-    "id": "professor",
-    "german": "der Professor",
-    "english": "the professor",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -or → der.",
-    "verb": null
-  },
-  {
-    "id": "journalist",
-    "german": "der Journalist",
-    "english": "the journalist",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ist → der.",
-    "verb": null
-  },
-  {
-    "id": "pazifist",
-    "german": "der Pazifist",
-    "english": "the pacifist",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ist → der.",
-    "verb": null
-  },
-  {
-    "id": "kapitalismus",
-    "german": "der Kapitalismus",
-    "english": "the capitalism",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ismus → der.",
-    "verb": null
-  },
-  {
-    "id": "mechanismus",
-    "german": "der Mechanismus",
-    "english": "the mechanism",
-    "pos": "noun",
-    "gender": "der",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ismus → der.",
-    "verb": null
-  },
-  {
-    "id": "ente",
-    "german": "die Ente",
-    "english": "the duck",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -e → die.",
-    "verb": null
-  },
-  {
-    "id": "fahrt",
-    "german": "die Fahrt",
-    "english": "the journey / the ride",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -t → die.",
-    "verb": null
-  },
-  {
-    "id": "tat",
-    "german": "die Tat",
-    "english": "the deed",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -t → die.",
-    "verb": null
-  },
-  {
-    "id": "nacht",
-    "german": "die Nacht",
-    "english": "the night",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -t → die.",
-    "verb": null
-  },
-  {
-    "id": "waescherei",
-    "german": "die Wäscherei",
-    "english": "the laundry",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ei → die.",
-    "verb": null
-  },
-  {
-    "id": "psychologie",
-    "german": "die Psychologie",
-    "english": "the psychology",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ie → die.",
-    "verb": null
-  },
-  {
-    "id": "arterie",
-    "german": "die Arterie",
-    "english": "the artery",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ie → die.",
-    "verb": null
-  },
-  {
-    "id": "prinzessin",
-    "german": "die Prinzessin",
-    "english": "the princess",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -in → die.",
-    "verb": null
-  },
-  {
-    "id": "rztin",
-    "german": "die Ärztin",
-    "english": "the female doctor",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -in → die.",
-    "verb": null
-  },
-  {
-    "id": "freundschaft",
-    "german": "die Freundschaft",
-    "english": "the friendship",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -schaft → die.",
-    "verb": null
-  },
-  {
-    "id": "mannschaft",
-    "german": "die Mannschaft",
-    "english": "the team",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -schaft → die.",
-    "verb": null
-  },
-  {
-    "id": "gelegenheit",
-    "german": "die Gelegenheit",
-    "english": "the opportunity",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -heit → die.",
-    "verb": null
-  },
-  {
-    "id": "schnelligkeit",
-    "german": "die Schnelligkeit",
-    "english": "the speed",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -keit → die.",
-    "verb": null
-  },
-  {
-    "id": "umleitung",
-    "german": "die Umleitung",
-    "english": "the diversion / the detour",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ung → die.",
-    "verb": null
-  },
-  {
-    "id": "diskussion",
-    "german": "die Diskussion",
-    "english": "the discussion",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ion → die.",
-    "verb": null
-  },
-  {
-    "id": "tradition",
-    "german": "die Tradition",
-    "english": "the tradition",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ion → die.",
-    "verb": null
-  },
-  {
-    "id": "agentur",
-    "german": "die Agentur",
-    "english": "the agency",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ur → die.",
-    "verb": null
-  },
-  {
-    "id": "manufaktur",
-    "german": "die Manufaktur",
-    "english": "the manufactory",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ur → die.",
-    "verb": null
-  },
-  {
-    "id": "physik",
-    "german": "die Physik",
-    "english": "the physics",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ik → die.",
-    "verb": null
-  },
-  {
-    "id": "metrik",
-    "german": "die Metrik",
-    "english": "the metric",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ik → die.",
-    "verb": null
-  },
-  {
-    "id": "akzeptanz",
-    "german": "die Akzeptanz",
-    "english": "the acceptance",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -anz → die.",
-    "verb": null
-  },
-  {
-    "id": "ignoranz",
-    "german": "die Ignoranz",
-    "english": "the ignorance",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -anz → die.",
-    "verb": null
-  },
-  {
-    "id": "qualitaet",
-    "german": "die Qualität",
-    "english": "the quality",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -tät → die.",
-    "verb": null
-  },
-  {
-    "id": "fakultaet",
-    "german": "die Fakultät",
-    "english": "the faculty",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -tät → die.",
-    "verb": null
-  },
-  {
-    "id": "parade",
-    "german": "die Parade",
-    "english": "the parade",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ade → die.",
-    "verb": null
-  },
-  {
-    "id": "marmelade",
-    "german": "die Marmelade",
-    "english": "the jam",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ade → die.",
-    "verb": null
-  },
-  {
-    "id": "praesenz",
-    "german": "die Präsenz",
-    "english": "the presence",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -enz → die.",
-    "verb": null
-  },
-  {
-    "id": "tendenz",
-    "german": "die Tendenz",
-    "english": "the tendency / the trend",
-    "pos": "noun",
-    "gender": "die",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -enz → die.",
-    "verb": null
-  },
-  {
-    "id": "heftchen",
-    "german": "das Heftchen",
-    "english": "the booklet",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -chen → das.",
-    "verb": null
-  },
-  {
-    "id": "kindlein",
-    "german": "das Kindlein",
-    "english": "the little child",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -lein → das.",
-    "verb": null
-  },
-  {
-    "id": "baechlein",
-    "german": "das Bächlein",
-    "english": "the little brook",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -lein → das.",
-    "verb": null
-  },
-  {
-    "id": "publikum",
-    "german": "das Publikum",
-    "english": "the audience",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -um → das.",
-    "verb": null
-  },
-  {
-    "id": "zentrum",
-    "german": "das Zentrum",
-    "english": "the centre",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -um → das.",
-    "verb": null
-  },
-  {
-    "id": "zeugnis",
-    "german": "das Zeugnis",
-    "english": "the certificate / the report card",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -nis → das.",
-    "verb": null
-  },
-  {
-    "id": "ergebnis",
-    "german": "das Ergebnis",
-    "english": "the result",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -nis → das.",
-    "verb": null
-  },
-  {
-    "id": "altertum",
-    "german": "das Altertum",
-    "english": "the antiquity",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -tum → das.",
-    "verb": null
-  },
-  {
-    "id": "datum",
-    "german": "das Datum",
-    "english": "the date",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -tum → das.",
-    "verb": null
-  },
-  {
-    "id": "instrument",
-    "german": "das Instrument",
-    "english": "the instrument",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ment → das.",
-    "verb": null
-  },
-  {
-    "id": "parlament",
-    "german": "das Parlament",
-    "english": "the parliament",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Gender-by-suffix example: -ment → das.",
-    "verb": null
-  },
-  {
-    "id": "gehoelz",
-    "german": "das Gehölz",
-    "english": "the copse",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Nouns with the prefix Ge- are often neuter (das).",
-    "verb": null
-  },
-  {
-    "id": "gefluegel",
-    "german": "das Geflügel",
-    "english": "the poultry",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Nouns with the prefix Ge- are often neuter (das).",
-    "verb": null
-  },
-  {
-    "id": "gemuese",
-    "german": "das Gemüse",
-    "english": "the vegetables",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Nouns with the prefix Ge- are often neuter (das).",
-    "verb": null
-  },
-  {
-    "id": "geraeusch",
-    "german": "das Geräusch",
-    "english": "the noise",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Nouns with the prefix Ge- are often neuter (das).",
-    "verb": null
-  },
-  {
-    "id": "gestoeber",
-    "german": "das Gestöber",
-    "english": "the flurry",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Nouns with the prefix Ge- are often neuter (das).",
-    "verb": null
-  },
-  {
-    "id": "gebet",
-    "german": "das Gebet",
-    "english": "the prayer",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Nouns with the prefix Ge- are often neuter (das).",
-    "verb": null
-  },
-  {
-    "id": "geruest",
-    "german": "das Gerüst",
-    "english": "the scaffolding",
-    "pos": "noun",
-    "gender": "das",
-    "plural": null,
-    "example_de": null,
-    "example_en": null,
-    "lesson": 2,
-    "tags": [
-      "genus"
-    ],
-    "notes": "Nouns with the prefix Ge- are often neuter (das).",
     "verb": null
   }
 ]

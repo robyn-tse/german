@@ -6,6 +6,7 @@ import { getCollection } from 'astro:content';
 import { POS_LABEL, POS_ORDER, splitArticle } from '../lib/vocab';
 
 const entries = (await getCollection('vocab')).map((v) => v.data);
+const essentials = entries.filter((e) => e.tags.includes('essentials')).length;
 const lessons = [...new Set(entries.map((e) => e.lesson))].sort((a, b) => a - b);
 const tags = [...new Set(entries.flatMap((e) => e.tags))].sort();
 const posList = POS_ORDER.filter((p) => entries.some((e) => e.pos === p));
@@ -14,7 +15,7 @@ const fold = (s: string) =>
   s.toLowerCase().replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 'ss');
 ---
 <Base title="Vocab">
-  <h1>Vocab <span class="muted small" id="count">{entries.length}</span></h1>
+  <h1>Vocab <span class="muted small" id="count">{essentials}</span></h1>
 
   <form class="filters" id="filters" role="search" aria-label="Filter vocabulary">
     <input type="search" name="q" id="q" placeholder="Search German or English…" autocomplete="off" aria-label="Search" />
@@ -34,8 +35,9 @@ const fold = (s: string) =>
     </select>
     <select name="tag" id="f-tag" aria-label="Tag">
       <option value="">All tags</option>
-      {tags.map((t) => <option value={t}>{t}</option>)}
+      {tags.filter((t) => t !== 'essentials').map((t) => <option value={t}>{t}</option>)}
     </select>
+    <label class="toggle"><input type="checkbox" name="essentials" id="f-essentials" checked /> Essentials only <span class="muted">({essentials} of {entries.length})</span></label>
     <button type="reset" class="btn" id="reset">Clear</button>
   </form>
 
@@ -134,6 +136,7 @@ const fold = (s: string) =>
 
   function apply() {
     const needle = fold(q.value);
+    const ess = (document.getElementById('f-essentials') as HTMLInputElement).checked;
     const f = {
       lesson: selects.lesson.value,
       pos: selects.pos.value,
@@ -144,6 +147,7 @@ const fold = (s: string) =>
     for (const el of entries) {
       const d = el.dataset;
       const ok =
+        (!ess || d.tags!.split(' ').includes('essentials')) &&
         (!needle || d.search!.includes(needle)) &&
         (!f.lesson || d.lesson === f.lesson) &&
         (!f.pos || d.pos === f.pos) &&
@@ -159,6 +163,7 @@ const fold = (s: string) =>
     const params = new URLSearchParams();
     if (q.value) params.set('q', q.value);
     for (const [k, v] of Object.entries(f)) if (v) params.set(k, v);
+    if (!ess) params.set('all', '1');
     const qs = params.toString();
     history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
   }
@@ -202,10 +207,11 @@ const fold = (s: string) =>
   const init = new URLSearchParams(location.search);
   if (init.get('q')) q.value = init.get('q')!;
   for (const [k, sel] of Object.entries(selects)) if (init.get(k)) sel.value = init.get(k)!;
+  if (init.get('all')) (document.getElementById('f-essentials') as HTMLInputElement).checked = false;
 
   form.addEventListener('input', apply);
   form.addEventListener('submit', (e) => e.preventDefault());
-  form.addEventListener('reset', () => setTimeout(apply, 0));
+  form.addEventListener('reset', () => setTimeout(() => { (document.getElementById('f-essentials') as HTMLInputElement).checked = true; apply(); }, 0));
   sort();
   apply();
 </script>
@@ -218,6 +224,8 @@ const fold = (s: string) =>
   }
   .filters input[type="search"] { flex: 1 1 14rem; }
   .filters select { flex: 1 1 8rem; }
+  .toggle { display: inline-flex; align-items: center; gap: 0.4rem; min-height: 2.5rem; font-size: 0.95rem; }
+  .toggle input { accent-color: var(--accent); width: 1.1rem; height: 1.1rem; }
 
   .table-wrap { overflow-x: auto; }
   table.vocab { width: 100%; border-collapse: collapse; }

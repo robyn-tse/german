@@ -1,0 +1,580 @@
+[
+  {
+    "id": "suffix-e",
+    "suffix": "-e",
+    "gender": "die",
+    "examples": [
+      "die Tasche",
+      "die Ente",
+      "die Lampe",
+      "die Sprache"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Common but not absolute: der Name, der Junge, das Auge.",
+    "weak": false
+  },
+  {
+    "id": "suffix-t",
+    "suffix": "-t",
+    "gender": "die",
+    "examples": [
+      "die Fahrt",
+      "die Tat",
+      "die Nacht"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": true
+  },
+  {
+    "id": "suffix-ei",
+    "suffix": "-ei",
+    "gender": "die",
+    "examples": [
+      "die Wäscherei",
+      "die Bäckerei"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-ie",
+    "suffix": "-ie",
+    "gender": "die",
+    "examples": [
+      "die Psychologie",
+      "die Arterie",
+      "die Astronomie",
+      "die Garantie"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-in",
+    "suffix": "-in",
+    "gender": "die",
+    "examples": [
+      "die Prinzessin",
+      "die Ärztin"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Female persons and professions.",
+    "weak": false
+  },
+  {
+    "id": "suffix-schaft",
+    "suffix": "-schaft",
+    "gender": "die",
+    "examples": [
+      "die Freundschaft",
+      "die Mannschaft",
+      "die Wirtschaft",
+      "die Schwangerschaft"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-heit",
+    "suffix": "-heit",
+    "gender": "die",
+    "examples": [
+      "die Gelegenheit",
+      "die Freiheit",
+      "die Gesundheit",
+      "die Krankheit"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-keit",
+    "suffix": "-keit",
+    "gender": "die",
+    "examples": [
+      "die Schnelligkeit",
+      "die Möglichkeit",
+      "die Schwierigkeit",
+      "die Einsamkeit"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-ung",
+    "suffix": "-ung",
+    "gender": "die",
+    "examples": [
+      "die Zeitung",
+      "die Umleitung",
+      "die Wohnung",
+      "die Bewegung",
+      "die Umgebung"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-ion",
+    "suffix": "-ion",
+    "gender": "die",
+    "examples": [
+      "die Diskussion",
+      "die Tradition",
+      "die Nation"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Foreign-word ending.",
+    "weak": false
+  },
+  {
+    "id": "suffix-age",
+    "suffix": "-age",
+    "gender": "die",
+    "examples": [
+      "die Garage",
+      "die Passage"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Foreign-word ending.",
+    "weak": false
+  },
+  {
+    "id": "suffix-ur",
+    "suffix": "-ur",
+    "gender": "die",
+    "examples": [
+      "die Agentur",
+      "die Manufaktur"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Foreign-word ending.",
+    "weak": false
+  },
+  {
+    "id": "suffix-ik",
+    "suffix": "-ik",
+    "gender": "die",
+    "examples": [
+      "die Physik",
+      "die Metrik",
+      "die Statistik",
+      "die Politik"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Foreign-word ending.",
+    "weak": false
+  },
+  {
+    "id": "suffix-anz",
+    "suffix": "-anz",
+    "gender": "die",
+    "examples": [
+      "die Akzeptanz",
+      "die Ignoranz",
+      "die Arroganz",
+      "die Dominanz"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Foreign-word ending.",
+    "weak": false
+  },
+  {
+    "id": "suffix-taet",
+    "suffix": "-tät",
+    "gender": "die",
+    "examples": [
+      "die Qualität",
+      "die Fakultät"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Foreign-word ending.",
+    "weak": false
+  },
+  {
+    "id": "suffix-ade",
+    "suffix": "-ade",
+    "gender": "die",
+    "examples": [
+      "die Parade",
+      "die Marmelade"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Foreign-word ending.",
+    "weak": false
+  },
+  {
+    "id": "suffix-enz",
+    "suffix": "-enz",
+    "gender": "die",
+    "examples": [
+      "die Präsenz",
+      "die Tendenz",
+      "die Differenz",
+      "die Potenz"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Foreign-word ending.",
+    "weak": false
+  },
+  {
+    "id": "suffix-er",
+    "suffix": "-er",
+    "gender": "der",
+    "examples": [
+      "der Rentner",
+      "der Drucker",
+      "der Computer",
+      "der Pfeffer",
+      "der Klempner"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Especially tools, machines and doers.",
+    "weak": true
+  },
+  {
+    "id": "suffix-ling",
+    "suffix": "-ling",
+    "gender": "der",
+    "examples": [
+      "der Schützling",
+      "der Schmetterling",
+      "der Frühling",
+      "der Liebling"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-or",
+    "suffix": "-or",
+    "gender": "der",
+    "examples": [
+      "der Reaktor",
+      "der Professor"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-ist",
+    "suffix": "-ist",
+    "gender": "der",
+    "examples": [
+      "der Journalist",
+      "der Pazifist",
+      "der Polizist"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Female form takes -in: die Polizistin.",
+    "weak": false
+  },
+  {
+    "id": "suffix-ismus",
+    "suffix": "-ismus",
+    "gender": "der",
+    "examples": [
+      "der Kapitalismus",
+      "der Mechanismus",
+      "der Optimismus"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-chen",
+    "suffix": "-chen",
+    "gender": "das",
+    "examples": [
+      "das Mädchen",
+      "das Heftchen",
+      "das Kaninchen"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Diminutive.",
+    "weak": false
+  },
+  {
+    "id": "suffix-lein",
+    "suffix": "-lein",
+    "gender": "das",
+    "examples": [
+      "das Kindlein",
+      "das Bächlein"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Diminutive.",
+    "weak": false
+  },
+  {
+    "id": "suffix-um",
+    "suffix": "-um",
+    "gender": "das",
+    "examples": [
+      "das Publikum",
+      "das Zentrum",
+      "das Studium"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-nis",
+    "suffix": "-nis",
+    "gender": "das",
+    "examples": [
+      "das Zeugnis",
+      "das Ergebnis",
+      "das Gefängnis",
+      "das Verhältnis"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-tum",
+    "suffix": "-tum",
+    "gender": "das",
+    "examples": [
+      "das Altertum",
+      "das Datum",
+      "das Schrifttum"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-ment",
+    "suffix": "-ment",
+    "gender": "das",
+    "examples": [
+      "das Instrument",
+      "das Parlament",
+      "das Dokument"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "But der Moment.",
+    "weak": false
+  },
+  {
+    "id": "suffix-o",
+    "suffix": "-o",
+    "gender": "das",
+    "examples": [
+      "das Radio",
+      "das Kino",
+      "das Auto"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "prefix-ge",
+    "suffix": "Ge-",
+    "gender": "das",
+    "examples": [
+      "das Gehölz",
+      "das Gemüse",
+      "das Geräusch",
+      "das Gebet"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Prefix, not a suffix: collective nouns and nouns formed from verbs are often neuter.",
+    "weak": false
+  },
+  {
+    "id": "suffix-ant",
+    "suffix": "-ant",
+    "gender": "der",
+    "examples": [
+      "der Praktikant",
+      "der Diamant"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-ent",
+    "suffix": "-ent",
+    "gender": "der",
+    "examples": [
+      "der Student",
+      "der Produzent"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "But -ment → das (das Dokument).",
+    "weak": false
+  },
+  {
+    "id": "suffix-ich",
+    "suffix": "-ich",
+    "gender": "der",
+    "examples": [
+      "der Teppich",
+      "der Pfirsich"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-ast",
+    "suffix": "-ast",
+    "gender": "der",
+    "examples": [
+      "der Ballast",
+      "der Kontrast"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  },
+  {
+    "id": "suffix-ma",
+    "suffix": "-ma",
+    "gender": "das",
+    "examples": [
+      "das Thema",
+      "das Charisma"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Exceptions: die Firma, die Oma.",
+    "weak": false
+  },
+  {
+    "id": "suffix-em",
+    "suffix": "-em",
+    "gender": "das",
+    "examples": [
+      "das System",
+      "das Tandem",
+      "das Problem"
+    ],
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": null,
+    "weak": false
+  }
+]

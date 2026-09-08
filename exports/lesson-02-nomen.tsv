@@ -1,137 +1,32 @@
 #separator:tab
 #html:false
 #columns:Front	Back	Tags
-die Lampe	the lamp	lesson2::nomen lesson2::genus
-die Sprache	the language	lesson2::nomen lesson2::genus
-die Nation	the nation	lesson2::nomen lesson2::genus
-die Region	the region	lesson2::nomen lesson2::genus
-die Garage	the garage	lesson2::nomen lesson2::genus
-die Passage	the passage	lesson2::nomen lesson2::genus
-die Wirtschaft	the economy	lesson2::nomen lesson2::genus
-die Gesellschaft	the society / the company	lesson2::nomen lesson2::genus
-die Freiheit	the freedom	lesson2::nomen lesson2::genus
-die Gesundheit	the health	lesson2::nomen lesson2::genus
-die Möglichkeit	the possibility	lesson2::nomen lesson2::genus
-die Schwierigkeit	the difficulty	lesson2::nomen lesson2::genus
-die Zeitung	the newspaper	lesson2::nomen lesson2::genus
-die Wohnung	the apartment / the flat	lesson2::nomen lesson2::genus
-der Drucker	the printer	lesson2::nomen lesson2::genus
-der Computer	the computer	lesson2::nomen lesson2::genus
-das Radio	the radio	lesson2::nomen lesson2::genus
-das Kino	the cinema	lesson2::nomen lesson2::genus
-das Auto	the car	lesson2::nomen lesson2::genus
-der Mann	the man	lesson2::nomen
-die Frau	the woman	lesson2::nomen
-das Kind	the child	lesson2::nomen
-der Hund	the dog	lesson2::nomen
-die Katze	the cat	lesson2::nomen
-die Schule	the school	lesson2::nomen
-der Tisch	the table	lesson2::nomen
-der Stuhl	the chair	lesson2::nomen
-der Bus	the bus	lesson2::nomen
-der Zug	the train	lesson2::nomen
-das Haus	the house	lesson2::nomen
-das Fenster	the window	lesson2::nomen
-die Tür	the door	lesson2::nomen
-der Apfel	the apple	lesson2::nomen
-die Banane	the banana	lesson2::nomen
-das Brot	the bread	lesson2::nomen
-die Milch	the milk	lesson2::nomen
-das Wasser	the water	lesson2::nomen
-der Lehrer	the teacher	lesson2::nomen
-die Schülerin	the pupil	lesson2::nomen
-der Arzt	the doctor	lesson2::nomen
-die Uhr	the clock / the watch	lesson2::nomen
-das Buch	the book	lesson2::nomen
-die Sonne	the sun	lesson2::nomen
-der Mond	the moon	lesson2::nomen
-der Stern	the star	lesson2::nomen
-die Blume	the flower	lesson2::nomen
-der Baum	the tree	lesson2::nomen
-der Schüler	the pupil	lesson2::nomen
-der Freund	the friend	lesson2::nomen
-die Eltern	the parents	lesson2::nomen
-die Familie	the family	lesson2::nomen
-der Vogel	the bird	lesson2::nomen
-das Schwimmbad	the swimming pool	lesson2::nomen
-der Park	the park	lesson2::nomen
-das Spiel	the game	lesson2::nomen
-die Lehrerin	the teacher	lesson2::nomen
-die Klasse	the class	lesson2::nomen
-das Mädchen	the girl	lesson2::nomen lesson2::genus
-der Junge	the boy	lesson2::nomen
-das Tier	the animal	lesson2::nomen
-die Schwester	the sister	lesson2::nomen
-die Tasche	the bag	lesson2::nomen lesson2::genus
-der Saft	the juice	lesson2::nomen
-die Freundin	the friend / the girlfriend	lesson2::nomen
-der Stift	the pen	lesson2::nomen
-das Fahrrad	the bicycle	lesson2::nomen
-die Idee	the idea	lesson2::nomen
-der Schlüssel	the key	lesson2::nomen
-der Bruder	the brother	lesson2::nomen
-die Stadt	the city / the town	lesson2::nomen
-die Frage	the question	lesson2::nomen
-das Problem	the problem	lesson2::nomen
-das Lehrerzimmer	the staff room	lesson2::nomen
-der Buchladen	the bookshop	lesson2::nomen
-der Rucksack	the backpack	lesson2::nomen
-der Ball	the ball	lesson2::nomen
-der Supermarkt	the supermarket / the grocery store	lesson2::nomen
-der Flughafen	the airport	lesson2::nomen
-das Lied	the song	lesson2::nomen
-die Pizza	the pizza	lesson2::nomen
-der Balkon	the balcony	lesson2::nomen
-der Job	the job	lesson2::nomen
-das Meer	the sea	lesson2::nomen
-der Plan	the plan	lesson2::nomen
-der Zoo	the zoo	lesson2::nomen
-das Geschenk	the present / the gift	lesson2::nomen
-die Kaffeemaschine	the coffee machine	lesson2::nomen
-der Fernseher	the television	lesson2::nomen
-das Brötchen	the bread roll	lesson2::nomen
-das Museum	the museum	lesson2::nomen
-das Flugzeug	the aeroplane	lesson2::nomen
-die Kartoffel	the potato	lesson2::nomen
-der Bahnhof	the train station	lesson2::nomen
-die U-Bahn	the underground / the subway	lesson2::nomen
-die Bäckerei	the bakery	lesson2::nomen lesson2::genus
-die Übung	the exercise	lesson2::nomen
-der Tee	the tea	lesson2::nomen
-der Kaffee	the coffee	lesson2::nomen
-der Film	the film	lesson2::nomen
-das Boot	the boat	lesson2::nomen
-die Zeit	the time	lesson2::nomen
-der Elefant	the elephant	lesson2::nomen
-das Eis	the ice cream / the ice	lesson2::nomen
-der Hut	the hat	lesson2::nomen
-die Hilfe	the help	lesson2::nomen
-das Messer	the knife	lesson2::nomen
-die Tomate	the tomato	lesson2::nomen
-der Student	the student	lesson2::nomen
-das Handy	the mobile phone	lesson2::nomen
-die Geschwister	the siblings	lesson2::nomen
-der Name	the name	lesson2::nomen
+der Name	the name	lesson2::nomen lesson2::essentials
 der Reisepass	the passport	lesson2::nomen
+der Flughafen	the airport	lesson2::nomen lesson2::essentials
 der Hafen	the port	lesson2::nomen
 die Sicherheit	the security	lesson2::nomen
+das Flugzeug	the aeroplane	lesson2::nomen
+der Zug	the train	lesson2::nomen lesson2::essentials
 das Schiff	the ship	lesson2::nomen
+das Fahrrad	the bike	lesson2::nomen
 das Motorrad	the motorbike	lesson2::nomen
+der Bus	the bus	lesson2::nomen lesson2::essentials
 der Ort	the place	lesson2::nomen
 die Sekunde	the second	lesson2::nomen
-die Minute	the minute	lesson2::nomen
-die Stunde	the hour	lesson2::nomen
-der Tag	the day	lesson2::nomen
-die Woche	the week	lesson2::nomen
-der Monat	the month	lesson2::nomen
-das Jahr	the year	lesson2::nomen
-der Montag	Monday	lesson2::nomen
-der Dienstag	Tuesday	lesson2::nomen
-der Mittwoch	Wednesday	lesson2::nomen
-der Donnerstag	Thursday	lesson2::nomen
-der Freitag	Friday	lesson2::nomen
-der Samstag	Saturday	lesson2::nomen
-der Sonntag	Sunday	lesson2::nomen
+die Minute	the minute	lesson2::nomen lesson2::essentials
+die Stunde	the hour	lesson2::nomen lesson2::essentials
+der Tag	the day	lesson2::nomen lesson2::essentials
+die Woche	the week	lesson2::nomen lesson2::essentials
+der Monat	the month	lesson2::nomen lesson2::essentials
+das Jahr	the year	lesson2::nomen lesson2::essentials
+der Montag	Monday	lesson2::nomen lesson2::essentials
+der Dienstag	Tuesday	lesson2::nomen lesson2::essentials
+der Mittwoch	Wednesday	lesson2::nomen lesson2::essentials
+der Donnerstag	Thursday	lesson2::nomen lesson2::essentials
+der Freitag	Friday	lesson2::nomen lesson2::essentials
+der Samstag	Saturday	lesson2::nomen lesson2::essentials
+der Sonntag	Sunday	lesson2::nomen lesson2::essentials
 der Frühling	the spring	lesson2::nomen
 der Sommer	the summer	lesson2::nomen
 der Herbst	the fall	lesson2::nomen
@@ -151,21 +46,29 @@ der Dezember	December	lesson2::nomen
 die Uhrzeit	the time	lesson2::nomen
 das Jahrzehnt	the decade	lesson2::nomen
 das Jahrhundert	the century	lesson2::nomen
+der Supermarkt	the grocery store / the supermarket	lesson2::nomen lesson2::essentials
 das Krankenhaus	the hospital	lesson2::nomen
 die Bank	the bank	lesson2::nomen
-das Hotel	the hotel	lesson2::nomen
+das Hotel	the hotel	lesson2::nomen lesson2::essentials
 die Bar	the bar	lesson2::nomen
 die Apotheke	the pharmacy	lesson2::nomen
 der Strand	the beach	lesson2::nomen
-das Restaurant	the restaurant	lesson2::nomen
+das Restaurant	the restaurant	lesson2::nomen lesson2::essentials
+die Bäckerei	the bakery	lesson2::nomen
 die Bushaltestelle	the bus station	lesson2::nomen
 die Kirche	the church	lesson2::nomen
+das Kino	the cinema	lesson2::nomen
 die Tankstelle	the gas station	lesson2::nomen
+das Museum	the museum	lesson2::nomen
 die Polizeistation	the police station	lesson2::nomen
+die Schule	the school	lesson2::nomen lesson2::essentials
 der Platz	the square	lesson2::nomen
+der Zoo	the zoo	lesson2::nomen
+der Bahnhof	the train station	lesson2::nomen lesson2::essentials
 die Bibliothek	the library	lesson2::nomen
 die Universität	the university	lesson2::nomen
 das Einkaufszentrum	the shopping mall	lesson2::nomen
+der Park	the park	lesson2::nomen
 der Spielplatz	the playground	lesson2::nomen
 die Post	the post office	lesson2::nomen
 der Markt	the market	lesson2::nomen
@@ -176,6 +79,7 @@ die Metzgerei	the butcher shop	lesson2::nomen
 der Blumenladen	the flower shop	lesson2::nomen
 das Stadion	the stadium	lesson2::nomen
 das Rathaus	the town hall	lesson2::nomen
+das Schwimmbad	the swimming pool	lesson2::nomen
 das Theater	the theater	lesson2::nomen
 die Tierklinik	the veterinary clinic	lesson2::nomen
 der Friedhof	the cemetery	lesson2::nomen
@@ -185,6 +89,7 @@ die Konditorei	the pastry shop	lesson2::nomen
 die Drogerie	the drugstore	lesson2::nomen
 der Kassierer	the cashier	lesson2::nomen
 der Warenkorb	the trolley / the shopping cart	lesson2::nomen
+die Tasche	the bag	lesson2::nomen
 die Garantie	the warranty	lesson2::nomen
 das Rückgaberecht	the refund policy	lesson2::nomen
 die Kundenkarte	the loyalty card	lesson2::nomen
@@ -195,9 +100,9 @@ das Regal	the shelf	lesson2::nomen
 die Umkleidekabine	the changing room	lesson2::nomen
 die Lieferung	the delivery	lesson2::nomen
 der Schlussverkauf	the sale	lesson2::nomen
-das Frühstück	the breakfast	lesson2::nomen
-das Mittagessen	the lunch	lesson2::nomen
-das Abendessen	the dinner	lesson2::nomen
+das Frühstück	the breakfast	lesson2::nomen lesson2::essentials
+das Mittagessen	the lunch	lesson2::nomen lesson2::essentials
+das Abendessen	the dinner	lesson2::nomen lesson2::essentials
 das Besteck	the cutlery	lesson2::nomen
 die Serviette	the napkin	lesson2::nomen
 der Brunch	the brunch	lesson2::nomen
@@ -207,7 +112,7 @@ das Trinkgeld	the tip	lesson2::nomen
 die Beilage	the side dish	lesson2::nomen
 das Getränk	the beverage / the drink	lesson2::nomen
 der Appetizer	the appetizer	lesson2::nomen
-das Zimmer	the room	lesson2::nomen
+das Zimmer	the room	lesson2::nomen lesson2::essentials
 der Zimmerservice	the room service	lesson2::nomen
 das Badezimmer	the bathroom	lesson2::nomen
 das Bett	the bed	lesson2::nomen
@@ -228,12 +133,16 @@ das Einchecken	the check-in	lesson2::nomen
 das Auschecken	the check-out	lesson2::nomen
 die Million	the million	lesson2::nomen
 die Milliarde	the billion	lesson2::nomen
+der Mann	the man	lesson2::nomen lesson2::essentials
+die Frau	the woman	lesson2::nomen lesson2::essentials
+der Junge	the boy	lesson2::nomen
+das Mädchen	the girl	lesson2::nomen
 der Arm	the arm	lesson2::nomen
-die Hand	the hand	lesson2::nomen
+die Hand	the hand	lesson2::nomen lesson2::essentials
 das Bein	the leg	lesson2::nomen
 der Fuß	the foot	lesson2::nomen
 das Auge	the eye	lesson2::nomen
-der Kopf	the head	lesson2::nomen
+der Kopf	the head	lesson2::nomen lesson2::essentials
 das Gehirn	the brain	lesson2::nomen
 die Nase	the nose	lesson2::nomen
 das Ohr	the ear	lesson2::nomen
@@ -247,63 +156,15 @@ die Haut	the skin	lesson2::nomen
 das Ding	the thing	lesson2::nomen
 das Leben	the life	lesson2::nomen
 die Regierung	the government	lesson2::nomen
+das Kind	the child	lesson2::nomen lesson2::essentials
 die Firma	the company	lesson2::nomen
 die Gruppe	the group	lesson2::nomen
 das Alter	the age	lesson2::nomen
+der Mond	the moon	lesson2::nomen
+die Sonne	the sun	lesson2::nomen
+das Auto	the car	lesson2::nomen lesson2::essentials
+das Buch	the book	lesson2::nomen lesson2::essentials
 die Welt	the world	lesson2::nomen
+die Familie	the family	lesson2::nomen lesson2::essentials
+der Freund	the friend	lesson2::nomen lesson2::essentials
 das Gesetz	the law	lesson2::nomen
-der Rentner	the pensioner	lesson2::nomen lesson2::genus
-der Schützling	the protégé	lesson2::nomen lesson2::genus
-der Schmetterling	the butterfly	lesson2::nomen lesson2::genus
-der Reaktor	the reactor	lesson2::nomen lesson2::genus
-der Professor	the professor	lesson2::nomen lesson2::genus
-der Journalist	the journalist	lesson2::nomen lesson2::genus
-der Pazifist	the pacifist	lesson2::nomen lesson2::genus
-der Kapitalismus	the capitalism	lesson2::nomen lesson2::genus
-der Mechanismus	the mechanism	lesson2::nomen lesson2::genus
-die Ente	the duck	lesson2::nomen lesson2::genus
-die Fahrt	the journey / the ride	lesson2::nomen lesson2::genus
-die Tat	the deed	lesson2::nomen lesson2::genus
-die Nacht	the night	lesson2::nomen lesson2::genus
-die Wäscherei	the laundry	lesson2::nomen lesson2::genus
-die Psychologie	the psychology	lesson2::nomen lesson2::genus
-die Arterie	the artery	lesson2::nomen lesson2::genus
-die Prinzessin	the princess	lesson2::nomen lesson2::genus
-die Ärztin	the female doctor	lesson2::nomen lesson2::genus
-die Freundschaft	the friendship	lesson2::nomen lesson2::genus
-die Mannschaft	the team	lesson2::nomen lesson2::genus
-die Gelegenheit	the opportunity	lesson2::nomen lesson2::genus
-die Schnelligkeit	the speed	lesson2::nomen lesson2::genus
-die Umleitung	the diversion / the detour	lesson2::nomen lesson2::genus
-die Diskussion	the discussion	lesson2::nomen lesson2::genus
-die Tradition	the tradition	lesson2::nomen lesson2::genus
-die Agentur	the agency	lesson2::nomen lesson2::genus
-die Manufaktur	the manufactory	lesson2::nomen lesson2::genus
-die Physik	the physics	lesson2::nomen lesson2::genus
-die Metrik	the metric	lesson2::nomen lesson2::genus
-die Akzeptanz	the acceptance	lesson2::nomen lesson2::genus
-die Ignoranz	the ignorance	lesson2::nomen lesson2::genus
-die Qualität	the quality	lesson2::nomen lesson2::genus
-die Fakultät	the faculty	lesson2::nomen lesson2::genus
-die Parade	the parade	lesson2::nomen lesson2::genus
-die Marmelade	the jam	lesson2::nomen lesson2::genus
-die Präsenz	the presence	lesson2::nomen lesson2::genus
-die Tendenz	the tendency / the trend	lesson2::nomen lesson2::genus
-das Heftchen	the booklet	lesson2::nomen lesson2::genus
-das Kindlein	the little child	lesson2::nomen lesson2::genus
-das Bächlein	the little brook	lesson2::nomen lesson2::genus
-das Publikum	the audience	lesson2::nomen lesson2::genus
-das Zentrum	the centre	lesson2::nomen lesson2::genus
-das Zeugnis	the certificate / the report card	lesson2::nomen lesson2::genus
-das Ergebnis	the result	lesson2::nomen lesson2::genus
-das Altertum	the antiquity	lesson2::nomen lesson2::genus
-das Datum	the date	lesson2::nomen lesson2::genus
-das Instrument	the instrument	lesson2::nomen lesson2::genus
-das Parlament	the parliament	lesson2::nomen lesson2::genus
-das Gehölz	the copse	lesson2::nomen lesson2::genus
-das Geflügel	the poultry	lesson2::nomen lesson2::genus
-das Gemüse	the vegetables	lesson2::nomen lesson2::genus
-das Geräusch	the noise	lesson2::nomen lesson2::genus
-das Gestöber	the flurry	lesson2::nomen lesson2::genus
-das Gebet	the prayer	lesson2::nomen lesson2::genus
-das Gerüst	the scaffolding	lesson2::nomen lesson2::genus
