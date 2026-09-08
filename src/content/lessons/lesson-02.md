@@ -80,7 +80,7 @@ These stay welded to the stem in every position.
 
 Plural is always `die`, regardless of the singular gender: die Männer, die Frauen, die Häuser.
 
-The full handout (*Der Die Das – Regeln für Artikel im Deutschen*) has many more categories and suffixes; they are all on the [Articles](../grammar/articles/) grammar page.
+The full handout (*Der Die Das – Regeln für Artikel im Deutschen*) has many more categories and suffixes; they are all on the [Articles](../../grammar/articles/) grammar page.
 
 ## Vocabulary: 20 business verbs
 
@@ -118,7 +118,7 @@ Two things a separable prefix does:
 
 Inseparable prefixes never split (ich **be**suche, *not* ich suche be…) and take **no ge-** in the Partizip II: verstehen → ich habe **verstanden** (*vergestanden* is wrong).
 
-The handout adds prefix meanings and more example verbs; the full table is on the [Prefixes](../grammar/prefixes/) page. New separable prefixes beyond the ten above: **her-, hin-, hinein-, los-, zu-, zurück-**.
+The handout adds prefix meanings and more example verbs; the full table is on the [Prefixes](../../grammar/prefixes/) page. New separable prefixes beyond the ten above: **her-, hin-, hinein-, los-, zu-, zurück-**.
 
 ## Worksheet: separable verbs (Praefix_A1.rtf)
 

@@ -264,6 +264,9 @@ spaced repetition; Anki owns scheduling.
 
 - Astro 7, static output, `base: '/german'`. Build internal links with `url()` from `src/lib/url.ts`;
   never hardcode `/german/`.
+- Links inside markdown content are relative to the page URL. A lesson lives at
+  `/lessons/N/`, so link to a topic with `../../grammar/<slug>/`; a grammar page lives at
+  `/grammar/<slug>/`, so it links to a lesson with `../../lessons/N/`.
 - Plain CSS, tokens in `src/styles/global.css`. Gender colours are `--der / --die / --das`; the
   article is always also shown as text.
 - No JS framework. The only client scripts are the vocab filter and the quiz.
