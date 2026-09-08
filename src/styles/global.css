@@ -53,6 +53,9 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+/* Scoped display rules (grid/flex/block) must never override the hidden attribute. */
+[hidden] { display: none !important; }
+
 html { -webkit-text-size-adjust: 100%; }
 
 body {

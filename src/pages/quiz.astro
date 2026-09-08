@@ -190,6 +190,14 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
       btn.type = 'submit';
       btn.className = 'btn';
       btn.textContent = 'Check';
+      // Explicit Enter handling so submission never depends on implicit form submit.
+      input.addEventListener('keydown', (ev) => {
+        if (ev.key === 'Enter') {
+          ev.preventDefault();
+          ev.stopPropagation(); // the document-level Enter handler must not also advance
+          grade(input.value);
+        }
+      });
       inputSlot.append(input, btn);
       input.focus();
     } else {
@@ -268,6 +276,8 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     session.index++;
     ask();
   });
+  // Enter advances once feedback is showing. preventDefault also cancels the
+  // focused Next button's native activation, so a single keypress = one click.
   document.addEventListener('keydown', (ev) => {
     if (ev.key === 'Enter' && !feedback.hidden && !play.hidden) {
       ev.preventDefault();
