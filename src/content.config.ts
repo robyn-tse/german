@@ -65,7 +65,9 @@ export const vocabSchema = z.object({
   id: z.string(),
   german: z.string(),
   english: z.string(),
-  pos: z.enum(['noun', 'verb', 'adjective', 'prefix', 'phrase']).optional(),
+  pos: z
+    .enum(['noun', 'verb', 'adjective', 'prefix', 'phrase', 'adverb', 'preposition', 'conjunction', 'pronoun', 'number', 'other'])
+    .optional(),
   gender: z.enum(['der', 'die', 'das']).nullable().default(null),
   plural: z.string().nullable().default(null),
   example_de: z.string().nullable().default(null),
@@ -83,4 +85,28 @@ const vocab = defineCollection({
   schema: vocabSchema,
 });
 
-export const collections = { lessons, grammar, vocab };
+// ---------------------------------------------------------------------------
+// Exercises: gap-fill sentences from the tutor's worksheets, with answer keys.
+// Only the quiz reads these (via src/lib/quiz-modes.js modes with
+// `source: 'exercises'`). `set` groups one worksheet section.
+// ---------------------------------------------------------------------------
+export const exerciseSchema = z.object({
+  id: z.string(),
+  lesson: z.number().int().positive(),
+  set: z.string(),
+  prompt_de: z.string(),           // sentence with ___ gaps
+  hint: z.string().nullable().default(null), // e.g. the infinitive shown after the sentence
+  answer: z.string(),              // what goes in the gap(s); two gaps = "stehe auf"
+  full_de: z.string(),             // the completed sentence
+  en: z.string().nullable().default(null),
+  vocab_id: z.string().nullable().default(null),
+  tags: z.array(z.string()).default([]),
+});
+export type Exercise = z.infer<typeof exerciseSchema>;
+
+const exercises = defineCollection({
+  loader: file('src/data/exercises.json'),
+  schema: exerciseSchema,
+});
+
+export const collections = { lessons, grammar, vocab, exercises };

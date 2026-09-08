@@ -42,3 +42,46 @@ These stay welded to the stem in every position and are never stressed (be**SU**
 Many of the lesson-2 business verbs carry inseparable prefixes: **be**werten, **be**wältigen, **ent**wickeln, **ent**scheiden, **er**werben, **er**zielen, **er**kennen, **ver**handeln.
 
 **über-** (as in übernehmen) belongs to a third group that can go either way; in übernehmen it is inseparable: ich übernehme.
+
+## What the prefixes mean (Praefixe.pdf)
+
+Separable prefixes carry the stress (**AB**fahren) and usually keep a direction-like meaning.
+
+| Prefix | Meaning | Example verbs | Example |
+|---|---|---|---|
+| ab- | off, away | abfahren, abholen, abreisen, ablesen, abnehmen | Ich hole das Paket von der Post ab. |
+| an- | to, toward; adding | anschauen, angreifen, anbieten, anziehen | Sie haben ein neues Zimmer angebaut. |
+| auf- | open; up; direction | aufladen, aufmachen, aufstehen, aufbauen | Das Geschäft sperrt um 08:00 Uhr auf. |
+| aus- | out; removing | ausdenken, ausdrucken, ausziehen | Schalt doch bitte das Licht aus! |
+| bei- | adding to | beibringen, beistehen, beitragen | Sophie steuert €10 zum Geschenk bei. |
+| ein- | in, into | einladen, einkaufen, einsteigen, einbrechen | Der Pullover ist durch zu heißes Waschen eingegangen. |
+| her- | toward the speaker | herkommen, herstellen | Komm her, ich muss dir etwas zeigen! |
+| hin- | away from the speaker; down | hinfahren, hinfallen, hinstellen, hingehen | Ahmad bringt den Kuchen morgen hin. |
+| hinein- | from outside to inside | hineinfahren, hineinlegen, hineinsehen, hineingehen | Möchtest du hineingehen oder lieber draußen sitzen? |
+| los- | off; starting | losfahren, losgehen, loslachen, losstürmen | Wir werden um 20 Uhr losgehen, kommst du mit? |
+| mit- | together with | mitbringen, mitfahren, mitmachen, mitkommen | Laura und Michele backen einen Kuchen – willst du mitbacken? |
+| vor- | forward; in advance; showing | vorfahren, vorbereiten, vorbestellen, vorstellen | Ich stelle mich mal vor: Mein Name ist Jorge. |
+| weg- | away | wegbringen, wegfahren, weggeben, wegwerfen, wegschmeißen, weggehen | Kannst du bitte den schimmeligen Apfel wegschmeißen? |
+| zu- | closing; toward a goal | zudecken, zudrehen, zusenden, zuwerfen, zumachen | Machst du bitte das Fenster zu? Mir ist kalt! |
+| zurück- | back | zurückkehren, zurückgeben, zurückfahren | Kannst du mir bitte meinen Stift zurückgeben? |
+
+Inseparable prefixes are unstressed and their meaning is more abstract.
+
+| Prefix | Meaning | Example verbs | Example |
+|---|---|---|---|
+| be- | result of an action; makes the verb take a direct object | besuchen, beachten, beantworten | Möchtest du meine Arbeit begutachten? |
+| ent- | away, off; something is removed | entfernen, entkommen, entgleisen | Der Zug ist entgleist, es gibt aber zum Glück keine Verletzten. |
+| er- | result; sudden beginning or end | erhellen, erstarren, erkranken, erschießen | Maxim hat die richtige Antwort erraten! |
+| miss- | wrongly, not correct | missverstehen, misslingen, missraten | Oje, ich habe dich missverstanden und bin jetzt am falschen Treffpunkt. |
+| ver- | away, wrong, changed | verlassen, verstehen, vergessen, verpassen | Oh, ich habe mich vertan – das ist falsch! |
+| zer- | to pieces, destroyed | zerbrechen, zerschlagen, zerstören, zerreißen | Der Hund hat ihre Schuhe zerbissen. |
+
+## Perfekt with prefixes
+
+- Separable: **ge-** goes between prefix and stem. aufräumen → ich habe **auf·ge·räumt**; abholen → du hast **ab·ge·holt**.
+- Inseparable: **no ge-** at all. verstehen → ich habe **verstanden** (*vergestanden* is wrong); besuchen → ich habe **besucht**.
+- Compare a plain verb: suchen → ich habe **gesucht**.
+
+## Position with modal verbs
+
+After a modal verb (müssen, können, wollen, sollen, dürfen, möchten) the separable verb stays whole as an infinitive at the end: *Ich muss morgen früh **aufstehen**.* *Kannst du heute **einkaufen**?* (Praefix_A1.rtf, part 2.)

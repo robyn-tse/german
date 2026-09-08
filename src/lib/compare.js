@@ -10,6 +10,7 @@
 export function normalize(s) {
   return String(s)
     .toLowerCase()
+    .replace(/…|\.\.\./g, ' ') // "stehe … auf" and "stehe auf" are the same answer
     .trim()
     .replace(/\s+/g, ' ')
     .replace(/[.!?]+$/, '');

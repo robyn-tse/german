@@ -28,7 +28,14 @@ export const POS_LABEL: Record<string, string> = {
   adjective: 'Adjektiv',
   prefix: 'Präfix',
   phrase: 'Phrase',
+  adverb: 'Adverb',
+  preposition: 'Präposition',
+  conjunction: 'Konjunktion',
+  pronoun: 'Pronomen',
+  number: 'Zahl',
+  other: 'Sonstiges',
 };
+export const POS_ORDER = ['verb', 'noun', 'adjective', 'adverb', 'phrase', 'preposition', 'conjunction', 'pronoun', 'number', 'prefix', 'other'];
 
 export function formatDate(d: Date): string {
   return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });

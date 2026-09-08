@@ -4,7 +4,8 @@ import { getCollection } from 'astro:content';
 import { modes } from '../lib/quiz-modes.js';
 
 const entries = (await getCollection('vocab')).map((v) => v.data);
-const lessons = [...new Set(entries.map((e) => e.lesson))].sort((a, b) => a - b);
+const exercises = (await getCollection('exercises')).map((v) => v.data);
+const lessons = [...new Set([...entries, ...exercises].map((e) => e.lesson))].sort((a, b) => a - b);
 const tags = [...new Set(entries.flatMap((e) => e.tags))].sort();
 const minLesson = lessons[0] ?? 1;
 const maxLesson = lessons[lessons.length - 1] ?? 1;
@@ -58,6 +59,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   <section id="play" class="play" hidden aria-live="polite">
     <p class="progress small muted"><span id="qnum"></span> · <span id="mode-name"></span></p>
     <p class="prompt" id="prompt" lang="de"></p>
+    <p class="subprompt muted" id="subprompt" hidden></p>
     <form id="answer-form" class="answer">
       <div id="input-slot"></div>
     </form>
@@ -93,6 +95,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
 
 <script>
   import vocab from '../data/vocab.json';
+  import exercises from '../data/exercises.json';
   import { modes, getMode } from '../lib/quiz-modes.js';
   import { compareTyped, compareChoice } from '../lib/compare.js';
   import { loadStats, record, resetStats } from '../lib/quiz-stats.js';
@@ -105,8 +108,11 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   const answerForm = $('answer-form') as HTMLFormElement;
   const feedback = $('feedback');
 
-  type Entry = (typeof vocab)[number];
+  type Entry = any;
   let stats = loadStats();
+  const ALL: Record<string, Entry[]> = { vocab, exercises };
+  const dataFor = (mode: any): Entry[] => ALL[mode.source ?? 'vocab'];
+  const lookup = (id: string): Entry | undefined => vocab.find((e) => e.id === id) ?? exercises.find((e) => e.id === id);
 
   // --- pool + config ------------------------------------------------------
   function readConfig() {
@@ -121,7 +127,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   }
   function poolFor(cfg: ReturnType<typeof readConfig>) {
     const mode = getMode(cfg.mode)!;
-    return (vocab as Entry[]).filter(
+    return dataFor(mode).filter(
       (e) => mode.filter(e) && e.lesson >= cfg.from && e.lesson <= cfg.to && (!cfg.tag || e.tags.includes(cfg.tag)),
     );
   }
@@ -136,6 +142,12 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     const n = poolFor(cfg).length;
     $('pool').textContent = n ? `${n} words match. Session: ${Math.min(n, cfg.length)} questions.` : 'No words match these filters.';
     ($('start') as HTMLButtonElement).disabled = n === 0;
+  }
+  // ?mode=<id> preselects a mode (lesson pages link here per exercise set)
+  const wanted = new URLSearchParams(location.search).get('mode');
+  if (wanted && getMode(wanted)) {
+    const radio = setup.querySelector<HTMLInputElement>(`input[name=mode][value="${wanted}"]`);
+    if (radio) radio.checked = true;
   }
   setup.addEventListener('input', updatePoolInfo);
   updatePoolInfo();
@@ -173,6 +185,9 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     $('qnum').textContent = `${index + 1} / ${queue.length}`;
     $('prompt').textContent = mode.prompt(entry);
     $('prompt').setAttribute('lang', mode.id === 'en-de' ? 'en' : 'de');
+    const sub = mode.subprompt ? mode.subprompt(entry) : null;
+    $('subprompt').textContent = sub ?? '';
+    $('subprompt').hidden = !sub;
     feedback.hidden = true;
     inputSlot.innerHTML = '';
     answerForm.hidden = false;
@@ -328,7 +343,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   function renderStats() {
     const box = $('stats-table');
     const rows = Object.entries(stats)
-      .map(([id, s]: [string, any]) => ({ id, ...s, entry: (vocab as Entry[]).find((e) => e.id === id) }))
+      .map(([id, s]: [string, any]) => ({ id, ...s, entry: lookup(id) }))
       .filter((r) => r.entry)
       .sort((a, b) => b.errors / b.attempts - a.errors / a.attempts || b.attempts - a.attempts);
     if (!rows.length) {
@@ -341,7 +356,8 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     const tb = document.createElement('tbody');
     for (const r of rows) {
       const tr = document.createElement('tr');
-      tr.innerHTML = `<td lang="de">${renderAnswer(r.entry, r.entry.german)}</td><td>${r.attempts}</td><td>${r.errors}</td>`;
+      const label = r.entry.german ?? r.entry.full_de;
+      tr.innerHTML = `<td lang="de">${renderAnswer(r.entry, label)}</td><td>${r.attempts}</td><td>${r.errors}</td>`;
       tb.append(tr);
     }
     table.append(tb);
@@ -378,6 +394,8 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
 
   .play { max-width: 40rem; }
   .prompt { font-size: 1.9rem; font-weight: 600; margin: 0.5rem 0 1rem; line-height: 1.25; overflow-wrap: anywhere; }
+  .prompt:has(+ .subprompt:not([hidden])) { margin-bottom: 0.25rem; }
+  .subprompt { margin: 0 0 1rem; }
   .answer { display: flex; flex-direction: column; gap: 0.5rem; }
   #input-slot { display: flex; flex-wrap: wrap; gap: 0.5rem; }
   #input-slot input[type=text] {

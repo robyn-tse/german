@@ -4,7 +4,8 @@ import Word from '../../components/Word.astro';
 import Incomplete from '../../components/Incomplete.astro';
 import { getCollection, getEntries, render } from 'astro:content';
 import { url } from '../../lib/url';
-import { formatDate, POS_LABEL } from '../../lib/vocab';
+import { formatDate, POS_LABEL, POS_ORDER } from '../../lib/vocab';
+import { modes } from '../../lib/quiz-modes.js';
 
 export async function getStaticPaths() {
   const lessons = await getCollection('lessons');
@@ -18,8 +19,24 @@ const vocab = (await getCollection('vocab'))
   .filter((v) => v.data.lesson === lesson.data.number)
   .map((v) => v.data);
 
-const order = ['verb', 'noun', 'adjective', 'phrase', 'prefix'];
-const groups = order
+const exercises = (await getCollection('exercises'))
+  .filter((e) => e.data.lesson === lesson.data.number)
+  .map((e) => e.data);
+const SET_LABEL: Record<string, string> = {
+  'trennbar-praesens': 'Separable verbs, present tense',
+  'trennbar-modal': 'Separable verbs with modal verbs',
+  gemischt: 'Mixed separable and inseparable verbs',
+  'artikel-bestimmt': 'Definite article in a sentence',
+  'artikel-unbestimmt': 'Indefinite article in a sentence',
+};
+const sets = [...new Set(exercises.map((e) => e.set))].map((set) => ({
+  set,
+  label: SET_LABEL[set] ?? set,
+  count: exercises.filter((e) => e.set === set).length,
+  mode: modes.find((m) => m.source === 'exercises' && exercises.some((e) => e.set === set && m.filter(e)))?.id,
+}));
+
+const groups = POS_ORDER
   .map((pos) => ({ pos, label: POS_LABEL[pos], items: vocab.filter((v) => v.pos === pos) }))
   .filter((g) => g.items.length > 0);
 const untyped = vocab.filter((v) => !v.pos);
@@ -86,6 +103,20 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
     <p class="small"><a href={url(`/vocab/`) + `?lesson=${lesson.data.number}`}>Open in the vocab table →</a></p>
   </section>
 
+  {sets.length > 0 && (
+    <section class="section" aria-labelledby="ex">
+      <h2 id="ex">Exercises <span class="muted small">({exercises.length} sentences)</span></h2>
+      <ul class="sets">
+        {sets.map((s) => (
+          <li>
+            <span>{s.label} <span class="muted small">({s.count})</span></span>
+            {s.mode && <a class="btn" href={url('/quiz/') + `?mode=${s.mode}`}>Drill</a>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
   <nav class="pager" aria-label="Lesson navigation">
     {prev ? <a href={url(`/lessons/${prev.data.number}/`)}>← Lesson {prev.data.number}</a> : <span />}
     {next ? <a href={url(`/lessons/${next.data.number}/`)}>Lesson {next.data.number} →</a> : <span />}
@@ -113,5 +144,7 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
     .words li { grid-template-columns: 1fr auto; }
     .en { grid-column: 1 / -1; }
   }
+  .sets { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.4rem; max-width: 40rem; }
+  .sets li { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.4rem 0; border-bottom: 1px solid var(--border); }
   .pager { display: flex; justify-content: space-between; margin-top: 3rem; }
 </style>

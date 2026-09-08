@@ -98,6 +98,17 @@ Nouns with the prefix **Ge-** are often neuter: das Gehölz, das Geflügel, das 
 
 > These rules hold for most words in each category, but there are exceptions (der Name, der Junge, das Auge all end in -e). That is why it matters to learn every noun together with its article from the start.
 
+## Definite and indefinite (300_Artikel_Uebungen 2.rtfd)
+
+| | masculine | feminine | neuter | plural |
+|---|---|---|---|---|
+| definite (bestimmt) | der | die | das | die |
+| indefinite (unbestimmt) | ein | eine | ein | – (no article) or die |
+
+Something is introduced with **ein/eine** and referred back to with **der/die/das**: *Da vorne ist **eine** Bäckerei. **Die** Bäckerei hat gute Brötchen.* In the plural there is no indefinite article, only nothing (*Nullartikel*) or **die**: *Da sind [–] Kinder. **Die** Kinder spielen.*
+
+Watch out: when a masculine noun is the *object* of the sentence, **ein** becomes **einen** (*Er trinkt **einen** Saft*, *Ich brauche **einen** Stift*). That is the accusative case, which comes later under *Declension*; the article worksheet already needs it.
+
 ## Lesson 2 focus
 
 The nine suffixes drilled in lesson 2: -e, -ion, -age, -schaft, -heit, -keit, -ung → die; -er → der; -o → das. The example nouns are in the vocab list tagged `genus`.

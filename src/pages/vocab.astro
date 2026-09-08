@@ -3,12 +3,12 @@ import Base from '../layouts/Base.astro';
 import Word from '../components/Word.astro';
 import Incomplete from '../components/Incomplete.astro';
 import { getCollection } from 'astro:content';
-import { POS_LABEL, splitArticle } from '../lib/vocab';
+import { POS_LABEL, POS_ORDER, splitArticle } from '../lib/vocab';
 
 const entries = (await getCollection('vocab')).map((v) => v.data);
 const lessons = [...new Set(entries.map((e) => e.lesson))].sort((a, b) => a - b);
 const tags = [...new Set(entries.flatMap((e) => e.tags))].sort();
-const posList = ['noun', 'verb', 'adjective', 'prefix', 'phrase'].filter((p) => entries.some((e) => e.pos === p));
+const posList = POS_ORDER.filter((p) => entries.some((e) => e.pos === p));
 
 const fold = (s: string) =>
   s.toLowerCase().replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 'ss');

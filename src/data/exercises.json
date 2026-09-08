@@ -1,0 +1,2815 @@
+[
+  {
+    "id": "ex-praefix-001",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Ich ___ jeden Morgen um 6 Uhr ___.",
+    "hint": "aufstehen",
+    "answer": "stehe auf",
+    "full_de": "Ich stehe jeden Morgen um 6 Uhr auf.",
+    "en": "I get up every morning at 6 o'clock.",
+    "vocab_id": "aufstehen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-002",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Kaufst du heute im Supermarkt ___?",
+    "hint": "einkaufen",
+    "answer": "ein",
+    "full_de": "Kaufst du heute im Supermarkt ein?",
+    "en": "Are you shopping at the supermarket today?",
+    "vocab_id": "einkaufen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-003",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Wir ___ morgen mit dem Deutschkurs ___.",
+    "hint": "anfangen",
+    "answer": "fangen an",
+    "full_de": "Wir fangen morgen mit dem Deutschkurs an.",
+    "en": "We start the German course tomorrow.",
+    "vocab_id": "anfangen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-004",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Er ___ seine Mutter jeden Sonntag ___.",
+    "hint": "anrufen",
+    "answer": "ruft an",
+    "full_de": "Er ruft seine Mutter jeden Sonntag an.",
+    "en": "He calls his mother every Sunday.",
+    "vocab_id": "anrufen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-005",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Das Flugzeug ___ pünktlich ___.",
+    "hint": "ankommen",
+    "answer": "kommt an",
+    "full_de": "Das Flugzeug kommt pünktlich an.",
+    "en": "The plane arrives on time.",
+    "vocab_id": "ankommen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-006",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Mach bitte das Licht ___! Es ist dunkel.",
+    "hint": "anmachen",
+    "answer": "an",
+    "full_de": "Mach bitte das Licht an! Es ist dunkel.",
+    "en": "Please turn on the light! It is dark.",
+    "vocab_id": "anmachen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-007",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Mach bitte das Radio ___! Es ist zu laut.",
+    "hint": "ausmachen",
+    "answer": "aus",
+    "full_de": "Mach bitte das Radio aus! Es ist zu laut.",
+    "en": "Please turn off the radio! It is too loud.",
+    "vocab_id": "ausmachen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-008",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Am Abend ___ wir oft ___.",
+    "hint": "fernsehen",
+    "answer": "sehen fern",
+    "full_de": "Am Abend sehen wir oft fern.",
+    "en": "In the evening, we often watch TV.",
+    "vocab_id": "fernsehen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-009",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Kommst du heute Abend ___?",
+    "hint": "mitkommen",
+    "answer": "mit",
+    "full_de": "Kommst du heute Abend mit?",
+    "en": "Are you coming along tonight?",
+    "vocab_id": "mitkommen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-010",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Ich ___ dich vom Bahnhof ___.",
+    "hint": "abholen",
+    "answer": "hole ab",
+    "full_de": "Ich hole dich vom Bahnhof ab.",
+    "en": "I am picking you up from the train station.",
+    "vocab_id": "abholen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-011",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Der Zug ___ um 9 Uhr ___.",
+    "hint": "abfahren",
+    "answer": "fährt ab",
+    "full_de": "Der Zug fährt um 9 Uhr ab.",
+    "en": "The train departs at 9 o'clock.",
+    "vocab_id": "abfahren",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-012",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Räumst du bitte dein Zimmer ___?",
+    "hint": "aufräumen",
+    "answer": "auf",
+    "full_de": "Räumst du bitte dein Zimmer auf?",
+    "en": "Are you tidying up your room, please?",
+    "vocab_id": "aufraeumen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-013",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Das Kind ___ das Buch ___ und liest.",
+    "hint": "aufmachen",
+    "answer": "macht auf",
+    "full_de": "Das Kind macht das Buch auf und liest.",
+    "en": "The child opens the book and reads.",
+    "vocab_id": "aufmachen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-014",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Bitte machen Sie die Tür ___. Es zieht!",
+    "hint": "zumachen",
+    "answer": "zu",
+    "full_de": "Bitte machen Sie die Tür zu. Es zieht!",
+    "en": "Please close the door. There is a draft!",
+    "vocab_id": "zumachen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-015",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Ich ___ dich zu meiner Party ___.",
+    "hint": "einladen",
+    "answer": "lade ein",
+    "full_de": "Ich lade dich zu meiner Party ein.",
+    "en": "I invite you to my party.",
+    "vocab_id": "einladen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-016",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Ziehst du heute die Jacke ___?",
+    "hint": "anziehen",
+    "answer": "an",
+    "full_de": "Ziehst du heute die Jacke an?",
+    "en": "Are you putting on the jacket today?",
+    "vocab_id": "anziehen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-017",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Im Sommer ___ wir die Jacke ___.",
+    "hint": "ausziehen",
+    "answer": "ziehen aus",
+    "full_de": "Im Sommer ziehen wir die Jacke aus.",
+    "en": "In summer, we take off the jacket.",
+    "vocab_id": "ausziehen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-018",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Der Bus ___ hier nicht ___.",
+    "hint": "anhalten",
+    "answer": "hält an",
+    "full_de": "Der Bus hält hier nicht an.",
+    "en": "The bus does not stop here.",
+    "vocab_id": "anhalten",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-019",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Wann ___ ihr das Buch ___?",
+    "hint": "mitbringen",
+    "answer": "bringt mit",
+    "full_de": "Wann bringt ihr das Buch mit?",
+    "en": "When are you bringing the book along?",
+    "vocab_id": "mitbringen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-020",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Er ___ das Abendessen ___.",
+    "hint": "vorbereiten",
+    "answer": "bereitet vor",
+    "full_de": "Er bereitet das Abendessen vor.",
+    "en": "He is preparing dinner.",
+    "vocab_id": "vorbereiten",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-021",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Wir ___ heute neue Wörter ___.",
+    "hint": "kennenlernen",
+    "answer": "lernen kennen",
+    "full_de": "Wir lernen heute neue Wörter kennen.",
+    "en": "We learn new words today.",
+    "vocab_id": "kennenlernen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-022",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Der Unterricht ___ um 12 Uhr ___.",
+    "hint": "aufhören",
+    "answer": "hört auf",
+    "full_de": "Der Unterricht hört um 12 Uhr auf.",
+    "en": "The class ends at 12 o'clock.",
+    "vocab_id": "aufhoeren",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-023",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Herr Müller ___ im Hotel ___.",
+    "hint": "ankommen",
+    "answer": "kommt an",
+    "full_de": "Herr Müller kommt im Hotel an.",
+    "en": "Mr. Müller arrives at the hotel.",
+    "vocab_id": "ankommen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-024",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Macht ihr die Fenster ___? Es regnet.",
+    "hint": "zumachen",
+    "answer": "zu",
+    "full_de": "Macht ihr die Fenster zu? Es regnet.",
+    "en": "Are you closing the windows? It is raining.",
+    "vocab_id": "zumachen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-025",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Ich ___ einen Regenschirm ___.",
+    "hint": "mitnehmen",
+    "answer": "nehme mit",
+    "full_de": "Ich nehme einen Regenschirm mit.",
+    "en": "I am taking an umbrella with me.",
+    "vocab_id": "mitnehmen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-026",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Wann ___ du am Samstag ___?",
+    "hint": "aufstehen",
+    "answer": "stehst auf",
+    "full_de": "Wann stehst du am Samstag auf?",
+    "en": "When do you get up on Saturday?",
+    "vocab_id": "aufstehen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-027",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Meine Freundin ___ am Samstag ___.",
+    "hint": "einkaufen",
+    "answer": "kauft ein",
+    "full_de": "Meine Freundin kauft am Samstag ein.",
+    "en": "My girlfriend goes shopping on Saturday.",
+    "vocab_id": "einkaufen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-028",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Rufst du mich später ___?",
+    "hint": "anrufen",
+    "answer": "an",
+    "full_de": "Rufst du mich später an?",
+    "en": "Will you call me later?",
+    "vocab_id": "anrufen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-029",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Die Kinder ___ nicht viel ___.",
+    "hint": "fernsehen",
+    "answer": "sehen fern",
+    "full_de": "Die Kinder sehen nicht viel fern.",
+    "en": "The children do not watch much TV.",
+    "vocab_id": "fernsehen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-030",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Ich ___ meine Tochter von der Schule ___.",
+    "hint": "abholen",
+    "answer": "hole ab",
+    "full_de": "Ich hole meine Tochter von der Schule ab.",
+    "en": "I am picking up my daughter from school.",
+    "vocab_id": "abholen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-031",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Wann ___ der Film ___?",
+    "hint": "anfangen",
+    "answer": "fängt an",
+    "full_de": "Wann fängt der Film an?",
+    "en": "When does the movie start?",
+    "vocab_id": "anfangen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-032",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Wir ___ die Küche ___.",
+    "hint": "aufräumen",
+    "answer": "räumen auf",
+    "full_de": "Wir räumen die Küche auf.",
+    "en": "We are tidying up the kitchen.",
+    "vocab_id": "aufraeumen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-033",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Bitte machen Sie das Buch ___ auf Seite 10.",
+    "hint": "aufmachen",
+    "answer": "auf",
+    "full_de": "Bitte machen Sie das Buch auf auf Seite 10.",
+    "en": "Please open the book on page 10.",
+    "vocab_id": "aufmachen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-034",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Ich ___ meine Familie zum Essen ___.",
+    "hint": "einladen",
+    "answer": "lade ein",
+    "full_de": "Ich lade meine Familie zum Essen ein.",
+    "en": "I invite my family for a meal.",
+    "vocab_id": "einladen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-035",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Der Zug ___ pünktlich ___.",
+    "hint": "abfahren",
+    "answer": "fährt ab",
+    "full_de": "Der Zug fährt pünktlich ab.",
+    "en": "The train departs on time.",
+    "vocab_id": "abfahren",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-036",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Nimmst du ein Stück Kuchen ___?",
+    "hint": "mitnehmen",
+    "answer": "mit",
+    "full_de": "Nimmst du ein Stück Kuchen mit?",
+    "en": "Are you taking a piece of cake with you?",
+    "vocab_id": "mitnehmen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-037",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Er ___ seine Schuhe ___.",
+    "hint": "anziehen",
+    "answer": "zieht an",
+    "full_de": "Er zieht seine Schuhe an.",
+    "en": "He is putting on his shoes.",
+    "vocab_id": "anziehen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-038",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Wir ___ Getränke zur Party ___.",
+    "hint": "mitbringen",
+    "answer": "bringen mit",
+    "full_de": "Wir bringen Getränke zur Party mit.",
+    "en": "We are bringing drinks to the party.",
+    "vocab_id": "mitbringen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-039",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Wann ___ du mit der Arbeit ___?",
+    "hint": "aufhören",
+    "answer": "hörst auf",
+    "full_de": "Wann hörst du mit der Arbeit auf?",
+    "en": "When do you finish work?",
+    "vocab_id": "aufhoeren",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-040",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Kommen Sie heute Abend ___?",
+    "hint": "mitkommen",
+    "answer": "mit",
+    "full_de": "Kommen Sie heute Abend mit?",
+    "en": "Are you coming along tonight?",
+    "vocab_id": "mitkommen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-041",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Schalten Sie bitte den Computer ___.",
+    "hint": "einschalten",
+    "answer": "ein",
+    "full_de": "Schalten Sie bitte den Computer ein.",
+    "en": "Please turn on the computer.",
+    "vocab_id": "einschalten",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-042",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Er ___ den Fernseher ___.",
+    "hint": "ausschalten",
+    "answer": "schaltet aus",
+    "full_de": "Er schaltet den Fernseher aus.",
+    "en": "He turns off the TV.",
+    "vocab_id": "ausschalten",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-043",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Ich ___ meinen Koffer ___.",
+    "hint": "einpacken",
+    "answer": "packe ein",
+    "full_de": "Ich packe meinen Koffer ein.",
+    "en": "I am packing my suitcase.",
+    "vocab_id": "einpacken",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-044",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Wir ___ die Geschenke ___.",
+    "hint": "auspacken",
+    "answer": "packen aus",
+    "full_de": "Wir packen die Geschenke aus.",
+    "en": "We are unpacking the presents.",
+    "vocab_id": "auspacken",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-045",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Das Formular ___ man hier ___.",
+    "hint": "ausfüllen",
+    "answer": "füllt aus",
+    "full_de": "Das Formular füllt man hier aus.",
+    "en": "One fills out the form here.",
+    "vocab_id": "ausfuellen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-046",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Der Arzt ___ ein Rezept ___.",
+    "hint": "ausstellen",
+    "answer": "stellt aus",
+    "full_de": "Der Arzt stellt ein Rezept aus.",
+    "en": "The doctor issues a prescription.",
+    "vocab_id": "ausstellen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-047",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Das Auto ___ uns am Hotel ___.",
+    "hint": "abholen",
+    "answer": "holt ab",
+    "full_de": "Das Auto holt uns am Hotel ab.",
+    "en": "The car picks us up at the hotel.",
+    "vocab_id": "abholen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-048",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Wir ___ jetzt mit der Übung ___.",
+    "hint": "anfangen",
+    "answer": "fangen an",
+    "full_de": "Wir fangen jetzt mit der Übung an.",
+    "en": "We are starting the exercise now.",
+    "vocab_id": "anfangen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-049",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Der Lehrer ___ die Tafel ___.",
+    "hint": "saubermachen",
+    "answer": "macht sauber",
+    "full_de": "Der Lehrer macht die Tafel sauber.",
+    "en": "The teacher cleans the board.",
+    "vocab_id": "saubermachen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-050",
+    "lesson": 2,
+    "set": "trennbar-praesens",
+    "prompt_de": "Bitte kreuzen Sie die richtige Antwort ___.",
+    "hint": "ankreuzen",
+    "answer": "an",
+    "full_de": "Bitte kreuzen Sie die richtige Antwort an.",
+    "en": "Please tick the correct answer.",
+    "vocab_id": "ankreuzen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-051",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Ich muss morgen früh ___.",
+    "hint": "aufstehen",
+    "answer": "aufstehen",
+    "full_de": "Ich muss morgen früh aufstehen.",
+    "en": "I have to get up early tomorrow.",
+    "vocab_id": "aufstehen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-052",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Kannst du heute ___?",
+    "hint": "einkaufen",
+    "answer": "einkaufen",
+    "full_de": "Kannst du heute einkaufen?",
+    "en": "Can you go shopping today?",
+    "vocab_id": "einkaufen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-053",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Wir wollen dich morgen ___.",
+    "hint": "anrufen",
+    "answer": "anrufen",
+    "full_de": "Wir wollen dich morgen anrufen.",
+    "en": "We want to call you tomorrow.",
+    "vocab_id": "anrufen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-054",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Möchtest du ins Kino ___?",
+    "hint": "mitkommen",
+    "answer": "mitkommen",
+    "full_de": "Möchtest du ins Kino mitkommen?",
+    "en": "Would you like to come along to the cinema?",
+    "vocab_id": "mitkommen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-055",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Wann soll ich dich ___?",
+    "hint": "abholen",
+    "answer": "abholen",
+    "full_de": "Wann soll ich dich abholen?",
+    "en": "When should I pick you up?",
+    "vocab_id": "abholen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-056",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Du musst das Licht ___. Es ist hell genug.",
+    "hint": "ausmachen",
+    "answer": "ausmachen",
+    "full_de": "Du musst das Licht ausmachen. Es ist hell genug.",
+    "en": "You have to turn off the light. It is bright enough.",
+    "vocab_id": "ausmachen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-057",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Hier muss der Zug ___.",
+    "hint": "anhalten",
+    "answer": "anhalten",
+    "full_de": "Hier muss der Zug anhalten.",
+    "en": "The train must stop here.",
+    "vocab_id": "anhalten",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-058",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Ich möchte meine Freunde ___.",
+    "hint": "einladen",
+    "answer": "einladen",
+    "full_de": "Ich möchte meine Freunde einladen.",
+    "en": "I would like to invite my friends.",
+    "vocab_id": "einladen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-059",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Die Kinder dürfen heute ___.",
+    "hint": "fernsehen",
+    "answer": "fernsehen",
+    "full_de": "Die Kinder dürfen heute fernsehen.",
+    "en": "The children are allowed to watch TV today.",
+    "vocab_id": "fernsehen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-060",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Wann wollen wir ___? Der Kurs wartet.",
+    "hint": "anfangen",
+    "answer": "anfangen",
+    "full_de": "Wann wollen wir anfangen? Der Kurs wartet.",
+    "en": "When do we want to start? The class is waiting.",
+    "vocab_id": "anfangen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-061",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Du musst dein Zimmer ___.",
+    "hint": "aufräumen",
+    "answer": "aufräumen",
+    "full_de": "Du musst dein Zimmer aufräumen.",
+    "en": "You have to tidy up your room.",
+    "vocab_id": "aufraeumen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-062",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Können Sie bitte das Fenster ___?",
+    "hint": "aufmachen",
+    "answer": "aufmachen",
+    "full_de": "Können Sie bitte das Fenster aufmachen?",
+    "en": "Could you please open the window?",
+    "vocab_id": "aufmachen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-063",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Ich will eine warme Jacke ___.",
+    "hint": "anziehen",
+    "answer": "anziehen",
+    "full_de": "Ich will eine warme Jacke anziehen.",
+    "en": "I want to put on a warm jacket.",
+    "vocab_id": "anziehen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-064",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Kannst du eine Flasche Wasser ___?",
+    "hint": "mitbringen",
+    "answer": "mitbringen",
+    "full_de": "Kannst du eine Flasche Wasser mitbringen?",
+    "en": "Can you bring a bottle of water along?",
+    "vocab_id": "mitbringen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-065",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Wir müssen das Formular ___.",
+    "hint": "ausfüllen",
+    "answer": "ausfüllen",
+    "full_de": "Wir müssen das Formular ausfüllen.",
+    "en": "We have to fill out the form.",
+    "vocab_id": "ausfuellen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-066",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Der Zug soll jetzt ___.",
+    "hint": "abfahren",
+    "answer": "abfahren",
+    "full_de": "Der Zug soll jetzt abfahren.",
+    "en": "The train is supposed to depart now.",
+    "vocab_id": "abfahren",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-067",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Möchtest du neue Leute ___?",
+    "hint": "kennenlernen",
+    "answer": "kennenlernen",
+    "full_de": "Möchtest du neue Leute kennenlernen?",
+    "en": "Would you like to meet new people?",
+    "vocab_id": "kennenlernen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-068",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Er muss die Hausaufgabe ___.",
+    "hint": "vorbereiten",
+    "answer": "vorbereiten",
+    "full_de": "Er muss die Hausaufgabe vorbereiten.",
+    "en": "He has to prepare the homework.",
+    "vocab_id": "vorbereiten",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-069",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Wir wollen den Koffer ___.",
+    "hint": "einpacken",
+    "answer": "einpacken",
+    "full_de": "Wir wollen den Koffer einpacken.",
+    "en": "We want to pack the suitcase.",
+    "vocab_id": "einpacken",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-070",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Wann wollt ihr ___?",
+    "hint": "aufhören",
+    "answer": "aufhören",
+    "full_de": "Wann wollt ihr aufhören?",
+    "en": "When do you want to stop?",
+    "vocab_id": "aufhoeren",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-071",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Kannst du bitte das Radio ___?",
+    "hint": "anmachen",
+    "answer": "anmachen",
+    "full_de": "Kannst du bitte das Radio anmachen?",
+    "en": "Can you please turn on the radio?",
+    "vocab_id": "anmachen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-072",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Sie müssen die Tür ___.",
+    "hint": "zumachen",
+    "answer": "zumachen",
+    "full_de": "Sie müssen die Tür zumachen.",
+    "en": "You must close the door.",
+    "vocab_id": "zumachen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-073",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Ich möchte meinen Hund ___.",
+    "hint": "mitnehmen",
+    "answer": "mitnehmen",
+    "full_de": "Ich möchte meinen Hund mitnehmen.",
+    "en": "I would like to take my dog with me.",
+    "vocab_id": "mitnehmen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-074",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Wir müssen die richtige Antwort ___.",
+    "hint": "ankreuzen",
+    "answer": "ankreuzen",
+    "full_de": "Wir müssen die richtige Antwort ankreuzen.",
+    "en": "We must tick the correct answer.",
+    "vocab_id": "ankreuzen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-075",
+    "lesson": 2,
+    "set": "trennbar-modal",
+    "prompt_de": "Du darfst die Schuhe im Haus ___.",
+    "hint": "ausziehen",
+    "answer": "ausziehen",
+    "full_de": "Du darfst die Schuhe im Haus ausziehen.",
+    "en": "You may take off your shoes in the house.",
+    "vocab_id": "ausziehen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-076",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Ich ___ meine Großeltern am Wochenende.",
+    "hint": "besuchen",
+    "answer": "besuche",
+    "full_de": "Ich besuche meine Großeltern am Wochenende.",
+    "en": "I am visiting my grandparents on the weekend.",
+    "vocab_id": "besuchen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-077",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Der Lehrer ___ das Grammatikthema.",
+    "hint": "erklären",
+    "answer": "erklärt",
+    "full_de": "Der Lehrer erklärt das Grammatikthema.",
+    "en": "The teacher explains the grammar topic.",
+    "vocab_id": "erklaeren",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-078",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Entschuldigung, ich ___ das Wort nicht.",
+    "hint": "verstehen",
+    "answer": "verstehe",
+    "full_de": "Entschuldigung, ich verstehe das Wort nicht.",
+    "en": "Sorry, I do not understand the word.",
+    "vocab_id": "verstehen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-079",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Das Hotel ___ mir gut.",
+    "hint": "gefallen",
+    "answer": "gefällt",
+    "full_de": "Das Hotel gefällt mir gut.",
+    "en": "I like the hotel.",
+    "vocab_id": "gefallen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-080",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Er ___ seiner Mutter ein Geschenk.",
+    "hint": "verkaufen",
+    "answer": "verkauft",
+    "full_de": "Er verkauft seiner Mutter ein Geschenk.",
+    "en": "He is selling a present to his mother.",
+    "vocab_id": "verkaufen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-081",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Wir ___ heute ein neues Auto.",
+    "hint": "bekommen",
+    "answer": "bekommen",
+    "full_de": "Wir bekommen heute ein neues Auto.",
+    "en": "We are getting a new car today.",
+    "vocab_id": "bekommen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-082",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Das Kleid ___ meiner Schwester sehr gut.",
+    "hint": "gefallen",
+    "answer": "gefällt",
+    "full_de": "Das Kleid gefällt meiner Schwester sehr gut.",
+    "en": "My sister likes the dress very much.",
+    "vocab_id": "gefallen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-083",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Ich ___ die Hausaufgabe.",
+    "hint": "vergessen",
+    "answer": "vergesse",
+    "full_de": "Ich vergesse die Hausaufgabe.",
+    "en": "I am forgetting the homework.",
+    "vocab_id": "vergessen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-084",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Wann ___ der Deutschkurs?",
+    "hint": "beginnen",
+    "answer": "beginnt",
+    "full_de": "Wann beginnt der Deutschkurs?",
+    "en": "When does the German course begin?",
+    "vocab_id": "beginnen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-085",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Sie ___ Saft statt Bier.",
+    "hint": "bestellen",
+    "answer": "bestellt",
+    "full_de": "Sie bestellt Saft statt Bier.",
+    "en": "She orders juice instead of beer.",
+    "vocab_id": "bestellen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-086",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Er ___ viel Geld.",
+    "hint": "verdienen",
+    "answer": "verdient",
+    "full_de": "Er verdient viel Geld.",
+    "en": "He earns a lot of money.",
+    "vocab_id": "verdienen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-087",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Wer ___ die Rechnung?",
+    "hint": "bezahlen",
+    "answer": "bezahlt",
+    "full_de": "Wer bezahlt die Rechnung?",
+    "en": "Who is paying the bill?",
+    "vocab_id": "bezahlen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-088",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Ich ___ jeden Morgen um 7 Uhr ___.",
+    "hint": "aufstehen",
+    "answer": "stehe auf",
+    "full_de": "Ich stehe jeden Morgen um 7 Uhr auf.",
+    "en": "I get up every morning at 7 o'clock.",
+    "vocab_id": "aufstehen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-089",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Wir ___ die Wohnung am Samstag ___.",
+    "hint": "aufräumen",
+    "answer": "räumen auf",
+    "full_de": "Wir räumen die Wohnung am Samstag auf.",
+    "en": "We are tidying up the apartment on Saturday.",
+    "vocab_id": "aufraeumen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-090",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Sie ___ ihre Freundin zum Geburtstag ___.",
+    "hint": "einladen",
+    "answer": "lädt ein",
+    "full_de": "Sie lädt ihre Freundin zum Geburtstag ein.",
+    "en": "She invites her friend for her birthday.",
+    "vocab_id": "einladen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-091",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Ich ___ den Termin.",
+    "hint": "bestätigen",
+    "answer": "bestätige",
+    "full_de": "Ich bestätige den Termin.",
+    "en": "I am confirming the appointment.",
+    "vocab_id": "bestaetigen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-092",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Er ___ das Licht ___, wenn er geht.",
+    "hint": "ausmachen",
+    "answer": "macht aus",
+    "full_de": "Er macht das Licht aus, wenn er geht.",
+    "en": "He turns off the light when he leaves.",
+    "vocab_id": "ausmachen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-093",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Warum ___ du mich nicht ___?",
+    "hint": "anrufen",
+    "answer": "rufst an",
+    "full_de": "Warum rufst du mich nicht an?",
+    "en": "Why don't you call me?",
+    "vocab_id": "anrufen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-094",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Der Bus ___ pünktlich ___.",
+    "hint": "abfahren",
+    "answer": "fährt ab",
+    "full_de": "Der Bus fährt pünktlich ab.",
+    "en": "The bus departs on time.",
+    "vocab_id": "abfahren",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-095",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Frau Schneider ___ die Dokumente ___.",
+    "hint": "ausfüllen",
+    "answer": "füllt aus",
+    "full_de": "Frau Schneider füllt die Dokumente aus.",
+    "en": "Mrs. Schneider fills out the documents.",
+    "vocab_id": "ausfuellen",
+    "tags": [
+      "trennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-096",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Ich ___ den Satz nicht.",
+    "hint": "verstehen",
+    "answer": "verstehe",
+    "full_de": "Ich verstehe den Satz nicht.",
+    "en": "I do not understand the sentence.",
+    "vocab_id": "verstehen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-097",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Wir ___ ein neues Thema.",
+    "hint": "besprechen",
+    "answer": "besprechen",
+    "full_de": "Wir besprechen ein neues Thema.",
+    "en": "We are discussing a new topic.",
+    "vocab_id": "besprechen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-098",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Du ___ immer meinen Geburtstag!",
+    "hint": "vergessen",
+    "answer": "vergisst",
+    "full_de": "Du vergisst immer meinen Geburtstag!",
+    "en": "You always forget my birthday!",
+    "vocab_id": "vergessen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-099",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Das Kind ___ ein Eis von Oma.",
+    "hint": "bekommen",
+    "answer": "bekommt",
+    "full_de": "Das Kind bekommt ein Eis von Oma.",
+    "en": "The child gets an ice cream from grandma.",
+    "vocab_id": "bekommen",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-praefix-100",
+    "lesson": 2,
+    "set": "gemischt",
+    "prompt_de": "Schaltest du bitte den Fernseher ___?",
+    "hint": "einschalten",
+    "answer": "ein",
+    "full_de": "Schaltest du bitte den Fernseher ein?",
+    "en": "Are you turning on the TV, please?",
+    "vocab_id": "einschalten",
+    "tags": [
+      "untrennbar"
+    ]
+  },
+  {
+    "id": "ex-artikel-001",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Mann steht an der Tür.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Mann steht an der Tür.",
+    "en": null,
+    "vocab_id": "mann",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-002",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Frau liest ein Buch.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Frau liest ein Buch.",
+    "en": null,
+    "vocab_id": "frau",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-003",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Kind spielt im Garten.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Das Kind spielt im Garten.",
+    "en": null,
+    "vocab_id": "kind",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-004",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Hund schläft.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Hund schläft.",
+    "en": null,
+    "vocab_id": "hund",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-005",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Katze läuft schnell.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Katze läuft schnell.",
+    "en": null,
+    "vocab_id": "katze",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-006",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Schule ist groß.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Schule ist groß.",
+    "en": null,
+    "vocab_id": "schule",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-007",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Tisch ist schwer.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Tisch ist schwer.",
+    "en": null,
+    "vocab_id": "tisch",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-008",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Lampe ist hell.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Lampe ist hell.",
+    "en": null,
+    "vocab_id": "lampe",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-009",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Stuhl steht am Fenster.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Stuhl steht am Fenster.",
+    "en": null,
+    "vocab_id": "stuhl",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-010",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Auto ist neu.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Das Auto ist neu.",
+    "en": null,
+    "vocab_id": "auto",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-011",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Bus fährt langsam.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Bus fährt langsam.",
+    "en": null,
+    "vocab_id": "bus",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-012",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Zug kommt pünktlich.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Zug kommt pünktlich.",
+    "en": null,
+    "vocab_id": "zug",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-013",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Haus ist alt.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Das Haus ist alt.",
+    "en": null,
+    "vocab_id": "haus",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-014",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Fenster ist offen.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Das Fenster ist offen.",
+    "en": null,
+    "vocab_id": "fenster",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-015",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Tür ist zu.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Tür ist zu.",
+    "en": null,
+    "vocab_id": "tuer",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-016",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Apfel liegt auf dem Tisch.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Apfel liegt auf dem Tisch.",
+    "en": null,
+    "vocab_id": "apfel",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-017",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Banane ist gelb.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Banane ist gelb.",
+    "en": null,
+    "vocab_id": "banane",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-018",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Brot ist frisch.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Das Brot ist frisch.",
+    "en": null,
+    "vocab_id": "brot",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-019",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Milch ist kalt.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Milch ist kalt.",
+    "en": null,
+    "vocab_id": "milch",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-020",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Wasser ist klar.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Das Wasser ist klar.",
+    "en": null,
+    "vocab_id": "wasser",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-021",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Lehrer spricht laut.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Lehrer spricht laut.",
+    "en": null,
+    "vocab_id": "lehrer",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-022",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Schülerin schreibt.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Schülerin schreibt.",
+    "en": null,
+    "vocab_id": "schuelerin",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-023",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Arzt arbeitet im Krankenhaus.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Arzt arbeitet im Krankenhaus.",
+    "en": null,
+    "vocab_id": "arzt",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-024",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Uhr hängt an der Wand.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Uhr hängt an der Wand.",
+    "en": null,
+    "vocab_id": "uhr",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-025",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Buch liegt auf dem Tisch.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Das Buch liegt auf dem Tisch.",
+    "en": null,
+    "vocab_id": "buch",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-026",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Sonne scheint.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Sonne scheint.",
+    "en": null,
+    "vocab_id": "sonne",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-027",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Mond ist hoch am Himmel.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Mond ist hoch am Himmel.",
+    "en": null,
+    "vocab_id": "mond",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-028",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Sterne funkeln.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Sterne funkeln.",
+    "en": null,
+    "vocab_id": "stern",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-artikel-029",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Blume ist schön.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Blume ist schön.",
+    "en": null,
+    "vocab_id": "blume",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-030",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Baum ist groß.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Baum ist groß.",
+    "en": null,
+    "vocab_id": "baum",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-031",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Schüler lachen.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Schüler lachen.",
+    "en": null,
+    "vocab_id": "schueler",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-artikel-032",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Freunde spielen Fußball.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Freunde spielen Fußball.",
+    "en": null,
+    "vocab_id": "freund",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-artikel-033",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Eltern warten vor der Schule.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Eltern warten vor der Schule.",
+    "en": null,
+    "vocab_id": "eltern",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-artikel-034",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Familie isst zusammen.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Familie isst zusammen.",
+    "en": null,
+    "vocab_id": "familie",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-035",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Katze trinkt Milch.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Katze trinkt Milch.",
+    "en": null,
+    "vocab_id": "katze",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-036",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Vogel singt.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Vogel singt.",
+    "en": null,
+    "vocab_id": "vogel",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-037",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Schwimmbad ist kalt.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Das Schwimmbad ist kalt.",
+    "en": null,
+    "vocab_id": "schwimmbad",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-038",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Park ist grün.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Park ist grün.",
+    "en": null,
+    "vocab_id": "park",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-039",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Spiele sind interessant.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Spiele sind interessant.",
+    "en": null,
+    "vocab_id": "spiel",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-artikel-040",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Lehrerinnen arbeiten heute.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Lehrerinnen arbeiten heute.",
+    "en": null,
+    "vocab_id": "lehrerin",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-artikel-041",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Kinder schreiben.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Kinder schreiben.",
+    "en": null,
+    "vocab_id": "kind",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-artikel-042",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Bäume stehen im Wald.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Bäume stehen im Wald.",
+    "en": null,
+    "vocab_id": "baum",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-artikel-043",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Bücher liegen auf dem Regal.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Bücher liegen auf dem Regal.",
+    "en": null,
+    "vocab_id": "buch",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-artikel-044",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Klasse ist laut.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Klasse ist laut.",
+    "en": null,
+    "vocab_id": "klasse",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-045",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Tische sind sauber.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Tische sind sauber.",
+    "en": null,
+    "vocab_id": "tisch",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-artikel-046",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Türen sind geschlossen.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Türen sind geschlossen.",
+    "en": null,
+    "vocab_id": "tuer",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-artikel-047",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Schüler lesen Bücher.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Schüler lesen Bücher.",
+    "en": null,
+    "vocab_id": "schueler",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-artikel-048",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Mädchen tanzt.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Das Mädchen tanzt.",
+    "en": null,
+    "vocab_id": "maedchen",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-049",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Junge rennt schnell.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Junge rennt schnell.",
+    "en": null,
+    "vocab_id": "junge",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-artikel-050",
+    "lesson": 2,
+    "set": "artikel-bestimmt",
+    "prompt_de": "___ Tiere schlafen im Zoo.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Die Tiere schlafen im Zoo.",
+    "en": null,
+    "vocab_id": "tier",
+    "tags": [
+      "artikel",
+      "plural"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-001",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Schwester.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Das ist eine Schwester.",
+    "en": null,
+    "vocab_id": "schwester",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-002",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich sehe ___ Frau.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Ich sehe eine Frau.",
+    "en": null,
+    "vocab_id": "frau",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-003",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Hier ist ___ Kind.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Hier ist ein Kind.",
+    "en": null,
+    "vocab_id": "kind",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-004",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Haus.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Haus.",
+    "en": null,
+    "vocab_id": "haus",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-005",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Sie hat ___ Tasche.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Sie hat eine Tasche.",
+    "en": null,
+    "vocab_id": "tasche",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-006",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Er ist ___ Lehrer.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Er ist ein Lehrer.",
+    "en": null,
+    "vocab_id": "lehrer",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-007",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich suche ___ Katze.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Ich suche eine Katze.",
+    "en": null,
+    "vocab_id": "katze",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-008",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Stuhl.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Stuhl.",
+    "en": null,
+    "vocab_id": "stuhl",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-009",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich finde ___ Buch.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Ich finde ein Buch.",
+    "en": null,
+    "vocab_id": "buch",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-010",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Lampe.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Das ist eine Lampe.",
+    "en": null,
+    "vocab_id": "lampe",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-011",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Hier ist ___ Tisch.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Hier ist ein Tisch.",
+    "en": null,
+    "vocab_id": "tisch",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-012",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Auto.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Auto.",
+    "en": null,
+    "vocab_id": "auto",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-013",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Er trinkt ___ Saft.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er trinkt einen Saft.",
+    "en": null,
+    "vocab_id": "saft",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-014",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Freundin.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Das ist eine Freundin.",
+    "en": null,
+    "vocab_id": "freundin",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-015",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich brauche ___ Stift.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich brauche einen Stift.",
+    "en": null,
+    "vocab_id": "stift",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-016",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Sie kauft ___ Blume.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Sie kauft eine Blume.",
+    "en": null,
+    "vocab_id": "blume",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-017",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich sehe ___ Vogel.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich sehe einen Vogel.",
+    "en": null,
+    "vocab_id": "vogel",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-018",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Schule.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Das ist eine Schule.",
+    "en": null,
+    "vocab_id": "schule",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-019",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich kenne ___ Arzt.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich kenne einen Arzt.",
+    "en": null,
+    "vocab_id": "arzt",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-020",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Hier ist ___ Fahrrad.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Hier ist ein Fahrrad.",
+    "en": null,
+    "vocab_id": "fahrrad",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-021",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Zug.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Zug.",
+    "en": null,
+    "vocab_id": "zug",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-022",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Sie hat ___ Idee.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Sie hat eine Idee.",
+    "en": null,
+    "vocab_id": "idee",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-023",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich finde ___ Schlüssel.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich finde einen Schlüssel.",
+    "en": null,
+    "vocab_id": "schluessel",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-024",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Apfel.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Apfel.",
+    "en": null,
+    "vocab_id": "apfel",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-025",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich sehe ___ Hund.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich sehe einen Hund.",
+    "en": null,
+    "vocab_id": "hund",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-026",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Er hat ___ Bruder.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er hat einen Bruder.",
+    "en": null,
+    "vocab_id": "bruder",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-027",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Fenster.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Fenster.",
+    "en": null,
+    "vocab_id": "fenster",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-028",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich lebe in ___ Stadt.",
+    "hint": null,
+    "answer": "einer",
+    "full_de": "Ich lebe in einer Stadt.",
+    "en": null,
+    "vocab_id": "stadt",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-029",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Sie hat ___ Frage.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Sie hat eine Frage.",
+    "en": null,
+    "vocab_id": "frage",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-030",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Problem.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Problem.",
+    "en": null,
+    "vocab_id": "problem",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-031",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich habe ___ Spiel.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Ich habe ein Spiel.",
+    "en": null,
+    "vocab_id": "spiel",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-032",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Lehrerzimmer.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Lehrerzimmer.",
+    "en": null,
+    "vocab_id": "lehrerzimmer",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-033",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich esse ___ Brot.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Ich esse ein Brot.",
+    "en": null,
+    "vocab_id": "brot",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-034",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Buchladen.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Buchladen.",
+    "en": null,
+    "vocab_id": "buchladen",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-035",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Sie hat ___ Rucksack.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie hat einen Rucksack.",
+    "en": null,
+    "vocab_id": "rucksack",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-036",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich schenke dir ___ Ball.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich schenke dir einen Ball.",
+    "en": null,
+    "vocab_id": "ball",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-037",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Supermarkt.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Supermarkt.",
+    "en": null,
+    "vocab_id": "supermarkt",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-038",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich sehe ___ Stern.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich sehe einen Stern.",
+    "en": null,
+    "vocab_id": "stern",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-039",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Flughafen.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Flughafen.",
+    "en": null,
+    "vocab_id": "flughafen",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-040",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich höre ___ Lied.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Ich höre ein Lied.",
+    "en": null,
+    "vocab_id": "lied",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-041",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Uhr.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Das ist eine Uhr.",
+    "en": null,
+    "vocab_id": "uhr",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-042",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich sehe ___ Park.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich sehe einen Park.",
+    "en": null,
+    "vocab_id": "park",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-043",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Sie braucht ___ Pizza.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Sie braucht eine Pizza.",
+    "en": null,
+    "vocab_id": "pizza",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-044",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Balkon.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Balkon.",
+    "en": null,
+    "vocab_id": "balkon",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-045",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich finde ___ Job.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich finde einen Job.",
+    "en": null,
+    "vocab_id": "job",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-046",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Meer.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Meer.",
+    "en": null,
+    "vocab_id": "meer",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-047",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Ich habe ___ Plan.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich habe einen Plan.",
+    "en": null,
+    "vocab_id": "plan",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-048",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Zoo.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Zoo.",
+    "en": null,
+    "vocab_id": "zoo",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-049",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Sie sieht ___ Mann dort.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie sieht einen Mann dort.",
+    "en": null,
+    "vocab_id": "mann",
+    "tags": [
+      "artikel"
+    ]
+  },
+  {
+    "id": "ex-unbestimmt-050",
+    "lesson": 2,
+    "set": "artikel-unbestimmt",
+    "prompt_de": "Das ist ___ Geschenk.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Das ist ein Geschenk.",
+    "en": null,
+    "vocab_id": "geschenk",
+    "tags": [
+      "artikel"
+    ]
+  }
+]

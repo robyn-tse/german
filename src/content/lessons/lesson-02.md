@@ -8,6 +8,11 @@ sources:
   - 50_Verben.rtf
   - Artikel_Erkla_rung.pdf
   - lesson2_reference.md
+  - Praefixe.pdf
+  - Praefix_A1.rtf
+  - 300_Artikel_Uebungen 2.rtfd
+  - 4Wortliste.rtfd
+  - 1Wortliste_A1_A2_B1.pdf
 ---
 
 ## Present tense: pronouns, haben, sein, and the weak pattern
@@ -103,6 +108,39 @@ From the handout *Die 50 wichtigsten Verben im Deutschen* (only 20 are in the fi
 | erkennen | to identify / to recognize |
 | entscheiden | to decide |
 | umsetzen | to implement |
+
+## Prefix handout (Praefixe.pdf)
+
+Two things a separable prefix does:
+
+1. **Conjugation:** the prefix splits off and goes to the end of the sentence. Ich räume das Zimmer **auf**. Du räumst das Zimmer **auf**. Ich hole das Buch **ab**.
+2. **Perfekt:** the **ge-** of the Partizip II goes *between* prefix and stem: aufräumen → ich habe **aufgeräumt**; abholen → du hast **abgeholt**.
+
+Inseparable prefixes never split (ich **be**suche, *not* ich suche be…) and take **no ge-** in the Partizip II: verstehen → ich habe **verstanden** (*vergestanden* is wrong).
+
+The handout adds prefix meanings and more example verbs; the full table is on the [Prefixes](../grammar/prefixes/) page. New separable prefixes beyond the ten above: **her-, hin-, hinein-, los-, zu-, zurück-**.
+
+## Worksheet: separable verbs (Praefix_A1.rtf)
+
+100 gap-fill sentences in three parts: separable verbs in the present tense (1–50), separable verbs after a modal verb, where the infinitive stays whole at the end (51–75), and a mix of separable and inseparable verbs (76–100). Each sentence has an English translation. The sheet has no answer key; the answers in the quiz were worked out from the verb in brackets. Drill it from the Exercises section below.
+
+## Worksheet: articles (300_Artikel_Uebungen 2.rtfd)
+
+- 10 nouns with the gender given, to fill in the article.
+- *Bestimmt oder unbestimmt?* — five pairs introducing a noun with **ein/eine** and referring back with **der/die/das**: *Da vorne ist **eine** Bäckerei. **Die** Bäckerei hat gute Brötchen.*
+- *Pluralformen* — in the plural there is no indefinite article: either nothing (*Nullartikel*) or **die**: *Da sind [–] / viele Kinder. **Die** Kinder spielen.*
+- 50 sentences with the definite article (subjects, including plurals → die) and 50 with the indefinite article. Both are quizzable. Note that the indefinite sheet is headed *ein (der) – eine (die) – ein (das)*, but several sentences need the **accusative einen** for a masculine object (*Er trinkt **einen** Saft*) and one needs the dative (*Ich lebe in **einer** Stadt*); the quiz uses the correct forms.
+- A further 50 mixed sentences (*Artikel:*) where either article could fit, plus *Geschwister / Messer / Fenster*. Kept here for reference only:
+
+> Der Mann geht in den Park. · Ich sehe eine/die Frau. · Das ist ein Buch. · Wir haben einen Hund. · Die Lampe steht auf dem Tisch. · Sie hat eine Tasche. · Das Auto ist neu. · Er trinkt einen Tee. · Die Katze schläft. · Ich brauche einen Stift. · Das ist das Haus von Anna. · Der Apfel liegt auf dem Tisch. · Wir essen ein/das Brot. · Die Kinder spielen im Garten. · Ich habe ein Fahrrad. · Das ist eine Schule. · Der Lehrer ist nett. · Sie kauft (die) Blumen. · Er hat eine Idee. · Das ist ein Freund von mir. · Ich sehe einen Vogel. · Der Zug fährt pünktlich. · Sie hat einen Bruder. · Wir brauchen (das) Wasser. · Der Film ist interessant. · Ich trinke einen Kaffee. · Sie hat einen Schlüssel. · Das ist eine Stadt. · Das Boot liegt im Hafen. · Ich habe (keine) Zeit. · Wir besuchen ein/das Museum. · Die Frau liest eine/die Zeitung. · Sie hat einen Bruder und eine Schwester. · Er findet das Buch nicht. · Ich habe eine Idee. · Der Arzt ist freundlich. · Wir sehen einen/die Elefanten im Zoo. · Sie kauft ein Eis. · Das Kind hat einen Ball. · Ich sehe die Sterne am Himmel. · Er hat einen Hut. · Wir trinken (den) Saft. · Das ist ein Problem. · Sie hat ein Auto und ein Fahrrad. · Ich brauche Hilfe. · Der Junge rennt schnell. · Sie hat einen Freund. · Wir haben (keine) Zeit. · Das Mädchen singt ein Lied. · Ich habe eine Idee für ein Spiel. · die Geschwister · das Messer · das Fenster
+
+## Phrase list (4Wortliste.rtfd)
+
+A general German–English list of about 500 words and phrases in themed sections: everyday phrases, introductions, greetings, travel, directions, times and dates, places, shopping, restaurant, hotel, numbers, pronouns, body, important words, verbs, adjectives, adverbs, prepositions, conjunctions. All of it is in the vocab table tagged `wortliste` plus a section tag (`orte`, `zeit`, `koerper`, …). Nouns in the list had no articles; they were added.
+
+## English Compass word list (1Wortliste_A1_A2_B1.pdf)
+
+A 103-page English→German glossary from an English coursebook (word, phonetics, German gloss, level A1–B1, page). It is a reference, not lesson vocabulary, so it is archived in `inbox/archive/lesson-02/` and not loaded into the vocab table.
 
 ## Also in the handout (not yet a curriculum topic)
 

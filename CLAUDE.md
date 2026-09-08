@@ -14,6 +14,7 @@ The original build spec is in `docs/build-prompt.md`. Read it if you are about t
 | `src/content/lessons/lesson-NN.md` | One file per lesson, chronological. Body = cleaned notes (markdown). |
 | `src/content/grammar/<topic>.md` | One file per curriculum topic. Exactly ten, fixed (list below). Topical, not chronological. |
 | `src/data/vocab.json` | Single JSON array of vocab entries. The quiz and vocab table read this. |
+| `src/data/exercises.json` | Gap-fill sentences from worksheets, with answer keys. Only the quiz reads it. |
 | `src/content.config.ts` | Zod schemas for all three collections. Structural validation at build. |
 | `scripts/validate-vocab.mjs` | Storage-convention checks. Runs inside every build via `scripts/astro-vocab-validator.mjs` and **fails the build**. |
 | `scripts/export-anki.mjs` | Generates the Anki vocab TSVs for a lesson. |
@@ -60,7 +61,10 @@ thing end to end.
    cleaned notes as the body. Keep the tutor's structure and wording; fix only obvious transcription
    noise. **Anything that fits no structured field goes in the body verbatim** — the body is the
    safety valve. Then open the previous lesson's file and mark its homework `done: true`.
-4. **Vocab.** Append new entries to `src/data/vocab.json`. Before adding, check for duplicates
+4. **Vocab.** Decide first what *is* vocab. Lesson handouts, worksheets and phrase lists are; a
+   coursebook glossary or dictionary-style reference (like the 103-page English Compass word list in
+   lesson 2) is not: archive it, mention it in the lesson body, and say so in the report.
+   Append new entries to `src/data/vocab.json`. Before adding, check for duplicates
    against existing `german` values (and near-duplicates: same word with/without article, different
    gloss). If a word already exists, do not add a second entry; enrich the existing one (add tags,
    fill empty fields, append to `notes`) and report it as "merged into existing". Fill every field
@@ -69,6 +73,10 @@ thing end to end.
 5. **Grammar.** For each topic the lesson touched, append a section to the topic file (grammar is
    cumulative: add, do not rewrite earlier lessons' content), add the lesson number to `lessons`,
    and set `last_updated_lesson`. Add the topic slugs to the lesson's `topics`.
+5b. **Exercises.** If a source is a worksheet (gap-fill sentences, article drills), add each
+   sentence to `src/data/exercises.json` with the answer key (see schema below). Worksheets usually
+   arrive without answers; you work them out and say so in the report. If a mode in
+   `src/lib/quiz-modes.js` already covers the `set`, nothing else is needed; otherwise add a mode.
 6. **Anki exports.** Run `node scripts/export-anki.mjs NN` for the vocab cards. Hand-write
    `exports/lesson-NN-regeln.tsv` for rule cards (prefixes, suffix rules, patterns) in the same
    format as `exports/lesson-02-regeln.tsv`. Header syntax is fixed:
@@ -144,7 +152,8 @@ Additional conventions the script does not check but you must follow:
 - **Source first.** Fields that come from Markus's material take precedence. You may fill standard
   forms you are certain of (e.g. Partizip II of a common verb the lesson used only as an example),
   but list every such addition in the report under "Not from the source". Never invent plurals or
-  example sentences; leave them `null`.
+  example sentences; leave them `null`. Genders for nouns that a source lists without an article
+  (phrase lists, worksheets) are the one exception: add them, and list them in the report.
 - `notes` is the catch-all for anything with no field (stem-vowel changes, "über- is inseparable
   here", cross-references).
 
@@ -174,8 +183,46 @@ Additional conventions the script does not check but you must follow:
 }
 ```
 
-`pos` is one of `noun | verb | adjective | prefix | phrase`. Nouns: `gender` set, `verb: null`.
-Non-verbs: `verb: null`.
+`pos` is one of `noun | verb | adjective | prefix | phrase | adverb | preposition | conjunction |
+pronoun | number | other`. Nouns: `gender` set, `verb: null`. Non-verbs: `verb: null`.
+
+More conventions that came out of lesson 2's phrase list and worksheets:
+
+- Number words are lowercase (`eins`, `zwanzig`); `die Million` / `die Milliarde` are nouns.
+  Ordinals are stored as the bare stem (`erste`) with the declension pattern in `notes`.
+- Question words, adverbs and other function words are lowercase (`wo`, `ja`), whatever the source does.
+- A word that is repeated in a source with different glosses becomes one entry with the glosses
+  joined by ` / ` (`fahren` → `to drive / to ride`, `über` → `about / above / across / over`).
+- Nouns listed in the plural are stored in the singular with a note (`die Lippe`, not `Lippen`);
+  plural-only nouns keep `die` and get `Plural-only noun.` in `notes` (`die Eltern`).
+- A source headword that is really two alternatives (`Trolley / Warenkorb`) is stored under the
+  natural German word with the alternative in `notes`.
+- Tags from lesson 2 you should reuse: `wortliste` plus a section tag (`alltag`, `vorstellen`,
+  `begruessung`, `reise`, `wegbeschreibung`, `zeit`, `orte`, `einkaufen`, `restaurant`, `hotel`,
+  `zahlen`, `koerper`) for phrase-list material; `artikel-uebung` for nouns that come from article
+  worksheets.
+
+### Exercise entry template
+
+```json
+{
+  "id": "ex-praefix-001",
+  "lesson": 2,
+  "set": "trennbar-praesens",
+  "prompt_de": "Ich ___ jeden Morgen um 6 Uhr ___.",
+  "hint": "aufstehen",
+  "answer": "stehe auf",
+  "full_de": "Ich stehe jeden Morgen um 6 Uhr auf.",
+  "en": "I get up every morning at 6 o'clock.",
+  "vocab_id": "aufstehen",
+  "tags": ["trennbar"]
+}
+```
+
+`set` names one worksheet section and is what a quiz mode filters on. Sets so far:
+`trennbar-praesens`, `trennbar-modal`, `gemischt` (verb gap-fills), `artikel-bestimmt`,
+`artikel-unbestimmt` (article choice). Two gaps are answered as one string with a space
+(`stehe auf`); the quiz shows it as `stehe … auf`. Ids are `ex-<sheet>-NNN`.
 
 ### Lesson frontmatter template
 
@@ -205,7 +252,10 @@ under "Also in the handout" and mention it in the report.
 ## Quiz modes
 
 `src/lib/quiz-modes.js` is a registry. A mode is `{ id, label, description, filter, prompt, answer,
-input, accept?, reveal? }`. To add one, add an object; the page picks it up. Sketches for plural,
+input, source?, subprompt?, accept?, reveal? }`. `source` is `'vocab'` (default) or `'exercises'`.
+To add one, add an object; the page picks it up, and lesson pages link to it with `?mode=<id>` for
+the exercise sets it covers. Current modes: DE→EN, EN→DE, Gender, Prefix, Partizip II, Verb im
+Satz (worksheet gap-fill), der/die/das im Satz, ein/eine/einen. Sketches for plural,
 Partizip II, present-tense and case modes are commented at the bottom of that file. Typed answers go
 through `src/lib/compare.js` (case-insensitive, trimmed, umlaut/ß tolerant but flagged). Do not add
 spaced repetition; Anki owns scheduling.

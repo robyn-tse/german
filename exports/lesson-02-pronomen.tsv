@@ -1,0 +1,12 @@
+#separator:tab
+#html:false
+#columns:Front	Back	Tags
+wer	who	lesson2::pronomen
+ich	I	lesson2::pronomen
+du	you (singular)	lesson2::pronomen
+er	he	lesson2::pronomen
+sie	she / they	lesson2::pronomen
+es	it	lesson2::pronomen
+wir	we	lesson2::pronomen
+ihr	you (plural)	lesson2::pronomen
+Sie	you (formal)	lesson2::pronomen

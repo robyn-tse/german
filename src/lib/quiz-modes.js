@@ -2,24 +2,30 @@
 // Quiz mode registry.
 //
 // Every mode is the same four decisions:
-//   filter  – which vocab entries qualify
+//   filter  – which entries qualify
 //   prompt  – what the entry shows
-//   answer  – what the response is checked against
+//   answer  – what the response is checked against (display form)
 //   input   – 'typed', or { type: 'choice', options: [...] }
 //
 // Optional:
-//   accept(entry) – extra acceptable typed answers, each { text, note }.
-//                   `note` is shown in the feedback when that alternative
-//                   matched (e.g. "answered without the article").
-//   reveal(entry) – extra text to show in the feedback regardless of result
-//                   (e.g. the article for EN→DE nouns, or the example).
+//   source     – 'vocab' (default) or 'exercises' (src/data/exercises.json)
+//   subprompt  – secondary line under the prompt (e.g. the English sentence)
+//   accept     – extra acceptable typed answers, each { text, note }; `note`
+//                is shown when that alternative matched
+//   reveal     – extra text shown in the feedback regardless of result
 //
-// Adding a mode is a new object in this array — nothing else changes.
-// Sketches for later modes are at the bottom of the file.
+// Adding a mode is a new object in this array; nothing else changes.
 // ---------------------------------------------------------------------------
 
 const hasPrefix = (e) => e.tags.includes('trennbar') || e.tags.includes('untrennbar');
 const stripArticle = (german) => german.replace(/^(der|die|das) /, '');
+const ARTICLE_NOTE = {
+  der: 'masculine', die: 'feminine', das: 'neuter',
+  ein: 'ein: masculine or neuter (nominative), neuter (accusative)',
+  eine: 'eine: feminine',
+  einen: 'einen: masculine in the accusative (the object of the sentence)',
+  einer: 'einer: feminine in the dative (after "in" with no movement)',
+};
 
 export const modes = [
   {
@@ -78,19 +84,58 @@ export const modes = [
     input: { type: 'choice', options: ['separable', 'inseparable'] },
     reveal: (e) => e.example_de,
   },
+  {
+    id: 'partizip',
+    label: 'Partizip II',
+    description: 'Type the past participle. Separable: ge- goes after the prefix; inseparable: no ge-.',
+    filter: (e) => e.pos === 'verb' && !!e.verb?.partizip_ii,
+    prompt: (e) => e.german,
+    answer: (e) => e.verb.partizip_ii,
+    input: 'typed',
+    reveal: (e) => `Perfekt with ${e.verb.aux}: ich ${e.verb.aux === 'sein' ? 'bin' : 'habe'} ${e.verb.partizip_ii}`,
+  },
+  {
+    id: 'satz-trennbar',
+    label: 'Verb im Satz',
+    description: 'Fill the gap(s) with the verb in brackets. Two gaps: type both parts, e.g. "stehe auf".',
+    source: 'exercises',
+    filter: (e) => e.set === 'trennbar-praesens' || e.set === 'trennbar-modal' || e.set === 'gemischt',
+    prompt: (e) => `${e.prompt_de}  (${e.hint})`,
+    subprompt: (e) => e.en,
+    answer: (e) => e.answer.replace(' ', ' … '),
+    input: 'typed',
+    accept: (e) => [{ text: e.answer, note: null }],
+    reveal: (e) => e.full_de,
+  },
+  {
+    id: 'artikel-satz',
+    label: 'der / die / das im Satz',
+    description: 'Pick the definite article. Plural nouns take die.',
+    source: 'exercises',
+    filter: (e) => e.set === 'artikel-bestimmt',
+    prompt: (e) => e.prompt_de,
+    answer: (e) => e.answer,
+    input: { type: 'choice', options: ['der', 'die', 'das'] },
+    reveal: (e) => `${e.full_de}${e.tags.includes('plural') ? ' · plural → die' : ''}`,
+  },
+  {
+    id: 'unbestimmt',
+    label: 'ein / eine / einen',
+    description: 'Pick the indefinite article. Watch for masculine objects (einen).',
+    source: 'exercises',
+    filter: (e) => e.set === 'artikel-unbestimmt',
+    prompt: (e) => e.prompt_de,
+    answer: (e) => e.answer,
+    input: { type: 'choice', options: ['ein', 'eine', 'einen', 'einer'] },
+    reveal: (e) => `${e.full_de} · ${ARTICLE_NOTE[e.answer]}`,
+  },
 
-  // --- Design check: modes to add later, no engine changes needed ----------
+  // --- Sketches for later modes; no engine changes needed --------------------
   // {
   //   id: 'plural', label: 'Plural',
   //   filter: (e) => e.pos === 'noun' && !!e.plural,
   //   prompt: (e) => e.german, answer: (e) => e.plural, input: 'typed',
   //   accept: (e) => [{ text: e.plural, note: null }, { text: `die ${e.plural}`, note: null }],
-  // },
-  // {
-  //   id: 'partizip', label: 'Partizip II',
-  //   filter: (e) => !!e.verb?.partizip_ii,
-  //   prompt: (e) => e.german, answer: (e) => e.verb.partizip_ii, input: 'typed',
-  //   reveal: (e) => `Perfekt with ${e.verb.aux}`,
   // },
   // {
   //   id: 'present-du', label: 'Present (du)',
@@ -99,8 +144,8 @@ export const modes = [
   // },
   // {
   //   id: 'case', label: 'Case in sentence',
-  //   filter: (e) => e.pos === 'noun' && !!e.case_in_example,   // would need a new field
-  //   prompt: (e) => e.example_de, answer: (e) => e.case_in_example,
+  //   source: 'exercises', filter: (e) => e.set === 'kasus',
+  //   prompt: (e) => e.prompt_de, answer: (e) => e.answer,
   //   input: { type: 'choice', options: ['Nominativ', 'Akkusativ', 'Dativ', 'Genitiv'] },
   // },
 ];
