@@ -1,0 +1,117 @@
+---
+import Base from '../../layouts/Base.astro';
+import Word from '../../components/Word.astro';
+import Incomplete from '../../components/Incomplete.astro';
+import { getCollection, getEntries, render } from 'astro:content';
+import { url } from '../../lib/url';
+import { formatDate, POS_LABEL } from '../../lib/vocab';
+
+export async function getStaticPaths() {
+  const lessons = await getCollection('lessons');
+  return lessons.map((lesson) => ({ params: { number: String(lesson.data.number) }, props: { lesson } }));
+}
+
+const { lesson } = Astro.props;
+const { Content } = await render(lesson);
+const topics = await getEntries(lesson.data.topics);
+const vocab = (await getCollection('vocab'))
+  .filter((v) => v.data.lesson === lesson.data.number)
+  .map((v) => v.data);
+
+const order = ['verb', 'noun', 'adjective', 'phrase', 'prefix'];
+const groups = order
+  .map((pos) => ({ pos, label: POS_LABEL[pos], items: vocab.filter((v) => v.pos === pos) }))
+  .filter((g) => g.items.length > 0);
+const untyped = vocab.filter((v) => !v.pos);
+if (untyped.length) groups.push({ pos: 'other', label: 'Other', items: untyped });
+
+const all = await getCollection('lessons');
+const prev = all.find((l) => l.data.number === lesson.data.number - 1);
+const next = all.find((l) => l.data.number === lesson.data.number + 1);
+---
+<Base title={`Lesson ${lesson.data.number}`}>
+  <header class="head">
+    <p class="small muted">
+      <time datetime={lesson.data.date.toISOString().slice(0, 10)}>{formatDate(lesson.data.date)}</time>
+      {lesson.data.sources.length > 0 && <> · Sources: {lesson.data.sources.join(', ')}</>}
+    </p>
+    <h1>Lesson {lesson.data.number}{lesson.data.title && <span class="subtitle">: {lesson.data.title}</span>}</h1>
+    {topics.length > 0 && (
+      <ul class="topics">
+        {topics.map((t) => (
+          <li><a class="chip" href={url(`/grammar/${t.id}/`)}>{t.data.title}</a></li>
+        ))}
+      </ul>
+    )}
+  </header>
+
+  <section class="section" aria-labelledby="hw">
+    <h2 id="hw">Homework</h2>
+    {lesson.data.homework.length === 0 ? (
+      <p class="muted">No homework recorded for this lesson.</p>
+    ) : (
+      <ul class="homework">
+        {lesson.data.homework.map((h) => (
+          <li class:list={{ done: h.done }}>
+            <span class="box" aria-hidden="true">{h.done ? '☑' : '☐'}</span>
+            <span class="visually-hidden">{h.done ? 'Done:' : 'Open:'}</span>
+            {h.text}
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+
+  <section class="section prose" aria-labelledby="notes">
+    <h2 id="notes">Notes</h2>
+    <Content />
+  </section>
+
+  <section class="section" aria-labelledby="vocab">
+    <h2 id="vocab">Vocabulary introduced <span class="muted small">({vocab.length})</span></h2>
+    {groups.map((g) => (
+      <div class="group">
+        <h3>{g.label} <span class="muted small">({g.items.length})</span></h3>
+        <ul class="words">
+          {g.items.map((e) => (
+            <li>
+              <span class="de"><Word german={e.german} /> <Incomplete entry={e} /></span>
+              <span class="en">{e.english}</span>
+              {e.tags.length > 0 && <span class="tags">{e.tags.map((t) => <span class="chip">{t}</span>)}</span>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+    <p class="small"><a href={url(`/vocab/`) + `?lesson=${lesson.data.number}`}>Open in the vocab table →</a></p>
+  </section>
+
+  <nav class="pager" aria-label="Lesson navigation">
+    {prev ? <a href={url(`/lessons/${prev.data.number}/`)}>← Lesson {prev.data.number}</a> : <span />}
+    {next ? <a href={url(`/lessons/${next.data.number}/`)}>Lesson {next.data.number} →</a> : <span />}
+  </nav>
+</Base>
+
+<style>
+  .subtitle { font-weight: 400; color: var(--muted); }
+  .topics { list-style: none; padding: 0; margin: 0.25rem 0 0; display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .topics a { text-decoration: none; }
+  .section { margin-top: 2rem; }
+  .homework { list-style: none; padding: 0; margin: 0; }
+  .homework li { display: flex; gap: 0.5rem; align-items: baseline; }
+  .homework .done { color: var(--muted); text-decoration: line-through; }
+  .box { font-size: 1.1em; }
+  .group h3 { margin-top: 1.25rem; }
+  .words { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.35rem; max-width: 46rem; }
+  .words li {
+    display: grid; grid-template-columns: minmax(9rem, 1fr) 1.4fr auto; gap: 0.25rem 1rem; align-items: baseline;
+    padding: 0.35rem 0; border-bottom: 1px solid var(--border);
+  }
+  .en { color: var(--muted); }
+  .tags { display: flex; gap: 0.25rem; }
+  @media (max-width: 30rem) {
+    .words li { grid-template-columns: 1fr auto; }
+    .en { grid-column: 1 / -1; }
+  }
+  .pager { display: flex; justify-content: space-between; margin-top: 3rem; }
+</style>

@@ -1,0 +1,149 @@
+/* ---------------------------------------------------------------------------
+   Design tokens. Gender colours are the one thing you're most likely to swap:
+   change --der / --die / --das here and they update sitewide.
+   Colour is never the only signal — the article is always visible as text.
+   --------------------------------------------------------------------------- */
+:root {
+  color-scheme: light dark;
+
+  --der: #1d5fd0;   /* masculine  – blue  */
+  --die: #c4256e;   /* feminine   – rose  */
+  --das: #1a8a3a;   /* neuter     – green */
+
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --surface-2: #f1efe9;
+  --fg: #1c1b18;
+  --muted: #6b675e;
+  --border: #dedad0;
+  --accent: #b4551a;
+  --accent-fg: #ffffff;
+  --ok: #1a8a3a;
+  --bad: #c62828;
+  --warn: #b7791f;
+
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --measure: 66ch;
+  --radius: 8px;
+  --nav-size: 3.75rem;      /* bottom tab bar height (mobile) */
+  --sidebar-width: 13rem;   /* desktop */
+  --space: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --der: #7aa7ff;
+    --die: #ff7fb3;
+    --das: #5fd27f;
+
+    --bg: #151412;
+    --surface: #1e1d1a;
+    --surface-2: #2a2825;
+    --fg: #ece9e1;
+    --muted: #a39e93;
+    --border: #38352f;
+    --accent: #f0955a;
+    --accent-fg: #1c1b18;
+    --ok: #5fd27f;
+    --bad: #ff7b7b;
+    --warn: #f2c14e;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: 1rem;
+  line-height: 1.6;
+  font-feature-settings: "kern";
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 { line-height: 1.25; letter-spacing: -0.01em; margin: 0 0 0.5em; }
+h1 { font-size: 1.6rem; }
+h2 { font-size: 1.25rem; margin-top: 1.75em; }
+h3 { font-size: 1.05rem; margin-top: 1.5em; }
+p { margin: 0 0 1em; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+a:hover { text-decoration-thickness: 2px; }
+code { font-family: var(--mono); font-size: 0.92em; background: var(--surface-2); padding: 0.1em 0.3em; border-radius: 4px; }
+hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
+button, input, select { font: inherit; color: inherit; }
+
+/* Gender colour-coding: the article text stays visible; colour is a bonus. */
+.g { font-weight: 600; }
+.g-der { color: var(--der); }
+.g-die { color: var(--die); }
+.g-das { color: var(--das); }
+
+.chip {
+  display: inline-block;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  padding: 0 0.5em;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--muted);
+  white-space: nowrap;
+}
+.chip-der { background: color-mix(in srgb, var(--der) 15%, transparent); color: var(--der); }
+.chip-die { background: color-mix(in srgb, var(--die) 15%, transparent); color: var(--die); }
+.chip-das { background: color-mix(in srgb, var(--das) 15%, transparent); color: var(--das); }
+
+/* Subtle marker for entries missing plural / example. */
+.incomplete {
+  color: var(--muted);
+  font-size: 0.8em;
+  cursor: help;
+  text-decoration: none;
+}
+
+/* Readable prose (lesson notes, grammar pages). */
+.prose { max-width: var(--measure); }
+.prose h2 { padding-bottom: 0.25em; border-bottom: 1px solid var(--border); }
+.prose table { border-collapse: collapse; width: 100%; margin: 1em 0 1.5em; font-size: 0.95rem; display: block; overflow-x: auto; }
+.prose th, .prose td { text-align: left; padding: 0.35em 0.6em; border-bottom: 1px solid var(--border); vertical-align: top; }
+.prose th { font-weight: 600; background: var(--surface-2); }
+.prose blockquote { margin: 1em 0; padding: 0.25em 1em; border-left: 3px solid var(--border); color: var(--muted); }
+.prose ul, .prose ol { padding-left: 1.4em; }
+.prose li { margin-bottom: 0.25em; }
+
+.muted { color: var(--muted); }
+.small { font-size: 0.875rem; }
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+.btn:hover { border-color: var(--muted); }
+.btn-primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.btn:disabled { opacity: 0.5; cursor: default; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

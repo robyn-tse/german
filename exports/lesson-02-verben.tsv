@@ -1,0 +1,43 @@
+#separator:tab
+#html:false
+#columns:Front	Back	Tags
+erwerben	to acquire	lesson2::verben lesson2::untrennbar
+investieren	to invest	lesson2::verben
+analysieren	to analyze	lesson2::verben
+bewerten	to evaluate	lesson2::verben lesson2::untrennbar
+übernehmen	to acquire / to take over	lesson2::verben lesson2::untrennbar
+wachsen	to grow	lesson2::verben
+steigen	to increase / to rise	lesson2::verben
+entwickeln	to develop	lesson2::verben lesson2::untrennbar
+finanzieren	to finance	lesson2::verben
+verhandeln	to negotiate	lesson2::verben lesson2::untrennbar
+integrieren	to integrate	lesson2::verben
+bewältigen	to manage / to overcome	lesson2::verben lesson2::untrennbar
+optimieren	to optimize	lesson2::verben
+stärken	to strengthen	lesson2::verben
+reduzieren	to reduce	lesson2::verben
+erzielen	to achieve / to generate	lesson2::verben lesson2::untrennbar
+nutzen	to use / to leverage	lesson2::verben
+erkennen	to identify / to recognize	lesson2::verben lesson2::untrennbar
+entscheiden	to decide	lesson2::verben lesson2::untrennbar
+umsetzen	to implement	lesson2::verben lesson2::trennbar
+abfahren	to depart / to leave	lesson2::verben lesson2::trennbar
+anfangen	to begin / to start	lesson2::verben lesson2::trennbar
+aufräumen	to tidy up / to clean up	lesson2::verben lesson2::trennbar
+ausgehen	to go out	lesson2::verben lesson2::trennbar
+beistehen	to stand by / to support	lesson2::verben lesson2::trennbar
+einkaufen	to shop / to buy	lesson2::verben lesson2::trennbar
+mitkommen	to come along	lesson2::verben lesson2::trennbar
+nachfragen	to inquire / to ask	lesson2::verben lesson2::trennbar
+vorstellen	to introduce / to present	lesson2::verben lesson2::trennbar
+weggehen	to go away / to leave	lesson2::verben lesson2::trennbar
+besuchen	to visit	lesson2::verben lesson2::untrennbar
+empfehlen	to recommend	lesson2::verben lesson2::untrennbar
+gehören	to belong	lesson2::verben lesson2::untrennbar
+missverstehen	to misunderstand	lesson2::verben lesson2::untrennbar
+verstehen	to understand	lesson2::verben lesson2::untrennbar
+zerstören	to destroy	lesson2::verben lesson2::untrennbar
+kaufen	to buy	lesson2::verben
+kochen	to cook	lesson2::verben
+haben	to have	lesson2::verben lesson2::merken
+sein	to be	lesson2::verben lesson2::merken

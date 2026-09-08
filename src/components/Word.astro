@@ -1,0 +1,11 @@
+---
+/**
+ * Renders a German headword. Nouns get their article colour-coded by gender;
+ * the article is always kept as visible text (never colour alone).
+ */
+import { splitArticle } from '../lib/vocab';
+interface Props { german: string; class?: string }
+const { german, class: cls } = Astro.props;
+const { article, word } = splitArticle(german);
+---
+<span class:list={['word', cls]} lang="de">{article ? <><span class={`g g-${article}`}>{article}</span> {word}</> : german}</span>

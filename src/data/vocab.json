@@ -1,0 +1,1558 @@
+[
+  {
+    "id": "erwerben",
+    "german": "erwerben",
+    "english": "to acquire",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Unternehmen erwerben innovative KI-Start-ups, um ihre Wettbewerbsfähigkeit zu stärken.",
+    "example_en": "Companies acquire innovative AI start-ups to strengthen their competitiveness.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": {
+        "ich": "erwerbe"
+      },
+      "praeteritum": "erwarb",
+      "partizip_ii": "erworben"
+    }
+  },
+  {
+    "id": "investieren",
+    "german": "investieren",
+    "english": "to invest",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Viele Private-Equity-Fonds investieren im Jahr 2026 in Schweizer Technologieunternehmen.",
+    "example_en": "Many private-equity funds are investing in Swiss technology companies in 2026.",
+    "lesson": 2,
+    "tags": [],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "investiere"
+      },
+      "praeteritum": "investierte",
+      "partizip_ii": "investiert"
+    }
+  },
+  {
+    "id": "analysieren",
+    "german": "analysieren",
+    "english": "to analyze",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "M&A-Direktoren analysieren Markttrends und potenzielle Übernahmeziele.",
+    "example_en": "M&A directors analyze market trends and potential takeover targets.",
+    "lesson": 2,
+    "tags": [],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "analysiere"
+      },
+      "praeteritum": "analysierte",
+      "partizip_ii": "analysiert"
+    }
+  },
+  {
+    "id": "bewerten",
+    "german": "bewerten",
+    "english": "to evaluate",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Die Teams bewerten finanzielle Risiken und Synergiepotenziale.",
+    "example_en": "The teams evaluate financial risks and synergy potential.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "bewerte"
+      },
+      "praeteritum": "bewertete",
+      "partizip_ii": "bewertet"
+    }
+  },
+  {
+    "id": "uebernehmen",
+    "german": "übernehmen",
+    "english": "to acquire / to take over",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Große Konzerne übernehmen spezialisierte Softwareunternehmen.",
+    "example_en": "Large corporations take over specialised software companies.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "über- can be separable or inseparable depending on the verb; in übernehmen it is inseparable (ich übernehme, übernommen). Not one of the 8 inseparable prefixes covered in lesson 2.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": {
+        "ich": "übernehme"
+      },
+      "praeteritum": "übernahm",
+      "partizip_ii": "übernommen"
+    }
+  },
+  {
+    "id": "wachsen",
+    "german": "wachsen",
+    "english": "to grow",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Der Schweizer M&A-Markt wächst trotz geopolitischer Unsicherheiten.",
+    "example_en": "The Swiss M&A market is growing despite geopolitical uncertainty.",
+    "lesson": 2,
+    "tags": [],
+    "notes": "Stem vowel changes in du/er: du wächst, er wächst.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "sein",
+      "present": {
+        "ich": "wachse"
+      },
+      "praeteritum": "wuchs",
+      "partizip_ii": "gewachsen"
+    }
+  },
+  {
+    "id": "steigen",
+    "german": "steigen",
+    "english": "to increase / to rise",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Das Deal-Volumen steigt im Jahr 2026 deutlich an.",
+    "example_en": "Deal volume is rising significantly in 2026.",
+    "lesson": 2,
+    "tags": [],
+    "notes": "The source example actually uses the separable verb ansteigen (steigt … an), not plain steigen.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "sein",
+      "present": {
+        "ich": "steige"
+      },
+      "praeteritum": "stieg",
+      "partizip_ii": "gestiegen"
+    }
+  },
+  {
+    "id": "entwickeln",
+    "german": "entwickeln",
+    "english": "to develop",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Unternehmen entwickeln neue KI-basierte Geschäftsmodelle.",
+    "example_en": "Companies are developing new AI-based business models.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "-eln verbs drop the e in the ich-form: ich entwickle.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "entwickle"
+      },
+      "praeteritum": "entwickelte",
+      "partizip_ii": "entwickelt"
+    }
+  },
+  {
+    "id": "finanzieren",
+    "german": "finanzieren",
+    "english": "to finance",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Banken finanzieren zahlreiche internationale Transaktionen.",
+    "example_en": "Banks finance numerous international transactions.",
+    "lesson": 2,
+    "tags": [],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "finanziere"
+      },
+      "praeteritum": "finanzierte",
+      "partizip_ii": "finanziert"
+    }
+  },
+  {
+    "id": "verhandeln",
+    "german": "verhandeln",
+    "english": "to negotiate",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Die Parteien verhandeln über den endgültigen Kaufpreis.",
+    "example_en": "The parties are negotiating the final purchase price.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "-eln verbs drop the e in the ich-form: ich verhandle.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "verhandle"
+      },
+      "praeteritum": "verhandelte",
+      "partizip_ii": "verhandelt"
+    }
+  },
+  {
+    "id": "integrieren",
+    "german": "integrieren",
+    "english": "to integrate",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Nach dem Deal integrieren die Unternehmen ihre Geschäftsbereiche.",
+    "example_en": "After the deal the companies integrate their business units.",
+    "lesson": 2,
+    "tags": [],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "integriere"
+      },
+      "praeteritum": "integrierte",
+      "partizip_ii": "integriert"
+    }
+  },
+  {
+    "id": "bewaeltigen",
+    "german": "bewältigen",
+    "english": "to manage / to overcome",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "M&A-Direktoren müssen komplexe Integrationsprozesse bewältigen.",
+    "example_en": "M&A directors have to manage complex integration processes.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "bewältige"
+      },
+      "praeteritum": "bewältigte",
+      "partizip_ii": "bewältigt"
+    }
+  },
+  {
+    "id": "optimieren",
+    "german": "optimieren",
+    "english": "to optimize",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Viele Unternehmen optimieren ihr Portfolio durch Carve-outs.",
+    "example_en": "Many companies optimise their portfolio through carve-outs.",
+    "lesson": 2,
+    "tags": [],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "optimiere"
+      },
+      "praeteritum": "optimierte",
+      "partizip_ii": "optimiert"
+    }
+  },
+  {
+    "id": "staerken",
+    "german": "stärken",
+    "english": "to strengthen",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Akquisitionen stärken die Marktposition eines Unternehmens.",
+    "example_en": "Acquisitions strengthen a company's market position.",
+    "lesson": 2,
+    "tags": [],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "stärke"
+      },
+      "praeteritum": "stärkte",
+      "partizip_ii": "gestärkt"
+    }
+  },
+  {
+    "id": "reduzieren",
+    "german": "reduzieren",
+    "english": "to reduce",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Banken reduzieren ihre Kosten durch Digitalisierung.",
+    "example_en": "Banks reduce their costs through digitalisation.",
+    "lesson": 2,
+    "tags": [],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "reduziere"
+      },
+      "praeteritum": "reduzierte",
+      "partizip_ii": "reduziert"
+    }
+  },
+  {
+    "id": "erzielen",
+    "german": "erzielen",
+    "english": "to achieve / to generate",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Investoren möchten langfristige Renditen erzielen.",
+    "example_en": "Investors want to generate long-term returns.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "erziele"
+      },
+      "praeteritum": "erzielte",
+      "partizip_ii": "erzielt"
+    }
+  },
+  {
+    "id": "nutzen",
+    "german": "nutzen",
+    "english": "to use / to leverage",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Unternehmen nutzen künstliche Intelligenz für die Due Diligence.",
+    "example_en": "Companies use artificial intelligence for due diligence.",
+    "lesson": 2,
+    "tags": [],
+    "notes": null,
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "nutze"
+      },
+      "praeteritum": "nutzte",
+      "partizip_ii": "genutzt"
+    }
+  },
+  {
+    "id": "erkennen",
+    "german": "erkennen",
+    "english": "to identify / to recognize",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Analysten erkennen neue Marktchancen frühzeitig.",
+    "example_en": "Analysts identify new market opportunities early.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Also the lesson-2 example for the inseparable prefix er-: Ich erkenne das. Mixed verb: weak endings but a stem-vowel change (erkannte, erkannt).",
+    "verb": {
+      "separable": false,
+      "strength": "mixed",
+      "aux": "haben",
+      "present": {
+        "ich": "erkenne"
+      },
+      "praeteritum": "erkannte",
+      "partizip_ii": "erkannt"
+    }
+  },
+  {
+    "id": "entscheiden",
+    "german": "entscheiden",
+    "english": "to decide",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Der Verwaltungsrat entscheidet über die Akquisition.",
+    "example_en": "The board of directors decides on the acquisition.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Also the lesson-2 example for the inseparable prefix ent-: Ich entscheide.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": {
+        "ich": "entscheide"
+      },
+      "praeteritum": "entschied",
+      "partizip_ii": "entschieden"
+    }
+  },
+  {
+    "id": "umsetzen",
+    "german": "umsetzen",
+    "english": "to implement",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Nach dem Closing setzen die Teams die Integrationsstrategie um.",
+    "example_en": "After closing, the teams implement the integration strategy.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Separable: um- moves to the end (ich setze um). um- is not one of the 10 separable prefixes covered in lesson 2.",
+    "verb": {
+      "separable": true,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "setze um"
+      },
+      "praeteritum": "setzte um",
+      "partizip_ii": "umgesetzt"
+    }
+  },
+  {
+    "id": "abfahren",
+    "german": "abfahren",
+    "english": "to depart / to leave",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich fahre ab.",
+    "example_en": "I'm leaving.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Lesson-2 example for the separable prefix ab-.",
+    "verb": {
+      "separable": true,
+      "strength": "strong",
+      "aux": "sein",
+      "present": null,
+      "praeteritum": "fuhr ab",
+      "partizip_ii": "abgefahren"
+    }
+  },
+  {
+    "id": "prefix-ab",
+    "german": "ab-",
+    "english": "off, away, down",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich fahre ab.",
+    "example_en": "I'm leaving.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Separable. In a main clause the verb stays in second position and ab- moves to the end: abfahren → Ich fahre ab.",
+    "verb": null
+  },
+  {
+    "id": "anfangen",
+    "german": "anfangen",
+    "english": "to begin / to start",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich fange an.",
+    "example_en": "I'm starting.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Lesson-2 example for the separable prefix an-.",
+    "verb": {
+      "separable": true,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "fing an",
+      "partizip_ii": "angefangen"
+    }
+  },
+  {
+    "id": "prefix-an",
+    "german": "an-",
+    "english": "on, at, toward; starting",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich fange an.",
+    "example_en": "I'm starting.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Separable. In a main clause the verb stays in second position and an- moves to the end: anfangen → Ich fange an.",
+    "verb": null
+  },
+  {
+    "id": "aufraeumen",
+    "german": "aufräumen",
+    "english": "to tidy up / to clean up",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich räume auf.",
+    "example_en": "I'm tidying up.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Lesson-2 example for the separable prefix auf-.",
+    "verb": {
+      "separable": true,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "räumte auf",
+      "partizip_ii": "aufgeräumt"
+    }
+  },
+  {
+    "id": "prefix-auf",
+    "german": "auf-",
+    "english": "up, open",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich räume auf.",
+    "example_en": "I'm tidying up.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Separable. In a main clause the verb stays in second position and auf- moves to the end: aufräumen → Ich räume auf.",
+    "verb": null
+  },
+  {
+    "id": "ausgehen",
+    "german": "ausgehen",
+    "english": "to go out",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich gehe aus.",
+    "example_en": "I'm going out.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Lesson-2 example for the separable prefix aus-.",
+    "verb": {
+      "separable": true,
+      "strength": "strong",
+      "aux": "sein",
+      "present": null,
+      "praeteritum": "ging aus",
+      "partizip_ii": "ausgegangen"
+    }
+  },
+  {
+    "id": "prefix-aus",
+    "german": "aus-",
+    "english": "out",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich gehe aus.",
+    "example_en": "I'm going out.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Separable. In a main clause the verb stays in second position and aus- moves to the end: ausgehen → Ich gehe aus.",
+    "verb": null
+  },
+  {
+    "id": "beistehen",
+    "german": "beistehen",
+    "english": "to stand by / to support",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich stehe bei.",
+    "example_en": "I'm standing by (someone).",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Lesson-2 example for the separable prefix bei-.",
+    "verb": {
+      "separable": true,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "stand bei",
+      "partizip_ii": "beigestanden"
+    }
+  },
+  {
+    "id": "prefix-bei",
+    "german": "bei-",
+    "english": "alongside, with",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich stehe bei.",
+    "example_en": "I'm standing by (someone).",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Separable. In a main clause the verb stays in second position and bei- moves to the end: beistehen → Ich stehe bei.",
+    "verb": null
+  },
+  {
+    "id": "einkaufen",
+    "german": "einkaufen",
+    "english": "to shop / to buy",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich kaufe ein.",
+    "example_en": "I'm shopping.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Lesson-2 example for the separable prefix ein-.",
+    "verb": {
+      "separable": true,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "kaufte ein",
+      "partizip_ii": "eingekauft"
+    }
+  },
+  {
+    "id": "prefix-ein",
+    "german": "ein-",
+    "english": "in, into",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich kaufe ein.",
+    "example_en": "I'm shopping.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Separable. In a main clause the verb stays in second position and ein- moves to the end: einkaufen → Ich kaufe ein.",
+    "verb": null
+  },
+  {
+    "id": "mitkommen",
+    "german": "mitkommen",
+    "english": "to come along",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich komme mit.",
+    "example_en": "I'm coming along.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Lesson-2 example for the separable prefix mit-.",
+    "verb": {
+      "separable": true,
+      "strength": "strong",
+      "aux": "sein",
+      "present": null,
+      "praeteritum": "kam mit",
+      "partizip_ii": "mitgekommen"
+    }
+  },
+  {
+    "id": "prefix-mit",
+    "german": "mit-",
+    "english": "along, with",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich komme mit.",
+    "example_en": "I'm coming along.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Separable. In a main clause the verb stays in second position and mit- moves to the end: mitkommen → Ich komme mit.",
+    "verb": null
+  },
+  {
+    "id": "nachfragen",
+    "german": "nachfragen",
+    "english": "to inquire / to ask",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich frage nach.",
+    "example_en": "I'm asking (following up).",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Lesson-2 example for the separable prefix nach-.",
+    "verb": {
+      "separable": true,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "fragte nach",
+      "partizip_ii": "nachgefragt"
+    }
+  },
+  {
+    "id": "prefix-nach",
+    "german": "nach-",
+    "english": "after, following up",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich frage nach.",
+    "example_en": "I'm asking (following up).",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Separable. In a main clause the verb stays in second position and nach- moves to the end: nachfragen → Ich frage nach.",
+    "verb": null
+  },
+  {
+    "id": "vorstellen",
+    "german": "vorstellen",
+    "english": "to introduce / to present",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich stelle vor.",
+    "example_en": "I'm introducing (something).",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Lesson-2 example for the separable prefix vor-.",
+    "verb": {
+      "separable": true,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "stellte vor",
+      "partizip_ii": "vorgestellt"
+    }
+  },
+  {
+    "id": "prefix-vor",
+    "german": "vor-",
+    "english": "before, forward, in front",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich stelle vor.",
+    "example_en": "I'm introducing (something).",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Separable. In a main clause the verb stays in second position and vor- moves to the end: vorstellen → Ich stelle vor.",
+    "verb": null
+  },
+  {
+    "id": "weggehen",
+    "german": "weggehen",
+    "english": "to go away / to leave",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich gehe weg.",
+    "example_en": "I'm going away.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Lesson-2 example for the separable prefix weg-.",
+    "verb": {
+      "separable": true,
+      "strength": "strong",
+      "aux": "sein",
+      "present": null,
+      "praeteritum": "ging weg",
+      "partizip_ii": "weggegangen"
+    }
+  },
+  {
+    "id": "prefix-weg",
+    "german": "weg-",
+    "english": "away",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich gehe weg.",
+    "example_en": "I'm going away.",
+    "lesson": 2,
+    "tags": [
+      "trennbar"
+    ],
+    "notes": "Separable. In a main clause the verb stays in second position and weg- moves to the end: weggehen → Ich gehe weg.",
+    "verb": null
+  },
+  {
+    "id": "besuchen",
+    "german": "besuchen",
+    "english": "to visit",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich besuche dich.",
+    "example_en": "I'm visiting you.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Lesson-2 example for the inseparable prefix be-.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "besuchte",
+      "partizip_ii": "besucht"
+    }
+  },
+  {
+    "id": "prefix-be",
+    "german": "be-",
+    "english": "makes the verb act directly on an object",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich besuche dich.",
+    "example_en": "I'm visiting you.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: besuchen → Ich besuche dich.",
+    "verb": null
+  },
+  {
+    "id": "empfehlen",
+    "german": "empfehlen",
+    "english": "to recommend",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich empfehle das.",
+    "example_en": "I recommend that.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Lesson-2 example for the inseparable prefix emp-.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "empfahl",
+      "partizip_ii": "empfohlen"
+    }
+  },
+  {
+    "id": "prefix-emp",
+    "german": "emp-",
+    "english": "variant of ent- before f",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich empfehle das.",
+    "example_en": "I recommend that.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: empfehlen → Ich empfehle das.",
+    "verb": null
+  },
+  {
+    "id": "prefix-ent",
+    "german": "ent-",
+    "english": "away, un-, de-",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich entscheide.",
+    "example_en": "I decide.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: entscheiden → Ich entscheide.",
+    "verb": null
+  },
+  {
+    "id": "prefix-er",
+    "german": "er-",
+    "english": "achieving, bringing about",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich erkenne das.",
+    "example_en": "I recognise that.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: erkennen → Ich erkenne das.",
+    "verb": null
+  },
+  {
+    "id": "gehoeren",
+    "german": "gehören",
+    "english": "to belong",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Das gehört mir.",
+    "example_en": "That belongs to me.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Lesson-2 example for the inseparable prefix ge-.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "gehörte",
+      "partizip_ii": "gehört"
+    }
+  },
+  {
+    "id": "prefix-ge",
+    "german": "ge-",
+    "english": "no fixed meaning; also the Partizip II marker",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Das gehört mir.",
+    "example_en": "That belongs to me.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: gehören → Das gehört mir.",
+    "verb": null
+  },
+  {
+    "id": "missverstehen",
+    "german": "missverstehen",
+    "english": "to misunderstand",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich missverstehe dich.",
+    "example_en": "I misunderstand you.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Lesson-2 example for the inseparable prefix miss-.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "missverstand",
+      "partizip_ii": "missverstanden"
+    }
+  },
+  {
+    "id": "prefix-miss",
+    "german": "miss-",
+    "english": "mis-, wrongly",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich missverstehe dich.",
+    "example_en": "I misunderstand you.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: missverstehen → Ich missverstehe dich.",
+    "verb": null
+  },
+  {
+    "id": "verstehen",
+    "german": "verstehen",
+    "english": "to understand",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich verstehe dich.",
+    "example_en": "I understand you.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Lesson-2 example for the inseparable prefix ver-.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "verstand",
+      "partizip_ii": "verstanden"
+    }
+  },
+  {
+    "id": "prefix-ver",
+    "german": "ver-",
+    "english": "change, away, wrongly; often no clear meaning",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich verstehe dich.",
+    "example_en": "I understand you.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: verstehen → Ich verstehe dich.",
+    "verb": null
+  },
+  {
+    "id": "zerstoeren",
+    "german": "zerstören",
+    "english": "to destroy",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich zerstöre das.",
+    "example_en": "I'm destroying that.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Lesson-2 example for the inseparable prefix zer-.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "zerstörte",
+      "partizip_ii": "zerstört"
+    }
+  },
+  {
+    "id": "prefix-zer",
+    "german": "zer-",
+    "english": "apart, to pieces",
+    "pos": "prefix",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich zerstöre das.",
+    "example_en": "I'm destroying that.",
+    "lesson": 2,
+    "tags": [
+      "untrennbar"
+    ],
+    "notes": "Inseparable. Stays welded to the stem in every position and is never stressed: zerstören → Ich zerstöre das.",
+    "verb": null
+  },
+  {
+    "id": "lampe",
+    "german": "die Lampe",
+    "english": "the lamp",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -e → die.",
+    "verb": null
+  },
+  {
+    "id": "sprache",
+    "german": "die Sprache",
+    "english": "the language",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -e → die.",
+    "verb": null
+  },
+  {
+    "id": "nation",
+    "german": "die Nation",
+    "english": "the nation",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ion → die.",
+    "verb": null
+  },
+  {
+    "id": "region",
+    "german": "die Region",
+    "english": "the region",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ion → die.",
+    "verb": null
+  },
+  {
+    "id": "garage",
+    "german": "die Garage",
+    "english": "the garage",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -age → die.",
+    "verb": null
+  },
+  {
+    "id": "passage",
+    "german": "die Passage",
+    "english": "the passage",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -age → die.",
+    "verb": null
+  },
+  {
+    "id": "wirtschaft",
+    "german": "die Wirtschaft",
+    "english": "the economy",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -schaft → die.",
+    "verb": null
+  },
+  {
+    "id": "gesellschaft",
+    "german": "die Gesellschaft",
+    "english": "the society / the company",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -schaft → die.",
+    "verb": null
+  },
+  {
+    "id": "freiheit",
+    "german": "die Freiheit",
+    "english": "the freedom",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -heit → die.",
+    "verb": null
+  },
+  {
+    "id": "gesundheit",
+    "german": "die Gesundheit",
+    "english": "the health",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -heit → die.",
+    "verb": null
+  },
+  {
+    "id": "moeglichkeit",
+    "german": "die Möglichkeit",
+    "english": "the possibility",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -keit → die.",
+    "verb": null
+  },
+  {
+    "id": "schwierigkeit",
+    "german": "die Schwierigkeit",
+    "english": "the difficulty",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -keit → die.",
+    "verb": null
+  },
+  {
+    "id": "zeitung",
+    "german": "die Zeitung",
+    "english": "the newspaper",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ung → die.",
+    "verb": null
+  },
+  {
+    "id": "wohnung",
+    "german": "die Wohnung",
+    "english": "the apartment / the flat",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ung → die.",
+    "verb": null
+  },
+  {
+    "id": "drucker",
+    "german": "der Drucker",
+    "english": "the printer",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -er → der.",
+    "verb": null
+  },
+  {
+    "id": "computer",
+    "german": "der Computer",
+    "english": "the computer",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -er → der.",
+    "verb": null
+  },
+  {
+    "id": "radio",
+    "german": "das Radio",
+    "english": "the radio",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -o → das.",
+    "verb": null
+  },
+  {
+    "id": "kino",
+    "german": "das Kino",
+    "english": "the cinema",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -o → das.",
+    "verb": null
+  },
+  {
+    "id": "auto",
+    "german": "das Auto",
+    "english": "the car",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -o → das.",
+    "verb": null
+  },
+  {
+    "id": "kaufen",
+    "german": "kaufen",
+    "english": "to buy",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [],
+    "notes": "Model weak verb for the present-tense endings in lesson 2.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "kaufe",
+        "du": "kaufst",
+        "er": "kauft",
+        "wir": "kaufen",
+        "ihr": "kauft",
+        "sie": "kaufen"
+      },
+      "praeteritum": "kaufte",
+      "partizip_ii": "gekauft"
+    }
+  },
+  {
+    "id": "kochen",
+    "german": "kochen",
+    "english": "to cook",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [],
+    "notes": "Model weak verb in the tutor's handout (Artikel_Erkla_rung.pdf).",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": {
+        "ich": "koche",
+        "du": "kochst",
+        "er": "kocht",
+        "wir": "kochen",
+        "ihr": "kocht",
+        "sie": "kochen"
+      },
+      "praeteritum": "kochte",
+      "partizip_ii": "gekocht"
+    }
+  },
+  {
+    "id": "haben",
+    "german": "haben",
+    "english": "to have",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "merken"
+    ],
+    "notes": "Irregular — memorise. The handout groups it under weak verbs; its endings are weak but the stem is irregular (du hast, er hat; hatte, gehabt).",
+    "verb": {
+      "separable": false,
+      "strength": "mixed",
+      "aux": "haben",
+      "present": {
+        "ich": "habe",
+        "du": "hast",
+        "er": "hat",
+        "wir": "haben",
+        "ihr": "habt",
+        "sie": "haben"
+      },
+      "praeteritum": "hatte",
+      "partizip_ii": "gehabt"
+    }
+  },
+  {
+    "id": "sein",
+    "german": "sein",
+    "english": "to be",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "merken"
+    ],
+    "notes": "Irregular — memorise.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "sein",
+      "present": {
+        "ich": "bin",
+        "du": "bist",
+        "er": "ist",
+        "wir": "sind",
+        "ihr": "seid",
+        "sie": "sind"
+      },
+      "praeteritum": "war",
+      "partizip_ii": "gewesen"
+    }
+  }
+]

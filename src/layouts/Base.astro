@@ -1,0 +1,114 @@
+---
+import '../styles/global.css';
+import { url } from '../lib/url';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = 'Personal German lesson notes, vocabulary, grammar and drills.' } = Astro.props;
+
+const nav = [
+  { href: url('/'), label: 'Lessons', key: 'lessons', icon: '📚' },
+  { href: url('/vocab/'), label: 'Vocab', key: 'vocab', icon: '🗂' },
+  { href: url('/grammar/'), label: 'Grammar', key: 'grammar', icon: '📐' },
+  { href: url('/quiz/'), label: 'Quiz', key: 'quiz', icon: '🎯' },
+];
+
+const path = Astro.url.pathname;
+function isActive(item: (typeof nav)[number]) {
+  if (item.key === 'lessons') return path === url('/') || path.startsWith(url('/lessons/'));
+  return path.startsWith(item.href);
+}
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#151412" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
+    <title>{title} · Deutsch</title>
+  </head>
+  <body>
+    <div class="shell">
+      <nav class="nav" aria-label="Main">
+        <a class="brand" href={url('/')}>Deutsch</a>
+        <ul>
+          {nav.map((item) => (
+            <li>
+              <a href={item.href} aria-current={isActive(item) ? 'page' : undefined}>
+                <span class="icon" aria-hidden="true">{item.icon}</span>
+                <span class="label">{item.label}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      <main class="main">
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>
+
+<style>
+  .shell { min-height: 100dvh; }
+
+  .main {
+    padding: 1rem;
+    /* leave room for the bottom tab bar + iOS home indicator */
+    padding-bottom: calc(var(--nav-size) + env(safe-area-inset-bottom) + 1.5rem);
+    max-width: 62rem;
+  }
+
+  /* --- Mobile: bottom tab bar ------------------------------------------- */
+  .nav {
+    position: fixed;
+    inset: auto 0 0 0;
+    z-index: 10;
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .brand { display: none; }
+  .nav ul { list-style: none; margin: 0; padding: 0; display: flex; height: var(--nav-size); }
+  .nav li { flex: 1; }
+  .nav ul a {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.15rem;
+    height: 100%;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.72rem;
+    font-weight: 500;
+  }
+  .nav ul a[aria-current="page"] { color: var(--accent); }
+  .icon { font-size: 1.25rem; line-height: 1; }
+
+  /* --- Desktop: left sidebar, same components ---------------------------- */
+  @media (min-width: 48rem) {
+    .shell { display: grid; grid-template-columns: var(--sidebar-width) 1fr; }
+    .nav {
+      position: sticky; top: 0; inset: auto; height: 100dvh;
+      border-top: 0; border-right: 1px solid var(--border);
+      padding: 1.25rem 0.75rem;
+    }
+    .brand {
+      display: block; font-weight: 700; font-size: 1.1rem; padding: 0.25rem 0.75rem 1rem;
+      color: var(--fg); text-decoration: none;
+    }
+    .nav ul { flex-direction: column; height: auto; gap: 0.15rem; }
+    .nav li { flex: none; }
+    .nav ul a {
+      flex-direction: row; justify-content: flex-start; gap: 0.6rem;
+      padding: 0.5rem 0.75rem; border-radius: var(--radius);
+      font-size: 0.95rem;
+    }
+    .nav ul a:hover { background: var(--surface-2); color: var(--fg); }
+    .nav ul a[aria-current="page"] { background: var(--surface-2); color: var(--fg); }
+    .icon { font-size: 1.05rem; }
+    .main { padding: 2rem 2.5rem 3rem; }
+  }
+</style>

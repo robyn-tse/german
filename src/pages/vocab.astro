@@ -1,0 +1,258 @@
+---
+import Base from '../layouts/Base.astro';
+import Word from '../components/Word.astro';
+import Incomplete from '../components/Incomplete.astro';
+import { getCollection } from 'astro:content';
+import { POS_LABEL, splitArticle } from '../lib/vocab';
+
+const entries = (await getCollection('vocab')).map((v) => v.data);
+const lessons = [...new Set(entries.map((e) => e.lesson))].sort((a, b) => a - b);
+const tags = [...new Set(entries.flatMap((e) => e.tags))].sort();
+const posList = ['noun', 'verb', 'adjective', 'prefix', 'phrase'].filter((p) => entries.some((e) => e.pos === p));
+
+const fold = (s: string) =>
+  s.toLowerCase().replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 'ss');
+---
+<Base title="Vocab">
+  <h1>Vocab <span class="muted small" id="count">{entries.length}</span></h1>
+
+  <form class="filters" id="filters" role="search" aria-label="Filter vocabulary">
+    <input type="search" name="q" id="q" placeholder="Search German or English…" autocomplete="off" aria-label="Search" />
+    <select name="lesson" id="f-lesson" aria-label="Lesson">
+      <option value="">All lessons</option>
+      {lessons.map((l) => <option value={l}>Lesson {l}</option>)}
+    </select>
+    <select name="pos" id="f-pos" aria-label="Part of speech">
+      <option value="">All types</option>
+      {posList.map((p) => <option value={p}>{POS_LABEL[p]}</option>)}
+    </select>
+    <select name="gender" id="f-gender" aria-label="Gender">
+      <option value="">Any gender</option>
+      <option value="der">der</option>
+      <option value="die">die</option>
+      <option value="das">das</option>
+    </select>
+    <select name="tag" id="f-tag" aria-label="Tag">
+      <option value="">All tags</option>
+      {tags.map((t) => <option value={t}>{t}</option>)}
+    </select>
+    <button type="reset" class="btn" id="reset">Clear</button>
+  </form>
+
+  <div class="table-wrap">
+    <table class="vocab" id="vocab">
+      <thead>
+        <tr>
+          <th><button type="button" data-sort="german" aria-sort="ascending">German</button></th>
+          <th><button type="button" data-sort="english">English</button></th>
+          <th class="col-type"><button type="button" data-sort="pos">Type</button></th>
+          <th class="col-lesson"><button type="button" data-sort="lesson">Lesson</button></th>
+          <th class="col-tags">Tags</th>
+          <th class="col-more"><span class="visually-hidden">Details</span></th>
+        </tr>
+      </thead>
+      {entries.map((e) => {
+        const { word } = splitArticle(e.german);
+        const hasDetail = e.plural || e.example_de || e.notes || e.verb;
+        return (
+          <tbody
+            class="entry"
+            data-id={e.id}
+            data-german={fold(word)}
+            data-english={fold(e.english)}
+            data-search={fold(`${e.german} ${e.english}`)}
+            data-pos={e.pos ?? ''}
+            data-gender={e.gender ?? ''}
+            data-lesson={e.lesson}
+            data-tags={e.tags.join(' ')}
+          >
+            <tr class="row">
+              <td data-label="German"><Word german={e.german} /> <Incomplete entry={e} /></td>
+              <td data-label="English">{e.english}</td>
+              <td data-label="Type" class="col-type muted" data-lesson={e.lesson}>{e.pos ? POS_LABEL[e.pos] : '—'}</td>
+              <td data-label="Lesson" class="col-lesson muted">{e.lesson}</td>
+              <td data-label="Tags" class="col-tags">{e.tags.map((t) => <span class="chip">{t}</span>)}</td>
+              <td class="col-more">
+                {hasDetail && (
+                  <button type="button" class="more" aria-expanded="false" aria-label={`Details for ${e.german}`}>▸</button>
+                )}
+              </td>
+            </tr>
+            {hasDetail && (
+              <tr class="detail" hidden>
+                <td colspan="6">
+                  <dl>
+                    {e.pos === 'noun' && (
+                      <><dt>Plural</dt><dd>{e.plural ? <span lang="de"><span class="g g-die">die</span> {e.plural}</span> : <span class="muted">not yet recorded</span>}</dd></>
+                    )}
+                    {e.example_de && (
+                      <><dt>Example</dt><dd><span lang="de">{e.example_de}</span>{e.example_en && <><br /><span class="muted">{e.example_en}</span></>}</dd></>
+                    )}
+                    {e.verb && (
+                      <>
+                        <dt>Verb</dt>
+                        <dd>
+                          {e.verb.strength}, {e.verb.separable ? 'separable' : 'not separable'}, Perfekt with {e.verb.aux}
+                          {(e.verb.praeteritum || e.verb.partizip_ii) && (
+                            <><br /><span lang="de">{e.verb.praeteritum ?? '—'} · {e.verb.partizip_ii ?? '—'}</span></>
+                          )}
+                          {e.verb.present && (
+                            <><br /><span lang="de" class="small">{Object.entries(e.verb.present).map(([p, f]) => `${p} ${f}`).join(' · ')}</span></>
+                          )}
+                        </dd>
+                      </>
+                    )}
+                    {e.notes && <><dt>Notes</dt><dd>{e.notes}</dd></>}
+                  </dl>
+                </td>
+              </tr>
+            )}
+          </tbody>
+        );
+      })}
+    </table>
+    <p class="muted" id="empty" hidden>Nothing matches these filters.</p>
+  </div>
+</Base>
+
+<script>
+  const form = document.getElementById('filters') as HTMLFormElement;
+  const q = document.getElementById('q') as HTMLInputElement;
+  const selects = {
+    lesson: document.getElementById('f-lesson') as HTMLSelectElement,
+    pos: document.getElementById('f-pos') as HTMLSelectElement,
+    gender: document.getElementById('f-gender') as HTMLSelectElement,
+    tag: document.getElementById('f-tag') as HTMLSelectElement,
+  };
+  const table = document.getElementById('vocab') as HTMLTableElement;
+  const entries = Array.from(table.querySelectorAll<HTMLTableSectionElement>('tbody.entry'));
+  const count = document.getElementById('count')!;
+  const empty = document.getElementById('empty')!;
+
+  const fold = (s: string) =>
+    s.toLowerCase().trim().replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 'ss');
+
+  function apply() {
+    const needle = fold(q.value);
+    const f = {
+      lesson: selects.lesson.value,
+      pos: selects.pos.value,
+      gender: selects.gender.value,
+      tag: selects.tag.value,
+    };
+    let shown = 0;
+    for (const el of entries) {
+      const d = el.dataset;
+      const ok =
+        (!needle || d.search!.includes(needle)) &&
+        (!f.lesson || d.lesson === f.lesson) &&
+        (!f.pos || d.pos === f.pos) &&
+        (!f.gender || d.gender === f.gender) &&
+        (!f.tag || d.tags!.split(' ').includes(f.tag));
+      el.hidden = !ok;
+      if (ok) shown++;
+    }
+    count.textContent = shown === entries.length ? String(entries.length) : `${shown} / ${entries.length}`;
+    empty.hidden = shown > 0;
+
+    // keep filters in the URL so links like /vocab/?lesson=2 work and reload survives
+    const params = new URLSearchParams();
+    if (q.value) params.set('q', q.value);
+    for (const [k, v] of Object.entries(f)) if (v) params.set(k, v);
+    const qs = params.toString();
+    history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+  }
+
+  // Sorting: reorder the <tbody> elements.
+  let sortKey = 'german';
+  let sortDir = 1;
+  function sort() {
+    const sorted = [...entries].sort((a, b) => {
+      const av = a.dataset[sortKey] ?? '';
+      const bv = b.dataset[sortKey] ?? '';
+      const cmp = sortKey === 'lesson' ? Number(av) - Number(bv) : av.localeCompare(bv);
+      return cmp * sortDir || a.dataset.german!.localeCompare(b.dataset.german!);
+    });
+    for (const el of sorted) table.appendChild(el);
+    for (const btn of table.querySelectorAll<HTMLButtonElement>('th button[data-sort]')) {
+      btn.setAttribute('aria-sort', btn.dataset.sort === sortKey ? (sortDir === 1 ? 'ascending' : 'descending') : 'none');
+    }
+  }
+  table.querySelectorAll<HTMLButtonElement>('th button[data-sort]').forEach((btn) =>
+    btn.addEventListener('click', () => {
+      const key = btn.dataset.sort!;
+      sortDir = key === sortKey ? -sortDir : 1;
+      sortKey = key;
+      sort();
+    }),
+  );
+
+  // Expand/collapse detail rows.
+  table.addEventListener('click', (ev) => {
+    const btn = (ev.target as HTMLElement).closest<HTMLButtonElement>('button.more');
+    if (!btn) return;
+    const detail = btn.closest('tbody')!.querySelector<HTMLTableRowElement>('tr.detail')!;
+    const open = detail.hidden;
+    detail.hidden = !open;
+    btn.setAttribute('aria-expanded', String(open));
+    btn.textContent = open ? '▾' : '▸';
+  });
+
+  // Restore filters from the URL, then wire up live filtering.
+  const init = new URLSearchParams(location.search);
+  if (init.get('q')) q.value = init.get('q')!;
+  for (const [k, sel] of Object.entries(selects)) if (init.get(k)) sel.value = init.get(k)!;
+
+  form.addEventListener('input', apply);
+  form.addEventListener('submit', (e) => e.preventDefault());
+  form.addEventListener('reset', () => setTimeout(apply, 0));
+  sort();
+  apply();
+</script>
+
+<style>
+  .filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0 1rem; }
+  .filters input, .filters select {
+    padding: 0.45em 0.6em; border: 1px solid var(--border); border-radius: var(--radius);
+    background: var(--surface); min-height: 2.5rem;
+  }
+  .filters input[type="search"] { flex: 1 1 14rem; }
+  .filters select { flex: 1 1 8rem; }
+
+  .table-wrap { overflow-x: auto; }
+  table.vocab { width: 100%; border-collapse: collapse; }
+  th { text-align: left; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); padding: 0.4rem 0.5rem; border-bottom: 2px solid var(--border); }
+  th button { all: unset; cursor: pointer; }
+  th button[aria-sort="ascending"]::after { content: " ↑"; }
+  th button[aria-sort="descending"]::after { content: " ↓"; }
+  td { padding: 0.5rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tbody.entry[hidden] { display: none; }
+  .col-tags .chip { margin-right: 0.25rem; }
+  .col-more { width: 2rem; text-align: right; }
+  .more { all: unset; cursor: pointer; padding: 0 0.4em; color: var(--muted); font-size: 1.1em; }
+  .more:hover, .more[aria-expanded="true"] { color: var(--accent); }
+  tr.detail td { background: var(--surface-2); }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.25rem 1rem; margin: 0; max-width: var(--measure); }
+  dt { color: var(--muted); font-size: 0.85rem; }
+  dd { margin: 0; }
+
+  /* Mobile: cards, not a squeezed table */
+  @media (max-width: 47.99rem) {
+    thead { display: none; }
+    table.vocab, tbody, tr, td { display: block; }
+    tbody.entry { border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); margin-bottom: 0.6rem; position: relative; }
+    tr.row { display: grid; grid-template-columns: 1fr auto; gap: 0 0.5rem; padding: 0.6rem 0.75rem; }
+    td { border: 0; padding: 0; }
+    td[data-label="German"] { grid-column: 1; font-size: 1.05rem; }
+    td[data-label="English"] { grid-column: 1; color: var(--muted); }
+    tr.detail[hidden] { display: none; }
+    td.col-type { font-size: 0.8rem; }
+    td.col-type::after { content: " · lesson " attr(data-lesson); }
+    td.col-lesson { display: none; }
+    td.col-tags { grid-column: 1; margin-top: 0.3rem; }
+    td.col-more { grid-column: 2; grid-row: 1 / span 3; align-self: start; }
+    tr.detail td { padding: 0.6rem 0.75rem; border-top: 1px solid var(--border); border-radius: 0 0 var(--radius) var(--radius); }
+    dl { grid-template-columns: 1fr; gap: 0.1rem 0; }
+    dt { margin-top: 0.4rem; }
+  }
+</style>

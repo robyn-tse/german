@@ -1,0 +1,400 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { modes } from '../lib/quiz-modes.js';
+
+const entries = (await getCollection('vocab')).map((v) => v.data);
+const lessons = [...new Set(entries.map((e) => e.lesson))].sort((a, b) => a - b);
+const tags = [...new Set(entries.flatMap((e) => e.tags))].sort();
+const minLesson = lessons[0] ?? 1;
+const maxLesson = lessons[lessons.length - 1] ?? 1;
+---
+<Base title="Quiz">
+  <h1>Quiz</h1>
+
+  <!-- ---------------------------------------------------------------- setup -->
+  <form id="setup" class="setup" aria-label="Quiz setup">
+    <fieldset>
+      <legend>Mode</legend>
+      <div class="modes">
+        {modes.map((m, i) => (
+          <label class="mode">
+            <input type="radio" name="mode" value={m.id} checked={i === 0} />
+            <span class="mode-label">{m.label}</span>
+            <span class="mode-desc small muted">{m.description}</span>
+            <span class="mode-count small muted" data-mode-count={m.id}></span>
+          </label>
+        ))}
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Filter</legend>
+      <div class="row">
+        <label>Lessons
+          <span class="range">
+            <input type="number" name="from" min={minLesson} max={maxLesson} value={minLesson} inputmode="numeric" aria-label="From lesson" />
+            <span aria-hidden="true">–</span>
+            <input type="number" name="to" min={minLesson} max={maxLesson} value={maxLesson} inputmode="numeric" aria-label="To lesson" />
+          </span>
+        </label>
+        <label>Tag
+          <select name="tag">
+            <option value="">any</option>
+            {tags.map((t) => <option value={t}>{t}</option>)}
+          </select>
+        </label>
+        <label>Questions
+          <input type="number" name="length" min="1" max="200" value="15" inputmode="numeric" />
+        </label>
+      </div>
+    </fieldset>
+
+    <p class="small muted" id="pool"></p>
+    <button type="submit" class="btn btn-primary" id="start">Start</button>
+  </form>
+
+  <!-- ------------------------------------------------------------- question -->
+  <section id="play" class="play" hidden aria-live="polite">
+    <p class="progress small muted"><span id="qnum"></span> · <span id="mode-name"></span></p>
+    <p class="prompt" id="prompt" lang="de"></p>
+    <form id="answer-form" class="answer">
+      <div id="input-slot"></div>
+    </form>
+    <div id="feedback" class="feedback" hidden>
+      <p class="verdict" id="verdict"></p>
+      <p class="expected" id="expected"></p>
+      <ul class="notes small" id="notes"></ul>
+      <p class="reveal small muted" id="reveal"></p>
+      <button type="button" class="btn btn-primary" id="next">Next</button>
+    </div>
+    <p class="small"><button type="button" class="linkish" id="quit">End session</button></p>
+  </section>
+
+  <!-- -------------------------------------------------------------- summary -->
+  <section id="summary" class="summary" hidden>
+    <h2>Done</h2>
+    <p class="score" id="score"></p>
+    <div id="missed"></div>
+    <p>
+      <button type="button" class="btn btn-primary" id="again">Same again</button>
+      <button type="button" class="btn" id="back">Change setup</button>
+    </p>
+  </section>
+
+  <!-- ---------------------------------------------------------------- stats -->
+  <details class="stats" id="stats">
+    <summary>Stats on this device</summary>
+    <p class="small muted">Attempt and error counts are stored in this browser only. Your laptop and phone keep separate numbers; that is expected.</p>
+    <div id="stats-table"></div>
+    <p><button type="button" class="btn" id="reset-stats">Reset stats on this device</button></p>
+  </details>
+</Base>
+
+<script>
+  import vocab from '../data/vocab.json';
+  import { modes, getMode } from '../lib/quiz-modes.js';
+  import { compareTyped, compareChoice } from '../lib/compare.js';
+  import { loadStats, record, resetStats } from '../lib/quiz-stats.js';
+
+  const $ = (id: string) => document.getElementById(id)!;
+  const setup = $('setup') as HTMLFormElement;
+  const play = $('play');
+  const summary = $('summary');
+  const inputSlot = $('input-slot');
+  const answerForm = $('answer-form') as HTMLFormElement;
+  const feedback = $('feedback');
+
+  type Entry = (typeof vocab)[number];
+  let stats = loadStats();
+
+  // --- pool + config ------------------------------------------------------
+  function readConfig() {
+    const fd = new FormData(setup);
+    return {
+      mode: String(fd.get('mode')),
+      from: Number(fd.get('from')) || 1,
+      to: Number(fd.get('to')) || 999,
+      tag: String(fd.get('tag') || ''),
+      length: Math.max(1, Number(fd.get('length')) || 15),
+    };
+  }
+  function poolFor(cfg: ReturnType<typeof readConfig>) {
+    const mode = getMode(cfg.mode)!;
+    return (vocab as Entry[]).filter(
+      (e) => mode.filter(e) && e.lesson >= cfg.from && e.lesson <= cfg.to && (!cfg.tag || e.tags.includes(cfg.tag)),
+    );
+  }
+  function updatePoolInfo() {
+    const cfg = readConfig();
+    // per-mode counts respect the lesson/tag filter so the numbers are honest
+    for (const m of modes) {
+      const n = poolFor({ ...cfg, mode: m.id }).length;
+      const el = document.querySelector(`[data-mode-count="${m.id}"]`)!;
+      el.textContent = `${n} word${n === 1 ? '' : 's'}`;
+    }
+    const n = poolFor(cfg).length;
+    $('pool').textContent = n ? `${n} words match. Session: ${Math.min(n, cfg.length)} questions.` : 'No words match these filters.';
+    ($('start') as HTMLButtonElement).disabled = n === 0;
+  }
+  setup.addEventListener('input', updatePoolInfo);
+  updatePoolInfo();
+
+  // --- session --------------------------------------------------------------
+  let session: { mode: any; queue: Entry[]; index: number; results: { entry: Entry; correct: boolean; given: string }[] } | null = null;
+
+  function shuffle<T>(arr: T[]): T[] {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function start() {
+    const cfg = readConfig();
+    const mode = getMode(cfg.mode)!;
+    const pool = poolFor(cfg);
+    if (!pool.length) return;
+    session = { mode, queue: shuffle(pool).slice(0, cfg.length), index: 0, results: [] };
+    setup.hidden = true;
+    summary.hidden = true;
+    play.hidden = false;
+    $('mode-name').textContent = mode.label;
+    ask();
+  }
+
+  function ask() {
+    if (!session) return;
+    const { mode, queue, index } = session;
+    if (index >= queue.length) return finish();
+    const entry = queue[index];
+    $('qnum').textContent = `${index + 1} / ${queue.length}`;
+    $('prompt').textContent = mode.prompt(entry);
+    $('prompt').setAttribute('lang', mode.id === 'en-de' ? 'en' : 'de');
+    feedback.hidden = true;
+    inputSlot.innerHTML = '';
+    answerForm.hidden = false;
+
+    if (mode.input === 'typed') {
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.name = 'answer';
+      input.autocomplete = 'off';
+      input.autocapitalize = 'off';
+      input.spellcheck = false;
+      input.setAttribute('lang', mode.id === 'en-de' ? 'de' : 'en');
+      input.setAttribute('aria-label', 'Your answer');
+      const btn = document.createElement('button');
+      btn.type = 'submit';
+      btn.className = 'btn';
+      btn.textContent = 'Check';
+      inputSlot.append(input, btn);
+      input.focus();
+    } else {
+      for (const opt of mode.input.options) {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = `btn choice choice-${opt}`;
+        b.textContent = opt;
+        b.addEventListener('click', () => grade(opt));
+        inputSlot.append(b);
+      }
+      (inputSlot.querySelector('button') as HTMLButtonElement).focus();
+    }
+  }
+
+  answerForm.addEventListener('submit', (ev) => {
+    ev.preventDefault();
+    const input = inputSlot.querySelector<HTMLInputElement>('input[name=answer]');
+    if (input) grade(input.value);
+  });
+
+  function grade(given: string) {
+    if (!session) return;
+    const { mode, queue, index } = session;
+    const entry = queue[index];
+    const expected = mode.answer(entry);
+    const result =
+      mode.input === 'typed'
+        ? compareTyped(given, mode.accept ? mode.accept(entry) : [{ text: expected, note: null }])
+        : compareChoice(given, expected);
+
+    record(stats, entry.id, result.correct);
+    session.results.push({ entry, correct: result.correct, given });
+
+    answerForm.hidden = true;
+    feedback.hidden = false;
+    const verdict = $('verdict');
+    verdict.textContent = result.correct ? (result.exact ? 'Correct' : 'Correct, but…') : 'Not quite';
+    verdict.className = `verdict ${result.correct ? (result.exact ? 'ok' : 'warn') : 'bad'}`;
+    $('expected').innerHTML = result.correct && result.exact ? '' : `<span class="muted">Answer:</span> ${renderAnswer(entry, expected)}`;
+    if (result.correct && result.exact && mode.id === 'en-de' && entry.pos === 'noun') {
+      $('expected').innerHTML = renderAnswer(entry, expected);
+    }
+    const notes = $('notes');
+    notes.innerHTML = '';
+    for (const n of result.notes) {
+      const li = document.createElement('li');
+      li.textContent = n;
+      notes.append(li);
+    }
+    const reveal = mode.reveal ? mode.reveal(entry) : null;
+    $('reveal').textContent = reveal ?? '';
+    $('reveal').hidden = !reveal;
+    const s = stats[entry.id];
+    if (s && s.attempts > 1) {
+      $('reveal').textContent += `${reveal ? ' · ' : ''}${s.errors}/${s.attempts} wrong on this device`;
+      $('reveal').hidden = false;
+    }
+    $('next').focus();
+  }
+
+  function renderAnswer(entry: Entry, expected: string) {
+    // colour the article when the expected answer is a German noun or an article
+    const m = /^(der|die|das)( .*)?$/.exec(expected);
+    if (m && (entry.pos === 'noun' || !m[2])) {
+      return `<span class="g g-${m[1]}">${m[1]}</span>${m[2] ?? ''}`;
+    }
+    return escape(expected);
+  }
+  function escape(s: string) {
+    return s.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]!);
+  }
+
+  $('next').addEventListener('click', () => {
+    if (!session) return;
+    session.index++;
+    ask();
+  });
+  document.addEventListener('keydown', (ev) => {
+    if (ev.key === 'Enter' && !feedback.hidden && !play.hidden) {
+      ev.preventDefault();
+      ($('next') as HTMLButtonElement).click();
+    }
+  });
+  $('quit').addEventListener('click', finish);
+
+  function finish() {
+    if (!session) return;
+    play.hidden = true;
+    summary.hidden = false;
+    const { results, mode } = session;
+    const right = results.filter((r) => r.correct).length;
+    $('score').textContent = results.length ? `${right} / ${results.length} correct · ${mode.label}` : 'No answers given.';
+    const missed = results.filter((r) => !r.correct);
+    const box = $('missed');
+    box.innerHTML = '';
+    if (missed.length) {
+      const h = document.createElement('h3');
+      h.textContent = 'To review';
+      const ul = document.createElement('ul');
+      ul.className = 'missed';
+      for (const r of missed) {
+        const li = document.createElement('li');
+        li.innerHTML = `<span lang="de">${escape(mode.prompt(r.entry))}</span> <span class="muted">→</span> ${renderAnswer(r.entry, mode.answer(r.entry))}` +
+          (r.given ? ` <span class="small muted">(you: ${escape(r.given)})</span>` : '');
+        ul.append(li);
+      }
+      box.append(h, ul);
+    }
+    renderStats();
+  }
+
+  $('again').addEventListener('click', start);
+  $('back').addEventListener('click', () => {
+    summary.hidden = true;
+    setup.hidden = false;
+    session = null;
+    updatePoolInfo();
+  });
+  setup.addEventListener('submit', (ev) => {
+    ev.preventDefault();
+    start();
+  });
+
+  // --- stats ------------------------------------------------------------------
+  function renderStats() {
+    const box = $('stats-table');
+    const rows = Object.entries(stats)
+      .map(([id, s]: [string, any]) => ({ id, ...s, entry: (vocab as Entry[]).find((e) => e.id === id) }))
+      .filter((r) => r.entry)
+      .sort((a, b) => b.errors / b.attempts - a.errors / a.attempts || b.attempts - a.attempts);
+    if (!rows.length) {
+      box.innerHTML = '<p class="small muted">No attempts recorded yet.</p>';
+      return;
+    }
+    const table = document.createElement('table');
+    table.className = 'stats-table';
+    table.innerHTML = '<thead><tr><th>Word</th><th>Attempts</th><th>Errors</th></tr></thead>';
+    const tb = document.createElement('tbody');
+    for (const r of rows) {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td lang="de">${renderAnswer(r.entry, r.entry.german)}</td><td>${r.attempts}</td><td>${r.errors}</td>`;
+      tb.append(tr);
+    }
+    table.append(tb);
+    box.innerHTML = '';
+    box.append(table);
+  }
+  $('reset-stats').addEventListener('click', () => {
+    if (!confirm('Reset all quiz stats stored on this device?')) return;
+    resetStats();
+    stats = loadStats();
+    renderStats();
+  });
+  renderStats();
+</script>
+
+<style>
+  .setup { max-width: 40rem; display: grid; gap: 1rem; }
+  fieldset { border: 1px solid var(--border); border-radius: var(--radius); padding: 0.75rem 1rem 1rem; margin: 0; }
+  legend { padding: 0 0.4em; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  .modes { display: grid; gap: 0.5rem; }
+  @media (min-width: 36rem) { .modes { grid-template-columns: 1fr 1fr; } }
+  .mode {
+    display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto auto; gap: 0 0.6rem; align-items: start;
+    padding: 0.6rem 0.75rem; border: 1px solid var(--border); border-radius: var(--radius); cursor: pointer; background: var(--surface);
+  }
+  .mode:has(input:checked) { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+  .mode input { grid-row: 1 / span 3; margin: 0.3em 0 0; accent-color: var(--accent); }
+  .mode-label { font-weight: 600; }
+  .row { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; }
+  .row label { display: grid; gap: 0.25rem; font-size: 0.9rem; }
+  .row input, .row select { padding: 0.4em 0.5em; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); min-height: 2.4rem; }
+  .row input[type=number] { width: 4.5rem; }
+  .range { display: inline-flex; align-items: center; gap: 0.4rem; }
+
+  .play { max-width: 40rem; }
+  .prompt { font-size: 1.9rem; font-weight: 600; margin: 0.5rem 0 1rem; line-height: 1.25; overflow-wrap: anywhere; }
+  .answer { display: flex; flex-direction: column; gap: 0.5rem; }
+  #input-slot { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  #input-slot input[type=text] {
+    flex: 1 1 14rem; font-size: 1.15rem; padding: 0.55em 0.7em;
+    border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface);
+  }
+  .choice { flex: 1 1 6rem; font-size: 1.1rem; padding: 0.7em 1em; font-weight: 600; }
+  .choice-der { color: var(--der); }
+  .choice-die { color: var(--die); }
+  .choice-das { color: var(--das); }
+  .feedback { margin-top: 1rem; padding: 1rem; border-radius: var(--radius); background: var(--surface-2); }
+  .verdict { font-weight: 700; margin: 0 0 0.25rem; }
+  .verdict.ok { color: var(--ok); }
+  .verdict.warn { color: var(--warn); }
+  .verdict.bad { color: var(--bad); }
+  .expected { font-size: 1.2rem; margin: 0 0 0.25rem; }
+  .expected:empty { display: none; }
+  .notes { margin: 0 0 0.5rem; padding-left: 1.2em; }
+  .notes:empty { display: none; }
+  .linkish { all: unset; cursor: pointer; color: var(--accent); text-decoration: underline; }
+
+  .summary { max-width: 40rem; }
+  .score { font-size: 1.3rem; font-weight: 600; }
+  .missed { padding-left: 1.2em; }
+  .stats { margin-top: 2.5rem; max-width: 40rem; }
+  .stats summary { cursor: pointer; font-weight: 600; }
+  .stats-table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+  .stats-table th, .stats-table td { text-align: left; padding: 0.3em 0.5em; border-bottom: 1px solid var(--border); }
+  .stats-table th:not(:first-child), .stats-table td:not(:first-child) { text-align: right; }
+</style>

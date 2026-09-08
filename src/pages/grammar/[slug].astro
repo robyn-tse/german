@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+import { url } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const topics = await getCollection('grammar');
+  return topics.map((topic) => ({ params: { slug: topic.id }, props: { topic } }));
+}
+
+const { topic } = Astro.props;
+const { Content } = await render(topic);
+const empty = !(topic.body ?? '').trim();
+const all = (await getCollection('grammar')).sort((a, b) => a.data.order - b.data.order);
+const prev = all.find((t) => t.data.order === topic.data.order - 1);
+const next = all.find((t) => t.data.order === topic.data.order + 1);
+---
+<Base title={topic.data.title}>
+  <p class="small muted">Grammar · topic {topic.data.order} of 10</p>
+  <h1>{topic.data.title}</h1>
+
+  {topic.data.lessons.length > 0 ? (
+    <p class="small">
+      Covered in {topic.data.lessons.map((n, i) => (
+        <>{i > 0 && ', '}<a href={url(`/lessons/${n}/`)}>lesson {n}</a></>
+      ))}
+      {topic.data.last_updated_lesson && <span class="muted"> · last updated in lesson {topic.data.last_updated_lesson}</span>}
+    </p>
+  ) : (
+    <p class="small muted">Not covered in any lesson yet.</p>
+  )}
+
+  {empty ? (
+    <div class="card empty">
+      <p class="muted" style="margin:0">Nothing here yet. Notes will appear once a lesson covers this topic.</p>
+    </div>
+  ) : (
+    <article class="prose"><Content /></article>
+  )}
+
+  <nav class="pager" aria-label="Topic navigation">
+    {prev ? <a href={url(`/grammar/${prev.id}/`)}>← {prev.data.title}</a> : <span />}
+    {next ? <a href={url(`/grammar/${next.id}/`)}>{next.data.title} →</a> : <span />}
+  </nav>
+</Base>
+
+<style>
+  .empty { border-style: dashed; max-width: var(--measure); }
+  .pager { display: flex; justify-content: space-between; gap: 1rem; margin-top: 3rem; max-width: var(--measure); }
+</style>

@@ -1,0 +1,30 @@
+#separator:tab
+#html:false
+#columns:Front	Back	Tags
+ab-	Separates in a main sentence; moves to the end. abfahren → Ich fahre ab.	lesson2::trennbar
+an-	Separates in a main sentence; moves to the end. anfangen → Ich fange an.	lesson2::trennbar
+auf-	Separates in a main sentence; moves to the end. aufräumen → Ich räume auf.	lesson2::trennbar
+aus-	Separates in a main sentence; moves to the end. ausgehen → Ich gehe aus.	lesson2::trennbar
+bei-	Separates in a main sentence; moves to the end. beistehen → Ich stehe bei.	lesson2::trennbar
+ein-	Separates in a main sentence; moves to the end. einkaufen → Ich kaufe ein.	lesson2::trennbar
+mit-	Separates in a main sentence; moves to the end. mitkommen → Ich komme mit.	lesson2::trennbar
+nach-	Separates in a main sentence; moves to the end. nachfragen → Ich frage nach.	lesson2::trennbar
+vor-	Separates in a main sentence; moves to the end. vorstellen → Ich stelle vor.	lesson2::trennbar
+weg-	Separates in a main sentence; moves to the end. weggehen → Ich gehe weg.	lesson2::trennbar
+be-	Never separates. besuchen → Ich besuche dich.	lesson2::untrennbar
+emp-	Never separates. empfehlen → Ich empfehle das.	lesson2::untrennbar
+ent-	Never separates. entscheiden → Ich entscheide.	lesson2::untrennbar
+er-	Never separates. erkennen → Ich erkenne das.	lesson2::untrennbar
+ge-	Never separates. gehören → Das gehört mir.	lesson2::untrennbar
+miss-	Never separates. missverstehen → Ich missverstehe dich.	lesson2::untrennbar
+ver-	Never separates. verstehen → Ich verstehe dich.	lesson2::untrennbar
+zer-	Never separates. zerstören → Ich zerstöre das.	lesson2::untrennbar
+-e	die — die Lampe, die Sprache. Common but not absolute: der Name, der Junge, das Auge.	lesson2::genus
+-ion	die — die Nation, die Situation, die Region.	lesson2::genus
+-age	die — die Garage, die Passage, die Reportage.	lesson2::genus
+-schaft	die — die Wirtschaft, die Gesellschaft, die Freundschaft.	lesson2::genus
+-heit	die — die Freiheit, die Gesundheit, die Sicherheit.	lesson2::genus
+-keit	die — die Möglichkeit, die Schwierigkeit, die Einigkeit.	lesson2::genus
+-ung	die — die Zeitung, die Wohnung, die Rechnung.	lesson2::genus
+-er	der — der Drucker, der Computer, der Lehrer. Especially tools/machines and doer-nouns.	lesson2::genus
+-o	das — das Radio, das Kino, das Auto.	lesson2::genus

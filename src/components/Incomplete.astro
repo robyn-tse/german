@@ -1,0 +1,11 @@
+---
+/** Subtle marker for a vocab entry that is missing plural and/or example. */
+import type { VocabEntry } from '../content.config';
+import { isIncomplete, missingFields } from '../lib/vocab';
+interface Props { entry: VocabEntry }
+const { entry } = Astro.props;
+const missing = missingFields(entry);
+---
+{isIncomplete(entry) && (
+  <abbr class="incomplete" title={`Missing: ${missing.join(', ')}`} aria-label={`Missing ${missing.join(' and ')}`}>◌</abbr>
+)}

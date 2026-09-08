@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { url } from '../lib/url';
+import { formatDate } from '../lib/vocab';
+
+const lessons = (await getCollection('lessons')).sort((a, b) => b.data.number - a.data.number);
+const vocab = await getCollection('vocab');
+const grammar = await getCollection('grammar');
+const topicTitle = (id: string) => grammar.find((g) => g.id === id)?.data.title ?? id;
+---
+<Base title="Lessons">
+  <h1>Lessons</h1>
+  <p class="muted small">Newest first. Each lesson links forward to the grammar topics it touched.</p>
+
+  <ol class="lessons">
+    {lessons.map((l) => {
+      const words = vocab.filter((v) => v.data.lesson === l.data.number).length;
+      const open = l.data.homework.filter((h) => !h.done).length;
+      return (
+        <li class="card">
+          <a class="title" href={url(`/lessons/${l.data.number}/`)}>
+            <span class="num">Lesson {l.data.number}</span>
+            {l.data.title && <span class="name">{l.data.title}</span>}
+          </a>
+          <div class="meta small muted">
+            <time datetime={l.data.date.toISOString().slice(0, 10)}>{formatDate(l.data.date)}</time>
+            <span>·</span>
+            <span>{words} words</span>
+            {open > 0 && <><span>·</span><span>{open} open homework</span></>}
+          </div>
+          {l.data.topics.length > 0 && (
+            <ul class="topics">
+              {l.data.topics.map((t) => (
+                <li><a class="chip" href={url(`/grammar/${t.id}/`)}>{topicTitle(t.id)}</a></li>
+              ))}
+            </ul>
+          )}
+        </li>
+      );
+    })}
+  </ol>
+  {lessons.length === 0 && <p>No lessons yet.</p>}
+</Base>
+
+<style>
+  .lessons { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem; max-width: 40rem; }
+  .title { display: flex; flex-wrap: wrap; gap: 0.25rem 0.6rem; align-items: baseline; text-decoration: none; color: inherit; }
+  .num { font-weight: 700; font-size: 1.1rem; }
+  .name { color: var(--muted); }
+  .title:hover .num { text-decoration: underline; }
+  .meta { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.25rem; }
+  .topics { list-style: none; padding: 0; margin: 0.6rem 0 0; display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .topics a { text-decoration: none; }
+  .topics a:hover { color: var(--fg); }
+</style>
