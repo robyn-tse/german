@@ -1,26 +1,8 @@
 #separator:tab
 #html:false
 #columns:Front	Back	Tags
-erwerben	to acquire	lesson2::verben lesson2::untrennbar
-investieren	to invest	lesson2::verben
-analysieren	to analyze	lesson2::verben
-bewerten	to evaluate	lesson2::verben lesson2::untrennbar
-übernehmen	to acquire / to take over	lesson2::verben lesson2::untrennbar
-wachsen	to grow	lesson2::verben
-steigen	to increase / to rise	lesson2::verben
-entwickeln	to develop	lesson2::verben lesson2::untrennbar
-finanzieren	to finance	lesson2::verben
-verhandeln	to negotiate	lesson2::verben lesson2::untrennbar
-integrieren	to integrate	lesson2::verben
-bewältigen	to manage / to overcome	lesson2::verben lesson2::untrennbar
-optimieren	to optimize	lesson2::verben
-stärken	to strengthen	lesson2::verben
-reduzieren	to reduce	lesson2::verben
-erzielen	to achieve / to generate	lesson2::verben lesson2::untrennbar
-nutzen	to use / to leverage	lesson2::verben
-erkennen	to identify / to recognize	lesson2::verben lesson2::untrennbar
+erkennen	to recognize	lesson2::verben lesson2::untrennbar
 entscheiden	to decide	lesson2::verben lesson2::untrennbar
-umsetzen	to implement	lesson2::verben lesson2::trennbar
 abfahren	to depart / to leave	lesson2::verben lesson2::trennbar
 anfangen	to begin / to start	lesson2::verben lesson2::trennbar
 aufräumen	to tidy up / to clean up	lesson2::verben lesson2::trennbar

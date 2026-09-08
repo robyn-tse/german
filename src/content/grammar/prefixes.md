@@ -22,8 +22,6 @@ The verb stays in second position; the prefix moves to the **end of the main cla
 | vor- | vorstellen | Ich stelle vor. |
 | weg- | weggehen | Ich gehe weg. |
 
-Another separable verb from the lesson-2 vocabulary: **umsetzen** → Nach dem Closing setzen die Teams die Integrationsstrategie **um**.
-
 ## Inseparable prefixes (untrennbare Präfixe)
 
 These stay welded to the stem in every position and are never stressed (be**SU**chen).
@@ -38,8 +36,6 @@ These stay welded to the stem in every position and are never stressed (be**SU**
 | miss- | missverstehen | Ich missverstehe dich. |
 | ver- | verstehen | Ich verstehe dich. |
 | zer- | zerstören | Ich zerstöre das. |
-
-Many of the lesson-2 business verbs carry inseparable prefixes: **be**werten, **be**wältigen, **ent**wickeln, **ent**scheiden, **er**werben, **er**zielen, **er**kennen, **ver**handeln.
 
 **über-** (as in übernehmen) belongs to a third group that can go either way; in übernehmen it is inseparable: ich übernehme.
 

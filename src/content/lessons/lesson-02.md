@@ -66,48 +66,60 @@ These stay welded to the stem in every position.
 
 ## Gender by suffix
 
-| Suffix | Article | Examples |
-|---|---|---|
-| -e | die | die Lampe, die Sprache |
-| -ion | die | die Nation, die Region |
-| -age | die | die Garage, die Passage |
-| -schaft | die | die Wirtschaft, die Gesellschaft |
-| -heit | die | die Freiheit, die Gesundheit |
-| -keit | die | die Möglichkeit, die Schwierigkeit |
-| -ung | die | die Zeitung, die Wohnung |
-| -er | der | der Drucker, der Computer |
-| -o | das | das Radio, das Kino, das Auto |
+From the handout *Der Die Das – Regeln für Artikel im Deutschen*. The nine suffixes drilled in the lesson are in bold; the rest come from the same handout.
+
+**die**
+
+| Suffix | Examples |
+|---|---|
+| **-e** | die Lampe, die Sprache, die Tasche, die Ente |
+| **-ion** | die Nation, die Region, die Diskussion, die Tradition |
+| **-age** | die Garage, die Passage |
+| **-schaft** | die Wirtschaft, die Gesellschaft, die Freundschaft, die Mannschaft |
+| **-heit** | die Freiheit, die Gesundheit, die Gelegenheit |
+| **-keit** | die Möglichkeit, die Schwierigkeit, die Schnelligkeit |
+| **-ung** | die Zeitung, die Wohnung, die Umleitung |
+| -t | die Fahrt, die Tat, die Nacht |
+| -ei | die Wäscherei, die Bäckerei |
+| -ie | die Psychologie, die Arterie |
+| -in | die Prinzessin, die Ärztin |
+| -ur | die Agentur, die Manufaktur |
+| -ik | die Physik, die Metrik |
+| -anz | die Akzeptanz, die Ignoranz |
+| -tät | die Qualität, die Fakultät |
+| -ade | die Parade, die Marmelade |
+| -enz | die Präsenz, die Tendenz |
+
+**der**
+
+| Suffix | Examples |
+|---|---|
+| **-er** | der Drucker, der Computer, der Rentner |
+| -ling | der Schützling, der Schmetterling |
+| -or | der Reaktor, der Professor |
+| -ist | der Journalist, der Pazifist |
+| -ismus | der Kapitalismus, der Mechanismus |
+
+**das**
+
+| Suffix | Examples |
+|---|---|
+| **-o** | das Radio, das Kino, das Auto |
+| -chen (diminutive) | das Mädchen, das Heftchen |
+| -lein (diminutive) | das Kindlein, das Bächlein |
+| -um | das Publikum, das Zentrum |
+| -nis | das Zeugnis, das Ergebnis |
+| -tum | das Altertum, das Datum |
+| -ment | das Instrument, das Parlament |
+| Ge- (prefix) | das Gehölz, das Gemüse, das Geräusch, das Gebet |
+
+These are tendencies, not laws (der Name, der Junge, das Auge all end in -e). The handout's category rules (seasons, months and weekdays are der; numbers and flowers are die; colours and metals are das, …) are on the Articles grammar page.
 
 Plural is always `die`, regardless of the singular gender: die Männer, die Frauen, die Häuser.
 
-The full handout (*Der Die Das – Regeln für Artikel im Deutschen*) has many more categories and suffixes; they are all on the [Articles](../../grammar/articles/) grammar page.
+## Handout left out: *Die 50 wichtigsten Verben*
 
-## Vocabulary: 20 business verbs
-
-From the handout *Die 50 wichtigsten Verben im Deutschen* (only 20 are in the file). Each verb came with an example sentence, Präteritum and Perfekt; all of that is stored on the vocab entries.
-
-| Infinitive | English |
-|---|---|
-| erwerben | to acquire |
-| investieren | to invest |
-| analysieren | to analyze |
-| bewerten | to evaluate |
-| übernehmen | to acquire / to take over |
-| wachsen | to grow |
-| steigen | to increase / to rise |
-| entwickeln | to develop |
-| finanzieren | to finance |
-| verhandeln | to negotiate |
-| integrieren | to integrate |
-| bewältigen | to manage / to overcome |
-| optimieren | to optimize |
-| stärken | to strengthen |
-| reduzieren | to reduce |
-| erzielen | to achieve / to generate |
-| nutzen | to use / to leverage |
-| erkennen | to identify / to recognize |
-| entscheiden | to decide |
-| umsetzen | to implement |
+The M&A verb list (20 verbs with example sentences) was deliberately cut from the vocab on 8 Sept 2026; the file stays in the archive. Only erkennen and entscheiden remain, as the er- and ent- prefix examples.
 
 ## Prefix handout (Praefixe.pdf)
 

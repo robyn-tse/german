@@ -58,11 +58,11 @@ der Park	the park	lesson2::nomen
 das Spiel	the game	lesson2::nomen
 die Lehrerin	the teacher	lesson2::nomen
 die Klasse	the class	lesson2::nomen
-das Mädchen	the girl	lesson2::nomen
+das Mädchen	the girl	lesson2::nomen lesson2::genus
 der Junge	the boy	lesson2::nomen
 das Tier	the animal	lesson2::nomen
 die Schwester	the sister	lesson2::nomen
-die Tasche	the bag	lesson2::nomen
+die Tasche	the bag	lesson2::nomen lesson2::genus
 der Saft	the juice	lesson2::nomen
 die Freundin	the friend / the girlfriend	lesson2::nomen
 der Stift	the pen	lesson2::nomen
@@ -95,7 +95,7 @@ das Flugzeug	the aeroplane	lesson2::nomen
 die Kartoffel	the potato	lesson2::nomen
 der Bahnhof	the train station	lesson2::nomen
 die U-Bahn	the underground / the subway	lesson2::nomen
-die Bäckerei	the bakery	lesson2::nomen
+die Bäckerei	the bakery	lesson2::nomen lesson2::genus
 die Übung	the exercise	lesson2::nomen
 der Tee	the tea	lesson2::nomen
 der Kaffee	the coffee	lesson2::nomen
@@ -252,3 +252,58 @@ die Gruppe	the group	lesson2::nomen
 das Alter	the age	lesson2::nomen
 die Welt	the world	lesson2::nomen
 das Gesetz	the law	lesson2::nomen
+der Rentner	the pensioner	lesson2::nomen lesson2::genus
+der Schützling	the protégé	lesson2::nomen lesson2::genus
+der Schmetterling	the butterfly	lesson2::nomen lesson2::genus
+der Reaktor	the reactor	lesson2::nomen lesson2::genus
+der Professor	the professor	lesson2::nomen lesson2::genus
+der Journalist	the journalist	lesson2::nomen lesson2::genus
+der Pazifist	the pacifist	lesson2::nomen lesson2::genus
+der Kapitalismus	the capitalism	lesson2::nomen lesson2::genus
+der Mechanismus	the mechanism	lesson2::nomen lesson2::genus
+die Ente	the duck	lesson2::nomen lesson2::genus
+die Fahrt	the journey / the ride	lesson2::nomen lesson2::genus
+die Tat	the deed	lesson2::nomen lesson2::genus
+die Nacht	the night	lesson2::nomen lesson2::genus
+die Wäscherei	the laundry	lesson2::nomen lesson2::genus
+die Psychologie	the psychology	lesson2::nomen lesson2::genus
+die Arterie	the artery	lesson2::nomen lesson2::genus
+die Prinzessin	the princess	lesson2::nomen lesson2::genus
+die Ärztin	the female doctor	lesson2::nomen lesson2::genus
+die Freundschaft	the friendship	lesson2::nomen lesson2::genus
+die Mannschaft	the team	lesson2::nomen lesson2::genus
+die Gelegenheit	the opportunity	lesson2::nomen lesson2::genus
+die Schnelligkeit	the speed	lesson2::nomen lesson2::genus
+die Umleitung	the diversion / the detour	lesson2::nomen lesson2::genus
+die Diskussion	the discussion	lesson2::nomen lesson2::genus
+die Tradition	the tradition	lesson2::nomen lesson2::genus
+die Agentur	the agency	lesson2::nomen lesson2::genus
+die Manufaktur	the manufactory	lesson2::nomen lesson2::genus
+die Physik	the physics	lesson2::nomen lesson2::genus
+die Metrik	the metric	lesson2::nomen lesson2::genus
+die Akzeptanz	the acceptance	lesson2::nomen lesson2::genus
+die Ignoranz	the ignorance	lesson2::nomen lesson2::genus
+die Qualität	the quality	lesson2::nomen lesson2::genus
+die Fakultät	the faculty	lesson2::nomen lesson2::genus
+die Parade	the parade	lesson2::nomen lesson2::genus
+die Marmelade	the jam	lesson2::nomen lesson2::genus
+die Präsenz	the presence	lesson2::nomen lesson2::genus
+die Tendenz	the tendency / the trend	lesson2::nomen lesson2::genus
+das Heftchen	the booklet	lesson2::nomen lesson2::genus
+das Kindlein	the little child	lesson2::nomen lesson2::genus
+das Bächlein	the little brook	lesson2::nomen lesson2::genus
+das Publikum	the audience	lesson2::nomen lesson2::genus
+das Zentrum	the centre	lesson2::nomen lesson2::genus
+das Zeugnis	the certificate / the report card	lesson2::nomen lesson2::genus
+das Ergebnis	the result	lesson2::nomen lesson2::genus
+das Altertum	the antiquity	lesson2::nomen lesson2::genus
+das Datum	the date	lesson2::nomen lesson2::genus
+das Instrument	the instrument	lesson2::nomen lesson2::genus
+das Parlament	the parliament	lesson2::nomen lesson2::genus
+das Gehölz	the copse	lesson2::nomen lesson2::genus
+das Geflügel	the poultry	lesson2::nomen lesson2::genus
+das Gemüse	the vegetables	lesson2::nomen lesson2::genus
+das Geräusch	the noise	lesson2::nomen lesson2::genus
+das Gestöber	the flurry	lesson2::nomen lesson2::genus
+das Gebet	the prayer	lesson2::nomen lesson2::genus
+das Gerüst	the scaffolding	lesson2::nomen lesson2::genus

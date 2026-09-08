@@ -272,3 +272,8 @@ spaced repetition; Anki owns scheduling.
 - No JS framework. The only client scripts are the vocab filter and the quiz.
 - `noindex` is set sitewide in `src/layouts/Base.astro`.
 - Do not build: dashboards, global search, interactive homework, audio, or any AI feature in the site.
+
+## Deliberately excluded
+
+- The 20 M&A verbs from `50_Verben.rtf` (lesson 2) were cut at Robyn's request on 2026-09-08. Do not
+  re-add them if the file is reprocessed; erkennen and entscheiden stay only as prefix examples.

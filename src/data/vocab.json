@@ -1,430 +1,23 @@
 [
   {
-    "id": "erwerben",
-    "german": "erwerben",
-    "english": "to acquire",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Unternehmen erwerben innovative KI-Start-ups, um ihre Wettbewerbsfähigkeit zu stärken.",
-    "example_en": "Companies acquire innovative AI start-ups to strengthen their competitiveness.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": {
-        "ich": "erwerbe"
-      },
-      "praeteritum": "erwarb",
-      "partizip_ii": "erworben"
-    }
-  },
-  {
-    "id": "investieren",
-    "german": "investieren",
-    "english": "to invest",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Viele Private-Equity-Fonds investieren im Jahr 2026 in Schweizer Technologieunternehmen.",
-    "example_en": "Many private-equity funds are investing in Swiss technology companies in 2026.",
-    "lesson": 2,
-    "tags": [],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "investiere"
-      },
-      "praeteritum": "investierte",
-      "partizip_ii": "investiert"
-    }
-  },
-  {
-    "id": "analysieren",
-    "german": "analysieren",
-    "english": "to analyze",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "M&A-Direktoren analysieren Markttrends und potenzielle Übernahmeziele.",
-    "example_en": "M&A directors analyze market trends and potential takeover targets.",
-    "lesson": 2,
-    "tags": [],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "analysiere"
-      },
-      "praeteritum": "analysierte",
-      "partizip_ii": "analysiert"
-    }
-  },
-  {
-    "id": "bewerten",
-    "german": "bewerten",
-    "english": "to evaluate",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Die Teams bewerten finanzielle Risiken und Synergiepotenziale.",
-    "example_en": "The teams evaluate financial risks and synergy potential.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "bewerte"
-      },
-      "praeteritum": "bewertete",
-      "partizip_ii": "bewertet"
-    }
-  },
-  {
-    "id": "uebernehmen",
-    "german": "übernehmen",
-    "english": "to acquire / to take over",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Große Konzerne übernehmen spezialisierte Softwareunternehmen.",
-    "example_en": "Large corporations take over specialised software companies.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "über- can be separable or inseparable depending on the verb; in übernehmen it is inseparable (ich übernehme, übernommen). Not one of the 8 inseparable prefixes covered in lesson 2.",
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "haben",
-      "present": {
-        "ich": "übernehme"
-      },
-      "praeteritum": "übernahm",
-      "partizip_ii": "übernommen"
-    }
-  },
-  {
-    "id": "wachsen",
-    "german": "wachsen",
-    "english": "to grow",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Der Schweizer M&A-Markt wächst trotz geopolitischer Unsicherheiten.",
-    "example_en": "The Swiss M&A market is growing despite geopolitical uncertainty.",
-    "lesson": 2,
-    "tags": [],
-    "notes": "Stem vowel changes in du/er: du wächst, er wächst.",
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "sein",
-      "present": {
-        "ich": "wachse"
-      },
-      "praeteritum": "wuchs",
-      "partizip_ii": "gewachsen"
-    }
-  },
-  {
-    "id": "steigen",
-    "german": "steigen",
-    "english": "to increase / to rise",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Das Deal-Volumen steigt im Jahr 2026 deutlich an.",
-    "example_en": "Deal volume is rising significantly in 2026.",
-    "lesson": 2,
-    "tags": [],
-    "notes": "The source example actually uses the separable verb ansteigen (steigt … an), not plain steigen.",
-    "verb": {
-      "separable": false,
-      "strength": "strong",
-      "aux": "sein",
-      "present": {
-        "ich": "steige"
-      },
-      "praeteritum": "stieg",
-      "partizip_ii": "gestiegen"
-    }
-  },
-  {
-    "id": "entwickeln",
-    "german": "entwickeln",
-    "english": "to develop",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Unternehmen entwickeln neue KI-basierte Geschäftsmodelle.",
-    "example_en": "Companies are developing new AI-based business models.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "-eln verbs drop the e in the ich-form: ich entwickle.",
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "entwickle"
-      },
-      "praeteritum": "entwickelte",
-      "partizip_ii": "entwickelt"
-    }
-  },
-  {
-    "id": "finanzieren",
-    "german": "finanzieren",
-    "english": "to finance",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Banken finanzieren zahlreiche internationale Transaktionen.",
-    "example_en": "Banks finance numerous international transactions.",
-    "lesson": 2,
-    "tags": [],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "finanziere"
-      },
-      "praeteritum": "finanzierte",
-      "partizip_ii": "finanziert"
-    }
-  },
-  {
-    "id": "verhandeln",
-    "german": "verhandeln",
-    "english": "to negotiate",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Die Parteien verhandeln über den endgültigen Kaufpreis.",
-    "example_en": "The parties are negotiating the final purchase price.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": "-eln verbs drop the e in the ich-form: ich verhandle.",
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "verhandle"
-      },
-      "praeteritum": "verhandelte",
-      "partizip_ii": "verhandelt"
-    }
-  },
-  {
-    "id": "integrieren",
-    "german": "integrieren",
-    "english": "to integrate",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Nach dem Deal integrieren die Unternehmen ihre Geschäftsbereiche.",
-    "example_en": "After the deal the companies integrate their business units.",
-    "lesson": 2,
-    "tags": [],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "integriere"
-      },
-      "praeteritum": "integrierte",
-      "partizip_ii": "integriert"
-    }
-  },
-  {
-    "id": "bewaeltigen",
-    "german": "bewältigen",
-    "english": "to manage / to overcome",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "M&A-Direktoren müssen komplexe Integrationsprozesse bewältigen.",
-    "example_en": "M&A directors have to manage complex integration processes.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "bewältige"
-      },
-      "praeteritum": "bewältigte",
-      "partizip_ii": "bewältigt"
-    }
-  },
-  {
-    "id": "optimieren",
-    "german": "optimieren",
-    "english": "to optimize",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Viele Unternehmen optimieren ihr Portfolio durch Carve-outs.",
-    "example_en": "Many companies optimise their portfolio through carve-outs.",
-    "lesson": 2,
-    "tags": [],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "optimiere"
-      },
-      "praeteritum": "optimierte",
-      "partizip_ii": "optimiert"
-    }
-  },
-  {
-    "id": "staerken",
-    "german": "stärken",
-    "english": "to strengthen",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Akquisitionen stärken die Marktposition eines Unternehmens.",
-    "example_en": "Acquisitions strengthen a company's market position.",
-    "lesson": 2,
-    "tags": [],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "stärke"
-      },
-      "praeteritum": "stärkte",
-      "partizip_ii": "gestärkt"
-    }
-  },
-  {
-    "id": "reduzieren",
-    "german": "reduzieren",
-    "english": "to reduce",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Banken reduzieren ihre Kosten durch Digitalisierung.",
-    "example_en": "Banks reduce their costs through digitalisation.",
-    "lesson": 2,
-    "tags": [],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "reduziere"
-      },
-      "praeteritum": "reduzierte",
-      "partizip_ii": "reduziert"
-    }
-  },
-  {
-    "id": "erzielen",
-    "german": "erzielen",
-    "english": "to achieve / to generate",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Investoren möchten langfristige Renditen erzielen.",
-    "example_en": "Investors want to generate long-term returns.",
-    "lesson": 2,
-    "tags": [
-      "untrennbar"
-    ],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "erziele"
-      },
-      "praeteritum": "erzielte",
-      "partizip_ii": "erzielt"
-    }
-  },
-  {
-    "id": "nutzen",
-    "german": "nutzen",
-    "english": "to use / to leverage",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Unternehmen nutzen künstliche Intelligenz für die Due Diligence.",
-    "example_en": "Companies use artificial intelligence for due diligence.",
-    "lesson": 2,
-    "tags": [],
-    "notes": null,
-    "verb": {
-      "separable": false,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "nutze"
-      },
-      "praeteritum": "nutzte",
-      "partizip_ii": "genutzt"
-    }
-  },
-  {
     "id": "erkennen",
     "german": "erkennen",
-    "english": "to identify / to recognize",
+    "english": "to recognize",
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": "Analysten erkennen neue Marktchancen frühzeitig.",
-    "example_en": "Analysts identify new market opportunities early.",
+    "example_de": "Ich erkenne das.",
+    "example_en": "I recognise that.",
     "lesson": 2,
     "tags": [
       "untrennbar"
     ],
-    "notes": "Also the lesson-2 example for the inseparable prefix er-: Ich erkenne das. Mixed verb: weak endings but a stem-vowel change (erkannte, erkannt).",
+    "notes": "Lesson-2 example for the inseparable prefix er-. Mixed verb: weak endings but a stem-vowel change (erkannte, erkannt).",
     "verb": {
       "separable": false,
       "strength": "mixed",
       "aux": "haben",
-      "present": {
-        "ich": "erkenne"
-      },
+      "present": null,
       "praeteritum": "erkannte",
       "partizip_ii": "erkannt"
     }
@@ -436,47 +29,20 @@
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": "Der Verwaltungsrat entscheidet über die Akquisition.",
-    "example_en": "The board of directors decides on the acquisition.",
+    "example_de": "Ich entscheide.",
+    "example_en": "I decide.",
     "lesson": 2,
     "tags": [
       "untrennbar"
     ],
-    "notes": "Also the lesson-2 example for the inseparable prefix ent-: Ich entscheide.",
+    "notes": "Lesson-2 example for the inseparable prefix ent-.",
     "verb": {
       "separable": false,
       "strength": "strong",
       "aux": "haben",
-      "present": {
-        "ich": "entscheide"
-      },
+      "present": null,
       "praeteritum": "entschied",
       "partizip_ii": "entschieden"
-    }
-  },
-  {
-    "id": "umsetzen",
-    "german": "umsetzen",
-    "english": "to implement",
-    "pos": "verb",
-    "gender": null,
-    "plural": null,
-    "example_de": "Nach dem Closing setzen die Teams die Integrationsstrategie um.",
-    "example_en": "After closing, the teams implement the integration strategy.",
-    "lesson": 2,
-    "tags": [
-      "trennbar"
-    ],
-    "notes": "Separable: um- moves to the end (ich setze um). um- is not one of the 10 separable prefixes covered in lesson 2.",
-    "verb": {
-      "separable": true,
-      "strength": "weak",
-      "aux": "haben",
-      "present": {
-        "ich": "setze um"
-      },
-      "praeteritum": "setzte um",
-      "partizip_ii": "umgesetzt"
     }
   },
   {
@@ -4562,7 +4128,8 @@
     "tags": [
       "artikel-uebung",
       "wortliste",
-      "koerper"
+      "koerper",
+      "genus"
     ],
     "notes": null,
     "verb": null
@@ -4630,7 +4197,8 @@
     "tags": [
       "artikel-uebung",
       "wortliste",
-      "einkaufen"
+      "einkaufen",
+      "genus"
     ],
     "notes": null,
     "verb": null
@@ -5175,7 +4743,8 @@
     "tags": [
       "artikel-uebung",
       "wortliste",
-      "orte"
+      "orte",
+      "genus"
     ],
     "notes": null,
     "verb": null
@@ -12711,6 +12280,886 @@
       "wortliste"
     ],
     "notes": null,
+    "verb": null
+  },
+  {
+    "id": "rentner",
+    "german": "der Rentner",
+    "english": "the pensioner",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -er → der.",
+    "verb": null
+  },
+  {
+    "id": "schuetzling",
+    "german": "der Schützling",
+    "english": "the protégé",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ling → der.",
+    "verb": null
+  },
+  {
+    "id": "schmetterling",
+    "german": "der Schmetterling",
+    "english": "the butterfly",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ling → der.",
+    "verb": null
+  },
+  {
+    "id": "reaktor",
+    "german": "der Reaktor",
+    "english": "the reactor",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -or → der.",
+    "verb": null
+  },
+  {
+    "id": "professor",
+    "german": "der Professor",
+    "english": "the professor",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -or → der.",
+    "verb": null
+  },
+  {
+    "id": "journalist",
+    "german": "der Journalist",
+    "english": "the journalist",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ist → der.",
+    "verb": null
+  },
+  {
+    "id": "pazifist",
+    "german": "der Pazifist",
+    "english": "the pacifist",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ist → der.",
+    "verb": null
+  },
+  {
+    "id": "kapitalismus",
+    "german": "der Kapitalismus",
+    "english": "the capitalism",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ismus → der.",
+    "verb": null
+  },
+  {
+    "id": "mechanismus",
+    "german": "der Mechanismus",
+    "english": "the mechanism",
+    "pos": "noun",
+    "gender": "der",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ismus → der.",
+    "verb": null
+  },
+  {
+    "id": "ente",
+    "german": "die Ente",
+    "english": "the duck",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -e → die.",
+    "verb": null
+  },
+  {
+    "id": "fahrt",
+    "german": "die Fahrt",
+    "english": "the journey / the ride",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -t → die.",
+    "verb": null
+  },
+  {
+    "id": "tat",
+    "german": "die Tat",
+    "english": "the deed",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -t → die.",
+    "verb": null
+  },
+  {
+    "id": "nacht",
+    "german": "die Nacht",
+    "english": "the night",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -t → die.",
+    "verb": null
+  },
+  {
+    "id": "waescherei",
+    "german": "die Wäscherei",
+    "english": "the laundry",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ei → die.",
+    "verb": null
+  },
+  {
+    "id": "psychologie",
+    "german": "die Psychologie",
+    "english": "the psychology",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ie → die.",
+    "verb": null
+  },
+  {
+    "id": "arterie",
+    "german": "die Arterie",
+    "english": "the artery",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ie → die.",
+    "verb": null
+  },
+  {
+    "id": "prinzessin",
+    "german": "die Prinzessin",
+    "english": "the princess",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -in → die.",
+    "verb": null
+  },
+  {
+    "id": "rztin",
+    "german": "die Ärztin",
+    "english": "the female doctor",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -in → die.",
+    "verb": null
+  },
+  {
+    "id": "freundschaft",
+    "german": "die Freundschaft",
+    "english": "the friendship",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -schaft → die.",
+    "verb": null
+  },
+  {
+    "id": "mannschaft",
+    "german": "die Mannschaft",
+    "english": "the team",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -schaft → die.",
+    "verb": null
+  },
+  {
+    "id": "gelegenheit",
+    "german": "die Gelegenheit",
+    "english": "the opportunity",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -heit → die.",
+    "verb": null
+  },
+  {
+    "id": "schnelligkeit",
+    "german": "die Schnelligkeit",
+    "english": "the speed",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -keit → die.",
+    "verb": null
+  },
+  {
+    "id": "umleitung",
+    "german": "die Umleitung",
+    "english": "the diversion / the detour",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ung → die.",
+    "verb": null
+  },
+  {
+    "id": "diskussion",
+    "german": "die Diskussion",
+    "english": "the discussion",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ion → die.",
+    "verb": null
+  },
+  {
+    "id": "tradition",
+    "german": "die Tradition",
+    "english": "the tradition",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ion → die.",
+    "verb": null
+  },
+  {
+    "id": "agentur",
+    "german": "die Agentur",
+    "english": "the agency",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ur → die.",
+    "verb": null
+  },
+  {
+    "id": "manufaktur",
+    "german": "die Manufaktur",
+    "english": "the manufactory",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ur → die.",
+    "verb": null
+  },
+  {
+    "id": "physik",
+    "german": "die Physik",
+    "english": "the physics",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ik → die.",
+    "verb": null
+  },
+  {
+    "id": "metrik",
+    "german": "die Metrik",
+    "english": "the metric",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ik → die.",
+    "verb": null
+  },
+  {
+    "id": "akzeptanz",
+    "german": "die Akzeptanz",
+    "english": "the acceptance",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -anz → die.",
+    "verb": null
+  },
+  {
+    "id": "ignoranz",
+    "german": "die Ignoranz",
+    "english": "the ignorance",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -anz → die.",
+    "verb": null
+  },
+  {
+    "id": "qualitaet",
+    "german": "die Qualität",
+    "english": "the quality",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -tät → die.",
+    "verb": null
+  },
+  {
+    "id": "fakultaet",
+    "german": "die Fakultät",
+    "english": "the faculty",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -tät → die.",
+    "verb": null
+  },
+  {
+    "id": "parade",
+    "german": "die Parade",
+    "english": "the parade",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ade → die.",
+    "verb": null
+  },
+  {
+    "id": "marmelade",
+    "german": "die Marmelade",
+    "english": "the jam",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ade → die.",
+    "verb": null
+  },
+  {
+    "id": "praesenz",
+    "german": "die Präsenz",
+    "english": "the presence",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -enz → die.",
+    "verb": null
+  },
+  {
+    "id": "tendenz",
+    "german": "die Tendenz",
+    "english": "the tendency / the trend",
+    "pos": "noun",
+    "gender": "die",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -enz → die.",
+    "verb": null
+  },
+  {
+    "id": "heftchen",
+    "german": "das Heftchen",
+    "english": "the booklet",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -chen → das.",
+    "verb": null
+  },
+  {
+    "id": "kindlein",
+    "german": "das Kindlein",
+    "english": "the little child",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -lein → das.",
+    "verb": null
+  },
+  {
+    "id": "baechlein",
+    "german": "das Bächlein",
+    "english": "the little brook",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -lein → das.",
+    "verb": null
+  },
+  {
+    "id": "publikum",
+    "german": "das Publikum",
+    "english": "the audience",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -um → das.",
+    "verb": null
+  },
+  {
+    "id": "zentrum",
+    "german": "das Zentrum",
+    "english": "the centre",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -um → das.",
+    "verb": null
+  },
+  {
+    "id": "zeugnis",
+    "german": "das Zeugnis",
+    "english": "the certificate / the report card",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -nis → das.",
+    "verb": null
+  },
+  {
+    "id": "ergebnis",
+    "german": "das Ergebnis",
+    "english": "the result",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -nis → das.",
+    "verb": null
+  },
+  {
+    "id": "altertum",
+    "german": "das Altertum",
+    "english": "the antiquity",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -tum → das.",
+    "verb": null
+  },
+  {
+    "id": "datum",
+    "german": "das Datum",
+    "english": "the date",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -tum → das.",
+    "verb": null
+  },
+  {
+    "id": "instrument",
+    "german": "das Instrument",
+    "english": "the instrument",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ment → das.",
+    "verb": null
+  },
+  {
+    "id": "parlament",
+    "german": "das Parlament",
+    "english": "the parliament",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Gender-by-suffix example: -ment → das.",
+    "verb": null
+  },
+  {
+    "id": "gehoelz",
+    "german": "das Gehölz",
+    "english": "the copse",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Nouns with the prefix Ge- are often neuter (das).",
+    "verb": null
+  },
+  {
+    "id": "gefluegel",
+    "german": "das Geflügel",
+    "english": "the poultry",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Nouns with the prefix Ge- are often neuter (das).",
+    "verb": null
+  },
+  {
+    "id": "gemuese",
+    "german": "das Gemüse",
+    "english": "the vegetables",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Nouns with the prefix Ge- are often neuter (das).",
+    "verb": null
+  },
+  {
+    "id": "geraeusch",
+    "german": "das Geräusch",
+    "english": "the noise",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Nouns with the prefix Ge- are often neuter (das).",
+    "verb": null
+  },
+  {
+    "id": "gestoeber",
+    "german": "das Gestöber",
+    "english": "the flurry",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Nouns with the prefix Ge- are often neuter (das).",
+    "verb": null
+  },
+  {
+    "id": "gebet",
+    "german": "das Gebet",
+    "english": "the prayer",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Nouns with the prefix Ge- are often neuter (das).",
+    "verb": null
+  },
+  {
+    "id": "geruest",
+    "german": "das Gerüst",
+    "english": "the scaffolding",
+    "pos": "noun",
+    "gender": "das",
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 2,
+    "tags": [
+      "genus"
+    ],
+    "notes": "Nouns with the prefix Ge- are often neuter (das).",
     "verb": null
   }
 ]
