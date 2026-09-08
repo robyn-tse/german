@@ -271,7 +271,9 @@ under "Also in the handout" and mention it in the report.
 input, source?, subprompt?, accept?, reveal? }`. `source` is `'vocab'` (default) or `'exercises'`.
 To add one, add an object; the page picks it up, and lesson pages link to it with `?mode=<id>` for
 the exercise sets it covers. Current modes: DE→EN, EN→DE, Gender, Prefix, Partizip II, Verb im
-Satz (worksheet gap-fill), der/die/das im Satz, ein/eine/einen. Sketches for plural,
+Satz (worksheet gap-fill), der/die/das im Satz, ein/eine/einen. Every mode can be run in two
+**styles**: quiz (typed or choice, checked automatically) or flashcards (flip, then self-rate Again /
+Got it). Both feed the same per-word stats; flashcards need nothing extra from a mode. Sketches for plural,
 Partizip II, present-tense and case modes are commented at the bottom of that file. Typed answers go
 through `src/lib/compare.js` (case-insensitive, trimmed, umlaut/ß tolerant but flagged). Do not add
 spaced repetition; Anki owns scheduling.
