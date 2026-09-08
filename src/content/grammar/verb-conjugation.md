@@ -37,4 +37,4 @@ Both are irregular and have to be memorised.
 
 ## Strong verbs (starke Verben)
 
-Strong verbs change their stem vowel. In the present tense this shows up in the du- and er-forms of some verbs (wachsen → du wächst, er wächst). The main difference is in the past tenses (verstehen → verstand → verstanden), which are stored on each verb entry for later.
+Strong verbs change their stem vowel. In the present tense this shows up in the du- and er-forms of some verbs (wachsen → du wächst, er wächst). The main difference is in the past tenses (verstehen → verstand → verstanden).

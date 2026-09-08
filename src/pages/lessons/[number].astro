@@ -6,6 +6,7 @@ import { getCollection, getEntries, render } from 'astro:content';
 import { url } from '../../lib/url';
 import { formatDate, POS_LABEL, POS_ORDER } from '../../lib/vocab';
 import { modes } from '../../lib/quiz-modes.js';
+import { existsSync } from 'node:fs';
 
 export async function getStaticPaths() {
   const lessons = await getCollection('lessons');
@@ -14,6 +15,12 @@ export async function getStaticPaths() {
 
 const { lesson } = Astro.props;
 const { Content } = await render(lesson);
+const nn = String(lesson.data.number).padStart(2, '0');
+// Originals copied to public/sources/lesson-NN/ are linked; anything else is shown as plain text.
+const sources = lesson.data.sources.map((name) => ({
+  name,
+  href: existsSync(`public/sources/lesson-${nn}/${name}`) ? url(`/sources/lesson-${nn}/${name}`) : null,
+}));
 const topics = await getEntries(lesson.data.topics);
 const vocab = (await getCollection('vocab'))
   .filter((v) => v.data.lesson === lesson.data.number)
@@ -50,7 +57,11 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
   <header class="head">
     <p class="small muted">
       <time datetime={lesson.data.date.toISOString().slice(0, 10)}>{formatDate(lesson.data.date)}</time>
-      {lesson.data.sources.length > 0 && <> · Sources: {lesson.data.sources.join(', ')}</>}
+      {sources.length > 0 && (
+        <> · Materials: {sources.map((s, i) => (
+          <>{i > 0 && ', '}{s.href ? <a href={s.href}>{s.name}</a> : s.name}</>
+        ))}</>
+      )}
     </p>
     <h1>Lesson {lesson.data.number}{lesson.data.title && <span class="subtitle">: {lesson.data.title}</span>}</h1>
     {topics.length > 0 && (

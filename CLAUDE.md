@@ -21,6 +21,7 @@ The original build spec is in `docs/build-prompt.md`. Read it if you are about t
 | `exports/lesson-NN-*.tsv` | Anki import files. |
 | `inbox/` | Raw files from Markus land here. |
 | `inbox/archive/lesson-NN/` | Processed originals. **Never delete anything here.** |
+| `public/sources/lesson-NN/` | Copies of the originals served by the site, linked from the lesson's Materials list. |
 | `src/lib/quiz-modes.js` | Quiz mode registry. Adding a mode = adding an object. |
 | `.github/workflows/deploy.yml` | Push to `main` → build → GitHub Pages. |
 
@@ -58,9 +59,16 @@ thing end to end.
 3. **Work out the lesson number and date.** Next number after the highest existing
    `src/content/lessons/lesson-NN.md`; date from the file/email if given, otherwise ask. Create
    `src/content/lessons/lesson-NN.md` (two-digit NN) with the frontmatter template below and the
-   cleaned notes as the body. Keep the tutor's structure and wording; fix only obvious transcription
-   noise. **Anything that fits no structured field goes in the body verbatim** — the body is the
-   safety valve. Then open the previous lesson's file and mark its homework `done: true`.
+   cleaned notes as the body. **The body is a study sheet you would hand a student**: tables,
+   rules, examples, and a *Materials* list linking the originals. Nothing else. No descriptions of
+   what a worksheet contains, no processing notes, no "this was cut/merged/added" commentary, no
+   dates of edits; all of that belongs in the report (step 8) or in this file. Keep the tutor's
+   structure and wording; fix only obvious transcription noise. Anything that fits no structured
+   field still goes in the body, but as content (a table, a rule), not as a note about content.
+   Copy the originals to `public/sources/lesson-NN/` so they are served by the site (an `.rtfd`
+   bundle: copy its `TXT.rtf` as `<name>.rtf`); list those filenames in `sources` and link them
+   from the *Materials* section with `../../sources/lesson-NN/<file>`. Then open the previous
+   lesson's file and mark its homework `done: true`.
 4. **Vocab.** Decide first what *is* vocab. Lesson handouts, worksheets and phrase lists are; a
    coursebook glossary or dictionary-style reference (like the 103-page English Compass word list in
    lesson 2) is not: archive it, mention it in the lesson body, and say so in the report.

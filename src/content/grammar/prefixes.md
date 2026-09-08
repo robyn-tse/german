@@ -39,7 +39,7 @@ These stay welded to the stem in every position and are never stressed (be**SU**
 
 **über-** (as in übernehmen) belongs to a third group that can go either way; in übernehmen it is inseparable: ich übernehme.
 
-## What the prefixes mean (Praefixe.pdf)
+## What the prefixes mean
 
 Separable prefixes carry the stress (**AB**fahren) and usually keep a direction-like meaning.
 
@@ -80,4 +80,4 @@ Inseparable prefixes are unstressed and their meaning is more abstract.
 
 ## Position with modal verbs
 
-After a modal verb (müssen, können, wollen, sollen, dürfen, möchten) the separable verb stays whole as an infinitive at the end: *Ich muss morgen früh **aufstehen**.* *Kannst du heute **einkaufen**?* (Praefix_A1.rtf, part 2.)
+After a modal verb (müssen, können, wollen, sollen, dürfen, möchten) the separable verb stays whole as an infinitive at the end: *Ich muss morgen früh **aufstehen**.* *Kannst du heute **einkaufen**?*
