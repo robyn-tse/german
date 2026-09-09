@@ -131,7 +131,7 @@ The ending tells you the article most of the time. Plural is always **die**.
 | his / its | er / es | sein | seine | sein | seine |
 | her | sie | ihr | ihre | ihr | ihre |
 | our | wir | unser | unsere | unser | unsere |
-| your (plural) | ihr | euer | eure | euer | eure |
+| your (you all) | ihr | euer | eure | euer | eure |
 | their / your (formal) | sie / Sie | ihr / Ihr | ihre / Ihre | ihr / Ihr | ihre / Ihre |
 
 The ending follows the noun's gender: mein Vater, mein**e** Mutter, mein Kind, mein**e** Eltern.
