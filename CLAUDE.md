@@ -270,8 +270,12 @@ under "Also in the handout" and mention it in the report.
 `src/lib/quiz-modes.js` is a registry. A mode is `{ id, label, description, filter, prompt, answer,
 input, source?, subprompt?, accept?, reveal? }`. `source` is `'vocab'` (default) or `'exercises'`.
 To add one, add an object; the page picks it up, and lesson pages link to it with `?mode=<id>` for
-the exercise sets it covers. Current modes: DE→EN, EN→DE, Gender, Prefix, Partizip II, Verb im
-Satz (worksheet gap-fill), der/die/das im Satz, ein/eine/einen. Every mode can be run in two
+the exercise sets it covers. Modes carry a `group` (Basics, Vocabulary, Grammar, Worksheets) and are listed in that order; keep
+the Basics first, Robyn is a complete beginner. Current modes: Pronouns (I → ich), Endings
+(ich → -e), Conjugate (kaufen, I → ich kaufe; built from regular weak verbs plus verbs with a
+stored present table), DE→EN, EN→DE, Gender rule, Gender, Prefix, Partizip II, Verb im Satz
+(worksheet gap-fill), der/die/das im Satz, ein/eine/einen. Derived sets (`conjugation`,
+`endings`) are built in `quiz-modes.js` from vocab and passed to modes via `ctx`. Every mode can be run in two
 **styles**: quiz (typed or choice, checked automatically) or flashcards (flip, then self-rate Again /
 Got it). Both feed the same per-word stats; flashcards need nothing extra from a mode. Sketches for plural,
 Partizip II, present-tense and case modes are commented at the bottom of that file. Typed answers go

@@ -18,16 +18,21 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   <form id="setup" class="setup" aria-label="Quiz setup">
     <fieldset>
       <legend>Mode</legend>
-      <div class="modes">
-        {modes.map((m, i) => (
-          <label class="mode">
-            <input type="radio" name="mode" value={m.id} checked={i === 0} />
-            <span class="mode-label">{m.label}</span>
-            <span class="mode-desc small muted">{m.description}</span>
-            <span class="mode-count small muted" data-mode-count={m.id}></span>
-          </label>
-        ))}
-      </div>
+      {[...new Set(modes.map((m) => m.group ?? 'Other'))].map((group) => (
+        <div class="mode-group">
+          <h3 class="group-title">{group}</h3>
+          <div class="modes">
+            {modes.filter((m) => (m.group ?? 'Other') === group).map((m) => (
+              <label class="mode">
+                <input type="radio" name="mode" value={m.id} checked={m.id === modes[0].id} />
+                <span class="mode-label">{m.label}</span>
+                <span class="mode-desc small muted">{m.description}</span>
+                <span class="mode-count small muted" data-mode-count={m.id}></span>
+              </label>
+            ))}
+          </div>
+        </div>
+      ))}
     </fieldset>
 
     <fieldset>
@@ -120,7 +125,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   import vocab from '../data/vocab.json';
   import exercises from '../data/exercises.json';
   import rules from '../data/gender-rules.json';
-  import { modes, getMode } from '../lib/quiz-modes.js';
+  import { modes, getMode, conjugationItems, endingItems } from '../lib/quiz-modes.js';
   import { compareTyped, compareChoice } from '../lib/compare.js';
   import { loadStats, record, resetStats } from '../lib/quiz-stats.js';
 
@@ -134,11 +139,12 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
 
   type Entry = any;
   let stats = loadStats();
-  const ALL: Record<string, Entry[]> = { vocab, exercises, rules };
+  const ALL: Record<string, Entry[]> = { vocab, exercises, rules, conjugation: conjugationItems(vocab), endings: endingItems() };
   const ctx = ALL;
   const dataFor = (mode: any): Entry[] => ALL[mode.source ?? 'vocab'];
   const lookup = (id: string): Entry | undefined =>
-    vocab.find((e) => e.id === id) ?? exercises.find((e) => e.id === id) ?? rules.find((e) => e.id === id);
+    vocab.find((e) => e.id === id) ?? exercises.find((e) => e.id === id) ?? rules.find((e) => e.id === id) ??
+    ALL.conjugation.find((e) => e.id === id) ?? ALL.endings.find((e) => e.id === id);
 
   // --- pool + config ------------------------------------------------------
   function readConfig() {
@@ -161,8 +167,8 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
         e.lesson >= cfg.from &&
         e.lesson <= cfg.to &&
         (!cfg.tag || e.tags.includes(cfg.tag)) &&
-        // essentials applies to vocab only; worksheets and rules are small sets already
-        (!cfg.essentials || (mode.source ?? 'vocab') !== 'vocab' || e.tags.includes('essentials')),
+        // essentials applies to vocab-derived sets; worksheets, rules and endings are small already
+        (!cfg.essentials || !['vocab', 'conjugation'].includes(mode.source ?? 'vocab') || e.tags.includes('essentials')),
     );
   }
   function updatePoolInfo() {
@@ -441,7 +447,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     const tb = document.createElement('tbody');
     for (const r of rows) {
       const tr = document.createElement('tr');
-      const label = r.entry.german ?? r.entry.full_de ?? r.entry.suffix;
+      const label = r.entry.german ?? r.entry.full_de ?? r.entry.suffix ?? (r.entry.form ? `${r.entry.verb.german} · ${r.entry.pronoun.de}` : r.entry.pronoun?.de ?? r.id);
       tr.innerHTML = `<td lang="de">${renderAnswer(r.entry, label)}</td><td>${r.attempts}</td><td>${r.errors}</td>`;
       tb.append(tr);
     }
@@ -462,6 +468,8 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   .setup { max-width: 40rem; display: grid; gap: 1rem; }
   fieldset { border: 1px solid var(--border); border-radius: var(--radius); padding: 0.75rem 1rem 1rem; margin: 0; }
   legend { padding: 0 0.4em; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  .mode-group + .mode-group { margin-top: 0.9rem; }
+  .group-title { margin: 0 0 0.4rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
   .modes { display: grid; gap: 0.5rem; }
   @media (min-width: 36rem) { .modes { grid-template-columns: 1fr 1fr; } }
   .mode {

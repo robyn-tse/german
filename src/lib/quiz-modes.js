@@ -46,9 +46,103 @@ const ARTICLE_NOTE = {
   einer: 'einer: feminine in the dative (after "in" with no movement)',
 };
 
+// ---------------------------------------------------------------------------
+// Derived question sets (built once by the quiz page and passed in ctx)
+// ---------------------------------------------------------------------------
+export const PRONOUNS = [
+  { key: 'ich', de: 'ich', en: 'I', ending: '-e' },
+  { key: 'du', de: 'du', en: 'you', ending: '-st' },
+  { key: 'er', de: 'er / sie / es', en: 'he / she / it', ending: '-t' },
+  { key: 'wir', de: 'wir', en: 'we', ending: '-en' },
+  { key: 'ihr', de: 'ihr', en: 'you (plural)', ending: '-t' },
+  { key: 'sie', de: 'sie / Sie', en: 'they / you (formal)', ending: '-en' },
+];
+const ENDINGS = ['-e', '-st', '-t', '-en'];
+const PERSONAL = new Set(['ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', 'Sie']);
+
+// A weak verb whose stem takes the endings with no spelling change.
+function regularStem(e) {
+  if (!e.verb || e.verb.strength !== 'weak' || e.verb.separable) return null;
+  if (!/en$/.test(e.german) || e.german.includes(' ')) return null;
+  const stem = e.german.slice(0, -2);
+  if (/(t|d|s|ß|z|x|el|er|chn|ffn|gn|tm)$/.test(stem)) return null; // arbeiten, reisen, handeln … need extra rules
+  return stem;
+}
+function presentOf(e) {
+  if (e.verb?.present && PRONOUNS.every((p) => e.verb.present[p.key])) return e.verb.present;
+  const stem = regularStem(e);
+  if (!stem) return null;
+  return { ich: stem + 'e', du: stem + 'st', er: stem + 't', wir: stem + 'en', ihr: stem + 't', sie: stem + 'en' };
+}
+/** verb × pronoun items for the Conjugate mode */
+export function conjugationItems(vocab) {
+  const out = [];
+  for (const e of vocab) {
+    if (e.pos !== 'verb') continue;
+    const forms = presentOf(e);
+    if (!forms) continue;
+    for (const p of PRONOUNS) {
+      out.push({
+        id: `${e.id}:${p.key}`, lesson: e.lesson, tags: e.tags,
+        verb: e, pronoun: p, form: forms[p.key], forms,
+      });
+    }
+  }
+  return out;
+}
+/** one item per pronoun for the Endings mode */
+export function endingItems() {
+  return PRONOUNS.map((p) => ({ id: `ending:${p.key}`, lesson: 2, tags: ['essentials'], pronoun: p }));
+}
+const paradigm = (forms) => PRONOUNS.map((p) => `${p.de.split(' ')[0]} ${forms[p.key]}`).join(' · ');
+
 export const modes = [
+  // ---- Basics ---------------------------------------------------------------
+  {
+    id: 'pronouns',
+    label: 'Pronouns',
+    group: 'Basics',
+    description: 'See the English pronoun, type the German: I → ich.',
+    filter: (e) => e.pos === 'pronoun' && PERSONAL.has(e.german),
+    prompt: (e) => e.english,
+    answer: (e) => e.german,
+    input: 'typed',
+  },
+  {
+    id: 'endings',
+    label: 'Endings',
+    group: 'Basics',
+    description: 'Which present-tense ending goes with this pronoun? ich → -e.',
+    source: 'endings',
+    filter: () => true,
+    prompt: (it) => it.pronoun.de,
+    answer: (it) => it.pronoun.ending,
+    input: { type: 'choice', options: ENDINGS },
+    reveal: (it) => `${it.pronoun.en} · kauf${it.pronoun.ending.slice(1)}`,
+  },
+  {
+    id: 'conjugate',
+    label: 'Conjugate',
+    group: 'Basics',
+    description: 'A regular verb and a person: type the form with its pronoun, e.g. "ich kaufe".',
+    source: 'conjugation',
+    filter: () => true,
+    prompt: (it) => `${it.verb.german} (${it.verb.english})`,
+    subprompt: (it) => it.pronoun.en,
+    answer: (it) => `${it.pronoun.de.split(' ')[0]} ${it.form}`,
+    input: 'typed',
+    accept: (it) => {
+      const subjects = it.pronoun.de.split(' / ');
+      const out = subjects.map((sub) => ({ text: `${sub} ${it.form}`, note: null }));
+      out.push({ text: it.form, note: `Say the pronoun too: ${subjects[0]} ${it.form}` });
+      return out;
+    },
+    reveal: (it) => paradigm(it.forms),
+  },
+
   {
     id: 'de-en',
+    group: 'Vocabulary',
     label: 'DE → EN',
     description: 'See the German word, type the English.',
     // Prefixes have approximate glosses, not translatable answers, so they are
@@ -68,6 +162,7 @@ export const modes = [
   },
   {
     id: 'en-de',
+    group: 'Vocabulary',
     label: 'EN → DE',
     description: 'See the English, type the German. Nouns: article optional, but you will be shown it.',
     filter: (e) => e.pos !== 'prefix',
@@ -85,6 +180,7 @@ export const modes = [
   },
   {
     id: 'gender-rule',
+    group: 'Grammar',
     label: 'Gender rule',
     description: 'A noun ends in … — which article? The rules from the article handout.',
     source: 'rules',
@@ -96,6 +192,7 @@ export const modes = [
   },
   {
     id: 'gender',
+    group: 'Grammar',
     label: 'Gender',
     description: 'Apply the rules: pick der, die or das for a noun whose ending has a rule.',
     // Only nouns a suffix rule applies to, so this drills the rules rather than
@@ -114,6 +211,7 @@ export const modes = [
   },
   {
     id: 'prefix',
+    group: 'Grammar',
     label: 'Prefix',
     description: 'Is this verb separable or inseparable?',
     filter: (e) => e.pos === 'verb' && !!e.verb && hasPrefix(e),
@@ -124,6 +222,7 @@ export const modes = [
   },
   {
     id: 'partizip',
+    group: 'Grammar',
     label: 'Partizip II',
     description: 'Type the past participle. Separable: ge- goes after the prefix; inseparable: no ge-.',
     filter: (e) => e.pos === 'verb' && !!e.verb?.partizip_ii,
@@ -134,6 +233,7 @@ export const modes = [
   },
   {
     id: 'satz-trennbar',
+    group: 'Worksheets',
     label: 'Verb im Satz',
     description: 'Fill the gap(s) with the verb in brackets. Two gaps: type both parts, e.g. "stehe auf".',
     source: 'exercises',
@@ -147,6 +247,7 @@ export const modes = [
   },
   {
     id: 'artikel-satz',
+    group: 'Worksheets',
     label: 'der / die / das im Satz',
     description: 'Pick the definite article. Plural nouns take die.',
     source: 'exercises',
@@ -158,6 +259,7 @@ export const modes = [
   },
   {
     id: 'unbestimmt',
+    group: 'Worksheets',
     label: 'ein / eine / einen',
     description: 'Pick the indefinite article. Watch for masculine objects (einen).',
     source: 'exercises',
