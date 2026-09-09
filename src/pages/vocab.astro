@@ -8,7 +8,8 @@ import { POS_LABEL, POS_ORDER, splitArticle } from '../lib/vocab';
 const entries = (await getCollection('vocab')).map((v) => v.data);
 const essentials = entries.filter((e) => e.tags.includes('essentials')).length;
 const lessons = [...new Set(entries.map((e) => e.lesson))].sort((a, b) => a - b);
-const tags = [...new Set(entries.flatMap((e) => e.tags))].sort();
+const HIDDEN_TAGS = new Set(['essentials', 'verben50', 'wortliste']); // source/bookkeeping tags, not study categories
+const tags = [...new Set(entries.flatMap((e) => e.tags))].filter((t) => !HIDDEN_TAGS.has(t)).sort();
 const posList = POS_ORDER.filter((p) => entries.some((e) => e.pos === p));
 
 const fold = (s: string) =>
@@ -35,7 +36,7 @@ const fold = (s: string) =>
     </select>
     <select name="tag" id="f-tag" aria-label="Tag">
       <option value="">All tags</option>
-      {tags.filter((t) => t !== 'essentials').map((t) => <option value={t}>{t}</option>)}
+      {tags.map((t) => <option value={t}>{t}</option>)}
     </select>
     <label class="toggle"><input type="checkbox" name="essentials" id="f-essentials" checked /> Essentials only <span class="muted">({essentials} of {entries.length})</span></label>
     <button type="reset" class="btn" id="reset">Clear</button>
@@ -49,7 +50,6 @@ const fold = (s: string) =>
           <th><button type="button" data-sort="english">English</button></th>
           <th class="col-type"><button type="button" data-sort="pos">Type</button></th>
           <th class="col-lesson"><button type="button" data-sort="lesson">Lesson</button></th>
-          <th class="col-tags">Tags</th>
           <th class="col-more"><span class="visually-hidden">Details</span></th>
         </tr>
       </thead>
@@ -73,7 +73,6 @@ const fold = (s: string) =>
               <td data-label="English">{e.english}</td>
               <td data-label="Type" class="col-type muted" data-lesson={e.lesson}>{e.pos ? POS_LABEL[e.pos] : '—'}</td>
               <td data-label="Lesson" class="col-lesson muted">{e.lesson}</td>
-              <td data-label="Tags" class="col-tags">{e.tags.map((t) => <span class="chip">{t}</span>)}</td>
               <td class="col-more">
                 {hasDetail && (
                   <button type="button" class="more" aria-expanded="false" aria-label={`Details for ${e.german}`}>▸</button>
@@ -82,7 +81,7 @@ const fold = (s: string) =>
             </tr>
             {hasDetail && (
               <tr class="detail" hidden>
-                <td colspan="6">
+                <td colspan="5">
                   <dl>
                     {e.pos === 'noun' && (
                       <><dt>Plural</dt><dd>{e.plural ? <span lang="de"><span class="g g-die">die</span> {e.plural}</span> : <span class="muted">not yet recorded</span>}</dd></>
@@ -257,8 +256,7 @@ const fold = (s: string) =>
     td.col-type { font-size: 0.8rem; }
     td.col-type::after { content: " · lesson " attr(data-lesson); }
     td.col-lesson { display: none; }
-    td.col-tags { grid-column: 1; margin-top: 0.3rem; }
-    td.col-more { grid-column: 2; grid-row: 1 / span 3; align-self: start; }
+    td.col-more { grid-column: 2; grid-row: 1 / span 2; align-self: start; }
     tr.detail td { padding: 0.6rem 0.75rem; border-top: 1px solid var(--border); border-radius: 0 0 var(--radius) var(--radius); }
     dl { grid-template-columns: 1fr; gap: 0.1rem 0; }
     dt { margin-top: 0.4rem; }

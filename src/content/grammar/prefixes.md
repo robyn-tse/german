@@ -15,11 +15,11 @@ The verb stays in second position; the prefix moves to the **end of the main cla
 | an- | anfangen | Ich fange an. |
 | auf- | aufräumen | Ich räume auf. |
 | aus- | ausgehen | Ich gehe aus. |
-| bei- | beistehen | Ich stehe bei. |
+| bei- | beistehen | Ich stehe dir bei. |
 | ein- | einkaufen | Ich kaufe ein. |
 | mit- | mitkommen | Ich komme mit. |
 | nach- | nachfragen | Ich frage nach. |
-| vor- | vorstellen | Ich stelle vor. |
+| vor- | vorstellen | Ich stelle mich vor. |
 | weg- | weggehen | Ich gehe weg. |
 
 ## Inseparable prefixes (untrennbare Präfixe)
@@ -30,7 +30,7 @@ These stay welded to the stem in every position and are never stressed (be**SU**
 |---|---|---|
 | be- | besuchen | Ich besuche dich. |
 | emp- | empfehlen | Ich empfehle das. |
-| ent- | entscheiden | Ich entscheide. |
+| ent- | entscheiden | Ich entscheide mich. |
 | er- | erkennen | Ich erkenne das. |
 | ge- | gehören | Das gehört mir. |
 | miss- | missverstehen | Ich missverstehe dich. |

@@ -17,12 +17,14 @@ sources:
 
 ## Present tense
 
-| | ich | du | er / sie / es | wir | ihr | sie / Sie |
-|---|---|---|---|---|---|---|
-| ending | **-e** | **-st** | **-t** | **-en** | **-t** | **-en** |
-| kaufen | kaufe | kaufst | kauft | kaufen | kauft | kaufen |
-| haben | habe | hast | hat | haben | habt | haben |
-| sein | bin | bist | ist | sind | seid | sind |
+| | | ending | kaufen (to buy) | haben (to have) | sein (to be) |
+|---|---|---|---|---|---|
+| ich | I | **-e** | kauf**e** | habe | bin |
+| du | you | **-st** | kauf**st** | hast | bist |
+| er / sie / es | he / she / it | **-t** | kauf**t** | hat | ist |
+| wir | we | **-en** | kauf**en** | haben | sind |
+| ihr | you (plural, informal) | **-t** | kauf**t** | habt | seid |
+| sie / Sie | they / you (formal) | **-en** | kauf**en** | haben | sind |
 
 - About 80 % of verbs are weak: strip **-en**, add the ending. **haben** and **sein** are irregular.
 - **Sie** (capital S) is formal "you" and takes the plural form.
@@ -38,11 +40,11 @@ The verb takes second position; the prefix goes to the **end** of the sentence. 
 | an- | anfangen | Ich fange an. |
 | auf- | aufräumen | Ich räume auf. |
 | aus- | ausgehen | Ich gehe aus. |
-| bei- | beistehen | Ich stehe bei. |
+| bei- | beistehen | Ich stehe dir bei. |
 | ein- | einkaufen | Ich kaufe ein. |
 | mit- | mitkommen | Ich komme mit. |
 | nach- | nachfragen | Ich frage nach. |
-| vor- | vorstellen | Ich stelle vor. |
+| vor- | vorstellen | Ich stelle mich vor. |
 | weg- | weggehen | Ich gehe weg. |
 | her- | herkommen | Komm her! |
 | hin- | hingehen | Ich gehe hin. |
@@ -51,7 +53,13 @@ The verb takes second position; the prefix goes to the **end** of the sentence. 
 | zu- | zumachen | Ich mache das Fenster zu. |
 | zurück- | zurückgeben | Ich gebe den Stift zurück. |
 
-After a modal verb the separable verb stays whole at the end: *Ich muss morgen früh **aufstehen**.*
+Word order:
+
+| | Example |
+|---|---|
+| statement: verb second, prefix last | Ich **stehe** um 6 Uhr **auf**. |
+| yes/no question: verb first | **Kaufst** du heute **ein**? |
+| with a modal verb: whole verb at the end | Ich **muss** morgen früh **aufstehen**. |
 
 ## Inseparable prefixes
 
@@ -61,7 +69,7 @@ Never split, never stressed. *Ich **be**suche dich.* (not *Ich suche be…*)
 |---|---|---|
 | be- | besuchen | Ich besuche dich. |
 | emp- | empfehlen | Ich empfehle das. |
-| ent- | entscheiden | Ich entscheide. |
+| ent- | entscheiden | Ich entscheide mich. |
 | er- | erkennen | Ich erkenne das. |
 | ge- | gehören | Das gehört mir. |
 | miss- | missverstehen | Ich missverstehe dich. |
@@ -116,15 +124,17 @@ The ending tells you the article most of the time. Plural is always **die**.
 
 ## Possessive pronouns (nominative)
 
-| | m | f | n | pl |
-|---|---|---|---|---|
-| ich | mein | meine | mein | meine |
-| du | dein | deine | dein | deine |
-| er / es | sein | seine | sein | seine |
-| sie | ihr | ihre | ihr | ihre |
-| wir | unser | unsere | unser | unsere |
-| ihr | euer | eure | euer | eure |
-| sie / Sie | ihr / Ihr | ihre / Ihre | ihr / Ihr | ihre / Ihre |
+| | | m | f | n | pl |
+|---|---|---|---|---|---|
+| ich | my | mein | meine | mein | meine |
+| du | your | dein | deine | dein | deine |
+| er / es | his / its | sein | seine | sein | seine |
+| sie | her | ihr | ihre | ihr | ihre |
+| wir | our | unser | unsere | unser | unsere |
+| ihr | your (plural) | euer | eure | euer | eure |
+| sie / Sie | their / your (formal) | ihr / Ihr | ihre / Ihre | ihr / Ihr | ihre / Ihre |
+
+The ending follows the noun's gender: mein Vater, mein**e** Mutter, mein Kind, mein**e** Eltern.
 
 ## Materials
 
@@ -132,6 +142,6 @@ The ending tells you the article most of the time. Plural is always **die**.
 - [Trennbare Verben: 100 Übungssätze](../../sources/lesson-02/Praefix_A1.rtf) (worksheet, drills below)
 - [Der, die, das: Regeln für Artikel](../../sources/lesson-02/Artikel_Erkla_rung.pdf) (handout)
 - [Artikel-Übungen](../../sources/lesson-02/300_Artikel_Uebungen_2.rtf) (worksheet, drills below)
-- [Wortliste: Alltag, Reise, Zahlen, Verben, Adjektive …](../../sources/lesson-02/4Wortliste.rtf) (in the vocab table under the tag `wortliste`)
+- [Wortliste: Alltag, Reise, Zahlen, Verben, Adjektive …](../../sources/lesson-02/4Wortliste.rtf) (phrase list)
 - [English Compass word list A1–B1](../../sources/lesson-02/1Wortliste_A1_A2_B1.pdf) (reference glossary)
 - Der/die/das endings chart (Das Akademie)

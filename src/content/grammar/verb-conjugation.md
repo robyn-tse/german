@@ -9,14 +9,14 @@ lessons: [2]
 
 About 80 % of all verbs are weak. Only the ending changes: strip `-en` from the infinitive and add the personal ending.
 
-| Pronoun | Ending | kaufen | kochen |
-|---|---|---|---|
-| ich | -e | kaufe | koche |
-| du | -st | kaufst | kochst |
-| er / sie / es | -t | kauft | kocht |
-| wir | -en | kaufen | kochen |
-| ihr | -t | kauft | kocht |
-| sie / Sie | -en | kaufen | kochen |
+| | | ending | kaufen (to buy) | kochen (to cook) |
+|---|---|---|---|---|
+| ich | I | **-e** | kauf**e** | koch**e** |
+| du | you | **-st** | kauf**st** | koch**st** |
+| er / sie / es | he / she / it | **-t** | kauf**t** | koch**t** |
+| wir | we | **-en** | kauf**en** | koch**en** |
+| ihr | you (plural) | **-t** | kauf**t** | koch**t** |
+| sie / Sie | they / you (formal) | **-en** | kauf**en** | koch**en** |
 
 `Sie` (capital S) is the formal "you" and takes the same form as third-person plural.
 
@@ -26,14 +26,14 @@ Verbs in `-eln` drop the *e* in the ich-form: ich entwick**le**, ich verhand**le
 
 Both are irregular and have to be memorised.
 
-| Pronoun | haben | sein |
-|---|---|---|
-| ich | habe | bin |
-| du | hast | bist |
-| er / sie / es | hat | ist |
-| wir | haben | sind |
-| ihr | habt | seid |
-| sie / Sie | haben | sind |
+| | | haben (to have) | sein (to be) |
+|---|---|---|---|
+| ich | I | habe | bin |
+| du | you | hast | bist |
+| er / sie / es | he / she / it | hat | ist |
+| wir | we | haben | sind |
+| ihr | you (plural) | habt | seid |
+| sie / Sie | they / you (formal) | haben | sind |
 
 ## Strong verbs (starke Verben)
 
