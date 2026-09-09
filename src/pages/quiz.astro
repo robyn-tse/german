@@ -476,7 +476,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto auto; gap: 0 0.6rem; align-items: start;
     padding: 0.6rem 0.75rem; border: 1px solid var(--border); border-radius: var(--radius); cursor: pointer; background: var(--surface);
   }
-  .mode:has(input:checked) { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+  .mode:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
   .mode input { grid-row: 1 / span 3; margin: 0.3em 0 0; accent-color: var(--accent); }
   .mode-label { font-weight: 600; }
   .row { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; }
@@ -497,7 +497,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     text-align: center;
   }
   .flashcard:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .flashcard[aria-pressed="true"] { background: var(--surface-2); cursor: default; }
+  .flashcard[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); cursor: default; }
   .face { display: grid; gap: 0.5rem; place-items: center; min-height: 6.5rem; }
   .card-answer { font-size: 1.6rem; font-weight: 600; line-height: 1.25; overflow-wrap: anywhere; }
   .rate { display: flex; gap: 0.5rem; }
@@ -517,7 +517,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   .choice-der { color: var(--der); }
   .choice-die { color: var(--die); }
   .choice-das { color: var(--das); }
-  .feedback { margin-top: 1rem; padding: 1rem; border-radius: var(--radius); background: var(--surface-2); }
+  .feedback { margin-top: 1rem; padding: 1rem; border-radius: var(--radius); background: var(--surface-2); border: 1px solid var(--border); }
   .verdict { font-weight: 700; margin: 0 0 0.25rem; }
   .verdict.ok { color: var(--ok); }
   .verdict.warn { color: var(--warn); }

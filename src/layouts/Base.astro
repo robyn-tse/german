@@ -28,8 +28,8 @@ function isActive(item: (typeof nav)[number]) {
     <meta name="robots" content="noindex, nofollow" />
     <meta name="google" content="notranslate" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#151412" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f5f6f1" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#131613" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
     <title>{title} · Deutsch</title>
   </head>
@@ -98,7 +98,7 @@ function isActive(item: (typeof nav)[number]) {
     }
     .brand {
       display: block; font-weight: 700; font-size: 1.1rem; padding: 0.25rem 0.75rem 1rem;
-      color: var(--fg); text-decoration: none;
+      color: var(--accent); text-decoration: none; letter-spacing: 0.02em;
     }
     .nav ul { flex-direction: column; height: auto; gap: 0.15rem; }
     .nav li { flex: none; }
@@ -108,7 +108,7 @@ function isActive(item: (typeof nav)[number]) {
       font-size: 0.95rem;
     }
     .nav ul a:hover { background: var(--surface-2); color: var(--fg); }
-    .nav ul a[aria-current="page"] { background: var(--surface-2); color: var(--fg); }
+    .nav ul a[aria-current="page"] { background: var(--accent-soft); color: var(--accent); }
     .icon { font-size: 1.05rem; }
     .main { padding: 2rem 2.5rem 3rem; }
   }

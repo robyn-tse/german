@@ -289,8 +289,10 @@ spaced repetition; Anki owns scheduling.
 - Links inside markdown content are relative to the page URL. A lesson lives at
   `/lessons/N/`, so link to a topic with `../../grammar/<slug>/`; a grammar page lives at
   `/grammar/<slug>/`, so it links to a lesson with `../../lessons/N/`.
-- Plain CSS, tokens in `src/styles/global.css`. Gender colours are `--der / --die / --das`; the
-  article is always also shown as text.
+- Plain CSS, tokens in `src/styles/global.css`. Palette: natural greens (moss accent in light mode,
+  sage in dark), green-tinted neutrals, no orange or neon. Gender colours are `--der` blue, `--die`
+  rose, `--das` gold (gold, not green, so the accent never reads as a neuter marker); the article is
+  always also shown as text.
 - No JS framework. The only client scripts are the vocab filter and the quiz.
 - `noindex` is set sitewide in `src/layouts/Base.astro`.
 - Do not build: dashboards, global search, interactive homework, audio, or any AI feature in the site.
