@@ -19,12 +19,12 @@ sources:
 
 | | | ending | kaufen (to buy) | haben (to have) | sein (to be) |
 |---|---|---|---|---|---|
-| ich | I | **-e** | kauf**e** | habe | bin |
-| du | you | **-st** | kauf**st** | hast | bist |
-| er / sie / es | he / she / it | **-t** | kauf**t** | hat | ist |
-| wir | we | **-en** | kauf**en** | haben | sind |
-| ihr | you (plural, informal) | **-t** | kauf**t** | habt | seid |
-| sie / Sie | they / you (formal) | **-en** | kauf**en** | haben | sind |
+| I | ich | **-e** | kauf**e** | habe | bin |
+| you | du | **-st** | kauf**st** | hast | bist |
+| he / she / it | er / sie / es | **-t** | kauf**t** | hat | ist |
+| we | wir | **-en** | kauf**en** | haben | sind |
+| you (plural, informal) | ihr | **-t** | kauf**t** | habt | seid |
+| they / you (formal) | sie / Sie | **-en** | kauf**en** | haben | sind |
 
 - About 80 % of verbs are weak: strip **-en**, add the ending. **haben** and **sein** are irregular.
 - **Sie** (capital S) is formal "you" and takes the plural form.
@@ -126,13 +126,13 @@ The ending tells you the article most of the time. Plural is always **die**.
 
 | | | m | f | n | pl |
 |---|---|---|---|---|---|
-| ich | my | mein | meine | mein | meine |
-| du | your | dein | deine | dein | deine |
-| er / es | his / its | sein | seine | sein | seine |
-| sie | her | ihr | ihre | ihr | ihre |
-| wir | our | unser | unsere | unser | unsere |
-| ihr | your (plural) | euer | eure | euer | eure |
-| sie / Sie | their / your (formal) | ihr / Ihr | ihre / Ihre | ihr / Ihr | ihre / Ihre |
+| my | ich | mein | meine | mein | meine |
+| your | du | dein | deine | dein | deine |
+| his / its | er / es | sein | seine | sein | seine |
+| her | sie | ihr | ihre | ihr | ihre |
+| our | wir | unser | unsere | unser | unsere |
+| your (plural) | ihr | euer | eure | euer | eure |
+| their / your (formal) | sie / Sie | ihr / Ihr | ihre / Ihre | ihr / Ihr | ihre / Ihre |
 
 The ending follows the noun's gender: mein Vater, mein**e** Mutter, mein Kind, mein**e** Eltern.
 

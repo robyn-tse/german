@@ -11,12 +11,12 @@ About 80 % of all verbs are weak. Only the ending changes: strip `-en` from the 
 
 | | | ending | kaufen (to buy) | kochen (to cook) |
 |---|---|---|---|---|
-| ich | I | **-e** | kauf**e** | koch**e** |
-| du | you | **-st** | kauf**st** | koch**st** |
-| er / sie / es | he / she / it | **-t** | kauf**t** | koch**t** |
-| wir | we | **-en** | kauf**en** | koch**en** |
-| ihr | you (plural) | **-t** | kauf**t** | koch**t** |
-| sie / Sie | they / you (formal) | **-en** | kauf**en** | koch**en** |
+| I | ich | **-e** | kauf**e** | koch**e** |
+| you | du | **-st** | kauf**st** | koch**st** |
+| he / she / it | er / sie / es | **-t** | kauf**t** | koch**t** |
+| we | wir | **-en** | kauf**en** | koch**en** |
+| you (plural) | ihr | **-t** | kauf**t** | koch**t** |
+| they / you (formal) | sie / Sie | **-en** | kauf**en** | koch**en** |
 
 `Sie` (capital S) is the formal "you" and takes the same form as third-person plural.
 
@@ -28,12 +28,12 @@ Both are irregular and have to be memorised.
 
 | | | haben (to have) | sein (to be) |
 |---|---|---|---|
-| ich | I | habe | bin |
-| du | you | hast | bist |
-| er / sie / es | he / she / it | hat | ist |
-| wir | we | haben | sind |
-| ihr | you (plural) | habt | seid |
-| sie / Sie | they / you (formal) | haben | sind |
+| I | ich | habe | bin |
+| you | du | hast | bist |
+| he / she / it | er / sie / es | hat | ist |
+| we | wir | haben | sind |
+| you (plural) | ihr | habt | seid |
+| they / you (formal) | sie / Sie | haben | sind |
 
 ## Strong verbs (starke Verben)
 
