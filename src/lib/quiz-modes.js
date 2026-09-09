@@ -54,7 +54,7 @@ export const PRONOUNS = [
   { key: 'du', de: 'du', en: 'you', ending: '-st' },
   { key: 'er', de: 'er / sie / es', en: 'he / she / it', ending: '-t' },
   { key: 'wir', de: 'wir', en: 'we', ending: '-en' },
-  { key: 'ihr', de: 'ihr', en: 'you (plural)', ending: '-t' },
+  { key: 'ihr', de: 'ihr', en: 'you all', ending: '-t' },
   { key: 'sie', de: 'sie / Sie', en: 'they / you (formal)', ending: '-en' },
 ];
 const ENDINGS = ['-e', '-st', '-t', '-en'];

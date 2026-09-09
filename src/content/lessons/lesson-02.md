@@ -23,7 +23,7 @@ sources:
 | you | du | **-st** | kauf**st** | hast | bist |
 | he / she / it | er / sie / es | **-t** | kauf**t** | hat | ist |
 | we | wir | **-en** | kauf**en** | haben | sind |
-| you (plural, informal) | ihr | **-t** | kauf**t** | habt | seid |
+| you all | ihr | **-t** | kauf**t** | habt | seid |
 | they / you (formal) | sie / Sie | **-en** | kauf**en** | haben | sind |
 
 - About 80 % of verbs are weak: strip **-en**, add the ending. **haben** and **sein** are irregular.

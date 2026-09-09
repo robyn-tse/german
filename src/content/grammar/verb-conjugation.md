@@ -15,7 +15,7 @@ About 80 % of all verbs are weak. Only the ending changes: strip `-en` from the 
 | you | du | **-st** | kauf**st** | koch**st** |
 | he / she / it | er / sie / es | **-t** | kauf**t** | koch**t** |
 | we | wir | **-en** | kauf**en** | koch**en** |
-| you (plural) | ihr | **-t** | kauf**t** | koch**t** |
+| you all | ihr | **-t** | kauf**t** | koch**t** |
 | they / you (formal) | sie / Sie | **-en** | kauf**en** | koch**en** |
 
 `Sie` (capital S) is the formal "you" and takes the same form as third-person plural.
@@ -32,7 +32,7 @@ Both are irregular and have to be memorised.
 | you | du | hast | bist |
 | he / she / it | er / sie / es | hat | ist |
 | we | wir | haben | sind |
-| you (plural) | ihr | habt | seid |
+| you all | ihr | habt | seid |
 | they / you (formal) | sie / Sie | haben | sind |
 
 ## Strong verbs (starke Verben)
