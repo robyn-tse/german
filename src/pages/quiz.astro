@@ -125,7 +125,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   import vocab from '../data/vocab.json';
   import exercises from '../data/exercises.json';
   import rules from '../data/gender-rules.json';
-  import { modes, getMode, conjugationItems, endingItems } from '../lib/quiz-modes.js';
+  import { modes, getMode, conjugationItems, endingItems, pronounItems } from '../lib/quiz-modes.js';
   import { compareTyped, compareChoice } from '../lib/compare.js';
   import { loadStats, record, resetStats } from '../lib/quiz-stats.js';
 
@@ -139,12 +139,12 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
 
   type Entry = any;
   let stats = loadStats();
-  const ALL: Record<string, Entry[]> = { vocab, exercises, rules, conjugation: conjugationItems(vocab), endings: endingItems() };
+  const ALL: Record<string, Entry[]> = { vocab, exercises, rules, conjugation: conjugationItems(vocab), endings: endingItems(), pronouns: pronounItems() };
   const ctx = ALL;
   const dataFor = (mode: any): Entry[] => ALL[mode.source ?? 'vocab'];
   const lookup = (id: string): Entry | undefined =>
     vocab.find((e) => e.id === id) ?? exercises.find((e) => e.id === id) ?? rules.find((e) => e.id === id) ??
-    ALL.conjugation.find((e) => e.id === id) ?? ALL.endings.find((e) => e.id === id);
+    ALL.conjugation.find((e) => e.id === id) ?? ALL.endings.find((e) => e.id === id) ?? ALL.pronouns.find((e) => e.id === id);
 
   // --- pool + config ------------------------------------------------------
   function readConfig() {
@@ -447,7 +447,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     const tb = document.createElement('tbody');
     for (const r of rows) {
       const tr = document.createElement('tr');
-      const label = r.entry.german ?? r.entry.full_de ?? r.entry.suffix ?? (r.entry.form ? `${r.entry.verb.german} · ${r.entry.pronoun.de}` : r.entry.pronoun?.de ?? r.id);
+      const label = r.entry.german ?? r.entry.full_de ?? r.entry.suffix ?? (r.entry.form ? `${r.entry.verb.german} · ${r.entry.pronoun.de}` : r.entry.pronoun?.de ?? r.entry.de ?? r.id);
       tr.innerHTML = `<td lang="de">${renderAnswer(r.entry, label)}</td><td>${r.attempts}</td><td>${r.errors}</td>`;
       tb.append(tr);
     }

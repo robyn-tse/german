@@ -58,7 +58,6 @@ export const PRONOUNS = [
   { key: 'sie', de: 'sie / Sie', en: 'they / you (formal)', ending: '-en' },
 ];
 const ENDINGS = ['-e', '-st', '-t', '-en'];
-const PERSONAL = new Set(['ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', 'Sie']);
 
 // A weak verb whose stem takes the endings with no spelling change.
 function regularStem(e) {
@@ -90,6 +89,14 @@ export function conjugationItems(vocab) {
   }
   return out;
 }
+/** one question per English personal pronoun (she and they are separate questions) */
+export function pronounItems() {
+  const pairs = [
+    ['I', 'ich'], ['you', 'du'], ['he', 'er'], ['she', 'sie'], ['it', 'es'],
+    ['we', 'wir'], ['you all', 'ihr'], ['they', 'sie'], ['you (formal)', 'Sie'],
+  ];
+  return pairs.map(([en, de]) => ({ id: `pronoun:${en.replace(/\W+/g, '-')}`, lesson: 2, tags: ['essentials'], en, de }));
+}
 /** one item per pronoun for the Endings mode */
 export function endingItems() {
   return PRONOUNS.map((p) => ({ id: `ending:${p.key}`, lesson: 2, tags: ['essentials'], pronoun: p }));
@@ -103,10 +110,12 @@ export const modes = [
     label: 'Pronouns',
     group: 'Basics',
     description: 'See the English pronoun, type the German: I → ich.',
-    filter: (e) => e.pos === 'pronoun' && PERSONAL.has(e.german),
-    prompt: (e) => e.english,
-    answer: (e) => e.german,
+    source: 'pronouns',
+    filter: () => true,
+    prompt: (it) => it.en,
+    answer: (it) => it.de,
     input: 'typed',
+    reveal: (it) => (it.de === 'sie' ? 'sie = she and they; Sie (capital) = you, formal' : null),
   },
   {
     id: 'endings',
