@@ -431,6 +431,16 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   });
 
   // --- stats ------------------------------------------------------------------
+  // A stats row is labelled by what was asked, not just the German word, so
+  // "she → sie" and "they → sie" and the vocab entry "sie" stay distinguishable.
+  function describe(entry: Entry): { label: string; kind: string } {
+    if (entry.form) return { label: `${entry.verb.german} · ${entry.pronoun.en}`, kind: 'Conjugate' };
+    if (entry.de && entry.en) return { label: `${entry.en} → ${renderAnswer(entry, entry.de)}`, kind: 'Pronouns' };
+    if (entry.pronoun) return { label: `${entry.pronoun.de} → ${entry.pronoun.ending}`, kind: 'Endings' };
+    if (entry.suffix) return { label: `${entry.suffix} → ${renderAnswer(entry, entry.gender)}`, kind: 'Gender rule' };
+    if (entry.full_de) return { label: entry.full_de, kind: 'Worksheet' };
+    return { label: renderAnswer(entry, entry.german), kind: 'Vocab' };
+  }
   function renderStats() {
     const box = $('stats-table');
     const rows = Object.entries(stats)
@@ -443,12 +453,12 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     }
     const table = document.createElement('table');
     table.className = 'stats-table';
-    table.innerHTML = '<thead><tr><th>Word</th><th>Attempts</th><th>Errors</th></tr></thead>';
+    table.innerHTML = '<thead><tr><th>Question</th><th>Mode</th><th>Tries</th><th>Wrong</th></tr></thead>';
     const tb = document.createElement('tbody');
     for (const r of rows) {
+      const d = describe(r.entry);
       const tr = document.createElement('tr');
-      const label = r.entry.german ?? r.entry.full_de ?? r.entry.suffix ?? (r.entry.form ? `${r.entry.verb.german} · ${r.entry.pronoun.de}` : r.entry.pronoun?.de ?? r.entry.de ?? r.id);
-      tr.innerHTML = `<td lang="de">${renderAnswer(r.entry, label)}</td><td>${r.attempts}</td><td>${r.errors}</td>`;
+      tr.innerHTML = `<td lang="de">${d.label}</td><td class="muted">${d.kind}</td><td>${r.attempts}</td><td>${r.errors}</td>`;
       tb.append(tr);
     }
     table.append(tb);
@@ -535,5 +545,5 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   .stats summary { cursor: pointer; font-weight: 600; }
   .stats-table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
   .stats-table th, .stats-table td { text-align: left; padding: 0.3em 0.5em; border-bottom: 1px solid var(--border); }
-  .stats-table th:not(:first-child), .stats-table td:not(:first-child) { text-align: right; }
+  .stats-table th:nth-child(n+3), .stats-table td:nth-child(n+3) { text-align: right; }
 </style>
