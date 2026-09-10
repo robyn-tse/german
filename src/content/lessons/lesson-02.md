@@ -34,24 +34,65 @@ sources:
 
 The verb takes second position; the prefix goes to the **end** of the sentence. *Ich räume das Zimmer **auf**.*
 
+**Core prefixes**
+
 | Prefix | Verb | Example |
 |---|---|---|
-| ab- | abfahren | Ich fahre ab. |
-| an- | anfangen | Ich fange an. |
-| auf- | aufräumen | Ich räume auf. |
-| aus- | ausgehen | Ich gehe aus. |
-| bei- | beistehen | Ich stehe dir bei. |
-| ein- | einkaufen | Ich kaufe ein. |
-| mit- | mitkommen | Ich komme mit. |
-| nach- | nachfragen | Ich frage nach. |
-| vor- | vorstellen | Ich stelle mich vor. |
-| weg- | weggehen | Ich gehe weg. |
-| her- | herkommen | Komm her! |
-| hin- | hingehen | Ich gehe hin. |
-| hinein- | hineingehen | Ich gehe hinein. |
-| los- | losgehen | Wir gehen los. |
-| zu- | zumachen | Ich mache das Fenster zu. |
-| zurück- | zurückgeben | Ich gebe den Stift zurück. |
+| ab- | abfahren (to depart) | Ich fahre ab. |
+| an- | anfangen (to begin) | Ich fange an. |
+| auf- | aufräumen (to tidy up) | Ich räume auf. |
+| aus- | ausgehen (to go out) | Ich gehe aus. |
+| bei- | beistehen (to stand by) | Ich stehe dir bei. |
+| ein- | einkaufen (to shop) | Ich kaufe ein. |
+| mit- | mitkommen (to come along) | Ich komme mit. |
+| nach- | nachfragen (to ask again) | Ich frage nach. |
+| vor- | vorstellen (to introduce) | Ich stelle mich vor. |
+| weg- | weggehen (to go away) | Ich gehe weg. |
+| zu- | zumachen (to close) | Ich mache das Fenster zu. |
+| zurück- | zurückgeben (to give back) | Ich gebe den Stift zurück. |
+| los- | losgehen (to set off) | Wir gehen los. |
+
+**Direction: her- (toward the speaker) and hin- (away from the speaker)**
+
+| Prefix | Verb | Example |
+|---|---|---|
+| her- | herkommen (to come here) | Komm her! |
+| hin- | hingehen (to go there) | Ich gehe hin. |
+| herein- / hinein- | hereinkommen, hineingehen (to come in, to go in) | Kommen Sie herein! |
+| heraus- / hinaus- | herauskommen, hinausgehen (to come out, to go out) | Ich gehe hinaus. |
+| herauf- / hinauf- | heraufkommen, hinaufgehen (to come up, to go up) | Ich gehe hinauf. |
+| herunter- / hinunter- | herunterkommen, hinuntergehen (to come down, to go down) | Komm herunter! |
+| herüber- / hinüber- | herüberkommen, hinübergehen (to come over, to go over) | Ich gehe hinüber. |
+| vorbei- | vorbeigehen (to go past) | Ich gehe an der Schule vorbei. |
+
+**Prefixes that are whole words**
+
+| Prefix | Verb | Example |
+|---|---|---|
+| fern- | fernsehen (to watch TV) | Ich sehe fern. |
+| kennen- | kennenlernen (to get to know) | Ich lerne dich kennen. |
+| sauber- | saubermachen (to clean) | Ich mache die Tafel sauber. |
+| fest- | festhalten (to hold on) | Ich halte dich fest. |
+| fort- | fortgehen (to go away) | Ich gehe fort. |
+| heim- | heimkommen (to come home) | Ich komme heim. |
+| hoch- | hochgehen (to go up) | Ich gehe hoch. |
+| statt- | stattfinden (to take place) | Der Kurs findet statt. |
+| teil- | teilnehmen (to take part) | Ich nehme teil. |
+| weiter- | weitermachen (to carry on) | Ich mache weiter. |
+| wieder- | wiederkommen (to come back) | Ich komme wieder. |
+| zusammen- | zusammenarbeiten (to work together) | Wir arbeiten zusammen. |
+
+**Two-way prefixes: separable in some verbs, inseparable in others**
+
+| Prefix | Separable | Inseparable |
+|---|---|---|
+| um- | umsetzen: Ich setze das um. | umarmen: Ich umarme dich. |
+| über- | überlaufen: Der Topf läuft über. | übernehmen: Ich übernehme das. |
+| unter- | untergehen: Die Sonne geht unter. | unterrichten: Ich unterrichte Deutsch. |
+| durch- | durchfallen: Ich falle durch. | durchsuchen: Ich durchsuche die Tasche. |
+| wieder- | wiederkommen: Ich komme wieder. | wiederholen: Ich wiederhole das. |
+
+Rule of thumb: separable prefixes are stressed (**AUF**räumen, **FERN**sehen); inseparable ones are not (über**NEH**men).
 
 Word order:
 
