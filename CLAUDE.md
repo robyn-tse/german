@@ -297,6 +297,16 @@ spaced repetition; Anki owns scheduling.
 - `noindex` is set sitewide in `src/layouts/Base.astro`.
 - Do not build: dashboards, global search, interactive homework, audio, or any AI feature in the site.
 
+## Source-only content
+
+Everything on the lesson sheets and grammar pages comes from Markus's materials or from something
+Robyn sent (like the Das Akademie endings chart). **Do not add grammar from general knowledge**: no
+extra prefixes, no extra rules, no "rule of thumb", no exceptions or examples the sources do not
+contain, no stress or pronunciation notes. Explanations may be reworded and tabulated, English
+glosses and translations of source sentences are fine, and worksheet answer keys are worked out
+because that is the point of a worksheet. If something feels missing, say so in the report; do not
+fill the gap. (This rule was set on 2026-09-10 after supplementary prefixes had crept in.)
+
 ## What counts as vocab, and the essentials set
 
 Robyn is starting from zero and wants a **small, concentrated set** first, not hundreds of words.

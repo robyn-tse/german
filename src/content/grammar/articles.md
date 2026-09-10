@@ -15,7 +15,6 @@ lessons: [2]
 - **Plural is always die**: die Männer, die Frauen, die Häuser.
 - Introduce with **ein/eine**, refer back with **der/die/das**: *Da vorne ist **eine** Bäckerei. **Die** Bäckerei hat gute Brötchen.*
 - No indefinite article in the plural: *Da sind Kinder. **Die** Kinder spielen.*
-- A masculine **object** takes **einen**: *Er trinkt **einen** Saft.* (accusative, see *Declension*)
 
 ## Gender by ending
 
@@ -41,6 +40,6 @@ Learn every noun with its article. These endings tell you the article most of th
 |  | **-ade** die Parade |  |
 |  | **-enz** die Präsenz |  |
 
-**Ge-** at the start is usually **das** (das Gehölz, das Gemüse, das Geräusch, das Gebet). Watch the near-misses: **-ment** is das (das Dokument) although **-ent** is der (der Student); **-ist** is der but the female **-in** form is die (der Polizist, die Polizistin); and der Moment, die Firma, die Oma break their rules.
+**Ge-** at the start is usually **das** (das Gehölz, das Gemüse, das Geräusch, das Gebet). Watch the near-misses: **-ment** is das (das Dokument) although **-ent** is der (der Student); **-ist** is der but the female **-in** form is die (der Polizist, die Polizistin); and der Moment breaks its rule.
 
 These are tendencies, not laws: der Name, der Junge, das Auge all end in -e.

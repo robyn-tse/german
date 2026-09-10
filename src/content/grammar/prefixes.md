@@ -7,9 +7,7 @@ lessons: [2]
 
 ## Separable prefixes (trennbare Präfixe)
 
-The verb stays in second position; the prefix moves to the **end of the main clause**. The prefix carries the stress (**AB**fahren).
-
-**Core prefixes**
+The verb stays in second position; the prefix moves to the **end of the main clause**.
 
 | Prefix | Verb | Example |
 |---|---|---|
@@ -17,61 +15,27 @@ The verb stays in second position; the prefix moves to the **end of the main cla
 | an- | anfangen (to begin) | Ich fange an. |
 | auf- | aufräumen (to tidy up) | Ich räume auf. |
 | aus- | ausgehen (to go out) | Ich gehe aus. |
-| bei- | beistehen (to stand by) | Ich stehe dir bei. |
+| bei- | beistehen (to stand by) | Ich stehe bei. |
 | ein- | einkaufen (to shop) | Ich kaufe ein. |
 | mit- | mitkommen (to come along) | Ich komme mit. |
 | nach- | nachfragen (to ask again) | Ich frage nach. |
-| vor- | vorstellen (to introduce) | Ich stelle mich vor. |
+| vor- | vorstellen (to introduce) | Ich stelle vor. |
 | weg- | weggehen (to go away) | Ich gehe weg. |
-| zu- | zumachen (to close) | Ich mache das Fenster zu. |
-| zurück- | zurückgeben (to give back) | Ich gebe den Stift zurück. |
-| los- | losgehen (to set off) | Wir gehen los. |
-
-**Direction: her- (toward the speaker) and hin- (away from the speaker)**
-
-| Prefix | Verb | Example |
-|---|---|---|
-| her- | herkommen (to come here) | Komm her! |
-| hin- | hingehen (to go there) | Ich gehe hin. |
-| herein- / hinein- | hereinkommen, hineingehen (to come in, to go in) | Kommen Sie herein! |
-| heraus- / hinaus- | herauskommen, hinausgehen (to come out, to go out) | Ich gehe hinaus. |
-| herauf- / hinauf- | heraufkommen, hinaufgehen (to come up, to go up) | Ich gehe hinauf. |
-| herunter- / hinunter- | herunterkommen, hinuntergehen (to come down, to go down) | Komm herunter! |
-| herüber- / hinüber- | herüberkommen, hinübergehen (to come over, to go over) | Ich gehe hinüber. |
-| vorbei- | vorbeigehen (to go past) | Ich gehe an der Schule vorbei. |
-
-**Prefixes that are whole words**
-
-| Prefix | Verb | Example |
-|---|---|---|
-| fern- | fernsehen (to watch TV) | Ich sehe fern. |
-| kennen- | kennenlernen (to get to know) | Ich lerne dich kennen. |
-| sauber- | saubermachen (to clean) | Ich mache die Tafel sauber. |
-| fest- | festhalten (to hold on) | Ich halte dich fest. |
-| fort- | fortgehen (to go away) | Ich gehe fort. |
-| heim- | heimkommen (to come home) | Ich komme heim. |
-| hoch- | hochgehen (to go up) | Ich gehe hoch. |
-| statt- | stattfinden (to take place) | Der Kurs findet statt. |
-| teil- | teilnehmen (to take part) | Ich nehme teil. |
-| weiter- | weitermachen (to carry on) | Ich mache weiter. |
-| wieder- | wiederkommen (to come back) | Ich komme wieder. |
-| zusammen- | zusammenarbeiten (to work together) | Wir arbeiten zusammen. |
-
-**Two-way prefixes: separable in some verbs, inseparable in others**
-
-| Prefix | Separable | Inseparable |
-|---|---|---|
-| um- | umsetzen: Ich setze das um. | umarmen: Ich umarme dich. |
-| über- | überlaufen: Der Topf läuft über. | übernehmen: Ich übernehme das. |
-| unter- | untergehen: Die Sonne geht unter. | unterrichten: Ich unterrichte Deutsch. |
-| durch- | durchfallen: Ich falle durch. | durchsuchen: Ich durchsuche die Tasche. |
-| wieder- | wiederkommen: Ich komme wieder. | wiederholen: Ich wiederhole das. |
-
-Rule of thumb: separable prefixes are stressed (**AUF**räumen, **FERN**sehen); inseparable ones are not (über**NEH**men).
+| her- | herkommen (to come here) | Komm her, ich muss dir etwas zeigen! |
+| hin- | hinbringen (to bring there) | Ahmad bringt den Kuchen morgen hin. |
+| hinein- | hineingehen (to go in) | Möchtest du hineingehen oder lieber draußen sitzen? |
+| los- | losgehen (to set off) | Wir werden um 20 Uhr losgehen, kommst du mit? |
+| zu- | zumachen (to close) | Machst du bitte das Fenster zu? Mir ist kalt! |
+| zurück- | zurückgeben (to give back) | Kannst du mir bitte meinen Stift zurückgeben? |
+| um- | umsetzen (to implement) | Nach dem Closing setzen die Teams die Integrationsstrategie um. |
+| fern- | fernsehen (to watch TV) | Am Abend sehen wir oft fern. |
+| kennen- | kennenlernen (to get to know) | Wir lernen heute neue Wörter kennen. |
+| sauber- | saubermachen (to clean) | Der Lehrer macht die Tafel sauber. |
+| vorbei- | vorbeigehen (to go past) | |
 
 ## Inseparable prefixes (untrennbare Präfixe)
 
-These stay welded to the stem in every position and are never stressed (be**SU**chen).
+These stay welded to the stem in every position.
 
 | Prefix | Verb | Example |
 |---|---|---|
@@ -85,8 +49,6 @@ These stay welded to the stem in every position and are never stressed (be**SU**
 | zer- | zerstören | Ich zerstöre das. |
 
 ## What the prefixes mean
-
-Separable prefixes carry the stress (**AB**fahren) and usually keep a direction-like meaning.
 
 | Prefix | Meaning | Example verbs | Example |
 |---|---|---|---|
@@ -105,8 +67,6 @@ Separable prefixes carry the stress (**AB**fahren) and usually keep a direction-
 | weg- | away | wegbringen, wegfahren, weggeben, wegwerfen, wegschmeißen, weggehen | Kannst du bitte den schimmeligen Apfel wegschmeißen? |
 | zu- | closing; toward a goal | zudecken, zudrehen, zusenden, zuwerfen, zumachen | Machst du bitte das Fenster zu? Mir ist kalt! |
 | zurück- | back | zurückkehren, zurückgeben, zurückfahren | Kannst du mir bitte meinen Stift zurückgeben? |
-
-Inseparable prefixes are unstressed and their meaning is more abstract.
 
 | Prefix | Meaning | Example verbs | Example |
 |---|---|---|---|

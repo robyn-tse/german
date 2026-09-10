@@ -34,65 +34,29 @@ sources:
 
 The verb takes second position; the prefix goes to the **end** of the sentence. *Ich räume das Zimmer **auf**.*
 
-**Core prefixes**
-
 | Prefix | Verb | Example |
 |---|---|---|
 | ab- | abfahren (to depart) | Ich fahre ab. |
 | an- | anfangen (to begin) | Ich fange an. |
 | auf- | aufräumen (to tidy up) | Ich räume auf. |
 | aus- | ausgehen (to go out) | Ich gehe aus. |
-| bei- | beistehen (to stand by) | Ich stehe dir bei. |
+| bei- | beistehen (to stand by) | Ich stehe bei. |
 | ein- | einkaufen (to shop) | Ich kaufe ein. |
 | mit- | mitkommen (to come along) | Ich komme mit. |
 | nach- | nachfragen (to ask again) | Ich frage nach. |
-| vor- | vorstellen (to introduce) | Ich stelle mich vor. |
+| vor- | vorstellen (to introduce) | Ich stelle vor. |
 | weg- | weggehen (to go away) | Ich gehe weg. |
-| zu- | zumachen (to close) | Ich mache das Fenster zu. |
-| zurück- | zurückgeben (to give back) | Ich gebe den Stift zurück. |
-| los- | losgehen (to set off) | Wir gehen los. |
-
-**Direction: her- (toward the speaker) and hin- (away from the speaker)**
-
-| Prefix | Verb | Example |
-|---|---|---|
-| her- | herkommen (to come here) | Komm her! |
-| hin- | hingehen (to go there) | Ich gehe hin. |
-| herein- / hinein- | hereinkommen, hineingehen (to come in, to go in) | Kommen Sie herein! |
-| heraus- / hinaus- | herauskommen, hinausgehen (to come out, to go out) | Ich gehe hinaus. |
-| herauf- / hinauf- | heraufkommen, hinaufgehen (to come up, to go up) | Ich gehe hinauf. |
-| herunter- / hinunter- | herunterkommen, hinuntergehen (to come down, to go down) | Komm herunter! |
-| herüber- / hinüber- | herüberkommen, hinübergehen (to come over, to go over) | Ich gehe hinüber. |
-| vorbei- | vorbeigehen (to go past) | Ich gehe an der Schule vorbei. |
-
-**Prefixes that are whole words**
-
-| Prefix | Verb | Example |
-|---|---|---|
-| fern- | fernsehen (to watch TV) | Ich sehe fern. |
-| kennen- | kennenlernen (to get to know) | Ich lerne dich kennen. |
-| sauber- | saubermachen (to clean) | Ich mache die Tafel sauber. |
-| fest- | festhalten (to hold on) | Ich halte dich fest. |
-| fort- | fortgehen (to go away) | Ich gehe fort. |
-| heim- | heimkommen (to come home) | Ich komme heim. |
-| hoch- | hochgehen (to go up) | Ich gehe hoch. |
-| statt- | stattfinden (to take place) | Der Kurs findet statt. |
-| teil- | teilnehmen (to take part) | Ich nehme teil. |
-| weiter- | weitermachen (to carry on) | Ich mache weiter. |
-| wieder- | wiederkommen (to come back) | Ich komme wieder. |
-| zusammen- | zusammenarbeiten (to work together) | Wir arbeiten zusammen. |
-
-**Two-way prefixes: separable in some verbs, inseparable in others**
-
-| Prefix | Separable | Inseparable |
-|---|---|---|
-| um- | umsetzen: Ich setze das um. | umarmen: Ich umarme dich. |
-| über- | überlaufen: Der Topf läuft über. | übernehmen: Ich übernehme das. |
-| unter- | untergehen: Die Sonne geht unter. | unterrichten: Ich unterrichte Deutsch. |
-| durch- | durchfallen: Ich falle durch. | durchsuchen: Ich durchsuche die Tasche. |
-| wieder- | wiederkommen: Ich komme wieder. | wiederholen: Ich wiederhole das. |
-
-Rule of thumb: separable prefixes are stressed (**AUF**räumen, **FERN**sehen); inseparable ones are not (über**NEH**men).
+| her- | herkommen (to come here) | Komm her, ich muss dir etwas zeigen! |
+| hin- | hinbringen (to bring there) | Ahmad bringt den Kuchen morgen hin. |
+| hinein- | hineingehen (to go in) | Möchtest du hineingehen oder lieber draußen sitzen? |
+| los- | losgehen (to set off) | Wir werden um 20 Uhr losgehen, kommst du mit? |
+| zu- | zumachen (to close) | Machst du bitte das Fenster zu? Mir ist kalt! |
+| zurück- | zurückgeben (to give back) | Kannst du mir bitte meinen Stift zurückgeben? |
+| um- | umsetzen (to implement) | Nach dem Closing setzen die Teams die Integrationsstrategie um. |
+| fern- | fernsehen (to watch TV) | Am Abend sehen wir oft fern. |
+| kennen- | kennenlernen (to get to know) | Wir lernen heute neue Wörter kennen. |
+| sauber- | saubermachen (to clean) | Der Lehrer macht die Tafel sauber. |
+| vorbei- | vorbeigehen (to go past) | |
 
 Word order:
 
@@ -104,7 +68,7 @@ Word order:
 
 ## Inseparable prefixes
 
-Never split, never stressed. *Ich **be**suche dich.* (not *Ich suche be…*)
+Never split. *Ich **be**suche dich.* (not *Ich suche be…*)
 
 | Prefix | Verb | Example |
 |---|---|---|
@@ -135,7 +99,6 @@ Never split, never stressed. *Ich **be**suche dich.* (not *Ich suche be…*)
 - Plural is always **die**: die Männer, die Frauen, die Häuser.
 - Introduce with **ein/eine**, refer back with **der/die/das**: *Da vorne ist **eine** Bäckerei. **Die** Bäckerei hat gute Brötchen.*
 - No indefinite article in the plural: *Da sind Kinder. **Die** Kinder spielen.*
-- A masculine **object** takes **einen**: *Er trinkt **einen** Saft.*
 
 ## Gender by ending
 
@@ -174,8 +137,6 @@ The ending tells you the article most of the time. Plural is always **die**.
 | our | wir | unser | unsere | unser | unsere |
 | your (you all) | ihr | euer | eure | euer | eure |
 | their / your (formal) | sie / Sie | ihr / Ihr | ihre / Ihre | ihr / Ihr | ihre / Ihre |
-
-The ending follows the noun's gender: mein Vater, mein**e** Mutter, mein Kind, mein**e** Eltern.
 
 ## Materials
 

@@ -558,7 +558,7 @@
     "tags": [
       "genus"
     ],
-    "notes": "Exceptions: die Firma, die Oma.",
+    "notes": null,
     "weak": false
   },
   {
@@ -567,8 +567,7 @@
     "gender": "das",
     "examples": [
       "das System",
-      "das Tandem",
-      "das Problem"
+      "das Tandem"
     ],
     "lesson": 2,
     "tags": [
