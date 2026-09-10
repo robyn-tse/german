@@ -52,11 +52,15 @@ const ARTICLE_NOTE = {
 export const PRONOUNS = [
   { key: 'ich', de: 'ich', en: 'I', ending: '-e' },
   { key: 'du', de: 'du', en: 'you', ending: '-st' },
-  { key: 'er', de: 'er / sie / es', en: 'he / she / it', ending: '-t' },
+  { key: 'er', de: 'er', en: 'he', ending: '-t' },
+  { key: 'er', de: 'sie', en: 'she', ending: '-t' },
+  { key: 'er', de: 'es', en: 'it', ending: '-t' },
   { key: 'wir', de: 'wir', en: 'we', ending: '-en' },
   { key: 'ihr', de: 'ihr', en: 'you all', ending: '-t' },
-  { key: 'sie', de: 'sie / Sie', en: 'they / you (formal)', ending: '-en' },
+  { key: 'sie', de: 'sie', en: 'they', ending: '-en' },
+  { key: 'sie', de: 'Sie', en: 'you (formal)', ending: '-en' },
 ];
+const FORM_KEYS = ['ich', 'du', 'er', 'wir', 'ihr', 'sie'];
 const ENDINGS = ['-e', '-st', '-t', '-en'];
 
 // A weak verb whose stem takes the endings with no spelling change.
@@ -68,7 +72,7 @@ function regularStem(e) {
   return stem;
 }
 function presentOf(e) {
-  if (e.verb?.present && PRONOUNS.every((p) => e.verb.present[p.key])) return e.verb.present;
+  if (e.verb?.present && FORM_KEYS.every((k) => e.verb.present[k])) return e.verb.present;
   const stem = regularStem(e);
   if (!stem) return null;
   return { ich: stem + 'e', du: stem + 'st', er: stem + 't', wir: stem + 'en', ihr: stem + 't', sie: stem + 'en' };
@@ -82,7 +86,7 @@ export function conjugationItems(vocab) {
     if (!forms) continue;
     for (const p of PRONOUNS) {
       out.push({
-        id: `${e.id}:${p.key}`, lesson: e.lesson, tags: e.tags,
+        id: `${e.id}:${p.de}`, lesson: e.lesson, tags: e.tags,
         verb: e, pronoun: p, form: forms[p.key], forms,
       });
     }
@@ -99,9 +103,9 @@ export function pronounItems() {
 }
 /** one item per pronoun for the Endings mode */
 export function endingItems() {
-  return PRONOUNS.map((p) => ({ id: `ending:${p.key}`, lesson: 2, tags: ['essentials'], pronoun: p }));
+  return PRONOUNS.map((p) => ({ id: `ending:${p.de}`, lesson: 2, tags: ['essentials'], pronoun: p }));
 }
-const paradigm = (forms) => PRONOUNS.map((p) => `${p.de.split(' ')[0]} ${forms[p.key]}`).join(' · ');
+const paradigm = (forms) => `ich ${forms.ich} · du ${forms.du} · er/sie/es ${forms.er} · wir ${forms.wir} · ihr ${forms.ihr} · sie/Sie ${forms.sie}`;
 
 export const modes = [
   // ---- Basics ---------------------------------------------------------------
@@ -138,14 +142,12 @@ export const modes = [
     filter: () => true,
     prompt: (it) => `${it.verb.german} (${it.verb.english})`,
     subprompt: (it) => it.pronoun.en,
-    answer: (it) => `${it.pronoun.de.split(' ')[0]} ${it.form}`,
+    answer: (it) => `${it.pronoun.de} ${it.form}`,
     input: 'typed',
-    accept: (it) => {
-      const subjects = it.pronoun.de.split(' / ');
-      const out = subjects.map((sub) => ({ text: `${sub} ${it.form}`, note: null }));
-      out.push({ text: it.form, note: `Say the pronoun too: ${subjects[0]} ${it.form}` });
-      return out;
-    },
+    accept: (it) => [
+      { text: `${it.pronoun.de} ${it.form}`, note: null },
+      { text: it.form, note: `Say the pronoun too: ${it.pronoun.de} ${it.form}` },
+    ],
     reveal: (it) => paradigm(it.forms),
   },
 

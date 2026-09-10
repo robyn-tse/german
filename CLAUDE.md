@@ -277,7 +277,10 @@ stored present table), DE→EN, EN→DE, Gender rule, Gender, Prefix, Partizip I
 (worksheet gap-fill), der/die/das im Satz, ein/eine/einen. Derived sets (`conjugation`,
 `endings`) are built in `quiz-modes.js` from vocab and passed to modes via `ctx`. Every mode can be run in two
 **styles**: quiz (typed or choice, checked automatically) or flashcards (flip, then self-rate Again /
-Got it). Both feed the same per-word stats; flashcards need nothing extra from a mode. Sketches for plural,
+Got it). Both feed the same per-word stats; flashcards need nothing extra from a mode. In quiz style a wrong answer
+gates the Next button until the correct answer is typed (or the right option picked); the summary
+offers "Retry the ones I got wrong". Conjugate and Endings use nine persons (er, sie, es and sie,
+Sie are separate questions). Sketches for plural,
 Partizip II, present-tense and case modes are commented at the bottom of that file. Typed answers go
 through `src/lib/compare.js` (case-insensitive, trimmed, umlaut/ß tolerant but flagged). Do not add
 spaced repetition; Anki owns scheduling.

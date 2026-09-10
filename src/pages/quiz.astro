@@ -96,6 +96,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
       <p class="expected" id="expected"></p>
       <ul class="notes small" id="notes"></ul>
       <p class="reveal small muted" id="reveal"></p>
+      <div id="correction" class="correction" hidden></div>
       <button type="button" class="btn btn-primary" id="next">Next</button>
     </div>
     <p class="small"><button type="button" class="linkish" id="quit">End session</button></p>
@@ -107,7 +108,8 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     <p class="score" id="score"></p>
     <div id="missed"></div>
     <p>
-      <button type="button" class="btn btn-primary" id="again">Same again</button>
+      <button type="button" class="btn btn-primary" id="retry" hidden>Retry the ones I got wrong</button>
+      <button type="button" class="btn" id="again">Same again</button>
       <button type="button" class="btn" id="back">Change setup</button>
     </p>
   </section>
@@ -208,12 +210,12 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     return a;
   }
 
-  function start() {
+  function start(queue?: Entry[]) {
     const cfg = readConfig();
     const mode = getMode(cfg.mode)!;
-    const pool = poolFor(cfg);
+    const pool = queue ?? poolFor(cfg);
     if (!pool.length) return;
-    session = { mode, style: cfg.style, queue: shuffle(pool).slice(0, cfg.length), index: 0, results: [] };
+    session = { mode, style: cfg.style, queue: queue ? shuffle(queue) : shuffle(pool).slice(0, cfg.length), index: 0, results: [] };
     setup.hidden = true;
     summary.hidden = true;
     play.hidden = false;
@@ -330,7 +332,73 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
       $('reveal').textContent += `${reveal ? ' · ' : ''}${s.errors}/${s.attempts} wrong on this device`;
       $('reveal').hidden = false;
     }
-    $('next').focus();
+    const next = $('next') as HTMLButtonElement;
+    const correction = $('correction');
+    correction.innerHTML = '';
+    correction.hidden = true;
+    if (result.correct) {
+      next.disabled = false;
+      next.focus();
+      return;
+    }
+    // Wrong: the correct answer has to be produced before moving on.
+    next.disabled = true;
+    correction.hidden = false;
+    const unlock = () => {
+      correction.innerHTML = '<p class="small ok-text">Right. Carry on.</p>';
+      next.disabled = false;
+      next.focus();
+    };
+    if (mode.input === 'typed') {
+      const candidates = mode.accept ? mode.accept(entry, ctx) : [{ text: expected, note: null }];
+      const label = document.createElement('label');
+      label.className = 'small';
+      label.textContent = 'Type the correct answer to continue';
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.autocomplete = 'off';
+      input.autocapitalize = 'off';
+      input.spellcheck = false;
+      input.setAttribute('aria-label', 'Type the correct answer to continue');
+      const msg = document.createElement('p');
+      msg.className = 'small bad-text';
+      const check = () => {
+        if (compareTyped(input.value, candidates).correct) unlock();
+        else { msg.textContent = 'Not yet — copy it exactly: ' + expected; input.select(); }
+      };
+      input.addEventListener('keydown', (ev) => {
+        if (ev.key === 'Enter') { ev.preventDefault(); ev.stopPropagation(); check(); }
+      });
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'btn';
+      btn.textContent = 'Check';
+      btn.addEventListener('click', check);
+      const row = document.createElement('div');
+      row.className = 'row-inline';
+      row.append(input, btn);
+      correction.append(label, row, msg);
+      input.focus();
+    } else {
+      const label = document.createElement('p');
+      label.className = 'small';
+      label.textContent = 'Pick the correct answer to continue';
+      const row = document.createElement('div');
+      row.className = 'row-inline';
+      for (const opt of mode.input.options) {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = `btn choice choice-${opt}`;
+        b.textContent = opt;
+        b.addEventListener('click', () => {
+          if (compareChoice(opt, expected).correct) unlock();
+          else b.classList.add('shake');
+        });
+        row.append(b);
+      }
+      correction.append(label, row);
+      (row.querySelector('button') as HTMLButtonElement).focus();
+    }
   }
 
   function renderAnswer(entry: Entry, expected: string) {
@@ -383,8 +451,10 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   // focused Next button's native activation, so a single keypress = one click.
   document.addEventListener('keydown', (ev) => {
     if (session?.style !== 'cards' && ev.key === 'Enter' && !feedback.hidden && !play.hidden) {
+      if (ev.target instanceof HTMLInputElement) return; // the correction field handles its own Enter
       ev.preventDefault();
-      ($('next') as HTMLButtonElement).click();
+      const next = $('next') as HTMLButtonElement;
+      if (!next.disabled) next.click();
     }
   });
   $('quit').addEventListener('click', finish);
@@ -400,6 +470,10 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
       ? `${right} / ${results.length} ${session.style === 'cards' ? 'got it' : 'correct'} · ${mode.label}`
       : 'No answers given.';
     const missed = results.filter((r) => !r.correct);
+    const retry = $('retry') as HTMLButtonElement;
+    retry.hidden = missed.length === 0;
+    retry.textContent = `Retry the ${missed.length} I got wrong`;
+    retry.onclick = () => start(missed.map((r) => r.entry));
     const box = $('missed');
     box.innerHTML = '';
     if (missed.length) {
@@ -418,7 +492,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     renderStats();
   }
 
-  $('again').addEventListener('click', start);
+  $('again').addEventListener('click', () => start());
   $('back').addEventListener('click', () => {
     summary.hidden = true;
     setup.hidden = false;
@@ -537,6 +611,14 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   .notes { margin: 0 0 0.5rem; padding-left: 1.2em; }
   .notes:empty { display: none; }
   .linkish { all: unset; cursor: pointer; color: var(--accent); text-decoration: underline; }
+  .correction { margin: 0.75rem 0; padding-top: 0.75rem; border-top: 1px dashed var(--border); display: grid; gap: 0.4rem; }
+  .correction input { flex: 1 1 12rem; font-size: 1.05rem; padding: 0.5em 0.7em; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+  .row-inline { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .ok-text { color: var(--ok); margin: 0; }
+  .bad-text { color: var(--bad); margin: 0; }
+  .bad-text:empty { display: none; }
+  .shake { border-color: var(--bad); }
+  #next:disabled { opacity: 0.4; }
 
   .summary { max-width: 40rem; }
   .score { font-size: 1.3rem; font-weight: 600; }
