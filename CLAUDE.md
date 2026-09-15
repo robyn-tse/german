@@ -50,6 +50,10 @@ python3 -m venv .venv && .venv/bin/pip install striprtf
 Do this identically every time. Robyn says "process the inbox" (or similar) and you run the whole
 thing end to end.
 
+0. **Notes pasted into the chat count as a source.** Save them verbatim as
+   `inbox/archive/lesson-NN/LessonNN_Notes.txt` (and a copy in `public/sources/lesson-NN/`), list
+   the file in `sources`, and treat it like any other material. Files may follow later; add them
+   to the same lesson when they do.
 1. **Read everything in `inbox/`** (ignore `inbox/README.md` and `inbox/archive/`). Note the file
    names; they go into the lesson's `sources`.
 2. **Convert.** `.rtf` → `rtf_to_text`. `.rtfd` is a ZIP bundle / directory: unzip if needed, read

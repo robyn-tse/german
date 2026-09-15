@@ -1,8 +1,8 @@
 ---
 title: Articles (der, die, das)
 order: 1
-last_updated_lesson: 2
-lessons: [2]
+last_updated_lesson: 4
+lessons: [2, 4]
 ---
 
 ## The three articles
@@ -15,6 +15,16 @@ lessons: [2]
 - **Plural is always die**: die Männer, die Frauen, die Häuser.
 - Introduce with **ein/eine**, refer back with **der/die/das**: *Da vorne ist **eine** Bäckerei. **Die** Bäckerei hat gute Brötchen.*
 - No indefinite article in the plural: *Da sind Kinder. **Die** Kinder spielen.*
+
+## Negative and possessive articles (lesson 4)
+
+| | masculine | feminine | neuter | plural |
+|---|---|---|---|---|
+| negative (negativ) | kein | keine | kein | keine |
+
+- **ein** has no plural because it means *one*.
+- **kein** is just a *k* in front of *ein*: kein Mann, keine Frau, kein Haus.
+- The possessives **mein, dein, sein, ihr, unser, euer, Ihr** take the same endings as *ein*.
 
 ## Gender by ending
 

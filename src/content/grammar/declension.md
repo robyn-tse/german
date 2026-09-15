@@ -1,8 +1,8 @@
 ---
 title: Declension (cases)
 order: 5
-last_updated_lesson: 3
-lessons: [3]
+last_updated_lesson: 4
+lessons: [3, 4]
 ---
 
 ## The four cases
@@ -26,3 +26,10 @@ Verbs with the dative: **helfen, danken, folgen, vertrauen, antworten, gehören,
 ## Akkusativ
 
 *Ich sehe **den** Mann. Sie kauft **die** Tasche. Er liest **das** Buch. Ich kaufe **einen** Regenschirm. Sie braucht **eine** Einladung.* *Wir sammeln Informationen.*
+
+## Which case? (lesson 4)
+
+- The subject is always Nominativ; only one Nominativ per sentence. Objects take Akkusativ, Dativ or Genitiv; only one Dativ after a verb.
+- **The verb decides the case**, not the word order. 37 dative verbs to memorize (geben, schenken, erklären, kaufen, bringen, schicken, leihen, …); any other verb takes Akkusativ. About 80 % of cases are Akkusativ, so default to Akkusativ when unsure.
+- Pattern with a dative verb: subject + verb + dative object + accusative object. *Ich gebe dem Mann das Buch. Wir kaufen dem Lehrer ein Geschenk.*
+- Genitiv always signals possession: *das Auto des Bruders*. Indefinite: eines (m), einer (f), eines (n).

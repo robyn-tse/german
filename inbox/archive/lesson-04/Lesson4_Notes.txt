@@ -1,0 +1,58 @@
+German Cases Overview
+
+* Four cases: Nominativ, Genitiv, Dativ, Akkusativ
+* Subject is always Nominativ; objects take Genitiv, Dativ, or Akkusativ
+* Only one Nominativ per sentence (the subject)
+* Multiple objects possible, but only one Dativ after a verb (unless repeated with commas)
+
+German Sentence Structure: The Golden Position
+
+* Verb always sits in the second position, no exceptions
+* Subject and object can be swapped freely around the verb
+   * "Der Hund fängt den Ball" = "Den Ball fängt der Hund" (both correct)
+   * In English this would change meaning; in German the case articles clarify who does what
+* Three required parts: subject, verb, object
+
+Articles: Bestimmt, Unbestimmt, Negativ, Possessiv
+
+* Definite (bestimmter Artikel): der (m), die (f), das (n), die (pl)
+* Indefinite (unbestimmter Artikel): ein (m), eine (f), ein (n), no plural form
+   * No plural for "ein" because "ein" means one
+* Negation (negativer Artikel): kein is just a K in front of ein
+   * kein (m/n), keine (f/pl)
+   * e.g. kein Mann, keine Frau, kein Haus
+* Possessive follows the same endings as the indefinite article (mein, dein, sein, ihr, unser, euer, Ihr)
+
+Dativ vs. Akkusativ
+
+* The verb decides the case, not word order
+* 37 key dative verbs to memorize (geben, schenken, erklären, kaufen, bringen, schicken, leihen, etc.)
+   * If a verb is not on the dative list, it takes Akkusativ
+   * 80% of all German cases are Akkusativ; default to Akkusativ when unsure
+* Dativ articles: dem (m), der (f), dem (n), den (pl)
+* Akkusativ articles: den (m), die (f), das (n), die (pl)
+   * Only masculine changes from Nominativ to Akkusativ (der becomes den)
+* Sentence pattern with dative verb: subject + verb + dative object + accusative object
+   * e.g. "Ich gebe dem Mann das Buch" (I give the man the book)
+   * e.g. "Wir kaufen dem Lehrer ein Geschenk" (We buy the teacher a present)
+
+Genitiv
+
+* Always signals possession ("of somebody/something")
+   * e.g. "Das Auto des Bruders" (the brother's car)
+   * Easy to spot by context; no confusion with Dativ/Akkusativ
+* Genitiv articles: des (m), der (f), des (n), der (pl)
+* Genitive male and neuter: add an S (or ES) to the end of the noun
+   * e.g. des Mannes, des Hauses, des Autos
+   * Female and plural: no ending added to the noun
+* Defined: des/der/des; Undefined: eines (m), einer (f), eines (n)
+
+Homework and Next Steps
+
+* Dativ/Akkusativ exercise file sent as homework; fill in the gaps
+* Marcus will add noun genders to the exercise file before sending
+* Next session: prepositions (each requires a specific case)
+* Keep all four case cheat sheets open during every lesson
+
+* Complete Dativ/Akkusativ exercise file (Robyn): Marcus will send the file with noun genders added today; fill in the gaps before Thursday's session.
+* Memorize the 37 dative verbs: Knowing 20 of the 37 is already solid; these are the key to avoiding Dativ/Akkusativ errors.

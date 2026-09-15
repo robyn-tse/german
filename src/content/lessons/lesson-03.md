@@ -5,11 +5,11 @@ title: The four cases
 topics: [declension]
 homework:
   - text: "100 schwache Verben: conjugate the verb in each sentence"
-    done: false
+    done: true
     source: 100schwache_Verben_A1_A2.rtf
     sets: [schwach-praesens]
   - text: "Dativ und Akkusativ: fill in the article"
-    done: false
+    done: true
     source: DATIV_AKK_Uebungen.rtf
     sets: [dativ-objekt, dativ-verben, akkusativ-bestimmt, akkusativ-unbestimmt]
 sources:
