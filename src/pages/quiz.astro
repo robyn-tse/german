@@ -12,7 +12,7 @@ const minLesson = lessons[0] ?? 1;
 const maxLesson = lessons[lessons.length - 1] ?? 1;
 ---
 <Base title="Quiz">
-  <h1>Quiz</h1>
+  <h1 id="title">Quiz</h1>
 
   <p class="sheet-banner card" id="sheet-banner" hidden></p>
 
@@ -113,6 +113,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
       <button type="button" class="btn btn-primary" id="retry" hidden>Retry the ones I got wrong</button>
       <button type="button" class="btn" id="again">Same again</button>
       <button type="button" class="btn" id="back">Change setup</button>
+      <a class="btn" id="back-lesson" hidden>Back to the lesson</a>
     </p>
   </section>
 
@@ -197,11 +198,19 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     if (radio) radio.checked = true;
   }
   if (sheet) {
+    // Homework sheet: no setup page. Title it, size it to the whole block, and start straight away (below).
+    const params = new URLSearchParams(location.search);
     const n = poolFor(readConfig()).length;
-    const banner = $('sheet-banner');
-    banner.hidden = false;
-    banner.textContent = `Worksheet mode: all ${n} sentences of this block, in order, graded as you go. Lower the number of questions for a shorter run.`;
     (setup.querySelector('input[name=length]') as HTMLInputElement).value = String(n);
+    $('title').textContent = params.get('title') ? `Homework: ${params.get('title')}` : 'Homework';
+    setup.hidden = true;
+    const back = params.get('back');
+    if (back) {
+      const a = $('back-lesson') as HTMLAnchorElement;
+      a.href = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${back.replace(/^\//, '')}`;
+      a.hidden = false;
+    }
+    $('back').hidden = true;
   }
   setup.addEventListener('input', updatePoolInfo);
   updatePoolInfo();
@@ -508,7 +517,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   $('again').addEventListener('click', () => start());
   $('back').addEventListener('click', () => {
     summary.hidden = true;
-    setup.hidden = false;
+    setup.hidden = !!sheet;
     session = null;
     updatePoolInfo();
   });
@@ -560,6 +569,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     renderStats();
   });
   renderStats();
+  if (sheet) start();
 </script>
 
 <style>

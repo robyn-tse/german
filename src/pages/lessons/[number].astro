@@ -107,7 +107,7 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
                   {setsOf.map((s) => (
                     <li>
                       <span>{s.label} <span class="muted small">({s.count})</span></span>
-                      {s.mode && <a class="btn btn-primary small" href={url('/quiz/') + `?mode=${s.mode}&sheet=${s.set}`}>Do the sheet</a>}
+                      {s.mode && <a class="btn btn-primary small" href={url('/quiz/') + `?mode=${s.mode}&sheet=${s.set}&title=${encodeURIComponent(s.label)}&back=lessons/${lesson.data.number}/`}>Do the sheet</a>}
                     </li>
                   ))}
                 </ul>
@@ -159,7 +159,7 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
             {s.mode && (
               <span class="set-links">
                 <a class="btn" href={url('/quiz/') + `?mode=${s.mode}`}>Drill</a>
-                <a class="btn btn-primary" href={url('/quiz/') + `?mode=${s.mode}&sheet=${s.set}`}>Do the sheet</a>
+                <a class="btn btn-primary" href={url('/quiz/') + `?mode=${s.mode}&sheet=${s.set}&title=${encodeURIComponent(s.label)}&back=lessons/${lesson.data.number}/`}>Do the sheet</a>
               </span>
             )}
           </li>
