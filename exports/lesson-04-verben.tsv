@@ -1,0 +1,32 @@
+#separator:tab
+#html:false
+#columns:Front	Back	Tags
+antworten	to answer	lesson4::verben lesson4::essentials
+begegnen	to meet / to encounter	lesson4::verben lesson4::essentials lesson4::untrennbar
+danken	to thank	lesson4::verben lesson4::essentials
+dienen	to serve	lesson4::verben lesson4::essentials
+drohen	to threaten	lesson4::verben lesson4::essentials
+einfallen	to occur to / to come to mind	lesson4::verben lesson4::essentials lesson4::trennbar
+entgegenkommen	to come toward / to accommodate	lesson4::verben lesson4::essentials lesson4::trennbar
+fehlen	to be missing / to lack	lesson4::verben lesson4::essentials
+folgen	to follow	lesson4::verben lesson4::essentials
+gefallen	to please / to appeal to / to like	lesson4::verben lesson4::essentials lesson4::untrennbar
+gehören	to belong to	lesson4::verben lesson4::essentials lesson4::untrennbar
+gelingen	to succeed	lesson4::verben lesson4::essentials lesson4::untrennbar
+genügen	to be enough	lesson4::verben lesson4::essentials lesson4::untrennbar
+glauben	to believe	lesson4::verben lesson4::essentials
+gratulieren	to congratulate	lesson4::verben lesson4::essentials
+misslingen	to fail / to be unsuccessful	lesson4::verben lesson4::essentials lesson4::untrennbar
+passieren	to happen	lesson4::verben lesson4::essentials
+raten	to guess / to advise	lesson4::verben lesson4::essentials
+schaden	to harm / to damage	lesson4::verben lesson4::essentials
+schmecken	to taste good	lesson4::verben lesson4::essentials
+schenken	to give a present	lesson4::verben lesson4::essentials
+schicken	to send	lesson4::verben lesson4::essentials
+verzeihen	to forgive	lesson4::verben lesson4::essentials lesson4::untrennbar
+vertrauen	to trust	lesson4::verben lesson4::essentials lesson4::untrennbar
+wehtun	to hurt	lesson4::verben lesson4::essentials lesson4::trennbar
+widersprechen	to contradict	lesson4::verben lesson4::essentials lesson4::untrennbar
+wünschen	to wish	lesson4::verben lesson4::essentials
+zuhören	to listen to	lesson4::verben lesson4::essentials lesson4::trennbar
+zustimmen	to agree with	lesson4::verben lesson4::essentials lesson4::trennbar

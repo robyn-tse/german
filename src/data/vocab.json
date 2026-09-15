@@ -6181,13 +6181,14 @@
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": null,
+    "example_de": "Ich gebe Geld dem Mann.",
     "example_en": null,
     "lesson": 2,
     "tags": [
       "essentials",
       "wortliste",
-      "untrennbar"
+      "untrennbar",
+      "dativverb"
     ],
     "notes": null,
     "verb": {
@@ -6764,12 +6765,13 @@
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": null,
+    "example_de": "Ich schreibe dir einen Brief.",
     "example_en": null,
     "lesson": 2,
     "tags": [
       "essentials",
-      "wortliste"
+      "wortliste",
+      "dativverb"
     ],
     "notes": null,
     "verb": {
@@ -6908,12 +6910,13 @@
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": null,
+    "example_de": "Wir helfen der (die) Gesellschaft.",
     "example_en": null,
     "lesson": 2,
     "tags": [
       "essentials",
-      "wortliste"
+      "wortliste",
+      "dativverb"
     ],
     "notes": null,
     "verb": {
@@ -7054,13 +7057,14 @@
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": null,
+    "example_de": "Ich erkläre der Frau (Dat) das Spiel (Akk).",
     "example_en": null,
     "lesson": 2,
     "tags": [
       "essentials",
       "wortliste",
-      "untrennbar"
+      "untrennbar",
+      "dativverb"
     ],
     "notes": null,
     "verb": {
@@ -7148,16 +7152,17 @@
   {
     "id": "passen",
     "german": "passen",
-    "english": "to fit",
+    "english": "to fit / to suit",
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": null,
+    "example_de": "Die Hosen passen mir.",
     "example_en": null,
     "lesson": 2,
     "tags": [
       "essentials",
-      "wortliste"
+      "wortliste",
+      "dativverb"
     ],
     "notes": null,
     "verb": {
@@ -8720,5 +8725,715 @@
     ],
     "notes": null,
     "verb": null
+  },
+  {
+    "id": "antworten",
+    "german": "antworten",
+    "english": "to answer",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich antworte dem Mann.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Ich antworte dem Mann.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "antwortete",
+      "partizip_ii": "geantwortet"
+    }
+  },
+  {
+    "id": "begegnen",
+    "german": "begegnen",
+    "english": "to meet / to encounter",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich begegne dem Auto.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "untrennbar"
+    ],
+    "notes": "Takes the dative. Ich begegne dem Auto. Ich begegne der Frau.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "sein",
+      "present": null,
+      "praeteritum": "begegnete",
+      "partizip_ii": "begegnet"
+    }
+  },
+  {
+    "id": "danken",
+    "german": "danken",
+    "english": "to thank",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich danke dir/ ihm.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Ich danke dir/ ihm. Sobald meine Firma verkauft ist kannst du mir danken.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "dankte",
+      "partizip_ii": "gedankt"
+    }
+  },
+  {
+    "id": "dienen",
+    "german": "dienen",
+    "english": "to serve",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich diene meinem Chef/ meinen Kunden.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Ich diene meinem Chef/ meinen Kunden.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "diente",
+      "partizip_ii": "gedient"
+    }
+  },
+  {
+    "id": "drohen",
+    "german": "drohen",
+    "english": "to threaten",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich drohe meinem Freund ihn zu verlassen.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Ich drohe meinem Freund ihn zu verlassen.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "drohte",
+      "partizip_ii": "gedroht"
+    }
+  },
+  {
+    "id": "einfallen",
+    "german": "einfallen",
+    "english": "to occur to / to come to mind",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Träume fallen mir ein.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "trennbar"
+    ],
+    "notes": "Takes the dative. Träume fallen mir ein. Mir fallen Träume ein. Ideen fallen mir ein.",
+    "verb": {
+      "separable": true,
+      "strength": "strong",
+      "aux": "sein",
+      "present": null,
+      "praeteritum": "fiel ein",
+      "partizip_ii": "eingefallen"
+    }
+  },
+  {
+    "id": "entgegenkommen",
+    "german": "entgegenkommen",
+    "english": "to come toward / to accommodate",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Mir kommen meinen Kollegen entgegen.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "trennbar"
+    ],
+    "notes": "Takes the dative. Mir kommen meinen Kollegen entgegen. Meine Kollegen kommen mir entgegen.",
+    "verb": {
+      "separable": true,
+      "strength": "strong",
+      "aux": "sein",
+      "present": null,
+      "praeteritum": "kam entgegen",
+      "partizip_ii": "entgegengekommen"
+    }
+  },
+  {
+    "id": "fehlen",
+    "german": "fehlen",
+    "english": "to be missing / to lack",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Du fehlst mir!",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Du fehlst mir!",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "fehlte",
+      "partizip_ii": "gefehlt"
+    }
+  },
+  {
+    "id": "folgen",
+    "german": "folgen",
+    "english": "to follow",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Der Mann folgt dem Hund/ Er folg mir im IG.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Der Mann folgt dem Hund/ Er folg mir im IG. - seit einem Jahr.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "sein",
+      "present": null,
+      "praeteritum": "folgte",
+      "partizip_ii": "gefolgt"
+    }
+  },
+  {
+    "id": "gefallen",
+    "german": "gefallen",
+    "english": "to please / to appeal to / to like",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Das Essen gefällt mir.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "untrennbar"
+    ],
+    "notes": "Takes the dative. Das Essen gefällt mir. Mir gefallen die Pilates Stunden.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "gefiel",
+      "partizip_ii": "gefallen"
+    }
+  },
+  {
+    "id": "gehoeren",
+    "german": "gehören",
+    "english": "to belong to",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Das Auto gehört der Mutter.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "untrennbar"
+    ],
+    "notes": "Takes the dative. Das Auto gehört der Mutter. Der Parkplatz gehört mir. Die Zukunft gehört uns. Der Schlüssel gehört dem Vater. Wem gehört der Hund?",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "gehörte",
+      "partizip_ii": "gehört"
+    }
+  },
+  {
+    "id": "gelingen",
+    "german": "gelingen",
+    "english": "to succeed",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Mir gelingt es einen neuen Kunden zu haben.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "untrennbar"
+    ],
+    "notes": "Takes the dative. Mir gelingt es einen neuen Kunden zu haben. Der Deal ist mir gelungen.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "sein",
+      "present": null,
+      "praeteritum": "gelang",
+      "partizip_ii": "gelungen"
+    }
+  },
+  {
+    "id": "genuegen",
+    "german": "genügen",
+    "english": "to be enough",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Mir genügt Käse und Brot für das Mittagessen.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "untrennbar"
+    ],
+    "notes": "Takes the dative. Mir genügt Käse und Brot für das Mittagessen. Mir genügen ein paar Tage Urlaub.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "genügte",
+      "partizip_ii": "genügt"
+    }
+  },
+  {
+    "id": "glauben",
+    "german": "glauben",
+    "english": "to believe",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich glaube dir kein Wort.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Ich glaube dir kein Wort. Er glaubt mir wenn ich über Business rede. Ich glaube an +AKK",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "glaubte",
+      "partizip_ii": "geglaubt"
+    }
+  },
+  {
+    "id": "gratulieren",
+    "german": "gratulieren",
+    "english": "to congratulate",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich gratuliere seinem Lehrer.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Ich gratuliere seinem Lehrer.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "gratulierte",
+      "partizip_ii": "gratuliert"
+    }
+  },
+  {
+    "id": "misslingen",
+    "german": "misslingen",
+    "english": "to fail / to be unsuccessful",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Der Rakete misslingt der Start.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "untrennbar"
+    ],
+    "notes": "Takes the dative. Der Rakete misslingt der Start. Der neuen Chefin misslingt ihr Ziel. Das Ziel misslingt der Chefin.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "sein",
+      "present": null,
+      "praeteritum": "misslang",
+      "partizip_ii": "misslungen"
+    }
+  },
+  {
+    "id": "passieren",
+    "german": "passieren",
+    "english": "to happen",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Nur gute Dinge passieren mir.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Nur gute Dinge passieren mir.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "sein",
+      "present": null,
+      "praeteritum": "passierte",
+      "partizip_ii": "passiert"
+    }
+  },
+  {
+    "id": "raten",
+    "german": "raten",
+    "english": "to guess / to advise",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich rate meinem Kunden zu investieren.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Ich rate meinem Kunden zu investieren.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "riet",
+      "partizip_ii": "geraten"
+    }
+  },
+  {
+    "id": "schaden",
+    "german": "schaden",
+    "english": "to harm / to damage",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Das Problem schadet mir.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Das Problem schadet mir.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "schadete",
+      "partizip_ii": "geschadet"
+    }
+  },
+  {
+    "id": "schmecken",
+    "german": "schmecken",
+    "english": "to taste good",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Das Essen schmeckt mir gut.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Das Essen schmeckt mir gut.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "schmeckte",
+      "partizip_ii": "geschmeckt"
+    }
+  },
+  {
+    "id": "schenken",
+    "german": "schenken",
+    "english": "to give a present",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich schenke dir ein neues Auto… Ich schicke dir eine E-Mail mit den nächsten Schritten.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Ich schenke dir ein neues Auto… Ich schicke dir eine E-Mail mit den nächsten Schritten.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "schenkte",
+      "partizip_ii": "geschenkt"
+    }
+  },
+  {
+    "id": "schicken",
+    "german": "schicken",
+    "english": "to send",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich schicke dir eine (die)E-Mail.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Ich schicke dir eine (die)E-Mail.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "schickte",
+      "partizip_ii": "geschickt"
+    }
+  },
+  {
+    "id": "verzeihen",
+    "german": "verzeihen",
+    "english": "to forgive",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich verzeihe meinem Freund nicht.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "untrennbar"
+    ],
+    "notes": "Takes the dative. Ich verzeihe meinem Freund nicht.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "verzieh",
+      "partizip_ii": "verziehen"
+    }
+  },
+  {
+    "id": "vertrauen",
+    "german": "vertrauen",
+    "english": "to trust",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich vertraue dir, weil du mir geholfen hast.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "untrennbar"
+    ],
+    "notes": "Takes the dative. Ich vertraue dir, weil du mir geholfen hast.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "vertraute",
+      "partizip_ii": "vertraut"
+    }
+  },
+  {
+    "id": "wehtun",
+    "german": "wehtun",
+    "english": "to hurt",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Du tust mir weh.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "trennbar"
+    ],
+    "notes": "Takes the dative. Du tust mir weh. Das Herz tu mir weh. Der Hals tut mir weh.",
+    "verb": {
+      "separable": true,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "tat weh",
+      "partizip_ii": "wehgetan"
+    }
+  },
+  {
+    "id": "widersprechen",
+    "german": "widersprechen",
+    "english": "to contradict",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Meine Tochter widerspricht mir.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "untrennbar"
+    ],
+    "notes": "Takes the dative. Meine Tochter widerspricht mir. Ich hasse es, wenn er mir widerspricht.",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "widersprach",
+      "partizip_ii": "widersprochen"
+    }
+  },
+  {
+    "id": "wuenschen",
+    "german": "wünschen",
+    "english": "to wish",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich wünsche dir alles Gute für das neue Jahr.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb"
+    ],
+    "notes": "Takes the dative. Ich wünsche dir alles Gute für das neue Jahr. Ich wünsche der Katze ein gutes Jahr.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "wünschte",
+      "partizip_ii": "gewünscht"
+    }
+  },
+  {
+    "id": "zuhoeren",
+    "german": "zuhören",
+    "english": "to listen to",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich höre dir zu.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "trennbar"
+    ],
+    "notes": "Takes the dative. Ich höre dir zu.",
+    "verb": {
+      "separable": true,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "hörte zu",
+      "partizip_ii": "zugehört"
+    }
+  },
+  {
+    "id": "zustimmen",
+    "german": "zustimmen",
+    "english": "to agree with",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich stimme dir zu.",
+    "example_en": null,
+    "lesson": 4,
+    "tags": [
+      "essentials",
+      "dativverb",
+      "trennbar"
+    ],
+    "notes": "Takes the dative. Ich stimme dir zu.",
+    "verb": {
+      "separable": true,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "stimmte zu",
+      "partizip_ii": "zugestimmt"
+    }
   }
 ]

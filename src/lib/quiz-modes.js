@@ -17,6 +17,8 @@
 // Adding a mode is a new object in this array; nothing else changes.
 // ---------------------------------------------------------------------------
 
+// clear accusative verbs from the vocab, used as the contrast set in 'Dativ or Akkusativ?'
+const ACC_VERBS = new Set(['sehen', 'essen', 'trinken', 'lesen', 'finden', 'suchen', 'brauchen', 'besuchen', 'lieben', 'haben', 'machen', 'hören', 'tragen', 'öffnen', 'bestellen', 'verstehen', 'vergessen', 'verkaufen', 'bezahlen', 'treffen', 'nehmen', 'lernen', 'spielen', 'benutzen', 'fragen', 'kennen', 'wissen', 'trinken']);
 const hasPrefix = (e) => e.tags.includes('trennbar') || e.tags.includes('untrennbar');
 const stripArticle = (german) => german.replace(/^(der|die|das) /, '');
 
@@ -302,6 +304,28 @@ export const modes = [
   },
 
   {
+    id: 'dativverben',
+    group: 'Grammar',
+    label: 'Dative verbs',
+    description: "Markus's list: see the English, type the verb. to forgive → verzeihen.",
+    filter: (e) => e.pos === 'verb' && e.tags.includes('dativverb'),
+    prompt: (e) => e.english,
+    answer: (e) => e.german,
+    input: 'typed',
+    reveal: (e) => e.example_de,
+  },
+  {
+    id: 'dativ-oder-akk',
+    group: 'Grammar',
+    label: 'Dativ or Akkusativ?',
+    description: 'Does this verb take the dative (on the list) or the accusative (everything else)?',
+    filter: (e) => e.pos === 'verb' && (e.tags.includes('dativverb') || ACC_VERBS.has(e.german)),
+    prompt: (e) => `${e.german} (${e.english})`,
+    answer: (e) => (e.tags.includes('dativverb') ? 'Dativ' : 'Akkusativ'),
+    input: { type: 'choice', options: ['Dativ', 'Akkusativ'] },
+    reveal: (e) => (e.tags.includes('dativverb') ? e.example_de : 'Not on the dative list → Akkusativ'),
+  },
+  {
     id: 'kasus',
     group: 'Grammar',
     label: 'Cases',
@@ -321,7 +345,7 @@ export const modes = [
     label: 'Dativ',
     description: 'Pick the dative article: dem, der or den (plural).',
     source: 'exercises',
-    filter: (e) => e.set === 'dativ-objekt' || e.set === 'dativ-verben',
+    filter: (e) => e.set === 'l4-dativ' || e.set === 'l4-dativ-verben',
     prompt: (e) => e.prompt_de,
     answer: (e) => e.answer,
     input: { type: 'choice', options: ['dem', 'der', 'den'] },
@@ -333,7 +357,7 @@ export const modes = [
     label: 'Akkusativ',
     description: 'Pick the accusative article: den, die or das.',
     source: 'exercises',
-    filter: (e) => e.set === 'akkusativ-bestimmt',
+    filter: (e) => e.set === 'l4-akkusativ',
     prompt: (e) => e.prompt_de,
     answer: (e) => e.answer,
     input: { type: 'choice', options: ['den', 'die', 'das'] },
@@ -345,7 +369,7 @@ export const modes = [
     label: 'Akkusativ: einen / eine / ein',
     description: 'Pick the indefinite article in the accusative; plural takes no article (–).',
     source: 'exercises',
-    filter: (e) => e.set === 'akkusativ-unbestimmt',
+    filter: (e) => e.set === 'l4-akkusativ-2',
     prompt: (e) => e.prompt_de,
     answer: (e) => e.answer,
     input: { type: 'choice', options: ['einen', 'eine', 'ein', '–'] },

@@ -40,6 +40,10 @@ const SET_LABEL: Record<string, string> = {
   'akkusativ-bestimmt': 'Accusative: den / die / das',
   'akkusativ-unbestimmt': 'Accusative: einen / eine / ein',
   'schwach-praesens': 'Weak verbs, present tense',
+  'l4-dativ': 'Dativ: the indirect object',
+  'l4-dativ-verben': 'Dativ: verbs with the dative',
+  'l4-akkusativ': 'Akkusativ: den / die / das',
+  'l4-akkusativ-2': 'Akkusativ: einen / eine / ein',
 };
 const sets = [...new Set(exercises.map((e) => e.set))].map((set) => ({
   set,
@@ -100,6 +104,7 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
                 <span>
                   {h.text}
                   {h.source && <> · <a href={url(`/sources/lesson-${nn}/${h.source}`)}>open the sheet</a></>}
+                  {h.quiz && <> · <a class="btn btn-primary small" href={url('/quiz/') + `?mode=${h.quiz}`}>Practise</a></>}
                 </span>
               </div>
               {setsOf.length > 0 && (

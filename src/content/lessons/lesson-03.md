@@ -8,10 +8,6 @@ homework:
     done: true
     source: 100schwache_Verben_A1_A2.rtf
     sets: [schwach-praesens]
-  - text: "Dativ und Akkusativ: fill in the article"
-    done: true
-    source: DATIV_AKK_Uebungen.rtf
-    sets: [dativ-objekt, dativ-verben, akkusativ-bestimmt, akkusativ-unbestimmt]
 sources:
   - 1Nominativ.png
   - 2Genitiv.png
@@ -92,5 +88,5 @@ Verbs with the dative:
 ## Materials
 
 - [Nominativ](../../sources/lesson-03/1Nominativ.png), [Genitiv](../../sources/lesson-03/2Genitiv.png), [Dativ](../../sources/lesson-03/3Dativ.png), [Akkusativ](../../sources/lesson-03/4Akkusativ.png) (case tables)
-- [Dativ und Akkusativ: 400 Übungssätze](../../sources/lesson-03/DATIV_AKK_Uebungen.rtf) (worksheet, drills below)
+- [Dativ und Akkusativ: 400 Übungssätze](../../sources/lesson-03/DATIV_AKK_Uebungen.rtf) (first version; the homework version with genders is in lesson 4)
 - [100 schwache Verben A1/A2](../../sources/lesson-03/100schwache_Verben_A1_A2.rtf) (homework worksheet, drills below)

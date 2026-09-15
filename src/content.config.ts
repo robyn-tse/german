@@ -21,6 +21,7 @@ const lessons = defineCollection({
           done: z.boolean().default(false),
           source: z.string().optional(),            // file in public/sources/lesson-NN/ (the sheet itself)
           sets: z.array(z.string()).default([]),    // exercise sets built from that sheet, for "Do the sheet"
+          quiz: z.string().optional(),              // a quiz mode id, for a "Practise" button
         }),
       )
       .default([]),

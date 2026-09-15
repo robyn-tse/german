@@ -163,7 +163,8 @@ Additional conventions the script does not check but you must follow:
 - `verb.present` holds only the pronouns the source actually gives (often just `ich`).
 - `tags` in use: `trennbar`, `untrennbar` (verbs with a separable/inseparable prefix; the Prefix
   quiz mode filters on these), `genus` (gender-by-suffix example nouns), `merken` (memorise —
-  irregular forms). Reuse these; add a new tag only when a lesson introduces a genuinely new
+  irregular forms), `dativverb` (Markus's dative-verb list; drives the Dative verbs and Dativ-or-
+  Akkusativ modes). Reuse these; add a new tag only when a lesson introduces a genuinely new
   category, and list it here.
 - **Source first.** Fields that come from Markus's material take precedence. You may fill standard
   forms you are certain of (e.g. Partizip II of a common verb the lesson used only as an example),
@@ -246,7 +247,7 @@ More conventions that came out of lesson 2's phrase list and worksheets:
 `set` names one worksheet section and is what a quiz mode filters on. Sets so far:
 `trennbar-praesens`, `trennbar-modal`, `gemischt`, `schwach-praesens` (verb gap-fills),
 `artikel-bestimmt`, `artikel-unbestimmt` (lesson 2 article choice), `dativ-objekt`, `dativ-verben`,
-`akkusativ-bestimmt`, `akkusativ-unbestimmt` (lesson 3 case choice). An optional `note` is shown
+`l4-dativ`, `l4-dativ-verben`, `l4-akkusativ`, `l4-akkusativ-2` (lesson 4 case choice; the lesson 3 versions were retired when Markus re-sent the sheet with genders). An optional `note` is shown
 with the answer (used for singular/plural ambiguity in the case sheets). Homework sentences carry
 `gloss`: word-by-word English aligned to `prompt_de` (`[["ihr","you all"],["___",null],…]`), shown
 above each word in homework mode. Build it with a per-form dictionary (see the lesson-3 gloss
@@ -266,6 +267,7 @@ homework:
     done: false
     source: Lektion3_HA.rtf          # optional: the sheet itself, served from public/sources/lesson-NN/
     sets: [schwach-praesens]         # optional: exercise sets built from it → "Do the sheet" buttons
+    quiz: dativverben                # optional: a quiz mode id → "Practise" button
 sources: ["Lektion3.rtf", "Lektion3_HA.rtf"]
 ---
 ```
