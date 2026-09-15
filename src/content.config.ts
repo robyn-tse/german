@@ -15,7 +15,14 @@ const lessons = defineCollection({
     // slugs matching grammar topic files; validated as references
     topics: z.array(reference('grammar')).default([]),
     homework: z
-      .array(z.object({ text: z.string(), done: z.boolean().default(false) }))
+      .array(
+        z.object({
+          text: z.string(),
+          done: z.boolean().default(false),
+          source: z.string().optional(),            // file in public/sources/lesson-NN/ (the sheet itself)
+          sets: z.array(z.string()).default([]),    // exercise sets built from that sheet, for "Do the sheet"
+        }),
+      )
       .default([]),
     sources: z.array(z.string()).default([]),
   }),

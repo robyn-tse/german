@@ -85,13 +85,36 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
       <p class="muted">No homework recorded for this lesson.</p>
     ) : (
       <ul class="homework">
-        {lesson.data.homework.map((h) => (
-          <li class:list={{ done: h.done }}>
-            <span class="box" aria-hidden="true">{h.done ? '☑' : '☐'}</span>
-            <span class="visually-hidden">{h.done ? 'Done:' : 'Open:'}</span>
-            {h.text}
-          </li>
-        ))}
+        {lesson.data.homework.map((h) => {
+          const setsOf = h.sets.map((set) => ({
+            set,
+            label: SET_LABEL[set] ?? set,
+            count: exercises.filter((e) => e.set === set).length,
+            mode: modes.find((m) => m.source === 'exercises' && exercises.some((e) => e.set === set && m.filter(e)))?.id,
+          }));
+          return (
+            <li class:list={{ done: h.done }}>
+              <div class="hw-head">
+                <span class="box" aria-hidden="true">{h.done ? '☑' : '☐'}</span>
+                <span class="visually-hidden">{h.done ? 'Done:' : 'Open:'}</span>
+                <span>
+                  {h.text}
+                  {h.source && <> · <a href={url(`/sources/lesson-${nn}/${h.source}`)}>open the sheet</a></>}
+                </span>
+              </div>
+              {setsOf.length > 0 && (
+                <ul class="hw-sets">
+                  {setsOf.map((s) => (
+                    <li>
+                      <span>{s.label} <span class="muted small">({s.count})</span></span>
+                      {s.mode && <a class="btn btn-primary small" href={url('/quiz/') + `?mode=${s.mode}&sheet=${s.set}`}>Do the sheet</a>}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          );
+        })}
       </ul>
     )}
   </section>
@@ -156,9 +179,12 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
   .topics { list-style: none; padding: 0; margin: 0.25rem 0 0; display: flex; flex-wrap: wrap; gap: 0.35rem; }
   .topics a { text-decoration: none; }
   .section { margin-top: 2rem; }
-  .homework { list-style: none; padding: 0; margin: 0; }
-  .homework li { display: flex; gap: 0.5rem; align-items: baseline; }
-  .homework .done { color: var(--muted); text-decoration: line-through; }
+  .homework { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem; max-width: 40rem; }
+  .homework > li.done .hw-head { color: var(--muted); text-decoration: line-through; }
+  .hw-head { display: flex; gap: 0.5rem; align-items: baseline; }
+  .hw-sets { list-style: none; padding: 0; margin: 0.4rem 0 0 1.6rem; display: grid; gap: 0.3rem; }
+  .hw-sets li { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.3rem 0; border-bottom: 1px solid var(--border); }
+  .btn.small { padding: 0.3em 0.8em; font-size: 0.9rem; }
   .box { font-size: 1.1em; }
   .group h3 { margin-top: 1.25rem; }
   /* one grid for the whole list so the English column lines up across rows */

@@ -257,7 +257,9 @@ topics: [plurals, verb-conjugation]      # grammar slugs; validated against the 
 homework:
   - text: "Conjugate 10 weak verbs"
     done: false
-sources: ["Lektion3.rtf"]
+    source: Lektion3_HA.rtf          # optional: the sheet itself, served from public/sources/lesson-NN/
+    sets: [schwach-praesens]         # optional: exercise sets built from it → "Do the sheet" buttons
+sources: ["Lektion3.rtf", "Lektion3_HA.rtf"]
 ---
 ```
 

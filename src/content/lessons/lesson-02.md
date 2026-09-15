@@ -4,8 +4,10 @@ date: 2026-09-08
 title: Present tense, prefixes, and articles
 topics: [verb-conjugation, prefixes, articles]
 homework:
-  - text: "Praefix_A1 worksheet: fill in the 100 separable-verb sentences"
+  - text: "Trennbare Verben: fill in the 100 sentences"
     done: true
+    source: Praefix_A1.rtf
+    sets: [trennbar-praesens, trennbar-modal, gemischt]
 sources:
   - Praefixe.pdf
   - Praefix_A1.rtf

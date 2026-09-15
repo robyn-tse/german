@@ -4,10 +4,14 @@ date: 2026-09-10
 title: The four cases
 topics: [declension]
 homework:
-  - text: "Dativ und Akkusativ worksheet: 400 sentences"
+  - text: "100 schwache Verben: conjugate the verb in each sentence"
     done: false
-  - text: "100 schwache Verben worksheet: conjugate the verb in each sentence"
+    source: 100schwache_Verben_A1_A2.rtf
+    sets: [schwach-praesens]
+  - text: "Dativ und Akkusativ: fill in the article"
     done: false
+    source: DATIV_AKK_Uebungen.rtf
+    sets: [dativ-objekt, dativ-verben, akkusativ-bestimmt, akkusativ-unbestimmt]
 sources:
   - 1Nominativ.png
   - 2Genitiv.png
