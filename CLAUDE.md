@@ -35,6 +35,10 @@ node scripts/export-anki.mjs 2     # regenerate exports/lesson-02-<category>.tsv
 .venv/bin/python   # Python with striprtf installed (see below)
 ```
 
+If `astro build` hangs with no output (it has happened twice on this Mac), kill it and run
+`rm -rf .astro node_modules/.astro node_modules/.vite && npm ci`, then retry. Never let a local hang
+block a push: GitHub Actions builds the site.
+
 Python: the RTF converter lives in a project venv. If `.venv/` is missing:
 
 ```bash
