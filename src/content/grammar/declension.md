@@ -17,15 +17,6 @@ lessons: [3]
 **Genitiv: the noun changes too.** Masculine and neuter nouns take **-s** or **-es**: **-es** for short one-syllable nouns and nouns ending in -s, -ß, -z, -x or -sch (des Mann**es**, des Kind**es**, des Haus**es**), **-s** for most others (des Lehrer**s**, des Auto**s**). Feminine and plural nouns do not change (der Frau, der Familien).
 
 
-With an adjective (schlau):
-
-| | masculine | feminine | neuter | plural |
-|---|---|---|---|---|
-| **Nominativ** | der schlaue Mann · ein schlau**er** Mann | die schlaue Frau · eine schlaue Frau | das schlaue Kind · ein schlau**es** Kind | die schlauen Familien |
-| **Akkusativ** | den schlauen Mann · einen schlauen Mann | die schlaue Frau · eine schlaue Frau | das schlaue Kind · ein schlaues Kind | die schlauen Familien |
-| **Dativ** | dem schlauen Mann · einem schlauen Mann | der schlauen Frau · einer schlauen Frau | dem schlauen Kind · einem schlauen Kind | den schlauen Familien |
-| **Genitiv** | des schlauen Mannes · eines schlauen Mannes | der schlauen Frau · einer schlauen Frau | des schlauen Kindes · eines schlauen Kindes | der schlauen Familien |
-
 ## Dativ
 
 *Ich gebe **dem** Mann das Buch. Sie schenkt **der** Frau einen Ring. Sie erklärt **den** Schülern die Regeln.*
