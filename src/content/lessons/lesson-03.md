@@ -41,6 +41,9 @@ Only the masculine changes in the accusative; the dative and genitive change eve
 | **Dativ** | dem | der | dem | den |
 | **Genitiv** | des | der | des | der |
 
+**Genitiv: the noun changes too.** Masculine and neuter nouns take **-s** or **-es**: **-es** for short one-syllable nouns and nouns ending in -s, -ß, -z, -x or -sch (des Mann**es**, des Kind**es**, des Haus**es**), **-s** for most others (des Lehrer**s**, des Auto**s**). Feminine and plural nouns do not change (der Frau, der Familien).
+
+
 | | masculine | feminine | neuter | plural |
 |---|---|---|---|---|
 | **Nominativ** | ein | eine | ein | – |
