@@ -216,7 +216,25 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   updatePoolInfo();
 
   // --- session --------------------------------------------------------------
-  let session: { mode: any; style: string; queue: Entry[]; index: number; results: { entry: Entry; correct: boolean; given: string }[] } | null = null;
+  let session: { mode: any; style: string; queue: Entry[]; index: number; results: { entry: Entry; correct: boolean; given: string }[]; retry?: boolean } | null = null;
+
+  // --- homework sheets remember where you stopped (per device) -----------------
+  const progressKey = () => `german-sheet-progress:${sheet}`;
+  function saveProgress() {
+    if (!sheet || !session || session.retry) return;
+    try {
+      localStorage.setItem(progressKey(), JSON.stringify({
+        index: session.index,
+        results: session.results.map((r) => ({ id: r.entry.id, correct: r.correct, given: r.given })),
+        total: session.queue.length,
+        at: Date.now(),
+      }));
+    } catch { /* ignore */ }
+  }
+  function loadProgress(): { index: number; results: { id: string; correct: boolean; given: string }[]; total: number } | null {
+    try { return JSON.parse(localStorage.getItem(progressKey()) || 'null'); } catch { return null; }
+  }
+  function clearProgress() { try { localStorage.removeItem(progressKey()); } catch { /* ignore */ } }
   const card = $('card');
   const flip = $('flip') as HTMLButtonElement;
   const front = flip.querySelector<HTMLElement>('.front')!;
@@ -237,7 +255,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     const pool = queue ?? poolFor(cfg);
     if (!pool.length) return;
     const ordered = sheet ? pool : shuffle(pool); // worksheet mode keeps the sheet's order
-    session = { mode, style: cfg.style, queue: queue ? shuffle(queue) : ordered.slice(0, cfg.length), index: 0, results: [] };
+    session = { mode, style: cfg.style, queue: queue ? shuffle(queue) : ordered.slice(0, cfg.length), index: 0, results: [], retry: !!queue };
     setup.hidden = true;
     summary.hidden = true;
     play.hidden = false;
@@ -247,6 +265,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
 
   function ask() {
     if (!session) return;
+    saveProgress();
     const { mode, queue, index } = session;
     if (index >= queue.length) return finish();
     const entry = queue[index];
@@ -499,6 +518,10 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
 
   function finish() {
     if (!session) return;
+    if (sheet && !session.retry) {
+      if (session.index >= session.queue.length) clearProgress(); // sheet completed
+      else saveProgress(); // ended early: keep the place for next time
+    }
     play.hidden = true;
     card.hidden = true;
     summary.hidden = false;
@@ -585,12 +608,33 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     renderStats();
   });
   renderStats();
-  if (sheet) start();
+  if (sheet) {
+    const saved = loadProgress();
+    if (saved && saved.index > 0 && saved.index < saved.total) {
+      const banner = $('sheet-banner');
+      banner.hidden = false;
+      banner.innerHTML = `You stopped at sentence ${saved.index + 1} of ${saved.total}. ` +
+        `<button type="button" class="btn btn-primary" id="resume">Continue from #${saved.index + 1}</button> ` +
+        `<button type="button" class="btn" id="restart">Start over</button>`;
+      $('resume').addEventListener('click', () => {
+        banner.hidden = true;
+        start();
+        if (!session) return;
+        const byId = new Map(session.queue.map((e) => [e.id, e]));
+        session.results = saved.results.map((r) => ({ entry: byId.get(r.id)!, correct: r.correct, given: r.given })).filter((r) => r.entry);
+        session.index = Math.min(saved.index, session.queue.length);
+        ask();
+      });
+      $('restart').addEventListener('click', () => { banner.hidden = true; clearProgress(); start(); });
+    } else {
+      start();
+    }
+  }
 </script>
 
 <style>
   .setup { max-width: 40rem; display: grid; gap: 1rem; }
-  .sheet-banner { max-width: 40rem; margin: 0 0 1rem; font-size: 0.95rem; }
+  .sheet-banner { max-width: 40rem; margin: 0 0 1rem; font-size: 0.95rem; display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
   fieldset { border: 1px solid var(--border); border-radius: var(--radius); padding: 0.75rem 1rem 1rem; margin: 0; }
   legend { padding: 0 0.4em; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; }
   .mode-group + .mode-group { margin-top: 0.9rem; }
