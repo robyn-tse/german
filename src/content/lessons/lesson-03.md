@@ -4,6 +4,8 @@ date: 2026-09-10
 title: The four cases
 topics: [declension]
 homework:
+  - text: "Dativ und Akkusativ worksheet: 400 sentences"
+    done: false
   - text: "100 schwache Verben worksheet: conjugate the verb in each sentence"
     done: false
 sources:
