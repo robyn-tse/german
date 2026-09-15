@@ -346,7 +346,12 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     const verdict = $('verdict');
     verdict.textContent = result.correct ? (result.exact ? 'Correct' : 'Correct, but…') : 'Not quite';
     verdict.className = `verdict ${result.correct ? (result.exact ? 'ok' : 'warn') : 'bad'}`;
-    $('expected').innerHTML = result.correct && result.exact ? '' : `<span class="muted">Answer:</span> ${renderAnswer(entry, expected)}`;
+    const yours = given.trim()
+      ? `<span class="yours"><span class="muted">You typed:</span> <s>${escape(given.trim())}</s></span><br>`
+      : '';
+    $('expected').innerHTML = result.correct && result.exact
+      ? ''
+      : `${result.correct ? '' : yours}<span class="muted">Answer:</span> ${renderAnswer(entry, expected)}`;
     if (result.correct && result.exact && mode.id === 'en-de' && entry.pos === 'noun') {
       $('expected').innerHTML = renderAnswer(entry, expected);
     }
@@ -647,6 +652,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   .verdict.warn { color: var(--warn); }
   .verdict.bad { color: var(--bad); }
   .expected { font-size: 1.2rem; margin: 0 0 0.25rem; }
+  .expected .yours s { color: var(--bad); text-decoration-color: var(--bad); }
   .expected:empty { display: none; }
   .notes { margin: 0 0 0.5rem; padding-left: 1.2em; }
   .notes:empty { display: none; }
