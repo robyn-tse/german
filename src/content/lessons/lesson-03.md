@@ -37,23 +37,23 @@ Only the masculine changes in the accusative; the dative and genitive change eve
 | | masculine | feminine | neuter | plural |
 |---|---|---|---|---|
 | **Nominativ** | der | die | das | die |
-| **Genitiv** | des | der | des | der |
-| **Dativ** | dem | der | dem | den |
 | **Akkusativ** | den | die | das | die |
+| **Dativ** | dem | der | dem | den |
+| **Genitiv** | des | der | des | der |
 
 | | masculine | feminine | neuter | plural |
 |---|---|---|---|---|
 | **Nominativ** | ein | eine | ein | – |
-| **Genitiv** | eines | einer | eines | – |
-| **Dativ** | einem | einer | einem | – |
 | **Akkusativ** | einen | eine | ein | – |
+| **Dativ** | einem | einer | einem | – |
+| **Genitiv** | eines | einer | eines | – |
 
 | | masculine | feminine | neuter | plural |
 |---|---|---|---|---|
 | **Nominativ** | kein | keine | kein | keine |
-| **Genitiv** | keines | keiner | keines | keiner |
-| **Dativ** | keinem | keiner | keinem | keinen |
 | **Akkusativ** | keinen | keine | kein | keine |
+| **Dativ** | keinem | keiner | keinem | keinen |
+| **Genitiv** | keines | keiner | keines | keiner |
 
 ## With an adjective: der schlaue Mann
 
@@ -65,13 +65,13 @@ Only the masculine changes in the accusative; the dative and genitive change eve
 | ein / eine / ein | ein schlauer Mann | eine schlaue Frau | ein schlaues Kind | |
 | kein | kein schlauer Mann | keine schlaue Frau | kein schlaues Kind | keine schlauen Familien |
 
-**Genitiv**
+**Akkusativ**
 
 | | masculine | feminine | neuter | plural |
 |---|---|---|---|---|
-| des / der / des | des schlauen Mannes | der schlauen Frau | des schlauen Kindes | der schlauen Familien |
-| eines / einer | eines schlauen Mannes | einer schlauen Frau | eines schlauen Kindes | |
-| keines / keiner | keines schlauen Mannes | keiner schlauen Frau | keines schlauen Kindes | keiner netten Familien |
+| den / die / das | den schlauen Mann | die schlaue Frau | das schlaue Kind | die schlauen Familien |
+| einen / eine / ein | einen schlauen Mann | eine schlaue Frau | ein schlaues Kind | |
+| keinen / keine / kein | keinen schlauen Mann | keine schlaue Frau | kein schlaues Kind | keine schlauen Familien |
 
 **Dativ**
 
@@ -81,13 +81,13 @@ Only the masculine changes in the accusative; the dative and genitive change eve
 | einem / einer | einem schlauen Mann | einer schlauen Frau | einem schlauen Kind | |
 | keinem / keiner | keinem schlauen Mann | keiner schlauen Frau | keinem schlauen Kind | keinen schlauen Familien |
 
-**Akkusativ**
+**Genitiv**
 
 | | masculine | feminine | neuter | plural |
 |---|---|---|---|---|
-| den / die / das | den schlauen Mann | die schlaue Frau | das schlaue Kind | die schlauen Familien |
-| einen / eine / ein | einen schlauen Mann | eine schlaue Frau | ein schlaues Kind | |
-| keinen / keine / kein | keinen schlauen Mann | keine schlaue Frau | kein schlaues Kind | keine schlauen Familien |
+| des / der / des | des schlauen Mannes | der schlauen Frau | des schlauen Kindes | der schlauen Familien |
+| eines / einer | eines schlauen Mannes | einer schlauen Frau | eines schlauen Kindes | |
+| keines / keiner | keines schlauen Mannes | keiner schlauen Frau | keines schlauen Kindes | keiner netten Familien |
 
 ## Dativ
 
