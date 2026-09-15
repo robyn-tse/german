@@ -94,16 +94,14 @@ Only the masculine changes in the accusative; the dative and genitive change eve
 
 ## Dativ
 
-Two objects: the person gets the **dative**, the thing gets the **accusative**.
-
-| | dative (to whom) | accusative (what) |
+| | Dativ | Akkusativ |
 |---|---|---|
 | Ich gebe | **dem** Mann | das Buch. |
 | Sie schenkt | **der** Frau | einen Ring. |
 | Er erklärt | **dem** Kind | die Aufgabe. |
 | Sie erklärt | **den** Schülern | die Regeln. |
 
-Verbs that take the dative on their own:
+Verbs with the dative:
 
 | Verb | Example |
 |---|---|
@@ -117,8 +115,6 @@ Verbs that take the dative on their own:
 | gratulieren (to congratulate) | Sie gratuliert **der** Schwester. |
 
 ## Akkusativ
-
-The direct object takes the accusative; only the masculine changes.
 
 | | | |
 |---|---|---|

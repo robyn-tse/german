@@ -28,10 +28,10 @@ With an adjective (schlau):
 
 ## Dativ
 
-Two objects: the person takes the dative, the thing the accusative. *Ich gebe **dem** Mann das Buch. Sie schenkt **der** Frau einen Ring. Sie erklärt **den** Schülern die Regeln.*
+*Ich gebe **dem** Mann das Buch. Sie schenkt **der** Frau einen Ring. Sie erklärt **den** Schülern die Regeln.*
 
-Verbs that take the dative on their own: **helfen, danken, folgen, vertrauen, antworten, gehören, glauben, gratulieren**. *Ich helfe dem Mann. Der Hund gehört der Familie. Sie gratuliert der Schwester.*
+Verbs with the dative: **helfen, danken, folgen, vertrauen, antworten, gehören, glauben, gratulieren**. *Ich helfe dem Mann. Der Hund gehört der Familie. Sie gratuliert der Schwester.*
 
 ## Akkusativ
 
-The direct object takes the accusative; only the masculine form changes. *Ich sehe **den** Mann. Sie kauft **die** Tasche. Er liest **das** Buch. Ich kaufe **einen** Regenschirm. Sie braucht **eine** Einladung.* In the plural there is no indefinite article: *Wir sammeln Informationen.*
+*Ich sehe **den** Mann. Sie kauft **die** Tasche. Er liest **das** Buch. Ich kaufe **einen** Regenschirm. Sie braucht **eine** Einladung.* *Wir sammeln Informationen.*
