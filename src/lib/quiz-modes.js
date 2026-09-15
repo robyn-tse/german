@@ -93,6 +93,37 @@ export function conjugationItems(vocab) {
   }
   return out;
 }
+/** the article tables from lesson 3: one question per case x gender x article type */
+const CASES = ['Nominativ', 'Akkusativ', 'Dativ', 'Genitiv'];
+const CASE_TABLE = {
+  definite:   { Nominativ: ['der','die','das','die'], Akkusativ: ['den','die','das','die'], Dativ: ['dem','der','dem','den'], Genitiv: ['des','der','des','der'] },
+  indefinite: { Nominativ: ['ein','eine','ein',null], Akkusativ: ['einen','eine','ein',null], Dativ: ['einem','einer','einem',null], Genitiv: ['eines','einer','eines',null] },
+  kein:       { Nominativ: ['kein','keine','kein','keine'], Akkusativ: ['keinen','keine','kein','keine'], Dativ: ['keinem','keiner','keinem','keinen'], Genitiv: ['keines','keiner','keines','keiner'] },
+};
+const CASE_NOUNS = [
+  { word: 'Mann', gen: 'Mannes', label: 'masculine' }, { word: 'Frau', gen: 'Frau', label: 'feminine' },
+  { word: 'Kind', gen: 'Kindes', label: 'neuter' }, { word: 'Familien', gen: 'Familien', label: 'plural' },
+];
+export function caseItems() {
+  const items = [];
+  for (const [type, table] of Object.entries(CASE_TABLE)) {
+    CASE_NOUNS.forEach((n, gi) => {
+      const nom = table.Nominativ[gi];
+      if (nom === null) return;
+      for (const c of CASES) {
+        const art = table[c][gi];
+        const noun = c === 'Genitiv' ? n.gen : n.word;
+        items.push({
+          id: `case:${type}:${c}:${n.word}`, lesson: 3, tags: ['kasus', type], case: c, type, gender: n.label,
+          base: `${nom} ${n.word}`, article: art, phrase: `${art} ${noun}`,
+          row: CASE_NOUNS.map((m, i) => `${table[c][i]} ${c === 'Genitiv' ? m.gen : m.word}`).join(' · '),
+        });
+      }
+    });
+  }
+  return items;
+}
+
 /** one question per English personal pronoun (she and they are separate questions) */
 export function pronounItems() {
   const pairs = [
@@ -237,7 +268,7 @@ export const modes = [
     label: 'Verb im Satz',
     description: 'Fill the gap(s) with the verb in brackets. Two gaps: type both parts, e.g. "stehe auf".',
     source: 'exercises',
-    filter: (e) => e.set === 'trennbar-praesens' || e.set === 'trennbar-modal' || e.set === 'gemischt',
+    filter: (e) => ['trennbar-praesens', 'trennbar-modal', 'gemischt', 'schwach-praesens'].includes(e.set),
     prompt: (e) => `${e.prompt_de}  (${e.hint})`,
     subprompt: (e) => e.en,
     answer: (e) => e.answer.replace(' ', ' … '),
@@ -268,6 +299,57 @@ export const modes = [
     answer: (e) => e.answer,
     input: { type: 'choice', options: ['ein', 'eine', 'einen', 'einer'] },
     reveal: (e) => `${e.full_de} · ${ARTICLE_NOTE[e.answer]}`,
+  },
+
+  {
+    id: 'kasus',
+    group: 'Grammar',
+    label: 'Cases',
+    description: 'der Mann → Dativ? Type the article (or the whole phrase) for the case asked.',
+    source: 'cases',
+    filter: () => true,
+    prompt: (it) => `${it.base} → ${it.case}`,
+    subprompt: (it) => `${it.gender}, ${it.type === 'kein' ? 'kein' : it.type + ' article'}`,
+    answer: (it) => it.phrase,
+    input: 'typed',
+    accept: (it) => [{ text: it.phrase, note: null }, { text: it.article, note: null }],
+    reveal: (it) => `${it.case}: ${it.row}`,
+  },
+  {
+    id: 'dativ',
+    group: 'Worksheets',
+    label: 'Dativ',
+    description: 'Pick the dative article: dem, der or den (plural).',
+    source: 'exercises',
+    filter: (e) => e.set === 'dativ-objekt' || e.set === 'dativ-verben',
+    prompt: (e) => e.prompt_de,
+    answer: (e) => e.answer,
+    input: { type: 'choice', options: ['dem', 'der', 'den'] },
+    reveal: (e) => `${e.full_de}${e.note ? ' · ' + e.note : ''}`,
+  },
+  {
+    id: 'akkusativ',
+    group: 'Worksheets',
+    label: 'Akkusativ',
+    description: 'Pick the accusative article: den, die or das.',
+    source: 'exercises',
+    filter: (e) => e.set === 'akkusativ-bestimmt',
+    prompt: (e) => e.prompt_de,
+    answer: (e) => e.answer,
+    input: { type: 'choice', options: ['den', 'die', 'das'] },
+    reveal: (e) => `${e.full_de}${e.note ? ' · ' + e.note : ''}`,
+  },
+  {
+    id: 'akkusativ-unbestimmt',
+    group: 'Worksheets',
+    label: 'Akkusativ: einen / eine / ein',
+    description: 'Pick the indefinite article in the accusative; plural takes no article (–).',
+    source: 'exercises',
+    filter: (e) => e.set === 'akkusativ-unbestimmt',
+    prompt: (e) => e.prompt_de,
+    answer: (e) => e.answer,
+    input: { type: 'choice', options: ['einen', 'eine', 'ein', '–'] },
+    reveal: (e) => `${e.full_de}${e.note ? ' · ' + e.note : ''}`,
   },
 
   // --- Sketches for later modes; no engine changes needed --------------------

@@ -240,8 +240,10 @@ More conventions that came out of lesson 2's phrase list and worksheets:
 ```
 
 `set` names one worksheet section and is what a quiz mode filters on. Sets so far:
-`trennbar-praesens`, `trennbar-modal`, `gemischt` (verb gap-fills), `artikel-bestimmt`,
-`artikel-unbestimmt` (article choice). Two gaps are answered as one string with a space
+`trennbar-praesens`, `trennbar-modal`, `gemischt`, `schwach-praesens` (verb gap-fills),
+`artikel-bestimmt`, `artikel-unbestimmt` (lesson 2 article choice), `dativ-objekt`, `dativ-verben`,
+`akkusativ-bestimmt`, `akkusativ-unbestimmt` (lesson 3 case choice). An optional `note` is shown
+with the answer (used for singular/plural ambiguity in the case sheets). Two gaps are answered as one string with a space
 (`stehe auf`); the quiz shows it as `stehe … auf`. Ids are `ex-<sheet>-NNN`.
 
 ### Lesson frontmatter template
@@ -277,9 +279,10 @@ To add one, add an object; the page picks it up, and lesson pages link to it wit
 the exercise sets it covers. Modes carry a `group` (Basics, Vocabulary, Grammar, Worksheets) and are listed in that order; keep
 the Basics first, Robyn is a complete beginner. Current modes: Pronouns (I → ich), Endings
 (ich → -e), Conjugate (kaufen, I → ich kaufe; built from regular weak verbs plus verbs with a
-stored present table), DE→EN, EN→DE, Gender rule, Gender, Prefix, Partizip II, Verb im Satz
-(worksheet gap-fill), der/die/das im Satz, ein/eine/einen. Derived sets (`conjugation`,
-`endings`) are built in `quiz-modes.js` from vocab and passed to modes via `ctx`. Every mode can be run in two
+stored present table), DE→EN, EN→DE, Gender rule, Gender, Prefix, Partizip II, Cases (der Mann → Dativ), Verb im Satz
+(worksheet gap-fill), der/die/das im Satz, ein/eine/einen, Dativ, Akkusativ, Akkusativ einen/eine/ein.
+Derived sets (`conjugation`, `endings`, `pronouns`, `cases`) are built in `quiz-modes.js` and passed
+to modes via `ctx`. Every mode can be run in two
 **styles**: quiz (typed or choice, checked automatically) or flashcards (flip, then self-rate Again /
 Got it). Both feed the same per-word stats; flashcards need nothing extra from a mode. In quiz style a wrong answer
 gates the Next button until the correct answer is typed (or the right option picked); the summary
@@ -312,7 +315,9 @@ extra prefixes, no extra rules, no "rule of thumb", no exceptions or examples th
 contain, no stress or pronunciation notes. Explanations may be reworded and tabulated, English
 glosses and translations of source sentences are fine, and worksheet answer keys are worked out
 because that is the point of a worksheet. If something feels missing, say so in the report; do not
-fill the gap. (This rule was set on 2026-09-10 after supplementary prefixes had crept in.)
+fill the gap. The one standing exception: when Robyn explicitly asks for an explanation (as with
+"what the four cases do" in lesson 3), write it, keep it short, and say in the report that it is
+Claude's wording. (This rule was set on 2026-09-10 after supplementary prefixes had crept in.)
 
 ## What counts as vocab, and the essentials set
 

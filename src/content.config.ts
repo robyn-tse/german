@@ -101,6 +101,7 @@ export const exerciseSchema = z.object({
   en: z.string().nullable().default(null),
   vocab_id: z.string().nullable().default(null),
   tags: z.array(z.string()).default([]),
+  note: z.string().nullable().default(null), // shown with the answer, e.g. singular/plural ambiguity
 });
 export type Exercise = z.infer<typeof exerciseSchema>;
 

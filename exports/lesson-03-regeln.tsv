@@ -1,0 +1,21 @@
+#separator:tab
+#html:false
+#columns:Front	Back	Tags
+Dativ: der Mann →	dem Mann	lesson3::dativ
+Dativ: die Frau →	der Frau	lesson3::dativ
+Dativ: das Kind →	dem Kind	lesson3::dativ
+Dativ: die Familien (plural) →	den Familien	lesson3::dativ
+Dativ: ein Mann →	einem Mann	lesson3::dativ
+Dativ: eine Frau →	einer Frau	lesson3::dativ
+Dativ: ein Kind →	einem Kind	lesson3::dativ
+Akkusativ: der Mann →	den Mann	lesson3::akkusativ
+Akkusativ: die Frau →	die Frau (no change)	lesson3::akkusativ
+Akkusativ: das Kind →	das Kind (no change)	lesson3::akkusativ
+Akkusativ: ein Mann →	einen Mann	lesson3::akkusativ
+Akkusativ: eine Frau / ein Kind →	eine Frau / ein Kind (no change)	lesson3::akkusativ
+Genitiv: der Mann / das Kind →	des Mannes / des Kindes	lesson3::genitiv
+Genitiv: die Frau / die Familien →	der Frau / der Familien	lesson3::genitiv
+Two objects: who gets which case?	Person → Dativ, thing → Akkusativ. Ich gebe dem Mann das Buch.	lesson3::dativ
+Verbs that take the dative	helfen, danken, folgen, vertrauen, antworten, gehören, glauben, gratulieren	lesson3::dativ
+Ich helfe ___ Mann.	dem (helfen + Dativ)	lesson3::dativ
+Der Hund gehört ___ Familie.	der (gehören + Dativ)	lesson3::dativ

@@ -5,7 +5,7 @@ title: Present tense, prefixes, and articles
 topics: [verb-conjugation, prefixes, articles]
 homework:
   - text: "Praefix_A1 worksheet: fill in the 100 separable-verb sentences"
-    done: false
+    done: true
 sources:
   - Praefixe.pdf
   - Praefix_A1.rtf

@@ -127,7 +127,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   import vocab from '../data/vocab.json';
   import exercises from '../data/exercises.json';
   import rules from '../data/gender-rules.json';
-  import { modes, getMode, conjugationItems, endingItems, pronounItems } from '../lib/quiz-modes.js';
+  import { modes, getMode, conjugationItems, endingItems, pronounItems, caseItems } from '../lib/quiz-modes.js';
   import { compareTyped, compareChoice } from '../lib/compare.js';
   import { loadStats, record, resetStats } from '../lib/quiz-stats.js';
 
@@ -141,12 +141,12 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
 
   type Entry = any;
   let stats = loadStats();
-  const ALL: Record<string, Entry[]> = { vocab, exercises, rules, conjugation: conjugationItems(vocab), endings: endingItems(), pronouns: pronounItems() };
+  const ALL: Record<string, Entry[]> = { vocab, exercises, rules, conjugation: conjugationItems(vocab), endings: endingItems(), pronouns: pronounItems(), cases: caseItems() };
   const ctx = ALL;
   const dataFor = (mode: any): Entry[] => ALL[mode.source ?? 'vocab'];
   const lookup = (id: string): Entry | undefined =>
     vocab.find((e) => e.id === id) ?? exercises.find((e) => e.id === id) ?? rules.find((e) => e.id === id) ??
-    ALL.conjugation.find((e) => e.id === id) ?? ALL.endings.find((e) => e.id === id) ?? ALL.pronouns.find((e) => e.id === id);
+    ALL.conjugation.find((e) => e.id === id) ?? ALL.endings.find((e) => e.id === id) ?? ALL.pronouns.find((e) => e.id === id) ?? ALL.cases.find((e) => e.id === id);
 
   // --- pool + config ------------------------------------------------------
   function readConfig() {
@@ -509,6 +509,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   // "she → sie" and "they → sie" and the vocab entry "sie" stay distinguishable.
   function describe(entry: Entry): { label: string; kind: string } {
     if (entry.form) return { label: `${entry.verb.german} · ${entry.pronoun.en}`, kind: 'Conjugate' };
+    if (entry.case) return { label: `${entry.base} → ${entry.case}`, kind: 'Cases' };
     if (entry.de && entry.en) return { label: `${entry.en} → ${renderAnswer(entry, entry.de)}`, kind: 'Pronouns' };
     if (entry.pronoun) return { label: `${entry.pronoun.de} → ${entry.pronoun.ending}`, kind: 'Endings' };
     if (entry.suffix) return { label: `${entry.suffix} → ${renderAnswer(entry, entry.gender)}`, kind: 'Gender rule' };

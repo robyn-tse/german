@@ -35,6 +35,11 @@ const SET_LABEL: Record<string, string> = {
   gemischt: 'Mixed separable and inseparable verbs',
   'artikel-bestimmt': 'Definite article in a sentence',
   'artikel-unbestimmt': 'Indefinite article in a sentence',
+  'dativ-objekt': 'Dative: the indirect object',
+  'dativ-verben': 'Dative: verbs that take the dative',
+  'akkusativ-bestimmt': 'Accusative: den / die / das',
+  'akkusativ-unbestimmt': 'Accusative: einen / eine / ein',
+  'schwach-praesens': 'Weak verbs, present tense (homework)',
 };
 const sets = [...new Set(exercises.map((e) => e.set))].map((set) => ({
   set,

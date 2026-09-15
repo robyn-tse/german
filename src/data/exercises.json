@@ -2811,5 +2811,7505 @@
     "tags": [
       "artikel"
     ]
+  },
+  {
+    "id": "ex-dativ-001",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich gebe ___ Mann das Buch.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich gebe dem Mann das Buch.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-002",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie schenkt ___ Frau einen Ring.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Sie schenkt der Frau einen Ring.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-003",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er erklärt ___ Kind die Aufgabe.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er erklärt dem Kind die Aufgabe.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-004",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir kaufen ___ Lehrer ein Geschenk.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir kaufen dem Lehrer ein Geschenk.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-005",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich bringe ___ Mutter die Blumen.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich bringe der Mutter die Blumen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-006",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Kellner bringt ___ Gast die Rechnung.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Der Kellner bringt dem Gast die Rechnung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-007",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie leiht ___ Bruder das Auto.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie leiht dem Bruder das Auto.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-008",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er zeigt ___ Touristin den Weg.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er zeigt der Touristin den Weg.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-009",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir schicken ___ Kunden eine E-Mail.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir schicken dem Kunden eine E-Mail.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kunden is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-010",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich erzähle ___ Freund die Wahrheit.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich erzähle dem Freund die Wahrheit.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-011",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Arzt gibt ___ Patienten ein Medikament.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Der Arzt gibt dem Patienten ein Medikament.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Patienten is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-012",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie erklärt ___ Schülern die Regeln.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Sie erklärt den Schülern die Regeln.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-013",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich reiche ___ Kollegin den Stift.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich reiche der Kollegin den Stift.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-014",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er kauft ___ Tochter ein Fahrrad.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er kauft der Tochter ein Fahrrad.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-015",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir empfehlen ___ Gast das Restaurant.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir empfehlen dem Gast das Restaurant.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-016",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie bringt ___ Chef die Unterlagen.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie bringt dem Chef die Unterlagen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-017",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich zeige ___ Schwester die Fotos.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich zeige der Schwester die Fotos.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-018",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Vater liest ___ Kind eine Geschichte vor.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Der Vater liest dem Kind eine Geschichte vor.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-019",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir schicken ___ Eltern eine Postkarte.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir schicken den Eltern eine Postkarte.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-020",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er gibt ___ Frau seinen Platz.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er gibt der Frau seinen Platz.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-021",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich erkläre ___ Nachbarn das Problem.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich erkläre dem Nachbarn das Problem.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Nachbarn is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-022",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie leiht ___ Freundin ihr Kleid.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Sie leiht der Freundin ihr Kleid.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-023",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir bieten ___ Kunden einen Rabatt an.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir bieten dem Kunden einen Rabatt an.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kunden is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-024",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er bringt ___ Hund das Futter.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er bringt dem Hund das Futter.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-025",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich sende ___ Kollegen die Datei.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich sende dem Kollegen die Datei.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kollegen is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-026",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Lehrer erklärt ___ Klasse die Grammatik.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Lehrer erklärt der Klasse die Grammatik.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-027",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie kauft ___ Kind einen Ball.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie kauft dem Kind einen Ball.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-028",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir zeigen ___ Besuchern das Museum.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir zeigen den Besuchern das Museum.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-029",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich gebe ___ Verkäufer das Geld.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich gebe dem Verkäufer das Geld.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-030",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er verspricht ___ Mutter Hilfe.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er verspricht der Mutter Hilfe.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-031",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Mann schenkt ___ Frau Blumen.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Mann schenkt der Frau Blumen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-032",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich erkläre ___ Arzt die Symptome.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich erkläre dem Arzt die Symptome.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-033",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie bringt ___ Gast einen Kaffee.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie bringt dem Gast einen Kaffee.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-034",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir schicken ___ Freund eine Nachricht.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir schicken dem Freund eine Nachricht.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-035",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er leiht ___ Nachbarn die Leiter.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er leiht dem Nachbarn die Leiter.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Nachbarn is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-036",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich zeige ___ Gruppe den Plan.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich zeige der Gruppe den Plan.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-037",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Chef gibt ___ Mitarbeiterin eine Aufgabe.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Chef gibt der Mitarbeiterin eine Aufgabe.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-038",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie liest ___ Kind das Buch vor.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie liest dem Kind das Buch vor.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-039",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir kaufen ___ Vater ein Hemd.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir kaufen dem Vater ein Hemd.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-040",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich erkläre ___ Schwester den Weg.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich erkläre der Schwester den Weg.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-041",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Student stellt ___ Professor eine Frage.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Der Student stellt dem Professor eine Frage.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-042",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie gibt ___ Mann die Schlüssel.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie gibt dem Mann die Schlüssel.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-043",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich bringe ___ Freundin den Kuchen.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich bringe der Freundin den Kuchen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-044",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir schicken ___ Amt die Unterlagen.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir schicken dem Amt die Unterlagen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-045",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er zeigt ___ Besucher sein Büro.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er zeigt dem Besucher sein Büro.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-046",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Die Mutter kocht ___ Sohn das Essen.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Die Mutter kocht dem Sohn das Essen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-047",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich leihe ___ Kollegin mein Buch.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich leihe der Kollegin mein Buch.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-048",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Lehrer gibt ___ Schülern die Hausaufgaben.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Der Lehrer gibt den Schülern die Hausaufgaben.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-049",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie bringt ___ Kind die Jacke.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie bringt dem Kind die Jacke.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-050",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir erklären ___ Kunden den Vertrag.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir erklären dem Kunden den Vertrag.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kunden is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-051",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich reiche ___ Gast das Glas.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich reiche dem Gast das Glas.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-052",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er schenkt ___ Freund eine Uhr.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er schenkt dem Freund eine Uhr.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-053",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir zeigen ___ Familie die Wohnung.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Wir zeigen der Familie die Wohnung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-054",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie erklärt ___ Team den Plan.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie erklärt dem Team den Plan.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-055",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich bringe ___ Bruder die Tasche.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich bringe dem Bruder die Tasche.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-056",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Verkäufer gibt ___ Kundin die Quittung.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Verkäufer gibt der Kundin die Quittung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-057",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir schicken ___ Chef den Bericht.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir schicken dem Chef den Bericht.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-058",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er zeigt ___ Tochter das Bild.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er zeigt der Tochter das Bild.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-059",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich erkläre ___ Nachbarn die Regeln.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich erkläre dem Nachbarn die Regeln.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Nachbarn is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-060",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie bringt ___ Gast die Speisekarte.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie bringt dem Gast die Speisekarte.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-061",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Mann kauft ___ Frau einen Mantel.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Mann kauft der Frau einen Mantel.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-062",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich gebe ___ Kind die Süßigkeiten.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich gebe dem Kind die Süßigkeiten.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-063",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir erklären ___ Besucher die Ausstellung.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir erklären dem Besucher die Ausstellung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-064",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie leiht ___ Freund ihr Fahrrad.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie leiht dem Freund ihr Fahrrad.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-065",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er bringt ___ Lehrer die Entschuldigung.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er bringt dem Lehrer die Entschuldigung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-066",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich zeige ___ Kollegen die Präsentation.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich zeige dem Kollegen die Präsentation.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kollegen is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-067",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Vater liest ___ Sohn eine E-Mail vor.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Der Vater liest dem Sohn eine E-Mail vor.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-068",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir schicken ___ Firma die Rechnung.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Wir schicken der Firma die Rechnung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-069",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie gibt ___ Mann eine Antwort.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie gibt dem Mann eine Antwort.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-070",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich erkläre ___ Mutter das Problem.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich erkläre der Mutter das Problem.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-071",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Arzt erklärt ___ Patienten die Behandlung.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Der Arzt erklärt dem Patienten die Behandlung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Patienten is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-072",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich bringe ___ Gast das Menü.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich bringe dem Gast das Menü.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-073",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir zeigen ___ Kindern den Spielplatz.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir zeigen den Kindern den Spielplatz.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-074",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie schenkt ___ Nachbarin eine Pflanze.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Sie schenkt der Nachbarin eine Pflanze.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-075",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er gibt ___ Kunden eine Erklärung.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er gibt dem Kunden eine Erklärung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kunden is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-076",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich reiche ___ Lehrer das Heft.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich reiche dem Lehrer das Heft.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-077",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Mann erklärt ___ Frau den Plan.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Mann erklärt der Frau den Plan.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-078",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir schicken ___ Freund die Einladung.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir schicken dem Freund die Einladung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-079",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie bringt ___ Kind ein Geschenk.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie bringt dem Kind ein Geschenk.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-080",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich erkläre ___ Kollegen die Aufgabe.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich erkläre dem Kollegen die Aufgabe.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kollegen is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-081",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Kellner bringt ___ Gästen das Essen.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Der Kellner bringt den Gästen das Essen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-082",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich gebe ___ Schwester die Schlüssel.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich gebe der Schwester die Schlüssel.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-083",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir erklären ___ Team die Änderungen.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir erklären dem Team die Änderungen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-084",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie leiht ___ Nachbarn ihr Werkzeug.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie leiht dem Nachbarn ihr Werkzeug.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Nachbarn is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-085",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er bringt ___ Kundin die Ware.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er bringt der Kundin die Ware.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-086",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich zeige ___ Besucher den Ausgang.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich zeige dem Besucher den Ausgang.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-087",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Vater kauft ___ Sohn ein Buch.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Der Vater kauft dem Sohn ein Buch.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-088",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir schicken ___ Schule die Anmeldung.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Wir schicken der Schule die Anmeldung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-089",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie gibt ___ Mann einen Tipp.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie gibt dem Mann einen Tipp.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-090",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich erkläre ___ Freund die Situation.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich erkläre dem Freund die Situation.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-091",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Lehrer erklärt ___ Schülern die Lösung.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Der Lehrer erklärt den Schülern die Lösung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-092",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich bringe ___ Mutter den Brief.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich bringe der Mutter den Brief.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-093",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir zeigen ___ Gast das Zimmer.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir zeigen dem Gast das Zimmer.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-094",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie schenkt ___ Kind ein Spielzeug.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie schenkt dem Kind ein Spielzeug.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-095",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Er gibt ___ Kollegin eine Antwort.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er gibt der Kollegin eine Antwort.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-096",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich erkläre ___ Arzt die Beschwerden.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich erkläre dem Arzt die Beschwerden.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-097",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Der Mann bringt ___ Frau den Kaffee.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Mann bringt der Frau den Kaffee.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-098",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Wir schicken ___ Kunden die Bestätigung.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir schicken dem Kunden die Bestätigung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kunden is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativ-099",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Sie zeigt ___ Freund die Stadt.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie zeigt dem Freund die Stadt.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativ-100",
+    "lesson": 3,
+    "set": "dativ-objekt",
+    "prompt_de": "Ich gebe ___ Lehrer die Aufgabe ab.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich gebe dem Lehrer die Aufgabe ab.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-001",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich helfe ___ Mann.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich helfe dem Mann.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-002",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie dankt ___ Frau.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Sie dankt der Frau.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-003",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er folgt ___ Lehrer.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er folgt dem Lehrer.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-004",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir vertrauen ___ Arzt.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir vertrauen dem Arzt.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-005",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich antworte ___ Freundin.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich antworte der Freundin.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-006",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Der Hund gehört ___ Familie.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Hund gehört der Familie.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-007",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie glaubt ___ Kollegen.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie glaubt dem Kollegen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kollegen is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativverb-008",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er hilft ___ Kind.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er hilft dem Kind.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-009",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir danken ___ Nachbarn.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir danken dem Nachbarn.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Nachbarn is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativverb-010",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich folge ___ Anweisung.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich folge der Anweisung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-011",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Der Lehrer erklärt ___ Schüler.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Der Lehrer erklärt dem Schüler.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-012",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie gratuliert ___ Schwester.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Sie gratuliert der Schwester.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-013",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er vertraut ___ Chef.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er vertraut dem Chef.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-014",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir helfen ___ Touristen.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir helfen dem Touristen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Touristen is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativverb-015",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich antworte ___ E-Mail.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich antworte der E-Mail.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-016",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Der Schlüssel gehört ___ Wohnung.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Schlüssel gehört der Wohnung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-017",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie glaubt ___ Geschichte.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Sie glaubt der Geschichte.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-018",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er hilft ___ Mutter.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er hilft der Mutter.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-019",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir danken ___ Gästen.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir danken den Gästen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-020",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich folge ___ Regel.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich folge der Regel.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-021",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Der Lehrer hilft ___ Klasse.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Lehrer hilft der Klasse.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-022",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie vertraut ___ Freund.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie vertraut dem Freund.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-023",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er folgt ___ Weg.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er folgt dem Weg.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-024",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir antworten ___ Kunden.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir antworten dem Kunden.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kunden is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativverb-025",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich gratuliere ___ Kollegen.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich gratuliere dem Kollegen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kollegen is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativverb-026",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Das Buch gehört ___ Bibliothek.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Das Buch gehört der Bibliothek.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-027",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie hilft ___ Nachbarin.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Sie hilft der Nachbarin.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-028",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er glaubt ___ Nachricht.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er glaubt der Nachricht.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-029",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir danken ___ Lehrerin.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Wir danken der Lehrerin.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-030",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich folge ___ Plan.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich folge dem Plan.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-031",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Der Arzt hilft ___ Patienten.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Der Arzt hilft dem Patienten.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Patienten is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativverb-032",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie vertraut ___ Ärztin.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Sie vertraut der Ärztin.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-033",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er gehört ___ Verein.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er gehört dem Verein.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-034",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir helfen ___ Familie.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Wir helfen der Familie.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-035",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich danke ___ Gastgeber.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich danke dem Gastgeber.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-036",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Das Fahrrad gehört ___ Kind.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Das Fahrrad gehört dem Kind.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-037",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie glaubt ___ Gerücht.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie glaubt dem Gerücht.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-038",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er hilft ___ Vater.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er hilft dem Vater.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-039",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir antworten ___ Anfrage.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Wir antworten der Anfrage.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-040",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich folge ___ Stimme.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich folge der Stimme.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-041",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Der Lehrer vertraut ___ Schülern.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Der Lehrer vertraut den Schülern.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-042",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie hilft ___ älteren Menschen.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Sie hilft den älteren Menschen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Plural here (den älteren Menschen); singular would be dem älteren Menschen."
+  },
+  {
+    "id": "ex-dativverb-043",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er dankt ___ Kollegin.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er dankt der Kollegin.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-044",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir folgen ___ Straße.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Wir folgen der Straße.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-045",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich gratuliere ___ Sieger.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich gratuliere dem Sieger.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-046",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Das Haus gehört ___ Familie.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Das Haus gehört der Familie.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-047",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie glaubt ___ Experten.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie glaubt dem Experten.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Experten is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativverb-048",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er hilft ___ Nachbarn.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er hilft dem Nachbarn.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Nachbarn is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativverb-049",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir danken ___ Publikum.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir danken dem Publikum.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-050",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich folge ___ Vorschrift.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich folge der Vorschrift.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-051",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Der Trainer hilft ___ Mannschaft.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Trainer hilft der Mannschaft.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-052",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie vertraut ___ Polizei.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Sie vertraut der Polizei.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-053",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er gehört ___ Gruppe.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er gehört der Gruppe.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-054",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir helfen ___ Freunden.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir helfen den Freunden.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-055",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich danke ___ Verkäufer.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich danke dem Verkäufer.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-056",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Das Auto gehört ___ Firma.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Das Auto gehört der Firma.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-057",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie glaubt ___ Aussage.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Sie glaubt der Aussage.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-058",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er hilft ___ Kollegin.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er hilft der Kollegin.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-059",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir antworten ___ Bewerber.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir antworten dem Bewerber.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-060",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich folge ___ Rat.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich folge dem Rat.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-061",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Der Lehrer hilft ___ Kindern.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Der Lehrer hilft den Kindern.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-062",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie vertraut ___ Berater.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie vertraut dem Berater.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-063",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er dankt ___ Kunden.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er dankt dem Kunden.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kunden is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativverb-064",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir folgen ___ Richtung.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Wir folgen der Richtung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-065",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich gratuliere ___ Gewinner.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich gratuliere dem Gewinner.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-066",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Das Handy gehört ___ Studentin.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Das Handy gehört der Studentin.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-067",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie glaubt ___ Zeugen.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie glaubt dem Zeugen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Zeugen is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativverb-068",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er hilft ___ Großmutter.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er hilft der Großmutter.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-069",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir danken ___ Zuhörern.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir danken den Zuhörern.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-070",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich folge ___ Empfehlung.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich folge der Empfehlung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-071",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Der Arzt vertraut ___ Erfahrung.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Der Arzt vertraut der Erfahrung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-072",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie hilft ___ Flüchtlingen.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Sie hilft den Flüchtlingen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-073",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er gehört ___ Team.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er gehört dem Team.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-074",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir danken ___ Unterstützern.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir danken den Unterstützern.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-075",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich glaube ___ Freund.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich glaube dem Freund.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-076",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Das Grundstück gehört ___ Stadt.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Das Grundstück gehört der Stadt.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-077",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie hilft ___ Kollegen.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie hilft dem Kollegen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kollegen is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativverb-078",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er folgt ___ Verkehrsschild.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Er folgt dem Verkehrsschild.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-079",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir antworten ___ Nachfrage.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Wir antworten der Nachfrage.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-080",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich danke ___ Lehrern.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Ich danke den Lehrern.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-081",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Der Chef vertraut ___ Mitarbeiter.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Der Chef vertraut dem Mitarbeiter.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-082",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie glaubt ___ Ergebnis.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie glaubt dem Ergebnis.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-083",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er hilft ___ Schülerin.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er hilft der Schülerin.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-084",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir folgen ___ Tradition.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Wir folgen der Tradition.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-085",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich gratuliere ___ Paar.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich gratuliere dem Paar.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-086",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Das Geld gehört ___ Besitzer.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Das Geld gehört dem Besitzer.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-087",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie hilft ___ Kranken.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Sie hilft den Kranken.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-088",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er dankt ___ Eltern.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Er dankt den Eltern.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-089",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir glauben ___ Theorie.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Wir glauben der Theorie.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-090",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich folge ___ Gesetz.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich folge dem Gesetz.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-091",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Der Lehrer hilft ___ Auszubildenden.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Der Lehrer hilft den Auszubildenden.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-092",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie vertraut ___ Instinkt.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie vertraut dem Instinkt.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-093",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er gehört ___ Generation.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er gehört der Generation.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-094",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir danken ___ Organisation.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Wir danken der Organisation.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-095",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich glaube ___ Erklärung.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Ich glaube der Erklärung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-096",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Das Geschenk gehört ___ Kind.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Das Geschenk gehört dem Kind.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-097",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Sie hilft ___ Kunden.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Sie hilft dem Kunden.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": "Kunden is singular here (weak masculine noun); as a plural it would take den."
+  },
+  {
+    "id": "ex-dativverb-098",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Er folgt ___ Regel.",
+    "hint": null,
+    "answer": "der",
+    "full_de": "Er folgt der Regel.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-099",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Wir vertrauen ___ System.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Wir vertrauen dem System.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-dativverb-100",
+    "lesson": 3,
+    "set": "dativ-verben",
+    "prompt_de": "Ich danke ___ Publikum.",
+    "hint": null,
+    "answer": "dem",
+    "full_de": "Ich danke dem Publikum.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-001",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich sehe ___ Mann.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Ich sehe den Mann.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-002",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie kauft ___ Tasche.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie kauft die Tasche.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-003",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er liest ___ Buch.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Er liest das Buch.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-004",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir hören ___ Musik.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Wir hören die Musik.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-005",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich trinke ___ Kaffee.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Ich trinke den Kaffee.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-006",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie besucht ___ Freundin.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie besucht die Freundin.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-007",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er sucht ___ Schlüssel.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Er sucht den Schlüssel.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-008",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir finden ___ Lösung.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Wir finden die Lösung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-009",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich esse ___ Apfel.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Ich esse den Apfel.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-010",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie öffnet ___ Tür.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie öffnet die Tür.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-011",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er repariert ___ Fahrrad.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Er repariert das Fahrrad.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-012",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir brauchen ___ Antwort.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Wir brauchen die Antwort.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-013",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich höre ___ Lehrer.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Ich höre den Lehrer.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-014",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie sieht ___ Film.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Sie sieht den Film.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-015",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er bestellt ___ Pizza.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Er bestellt die Pizza.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-016",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir treffen ___ Kollegen.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir treffen den Kollegen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": "Kollegen is singular here (weak masculine noun); as a plural it would take die."
+  },
+  {
+    "id": "ex-akk-017",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich kaufe ___ Geschenk.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Ich kaufe das Geschenk.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-018",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie trägt ___ Kleid.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Sie trägt das Kleid.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-019",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er erklärt ___ Problem.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Er erklärt das Problem.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-020",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir planen ___ Reise.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Wir planen die Reise.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-021",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich schreibe ___ E-Mail.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Ich schreibe die E-Mail.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-022",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie liest ___ Zeitung.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie liest die Zeitung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-023",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er besucht ___ Arzt.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Er besucht den Arzt.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-024",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir nehmen ___ Bus.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir nehmen den Bus.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-025",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich finde ___ Idee gut.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Ich finde die Idee gut.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-026",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie hört ___ Nachricht.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie hört die Nachricht.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-027",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er sucht ___ Arbeit.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Er sucht die Arbeit.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-028",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir sehen ___ Ergebnis.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Wir sehen das Ergebnis.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-029",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich putze ___ Fenster.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Ich putze das Fenster.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-030",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie trinkt ___ Wasser.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Sie trinkt das Wasser.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-031",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er kauft ___ Auto.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Er kauft das Auto.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-032",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir mieten ___ Wohnung.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Wir mieten die Wohnung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-033",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich brauche ___ Hilfe.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Ich brauche die Hilfe.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-034",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie hört ___ Musik laut.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie hört die Musik laut.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-035",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er bringt ___ Kuchen mit.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Er bringt den Kuchen mit.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-036",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir machen ___ Pause.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Wir machen die Pause.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-037",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich sehe ___ Sterne.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Ich sehe die Sterne.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-038",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie schreibt ___ Text.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Sie schreibt den Text.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-039",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er erklärt ___ Situation.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Er erklärt die Situation.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-040",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir bestellen ___ Essen.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Wir bestellen das Essen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-041",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich suche ___ Job.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Ich suche den Job.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-042",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie liest ___ Roman.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Sie liest den Roman.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-043",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er besucht ___ Museum.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Er besucht das Museum.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-044",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir kaufen ___ Brot.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Wir kaufen das Brot.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-045",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich höre ___ Geräusch.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Ich höre das Geräusch.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-046",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie sieht ___ Unfall.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Sie sieht den Unfall.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-047",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er trägt ___ Rucksack.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Er trägt den Rucksack.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-048",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir hören ___ Vortrag.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir hören den Vortrag.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-049",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich öffne ___ Fenster.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Ich öffne das Fenster.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-050",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie schließt ___ Laden.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Sie schließt den Laden.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-051",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er malt ___ Bild.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Er malt das Bild.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-052",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir lernen ___ Sprache.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Wir lernen die Sprache.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-053",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich trinke ___ Tee.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Ich trinke den Tee.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-054",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie sucht ___ Wohnung.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie sucht die Wohnung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-055",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er liest ___ Brief.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Er liest den Brief.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-056",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir hören ___ Lied.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Wir hören das Lied.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-057",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich sehe ___ Problem.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Ich sehe das Problem.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-058",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie kauft ___ Schuhe.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie kauft die Schuhe.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-059",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er findet ___ Lösung.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Er findet die Lösung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-060",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir planen ___ Projekt.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Wir planen das Projekt.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-061",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich schreibe ___ Bericht.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Ich schreibe den Bericht.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-062",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie hört ___ Radio.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Sie hört das Radio.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-063",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er besucht ___ Schule.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Er besucht die Schule.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-064",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir machen ___ Termin.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir machen den Termin.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-065",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich sehe ___ Vorteil.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Ich sehe den Vorteil.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-066",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie kauft ___ Jacke.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie kauft die Jacke.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-067",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er erklärt ___ Regel.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Er erklärt die Regel.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-068",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir brauchen ___ Plan.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir brauchen den Plan.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-069",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich esse ___ Suppe.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Ich esse die Suppe.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-070",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie liest ___ Anleitung.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie liest die Anleitung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-071",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er sucht ___ Platz.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Er sucht den Platz.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-072",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir sehen ___ Möglichkeit.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Wir sehen die Möglichkeit.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-073",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich kaufe ___ Ticket.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Ich kaufe das Ticket.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-074",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie hört ___ Stimme.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie hört die Stimme.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-075",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er besucht ___ Stadt.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Er besucht die Stadt.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-076",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir treffen ___ Freunde.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Wir treffen die Freunde.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-077",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich schreibe ___ Nachricht.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Ich schreibe die Nachricht.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-078",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie sieht ___ Bild.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Sie sieht das Bild.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-079",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er kauft ___ Computer.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Er kauft den Computer.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-080",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir hören ___ Diskussion.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Wir hören die Diskussion.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-081",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich sehe ___ Fehler.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Ich sehe den Fehler.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-082",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie liest ___ Vertrag.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Sie liest den Vertrag.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-083",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er besucht ___ Kurs.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Er besucht den Kurs.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-084",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir machen ___ Vorschlag.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Wir machen den Vorschlag.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-085",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich höre ___ Kritik.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Ich höre die Kritik.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-086",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie kauft ___ Möbel.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie kauft die Möbel.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-087",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er erklärt ___ Aufgabe.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Er erklärt die Aufgabe.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-088",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir suchen ___ Lösung.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Wir suchen die Lösung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-089",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich esse ___ Kuchen.",
+    "hint": null,
+    "answer": "den",
+    "full_de": "Ich esse den Kuchen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-090",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie liest ___ E-Mail.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie liest die E-Mail.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-091",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er sieht ___ Chance.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Er sieht die Chance.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-092",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir hören ___ Erklärung.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Wir hören die Erklärung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-093",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich kaufe ___ Zeitung.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Ich kaufe die Zeitung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-094",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie besucht ___ Familie.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie besucht die Familie.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-095",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er findet ___ Antwort.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Er findet die Antwort.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-096",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir planen ___ Treffen.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Wir planen das Treffen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-097",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Ich sehe ___ Problem nicht.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Ich sehe das Problem nicht.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-098",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Sie hört ___ Geschichte.",
+    "hint": null,
+    "answer": "die",
+    "full_de": "Sie hört die Geschichte.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-099",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Er kauft ___ Handy.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Er kauft das Handy.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akk-100",
+    "lesson": 3,
+    "set": "akkusativ-bestimmt",
+    "prompt_de": "Wir sehen ___ Ergebnis klar.",
+    "hint": null,
+    "answer": "das",
+    "full_de": "Wir sehen das Ergebnis klar.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-001",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich kaufe ___ Regenschirm.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich kaufe einen Regenschirm.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-002",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie braucht ___ Einladung.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Sie braucht eine Einladung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-003",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er repariert ___ Laptop.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er repariert einen Laptop.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-004",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir suchen ___ Parkplatz.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Wir suchen einen Parkplatz.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-005",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich reserviere ___ Tisch.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich reserviere einen Tisch.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-006",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie trägt ___ Mantel.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie trägt einen Mantel.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-007",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er kontrolliert ___ Fahrkarte.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Er kontrolliert eine Fahrkarte.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-008",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir besprechen ___ Thema.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Wir besprechen ein Thema.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-009",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich packe ___ Koffer.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich packe einen Koffer.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-010",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie benutzt ___ Wörterbuch.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Sie benutzt ein Wörterbuch.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-011",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er wechselt ___ Reifen.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er wechselt einen Reifen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-012",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir besuchen ___ Ausstellung.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Wir besuchen eine Ausstellung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-013",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich nehme ___ Foto.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Ich nehme ein Foto.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-014",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie organisiert ___ Feier.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Sie organisiert eine Feier.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-015",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er überprüft ___ Rechnung.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Er überprüft eine Rechnung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-016",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir sammeln ___ Informationen.",
+    "hint": null,
+    "answer": "–",
+    "full_de": "Wir sammeln Informationen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-017",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich kaufe ___ Zahnbürste.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Ich kaufe eine Zahnbürste.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-018",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie braucht ___ Passwort.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Sie braucht ein Passwort.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-019",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er erklärt ___ Unterschied.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er erklärt einen Unterschied.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-020",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir testen ___ Produkt.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Wir testen ein Produkt.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-021",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich schreibe ___ Bewerbung.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Ich schreibe eine Bewerbung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-022",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie wählt ___ Kandidaten.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie wählt einen Kandidaten.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": "Kandidaten is singular here (weak masculine noun); as a plural it would take –."
+  },
+  {
+    "id": "ex-akkind-023",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er benutzt ___ Taschenlampe.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Er benutzt eine Taschenlampe.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-024",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir planen ___ Umzug.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Wir planen einen Umzug.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-025",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich bestelle ___ Salat.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich bestelle einen Salat.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-026",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie akzeptiert ___ Angebot.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Sie akzeptiert ein Angebot.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-027",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er besucht ___ Kundenservice.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er besucht einen Kundenservice.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-028",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir diskutieren ___ Vorschrift.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Wir diskutieren eine Vorschrift.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-029",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich unterschreibe ___ Vertrag.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich unterschreibe einen Vertrag.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-030",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie überprüft ___ Adresse.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Sie überprüft eine Adresse.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-031",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er tankt ___ Wagen.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er tankt einen Wagen.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-032",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir kaufen ___ Kalender.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Wir kaufen einen Kalender.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-033",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich lade ___ Datei herunter.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Ich lade eine Datei herunter.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-034",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie erklärt ___ Vorteil.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie erklärt einen Vorteil.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-035",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er sucht ___ Werkzeug.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Er sucht ein Werkzeug.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-036",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir pflanzen ___ Baum.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Wir pflanzen einen Baum.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-037",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich schneide ___ Papier.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Ich schneide ein Papier.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-038",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie beantwortet ___ Frage.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Sie beantwortet eine Frage.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-039",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er kocht ___ Reis.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er kocht einen Reis.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-040",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir renovieren ___ Küche.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Wir renovieren eine Küche.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-041",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich kaufe ___ Spiegel.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich kaufe einen Spiegel.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-042",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie bringt ___ Vorschlag.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie bringt einen Vorschlag.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-043",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er repariert ___ Drucker.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er repariert einen Drucker.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-044",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir hören ___ Podcast.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Wir hören einen Podcast.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-045",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich schreibe ___ Notiz.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Ich schreibe eine Notiz.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-046",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie malt ___ Wand.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Sie malt eine Wand.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-047",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er öffnet ___ Paket.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Er öffnet ein Paket.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-048",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir prüfen ___ Termin.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Wir prüfen einen Termin.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-049",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich brauche ___ Ladegerät.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Ich brauche ein Ladegerät.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-050",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie trägt ___ Helm.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie trägt einen Helm.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-051",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er installiert ___ Programm.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Er installiert ein Programm.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-052",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir besuchen ___ Markt.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Wir besuchen einen Markt.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-053",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich nehme ___ Medikament.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Ich nehme ein Medikament.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-054",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie organisiert ___ Reiseplan.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie organisiert einen Reiseplan.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-055",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er liest ___ Bericht sorgfältig.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er liest einen Bericht sorgfältig.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-056",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir kaufen ___ Teppich.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Wir kaufen einen Teppich.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-057",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich trage ___ Ring.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich trage einen Ring.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-058",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie putzt ___ Boden.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie putzt einen Boden.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-059",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er bestellt ___ Nachtisch.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er bestellt einen Nachtisch.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-060",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir mieten ___ Fahrzeug.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Wir mieten ein Fahrzeug.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-061",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich brauche ___ Versicherung.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Ich brauche eine Versicherung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-062",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie schreibt ___ Kommentar.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie schreibt einen Kommentar.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-063",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er kontrolliert ___ Ausweis.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er kontrolliert einen Ausweis.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-064",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir kaufen ___ Bildschirm.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Wir kaufen einen Bildschirm.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-065",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich wähle ___ Nummer.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Ich wähle eine Nummer.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-066",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie bringt ___ Lösungsvorschlag.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie bringt einen Lösungsvorschlag.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-067",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er sucht ___ Ansprechpartner.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er sucht einen Ansprechpartner.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-068",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir testen ___ System.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Wir testen ein System.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-069",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich bestelle ___ Getränk.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Ich bestelle ein Getränk.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-070",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie liest ___ Formular.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Sie liest ein Formular.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-071",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er benutzt ___ Navigation.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Er benutzt eine Navigation.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-072",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir planen ___ Veranstaltung.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Wir planen eine Veranstaltung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-073",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich kaufe ___ Handtuch.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Ich kaufe ein Handtuch.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-074",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie erklärt ___ Zusammenhang.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie erklärt einen Zusammenhang.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-075",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er sucht ___ Beweis.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er sucht einen Beweis.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-076",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir besuchen ___ Theaterstück.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Wir besuchen ein Theaterstück.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-077",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich nehme ___ Stift.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Ich nehme einen Stift.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-078",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie organisiert ___ Terminplan.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie organisiert einen Terminplan.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-079",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er kontrolliert ___ Eingang.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er kontrolliert einen Eingang.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-080",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir diskutieren ___ Problemstellung.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Wir diskutieren eine Problemstellung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-081",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich schreibe ___ Einladungskarte.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Ich schreibe eine Einladungskarte.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-082",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie kauft ___ Rucksack.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie kauft einen Rucksack.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-083",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er repariert ___ Heizung.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Er repariert eine Heizung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-084",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir prüfen ___ Möglichkeit.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Wir prüfen eine Möglichkeit.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-085",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich bestelle ___ Suppe.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Ich bestelle eine Suppe.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-086",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie beantwortet ___ Anruf.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie beantwortet einen Anruf.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-087",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er benutzt ___ Werkzeugkasten.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er benutzt einen Werkzeugkasten.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-088",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir planen ___ Weiterbildung.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Wir planen eine Weiterbildung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-089",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich unterschreibe ___ Formular.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Ich unterschreibe ein Formular.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-090",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie kontrolliert ___ Qualität.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Sie kontrolliert eine Qualität.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-091",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er kauft ___ Kopfhörer.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er kauft einen Kopfhörer.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-092",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir besuchen ___ Workshop.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Wir besuchen einen Workshop.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-093",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich lade ___ App herunter.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Ich lade eine App herunter.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-094",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie schreibt ___ Bericht.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Sie schreibt einen Bericht.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-095",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er überprüft ___ Kontoauszug.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er überprüft einen Kontoauszug.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-096",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir kaufen ___ Pflanze.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Wir kaufen eine Pflanze.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-097",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Ich brauche ___ Ersatzteil.",
+    "hint": null,
+    "answer": "ein",
+    "full_de": "Ich brauche ein Ersatzteil.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-098",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Sie organisiert ___ Besprechung.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Sie organisiert eine Besprechung.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-099",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Er sucht ___ Ausgang.",
+    "hint": null,
+    "answer": "einen",
+    "full_de": "Er sucht einen Ausgang.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-akkind-100",
+    "lesson": 3,
+    "set": "akkusativ-unbestimmt",
+    "prompt_de": "Wir testen ___ Methode.",
+    "hint": null,
+    "answer": "eine",
+    "full_de": "Wir testen eine Methode.",
+    "en": null,
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-001",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ in einer kleinen Wohnung in Wien.",
+    "hint": "wohnen",
+    "answer": "wohne",
+    "full_de": "Ich wohne in einer kleinen Wohnung in Wien.",
+    "en": "I live in a small apartment in Vienna.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-002",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ du heute Abend Musik?",
+    "hint": "hören",
+    "answer": "Hörst",
+    "full_de": "Hörst du heute Abend Musik?",
+    "en": "Are you listening to music tonight?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-003",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ jeden Tag acht Stunden.",
+    "hint": "arbeiten",
+    "answer": "arbeitet",
+    "full_de": "Er arbeitet jeden Tag acht Stunden.",
+    "en": "He works eight hours every day.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-004",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ gerne Italienisch im Sprachkurs.",
+    "hint": "lernen",
+    "answer": "lernen",
+    "full_de": "Wir lernen gerne Italienisch im Sprachkurs.",
+    "en": "We enjoy learning Italian in the language course.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-005",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Sie ___ in der Küche ein leckeres Essen.",
+    "hint": "kochen",
+    "answer": "kochen",
+    "full_de": "Sie kochen in der Küche ein leckeres Essen.",
+    "en": "They are cooking a delicious meal in the kitchen.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-006",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Mein Vater ___ jeden Morgen Tee.",
+    "hint": "machen",
+    "answer": "macht",
+    "full_de": "Mein Vater macht jeden Morgen Tee.",
+    "en": "My father makes tea every morning.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-007",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ am Wochenende immer meine Großeltern.",
+    "hint": "besuchen",
+    "answer": "besuche",
+    "full_de": "Ich besuche am Wochenende immer meine Großeltern.",
+    "en": "I always visit my grandparents on the weekend.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-008",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ ihr im Sommer nach Spanien?",
+    "hint": "reisen",
+    "answer": "Reist",
+    "full_de": "Reist ihr im Sommer nach Spanien?",
+    "en": "Are you traveling to Spain in the summer?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-009",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Maria ___ eine neue Jacke für den Winter.",
+    "hint": "kaufen",
+    "answer": "kauft",
+    "full_de": "Maria kauft eine neue Jacke für den Winter.",
+    "en": "Maria is buying a new jacket for the winter.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-010",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ auf die Ankunft des Zuges.",
+    "hint": "warten",
+    "answer": "warten",
+    "full_de": "Wir warten auf die Ankunft des Zuges.",
+    "en": "We are waiting for the arrival of the train.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-011",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ meine Schlüssel in der Tasche.",
+    "hint": "suchen",
+    "answer": "suche",
+    "full_de": "Ich suche meine Schlüssel in der Tasche.",
+    "en": "I am searching for my keys in the bag.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-012",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ die schwierige Frage der Lehrerin.",
+    "hint": "beantworten",
+    "answer": "beantwortet",
+    "full_de": "Er beantwortet die schwierige Frage der Lehrerin.",
+    "en": "He answers the teacher's difficult question.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-013",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ du deinen Geburtstag im Juli?",
+    "hint": "feiern",
+    "answer": "Feierst",
+    "full_de": "Feierst du deinen Geburtstag im Juli?",
+    "en": "Are you celebrating your birthday in July?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-014",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Die Kinder ___ fröhlich im Garten.",
+    "hint": "spielen",
+    "answer": "spielen",
+    "full_de": "Die Kinder spielen fröhlich im Garten.",
+    "en": "The children are playing happily in the garden.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-015",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Sie ___ das Fenster, weil es kalt ist.",
+    "hint": "öffnen",
+    "answer": "öffnet",
+    "full_de": "Sie öffnet das Fenster, weil es kalt ist.",
+    "en": "She opens the window because it is cold.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-016",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ die Möbel in das neue Haus.",
+    "hint": "stellen",
+    "answer": "stellen",
+    "full_de": "Wir stellen die Möbel in das neue Haus.",
+    "en": "We are putting the furniture into the new house.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-017",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ meinem Freund eine kurze Nachricht.",
+    "hint": "schicken",
+    "answer": "schicke",
+    "full_de": "Ich schicke meinem Freund eine kurze Nachricht.",
+    "en": "I am sending my friend a short message.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-018",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ ihr morgen eure Wohnung?",
+    "hint": "putzen",
+    "answer": "Putzt",
+    "full_de": "Putzt ihr morgen eure Wohnung?",
+    "en": "Are you cleaning your apartment tomorrow?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-019",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Der Hund ___ laut im Hof.",
+    "hint": "bellen",
+    "answer": "bellt",
+    "full_de": "Der Hund bellt laut im Hof.",
+    "en": "The dog is barking loudly in the yard.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-020",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ an die Tür, aber niemand antwortet.",
+    "hint": "klopfen",
+    "answer": "klopft",
+    "full_de": "Er klopft an die Tür, aber niemand antwortet.",
+    "en": "He knocks on the door, but nobody answers.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-021",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Der Lehrer ___ die Grammatik sehr gut.",
+    "hint": "erklären",
+    "answer": "erklärt",
+    "full_de": "Der Lehrer erklärt die Grammatik sehr gut.",
+    "en": "The teacher explains the grammar very well.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-022",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ ein altes Fahrrad im Internet.",
+    "hint": "verkaufen",
+    "answer": "verkaufe",
+    "full_de": "Ich verkaufe ein altes Fahrrad im Internet.",
+    "en": "I am selling an old bicycle on the internet.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-023",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ du mir bitte das Salz?",
+    "hint": "reichen",
+    "answer": "Reichst",
+    "full_de": "Reichst du mir bitte das Salz?",
+    "en": "Will you please pass me the salt?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-024",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ die Kosten für die Reise gemeinsam.",
+    "hint": "teilen",
+    "answer": "teilen",
+    "full_de": "Wir teilen die Kosten für die Reise gemeinsam.",
+    "en": "We are sharing the costs for the trip together.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-025",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ ein schönes Bild von der Landschaft.",
+    "hint": "malen",
+    "answer": "malt",
+    "full_de": "Er malt ein schönes Bild von der Landschaft.",
+    "en": "He is painting a beautiful picture of the landscape.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-026",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Sie ___ lange über das Problem.",
+    "hint": "diskutieren",
+    "answer": "diskutieren",
+    "full_de": "Sie diskutieren lange über das Problem.",
+    "en": "They are discussing the problem for a long time.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-027",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ die Einladung per E-Mail.",
+    "hint": "bestätigen",
+    "answer": "bestätige",
+    "full_de": "Ich bestätige die Einladung per E-Mail.",
+    "en": "I am confirming the invitation via email.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-028",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ ihr gern im See?",
+    "hint": "baden",
+    "answer": "Badet",
+    "full_de": "Badet ihr gern im See?",
+    "en": "Do you like swimming in the lake?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-029",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Der Student ___ die Vokabeln auf eine Karteikarte.",
+    "hint": "notieren",
+    "answer": "notiert",
+    "full_de": "Der Student notiert die Vokabeln auf eine Karteikarte.",
+    "en": "The student notes down the vocabulary on an index card.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-030",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ das Zimmer für die Gäste.",
+    "hint": "reservieren",
+    "answer": "reservieren",
+    "full_de": "Wir reservieren das Zimmer für die Gäste.",
+    "en": "We are reserving the room for the guests.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-031",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ das Ticket am Automaten.",
+    "hint": "lösen",
+    "answer": "löse",
+    "full_de": "Ich löse das Ticket am Automaten.",
+    "en": "I am buying the ticket at the machine.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-032",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ den Müll fachgerecht.",
+    "hint": "entsorgen",
+    "answer": "entsorgt",
+    "full_de": "Er entsorgt den Müll fachgerecht.",
+    "en": "He disposes of the trash properly.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-033",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ du deinen Urlaub im Reisebüro?",
+    "hint": "buchen",
+    "answer": "Buchst",
+    "full_de": "Buchst du deinen Urlaub im Reisebüro?",
+    "en": "Are you booking your vacation at the travel agency?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-034",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Die Schüler ___ dem Lehrer aufmerksam ___.",
+    "hint": "zuhören",
+    "answer": "hören zu",
+    "full_de": "Die Schüler hören dem Lehrer aufmerksam zu.",
+    "en": "The students listen attentively to the teacher.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-035",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Sie ___ das Dokument sorgfältig.",
+    "hint": "prüfen",
+    "answer": "prüft",
+    "full_de": "Sie prüft das Dokument sorgfältig.",
+    "en": "She checks the document carefully.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-036",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ die Aufgaben in der Gruppe.",
+    "hint": "lösen",
+    "answer": "lösen",
+    "full_de": "Wir lösen die Aufgaben in der Gruppe.",
+    "en": "We solve the tasks in the group.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-037",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ mein Handy auf den Tisch.",
+    "hint": "legen",
+    "answer": "lege",
+    "full_de": "Ich lege mein Handy auf den Tisch.",
+    "en": "I lay my cell phone on the table.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-038",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ ihr im Sommer im Zelt?",
+    "hint": "zelten",
+    "answer": "Zeltet",
+    "full_de": "Zeltet ihr im Sommer im Zelt?",
+    "en": "Are you camping in a tent during the summer?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-039",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Der Mann ___ sein Auto in der Garage.",
+    "hint": "parken",
+    "answer": "parkt",
+    "full_de": "Der Mann parkt sein Auto in der Garage.",
+    "en": "The man parks his car in the garage.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-040",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ das Essen im Restaurant.",
+    "hint": "bezahlen",
+    "answer": "bezahlt",
+    "full_de": "Er bezahlt das Essen im Restaurant.",
+    "en": "He pays for the food in the restaurant.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-041",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ neue Blumen im Garten.",
+    "hint": "pflanzen",
+    "answer": "pflanze",
+    "full_de": "Ich pflanze neue Blumen im Garten.",
+    "en": "I am planting new flowers in the garden.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-042",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ du die Schuhe vor der Tür?",
+    "hint": "putzen",
+    "answer": "Putzt",
+    "full_de": "Putzt du die Schuhe vor der Tür?",
+    "en": "Are you cleaning the shoes in front of the door?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-043",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ das Fenster ___.",
+    "hint": "zumachen",
+    "answer": "macht zu",
+    "full_de": "Er macht das Fenster zu.",
+    "en": "He is closing the window.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-044",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ den Weg zum Bahnhof.",
+    "hint": "suchen",
+    "answer": "suchen",
+    "full_de": "Wir suchen den Weg zum Bahnhof.",
+    "en": "We are looking for the way to the train station.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-045",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Sie ___ im Park spazieren.",
+    "hint": "wandern",
+    "answer": "wandern",
+    "full_de": "Sie wandern im Park spazieren.",
+    "en": "They are hiking in the park.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-046",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ die Wäsche auf die Leine.",
+    "hint": "hängen",
+    "answer": "hänge",
+    "full_de": "Ich hänge die Wäsche auf die Leine.",
+    "en": "I am hanging the laundry on the line.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-047",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ ihr das Holz für das Lagerfeuer?",
+    "hint": "sammeln",
+    "answer": "Sammelt",
+    "full_de": "Sammelt ihr das Holz für das Lagerfeuer?",
+    "en": "Are you gathering the wood for the campfire?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-048",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Das Baby ___ glücklicherweise nicht.",
+    "hint": "weinen",
+    "answer": "weint",
+    "full_de": "Das Baby weint glücklicherweise nicht.",
+    "en": "Fortunately, the baby is not crying.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-049",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ die Koffer für die Abreise.",
+    "hint": "packen",
+    "answer": "packen",
+    "full_de": "Wir packen die Koffer für die Abreise.",
+    "en": "We are packing the suitcases for departure.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-050",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ das Licht im Flur ___.",
+    "hint": "einschalten",
+    "answer": "schaltet ein",
+    "full_de": "Er schaltet das Licht im Flur ein.",
+    "en": "He turns on the light in the hallway.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-051",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ das Geschirr nach dem Essen.",
+    "hint": "spülen",
+    "answer": "spüle",
+    "full_de": "Ich spüle das Geschirr nach dem Essen.",
+    "en": "I wash the dishes after the meal.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-052",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ du das Bild an die Wand?",
+    "hint": "hängen",
+    "answer": "Hängst",
+    "full_de": "Hängst du das Bild an die Wand?",
+    "en": "Are you hanging the picture on the wall?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-053",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Die Vögel ___ im Baum.",
+    "hint": "zwitschern",
+    "answer": "zwitschern",
+    "full_de": "Die Vögel zwitschern im Baum.",
+    "en": "The birds are chirping in the tree.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-054",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ den Geburtstag unseres Sohnes.",
+    "hint": "planen",
+    "answer": "planen",
+    "full_de": "Wir planen den Geburtstag unseres Sohnes.",
+    "en": "We are planning our son's birthday.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-055",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Sie ___ das Formular mit einem Kugelschreiber ___.",
+    "hint": "ausfüllen",
+    "answer": "füllt aus",
+    "full_de": "Sie füllt das Formular mit einem Kugelschreiber aus.",
+    "en": "She fills out the form with a ballpoint pen.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-056",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ die Kerze auf dem Tisch ___.",
+    "hint": "anzünden",
+    "answer": "zünde an",
+    "full_de": "Ich zünde die Kerze auf dem Tisch an.",
+    "en": "I am lighting the candle on the table.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-057",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ ihr den Bus zur Arbeit?",
+    "hint": "nutzen",
+    "answer": "Nutzt",
+    "full_de": "Nutzt ihr den Bus zur Arbeit?",
+    "en": "Do you use the bus to get to work?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-058",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Der Mechaniker ___ das kaputte Auto.",
+    "hint": "reparieren",
+    "answer": "repariert",
+    "full_de": "Der Mechaniker repariert das kaputte Auto.",
+    "en": "The mechanic repairs the broken car.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-059",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ das Geld auf sein Bankkonto.",
+    "hint": "überweisen",
+    "answer": "überweist",
+    "full_de": "Er überweist das Geld auf sein Bankkonto.",
+    "en": "He transfers the money to his bank account.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-060",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ die Wohnung vor dem Einzug.",
+    "hint": "renovieren",
+    "answer": "renovieren",
+    "full_de": "Wir renovieren die Wohnung vor dem Einzug.",
+    "en": "We are renovating the apartment before moving in.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-061",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ mich für das schöne Geschenk.",
+    "hint": "bedanken",
+    "answer": "bedanke",
+    "full_de": "Ich bedanke mich für das schöne Geschenk.",
+    "en": "I thank you for the lovely gift.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-062",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ du mir deinen Stift?",
+    "hint": "borgen",
+    "answer": "Borgst",
+    "full_de": "Borgst du mir deinen Stift?",
+    "en": "Will you lend me your pen?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-063",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ seinen Freunden eine lustige Geschichte.",
+    "hint": "erzählen",
+    "answer": "erzählt",
+    "full_de": "Er erzählt seinen Freunden eine lustige Geschichte.",
+    "en": "He tells a funny story to his friends.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-064",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ auf eine schnelle Antwort der Behörde.",
+    "hint": "hoffen",
+    "answer": "hoffen",
+    "full_de": "Wir hoffen auf eine schnelle Antwort der Behörde.",
+    "en": "We hope for a quick answer from the authority.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-065",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Sie ___ über den Witz des Lehrers.",
+    "hint": "lachen",
+    "answer": "lachen",
+    "full_de": "Sie lachen über den Witz des Lehrers.",
+    "en": "They are laughing at the teacher's joke.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-066",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ deinen Fleiß.",
+    "hint": "loben",
+    "answer": "lobe",
+    "full_de": "Ich lobe deinen Fleiß.",
+    "en": "I praise your diligence.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-067",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ ihr die Wahrheit?",
+    "hint": "sagen",
+    "answer": "Sagt",
+    "full_de": "Sagt ihr die Wahrheit?",
+    "en": "Are you telling the truth?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-068",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Der Arzt ___ ein Medikament.",
+    "hint": "verordnen",
+    "answer": "verordnet",
+    "full_de": "Der Arzt verordnet ein Medikament.",
+    "en": "The doctor prescribes a medication.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-069",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Sie ___ ihren Freunden zum Geburtstag.",
+    "hint": "gratulieren",
+    "answer": "gratuliert",
+    "full_de": "Sie gratuliert ihren Freunden zum Geburtstag.",
+    "en": "She congratulates her friends on their birthday.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-070",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ uns auf das Wochenende.",
+    "hint": "freuen",
+    "answer": "freuen",
+    "full_de": "Wir freuen uns auf das Wochenende.",
+    "en": "We are looking forward to the weekend.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-071",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ mich wegen der Verspätung.",
+    "hint": "entschuldigen",
+    "answer": "entschuldige",
+    "full_de": "Ich entschuldige mich wegen der Verspätung.",
+    "en": "I apologize for the delay.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-072",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ du an das Treffen morgen?",
+    "hint": "erinnern",
+    "answer": "Erinnerst",
+    "full_de": "Erinnerst du an das Treffen morgen?",
+    "en": "Do you remember the meeting tomorrow?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-073",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ den Fehler sofort.",
+    "hint": "bemerken",
+    "answer": "bemerkt",
+    "full_de": "Er bemerkt den Fehler sofort.",
+    "en": "He notices the mistake immediately.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-074",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ die Regeln im Kurs.",
+    "hint": "beachten",
+    "answer": "beachten",
+    "full_de": "Wir beachten die Regeln im Kurs.",
+    "en": "We pay attention to the rules in the course.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-075",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Sie ___ dem neuen Nachbarn.",
+    "hint": "grüßen",
+    "answer": "grüßen",
+    "full_de": "Sie grüßen dem neuen Nachbarn.",
+    "en": "They greet the new neighbor.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-076",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ meine Meinung zum Thema.",
+    "hint": "äußern",
+    "answer": "äußere",
+    "full_de": "Ich äußere meine Meinung zum Thema.",
+    "en": "I express my opinion on the topic.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-077",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ ihr mir die Adresse ___?",
+    "hint": "mitteilen",
+    "answer": "Teilt mit",
+    "full_de": "Teilt ihr mir die Adresse mit?",
+    "en": "Will you share the address with me?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-078",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Der Mann ___ die Polizei nach dem Unfall.",
+    "hint": "informieren",
+    "answer": "informiert",
+    "full_de": "Der Mann informiert die Polizei nach dem Unfall.",
+    "en": "The man informs the police after the accident.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-079",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ auf meine Nachricht nicht.",
+    "hint": "antworten",
+    "answer": "antwortet",
+    "full_de": "Er antwortet auf meine Nachricht nicht.",
+    "en": "He does not answer my message.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-080",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ den Gästen eine gute Reise.",
+    "hint": "wünschen",
+    "answer": "wünschen",
+    "full_de": "Wir wünschen den Gästen eine gute Reise.",
+    "en": "We wish the guests a safe trip.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-081",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ die Kleidung vor dem Waschen.",
+    "hint": "sortieren",
+    "answer": "sortiere",
+    "full_de": "Ich sortiere die Kleidung vor dem Waschen.",
+    "en": "I sort the clothes before washing.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-082",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ du das Problem mit deinem Chef?",
+    "hint": "klären",
+    "answer": "Klärst",
+    "full_de": "Klärst du das Problem mit deinem Chef?",
+    "en": "Are you clarifying the issue with your boss?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-083",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ die Schachtel mit Klebeband.",
+    "hint": "kleben",
+    "answer": "klebt",
+    "full_de": "Er klebt die Schachtel mit Klebeband.",
+    "en": "He tapes the box with adhesive tape.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-084",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ die Kosten für das Projekt.",
+    "hint": "schätzen",
+    "answer": "schätzen",
+    "full_de": "Wir schätzen die Kosten für das Projekt.",
+    "en": "We estimate the costs for the project.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-085",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Sie ___ das Ziel der Wanderung.",
+    "hint": "erreichen",
+    "answer": "erreichen",
+    "full_de": "Sie erreichen das Ziel der Wanderung.",
+    "en": "They reach the destination of the hike.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-086",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ das Paket bei der Post ___.",
+    "hint": "abholen",
+    "answer": "hole ab",
+    "full_de": "Ich hole das Paket bei der Post ab.",
+    "en": "I am picking up the package at the post office.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-087",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ ihr den Termin auf nächsten Dienstag?",
+    "hint": "verschieben",
+    "answer": "Verschiebt",
+    "full_de": "Verschiebt ihr den Termin auf nächsten Dienstag?",
+    "en": "Are you postponing the appointment to next Tuesday?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-088",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Das Auto ___ vor der roten Ampel.",
+    "hint": "stoppen",
+    "answer": "stoppt",
+    "full_de": "Das Auto stoppt vor der roten Ampel.",
+    "en": "The car stops in front of the red traffic light.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-089",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Sie ___ die Bluse vor dem Vorstellungsgespräch.",
+    "hint": "bügeln",
+    "answer": "bügelt",
+    "full_de": "Sie bügelt die Bluse vor dem Vorstellungsgespräch.",
+    "en": "She irons the blouse before the job interview.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-090",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ das Ergebnis der Prüfung.",
+    "hint": "erwarten",
+    "answer": "erwarten",
+    "full_de": "Wir erwarten das Ergebnis der Prüfung.",
+    "en": "We expect the result of the exam.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-091",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ den Schrank in die Ecke.",
+    "hint": "rücken",
+    "answer": "rücke",
+    "full_de": "Ich rücke den Schrank in die Ecke.",
+    "en": "I move the cabinet into the corner.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-092",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ du dein Fahrrad regelmäßig?",
+    "hint": "pflegen",
+    "answer": "Pflegst",
+    "full_de": "Pflegst du dein Fahrrad regelmäßig?",
+    "en": "Do you maintain your bicycle regularly?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-093",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ den Ball weit über das Feld.",
+    "hint": "passen",
+    "answer": "passt",
+    "full_de": "Er passt den Ball weit über das Feld.",
+    "en": "He passes the ball far across the field.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-094",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ die Arbeit pünktlich um 17 Uhr.",
+    "hint": "beenden",
+    "answer": "beenden",
+    "full_de": "Wir beenden die Arbeit pünktlich um 17 Uhr.",
+    "en": "We finish the work punctually at 5 p.m.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-095",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Sie ___ das Angebot des Verkäufers.",
+    "hint": "prüfen",
+    "answer": "prüfen",
+    "full_de": "Sie prüfen das Angebot des Verkäufers.",
+    "en": "They check the seller's offer.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-096",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Ich ___ meinen Namen auf die Liste.",
+    "hint": "setzen",
+    "answer": "setze",
+    "full_de": "Ich setze meinen Namen auf die Liste.",
+    "en": "I put my name on the list.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-097",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "___ ihr das Licht im Zimmer?",
+    "hint": "dimmen",
+    "answer": "Dimmt",
+    "full_de": "Dimmt ihr das Licht im Zimmer?",
+    "en": "Are you dimming the light in the room?",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-098",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Der Kurs ___ um Punkt 9 Uhr.",
+    "hint": "starten",
+    "answer": "startet",
+    "full_de": "Der Kurs startet um Punkt 9 Uhr.",
+    "en": "The course starts at 9 o'clock sharp.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-099",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Er ___ die Suppe mit etwas Salz.",
+    "hint": "würzen",
+    "answer": "würzt",
+    "full_de": "Er würzt die Suppe mit etwas Salz.",
+    "en": "He seasons the soup with some salt.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
+  },
+  {
+    "id": "ex-schwach-100",
+    "lesson": 3,
+    "set": "schwach-praesens",
+    "prompt_de": "Wir ___ das Thema in der nächsten Stunde.",
+    "hint": "wiederholen",
+    "answer": "wiederholen",
+    "full_de": "Wir wiederholen das Thema in der nächsten Stunde.",
+    "en": "We will review the topic in the next lesson.",
+    "vocab_id": null,
+    "tags": [
+      "schwach"
+    ],
+    "note": null
   }
 ]
