@@ -133,7 +133,12 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
         {sets.map((s) => (
           <li>
             <span>{s.label} <span class="muted small">({s.count})</span></span>
-            {s.mode && <a class="btn" href={url('/quiz/') + `?mode=${s.mode}`}>Drill</a>}
+            {s.mode && (
+              <span class="set-links">
+                <a class="btn" href={url('/quiz/') + `?mode=${s.mode}`}>Drill</a>
+                <a class="btn btn-primary" href={url('/quiz/') + `?mode=${s.mode}&sheet=${s.set}`}>Do the sheet</a>
+              </span>
+            )}
           </li>
         ))}
       </ul>
@@ -166,6 +171,7 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
   }
   .sets { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.4rem; max-width: 40rem; }
   .sets li { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.4rem 0; border-bottom: 1px solid var(--border); }
+  .set-links { display: flex; gap: 0.4rem; flex: none; }
   .linkish { all: unset; cursor: pointer; color: var(--accent); text-decoration: underline; }
   .pager { display: flex; justify-content: space-between; margin-top: 3rem; }
 </style>

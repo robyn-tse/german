@@ -14,6 +14,8 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
 <Base title="Quiz">
   <h1>Quiz</h1>
 
+  <p class="sheet-banner card" id="sheet-banner" hidden></p>
+
   <!-- ---------------------------------------------------------------- setup -->
   <form id="setup" class="setup" aria-label="Quiz setup">
     <fieldset>
@@ -163,6 +165,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   }
   function poolFor(cfg: ReturnType<typeof readConfig>) {
     const mode = getMode(cfg.mode)!;
+    if (sheet && mode.source === 'exercises') return dataFor(mode).filter((e) => e.set === sheet && mode.filter(e, ctx));
     return dataFor(mode).filter(
       (e) =>
         mode.filter(e, ctx) &&
@@ -186,10 +189,19 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     ($('start') as HTMLButtonElement).disabled = n === 0;
   }
   // ?mode=<id> preselects a mode (lesson pages link here per exercise set)
+  // ?sheet=<set> runs one worksheet block start to finish, in order, all sentences
+  const sheet = new URLSearchParams(location.search).get('sheet');
   const wanted = new URLSearchParams(location.search).get('mode');
   if (wanted && getMode(wanted)) {
     const radio = setup.querySelector<HTMLInputElement>(`input[name=mode][value="${wanted}"]`);
     if (radio) radio.checked = true;
+  }
+  if (sheet) {
+    const n = poolFor(readConfig()).length;
+    const banner = $('sheet-banner');
+    banner.hidden = false;
+    banner.textContent = `Worksheet mode: all ${n} sentences of this block, in order, graded as you go. Lower the number of questions for a shorter run.`;
+    (setup.querySelector('input[name=length]') as HTMLInputElement).value = String(n);
   }
   setup.addEventListener('input', updatePoolInfo);
   updatePoolInfo();
@@ -215,11 +227,12 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     const mode = getMode(cfg.mode)!;
     const pool = queue ?? poolFor(cfg);
     if (!pool.length) return;
-    session = { mode, style: cfg.style, queue: queue ? shuffle(queue) : shuffle(pool).slice(0, cfg.length), index: 0, results: [] };
+    const ordered = sheet ? pool : shuffle(pool); // worksheet mode keeps the sheet's order
+    session = { mode, style: cfg.style, queue: queue ? shuffle(queue) : ordered.slice(0, cfg.length), index: 0, results: [] };
     setup.hidden = true;
     summary.hidden = true;
     play.hidden = false;
-    $('mode-name').textContent = `${mode.label}${cfg.style === 'cards' ? ' · flashcards' : ''}`;
+    $('mode-name').textContent = `${mode.label}${sheet ? ' · worksheet' : ''}${cfg.style === 'cards' ? ' · flashcards' : ''}`;
     ask();
   }
 
@@ -551,6 +564,7 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
 
 <style>
   .setup { max-width: 40rem; display: grid; gap: 1rem; }
+  .sheet-banner { max-width: 40rem; margin: 0 0 1rem; font-size: 0.95rem; }
   fieldset { border: 1px solid var(--border); border-radius: var(--radius); padding: 0.75rem 1rem 1rem; margin: 0; }
   legend { padding: 0 0.4em; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; }
   .mode-group + .mode-group { margin-top: 0.9rem; }
