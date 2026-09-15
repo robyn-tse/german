@@ -2,7 +2,7 @@
 number: 2
 date: 2026-09-08
 title: Present tense, prefixes, and articles
-topics: [verb-conjugation, prefixes, articles, perfekt]
+topics: [verb-conjugation, prefixes, articles]
 homework:
   - text: "Praefix_A1 worksheet: fill in the 100 separable-verb sentences"
     done: false
@@ -80,14 +80,6 @@ Never split. *Ich **be**suche dich.* (not *Ich suche be…*)
 | miss- | missverstehen | Ich missverstehe dich. |
 | ver- | verstehen | Ich verstehe dich. |
 | zer- | zerstören | Ich zerstöre das. |
-
-## Partizip II with a prefix
-
-| | Rule | Example |
-|---|---|---|
-| separable | **ge-** between prefix and stem | aufräumen → ich habe **aufgeräumt** |
-| inseparable | **no ge-** | verstehen → ich habe **verstanden** |
-| no prefix | **ge-** in front | suchen → ich habe **gesucht** |
 
 ## Articles
 

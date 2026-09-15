@@ -232,17 +232,6 @@ export const modes = [
     reveal: (e) => e.example_de,
   },
   {
-    id: 'partizip',
-    group: 'Grammar',
-    label: 'Partizip II',
-    description: 'Type the past participle. Separable: ge- goes after the prefix; inseparable: no ge-.',
-    filter: (e) => e.pos === 'verb' && !!e.verb?.partizip_ii,
-    prompt: (e) => e.german,
-    answer: (e) => e.verb.partizip_ii,
-    input: 'typed',
-    reveal: (e) => `Perfekt with ${e.verb.aux}: ich ${e.verb.aux === 'sein' ? 'bin' : 'habe'} ${e.verb.partizip_ii}`,
-  },
-  {
     id: 'satz-trennbar',
     group: 'Worksheets',
     label: 'Verb im Satz',
@@ -282,6 +271,18 @@ export const modes = [
   },
 
   // --- Sketches for later modes; no engine changes needed --------------------
+  //   {
+  //     id: 'partizip',
+  //     group: 'Grammar',
+  //     label: 'Partizip II',
+  //     description: 'Type the past participle. Separable: ge- goes after the prefix; inseparable: no ge-.',
+  //     filter: (e) => e.pos === 'verb' && !!e.verb?.partizip_ii,
+  //     prompt: (e) => e.german,
+  //     answer: (e) => e.verb.partizip_ii,
+  //     input: 'typed',
+  //     reveal: (e) => `Perfekt with ${e.verb.aux}: ich ${e.verb.aux === 'sein' ? 'bin' : 'habe'} ${e.verb.partizip_ii}`,
+  //   },
+  // (Partizip II: re-enable when Perfekt is taught)
   // {
   //   id: 'plural', label: 'Plural',
   //   filter: (e) => e.pos === 'noun' && !!e.plural,

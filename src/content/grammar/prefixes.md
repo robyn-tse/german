@@ -77,12 +77,6 @@ These stay welded to the stem in every position.
 | ver- | away, wrong, changed | verlassen, verstehen, vergessen, verpassen | Oh, ich habe mich vertan – das ist falsch! |
 | zer- | to pieces, destroyed | zerbrechen, zerschlagen, zerstören, zerreißen | Der Hund hat ihre Schuhe zerbissen. |
 
-## Perfekt with prefixes
-
-- Separable: **ge-** goes between prefix and stem. aufräumen → ich habe **auf·ge·räumt**; abholen → du hast **ab·ge·holt**.
-- Inseparable: **no ge-** at all. verstehen → ich habe **verstanden** (*vergestanden* is wrong); besuchen → ich habe **besucht**.
-- Compare a plain verb: suchen → ich habe **gesucht**.
-
 ## Position with modal verbs
 
 After a modal verb (müssen, können, wollen, sollen, dürfen, möchten) the separable verb stays whole as an infinitive at the end: *Ich muss morgen früh **aufstehen**.* *Kannst du heute **einkaufen**?*
