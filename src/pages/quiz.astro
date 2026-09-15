@@ -251,7 +251,18 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     if (index >= queue.length) return finish();
     const entry = queue[index];
     $('qnum').textContent = `${index + 1} / ${queue.length}`;
-    $('prompt').textContent = mode.prompt(entry, ctx);
+    if (sheet && entry.gloss) {
+      // homework mode: English above each German word, hint (the verb) plain at the end
+      const hint = entry.hint ? ` <span class="hint">(${escape(entry.hint)})</span>` : '';
+      $('prompt').innerHTML =
+        entry.gloss
+          .map(([tok, en]: [string, string | null]) =>
+            en ? `<ruby>${escape(tok)}<rt>${escape(en)}</rt></ruby>` : `<span>${escape(tok)}</span>`,
+          )
+          .join(' ') + hint;
+    } else {
+      $('prompt').textContent = mode.prompt(entry, ctx);
+    }
     $('prompt').setAttribute('lang', mode.id === 'en-de' ? 'en' : 'de');
     const sub = mode.subprompt ? mode.subprompt(entry, ctx) : null;
     $('subprompt').textContent = sub ?? '';
@@ -614,6 +625,10 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   .rate-again { color: var(--bad); }
   kbd { font-family: var(--mono); font-size: 0.7em; opacity: 0.6; margin-left: 0.3em; }
   .prompt { font-size: 1.9rem; font-weight: 600; margin: 0.5rem 0 1rem; line-height: 1.25; overflow-wrap: anywhere; }
+  .prompt ruby { ruby-position: over; ruby-align: center; }
+  .prompt rt { font-size: 0.5em; font-weight: 400; color: var(--accent); letter-spacing: 0; line-height: 1; }
+  .prompt:has(ruby) { line-height: 1.9; font-size: 1.6rem; }
+  .prompt .hint { color: var(--muted); font-weight: 400; }
   .prompt:has(+ .subprompt:not([hidden])) { margin-bottom: 0.25rem; }
   .subprompt { margin: 0 0 1rem; }
   .answer { display: flex; flex-direction: column; gap: 0.5rem; }

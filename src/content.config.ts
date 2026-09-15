@@ -109,6 +109,8 @@ export const exerciseSchema = z.object({
   vocab_id: z.string().nullable().default(null),
   tags: z.array(z.string()).default([]),
   note: z.string().nullable().default(null), // shown with the answer, e.g. singular/plural ambiguity
+  // word-by-word English, [[token, gloss|null], …] aligned to prompt_de; shown above the words in homework mode
+  gloss: z.array(z.tuple([z.string(), z.string().nullable()])).nullable().default(null),
 });
 export type Exercise = z.infer<typeof exerciseSchema>;
 

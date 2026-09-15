@@ -243,7 +243,10 @@ More conventions that came out of lesson 2's phrase list and worksheets:
 `trennbar-praesens`, `trennbar-modal`, `gemischt`, `schwach-praesens` (verb gap-fills),
 `artikel-bestimmt`, `artikel-unbestimmt` (lesson 2 article choice), `dativ-objekt`, `dativ-verben`,
 `akkusativ-bestimmt`, `akkusativ-unbestimmt` (lesson 3 case choice). An optional `note` is shown
-with the answer (used for singular/plural ambiguity in the case sheets). Two gaps are answered as one string with a space
+with the answer (used for singular/plural ambiguity in the case sheets). Homework sentences carry
+`gloss`: word-by-word English aligned to `prompt_de` (`[["ihr","you all"],["___",null],…]`), shown
+above each word in homework mode. Build it with a per-form dictionary (see the lesson-3 gloss
+script pattern); every homework sheet needs it. Two gaps are answered as one string with a space
 (`stehe auf`); the quiz shows it as `stehe … auf`. Ids are `ex-<sheet>-NNN`.
 
 ### Lesson frontmatter template
