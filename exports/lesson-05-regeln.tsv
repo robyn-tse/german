@@ -1,0 +1,44 @@
+#separator:tab
+#html:false
+#columns:Front	Back	Tags
+ab → Dativ, Akkusativ or Wechsel?	Dativ	lesson5::praepositionen
+außer → Dativ, Akkusativ or Wechsel?	Dativ	lesson5::praepositionen
+zu → Dativ, Akkusativ or Wechsel?	Dativ (Ich gehe zu der Oma.)	lesson5::praepositionen
+nach → Dativ, Akkusativ or Wechsel?	Dativ (Ich fahre nach Berlin.)	lesson5::praepositionen
+bei → Dativ, Akkusativ or Wechsel?	Dativ (Ich bin bei der Oma.)	lesson5::praepositionen
+von → Dativ, Akkusativ or Wechsel?	Dativ	lesson5::praepositionen
+aus → Dativ, Akkusativ or Wechsel?	Dativ	lesson5::praepositionen
+mit → Dativ, Akkusativ or Wechsel?	Dativ (Ich gehe mit dem Hund.)	lesson5::praepositionen
+seit → Dativ, Akkusativ or Wechsel?	Dativ	lesson5::praepositionen
+gegenüber → Dativ, Akkusativ or Wechsel?	Dativ	lesson5::praepositionen
+bis → Dativ, Akkusativ or Wechsel?	Akkusativ	lesson5::praepositionen
+durch → Dativ, Akkusativ or Wechsel?	Akkusativ	lesson5::praepositionen
+für → Dativ, Akkusativ or Wechsel?	Akkusativ	lesson5::praepositionen
+ohne → Dativ, Akkusativ or Wechsel?	Akkusativ (Ich gehe ohne den Hund.)	lesson5::praepositionen
+gegen → Dativ, Akkusativ or Wechsel?	Akkusativ	lesson5::praepositionen
+um → Dativ, Akkusativ or Wechsel?	Akkusativ	lesson5::praepositionen
+in → Dativ, Akkusativ or Wechsel?	Wechsel: wo? → Dativ, wohin? → Akkusativ	lesson5::praepositionen lesson5::wechsel
+an → Dativ, Akkusativ or Wechsel?	Wechsel: wo? → Dativ, wohin? → Akkusativ	lesson5::praepositionen lesson5::wechsel
+auf → Dativ, Akkusativ or Wechsel?	Wechsel: wo? → Dativ, wohin? → Akkusativ	lesson5::praepositionen lesson5::wechsel
+neben → Dativ, Akkusativ or Wechsel?	Wechsel: wo? → Dativ, wohin? → Akkusativ	lesson5::praepositionen lesson5::wechsel
+hinter → Dativ, Akkusativ or Wechsel?	Wechsel: wo? → Dativ, wohin? → Akkusativ	lesson5::praepositionen lesson5::wechsel
+über → Dativ, Akkusativ or Wechsel?	Wechsel: wo? → Dativ, wohin? → Akkusativ	lesson5::praepositionen lesson5::wechsel
+unter → Dativ, Akkusativ or Wechsel?	Wechsel: wo? → Dativ, wohin? → Akkusativ	lesson5::praepositionen lesson5::wechsel
+vor → Dativ, Akkusativ or Wechsel?	Wechsel: wo? → Dativ, wohin? → Akkusativ	lesson5::praepositionen lesson5::wechsel
+zwischen → Dativ, Akkusativ or Wechsel?	Wechsel: wo? → Dativ, wohin? → Akkusativ	lesson5::praepositionen lesson5::wechsel
+Wo? (where?) → which case?	Dativ: no movement (Ich bin im Garten.)	lesson5::wechsel
+Wohin? (where to?) → which case?	Akkusativ: movement from A to B (Ich gehe in den Garten.)	lesson5::wechsel
+setzen, stellen, legen → Bewegung?	Bewegung → Akkusativ	lesson5::bewegung
+liegen, stehen, sitzen → Bewegung?	keine Bewegung → Dativ	lesson5::bewegung
+verstecken → Bewegung?	keine Bewegung → Dativ	lesson5::bewegung
+spielen → Bewegung?	Not A-to-B movement → Dativ (Die Kinder spielen im Garten.)	lesson5::bewegung
+auf or an: horizontal surface (das Dach)?	auf	lesson5::wechsel
+auf or an: vertical surface or water side (die Wand, the lake)?	an	lesson5::wechsel
+in dem →	im	lesson5::kurzformen
+in das →	ins	lesson5::kurzformen
+an dem →	am	lesson5::kurzformen
+an das →	ans	lesson5::kurzformen
+zu dem →	zum	lesson5::kurzformen
+zu der →	zur	lesson5::kurzformen
+bei dem →	beim	lesson5::kurzformen
+von dem →	vom	lesson5::kurzformen

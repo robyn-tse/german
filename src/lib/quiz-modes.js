@@ -62,8 +62,12 @@ function articleAccept(e) {
   const out = [{ text: e.answer, note: null }];
   if (noun) out.push({ text: `${e.answer} ${noun}`, note: null });
   if (e.also) out.push({ text: e.also, note: e.note }, { text: `${e.also} ${noun ?? ''}`.trim(), note: e.note });
+  // two gaps ("die den"): a comma or slash between the two answers is fine too
+  if (e.answer.includes(' ')) out.push({ text: e.answer.replace(' ', ', '), note: null }, { text: e.answer.replace(' ', ' / '), note: null });
   return out;
 }
+// the bubble sheet (lesson 5): which case a preposition takes, by vocab tag
+const PRAEP_CASE = { 'praep-dativ': 'Dativ', 'praep-akkusativ': 'Akkusativ', wechsel: 'Wechsel' };
 const ARTICLE_NOTE = {
   der: 'masculine', die: 'feminine', das: 'neuter',
   ein: 'ein: masculine or neuter (nominative), neuter (accusative)',
@@ -373,6 +377,31 @@ export const modes = [
     reveal: (it) => `${it.case}: ${it.row}`,
   },
   {
+    id: 'praep-kasus',
+    group: 'Grammar',
+    label: 'Preposition → case',
+    description: 'The bubble sheet: Dativ, Akkusativ, or Wechsel (both: Wo? → Dativ, Wohin? → Akkusativ)?',
+    filter: (e) => e.pos === 'preposition' && e.tags.some((t) => PRAEP_CASE[t]),
+    prompt: (e) => `${e.german} (${e.english})`,
+    answer: (e) => PRAEP_CASE[e.tags.find((t) => PRAEP_CASE[t])],
+    input: { type: 'choice', options: ['Dativ', 'Akkusativ', 'Wechsel'] },
+    reveal: (e) => {
+      const rule = e.tags.includes('wechsel') ? 'Wo? → Dativ · Wohin? → Akkusativ' : null;
+      return [rule, e.example_de].filter(Boolean).join(' · ') || null;
+    },
+  },
+  {
+    id: 'bewegung',
+    group: 'Grammar',
+    label: 'Bewegung?',
+    description: 'setzen, stellen, legen = movement → Akkusativ; liegen, stehen, sitzen = no movement → Dativ.',
+    filter: (e) => e.pos === 'verb' && (e.tags.includes('bewegung') || e.tags.includes('keine-bewegung')),
+    prompt: (e) => `${e.german} (${e.english})`,
+    answer: (e) => (e.tags.includes('bewegung') ? 'Bewegung → Akkusativ' : 'keine Bewegung → Dativ'),
+    input: { type: 'choice', options: ['Bewegung → Akkusativ', 'keine Bewegung → Dativ'] },
+    reveal: (e) => e.example_de,
+  },
+  {
     id: 'dativ',
     group: 'Worksheets',
     label: 'Dativ',
@@ -407,6 +436,48 @@ export const modes = [
     description: 'Type the indefinite article in the accusative: einen, eine, ein; a dash for no article.',
     source: 'exercises',
     filter: (e) => e.set === 'l4-akkusativ-2',
+    prompt: (e) => e.prompt_de,
+    subprompt: (e) => e.en,
+    answer: (e) => e.answer,
+    input: 'typed',
+    accept: articleAccept,
+    reveal: (e) => `${e.full_de}${e.note ? ' · ' + e.note : ''}`,
+  },
+  {
+    id: 'wechsel',
+    group: 'Worksheets',
+    label: 'Wechselpräpositionen',
+    description: 'Wo? → Dativ, Wohin? → Akkusativ. Type the article; two gaps: both, e.g. "die den".',
+    source: 'exercises',
+    filter: (e) => e.set === 'l5-wechsel',
+    prompt: (e) => e.prompt_de,
+    subprompt: (e) => e.en,
+    answer: (e) => e.answer.replace(' ', ' … '),
+    input: 'typed',
+    accept: articleAccept,
+    reveal: (e) => `${e.full_de} · ${e.tags.includes('dativ') ? 'Wo? → Dativ' : 'Wohin? → Akkusativ'}${e.note ? ' · ' + e.note : ''}`,
+  },
+  {
+    id: 'praep-satz',
+    group: 'Worksheets',
+    label: 'Präpositionen: Dativ oder Akkusativ',
+    description: 'The preposition (or the verb) fixes the case: type the article.',
+    source: 'exercises',
+    filter: (e) => e.set === 'l5-praep',
+    prompt: (e) => e.prompt_de,
+    subprompt: (e) => e.en,
+    answer: (e) => e.answer,
+    input: 'typed',
+    accept: articleAccept,
+    reveal: (e) => `${e.full_de}${e.note ? ' · ' + e.note : ''}`,
+  },
+  {
+    id: 'genitiv',
+    group: 'Worksheets',
+    label: 'Genitiv',
+    description: 'Type des (masculine, neuter) or der (feminine, plural).',
+    source: 'exercises',
+    filter: (e) => e.set === 'l5-genitiv',
     prompt: (e) => e.prompt_de,
     subprompt: (e) => e.en,
     answer: (e) => e.answer,

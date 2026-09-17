@@ -5,11 +5,11 @@ title: Cases in the sentence
 topics: [declension, clauses, articles]
 homework:
   - text: "Dativ und Akkusativ (with noun genders): fill in the gaps before Thursday"
-    done: false
+    done: true
     source: DATIV_AKK_Uebungen_mit_Genus.rtf
     sets: [l4-dativ, l4-dativ-verben, l4-akkusativ, l4-akkusativ-2]
   - text: "Memorize the dative verbs"
-    done: false
+    done: true
     source: 37Dativverben.rtf
     quiz: dativverben
 sources:

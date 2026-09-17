@@ -1,0 +1,49 @@
+Lesson 5: Dative vs. Accusative Prepositions
+
+* Bubble diagram (Präpositionen mit Dativ und Akkusativ) is the key reference sheet: print it out as a cheat sheet
+* Dative-only prepositions (left side, yellow): ab, außer, zu, nach, bei, von, aus, mit, seit, gegenüber
+   * Most important to start: zu, bei, nach
+   * zu: movement toward a person or place ("Ich gehe zu der Oma")
+   * bei: at/near ("Ich bin bei der Oma")
+   * nach: cities and countries only ("Ich fahre nach Berlin / nach Afrika")
+* Accusative-only prepositions (right side, green): bis, durch, für, ohne, gegen, um
+   * ohne (without) = accusative: "Ich gehe ohne den Hund"
+   * mit (with) = dative: "Ich gehe mit dem Hund"
+* Preposition overrides the verb: once a preposition is present, the case is fixed regardless of the verb
+
+Wechselpräpositionen (Changing Prepositions)
+
+* Middle overlap of the bubble diagram: in, an, auf, neben, hinter, über, unter, vor, zwischen
+* These can be either dative or accusative depending on the verb
+* Key rule:
+   * Movement verb (A to B) → accusative → ask "Wohin?" (where to?)
+   * Static verb (no movement) → dative → ask "Wo?" (where?)
+* wo = where? → dative
+* wohin = where to? → accusative
+* "Playing" (spielen) looks like movement but is NOT: "Die Kinder spielen im Garten" (dative)
+* auf = horizontal surfaces; an = vertical surfaces or water/waterside
+* Contracted short forms (from the bubble sheet):
+   * in dem → im; in das → ins
+   * an dem → am; an das → ans
+   * zu dem → zum; zu der → zur; bei dem → beim; von dem → vom
+
+Worked Examples
+
+* "Ich gehe in den Garten" (accusative: gehen = movement, wohin?)
+* "Ich bin in dem Garten / im Garten" (dative: sein = static, wo?)
+* "Wir gehen heute Abend ins Kino" (accusative: movement, in das → ins)
+* "Die Kinder spielen im Garten" (dative: spielen = not A-to-B movement)
+* "Er hängt das Bild an die Wand" (accusative: hanging it there = movement)
+* "Das Bild hängt jetzt an der Wand" (dative: static, it hangs there)
+* "Sich setzen" (to sit down) = movement → accusative: "Setz dich bitte in den Sessel"
+* "Sitzen" (to sit) = static → dative: "Opa schläft im Sessel"
+* "Sie reisen in die Schweiz" (accusative: travel = movement; Schweiz is an exception, uses in not nach)
+* "Sie wohnen seit Jahren in der Schweiz" (dative: wohnen = static)
+* "Ich bin auf der Spitze des Berges" (dative: static; genitive: des Berges = "of the mountain")
+   * Genitive adds -s or -es to masculine/neuter nouns
+
+Homework
+
+* Complete the 100 Wechselpräpositionen exercise (sent as a file; already marked in red where the lesson left off)
+* Markus will also send separate homework on pure dative and accusative prepositions
+* Keep the 4 cases table and the bubble diagram open or printed during every class as a cheat sheet

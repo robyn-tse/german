@@ -1,8 +1,8 @@
 ---
 title: Declension (cases)
 order: 5
-last_updated_lesson: 4
-lessons: [3, 4]
+last_updated_lesson: 5
+lessons: [3, 4, 5]
 ---
 
 ## The four cases
@@ -72,3 +72,28 @@ Verbs with the dative: **helfen, danken, folgen, vertrauen, antworten, gehören,
 | zuhören | to listen to | Ich höre dir zu. |
 | zustimmen | to agree with | Ich stimme dir zu. |
 | schreiben | to write | Ich schreibe dir einen Brief. |
+
+## Prepositions and cases (lesson 5)
+
+Once a preposition is present, the case is fixed, whatever the verb.
+
+| Always Dativ | Always Akkusativ | Wechsel: Dativ or Akkusativ |
+|---|---|---|
+| ab, außer, zu, nach, bei, von, aus, mit, seit, gegenüber | bis, durch, für, ohne, gegen, um | in, an, auf, neben, hinter, über, unter, vor, zwischen |
+
+*Ich gehe **zu der** Oma. Ich bin **bei der** Oma. Ich fahre **nach** Berlin. Ich gehe **mit dem** Hund. Ich gehe **ohne den** Hund.*
+
+**Wechselpräpositionen:** **Wo?** (static, no movement) → **Dativ**. **Wohin?** (movement from A to B) → **Akkusativ**.
+
+| | Wo? → Dativ | Wohin? → Akkusativ |
+|---|---|---|
+| der Kasten | in **dem** Kasten | in **den** Kasten |
+| die Lade | in **der** Lade | in **die** Lade |
+| das Regal | in **dem** Regal | in **das** Regal |
+| die Mappen | in **den** Mappen | in **die** Mappen |
+
+- Bewegung → Akkusativ: **setzen, stellen, legen** (sich setzen = to sit down). Keine Bewegung → Dativ: **liegen, stehen, sitzen**, verstecken; spielen is not A-to-B movement (*Die Kinder spielen **im** Garten*).
+- **auf** = horizontal surfaces; **an** = vertical surfaces and the water side (lake, sea, river).
+- Short forms: in dem → im, in das → ins, an dem → am, an das → ans, zu dem → zum, zu der → zur, bei dem → beim, von dem → vom.
+
+*Ich gehe in **den** Garten. Ich bin **im** Garten. Er hängt das Bild an **die** Wand. Das Bild hängt jetzt an **der** Wand. Sie reisen in **die** Schweiz. Sie wohnen seit Jahren in **der** Schweiz.*

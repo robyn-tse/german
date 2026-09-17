@@ -164,7 +164,9 @@ Additional conventions the script does not check but you must follow:
 - `tags` in use: `trennbar`, `untrennbar` (verbs with a separable/inseparable prefix; the Prefix
   quiz mode filters on these), `genus` (gender-by-suffix example nouns), `merken` (memorise —
   irregular forms), `dativverb` (Markus's dative-verb list; drives the Dative verbs and Dativ-or-
-  Akkusativ modes). Reuse these; add a new tag only when a lesson introduces a genuinely new
+  Akkusativ modes), `praeposition` plus one of `praep-dativ`, `praep-akkusativ`, `wechsel` (the lesson 5
+  bubble sheet; drives Preposition → case), `bewegung` / `keine-bewegung` (setzen, stellen, legen vs
+  liegen, stehen, sitzen, verstecken; drives Bewegung?). Reuse these; add a new tag only when a lesson introduces a genuinely new
   category, and list it here.
 - **Source first.** Fields that come from Markus's material take precedence. You may fill standard
   forms you are certain of (e.g. Partizip II of a common verb the lesson used only as an example),
@@ -247,7 +249,13 @@ More conventions that came out of lesson 2's phrase list and worksheets:
 `set` names one worksheet section and is what a quiz mode filters on. Sets so far:
 `trennbar-praesens`, `trennbar-modal`, `gemischt`, `schwach-praesens` (verb gap-fills),
 `artikel-bestimmt`, `artikel-unbestimmt` (lesson 2 article choice), `dativ-objekt`, `dativ-verben`,
-`l4-dativ`, `l4-dativ-verben`, `l4-akkusativ`, `l4-akkusativ-2` (lesson 4 case choice; the lesson 3 versions were retired when Markus re-sent the sheet with genders). An optional `also` is a second accepted answer
+`l4-dativ`, `l4-dativ-verben`, `l4-akkusativ`, `l4-akkusativ-2` (lesson 4 case choice; the lesson 3 versions were retired when Markus re-sent the sheet with genders),
+`l5-wechsel`, `l5-praep`, `l5-genitiv` (lesson 5 preposition and genitive sheets). Article gaps show the
+gender the way the sheet does: `___ (der) Park` when the sheet gives the article, `___ Garten (m.)` when it
+gives m./f./n./Pl. after the noun, `___ (mein) Zimmer` for a possessive or `ein` gap (the answer is the whole
+word: `meinem`). Where a sheet's gender hint was wrong (20 of the 100 gemischte Präpositionen), the prompt
+carries the correct article and `note` says what the sheet had. Two gaps in one sentence are one answer
+with a space (`die den`). An optional `also` is a second accepted answer
 where the source is ambiguous (lesson 4: singular hint vs plural English), explained in `note`. An optional `note` is shown
 with the answer (used for singular/plural ambiguity in the case sheets). Homework sentences carry
 `gloss`: word-by-word English aligned to `prompt_de` (`[["ihr","you all"],["___",null],…]`), shown
@@ -291,8 +299,9 @@ To add one, add an object; the page picks it up, and lesson pages link to it wit
 the exercise sets it covers. Modes carry a `group` (Basics, Vocabulary, Grammar, Worksheets) and are listed in that order; keep
 the Basics first, Robyn is a complete beginner. Current modes: Pronouns (I → ich), Endings
 (ich → -e), Conjugate (kaufen, I → ich kaufe; built from regular weak verbs plus verbs with a
-stored present table), DE→EN, EN→DE, Gender rule, Gender, Prefix, Partizip II, Cases (der Mann → Dativ), Verb im Satz
-(worksheet gap-fill), der/die/das im Satz, ein/eine/einen, Dativ, Akkusativ, Akkusativ einen/eine/ein.
+stored present table), DE→EN, EN→DE, Gender rule, Gender, Prefix, Partizip II, Cases (der Mann → Dativ), Preposition → case (mit → Dativ; bubble sheet), Bewegung?
+(setzen → Akkusativ), Verb im Satz (worksheet gap-fill), der/die/das im Satz, ein/eine/einen, Dativ,
+Akkusativ, Akkusativ einen/eine/ein, Wechselpräpositionen, Präpositionen: Dativ oder Akkusativ, Genitiv.
 Derived sets (`conjugation`, `endings`, `pronouns`, `cases`) are built in `quiz-modes.js` and passed
 to modes via `ctx`. Every mode can be run in two
 **styles**: quiz (typed or choice, checked automatically) or flashcards (flip, then self-rate Again /
@@ -336,14 +345,18 @@ Claude's wording. (This rule was set on 2026-09-10 after supplementary prefixes 
 Robyn is starting from zero and wants a **small, concentrated set** first, not hundreds of words.
 So:
 
-- **Vocab sources are the tutor's vocabulary lists only**: `50_Verben.rtf` (tag `verben50`) and
-  the phrase list `4Wortliste` (tag `wortliste`). Words that merely appear in worksheets, handout
+- **Vocab sources are the tutor's vocabulary lists only**: `50_Verben.rtf` (tag `verben50`),
+  the phrase list `4Wortliste` (tag `wortliste`), the 34 dative verbs (lesson 4, `dativverb`), the
+  preposition bubble sheet with its English page (lesson 5, `praeposition`) and the movement verbs Markus
+  listed in his lesson 5 class notes (`bewegung` / `keine-bewegung`). Words that merely appear in worksheets, handout
   example tables or grammar explanations are **not** vocab entries; worksheets go to
   `exercises.json`, handout rules to the grammar pages and `gender-rules.json`.
 - Every entry that belongs to the starter core carries the tag **`essentials`**. The vocab table,
   the quiz and the lesson page show essentials by default with a one-tap "show all". When adding a
   lesson, tag the handful of words the tutor actually drilled as essentials; leave list padding
   untagged. Keep essentials well under ~250 in total; if it grows past that, ask before adding more.
+  (Lesson 5 pushed it to 276 with the 25 prepositions and 6 verbs; Robyn has not yet said whether to
+  trim lesson 2 padding. Do not add more essentials without asking.)
 - The English Compass word list (`1Wortliste_A1_A2_B1.pdf`, 4,000 rows) is parsed by
   `scripts/parse-compass.py` but **not loaded**. If Robyn later wants some of it, pull a chosen
   subset, not all of A1.

@@ -2287,12 +2287,15 @@
     "pos": "preposition",
     "gender": null,
     "plural": null,
-    "example_de": null,
-    "example_en": null,
+    "example_de": "Ich bin zwischen den Palmen.",
+    "example_en": "I am between the palm trees.",
     "lesson": 2,
     "tags": [
       "wortliste",
-      "wegbeschreibung"
+      "wegbeschreibung",
+      "essentials",
+      "praeposition",
+      "wechsel"
     ],
     "notes": null,
     "verb": null
@@ -6255,14 +6258,14 @@
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": null,
-    "example_en": null,
+    "example_de": "Ich laufe in den Garten.",
+    "example_en": "I run into the garden.",
     "lesson": 2,
     "tags": [
       "essentials",
       "wortliste"
     ],
-    "notes": null,
+    "notes": "Laufen, rennen = run (Markus, lesson 5).",
     "verb": {
       "separable": false,
       "strength": "strong",
@@ -6862,14 +6865,15 @@
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": null,
-    "example_en": null,
+    "example_de": "Ich sitze vor dem Haus.",
+    "example_en": "I am sitting in front of the house.",
     "lesson": 2,
     "tags": [
       "essentials",
-      "wortliste"
+      "wortliste",
+      "keine-bewegung"
     ],
-    "notes": null,
+    "notes": "keine Bewegung → Dativ (Markus, lesson 5).",
     "verb": {
       "separable": false,
       "strength": "strong",
@@ -6886,14 +6890,15 @@
     "pos": "verb",
     "gender": null,
     "plural": null,
-    "example_de": null,
-    "example_en": null,
+    "example_de": "Der Stuhl steht ganz nah an dem Fenster.",
+    "example_en": "The chair is standing very close to the window.",
     "lesson": 2,
     "tags": [
       "essentials",
-      "wortliste"
+      "wortliste",
+      "keine-bewegung"
     ],
-    "notes": null,
+    "notes": "keine Bewegung → Dativ (Markus, lesson 5).",
     "verb": {
       "separable": false,
       "strength": "strong",
@@ -8391,7 +8396,10 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
-      "wortliste"
+      "wortliste",
+      "essentials",
+      "praeposition",
+      "wechsel"
     ],
     "notes": null,
     "verb": null
@@ -8399,18 +8407,20 @@
   {
     "id": "nach",
     "german": "nach",
-    "english": "after",
+    "english": "after / to",
     "pos": "preposition",
     "gender": null,
     "plural": null,
-    "example_de": null,
-    "example_en": null,
+    "example_de": "Ich fahre nach Berlin.",
+    "example_en": "I am going to Berlin.",
     "lesson": 2,
     "tags": [
       "essentials",
-      "wortliste"
+      "wortliste",
+      "praeposition",
+      "praep-dativ"
     ],
-    "notes": null,
+    "notes": "to (for places and cities), after (for time). Markus: cities and countries only: nach Berlin, nach Afrika.",
     "verb": null
   },
   {
@@ -8424,7 +8434,10 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
-      "wortliste"
+      "wortliste",
+      "essentials",
+      "praeposition",
+      "praep-akkusativ"
     ],
     "notes": null,
     "verb": null
@@ -8440,7 +8453,10 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
-      "wortliste"
+      "wortliste",
+      "essentials",
+      "praeposition",
+      "wechsel"
     ],
     "notes": null,
     "verb": null
@@ -8464,17 +8480,20 @@
   {
     "id": "vor",
     "german": "vor",
-    "english": "before",
+    "english": "before / in front of",
     "pos": "preposition",
     "gender": null,
     "plural": null,
-    "example_de": null,
-    "example_en": null,
+    "example_de": "Ich sitze vor dem Haus.",
+    "example_en": "I am sitting in front of the house.",
     "lesson": 2,
     "tags": [
-      "wortliste"
+      "wortliste",
+      "essentials",
+      "praeposition",
+      "wechsel"
     ],
-    "notes": null,
+    "notes": "in front of (place), before (time) (bubble sheet).",
     "verb": null
   },
   {
@@ -8488,7 +8507,10 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
-      "wortliste"
+      "wortliste",
+      "essentials",
+      "praeposition",
+      "wechsel"
     ],
     "notes": null,
     "verb": null
@@ -8496,18 +8518,20 @@
   {
     "id": "bei",
     "german": "bei",
-    "english": "by",
+    "english": "by / at / near",
     "pos": "preposition",
     "gender": null,
     "plural": null,
-    "example_de": null,
-    "example_en": null,
+    "example_de": "Ich bin bei der Oma.",
+    "example_en": "I am at grandma's.",
     "lesson": 2,
     "tags": [
       "essentials",
-      "wortliste"
+      "wortliste",
+      "praeposition",
+      "praep-dativ"
     ],
-    "notes": null,
+    "notes": "with, in the sense of \"at someone's place\" (bubble sheet). bei dem → beim.",
     "verb": null
   },
   {
@@ -8538,7 +8562,9 @@
     "lesson": 2,
     "tags": [
       "essentials",
-      "wortliste"
+      "wortliste",
+      "praeposition",
+      "praep-akkusativ"
     ],
     "notes": null,
     "verb": null
@@ -8555,9 +8581,11 @@
     "lesson": 2,
     "tags": [
       "essentials",
-      "wortliste"
+      "wortliste",
+      "praeposition",
+      "praep-dativ"
     ],
-    "notes": null,
+    "notes": "von dem → vom.",
     "verb": null
   },
   {
@@ -8567,14 +8595,16 @@
     "pos": "preposition",
     "gender": null,
     "plural": null,
-    "example_de": null,
-    "example_en": null,
+    "example_de": "Ich gehe in den Garten. Ich bin im Garten.",
+    "example_en": "I go into the garden. I am in the garden.",
     "lesson": 2,
     "tags": [
       "essentials",
-      "wortliste"
+      "wortliste",
+      "praeposition",
+      "wechsel"
     ],
-    "notes": null,
+    "notes": "in dem → im, in das → ins.",
     "verb": null
   },
   {
@@ -8584,14 +8614,16 @@
     "pos": "preposition",
     "gender": null,
     "plural": null,
-    "example_de": null,
-    "example_en": null,
+    "example_de": "Ich bin auf der Spitze des Berges.",
+    "example_en": "I am on the top of the mountain.",
     "lesson": 2,
     "tags": [
       "essentials",
-      "wortliste"
+      "wortliste",
+      "praeposition",
+      "wechsel"
     ],
-    "notes": null,
+    "notes": "on (horizontal surfaces) (bubble sheet). Markus: auf = horizontal: das Dach. auf dem → am.",
     "verb": null
   },
   {
@@ -8605,7 +8637,10 @@
     "example_en": null,
     "lesson": 2,
     "tags": [
-      "wortliste"
+      "wortliste",
+      "essentials",
+      "praeposition",
+      "praep-akkusativ"
     ],
     "notes": null,
     "verb": null
@@ -8633,12 +8668,14 @@
     "pos": "preposition",
     "gender": null,
     "plural": null,
-    "example_de": null,
-    "example_en": null,
+    "example_de": "Ich gehe mit dem Hund.",
+    "example_en": "I am going with the dog.",
     "lesson": 2,
     "tags": [
       "essentials",
-      "wortliste"
+      "wortliste",
+      "praeposition",
+      "praep-dativ"
     ],
     "notes": null,
     "verb": null
@@ -9435,5 +9472,347 @@
       "praeteritum": "stimmte zu",
       "partizip_ii": "zugestimmt"
     }
+  },
+  {
+    "id": "setzen",
+    "german": "setzen",
+    "english": "to set / to sit down",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Setz dich bitte in den Sessel.",
+    "example_en": "Please sit down in the armchair.",
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "bewegung"
+    ],
+    "notes": "Bewegung → Akkusativ (Markus, lesson 5). sich setzen = to sit down.",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "setzte",
+      "partizip_ii": "gesetzt"
+    }
+  },
+  {
+    "id": "stellen",
+    "german": "stellen",
+    "english": "to put / to place",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Er stellt das Fahrrad vor die Tür.",
+    "example_en": "He puts the bicycle in front of the door.",
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "bewegung"
+    ],
+    "notes": "Bewegung → Akkusativ (Markus, lesson 5).",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "stellte",
+      "partizip_ii": "gestellt"
+    }
+  },
+  {
+    "id": "legen",
+    "german": "legen",
+    "english": "to lay / to put down",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Er legt die Dokumente in die Schublade.",
+    "example_en": "He puts the documents in the drawer.",
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "bewegung"
+    ],
+    "notes": "Bewegung → Akkusativ (Markus, lesson 5).",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "legte",
+      "partizip_ii": "gelegt"
+    }
+  },
+  {
+    "id": "liegen",
+    "german": "liegen",
+    "english": "to lie / to be lying",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Der Schlüssel liegt in der Schublade.",
+    "example_en": "The key is lying in the drawer.",
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "keine-bewegung"
+    ],
+    "notes": "keine Bewegung → Dativ (Markus, lesson 5).",
+    "verb": {
+      "separable": false,
+      "strength": "strong",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "lag",
+      "partizip_ii": "gelegen"
+    }
+  },
+  {
+    "id": "verstecken",
+    "german": "verstecken",
+    "english": "to hide",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": "Die Sonne versteckt sich hinter den Wolken.",
+    "example_en": "The sun is hiding behind the clouds.",
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "keine-bewegung",
+      "untrennbar"
+    ],
+    "notes": "keine Bewegung → Dativ (Markus, lesson 5).",
+    "verb": {
+      "separable": false,
+      "strength": "weak",
+      "aux": "haben",
+      "present": null,
+      "praeteritum": "versteckte",
+      "partizip_ii": "versteckt"
+    }
+  },
+  {
+    "id": "rennen",
+    "german": "rennen",
+    "english": "to run",
+    "pos": "verb",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 5,
+    "tags": [
+      "essentials"
+    ],
+    "notes": "Laufen, rennen = run (Markus, lesson 5).",
+    "verb": {
+      "separable": false,
+      "strength": "mixed",
+      "aux": "sein",
+      "present": null,
+      "praeteritum": "rannte",
+      "partizip_ii": "gerannt"
+    }
+  },
+  {
+    "id": "ab",
+    "german": "ab",
+    "english": "from",
+    "pos": "preposition",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "praeposition",
+      "praep-dativ"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "ausser",
+    "german": "außer",
+    "english": "except for / besides",
+    "pos": "preposition",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "praeposition",
+      "praep-dativ"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "zu",
+    "german": "zu",
+    "english": "to",
+    "pos": "preposition",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich gehe zu der Oma.",
+    "example_en": "I am going to grandma.",
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "praeposition",
+      "praep-dativ"
+    ],
+    "notes": "Movement toward a person or place (Markus). zu dem → zum, zu der → zur.",
+    "verb": null
+  },
+  {
+    "id": "aus",
+    "german": "aus",
+    "english": "from / out of",
+    "pos": "preposition",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "praeposition",
+      "praep-dativ"
+    ],
+    "notes": "from (origin), out of (a place), made of (material) (bubble sheet).",
+    "verb": null
+  },
+  {
+    "id": "seit",
+    "german": "seit",
+    "english": "since",
+    "pos": "preposition",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "praeposition",
+      "praep-dativ"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "gegenueber",
+    "german": "gegenüber",
+    "english": "opposite / across from",
+    "pos": "preposition",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "praeposition",
+      "praep-dativ"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "an",
+    "german": "an",
+    "english": "on / at / by",
+    "pos": "preposition",
+    "gender": null,
+    "plural": null,
+    "example_de": "Er hängt das Bild an die Wand.",
+    "example_en": "He hangs the picture on the wall.",
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "praeposition",
+      "wechsel"
+    ],
+    "notes": "on (vertical surfaces), at (specific places), by (rivers, coasts) (bubble sheet). Markus: an = vertical, water side (lake, sea, river): die Wand. an dem → am, an das → ans.",
+    "verb": null
+  },
+  {
+    "id": "neben",
+    "german": "neben",
+    "english": "next to / beside",
+    "pos": "preposition",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "praeposition",
+      "wechsel"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "bis",
+    "german": "bis",
+    "english": "until",
+    "pos": "preposition",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "praeposition",
+      "praep-akkusativ"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "ohne",
+    "german": "ohne",
+    "english": "without",
+    "pos": "preposition",
+    "gender": null,
+    "plural": null,
+    "example_de": "Ich gehe ohne den Hund.",
+    "example_en": "I am going without the dog.",
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "praeposition",
+      "praep-akkusativ"
+    ],
+    "notes": null,
+    "verb": null
+  },
+  {
+    "id": "um",
+    "german": "um",
+    "english": "around / at",
+    "pos": "preposition",
+    "gender": null,
+    "plural": null,
+    "example_de": null,
+    "example_en": null,
+    "lesson": 5,
+    "tags": [
+      "essentials",
+      "praeposition",
+      "praep-akkusativ"
+    ],
+    "notes": "around (place), at (for time) (bubble sheet).",
+    "verb": null
   }
 ]
