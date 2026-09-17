@@ -54,6 +54,15 @@ export function ruleFor(word, rules, strict = false) {
   }
   return best;
 }
+// Typed article gaps: accept the article alone or with its noun ("dem" / "dem Mann");
+// "no article" (plural indefinite) is typed as a dash.
+function articleAccept(e) {
+  const noun = (e.prompt_de.match(/___\s*(?:\([^)]*\)\s*)?([^\s.,?!]+)/) || [])[1]; // the noun right after the gap
+  if (e.answer === '–') return ['–', '-', '—', 'kein artikel', 'nichts', 'x'].map((t) => ({ text: t, note: null }));
+  const out = [{ text: e.answer, note: null }];
+  if (noun) out.push({ text: `${e.answer} ${noun}`, note: null });
+  return out;
+}
 const ARTICLE_NOTE = {
   der: 'masculine', die: 'feminine', das: 'neuter',
   ein: 'ein: masculine or neuter (nominative), neuter (accusative)',
@@ -303,24 +312,26 @@ export const modes = [
     id: 'artikel-satz',
     group: 'Worksheets',
     label: 'der / die / das im Satz',
-    description: 'Pick the definite article. Plural nouns take die.',
+    description: 'Type the definite article (der, die, das; plural die).',
     source: 'exercises',
     filter: (e) => e.set === 'artikel-bestimmt',
     prompt: (e) => e.prompt_de,
     answer: (e) => e.answer,
-    input: { type: 'choice', options: ['der', 'die', 'das'] },
+    input: 'typed',
+    accept: articleAccept,
     reveal: (e) => `${e.full_de}${e.tags.includes('plural') ? ' · plural → die' : ''}`,
   },
   {
     id: 'unbestimmt',
     group: 'Worksheets',
     label: 'ein / eine / einen',
-    description: 'Pick the indefinite article. Watch for masculine objects (einen).',
+    description: 'Type the indefinite article (ein, eine, einen, einer).',
     source: 'exercises',
     filter: (e) => e.set === 'artikel-unbestimmt',
     prompt: (e) => e.prompt_de,
     answer: (e) => e.answer,
-    input: { type: 'choice', options: ['ein', 'eine', 'einen', 'einer'] },
+    input: 'typed',
+    accept: articleAccept,
     reveal: (e) => `${e.full_de} · ${ARTICLE_NOTE[e.answer]}`,
   },
 
@@ -364,36 +375,39 @@ export const modes = [
     id: 'dativ',
     group: 'Worksheets',
     label: 'Dativ',
-    description: 'Pick the dative article: dem, der or den (plural).',
+    description: 'Type the dative article: dem, der, dem, den (plural).',
     source: 'exercises',
     filter: (e) => e.set === 'l4-dativ' || e.set === 'l4-dativ-verben',
     prompt: (e) => e.prompt_de,
     answer: (e) => e.answer,
-    input: { type: 'choice', options: ['dem', 'der', 'den'] },
+    input: 'typed',
+    accept: articleAccept,
     reveal: (e) => `${e.full_de}${e.note ? ' · ' + e.note : ''}`,
   },
   {
     id: 'akkusativ',
     group: 'Worksheets',
     label: 'Akkusativ',
-    description: 'Pick the accusative article: den, die or das.',
+    description: 'Type the accusative article: den, die, das.',
     source: 'exercises',
     filter: (e) => e.set === 'l4-akkusativ',
     prompt: (e) => e.prompt_de,
     answer: (e) => e.answer,
-    input: { type: 'choice', options: ['den', 'die', 'das'] },
+    input: 'typed',
+    accept: articleAccept,
     reveal: (e) => `${e.full_de}${e.note ? ' · ' + e.note : ''}`,
   },
   {
     id: 'akkusativ-unbestimmt',
     group: 'Worksheets',
     label: 'Akkusativ: einen / eine / ein',
-    description: 'Pick the indefinite article in the accusative; plural takes no article (–).',
+    description: 'Type the indefinite article in the accusative: einen, eine, ein; a dash for no article.',
     source: 'exercises',
     filter: (e) => e.set === 'l4-akkusativ-2',
     prompt: (e) => e.prompt_de,
     answer: (e) => e.answer,
-    input: { type: 'choice', options: ['einen', 'eine', 'ein', '–'] },
+    input: 'typed',
+    accept: articleAccept,
     reveal: (e) => `${e.full_de}${e.note ? ' · ' + e.note : ''}`,
   },
 

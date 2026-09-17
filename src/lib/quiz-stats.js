@@ -22,6 +22,7 @@ export function record(stats, id, correct) {
   const s = stats[id] || { attempts: 0, errors: 0 };
   s.attempts += 1;
   if (!correct) s.errors += 1;
+  s.lastCorrect = correct; // latest try
   s.last = Date.now();
   stats[id] = s;
   saveStats(stats);

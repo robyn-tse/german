@@ -122,7 +122,13 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
         })}
       </ul>
     )}
-    <div id="sheet-results" hidden data-sets={JSON.stringify(lesson.data.homework.flatMap((h) => h.sets))}>
+    <div
+      id="sheet-results"
+      hidden
+      data-sets={JSON.stringify(lesson.data.homework.flatMap((h) => h.sets))}
+      data-set-ids={JSON.stringify(Object.fromEntries(lesson.data.homework.flatMap((h) => h.sets).map((set) => [set, exercises.filter((e) => e.set === set).map((e) => e.id)])))}
+      data-set-labels={JSON.stringify(Object.fromEntries(lesson.data.homework.flatMap((h) => h.sets).map((set) => [set, SET_LABEL[set] ?? set])))}
+    >
       <h3>Results on this device</h3>
       <table class="results">
         <thead><tr><th>Sheet</th><th>Score</th><th>Completed</th></tr></thead>
@@ -160,13 +166,33 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
         let rows: any[] = [];
         try { rows = JSON.parse(localStorage.getItem('german-sheet-results') || '[]') || []; } catch { rows = []; }
         rows = rows.filter((r) => sets.has(r.sheet));
+        // Sheets done before runs were recorded: reconstruct from the per-question history.
+        const setIds: Record<string, string[]> = JSON.parse(document.getElementById('sheet-results')!.dataset.setIds || '{}');
+        const labels: Record<string, string> = JSON.parse(document.getElementById('sheet-results')!.dataset.setLabels || '{}');
+        let stats: Record<string, any> = {};
+        try { stats = JSON.parse(localStorage.getItem('german-quiz-stats-v1') || '{}') || {}; } catch { stats = {}; }
+        for (const [set, ids] of Object.entries(setIds)) {
+          if (rows.some((r) => r.sheet === set)) continue;
+          const done = ids.map((id) => stats[id]).filter(Boolean);
+          if (!done.length) continue;
+          const firstTry = done.filter((x) => x.errors === 0).length;
+          const latest = done.filter((x) => x.lastCorrect !== undefined);
+          const latestRight = latest.filter((x) => x.lastCorrect).length;
+          rows.push({
+            sheet: set, title: labels[set] ?? set, derived: true,
+            answered: done.length, total: ids.length, correct: firstTry,
+            latest: latest.length ? `${latestRight} / ${latest.length} right on the latest try` : null,
+            complete: done.length === ids.length, at: new Date(Math.max(...done.map((x) => x.last || 0))).toISOString(),
+          });
+        }
         if (rows.length) {
           const box = document.getElementById('sheet-results')!;
           const tb = box.querySelector('tbody')!;
           for (const r of rows) {
             const tr = document.createElement('tr');
             const pct = r.answered ? Math.round((100 * r.correct) / r.answered) : 0;
-            const score = r.complete ? `${pct} % (${r.correct} / ${r.total})` : `${pct} % (${r.correct} / ${r.answered}, ended early)`;
+            let score = r.complete ? `${pct} % (${r.correct} / ${r.total})` : `${pct} % (${r.correct} / ${r.answered}, ended early)`;
+            if (r.derived) score = `${pct} % right first time (${r.correct} / ${r.answered} answered${r.complete ? '' : ` of ${r.total}`})${r.latest ? ` · ${r.latest}` : ''}`;
             tr.innerHTML = `<td>${r.title}</td><td>${score}</td><td>${new Date(r.at).toLocaleString()}</td>`;
             tb.append(tr);
           }
