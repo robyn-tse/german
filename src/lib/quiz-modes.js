@@ -19,6 +19,20 @@
 
 // clear accusative verbs from the vocab, used as the contrast set in 'Dativ or Akkusativ?'
 const ACC_VERBS = new Set(['sehen', 'essen', 'trinken', 'lesen', 'finden', 'suchen', 'brauchen', 'besuchen', 'lieben', 'haben', 'machen', 'hören', 'tragen', 'öffnen', 'bestellen', 'verstehen', 'vergessen', 'verkaufen', 'bezahlen', 'treffen', 'nehmen', 'lernen', 'spielen', 'benutzen', 'fragen', 'kennen', 'wissen', 'trinken']);
+/** For "Sie ___ …" sentences: the other reading's verb form (singular ↔ plural), or null. */
+function sieAlternative(e) {
+  if (!e.hint || !/^Sie\s/.test(e.prompt_de)) return null;
+  if (e.answer === e.hint) return null;         // modal-verb sentence: the gap is the infinitive, no other reading
+  const parts = e.answer.split(' ');           // "macht zu" → ["macht", "zu"]
+  const prefix = parts[1] ?? '';
+  const base = prefix && e.hint.startsWith(prefix) ? e.hint.slice(prefix.length) : e.hint; // zumachen → machen
+  const stem = base.replace(/e?n$/, '');       // machen → mach, sammeln → sammel, tun → tu
+  let alt;
+  if (/en$/.test(parts[0]) || parts[0] === base) alt = /(t|d|chn|ffn|gn|tm)$/.test(stem) ? stem + 'et' : stem + 't'; // plural → singular
+  else alt = base;                             // singular → plural (the infinitive form)
+  if (alt === parts[0]) return null;
+  return [alt, ...parts.slice(1)].join(' ');
+}
 const hasPrefix = (e) => e.tags.includes('trennbar') || e.tags.includes('untrennbar');
 const stripArticle = (german) => german.replace(/^(der|die|das) /, '');
 
@@ -275,7 +289,14 @@ export const modes = [
     subprompt: (e) => e.en,
     answer: (e) => e.answer.replace(' ', ' … '),
     input: 'typed',
-    accept: (e) => [{ text: e.answer, note: null }],
+    accept: (e) => {
+      const out = [{ text: e.answer, note: null }];
+      // A sentence-initial "Sie" is ambiguous (she / they / formal you); the German alone allows
+      // both the singular and the plural form, so accept the other one and point to the English.
+      const alt = sieAlternative(e);
+      if (alt) out.push({ text: alt, note: `"Sie" can be she or they / formal you. Here the English says "${e.en}" → ${e.answer}.` });
+      return out;
+    },
     reveal: (e) => e.full_de,
   },
   {
