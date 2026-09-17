@@ -278,18 +278,13 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     $('qnum').textContent = `${index + 1} / ${queue.length}`;
     if (sheet && entry.gloss) {
       // homework mode: English above each German word, hint (the verb) plain at the end
-      const hint = entry.hint
-        ? entry.hint_en
-          ? ` <ruby class="hint">(${escape(entry.hint)})<rt>${escape(entry.hint_en)}</rt></ruby>`
-          : ` <span class="hint">(${escape(entry.hint)})</span>`
-        : '';
-      $('prompt').innerHTML =
-        entry.gloss
-          .map(([tok, en]: [string, string | null]) =>
-            en ? `<ruby>${escape(tok)}<rt>${escape(en)}</rt></ruby>` : `<span>${escape(tok)}</span>`,
-          )
-          .join(' ') + hint;
+      const col = (de: string, en: string | null, cls = '') =>
+        `<span class="w ${cls}"><span class="en">${en ? escape(en) : ''}</span><span class="de">${escape(de)}</span></span>`;
+      const hint = entry.hint ? col(`(${entry.hint})`, entry.hint_en ?? null, 'hint') : '';
+      $('prompt').innerHTML = entry.gloss.map(([tok, en]: [string, string | null]) => col(tok, en)).join('') + hint;
+      $('prompt').classList.add('glossed');
     } else {
+      $('prompt').classList.remove('glossed');
       $('prompt').textContent = mode.prompt(entry, ctx);
     }
     $('prompt').setAttribute('lang', mode.id === 'en-de' ? 'en' : 'de');
@@ -694,11 +689,11 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   .rate-again { color: var(--bad); }
   kbd { font-family: var(--mono); font-size: 0.7em; opacity: 0.6; margin-left: 0.3em; }
   .prompt { font-size: 1.9rem; font-weight: 600; margin: 0.5rem 0 1rem; line-height: 1.25; overflow-wrap: anywhere; }
-  .prompt :global(ruby) { ruby-position: over; ruby-align: center; display: inline-block; overflow-wrap: normal; white-space: nowrap; }
-  .prompt:has(:global(ruby)) { overflow-wrap: normal; }
-  .prompt :global(rt) { font-size: 0.5em; font-weight: 400; color: var(--accent); letter-spacing: 0; line-height: 1; padding: 0 0.4em; white-space: nowrap; }
-  .prompt:has(:global(ruby)) { line-height: 1.9; font-size: 1.6rem; }
-  .prompt :global(.hint) { color: var(--muted); font-weight: 400; }
+  /* homework mode: one column per word, English label directly above the German */
+  .prompt.glossed { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 0.2em 0.55em; font-size: 1.6rem; line-height: 1.15; }
+  .prompt :global(.w) { display: inline-flex; flex-direction: column; align-items: flex-start; white-space: nowrap; }
+  .prompt :global(.en) { font-size: 0.5em; font-weight: 400; color: var(--accent); line-height: 1.3; min-height: 1.3em; }
+  .prompt :global(.hint .de) { color: var(--muted); font-weight: 400; }
   .prompt:has(+ .subprompt:not([hidden])) { margin-bottom: 0.25rem; }
   .subprompt { margin: 0 0 1rem; }
   .answer { display: flex; flex-direction: column; gap: 0.5rem; }
