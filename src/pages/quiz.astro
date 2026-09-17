@@ -272,7 +272,11 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     $('qnum').textContent = `${index + 1} / ${queue.length}`;
     if (sheet && entry.gloss) {
       // homework mode: English above each German word, hint (the verb) plain at the end
-      const hint = entry.hint ? ` <span class="hint">(${escape(entry.hint)})</span>` : '';
+      const hint = entry.hint
+        ? entry.hint_en
+          ? ` <ruby class="hint">(${escape(entry.hint)})<rt>${escape(entry.hint_en)}</rt></ruby>`
+          : ` <span class="hint">(${escape(entry.hint)})</span>`
+        : '';
       $('prompt').innerHTML =
         entry.gloss
           .map(([tok, en]: [string, string | null]) =>

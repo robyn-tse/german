@@ -250,7 +250,7 @@ More conventions that came out of lesson 2's phrase list and worksheets:
 `l4-dativ`, `l4-dativ-verben`, `l4-akkusativ`, `l4-akkusativ-2` (lesson 4 case choice; the lesson 3 versions were retired when Markus re-sent the sheet with genders). An optional `note` is shown
 with the answer (used for singular/plural ambiguity in the case sheets). Homework sentences carry
 `gloss`: word-by-word English aligned to `prompt_de` (`[["ihr","you all"],["___",null],…]`), shown
-above each word in homework mode. Build it with a per-form dictionary (see the lesson-3 gloss
+above each word in homework mode, plus `hint_en` for the verb in brackets. Build it with a per-form dictionary (see the lesson-3 gloss
 script pattern); every homework sheet needs it. Two gaps are answered as one string with a space
 (`stehe auf`); the quiz shows it as `stehe … auf`. Ids are `ex-<sheet>-NNN`.
 

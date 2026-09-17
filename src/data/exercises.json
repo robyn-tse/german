@@ -45,7 +45,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to get up"
   },
   {
     "id": "ex-praefix-002",
@@ -85,7 +86,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to shop"
   },
   {
     "id": "ex-praefix-003",
@@ -129,7 +131,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to begin"
   },
   {
     "id": "ex-praefix-004",
@@ -173,7 +176,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to call"
   },
   {
     "id": "ex-praefix-005",
@@ -209,7 +213,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to arrive"
   },
   {
     "id": "ex-praefix-006",
@@ -257,7 +262,8 @@
         "dunkel.",
         "dark"
       ]
-    ]
+    ],
+    "hint_en": "to turn on"
   },
   {
     "id": "ex-praefix-007",
@@ -309,7 +315,8 @@
         "laut.",
         "loudly"
       ]
-    ]
+    ],
+    "hint_en": "to turn off"
   },
   {
     "id": "ex-praefix-008",
@@ -349,7 +356,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to watch TV"
   },
   {
     "id": "ex-praefix-009",
@@ -385,7 +393,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to come along"
   },
   {
     "id": "ex-praefix-010",
@@ -425,7 +434,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to pick up"
   },
   {
     "id": "ex-praefix-011",
@@ -469,7 +479,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to depart"
   },
   {
     "id": "ex-praefix-012",
@@ -509,7 +520,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to tidy up"
   },
   {
     "id": "ex-praefix-013",
@@ -557,7 +569,8 @@
         "liest.",
         "reads"
       ]
-    ]
+    ],
+    "hint_en": "to open"
   },
   {
     "id": "ex-praefix-014",
@@ -605,7 +618,8 @@
         "zieht!",
         "pulls / puts on"
       ]
-    ]
+    ],
+    "hint_en": "to close"
   },
   {
     "id": "ex-praefix-015",
@@ -649,7 +663,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to invite"
   },
   {
     "id": "ex-praefix-016",
@@ -689,7 +704,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to put on"
   },
   {
     "id": "ex-praefix-017",
@@ -733,7 +749,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to take off"
   },
   {
     "id": "ex-praefix-018",
@@ -773,7 +790,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to stop"
   },
   {
     "id": "ex-praefix-019",
@@ -813,7 +831,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to bring along"
   },
   {
     "id": "ex-praefix-020",
@@ -849,7 +868,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to prepare"
   },
   {
     "id": "ex-praefix-021",
@@ -889,7 +909,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to get to know"
   },
   {
     "id": "ex-praefix-022",
@@ -933,7 +954,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to stop"
   },
   {
     "id": "ex-praefix-023",
@@ -973,7 +995,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to arrive"
   },
   {
     "id": "ex-praefix-024",
@@ -1017,7 +1040,8 @@
         "regnet.",
         "rains"
       ]
-    ]
+    ],
+    "hint_en": "to close"
   },
   {
     "id": "ex-praefix-025",
@@ -1053,7 +1077,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to take along"
   },
   {
     "id": "ex-praefix-026",
@@ -1093,7 +1118,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to get up"
   },
   {
     "id": "ex-praefix-027",
@@ -1133,7 +1159,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to shop"
   },
   {
     "id": "ex-praefix-028",
@@ -1169,7 +1196,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to call"
   },
   {
     "id": "ex-praefix-029",
@@ -1209,7 +1237,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to watch TV"
   },
   {
     "id": "ex-praefix-030",
@@ -1257,7 +1286,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to pick up"
   },
   {
     "id": "ex-praefix-031",
@@ -1293,7 +1323,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to begin"
   },
   {
     "id": "ex-praefix-032",
@@ -1329,7 +1360,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to tidy up"
   },
   {
     "id": "ex-praefix-033",
@@ -1381,7 +1413,8 @@
         "10.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to open"
   },
   {
     "id": "ex-praefix-034",
@@ -1425,7 +1458,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to invite"
   },
   {
     "id": "ex-praefix-035",
@@ -1461,7 +1495,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to depart"
   },
   {
     "id": "ex-praefix-036",
@@ -1501,7 +1536,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to take along"
   },
   {
     "id": "ex-praefix-037",
@@ -1537,7 +1573,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to put on"
   },
   {
     "id": "ex-praefix-038",
@@ -1577,7 +1614,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to bring along"
   },
   {
     "id": "ex-praefix-039",
@@ -1621,7 +1659,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to stop"
   },
   {
     "id": "ex-praefix-040",
@@ -1657,7 +1696,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to come along"
   },
   {
     "id": "ex-praefix-041",
@@ -1697,7 +1737,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to switch on"
   },
   {
     "id": "ex-praefix-042",
@@ -1733,7 +1774,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to switch off"
   },
   {
     "id": "ex-praefix-043",
@@ -1769,7 +1811,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to pack"
   },
   {
     "id": "ex-praefix-044",
@@ -1805,7 +1848,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to unpack"
   },
   {
     "id": "ex-praefix-045",
@@ -1845,7 +1889,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to fill out"
   },
   {
     "id": "ex-praefix-046",
@@ -1885,7 +1930,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to issue"
   },
   {
     "id": "ex-praefix-047",
@@ -1929,7 +1975,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to pick up"
   },
   {
     "id": "ex-praefix-048",
@@ -1973,7 +2020,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to begin"
   },
   {
     "id": "ex-praefix-049",
@@ -2013,7 +2061,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to clean"
   },
   {
     "id": "ex-praefix-050",
@@ -2057,7 +2106,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to tick"
   },
   {
     "id": "ex-praefix-051",
@@ -2093,7 +2143,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to get up"
   },
   {
     "id": "ex-praefix-052",
@@ -2125,7 +2176,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to shop"
   },
   {
     "id": "ex-praefix-053",
@@ -2161,7 +2213,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to call"
   },
   {
     "id": "ex-praefix-054",
@@ -2197,7 +2250,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to come along"
   },
   {
     "id": "ex-praefix-055",
@@ -2233,7 +2287,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to pick up"
   },
   {
     "id": "ex-praefix-056",
@@ -2285,7 +2340,8 @@
         "genug.",
         "enough"
       ]
-    ]
+    ],
+    "hint_en": "to turn off"
   },
   {
     "id": "ex-praefix-057",
@@ -2321,7 +2377,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to stop"
   },
   {
     "id": "ex-praefix-058",
@@ -2357,7 +2414,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to invite"
   },
   {
     "id": "ex-praefix-059",
@@ -2393,7 +2451,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to watch TV"
   },
   {
     "id": "ex-praefix-060",
@@ -2437,7 +2496,8 @@
         "wartet.",
         "waits"
       ]
-    ]
+    ],
+    "hint_en": "to begin"
   },
   {
     "id": "ex-praefix-061",
@@ -2473,7 +2533,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to tidy up"
   },
   {
     "id": "ex-praefix-062",
@@ -2513,7 +2574,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to open"
   },
   {
     "id": "ex-praefix-063",
@@ -2553,7 +2615,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to put on"
   },
   {
     "id": "ex-praefix-064",
@@ -2593,7 +2656,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to bring along"
   },
   {
     "id": "ex-praefix-065",
@@ -2629,7 +2693,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to fill out"
   },
   {
     "id": "ex-praefix-066",
@@ -2665,7 +2730,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to depart"
   },
   {
     "id": "ex-praefix-067",
@@ -2701,7 +2767,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to get to know"
   },
   {
     "id": "ex-praefix-068",
@@ -2737,7 +2804,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to prepare"
   },
   {
     "id": "ex-praefix-069",
@@ -2773,7 +2841,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to pack"
   },
   {
     "id": "ex-praefix-070",
@@ -2805,7 +2874,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to stop"
   },
   {
     "id": "ex-praefix-071",
@@ -2845,7 +2915,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to turn on"
   },
   {
     "id": "ex-praefix-072",
@@ -2881,7 +2952,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to close"
   },
   {
     "id": "ex-praefix-073",
@@ -2917,7 +2989,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to take along"
   },
   {
     "id": "ex-praefix-074",
@@ -2957,7 +3030,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to tick"
   },
   {
     "id": "ex-praefix-075",
@@ -3001,7 +3075,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to take off"
   },
   {
     "id": "ex-praefix-076",
@@ -3041,7 +3116,8 @@
         "Wochenende.",
         "weekend"
       ]
-    ]
+    ],
+    "hint_en": "to visit"
   },
   {
     "id": "ex-praefix-077",
@@ -3077,7 +3153,8 @@
         "Grammatikthema.",
         "grammar topic"
       ]
-    ]
+    ],
+    "hint_en": "to explain"
   },
   {
     "id": "ex-praefix-078",
@@ -3117,7 +3194,8 @@
         "nicht.",
         "not"
       ]
-    ]
+    ],
+    "hint_en": "to understand"
   },
   {
     "id": "ex-praefix-079",
@@ -3153,7 +3231,8 @@
         "gut.",
         "well"
       ]
-    ]
+    ],
+    "hint_en": "to please / to like"
   },
   {
     "id": "ex-praefix-080",
@@ -3193,7 +3272,8 @@
         "Geschenk.",
         "present"
       ]
-    ]
+    ],
+    "hint_en": "to sell"
   },
   {
     "id": "ex-praefix-081",
@@ -3233,7 +3313,8 @@
         "Auto.",
         "car"
       ]
-    ]
+    ],
+    "hint_en": "to get"
   },
   {
     "id": "ex-praefix-082",
@@ -3277,7 +3358,8 @@
         "gut.",
         "well"
       ]
-    ]
+    ],
+    "hint_en": "to please / to like"
   },
   {
     "id": "ex-praefix-083",
@@ -3309,7 +3391,8 @@
         "Hausaufgabe.",
         "homework"
       ]
-    ]
+    ],
+    "hint_en": "to forget"
   },
   {
     "id": "ex-praefix-084",
@@ -3341,7 +3424,8 @@
         "Deutschkurs?",
         "German course"
       ]
-    ]
+    ],
+    "hint_en": "to begin"
   },
   {
     "id": "ex-praefix-085",
@@ -3377,7 +3461,8 @@
         "Bier.",
         "beer"
       ]
-    ]
+    ],
+    "hint_en": "to order"
   },
   {
     "id": "ex-praefix-086",
@@ -3409,7 +3494,8 @@
         "Geld.",
         "money"
       ]
-    ]
+    ],
+    "hint_en": "to earn"
   },
   {
     "id": "ex-praefix-087",
@@ -3441,7 +3527,8 @@
         "Rechnung?",
         "bill"
       ]
-    ]
+    ],
+    "hint_en": "to pay"
   },
   {
     "id": "ex-praefix-088",
@@ -3489,7 +3576,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to get up"
   },
   {
     "id": "ex-praefix-089",
@@ -3533,7 +3621,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to tidy up"
   },
   {
     "id": "ex-praefix-090",
@@ -3577,7 +3666,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to invite"
   },
   {
     "id": "ex-praefix-091",
@@ -3609,7 +3699,8 @@
         "Termin.",
         "appointment"
       ]
-    ]
+    ],
+    "hint_en": "to confirm"
   },
   {
     "id": "ex-praefix-092",
@@ -3657,7 +3748,8 @@
         "geht.",
         "goes"
       ]
-    ]
+    ],
+    "hint_en": "to turn off"
   },
   {
     "id": "ex-praefix-093",
@@ -3697,7 +3789,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to call"
   },
   {
     "id": "ex-praefix-094",
@@ -3733,7 +3826,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to depart"
   },
   {
     "id": "ex-praefix-095",
@@ -3773,7 +3867,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to fill out"
   },
   {
     "id": "ex-praefix-096",
@@ -3809,7 +3904,8 @@
         "nicht.",
         "not"
       ]
-    ]
+    ],
+    "hint_en": "to understand"
   },
   {
     "id": "ex-praefix-097",
@@ -3845,7 +3941,8 @@
         "Thema.",
         "topic"
       ]
-    ]
+    ],
+    "hint_en": "to discuss"
   },
   {
     "id": "ex-praefix-098",
@@ -3881,7 +3978,8 @@
         "Geburtstag!",
         "birthday"
       ]
-    ]
+    ],
+    "hint_en": "to forget"
   },
   {
     "id": "ex-praefix-099",
@@ -3925,7 +4023,8 @@
         "Oma.",
         "grandma"
       ]
-    ]
+    ],
+    "hint_en": "to get"
   },
   {
     "id": "ex-praefix-100",
@@ -3965,7 +4064,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to switch on"
   },
   {
     "id": "ex-artikel-001",
@@ -3980,7 +4080,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-002",
@@ -3995,7 +4096,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-003",
@@ -4010,7 +4112,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-004",
@@ -4025,7 +4128,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-005",
@@ -4040,7 +4144,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-006",
@@ -4055,7 +4160,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-007",
@@ -4070,7 +4176,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-008",
@@ -4085,7 +4192,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-009",
@@ -4100,7 +4208,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-010",
@@ -4115,7 +4224,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-011",
@@ -4130,7 +4240,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-012",
@@ -4145,7 +4256,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-013",
@@ -4160,7 +4272,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-014",
@@ -4175,7 +4288,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-015",
@@ -4190,7 +4304,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-016",
@@ -4205,7 +4320,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-017",
@@ -4220,7 +4336,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-018",
@@ -4235,7 +4352,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-019",
@@ -4250,7 +4368,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-020",
@@ -4265,7 +4384,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-021",
@@ -4280,7 +4400,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-022",
@@ -4295,7 +4416,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-023",
@@ -4310,7 +4432,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-024",
@@ -4325,7 +4448,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-025",
@@ -4340,7 +4464,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-026",
@@ -4355,7 +4480,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-027",
@@ -4370,7 +4496,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-028",
@@ -4386,7 +4513,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-029",
@@ -4401,7 +4529,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-030",
@@ -4416,7 +4545,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-031",
@@ -4432,7 +4562,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-032",
@@ -4448,7 +4579,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-033",
@@ -4464,7 +4596,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-034",
@@ -4479,7 +4612,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-035",
@@ -4494,7 +4628,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-036",
@@ -4509,7 +4644,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-037",
@@ -4524,7 +4660,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-038",
@@ -4539,7 +4676,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-039",
@@ -4555,7 +4693,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-040",
@@ -4571,7 +4710,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-041",
@@ -4587,7 +4727,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-042",
@@ -4603,7 +4744,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-043",
@@ -4619,7 +4761,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-044",
@@ -4634,7 +4777,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-045",
@@ -4650,7 +4794,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-046",
@@ -4666,7 +4811,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-047",
@@ -4682,7 +4828,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-048",
@@ -4697,7 +4844,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-049",
@@ -4712,7 +4860,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-artikel-050",
@@ -4728,7 +4877,8 @@
       "artikel",
       "plural"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-001",
@@ -4743,7 +4893,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-002",
@@ -4758,7 +4909,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-003",
@@ -4773,7 +4925,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-004",
@@ -4788,7 +4941,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-005",
@@ -4803,7 +4957,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-006",
@@ -4818,7 +4973,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-007",
@@ -4833,7 +4989,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-008",
@@ -4848,7 +5005,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-009",
@@ -4863,7 +5021,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-010",
@@ -4878,7 +5037,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-011",
@@ -4893,7 +5053,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-012",
@@ -4908,7 +5069,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-013",
@@ -4923,7 +5085,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-014",
@@ -4938,7 +5101,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-015",
@@ -4953,7 +5117,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-016",
@@ -4968,7 +5133,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-017",
@@ -4983,7 +5149,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-018",
@@ -4998,7 +5165,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-019",
@@ -5013,7 +5181,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-020",
@@ -5028,7 +5197,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-021",
@@ -5043,7 +5213,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-022",
@@ -5058,7 +5229,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-023",
@@ -5073,7 +5245,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-024",
@@ -5088,7 +5261,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-025",
@@ -5103,7 +5277,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-026",
@@ -5118,7 +5293,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-027",
@@ -5133,7 +5309,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-028",
@@ -5148,7 +5325,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-029",
@@ -5163,7 +5341,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-030",
@@ -5178,7 +5357,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-031",
@@ -5193,7 +5373,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-032",
@@ -5208,7 +5389,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-033",
@@ -5223,7 +5405,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-034",
@@ -5238,7 +5421,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-035",
@@ -5253,7 +5437,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-036",
@@ -5268,7 +5453,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-037",
@@ -5283,7 +5469,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-038",
@@ -5298,7 +5485,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-039",
@@ -5313,7 +5501,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-040",
@@ -5328,7 +5517,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-041",
@@ -5343,7 +5533,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-042",
@@ -5358,7 +5549,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-043",
@@ -5373,7 +5565,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-044",
@@ -5388,7 +5581,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-045",
@@ -5403,7 +5597,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-046",
@@ -5418,7 +5613,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-047",
@@ -5433,7 +5629,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-048",
@@ -5448,7 +5645,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-049",
@@ -5463,7 +5661,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-unbestimmt-050",
@@ -5478,7 +5677,8 @@
     "tags": [
       "artikel"
     ],
-    "gloss": null
+    "gloss": null,
+    "hint_en": null
   },
   {
     "id": "ex-schwach-001",
@@ -5527,7 +5727,8 @@
         "Wien.",
         "Vienna"
       ]
-    ]
+    ],
+    "hint_en": "to live"
   },
   {
     "id": "ex-schwach-002",
@@ -5564,7 +5765,8 @@
         "Musik?",
         "music"
       ]
-    ]
+    ],
+    "hint_en": "to hear / to listen"
   },
   {
     "id": "ex-schwach-003",
@@ -5605,7 +5807,8 @@
         "Stunden.",
         "hours"
       ]
-    ]
+    ],
+    "hint_en": "to work"
   },
   {
     "id": "ex-schwach-004",
@@ -5646,7 +5849,8 @@
         "Sprachkurs.",
         "language course"
       ]
-    ]
+    ],
+    "hint_en": "to learn"
   },
   {
     "id": "ex-schwach-005",
@@ -5695,7 +5899,8 @@
         "Essen.",
         "food / meal"
       ]
-    ]
+    ],
+    "hint_en": "to cook"
   },
   {
     "id": "ex-schwach-006",
@@ -5736,7 +5941,8 @@
         "Tee.",
         "tea"
       ]
-    ]
+    ],
+    "hint_en": "to make"
   },
   {
     "id": "ex-schwach-007",
@@ -5781,7 +5987,8 @@
         "Großeltern.",
         "grandparents"
       ]
-    ]
+    ],
+    "hint_en": "to visit"
   },
   {
     "id": "ex-schwach-008",
@@ -5822,7 +6029,8 @@
         "Spanien?",
         "Spain"
       ]
-    ]
+    ],
+    "hint_en": "to travel"
   },
   {
     "id": "ex-schwach-009",
@@ -5871,7 +6079,8 @@
         "Winter.",
         "winter"
       ]
-    ]
+    ],
+    "hint_en": "to buy"
   },
   {
     "id": "ex-schwach-010",
@@ -5916,7 +6125,8 @@
         "Zuges.",
         "of the train"
       ]
-    ]
+    ],
+    "hint_en": "to wait"
   },
   {
     "id": "ex-schwach-011",
@@ -5961,7 +6171,8 @@
         "Tasche.",
         "bag"
       ]
-    ]
+    ],
+    "hint_en": "to look for"
   },
   {
     "id": "ex-schwach-012",
@@ -6006,7 +6217,8 @@
         "Lehrerin.",
         "teacher"
       ]
-    ]
+    ],
+    "hint_en": "to answer"
   },
   {
     "id": "ex-schwach-013",
@@ -6047,7 +6259,8 @@
         "Juli?",
         "July"
       ]
-    ]
+    ],
+    "hint_en": "to celebrate"
   },
   {
     "id": "ex-schwach-014",
@@ -6088,7 +6301,8 @@
         "Garten.",
         "garden"
       ]
-    ]
+    ],
+    "hint_en": "to play"
   },
   {
     "id": "ex-schwach-015",
@@ -6137,7 +6351,8 @@
         "ist.",
         "is"
       ]
-    ]
+    ],
+    "hint_en": "to open"
   },
   {
     "id": "ex-schwach-016",
@@ -6186,7 +6401,8 @@
         "Haus.",
         "house"
       ]
-    ]
+    ],
+    "hint_en": "to put"
   },
   {
     "id": "ex-schwach-017",
@@ -6231,7 +6447,8 @@
         "Nachricht.",
         "message"
       ]
-    ]
+    ],
+    "hint_en": "to send"
   },
   {
     "id": "ex-schwach-018",
@@ -6268,7 +6485,8 @@
         "Wohnung?",
         "apartment"
       ]
-    ]
+    ],
+    "hint_en": "to clean"
   },
   {
     "id": "ex-schwach-019",
@@ -6309,7 +6527,8 @@
         "Hof.",
         "yard"
       ]
-    ]
+    ],
+    "hint_en": "to bark"
   },
   {
     "id": "ex-schwach-020",
@@ -6358,7 +6577,8 @@
         "antwortet.",
         "answers"
       ]
-    ]
+    ],
+    "hint_en": "to knock"
   },
   {
     "id": "ex-schwach-021",
@@ -6403,7 +6623,8 @@
         "gut.",
         "well"
       ]
-    ]
+    ],
+    "hint_en": "to explain"
   },
   {
     "id": "ex-schwach-022",
@@ -6448,7 +6669,8 @@
         "Internet.",
         "internet"
       ]
-    ]
+    ],
+    "hint_en": "to sell"
   },
   {
     "id": "ex-schwach-023",
@@ -6489,7 +6711,8 @@
         "Salz?",
         "salt"
       ]
-    ]
+    ],
+    "hint_en": "to pass / to hand"
   },
   {
     "id": "ex-schwach-024",
@@ -6538,7 +6761,8 @@
         "gemeinsam.",
         "together"
       ]
-    ]
+    ],
+    "hint_en": "to share"
   },
   {
     "id": "ex-schwach-025",
@@ -6587,7 +6811,8 @@
         "Landschaft.",
         "landscape"
       ]
-    ]
+    ],
+    "hint_en": "to paint"
   },
   {
     "id": "ex-schwach-026",
@@ -6628,7 +6853,8 @@
         "Problem.",
         "problem"
       ]
-    ]
+    ],
+    "hint_en": "to discuss"
   },
   {
     "id": "ex-schwach-027",
@@ -6669,7 +6895,8 @@
         "E-Mail.",
         "e-mail"
       ]
-    ]
+    ],
+    "hint_en": "to confirm"
   },
   {
     "id": "ex-schwach-028",
@@ -6706,7 +6933,8 @@
         "See?",
         "lake"
       ]
-    ]
+    ],
+    "hint_en": "to bathe / to swim"
   },
   {
     "id": "ex-schwach-029",
@@ -6755,7 +6983,8 @@
         "Karteikarte.",
         "index card"
       ]
-    ]
+    ],
+    "hint_en": "to note down"
   },
   {
     "id": "ex-schwach-030",
@@ -6800,7 +7029,8 @@
         "Gäste.",
         "guests"
       ]
-    ]
+    ],
+    "hint_en": "to reserve"
   },
   {
     "id": "ex-schwach-031",
@@ -6841,7 +7071,8 @@
         "Automaten.",
         "machine"
       ]
-    ]
+    ],
+    "hint_en": "to solve / to buy a ticket"
   },
   {
     "id": "ex-schwach-032",
@@ -6878,7 +7109,8 @@
         "fachgerecht.",
         "properly"
       ]
-    ]
+    ],
+    "hint_en": "to dispose of"
   },
   {
     "id": "ex-schwach-033",
@@ -6919,7 +7151,8 @@
         "Reisebüro?",
         "travel agency"
       ]
-    ]
+    ],
+    "hint_en": "to book"
   },
   {
     "id": "ex-schwach-034",
@@ -6964,7 +7197,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to listen"
   },
   {
     "id": "ex-schwach-035",
@@ -7001,7 +7235,8 @@
         "sorgfältig.",
         "carefully"
       ]
-    ]
+    ],
+    "hint_en": "to check"
   },
   {
     "id": "ex-schwach-036",
@@ -7046,7 +7281,8 @@
         "Gruppe.",
         "group"
       ]
-    ]
+    ],
+    "hint_en": "to solve / to buy a ticket"
   },
   {
     "id": "ex-schwach-037",
@@ -7091,7 +7327,8 @@
         "Tisch.",
         "table"
       ]
-    ]
+    ],
+    "hint_en": "to lay"
   },
   {
     "id": "ex-schwach-038",
@@ -7132,7 +7369,8 @@
         "Zelt?",
         "tent"
       ]
-    ]
+    ],
+    "hint_en": "to camp"
   },
   {
     "id": "ex-schwach-039",
@@ -7181,7 +7419,8 @@
         "Garage.",
         "garage"
       ]
-    ]
+    ],
+    "hint_en": "to park"
   },
   {
     "id": "ex-schwach-040",
@@ -7222,7 +7461,8 @@
         "Restaurant.",
         "restaurant"
       ]
-    ]
+    ],
+    "hint_en": "to pay"
   },
   {
     "id": "ex-schwach-041",
@@ -7263,7 +7503,8 @@
         "Garten.",
         "garden"
       ]
-    ]
+    ],
+    "hint_en": "to plant"
   },
   {
     "id": "ex-schwach-042",
@@ -7308,7 +7549,8 @@
         "Tür?",
         "door"
       ]
-    ]
+    ],
+    "hint_en": "to clean"
   },
   {
     "id": "ex-schwach-043",
@@ -7345,7 +7587,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to close"
   },
   {
     "id": "ex-schwach-044",
@@ -7386,7 +7629,8 @@
         "Bahnhof.",
         "train station"
       ]
-    ]
+    ],
+    "hint_en": "to look for"
   },
   {
     "id": "ex-schwach-045",
@@ -7423,7 +7667,8 @@
         "spazieren.",
         "for a walk"
       ]
-    ]
+    ],
+    "hint_en": "to hike"
   },
   {
     "id": "ex-schwach-046",
@@ -7468,7 +7713,8 @@
         "Leine.",
         "line"
       ]
-    ]
+    ],
+    "hint_en": "to hang"
   },
   {
     "id": "ex-schwach-047",
@@ -7513,7 +7759,8 @@
         "Lagerfeuer?",
         "campfire"
       ]
-    ]
+    ],
+    "hint_en": "to gather"
   },
   {
     "id": "ex-schwach-048",
@@ -7550,7 +7797,8 @@
         "nicht.",
         "not"
       ]
-    ]
+    ],
+    "hint_en": "to cry"
   },
   {
     "id": "ex-schwach-049",
@@ -7595,7 +7843,8 @@
         "Abreise.",
         "departure"
       ]
-    ]
+    ],
+    "hint_en": "to pack"
   },
   {
     "id": "ex-schwach-050",
@@ -7640,7 +7889,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to switch on"
   },
   {
     "id": "ex-schwach-051",
@@ -7685,7 +7935,8 @@
         "Essen.",
         "food / meal"
       ]
-    ]
+    ],
+    "hint_en": "to wash up"
   },
   {
     "id": "ex-schwach-052",
@@ -7730,7 +7981,8 @@
         "Wand?",
         "wall"
       ]
-    ]
+    ],
+    "hint_en": "to hang"
   },
   {
     "id": "ex-schwach-053",
@@ -7767,7 +8019,8 @@
         "Baum.",
         "tree"
       ]
-    ]
+    ],
+    "hint_en": "to chirp"
   },
   {
     "id": "ex-schwach-054",
@@ -7808,7 +8061,8 @@
         "Sohnes.",
         "of our son"
       ]
-    ]
+    ],
+    "hint_en": "to plan"
   },
   {
     "id": "ex-schwach-055",
@@ -7857,7 +8111,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to fill out"
   },
   {
     "id": "ex-schwach-056",
@@ -7906,7 +8161,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to light"
   },
   {
     "id": "ex-schwach-057",
@@ -7947,7 +8203,8 @@
         "Arbeit?",
         "work"
       ]
-    ]
+    ],
+    "hint_en": "to use"
   },
   {
     "id": "ex-schwach-058",
@@ -7988,7 +8245,8 @@
         "Auto.",
         "car"
       ]
-    ]
+    ],
+    "hint_en": "to repair"
   },
   {
     "id": "ex-schwach-059",
@@ -8033,7 +8291,8 @@
         "Bankkonto.",
         "bank account"
       ]
-    ]
+    ],
+    "hint_en": "to transfer"
   },
   {
     "id": "ex-schwach-060",
@@ -8078,7 +8337,8 @@
         "Einzug.",
         "moving in"
       ]
-    ]
+    ],
+    "hint_en": "to renovate"
   },
   {
     "id": "ex-schwach-061",
@@ -8123,7 +8383,8 @@
         "Geschenk.",
         "present"
       ]
-    ]
+    ],
+    "hint_en": "to thank"
   },
   {
     "id": "ex-schwach-062",
@@ -8160,7 +8421,8 @@
         "Stift?",
         "pen"
       ]
-    ]
+    ],
+    "hint_en": "to lend"
   },
   {
     "id": "ex-schwach-063",
@@ -8205,7 +8467,8 @@
         "Geschichte.",
         "story"
       ]
-    ]
+    ],
+    "hint_en": "to tell"
   },
   {
     "id": "ex-schwach-064",
@@ -8254,7 +8517,8 @@
         "Behörde.",
         "authority"
       ]
-    ]
+    ],
+    "hint_en": "to hope"
   },
   {
     "id": "ex-schwach-065",
@@ -8299,7 +8563,8 @@
         "Lehrers.",
         "of the teacher"
       ]
-    ]
+    ],
+    "hint_en": "to laugh"
   },
   {
     "id": "ex-schwach-066",
@@ -8332,7 +8597,8 @@
         "Fleiß.",
         "diligence"
       ]
-    ]
+    ],
+    "hint_en": "to praise"
   },
   {
     "id": "ex-schwach-067",
@@ -8365,7 +8631,8 @@
         "Wahrheit?",
         "truth"
       ]
-    ]
+    ],
+    "hint_en": "to say"
   },
   {
     "id": "ex-schwach-068",
@@ -8402,7 +8669,8 @@
         "Medikament.",
         "medicine"
       ]
-    ]
+    ],
+    "hint_en": "to prescribe"
   },
   {
     "id": "ex-schwach-069",
@@ -8443,7 +8711,8 @@
         "Geburtstag.",
         "birthday"
       ]
-    ]
+    ],
+    "hint_en": "to congratulate"
   },
   {
     "id": "ex-schwach-070",
@@ -8484,7 +8753,8 @@
         "Wochenende.",
         "weekend"
       ]
-    ]
+    ],
+    "hint_en": "to look forward to"
   },
   {
     "id": "ex-schwach-071",
@@ -8525,7 +8795,8 @@
         "Verspätung.",
         "delay"
       ]
-    ]
+    ],
+    "hint_en": "to apologise"
   },
   {
     "id": "ex-schwach-072",
@@ -8566,7 +8837,8 @@
         "morgen?",
         "tomorrow"
       ]
-    ]
+    ],
+    "hint_en": "to remember"
   },
   {
     "id": "ex-schwach-073",
@@ -8603,7 +8875,8 @@
         "sofort.",
         "immediately"
       ]
-    ]
+    ],
+    "hint_en": "to notice"
   },
   {
     "id": "ex-schwach-074",
@@ -8644,7 +8917,8 @@
         "Kurs.",
         "course"
       ]
-    ]
+    ],
+    "hint_en": "to pay attention to"
   },
   {
     "id": "ex-schwach-075",
@@ -8681,7 +8955,8 @@
         "Nachbarn.",
         "neighbour"
       ]
-    ]
+    ],
+    "hint_en": "to greet"
   },
   {
     "id": "ex-schwach-076",
@@ -8722,7 +8997,8 @@
         "Thema.",
         "topic"
       ]
-    ]
+    ],
+    "hint_en": "to express"
   },
   {
     "id": "ex-schwach-077",
@@ -8763,7 +9039,8 @@
         "___?",
         null
       ]
-    ]
+    ],
+    "hint_en": "to tell / to share"
   },
   {
     "id": "ex-schwach-078",
@@ -8812,7 +9089,8 @@
         "Unfall.",
         "accident"
       ]
-    ]
+    ],
+    "hint_en": "to inform"
   },
   {
     "id": "ex-schwach-079",
@@ -8853,7 +9131,8 @@
         "nicht.",
         "not"
       ]
-    ]
+    ],
+    "hint_en": "to answer"
   },
   {
     "id": "ex-schwach-080",
@@ -8898,7 +9177,8 @@
         "Reise.",
         "trip"
       ]
-    ]
+    ],
+    "hint_en": "to wish"
   },
   {
     "id": "ex-schwach-081",
@@ -8943,7 +9223,8 @@
         "Waschen.",
         "washing"
       ]
-    ]
+    ],
+    "hint_en": "to sort"
   },
   {
     "id": "ex-schwach-082",
@@ -8988,7 +9269,8 @@
         "Chef?",
         "boss"
       ]
-    ]
+    ],
+    "hint_en": "to clarify"
   },
   {
     "id": "ex-schwach-083",
@@ -9029,7 +9311,8 @@
         "Klebeband.",
         "tape"
       ]
-    ]
+    ],
+    "hint_en": "to glue / to tape"
   },
   {
     "id": "ex-schwach-084",
@@ -9074,7 +9357,8 @@
         "Projekt.",
         "project"
       ]
-    ]
+    ],
+    "hint_en": "to estimate"
   },
   {
     "id": "ex-schwach-085",
@@ -9115,7 +9399,8 @@
         "Wanderung.",
         "hike"
       ]
-    ]
+    ],
+    "hint_en": "to reach"
   },
   {
     "id": "ex-schwach-086",
@@ -9164,7 +9449,8 @@
         "___.",
         null
       ]
-    ]
+    ],
+    "hint_en": "to pick up"
   },
   {
     "id": "ex-schwach-087",
@@ -9209,7 +9495,8 @@
         "Dienstag?",
         "Tuesday"
       ]
-    ]
+    ],
+    "hint_en": "to postpone"
   },
   {
     "id": "ex-schwach-088",
@@ -9254,7 +9541,8 @@
         "Ampel.",
         "traffic light"
       ]
-    ]
+    ],
+    "hint_en": "to stop"
   },
   {
     "id": "ex-schwach-089",
@@ -9299,7 +9587,8 @@
         "Vorstellungsgespräch.",
         "job interview"
       ]
-    ]
+    ],
+    "hint_en": "to iron"
   },
   {
     "id": "ex-schwach-090",
@@ -9340,7 +9629,8 @@
         "Prüfung.",
         "exam"
       ]
-    ]
+    ],
+    "hint_en": "to expect"
   },
   {
     "id": "ex-schwach-091",
@@ -9385,7 +9675,8 @@
         "Ecke.",
         "corner"
       ]
-    ]
+    ],
+    "hint_en": "to move"
   },
   {
     "id": "ex-schwach-092",
@@ -9422,7 +9713,8 @@
         "regelmäßig?",
         "regularly"
       ]
-    ]
+    ],
+    "hint_en": "to maintain"
   },
   {
     "id": "ex-schwach-093",
@@ -9471,7 +9763,8 @@
         "Feld.",
         "field"
       ]
-    ]
+    ],
+    "hint_en": "to pass"
   },
   {
     "id": "ex-schwach-094",
@@ -9520,7 +9813,8 @@
         "Uhr.",
         "o'clock"
       ]
-    ]
+    ],
+    "hint_en": "to finish"
   },
   {
     "id": "ex-schwach-095",
@@ -9561,7 +9855,8 @@
         "Verkäufers.",
         "of the seller"
       ]
-    ]
+    ],
+    "hint_en": "to check"
   },
   {
     "id": "ex-schwach-096",
@@ -9606,7 +9901,8 @@
         "Liste.",
         "list"
       ]
-    ]
+    ],
+    "hint_en": "to put"
   },
   {
     "id": "ex-schwach-097",
@@ -9647,7 +9943,8 @@
         "Zimmer?",
         "room"
       ]
-    ]
+    ],
+    "hint_en": "to dim"
   },
   {
     "id": "ex-schwach-098",
@@ -9692,7 +9989,8 @@
         "Uhr.",
         "o'clock"
       ]
-    ]
+    ],
+    "hint_en": "to start"
   },
   {
     "id": "ex-schwach-099",
@@ -9737,7 +10035,8 @@
         "Salz.",
         "salt"
       ]
-    ]
+    ],
+    "hint_en": "to season"
   },
   {
     "id": "ex-schwach-100",
@@ -9786,7 +10085,8 @@
         "Stunde.",
         "lesson / hour"
       ]
-    ]
+    ],
+    "hint_en": "to review / to repeat"
   },
   {
     "id": "ex-l4-dativ-001",
@@ -9831,7 +10131,8 @@
         "Buch.",
         "book"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-002",
@@ -9876,7 +10177,8 @@
         "Ring.",
         "ring"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-003",
@@ -9921,7 +10223,8 @@
         "Aufgabe.",
         "task"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-004",
@@ -9966,7 +10269,8 @@
         "Geschenk.",
         "present"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-005",
@@ -10011,7 +10315,8 @@
         "Blumen.",
         "flowers"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-006",
@@ -10060,7 +10365,8 @@
         "Rechnung.",
         "bill"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-007",
@@ -10105,7 +10411,8 @@
         "Auto.",
         "car"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-008",
@@ -10150,7 +10457,8 @@
         "Weg.",
         "way"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-009",
@@ -10195,7 +10503,8 @@
         "E-Mail.",
         "e-mail"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-010",
@@ -10240,7 +10549,8 @@
         "Wahrheit.",
         "truth"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-011",
@@ -10289,7 +10599,8 @@
         "Medikament.",
         "medicine"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-012",
@@ -10334,7 +10645,8 @@
         "Regeln.",
         "rules"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-013",
@@ -10379,7 +10691,8 @@
         "Stift.",
         "pen"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-014",
@@ -10424,7 +10737,8 @@
         "Fahrrad.",
         "bicycle"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-015",
@@ -10469,7 +10783,8 @@
         "Restaurant.",
         "restaurant"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-016",
@@ -10514,7 +10829,8 @@
         "Unterlagen.",
         "documents"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-017",
@@ -10559,7 +10875,8 @@
         "Fotos.",
         "photos"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-018",
@@ -10612,7 +10929,8 @@
         "vor.",
         "in front of"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-019",
@@ -10657,7 +10975,8 @@
         "Postkarte.",
         "postcard"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-020",
@@ -10702,7 +11021,8 @@
         "Platz.",
         "place / seat"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-021",
@@ -10747,7 +11067,8 @@
         "Problem.",
         "problem"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-022",
@@ -10792,7 +11113,8 @@
         "Kleid.",
         "dress"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-023",
@@ -10841,7 +11163,8 @@
         "an.",
         "at / on"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-024",
@@ -10886,7 +11209,8 @@
         "Futter.",
         "food"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-025",
@@ -10931,7 +11255,8 @@
         "Datei.",
         "file"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-026",
@@ -10980,7 +11305,8 @@
         "Grammatik.",
         "grammar"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-027",
@@ -11025,7 +11351,8 @@
         "Ball.",
         "ball"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-028",
@@ -11070,7 +11397,8 @@
         "Museum.",
         "museum"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-029",
@@ -11115,7 +11443,8 @@
         "Geld.",
         "money"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-030",
@@ -11156,7 +11485,8 @@
         "Hilfe.",
         "help"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-031",
@@ -11201,7 +11531,8 @@
         "Blumen.",
         "flowers"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-032",
@@ -11246,7 +11577,8 @@
         "Symptome.",
         "symptoms"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-033",
@@ -11291,7 +11623,8 @@
         "Kaffee.",
         "coffee"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-034",
@@ -11336,7 +11669,8 @@
         "Nachricht.",
         "message"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-035",
@@ -11381,7 +11715,8 @@
         "Leiter.",
         "ladder"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-036",
@@ -11426,7 +11761,8 @@
         "Plan.",
         "plan"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-037",
@@ -11475,7 +11811,8 @@
         "Aufgabe.",
         "task"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-038",
@@ -11524,7 +11861,8 @@
         "vor.",
         "in front of"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-039",
@@ -11569,7 +11907,8 @@
         "Hemd.",
         "shirt"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-040",
@@ -11614,7 +11953,8 @@
         "Weg.",
         "way"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-041",
@@ -11663,7 +12003,8 @@
         "Frage.",
         "question"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-042",
@@ -11708,7 +12049,8 @@
         "Schlüssel.",
         "key"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-043",
@@ -11753,7 +12095,8 @@
         "Kuchen.",
         "cake"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-044",
@@ -11798,7 +12141,8 @@
         "Unterlagen.",
         "documents"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-045",
@@ -11843,7 +12187,8 @@
         "Büro.",
         "office"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-046",
@@ -11892,7 +12237,8 @@
         "Essen.",
         "food / meal"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-047",
@@ -11937,7 +12283,8 @@
         "Buch.",
         "book"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-048",
@@ -11986,7 +12333,8 @@
         "Hausaufgaben.",
         "homework"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-049",
@@ -12031,7 +12379,8 @@
         "Jacke.",
         "jacket"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-050",
@@ -12076,7 +12425,8 @@
         "Vertrag.",
         "contract"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-051",
@@ -12121,7 +12471,8 @@
         "Glas.",
         "glass"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-052",
@@ -12166,7 +12517,8 @@
         "Uhr.",
         "o'clock"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-053",
@@ -12211,7 +12563,8 @@
         "Wohnung.",
         "apartment"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-054",
@@ -12256,7 +12609,8 @@
         "Plan.",
         "plan"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-055",
@@ -12301,7 +12655,8 @@
         "Tasche.",
         "bag"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-056",
@@ -12350,7 +12705,8 @@
         "Quittung.",
         "receipt"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-057",
@@ -12395,7 +12751,8 @@
         "Bericht.",
         "report"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-058",
@@ -12440,7 +12797,8 @@
         "Bild.",
         "picture"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-059",
@@ -12485,7 +12843,8 @@
         "Regeln.",
         "rules"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-060",
@@ -12530,7 +12889,8 @@
         "Speisekarte.",
         "menu"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-061",
@@ -12579,7 +12939,8 @@
         "Mantel.",
         "coat"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-062",
@@ -12624,7 +12985,8 @@
         "Süßigkeiten.",
         "sweets"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-063",
@@ -12669,7 +13031,8 @@
         "Ausstellung.",
         "exhibition"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-064",
@@ -12714,7 +13077,8 @@
         "Fahrrad.",
         "bicycle"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-065",
@@ -12759,7 +13123,8 @@
         "Entschuldigung.",
         "excuse note"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-066",
@@ -12804,7 +13169,8 @@
         "Präsentation.",
         "presentation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-067",
@@ -12857,7 +13223,8 @@
         "vor.",
         "in front of"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-068",
@@ -12902,7 +13269,8 @@
         "Rechnung.",
         "bill"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-069",
@@ -12947,7 +13315,8 @@
         "Antwort.",
         "answer"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-070",
@@ -12992,7 +13361,8 @@
         "Problem.",
         "problem"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-071",
@@ -13041,7 +13411,8 @@
         "Behandlung.",
         "treatment"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-072",
@@ -13086,7 +13457,8 @@
         "Menü.",
         "set menu"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-073",
@@ -13131,7 +13503,8 @@
         "Spielplatz.",
         "playground"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-074",
@@ -13176,7 +13549,8 @@
         "Pflanze.",
         "plant"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-075",
@@ -13221,7 +13595,8 @@
         "Erklärung.",
         "explanation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-076",
@@ -13266,7 +13641,8 @@
         "Heft.",
         "exercise book"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-077",
@@ -13315,7 +13691,8 @@
         "Plan.",
         "plan"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-078",
@@ -13360,7 +13737,8 @@
         "Einladung.",
         "invitation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-079",
@@ -13405,7 +13783,8 @@
         "Geschenk.",
         "present"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-080",
@@ -13450,7 +13829,8 @@
         "Aufgabe.",
         "task"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-081",
@@ -13499,7 +13879,8 @@
         "Essen.",
         "food / meal"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-082",
@@ -13544,7 +13925,8 @@
         "Schlüssel.",
         "key"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-083",
@@ -13589,7 +13971,8 @@
         "Änderungen.",
         "changes"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-084",
@@ -13634,7 +14017,8 @@
         "Werkzeug.",
         "tool"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-085",
@@ -13679,7 +14063,8 @@
         "Ware.",
         "goods"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-086",
@@ -13724,7 +14109,8 @@
         "Ausgang.",
         "exit"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-087",
@@ -13773,7 +14159,8 @@
         "Buch.",
         "book"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-088",
@@ -13818,7 +14205,8 @@
         "Anmeldung.",
         "registration"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-089",
@@ -13863,7 +14251,8 @@
         "Tipp.",
         "tip"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-090",
@@ -13908,7 +14297,8 @@
         "Situation.",
         "situation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-091",
@@ -13957,7 +14347,8 @@
         "Lösung.",
         "solution"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-092",
@@ -14002,7 +14393,8 @@
         "Brief.",
         "letter"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-093",
@@ -14047,7 +14439,8 @@
         "Zimmer.",
         "room"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-094",
@@ -14092,7 +14485,8 @@
         "Spielzeug.",
         "toy"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-095",
@@ -14137,7 +14531,8 @@
         "Antwort.",
         "answer"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-096",
@@ -14182,7 +14577,8 @@
         "Beschwerden.",
         "complaints"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-097",
@@ -14231,7 +14627,8 @@
         "Kaffee.",
         "coffee"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-098",
@@ -14276,7 +14673,8 @@
         "Bestätigung.",
         "confirmation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-099",
@@ -14321,7 +14719,8 @@
         "Stadt.",
         "city"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-100",
@@ -14370,7 +14769,8 @@
         "ab.",
         "off"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-001",
@@ -14407,7 +14807,8 @@
         "Mann.",
         "man"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-002",
@@ -14444,7 +14845,8 @@
         "Frau.",
         "woman"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-003",
@@ -14481,7 +14883,8 @@
         "Lehrer.",
         "teacher"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-004",
@@ -14518,7 +14921,8 @@
         "Arzt.",
         "doctor"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-005",
@@ -14555,7 +14959,8 @@
         "Freundin.",
         "friend"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-006",
@@ -14596,7 +15001,8 @@
         "Familie.",
         "family"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-007",
@@ -14633,7 +15039,8 @@
         "Kollege.",
         "colleague"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-008",
@@ -14670,7 +15077,8 @@
         "Kind.",
         "child"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-009",
@@ -14707,7 +15115,8 @@
         "Nachbar.",
         "neighbour"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-010",
@@ -14744,7 +15153,8 @@
         "Anweisung.",
         "instruction"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-011",
@@ -14785,7 +15195,8 @@
         "Schüler.",
         "pupil"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-012",
@@ -14822,7 +15233,8 @@
         "Schwester.",
         "sister"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-013",
@@ -14859,7 +15271,8 @@
         "Chef.",
         "boss"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-014",
@@ -14896,7 +15309,8 @@
         "Tourist.",
         "tourist"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-015",
@@ -14933,7 +15347,8 @@
         "E-Mail.",
         "e-mail"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-016",
@@ -14974,7 +15389,8 @@
         "Wohnung.",
         "apartment"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-017",
@@ -15011,7 +15427,8 @@
         "Geschichte.",
         "story"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-018",
@@ -15048,7 +15465,8 @@
         "Mutter.",
         "mother"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-019",
@@ -15085,7 +15503,8 @@
         "Gast.",
         "guest"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-020",
@@ -15122,7 +15541,8 @@
         "Regel.",
         "rule"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-021",
@@ -15163,7 +15583,8 @@
         "Klasse.",
         "class"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-022",
@@ -15200,7 +15621,8 @@
         "Freund.",
         "friend"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-023",
@@ -15237,7 +15659,8 @@
         "Weg.",
         "way"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-024",
@@ -15274,7 +15697,8 @@
         "Kunde.",
         "customer"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-025",
@@ -15311,7 +15735,8 @@
         "Kollege.",
         "colleague"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-026",
@@ -15352,7 +15777,8 @@
         "Bibliothek.",
         "library"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-027",
@@ -15389,7 +15815,8 @@
         "Nachbarin.",
         "neighbour"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-028",
@@ -15426,7 +15853,8 @@
         "Nachricht.",
         "message"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-029",
@@ -15463,7 +15891,8 @@
         "Lehrerin.",
         "teacher"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-030",
@@ -15500,7 +15929,8 @@
         "Plan.",
         "plan"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-031",
@@ -15541,7 +15971,8 @@
         "Patient.",
         "patient"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-032",
@@ -15578,7 +16009,8 @@
         "Ärztin.",
         "doctor"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-033",
@@ -15615,7 +16047,8 @@
         "Verein.",
         "club"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-034",
@@ -15652,7 +16085,8 @@
         "Familie.",
         "family"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-035",
@@ -15689,7 +16123,8 @@
         "Gastgeber.",
         "host"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-036",
@@ -15730,7 +16165,8 @@
         "Kind.",
         "child"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-037",
@@ -15767,7 +16203,8 @@
         "Gerücht.",
         "rumour"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-038",
@@ -15804,7 +16241,8 @@
         "Vater.",
         "father"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-039",
@@ -15841,7 +16279,8 @@
         "Anfrage.",
         "enquiry"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-040",
@@ -15878,7 +16317,8 @@
         "Stimme.",
         "voice"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-041",
@@ -15919,7 +16359,8 @@
         "Schüler.",
         "pupil"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-042",
@@ -15960,7 +16401,8 @@
         "Mensch.",
         "person"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-043",
@@ -15997,7 +16439,8 @@
         "Kollegin.",
         "colleague"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-044",
@@ -16034,7 +16477,8 @@
         "Straße.",
         "street"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-045",
@@ -16071,7 +16515,8 @@
         "Sieger.",
         "winner"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-046",
@@ -16112,7 +16557,8 @@
         "Familie.",
         "family"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-047",
@@ -16149,7 +16595,8 @@
         "Experte.",
         "expert"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-048",
@@ -16186,7 +16633,8 @@
         "Nachbar.",
         "neighbour"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-049",
@@ -16223,7 +16671,8 @@
         "Publikum.",
         "audience"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-050",
@@ -16260,7 +16709,8 @@
         "Vorschrift.",
         "regulation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-051",
@@ -16301,7 +16751,8 @@
         "Mannschaft.",
         "team"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-052",
@@ -16338,7 +16789,8 @@
         "Polizei.",
         "police"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-053",
@@ -16375,7 +16827,8 @@
         "Gruppe.",
         "group"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-054",
@@ -16412,7 +16865,8 @@
         "Freund.",
         "friend"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-055",
@@ -16449,7 +16903,8 @@
         "Verkäufer.",
         "salesman"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-056",
@@ -16490,7 +16945,8 @@
         "Firma.",
         "company"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-057",
@@ -16527,7 +16983,8 @@
         "Aussage.",
         "statement"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-058",
@@ -16564,7 +17021,8 @@
         "Kollegin.",
         "colleague"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-059",
@@ -16601,7 +17059,8 @@
         "Bewerber.",
         "applicant"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-060",
@@ -16638,7 +17097,8 @@
         "Rat.",
         "advice"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-061",
@@ -16679,7 +17139,8 @@
         "Kind.",
         "child"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-062",
@@ -16716,7 +17177,8 @@
         "Berater.",
         "adviser"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-063",
@@ -16753,7 +17215,8 @@
         "Kunde.",
         "customer"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-064",
@@ -16790,7 +17253,8 @@
         "Richtung.",
         "direction"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-065",
@@ -16827,7 +17291,8 @@
         "Gewinner.",
         "winner"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-066",
@@ -16868,7 +17333,8 @@
         "Studentin.",
         "student"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-067",
@@ -16905,7 +17371,8 @@
         "Zeuge.",
         "witness"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-068",
@@ -16942,7 +17409,8 @@
         "Großmutter.",
         "grandmother"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-069",
@@ -16979,7 +17447,8 @@
         "Zuhörer.",
         "listener"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-070",
@@ -17016,7 +17485,8 @@
         "Empfehlung.",
         "recommendation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-071",
@@ -17057,7 +17527,8 @@
         "Erfahrung.",
         "experience"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-072",
@@ -17094,7 +17565,8 @@
         "Flüchtling.",
         "refugee"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-073",
@@ -17131,7 +17603,8 @@
         "Team.",
         "team"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-074",
@@ -17168,7 +17641,8 @@
         "Unterstützer.",
         "supporter"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-075",
@@ -17205,7 +17679,8 @@
         "Freund.",
         "friend"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-076",
@@ -17246,7 +17721,8 @@
         "Stadt.",
         "city"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-077",
@@ -17283,7 +17759,8 @@
         "Kollege.",
         "colleague"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-078",
@@ -17320,7 +17797,8 @@
         "Verkehrsschild.",
         "road sign"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-079",
@@ -17357,7 +17835,8 @@
         "Nachfrage.",
         "enquiry"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-080",
@@ -17394,7 +17873,8 @@
         "Lehrer.",
         "teacher"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-081",
@@ -17435,7 +17915,8 @@
         "Mitarbeiter.",
         "employee"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-082",
@@ -17472,7 +17953,8 @@
         "Ergebnis.",
         "result"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-083",
@@ -17509,7 +17991,8 @@
         "Schülerin.",
         "pupil"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-084",
@@ -17546,7 +18029,8 @@
         "Tradition.",
         "tradition"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-085",
@@ -17583,7 +18067,8 @@
         "Paar.",
         "couple"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-086",
@@ -17624,7 +18109,8 @@
         "Besitzer.",
         "owner"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-087",
@@ -17661,7 +18147,8 @@
         "Kranke.",
         "sick person"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-088",
@@ -17698,7 +18185,8 @@
         "Eltern.",
         "parents"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-089",
@@ -17735,7 +18223,8 @@
         "Theorie.",
         "theory"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-090",
@@ -17772,7 +18261,8 @@
         "Gesetz.",
         "law"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-091",
@@ -17813,7 +18303,8 @@
         "Auszubildende.",
         "trainee"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-092",
@@ -17850,7 +18341,8 @@
         "Instinkt.",
         "instinct"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-093",
@@ -17887,7 +18379,8 @@
         "Generation.",
         "generation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-094",
@@ -17924,7 +18417,8 @@
         "Organisation.",
         "organisation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-095",
@@ -17961,7 +18455,8 @@
         "Erklärung.",
         "explanation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-096",
@@ -18002,7 +18497,8 @@
         "Kind.",
         "child"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-097",
@@ -18039,7 +18535,8 @@
         "Kunde.",
         "customer"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-098",
@@ -18076,7 +18573,8 @@
         "Regel.",
         "rule"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-099",
@@ -18113,7 +18611,8 @@
         "System.",
         "system"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-dativ-verben-100",
@@ -18150,7 +18649,8 @@
         "Publikum.",
         "audience"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-001",
@@ -18187,7 +18687,8 @@
         "Mann.",
         "man"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-002",
@@ -18224,7 +18725,8 @@
         "Tasche.",
         "bag"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-003",
@@ -18261,7 +18763,8 @@
         "Buch.",
         "book"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-004",
@@ -18298,7 +18801,8 @@
         "Musik.",
         "music"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-005",
@@ -18335,7 +18839,8 @@
         "Kaffee.",
         "coffee"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-006",
@@ -18372,7 +18877,8 @@
         "Freundin.",
         "friend"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-007",
@@ -18409,7 +18915,8 @@
         "Schlüssel.",
         "key"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-008",
@@ -18446,7 +18953,8 @@
         "Lösung.",
         "solution"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-009",
@@ -18483,7 +18991,8 @@
         "Apfel.",
         "apple"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-010",
@@ -18520,7 +19029,8 @@
         "Tür.",
         "door"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-011",
@@ -18557,7 +19067,8 @@
         "Fahrrad.",
         "bicycle"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-012",
@@ -18594,7 +19105,8 @@
         "Antwort.",
         "answer"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-013",
@@ -18631,7 +19143,8 @@
         "Lehrer.",
         "teacher"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-014",
@@ -18668,7 +19181,8 @@
         "Film.",
         "film"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-015",
@@ -18705,7 +19219,8 @@
         "Pizza.",
         "pizza"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-016",
@@ -18742,7 +19257,8 @@
         "Kollege.",
         "colleague"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-017",
@@ -18779,7 +19295,8 @@
         "Geschenk.",
         "present"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-018",
@@ -18816,7 +19333,8 @@
         "Kleid.",
         "dress"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-019",
@@ -18853,7 +19371,8 @@
         "Problem.",
         "problem"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-020",
@@ -18890,7 +19409,8 @@
         "Reise.",
         "trip"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-021",
@@ -18927,7 +19447,8 @@
         "E-Mail.",
         "e-mail"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-022",
@@ -18964,7 +19485,8 @@
         "Zeitung.",
         "newspaper"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-023",
@@ -19001,7 +19523,8 @@
         "Arzt.",
         "doctor"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-024",
@@ -19038,7 +19561,8 @@
         "Bus.",
         "bus"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-025",
@@ -19079,7 +19603,8 @@
         "gut.",
         "well"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-026",
@@ -19116,7 +19641,8 @@
         "Nachricht.",
         "message"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-027",
@@ -19153,7 +19679,8 @@
         "Arbeit.",
         "work"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-028",
@@ -19190,7 +19717,8 @@
         "Ergebnis.",
         "result"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-029",
@@ -19227,7 +19755,8 @@
         "Fenster.",
         "window"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-030",
@@ -19264,7 +19793,8 @@
         "Wasser.",
         "water"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-031",
@@ -19301,7 +19831,8 @@
         "Auto.",
         "car"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-032",
@@ -19338,7 +19869,8 @@
         "Wohnung.",
         "apartment"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-033",
@@ -19375,7 +19907,8 @@
         "Hilfe.",
         "help"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-034",
@@ -19416,7 +19949,8 @@
         "laut.",
         "loudly"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-035",
@@ -19457,7 +19991,8 @@
         "mit.",
         "with"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-036",
@@ -19494,7 +20029,8 @@
         "Pause.",
         "break"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-037",
@@ -19531,7 +20067,8 @@
         "Stern.",
         "star"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-038",
@@ -19568,7 +20105,8 @@
         "Text.",
         "text"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-039",
@@ -19605,7 +20143,8 @@
         "Situation.",
         "situation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-040",
@@ -19642,7 +20181,8 @@
         "Essen.",
         "food / meal"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-041",
@@ -19679,7 +20219,8 @@
         "Job.",
         "job"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-042",
@@ -19716,7 +20257,8 @@
         "Roman.",
         "novel"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-043",
@@ -19753,7 +20295,8 @@
         "Museum.",
         "museum"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-044",
@@ -19790,7 +20333,8 @@
         "Brot.",
         "bread"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-045",
@@ -19827,7 +20371,8 @@
         "Geräusch.",
         "noise"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-046",
@@ -19864,7 +20409,8 @@
         "Unfall.",
         "accident"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-047",
@@ -19901,7 +20447,8 @@
         "Rucksack.",
         "backpack"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-048",
@@ -19938,7 +20485,8 @@
         "Vortrag.",
         "talk"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-049",
@@ -19975,7 +20523,8 @@
         "Fenster.",
         "window"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-050",
@@ -20012,7 +20561,8 @@
         "Laden.",
         "shop"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-051",
@@ -20049,7 +20599,8 @@
         "Bild.",
         "picture"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-052",
@@ -20086,7 +20637,8 @@
         "Sprache.",
         "language"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-053",
@@ -20123,7 +20675,8 @@
         "Tee.",
         "tea"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-054",
@@ -20160,7 +20713,8 @@
         "Wohnung.",
         "apartment"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-055",
@@ -20197,7 +20751,8 @@
         "Brief.",
         "letter"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-056",
@@ -20234,7 +20789,8 @@
         "Lied.",
         "song"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-057",
@@ -20271,7 +20827,8 @@
         "Problem.",
         "problem"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-058",
@@ -20308,7 +20865,8 @@
         "Schuhe.",
         "shoes"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-059",
@@ -20345,7 +20903,8 @@
         "Lösung.",
         "solution"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-060",
@@ -20382,7 +20941,8 @@
         "Projekt.",
         "project"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-061",
@@ -20419,7 +20979,8 @@
         "Bericht.",
         "report"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-062",
@@ -20456,7 +21017,8 @@
         "Radio.",
         "radio"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-063",
@@ -20493,7 +21055,8 @@
         "Schule.",
         "school"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-064",
@@ -20530,7 +21093,8 @@
         "Termin.",
         "appointment"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-065",
@@ -20567,7 +21131,8 @@
         "Vorteil.",
         "advantage"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-066",
@@ -20604,7 +21169,8 @@
         "Jacke.",
         "jacket"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-067",
@@ -20641,7 +21207,8 @@
         "Regel.",
         "rule"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-068",
@@ -20678,7 +21245,8 @@
         "Plan.",
         "plan"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-069",
@@ -20715,7 +21283,8 @@
         "Suppe.",
         "soup"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-070",
@@ -20752,7 +21321,8 @@
         "Anleitung.",
         "instructions"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-071",
@@ -20789,7 +21359,8 @@
         "Platz.",
         "place / seat"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-072",
@@ -20826,7 +21397,8 @@
         "Möglichkeit.",
         "possibility"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-073",
@@ -20863,7 +21435,8 @@
         "Ticket.",
         "ticket"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-074",
@@ -20900,7 +21473,8 @@
         "Stimme.",
         "voice"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-075",
@@ -20937,7 +21511,8 @@
         "Stadt.",
         "city"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-076",
@@ -20974,7 +21549,8 @@
         "Freund.",
         "friend"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-077",
@@ -21011,7 +21587,8 @@
         "Nachricht.",
         "message"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-078",
@@ -21048,7 +21625,8 @@
         "Bild.",
         "picture"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-079",
@@ -21085,7 +21663,8 @@
         "Computer.",
         "computer"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-080",
@@ -21122,7 +21701,8 @@
         "Diskussion.",
         "discussion"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-081",
@@ -21159,7 +21739,8 @@
         "Fehler.",
         "mistake"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-082",
@@ -21196,7 +21777,8 @@
         "Vertrag.",
         "contract"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-083",
@@ -21233,7 +21815,8 @@
         "Kurs.",
         "course"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-084",
@@ -21270,7 +21853,8 @@
         "Vorschlag.",
         "suggestion"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-085",
@@ -21307,7 +21891,8 @@
         "Kritik.",
         "criticism"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-086",
@@ -21344,7 +21929,8 @@
         "Möbel.",
         "furniture"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-087",
@@ -21381,7 +21967,8 @@
         "Aufgabe.",
         "task"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-088",
@@ -21418,7 +22005,8 @@
         "Lösung.",
         "solution"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-089",
@@ -21455,7 +22043,8 @@
         "Kuchen.",
         "cake"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-090",
@@ -21492,7 +22081,8 @@
         "E-Mail.",
         "e-mail"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-091",
@@ -21529,7 +22119,8 @@
         "Chance.",
         "chance"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-092",
@@ -21566,7 +22157,8 @@
         "Erklärung.",
         "explanation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-093",
@@ -21603,7 +22195,8 @@
         "Zeitung.",
         "newspaper"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-094",
@@ -21640,7 +22233,8 @@
         "Familie.",
         "family"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-095",
@@ -21677,7 +22271,8 @@
         "Antwort.",
         "answer"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-096",
@@ -21714,7 +22309,8 @@
         "Treffen.",
         "meeting"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-097",
@@ -21755,7 +22351,8 @@
         "nicht.",
         "not"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-098",
@@ -21792,7 +22389,8 @@
         "Geschichte.",
         "story"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-099",
@@ -21829,7 +22427,8 @@
         "Handy.",
         "mobile phone"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-100",
@@ -21870,7 +22469,8 @@
         "klar.",
         "clearly"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-001",
@@ -21907,7 +22507,8 @@
         "Regenschirm.",
         "umbrella"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-002",
@@ -21944,7 +22545,8 @@
         "Einladung.",
         "invitation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-003",
@@ -21981,7 +22583,8 @@
         "Laptop.",
         "laptop"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-004",
@@ -22018,7 +22621,8 @@
         "Parkplatz.",
         "parking space"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-005",
@@ -22055,7 +22659,8 @@
         "Tisch.",
         "table"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-006",
@@ -22092,7 +22697,8 @@
         "Mantel.",
         "coat"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-007",
@@ -22129,7 +22735,8 @@
         "Fahrkarte.",
         "ticket"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-008",
@@ -22166,7 +22773,8 @@
         "Thema.",
         "topic"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-009",
@@ -22203,7 +22811,8 @@
         "Koffer.",
         "suitcase"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-010",
@@ -22240,7 +22849,8 @@
         "Wörterbuch.",
         "dictionary"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-011",
@@ -22277,7 +22887,8 @@
         "Reifen.",
         "tyre"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-012",
@@ -22314,7 +22925,8 @@
         "Ausstellung.",
         "exhibition"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-013",
@@ -22351,7 +22963,8 @@
         "Foto.",
         "photo"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-014",
@@ -22388,7 +23001,8 @@
         "Feier.",
         "party"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-015",
@@ -22425,7 +23039,8 @@
         "Rechnung.",
         "bill"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-016",
@@ -22462,7 +23077,8 @@
         "Informationen.",
         "information"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-017",
@@ -22499,7 +23115,8 @@
         "Zahnbürste.",
         "toothbrush"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-018",
@@ -22536,7 +23153,8 @@
         "Passwort.",
         "password"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-019",
@@ -22573,7 +23191,8 @@
         "Unterschied.",
         "difference"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-020",
@@ -22610,7 +23229,8 @@
         "Produkt.",
         "product"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-021",
@@ -22647,7 +23267,8 @@
         "Bewerbung.",
         "application"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-022",
@@ -22684,7 +23305,8 @@
         "Kandidat.",
         "candidate"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-023",
@@ -22721,7 +23343,8 @@
         "Taschenlampe.",
         "torch"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-024",
@@ -22758,7 +23381,8 @@
         "Umzug.",
         "move"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-025",
@@ -22795,7 +23419,8 @@
         "Salat.",
         "salad"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-026",
@@ -22832,7 +23457,8 @@
         "Angebot.",
         "offer"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-027",
@@ -22869,7 +23495,8 @@
         "Kundenservice.",
         "customer service"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-028",
@@ -22906,7 +23533,8 @@
         "Vorschrift.",
         "regulation"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-029",
@@ -22943,7 +23571,8 @@
         "Vertrag.",
         "contract"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-030",
@@ -22980,7 +23609,8 @@
         "Adresse.",
         "address"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-031",
@@ -23017,7 +23647,8 @@
         "Wagen.",
         "car"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-032",
@@ -23054,7 +23685,8 @@
         "Kalender.",
         "calendar"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-033",
@@ -23095,7 +23727,8 @@
         "herunter.",
         "down"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-034",
@@ -23132,7 +23765,8 @@
         "Vorteil.",
         "advantage"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-035",
@@ -23169,7 +23803,8 @@
         "Werkzeug.",
         "tool"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-036",
@@ -23206,7 +23841,8 @@
         "Baum.",
         "tree"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-037",
@@ -23243,7 +23879,8 @@
         "Papier.",
         "paper"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-038",
@@ -23280,7 +23917,8 @@
         "Frage.",
         "question"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-039",
@@ -23317,7 +23955,8 @@
         "Reis.",
         "rice"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-040",
@@ -23354,7 +23993,8 @@
         "Küche.",
         "kitchen"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-041",
@@ -23391,7 +24031,8 @@
         "Spiegel.",
         "mirror"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-042",
@@ -23428,7 +24069,8 @@
         "Vorschlag.",
         "suggestion"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-043",
@@ -23465,7 +24107,8 @@
         "Drucker.",
         "printer"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-044",
@@ -23502,7 +24145,8 @@
         "Podcast.",
         "podcast"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-045",
@@ -23539,7 +24183,8 @@
         "Notiz.",
         "note"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-046",
@@ -23576,7 +24221,8 @@
         "Wand.",
         "wall"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-047",
@@ -23613,7 +24259,8 @@
         "Paket.",
         "parcel"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-048",
@@ -23650,7 +24297,8 @@
         "Termin.",
         "appointment"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-049",
@@ -23687,7 +24335,8 @@
         "Ladegerät.",
         "charger"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-050",
@@ -23724,7 +24373,8 @@
         "Helm.",
         "helmet"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-051",
@@ -23761,7 +24411,8 @@
         "Programm.",
         "program"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-052",
@@ -23798,7 +24449,8 @@
         "Markt.",
         "market"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-053",
@@ -23835,7 +24487,8 @@
         "Medikament.",
         "medicine"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-054",
@@ -23872,7 +24525,8 @@
         "Reiseplan.",
         "itinerary"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-055",
@@ -23913,7 +24567,8 @@
         "sorgfältig.",
         "carefully"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-056",
@@ -23950,7 +24605,8 @@
         "Teppich.",
         "carpet"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-057",
@@ -23987,7 +24643,8 @@
         "Ring.",
         "ring"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-058",
@@ -24024,7 +24681,8 @@
         "Boden.",
         "floor"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-059",
@@ -24061,7 +24719,8 @@
         "Nachtisch.",
         "dessert"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-060",
@@ -24098,7 +24757,8 @@
         "Fahrzeug.",
         "vehicle"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-061",
@@ -24135,7 +24795,8 @@
         "Versicherung.",
         "insurance"
       ]
-    ]
+    ],
+    "hint_en": null
   },
   {
     "id": "ex-l4-akkusativ-2-062",
@@ -24172,6 +24833,7 @@
         "Kommentar.",
         "comment"
       ]
-    ]
+    ],
+    "hint_en": null
   }
 ]
