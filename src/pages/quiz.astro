@@ -235,6 +235,12 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
     try { return JSON.parse(localStorage.getItem(progressKey()) || 'null'); } catch { return null; }
   }
   function clearProgress() { try { localStorage.removeItem(progressKey()); } catch { /* ignore */ } }
+  // completed (or ended) sheet runs, newest first: { sheet, title, correct, total, answered, at }
+  const RESULTS_KEY = 'german-sheet-results';
+  function loadResults(): any[] { try { return JSON.parse(localStorage.getItem(RESULTS_KEY) || '[]') || []; } catch { return []; } }
+  function recordResult(entry: any) {
+    try { localStorage.setItem(RESULTS_KEY, JSON.stringify([entry, ...loadResults()].slice(0, 200))); } catch { /* ignore */ }
+  }
   const card = $('card');
   const flip = $('flip') as HTMLButtonElement;
   const front = flip.querySelector<HTMLElement>('.front')!;
@@ -523,16 +529,26 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   function finish() {
     if (!session) return;
     if (sheet && !session.retry) {
-      if (session.index >= session.queue.length) clearProgress(); // sheet completed
+      const complete = session.index >= session.queue.length;
+      if (complete) clearProgress(); // sheet completed
       else saveProgress(); // ended early: keep the place for next time
+      if (session.results.length) {
+        recordResult({
+          sheet, title: new URLSearchParams(location.search).get('title') || sheet,
+          correct: session.results.filter((r) => r.correct).length, answered: session.results.length,
+          total: session.queue.length, complete, at: new Date().toISOString(),
+        });
+      }
     }
     play.hidden = true;
     card.hidden = true;
     summary.hidden = false;
     const { results, mode } = session;
     const right = results.filter((r) => r.correct).length;
+    const pct = results.length ? Math.round((100 * right) / results.length) : 0;
     $('score').textContent = results.length
-      ? `${right} / ${results.length} ${session.style === 'cards' ? 'got it' : 'correct'} · ${mode.label}`
+      ? `${right} / ${results.length} ${session.style === 'cards' ? 'got it' : 'correct'} (${pct} %) · ${mode.label}` +
+        (sheet ? ` · ${new Date().toLocaleString()}` : '')
       : 'No answers given.';
     const missed = results.filter((r) => !r.correct);
     const retry = $('retry') as HTMLButtonElement;
@@ -678,7 +694,8 @@ const maxLesson = lessons[lessons.length - 1] ?? 1;
   .rate-again { color: var(--bad); }
   kbd { font-family: var(--mono); font-size: 0.7em; opacity: 0.6; margin-left: 0.3em; }
   .prompt { font-size: 1.9rem; font-weight: 600; margin: 0.5rem 0 1rem; line-height: 1.25; overflow-wrap: anywhere; }
-  .prompt :global(ruby) { ruby-position: over; ruby-align: center; }
+  .prompt :global(ruby) { ruby-position: over; ruby-align: center; display: inline-block; overflow-wrap: normal; white-space: nowrap; }
+  .prompt:has(:global(ruby)) { overflow-wrap: normal; }
   .prompt :global(rt) { font-size: 0.5em; font-weight: 400; color: var(--accent); letter-spacing: 0; line-height: 1; padding: 0 0.4em; white-space: nowrap; }
   .prompt:has(:global(ruby)) { line-height: 1.9; font-size: 1.6rem; }
   .prompt :global(.hint) { color: var(--muted); font-weight: 400; }

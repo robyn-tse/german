@@ -122,6 +122,13 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
         })}
       </ul>
     )}
+    <div id="sheet-results" hidden data-sets={JSON.stringify(lesson.data.homework.flatMap((h) => h.sets))}>
+      <h3>Results on this device</h3>
+      <table class="results">
+        <thead><tr><th>Sheet</th><th>Score</th><th>Completed</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </section>
 
   <section class="section prose" aria-labelledby="notes">
@@ -147,6 +154,25 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
     ))}
     <p class="small"><a href={url(`/vocab/`) + `?lesson=${lesson.data.number}`}>Open in the vocab table →</a></p>
     <script>
+      // Results of the homework sheets on this lesson, from this browser's storage.
+      {
+        const sets = new Set(JSON.parse(document.getElementById('sheet-results')!.dataset.sets || '[]'));
+        let rows: any[] = [];
+        try { rows = JSON.parse(localStorage.getItem('german-sheet-results') || '[]') || []; } catch { rows = []; }
+        rows = rows.filter((r) => sets.has(r.sheet));
+        if (rows.length) {
+          const box = document.getElementById('sheet-results')!;
+          const tb = box.querySelector('tbody')!;
+          for (const r of rows) {
+            const tr = document.createElement('tr');
+            const pct = r.answered ? Math.round((100 * r.correct) / r.answered) : 0;
+            const score = r.complete ? `${pct} % (${r.correct} / ${r.total})` : `${pct} % (${r.correct} / ${r.answered}, ended early)`;
+            tr.innerHTML = `<td>${r.title}</td><td>${score}</td><td>${new Date(r.at).toLocaleString()}</td>`;
+            tb.append(tr);
+          }
+          box.hidden = false;
+        }
+      }
       document.getElementById('show-all')?.addEventListener('click', (ev) => {
         document.querySelectorAll<HTMLElement>('.words li.extra').forEach((li) => (li.hidden = false));
         (ev.currentTarget as HTMLElement).closest('p')!.hidden = true;
@@ -190,6 +216,10 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
   .hw-sets { list-style: none; padding: 0; margin: 0.4rem 0 0 1.6rem; display: grid; gap: 0.3rem; }
   .hw-sets li { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.3rem 0; border-bottom: 1px solid var(--border); }
   .btn.small { padding: 0.3em 0.8em; font-size: 0.9rem; }
+  #sheet-results { margin-top: 1rem; max-width: 40rem; }
+  #sheet-results h3 { margin: 0 0 0.4rem; font-size: 0.95rem; }
+  .results { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  .results th, .results td { text-align: left; padding: 0.3em 0.5em; border-bottom: 1px solid var(--border); }
   .box { font-size: 1.1em; }
   .group h3 { margin-top: 1.25rem; }
   /* one grid for the whole list so the English column lines up across rows */
