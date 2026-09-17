@@ -61,6 +61,7 @@ function articleAccept(e) {
   if (e.answer === '–') return ['–', '-', '—', 'kein artikel', 'nichts', 'x'].map((t) => ({ text: t, note: null }));
   const out = [{ text: e.answer, note: null }];
   if (noun) out.push({ text: `${e.answer} ${noun}`, note: null });
+  if (e.also) out.push({ text: e.also, note: e.note }, { text: `${e.also} ${noun ?? ''}`.trim(), note: e.note });
   return out;
 }
 const ARTICLE_NOTE = {

@@ -247,7 +247,8 @@ More conventions that came out of lesson 2's phrase list and worksheets:
 `set` names one worksheet section and is what a quiz mode filters on. Sets so far:
 `trennbar-praesens`, `trennbar-modal`, `gemischt`, `schwach-praesens` (verb gap-fills),
 `artikel-bestimmt`, `artikel-unbestimmt` (lesson 2 article choice), `dativ-objekt`, `dativ-verben`,
-`l4-dativ`, `l4-dativ-verben`, `l4-akkusativ`, `l4-akkusativ-2` (lesson 4 case choice; the lesson 3 versions were retired when Markus re-sent the sheet with genders). An optional `note` is shown
+`l4-dativ`, `l4-dativ-verben`, `l4-akkusativ`, `l4-akkusativ-2` (lesson 4 case choice; the lesson 3 versions were retired when Markus re-sent the sheet with genders). An optional `also` is a second accepted answer
+where the source is ambiguous (lesson 4: singular hint vs plural English), explained in `note`. An optional `note` is shown
 with the answer (used for singular/plural ambiguity in the case sheets). Homework sentences carry
 `gloss`: word-by-word English aligned to `prompt_de` (`[["ihr","you all"],["___",null],…]`), shown
 above each word in homework mode, plus `hint_en` for the verb in brackets. Build it with a per-form dictionary (see the lesson-3 gloss

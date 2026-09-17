@@ -113,6 +113,7 @@ export const exerciseSchema = z.object({
   // word-by-word English, [[token, gloss|null], …] aligned to prompt_de; shown above the words in homework mode
   gloss: z.array(z.tuple([z.string(), z.string().nullable()])).nullable().default(null),
   hint_en: z.string().nullable().default(null), // English for the hint verb, shown above the bracket in homework mode
+  also: z.string().nullable().default(null), // a second accepted answer (source ambiguity), explained in `note`
 });
 export type Exercise = z.infer<typeof exerciseSchema>;
 

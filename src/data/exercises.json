@@ -46,7 +46,8 @@
         null
       ]
     ],
-    "hint_en": "to get up"
+    "hint_en": "to get up",
+    "also": null
   },
   {
     "id": "ex-praefix-002",
@@ -87,7 +88,8 @@
         null
       ]
     ],
-    "hint_en": "to shop"
+    "hint_en": "to shop",
+    "also": null
   },
   {
     "id": "ex-praefix-003",
@@ -132,7 +134,8 @@
         null
       ]
     ],
-    "hint_en": "to begin"
+    "hint_en": "to begin",
+    "also": null
   },
   {
     "id": "ex-praefix-004",
@@ -177,7 +180,8 @@
         null
       ]
     ],
-    "hint_en": "to call"
+    "hint_en": "to call",
+    "also": null
   },
   {
     "id": "ex-praefix-005",
@@ -214,7 +218,8 @@
         null
       ]
     ],
-    "hint_en": "to arrive"
+    "hint_en": "to arrive",
+    "also": null
   },
   {
     "id": "ex-praefix-006",
@@ -263,7 +268,8 @@
         "dark"
       ]
     ],
-    "hint_en": "to turn on"
+    "hint_en": "to turn on",
+    "also": null
   },
   {
     "id": "ex-praefix-007",
@@ -316,7 +322,8 @@
         "loudly"
       ]
     ],
-    "hint_en": "to turn off"
+    "hint_en": "to turn off",
+    "also": null
   },
   {
     "id": "ex-praefix-008",
@@ -357,7 +364,8 @@
         null
       ]
     ],
-    "hint_en": "to watch TV"
+    "hint_en": "to watch TV",
+    "also": null
   },
   {
     "id": "ex-praefix-009",
@@ -394,7 +402,8 @@
         null
       ]
     ],
-    "hint_en": "to come along"
+    "hint_en": "to come along",
+    "also": null
   },
   {
     "id": "ex-praefix-010",
@@ -435,7 +444,8 @@
         null
       ]
     ],
-    "hint_en": "to pick up"
+    "hint_en": "to pick up",
+    "also": null
   },
   {
     "id": "ex-praefix-011",
@@ -480,7 +490,8 @@
         null
       ]
     ],
-    "hint_en": "to depart"
+    "hint_en": "to depart",
+    "also": null
   },
   {
     "id": "ex-praefix-012",
@@ -521,7 +532,8 @@
         null
       ]
     ],
-    "hint_en": "to tidy up"
+    "hint_en": "to tidy up",
+    "also": null
   },
   {
     "id": "ex-praefix-013",
@@ -570,7 +582,8 @@
         "reads"
       ]
     ],
-    "hint_en": "to open"
+    "hint_en": "to open",
+    "also": null
   },
   {
     "id": "ex-praefix-014",
@@ -619,7 +632,8 @@
         "pulls / puts on"
       ]
     ],
-    "hint_en": "to close"
+    "hint_en": "to close",
+    "also": null
   },
   {
     "id": "ex-praefix-015",
@@ -664,7 +678,8 @@
         null
       ]
     ],
-    "hint_en": "to invite"
+    "hint_en": "to invite",
+    "also": null
   },
   {
     "id": "ex-praefix-016",
@@ -705,7 +720,8 @@
         null
       ]
     ],
-    "hint_en": "to put on"
+    "hint_en": "to put on",
+    "also": null
   },
   {
     "id": "ex-praefix-017",
@@ -750,7 +766,8 @@
         null
       ]
     ],
-    "hint_en": "to take off"
+    "hint_en": "to take off",
+    "also": null
   },
   {
     "id": "ex-praefix-018",
@@ -791,7 +808,8 @@
         null
       ]
     ],
-    "hint_en": "to stop"
+    "hint_en": "to stop",
+    "also": null
   },
   {
     "id": "ex-praefix-019",
@@ -832,7 +850,8 @@
         null
       ]
     ],
-    "hint_en": "to bring along"
+    "hint_en": "to bring along",
+    "also": null
   },
   {
     "id": "ex-praefix-020",
@@ -869,7 +888,8 @@
         null
       ]
     ],
-    "hint_en": "to prepare"
+    "hint_en": "to prepare",
+    "also": null
   },
   {
     "id": "ex-praefix-021",
@@ -910,7 +930,8 @@
         null
       ]
     ],
-    "hint_en": "to get to know"
+    "hint_en": "to get to know",
+    "also": null
   },
   {
     "id": "ex-praefix-022",
@@ -955,7 +976,8 @@
         null
       ]
     ],
-    "hint_en": "to stop"
+    "hint_en": "to stop",
+    "also": null
   },
   {
     "id": "ex-praefix-023",
@@ -996,7 +1018,8 @@
         null
       ]
     ],
-    "hint_en": "to arrive"
+    "hint_en": "to arrive",
+    "also": null
   },
   {
     "id": "ex-praefix-024",
@@ -1041,7 +1064,8 @@
         "rains"
       ]
     ],
-    "hint_en": "to close"
+    "hint_en": "to close",
+    "also": null
   },
   {
     "id": "ex-praefix-025",
@@ -1078,7 +1102,8 @@
         null
       ]
     ],
-    "hint_en": "to take along"
+    "hint_en": "to take along",
+    "also": null
   },
   {
     "id": "ex-praefix-026",
@@ -1119,7 +1144,8 @@
         null
       ]
     ],
-    "hint_en": "to get up"
+    "hint_en": "to get up",
+    "also": null
   },
   {
     "id": "ex-praefix-027",
@@ -1160,7 +1186,8 @@
         null
       ]
     ],
-    "hint_en": "to shop"
+    "hint_en": "to shop",
+    "also": null
   },
   {
     "id": "ex-praefix-028",
@@ -1197,7 +1224,8 @@
         null
       ]
     ],
-    "hint_en": "to call"
+    "hint_en": "to call",
+    "also": null
   },
   {
     "id": "ex-praefix-029",
@@ -1238,7 +1266,8 @@
         null
       ]
     ],
-    "hint_en": "to watch TV"
+    "hint_en": "to watch TV",
+    "also": null
   },
   {
     "id": "ex-praefix-030",
@@ -1287,7 +1316,8 @@
         null
       ]
     ],
-    "hint_en": "to pick up"
+    "hint_en": "to pick up",
+    "also": null
   },
   {
     "id": "ex-praefix-031",
@@ -1324,7 +1354,8 @@
         null
       ]
     ],
-    "hint_en": "to begin"
+    "hint_en": "to begin",
+    "also": null
   },
   {
     "id": "ex-praefix-032",
@@ -1361,7 +1392,8 @@
         null
       ]
     ],
-    "hint_en": "to tidy up"
+    "hint_en": "to tidy up",
+    "also": null
   },
   {
     "id": "ex-praefix-033",
@@ -1414,7 +1446,8 @@
         null
       ]
     ],
-    "hint_en": "to open"
+    "hint_en": "to open",
+    "also": null
   },
   {
     "id": "ex-praefix-034",
@@ -1459,7 +1492,8 @@
         null
       ]
     ],
-    "hint_en": "to invite"
+    "hint_en": "to invite",
+    "also": null
   },
   {
     "id": "ex-praefix-035",
@@ -1496,7 +1530,8 @@
         null
       ]
     ],
-    "hint_en": "to depart"
+    "hint_en": "to depart",
+    "also": null
   },
   {
     "id": "ex-praefix-036",
@@ -1537,7 +1572,8 @@
         null
       ]
     ],
-    "hint_en": "to take along"
+    "hint_en": "to take along",
+    "also": null
   },
   {
     "id": "ex-praefix-037",
@@ -1574,7 +1610,8 @@
         null
       ]
     ],
-    "hint_en": "to put on"
+    "hint_en": "to put on",
+    "also": null
   },
   {
     "id": "ex-praefix-038",
@@ -1615,7 +1652,8 @@
         null
       ]
     ],
-    "hint_en": "to bring along"
+    "hint_en": "to bring along",
+    "also": null
   },
   {
     "id": "ex-praefix-039",
@@ -1660,7 +1698,8 @@
         null
       ]
     ],
-    "hint_en": "to stop"
+    "hint_en": "to stop",
+    "also": null
   },
   {
     "id": "ex-praefix-040",
@@ -1697,7 +1736,8 @@
         null
       ]
     ],
-    "hint_en": "to come along"
+    "hint_en": "to come along",
+    "also": null
   },
   {
     "id": "ex-praefix-041",
@@ -1738,7 +1778,8 @@
         null
       ]
     ],
-    "hint_en": "to switch on"
+    "hint_en": "to switch on",
+    "also": null
   },
   {
     "id": "ex-praefix-042",
@@ -1775,7 +1816,8 @@
         null
       ]
     ],
-    "hint_en": "to switch off"
+    "hint_en": "to switch off",
+    "also": null
   },
   {
     "id": "ex-praefix-043",
@@ -1812,7 +1854,8 @@
         null
       ]
     ],
-    "hint_en": "to pack"
+    "hint_en": "to pack",
+    "also": null
   },
   {
     "id": "ex-praefix-044",
@@ -1849,7 +1892,8 @@
         null
       ]
     ],
-    "hint_en": "to unpack"
+    "hint_en": "to unpack",
+    "also": null
   },
   {
     "id": "ex-praefix-045",
@@ -1890,7 +1934,8 @@
         null
       ]
     ],
-    "hint_en": "to fill out"
+    "hint_en": "to fill out",
+    "also": null
   },
   {
     "id": "ex-praefix-046",
@@ -1931,7 +1976,8 @@
         null
       ]
     ],
-    "hint_en": "to issue"
+    "hint_en": "to issue",
+    "also": null
   },
   {
     "id": "ex-praefix-047",
@@ -1976,7 +2022,8 @@
         null
       ]
     ],
-    "hint_en": "to pick up"
+    "hint_en": "to pick up",
+    "also": null
   },
   {
     "id": "ex-praefix-048",
@@ -2021,7 +2068,8 @@
         null
       ]
     ],
-    "hint_en": "to begin"
+    "hint_en": "to begin",
+    "also": null
   },
   {
     "id": "ex-praefix-049",
@@ -2062,7 +2110,8 @@
         null
       ]
     ],
-    "hint_en": "to clean"
+    "hint_en": "to clean",
+    "also": null
   },
   {
     "id": "ex-praefix-050",
@@ -2107,7 +2156,8 @@
         null
       ]
     ],
-    "hint_en": "to tick"
+    "hint_en": "to tick",
+    "also": null
   },
   {
     "id": "ex-praefix-051",
@@ -2144,7 +2194,8 @@
         null
       ]
     ],
-    "hint_en": "to get up"
+    "hint_en": "to get up",
+    "also": null
   },
   {
     "id": "ex-praefix-052",
@@ -2177,7 +2228,8 @@
         null
       ]
     ],
-    "hint_en": "to shop"
+    "hint_en": "to shop",
+    "also": null
   },
   {
     "id": "ex-praefix-053",
@@ -2214,7 +2266,8 @@
         null
       ]
     ],
-    "hint_en": "to call"
+    "hint_en": "to call",
+    "also": null
   },
   {
     "id": "ex-praefix-054",
@@ -2251,7 +2304,8 @@
         null
       ]
     ],
-    "hint_en": "to come along"
+    "hint_en": "to come along",
+    "also": null
   },
   {
     "id": "ex-praefix-055",
@@ -2288,7 +2342,8 @@
         null
       ]
     ],
-    "hint_en": "to pick up"
+    "hint_en": "to pick up",
+    "also": null
   },
   {
     "id": "ex-praefix-056",
@@ -2341,7 +2396,8 @@
         "enough"
       ]
     ],
-    "hint_en": "to turn off"
+    "hint_en": "to turn off",
+    "also": null
   },
   {
     "id": "ex-praefix-057",
@@ -2378,7 +2434,8 @@
         null
       ]
     ],
-    "hint_en": "to stop"
+    "hint_en": "to stop",
+    "also": null
   },
   {
     "id": "ex-praefix-058",
@@ -2415,7 +2472,8 @@
         null
       ]
     ],
-    "hint_en": "to invite"
+    "hint_en": "to invite",
+    "also": null
   },
   {
     "id": "ex-praefix-059",
@@ -2452,7 +2510,8 @@
         null
       ]
     ],
-    "hint_en": "to watch TV"
+    "hint_en": "to watch TV",
+    "also": null
   },
   {
     "id": "ex-praefix-060",
@@ -2497,7 +2556,8 @@
         "waits"
       ]
     ],
-    "hint_en": "to begin"
+    "hint_en": "to begin",
+    "also": null
   },
   {
     "id": "ex-praefix-061",
@@ -2534,7 +2594,8 @@
         null
       ]
     ],
-    "hint_en": "to tidy up"
+    "hint_en": "to tidy up",
+    "also": null
   },
   {
     "id": "ex-praefix-062",
@@ -2575,7 +2636,8 @@
         null
       ]
     ],
-    "hint_en": "to open"
+    "hint_en": "to open",
+    "also": null
   },
   {
     "id": "ex-praefix-063",
@@ -2616,7 +2678,8 @@
         null
       ]
     ],
-    "hint_en": "to put on"
+    "hint_en": "to put on",
+    "also": null
   },
   {
     "id": "ex-praefix-064",
@@ -2657,7 +2720,8 @@
         null
       ]
     ],
-    "hint_en": "to bring along"
+    "hint_en": "to bring along",
+    "also": null
   },
   {
     "id": "ex-praefix-065",
@@ -2694,7 +2758,8 @@
         null
       ]
     ],
-    "hint_en": "to fill out"
+    "hint_en": "to fill out",
+    "also": null
   },
   {
     "id": "ex-praefix-066",
@@ -2731,7 +2796,8 @@
         null
       ]
     ],
-    "hint_en": "to depart"
+    "hint_en": "to depart",
+    "also": null
   },
   {
     "id": "ex-praefix-067",
@@ -2768,7 +2834,8 @@
         null
       ]
     ],
-    "hint_en": "to get to know"
+    "hint_en": "to get to know",
+    "also": null
   },
   {
     "id": "ex-praefix-068",
@@ -2805,7 +2872,8 @@
         null
       ]
     ],
-    "hint_en": "to prepare"
+    "hint_en": "to prepare",
+    "also": null
   },
   {
     "id": "ex-praefix-069",
@@ -2842,7 +2910,8 @@
         null
       ]
     ],
-    "hint_en": "to pack"
+    "hint_en": "to pack",
+    "also": null
   },
   {
     "id": "ex-praefix-070",
@@ -2875,7 +2944,8 @@
         null
       ]
     ],
-    "hint_en": "to stop"
+    "hint_en": "to stop",
+    "also": null
   },
   {
     "id": "ex-praefix-071",
@@ -2916,7 +2986,8 @@
         null
       ]
     ],
-    "hint_en": "to turn on"
+    "hint_en": "to turn on",
+    "also": null
   },
   {
     "id": "ex-praefix-072",
@@ -2953,7 +3024,8 @@
         null
       ]
     ],
-    "hint_en": "to close"
+    "hint_en": "to close",
+    "also": null
   },
   {
     "id": "ex-praefix-073",
@@ -2990,7 +3062,8 @@
         null
       ]
     ],
-    "hint_en": "to take along"
+    "hint_en": "to take along",
+    "also": null
   },
   {
     "id": "ex-praefix-074",
@@ -3031,7 +3104,8 @@
         null
       ]
     ],
-    "hint_en": "to tick"
+    "hint_en": "to tick",
+    "also": null
   },
   {
     "id": "ex-praefix-075",
@@ -3076,7 +3150,8 @@
         null
       ]
     ],
-    "hint_en": "to take off"
+    "hint_en": "to take off",
+    "also": null
   },
   {
     "id": "ex-praefix-076",
@@ -3117,7 +3192,8 @@
         "weekend"
       ]
     ],
-    "hint_en": "to visit"
+    "hint_en": "to visit",
+    "also": null
   },
   {
     "id": "ex-praefix-077",
@@ -3154,7 +3230,8 @@
         "grammar topic"
       ]
     ],
-    "hint_en": "to explain"
+    "hint_en": "to explain",
+    "also": null
   },
   {
     "id": "ex-praefix-078",
@@ -3195,7 +3272,8 @@
         "not"
       ]
     ],
-    "hint_en": "to understand"
+    "hint_en": "to understand",
+    "also": null
   },
   {
     "id": "ex-praefix-079",
@@ -3232,7 +3310,8 @@
         "well"
       ]
     ],
-    "hint_en": "to please / to like"
+    "hint_en": "to please / to like",
+    "also": null
   },
   {
     "id": "ex-praefix-080",
@@ -3273,7 +3352,8 @@
         "present"
       ]
     ],
-    "hint_en": "to sell"
+    "hint_en": "to sell",
+    "also": null
   },
   {
     "id": "ex-praefix-081",
@@ -3314,7 +3394,8 @@
         "car"
       ]
     ],
-    "hint_en": "to get"
+    "hint_en": "to get",
+    "also": null
   },
   {
     "id": "ex-praefix-082",
@@ -3359,7 +3440,8 @@
         "well"
       ]
     ],
-    "hint_en": "to please / to like"
+    "hint_en": "to please / to like",
+    "also": null
   },
   {
     "id": "ex-praefix-083",
@@ -3392,7 +3474,8 @@
         "homework"
       ]
     ],
-    "hint_en": "to forget"
+    "hint_en": "to forget",
+    "also": null
   },
   {
     "id": "ex-praefix-084",
@@ -3425,7 +3508,8 @@
         "German course"
       ]
     ],
-    "hint_en": "to begin"
+    "hint_en": "to begin",
+    "also": null
   },
   {
     "id": "ex-praefix-085",
@@ -3462,7 +3546,8 @@
         "beer"
       ]
     ],
-    "hint_en": "to order"
+    "hint_en": "to order",
+    "also": null
   },
   {
     "id": "ex-praefix-086",
@@ -3495,7 +3580,8 @@
         "money"
       ]
     ],
-    "hint_en": "to earn"
+    "hint_en": "to earn",
+    "also": null
   },
   {
     "id": "ex-praefix-087",
@@ -3528,7 +3614,8 @@
         "bill"
       ]
     ],
-    "hint_en": "to pay"
+    "hint_en": "to pay",
+    "also": null
   },
   {
     "id": "ex-praefix-088",
@@ -3577,7 +3664,8 @@
         null
       ]
     ],
-    "hint_en": "to get up"
+    "hint_en": "to get up",
+    "also": null
   },
   {
     "id": "ex-praefix-089",
@@ -3622,7 +3710,8 @@
         null
       ]
     ],
-    "hint_en": "to tidy up"
+    "hint_en": "to tidy up",
+    "also": null
   },
   {
     "id": "ex-praefix-090",
@@ -3667,7 +3756,8 @@
         null
       ]
     ],
-    "hint_en": "to invite"
+    "hint_en": "to invite",
+    "also": null
   },
   {
     "id": "ex-praefix-091",
@@ -3700,7 +3790,8 @@
         "appointment"
       ]
     ],
-    "hint_en": "to confirm"
+    "hint_en": "to confirm",
+    "also": null
   },
   {
     "id": "ex-praefix-092",
@@ -3749,7 +3840,8 @@
         "goes"
       ]
     ],
-    "hint_en": "to turn off"
+    "hint_en": "to turn off",
+    "also": null
   },
   {
     "id": "ex-praefix-093",
@@ -3790,7 +3882,8 @@
         null
       ]
     ],
-    "hint_en": "to call"
+    "hint_en": "to call",
+    "also": null
   },
   {
     "id": "ex-praefix-094",
@@ -3827,7 +3920,8 @@
         null
       ]
     ],
-    "hint_en": "to depart"
+    "hint_en": "to depart",
+    "also": null
   },
   {
     "id": "ex-praefix-095",
@@ -3868,7 +3962,8 @@
         null
       ]
     ],
-    "hint_en": "to fill out"
+    "hint_en": "to fill out",
+    "also": null
   },
   {
     "id": "ex-praefix-096",
@@ -3905,7 +4000,8 @@
         "not"
       ]
     ],
-    "hint_en": "to understand"
+    "hint_en": "to understand",
+    "also": null
   },
   {
     "id": "ex-praefix-097",
@@ -3942,7 +4038,8 @@
         "topic"
       ]
     ],
-    "hint_en": "to discuss"
+    "hint_en": "to discuss",
+    "also": null
   },
   {
     "id": "ex-praefix-098",
@@ -3979,7 +4076,8 @@
         "birthday"
       ]
     ],
-    "hint_en": "to forget"
+    "hint_en": "to forget",
+    "also": null
   },
   {
     "id": "ex-praefix-099",
@@ -4024,7 +4122,8 @@
         "grandma"
       ]
     ],
-    "hint_en": "to get"
+    "hint_en": "to get",
+    "also": null
   },
   {
     "id": "ex-praefix-100",
@@ -4065,7 +4164,8 @@
         null
       ]
     ],
-    "hint_en": "to switch on"
+    "hint_en": "to switch on",
+    "also": null
   },
   {
     "id": "ex-artikel-001",
@@ -4081,7 +4181,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-002",
@@ -4097,7 +4198,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-003",
@@ -4113,7 +4215,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-004",
@@ -4129,7 +4232,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-005",
@@ -4145,7 +4249,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-006",
@@ -4161,7 +4266,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-007",
@@ -4177,7 +4283,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-008",
@@ -4193,7 +4300,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-009",
@@ -4209,7 +4317,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-010",
@@ -4225,7 +4334,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-011",
@@ -4241,7 +4351,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-012",
@@ -4257,7 +4368,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-013",
@@ -4273,7 +4385,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-014",
@@ -4289,7 +4402,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-015",
@@ -4305,7 +4419,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-016",
@@ -4321,7 +4436,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-017",
@@ -4337,7 +4453,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-018",
@@ -4353,7 +4470,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-019",
@@ -4369,7 +4487,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-020",
@@ -4385,7 +4504,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-021",
@@ -4401,7 +4521,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-022",
@@ -4417,7 +4538,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-023",
@@ -4433,7 +4555,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-024",
@@ -4449,7 +4572,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-025",
@@ -4465,7 +4589,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-026",
@@ -4481,7 +4606,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-027",
@@ -4497,7 +4623,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-028",
@@ -4514,7 +4641,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-029",
@@ -4530,7 +4658,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-030",
@@ -4546,7 +4675,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-031",
@@ -4563,7 +4693,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-032",
@@ -4580,7 +4711,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-033",
@@ -4597,7 +4729,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-034",
@@ -4613,7 +4746,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-035",
@@ -4629,7 +4763,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-036",
@@ -4645,7 +4780,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-037",
@@ -4661,7 +4797,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-038",
@@ -4677,7 +4814,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-039",
@@ -4694,7 +4832,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-040",
@@ -4711,7 +4850,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-041",
@@ -4728,7 +4868,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-042",
@@ -4745,7 +4886,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-043",
@@ -4762,7 +4904,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-044",
@@ -4778,7 +4921,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-045",
@@ -4795,7 +4939,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-046",
@@ -4812,7 +4957,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-047",
@@ -4829,7 +4975,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-048",
@@ -4845,7 +4992,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-049",
@@ -4861,7 +5009,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-artikel-050",
@@ -4878,7 +5027,8 @@
       "plural"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-001",
@@ -4894,7 +5044,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-002",
@@ -4910,7 +5061,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-003",
@@ -4926,7 +5078,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-004",
@@ -4942,7 +5095,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-005",
@@ -4958,7 +5112,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-006",
@@ -4974,7 +5129,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-007",
@@ -4990,7 +5146,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-008",
@@ -5006,7 +5163,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-009",
@@ -5022,7 +5180,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-010",
@@ -5038,7 +5197,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-011",
@@ -5054,7 +5214,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-012",
@@ -5070,7 +5231,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-013",
@@ -5086,7 +5248,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-014",
@@ -5102,7 +5265,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-015",
@@ -5118,7 +5282,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-016",
@@ -5134,7 +5299,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-017",
@@ -5150,7 +5316,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-018",
@@ -5166,7 +5333,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-019",
@@ -5182,7 +5350,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-020",
@@ -5198,7 +5367,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-021",
@@ -5214,7 +5384,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-022",
@@ -5230,7 +5401,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-023",
@@ -5246,7 +5418,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-024",
@@ -5262,7 +5435,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-025",
@@ -5278,7 +5452,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-026",
@@ -5294,7 +5469,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-027",
@@ -5310,7 +5486,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-028",
@@ -5326,7 +5503,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-029",
@@ -5342,7 +5520,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-030",
@@ -5358,7 +5537,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-031",
@@ -5374,7 +5554,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-032",
@@ -5390,7 +5571,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-033",
@@ -5406,7 +5588,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-034",
@@ -5422,7 +5605,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-035",
@@ -5438,7 +5622,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-036",
@@ -5454,7 +5639,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-037",
@@ -5470,7 +5656,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-038",
@@ -5486,7 +5673,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-039",
@@ -5502,7 +5690,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-040",
@@ -5518,7 +5707,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-041",
@@ -5534,7 +5724,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-042",
@@ -5550,7 +5741,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-043",
@@ -5566,7 +5758,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-044",
@@ -5582,7 +5775,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-045",
@@ -5598,7 +5792,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-046",
@@ -5614,7 +5809,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-047",
@@ -5630,7 +5826,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-048",
@@ -5646,7 +5843,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-049",
@@ -5662,7 +5860,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-unbestimmt-050",
@@ -5678,7 +5877,8 @@
       "artikel"
     ],
     "gloss": null,
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-schwach-001",
@@ -5728,7 +5928,8 @@
         "Vienna"
       ]
     ],
-    "hint_en": "to live"
+    "hint_en": "to live",
+    "also": null
   },
   {
     "id": "ex-schwach-002",
@@ -5766,7 +5967,8 @@
         "music"
       ]
     ],
-    "hint_en": "to hear / to listen"
+    "hint_en": "to hear / to listen",
+    "also": null
   },
   {
     "id": "ex-schwach-003",
@@ -5808,7 +6010,8 @@
         "hours"
       ]
     ],
-    "hint_en": "to work"
+    "hint_en": "to work",
+    "also": null
   },
   {
     "id": "ex-schwach-004",
@@ -5850,7 +6053,8 @@
         "language course"
       ]
     ],
-    "hint_en": "to learn"
+    "hint_en": "to learn",
+    "also": null
   },
   {
     "id": "ex-schwach-005",
@@ -5900,7 +6104,8 @@
         "food / meal"
       ]
     ],
-    "hint_en": "to cook"
+    "hint_en": "to cook",
+    "also": null
   },
   {
     "id": "ex-schwach-006",
@@ -5942,7 +6147,8 @@
         "tea"
       ]
     ],
-    "hint_en": "to make"
+    "hint_en": "to make",
+    "also": null
   },
   {
     "id": "ex-schwach-007",
@@ -5988,7 +6194,8 @@
         "grandparents"
       ]
     ],
-    "hint_en": "to visit"
+    "hint_en": "to visit",
+    "also": null
   },
   {
     "id": "ex-schwach-008",
@@ -6030,7 +6237,8 @@
         "Spain"
       ]
     ],
-    "hint_en": "to travel"
+    "hint_en": "to travel",
+    "also": null
   },
   {
     "id": "ex-schwach-009",
@@ -6080,7 +6288,8 @@
         "winter"
       ]
     ],
-    "hint_en": "to buy"
+    "hint_en": "to buy",
+    "also": null
   },
   {
     "id": "ex-schwach-010",
@@ -6126,7 +6335,8 @@
         "of the train"
       ]
     ],
-    "hint_en": "to wait"
+    "hint_en": "to wait",
+    "also": null
   },
   {
     "id": "ex-schwach-011",
@@ -6172,7 +6382,8 @@
         "bag"
       ]
     ],
-    "hint_en": "to look for"
+    "hint_en": "to look for",
+    "also": null
   },
   {
     "id": "ex-schwach-012",
@@ -6218,7 +6429,8 @@
         "teacher"
       ]
     ],
-    "hint_en": "to answer"
+    "hint_en": "to answer",
+    "also": null
   },
   {
     "id": "ex-schwach-013",
@@ -6260,7 +6472,8 @@
         "July"
       ]
     ],
-    "hint_en": "to celebrate"
+    "hint_en": "to celebrate",
+    "also": null
   },
   {
     "id": "ex-schwach-014",
@@ -6302,7 +6515,8 @@
         "garden"
       ]
     ],
-    "hint_en": "to play"
+    "hint_en": "to play",
+    "also": null
   },
   {
     "id": "ex-schwach-015",
@@ -6352,7 +6566,8 @@
         "is"
       ]
     ],
-    "hint_en": "to open"
+    "hint_en": "to open",
+    "also": null
   },
   {
     "id": "ex-schwach-016",
@@ -6402,7 +6617,8 @@
         "house"
       ]
     ],
-    "hint_en": "to put"
+    "hint_en": "to put",
+    "also": null
   },
   {
     "id": "ex-schwach-017",
@@ -6448,7 +6664,8 @@
         "message"
       ]
     ],
-    "hint_en": "to send"
+    "hint_en": "to send",
+    "also": null
   },
   {
     "id": "ex-schwach-018",
@@ -6486,7 +6703,8 @@
         "apartment"
       ]
     ],
-    "hint_en": "to clean"
+    "hint_en": "to clean",
+    "also": null
   },
   {
     "id": "ex-schwach-019",
@@ -6528,7 +6746,8 @@
         "yard"
       ]
     ],
-    "hint_en": "to bark"
+    "hint_en": "to bark",
+    "also": null
   },
   {
     "id": "ex-schwach-020",
@@ -6578,7 +6797,8 @@
         "answers"
       ]
     ],
-    "hint_en": "to knock"
+    "hint_en": "to knock",
+    "also": null
   },
   {
     "id": "ex-schwach-021",
@@ -6624,7 +6844,8 @@
         "well"
       ]
     ],
-    "hint_en": "to explain"
+    "hint_en": "to explain",
+    "also": null
   },
   {
     "id": "ex-schwach-022",
@@ -6670,7 +6891,8 @@
         "internet"
       ]
     ],
-    "hint_en": "to sell"
+    "hint_en": "to sell",
+    "also": null
   },
   {
     "id": "ex-schwach-023",
@@ -6712,7 +6934,8 @@
         "salt"
       ]
     ],
-    "hint_en": "to pass / to hand"
+    "hint_en": "to pass / to hand",
+    "also": null
   },
   {
     "id": "ex-schwach-024",
@@ -6762,7 +6985,8 @@
         "together"
       ]
     ],
-    "hint_en": "to share"
+    "hint_en": "to share",
+    "also": null
   },
   {
     "id": "ex-schwach-025",
@@ -6812,7 +7036,8 @@
         "landscape"
       ]
     ],
-    "hint_en": "to paint"
+    "hint_en": "to paint",
+    "also": null
   },
   {
     "id": "ex-schwach-026",
@@ -6854,7 +7079,8 @@
         "problem"
       ]
     ],
-    "hint_en": "to discuss"
+    "hint_en": "to discuss",
+    "also": null
   },
   {
     "id": "ex-schwach-027",
@@ -6896,7 +7122,8 @@
         "e-mail"
       ]
     ],
-    "hint_en": "to confirm"
+    "hint_en": "to confirm",
+    "also": null
   },
   {
     "id": "ex-schwach-028",
@@ -6934,7 +7161,8 @@
         "lake"
       ]
     ],
-    "hint_en": "to bathe / to swim"
+    "hint_en": "to bathe / to swim",
+    "also": null
   },
   {
     "id": "ex-schwach-029",
@@ -6984,7 +7212,8 @@
         "index card"
       ]
     ],
-    "hint_en": "to note down"
+    "hint_en": "to note down",
+    "also": null
   },
   {
     "id": "ex-schwach-030",
@@ -7030,7 +7259,8 @@
         "guests"
       ]
     ],
-    "hint_en": "to reserve"
+    "hint_en": "to reserve",
+    "also": null
   },
   {
     "id": "ex-schwach-031",
@@ -7072,7 +7302,8 @@
         "machine"
       ]
     ],
-    "hint_en": "to solve / to buy a ticket"
+    "hint_en": "to solve / to buy a ticket",
+    "also": null
   },
   {
     "id": "ex-schwach-032",
@@ -7110,7 +7341,8 @@
         "properly"
       ]
     ],
-    "hint_en": "to dispose of"
+    "hint_en": "to dispose of",
+    "also": null
   },
   {
     "id": "ex-schwach-033",
@@ -7152,7 +7384,8 @@
         "travel agency"
       ]
     ],
-    "hint_en": "to book"
+    "hint_en": "to book",
+    "also": null
   },
   {
     "id": "ex-schwach-034",
@@ -7198,7 +7431,8 @@
         null
       ]
     ],
-    "hint_en": "to listen"
+    "hint_en": "to listen",
+    "also": null
   },
   {
     "id": "ex-schwach-035",
@@ -7236,7 +7470,8 @@
         "carefully"
       ]
     ],
-    "hint_en": "to check"
+    "hint_en": "to check",
+    "also": null
   },
   {
     "id": "ex-schwach-036",
@@ -7282,7 +7517,8 @@
         "group"
       ]
     ],
-    "hint_en": "to solve / to buy a ticket"
+    "hint_en": "to solve / to buy a ticket",
+    "also": null
   },
   {
     "id": "ex-schwach-037",
@@ -7328,7 +7564,8 @@
         "table"
       ]
     ],
-    "hint_en": "to lay"
+    "hint_en": "to lay",
+    "also": null
   },
   {
     "id": "ex-schwach-038",
@@ -7370,7 +7607,8 @@
         "tent"
       ]
     ],
-    "hint_en": "to camp"
+    "hint_en": "to camp",
+    "also": null
   },
   {
     "id": "ex-schwach-039",
@@ -7420,7 +7658,8 @@
         "garage"
       ]
     ],
-    "hint_en": "to park"
+    "hint_en": "to park",
+    "also": null
   },
   {
     "id": "ex-schwach-040",
@@ -7462,7 +7701,8 @@
         "restaurant"
       ]
     ],
-    "hint_en": "to pay"
+    "hint_en": "to pay",
+    "also": null
   },
   {
     "id": "ex-schwach-041",
@@ -7504,7 +7744,8 @@
         "garden"
       ]
     ],
-    "hint_en": "to plant"
+    "hint_en": "to plant",
+    "also": null
   },
   {
     "id": "ex-schwach-042",
@@ -7550,7 +7791,8 @@
         "door"
       ]
     ],
-    "hint_en": "to clean"
+    "hint_en": "to clean",
+    "also": null
   },
   {
     "id": "ex-schwach-043",
@@ -7588,7 +7830,8 @@
         null
       ]
     ],
-    "hint_en": "to close"
+    "hint_en": "to close",
+    "also": null
   },
   {
     "id": "ex-schwach-044",
@@ -7630,7 +7873,8 @@
         "train station"
       ]
     ],
-    "hint_en": "to look for"
+    "hint_en": "to look for",
+    "also": null
   },
   {
     "id": "ex-schwach-045",
@@ -7668,7 +7912,8 @@
         "for a walk"
       ]
     ],
-    "hint_en": "to hike"
+    "hint_en": "to hike",
+    "also": null
   },
   {
     "id": "ex-schwach-046",
@@ -7714,7 +7959,8 @@
         "line"
       ]
     ],
-    "hint_en": "to hang"
+    "hint_en": "to hang",
+    "also": null
   },
   {
     "id": "ex-schwach-047",
@@ -7760,7 +8006,8 @@
         "campfire"
       ]
     ],
-    "hint_en": "to gather"
+    "hint_en": "to gather",
+    "also": null
   },
   {
     "id": "ex-schwach-048",
@@ -7798,7 +8045,8 @@
         "not"
       ]
     ],
-    "hint_en": "to cry"
+    "hint_en": "to cry",
+    "also": null
   },
   {
     "id": "ex-schwach-049",
@@ -7844,7 +8092,8 @@
         "departure"
       ]
     ],
-    "hint_en": "to pack"
+    "hint_en": "to pack",
+    "also": null
   },
   {
     "id": "ex-schwach-050",
@@ -7890,7 +8139,8 @@
         null
       ]
     ],
-    "hint_en": "to switch on"
+    "hint_en": "to switch on",
+    "also": null
   },
   {
     "id": "ex-schwach-051",
@@ -7936,7 +8186,8 @@
         "food / meal"
       ]
     ],
-    "hint_en": "to wash up"
+    "hint_en": "to wash up",
+    "also": null
   },
   {
     "id": "ex-schwach-052",
@@ -7982,7 +8233,8 @@
         "wall"
       ]
     ],
-    "hint_en": "to hang"
+    "hint_en": "to hang",
+    "also": null
   },
   {
     "id": "ex-schwach-053",
@@ -8020,7 +8272,8 @@
         "tree"
       ]
     ],
-    "hint_en": "to chirp"
+    "hint_en": "to chirp",
+    "also": null
   },
   {
     "id": "ex-schwach-054",
@@ -8062,7 +8315,8 @@
         "of our son"
       ]
     ],
-    "hint_en": "to plan"
+    "hint_en": "to plan",
+    "also": null
   },
   {
     "id": "ex-schwach-055",
@@ -8112,7 +8366,8 @@
         null
       ]
     ],
-    "hint_en": "to fill out"
+    "hint_en": "to fill out",
+    "also": null
   },
   {
     "id": "ex-schwach-056",
@@ -8162,7 +8417,8 @@
         null
       ]
     ],
-    "hint_en": "to light"
+    "hint_en": "to light",
+    "also": null
   },
   {
     "id": "ex-schwach-057",
@@ -8204,7 +8460,8 @@
         "work"
       ]
     ],
-    "hint_en": "to use"
+    "hint_en": "to use",
+    "also": null
   },
   {
     "id": "ex-schwach-058",
@@ -8246,7 +8503,8 @@
         "car"
       ]
     ],
-    "hint_en": "to repair"
+    "hint_en": "to repair",
+    "also": null
   },
   {
     "id": "ex-schwach-059",
@@ -8292,7 +8550,8 @@
         "bank account"
       ]
     ],
-    "hint_en": "to transfer"
+    "hint_en": "to transfer",
+    "also": null
   },
   {
     "id": "ex-schwach-060",
@@ -8338,7 +8597,8 @@
         "moving in"
       ]
     ],
-    "hint_en": "to renovate"
+    "hint_en": "to renovate",
+    "also": null
   },
   {
     "id": "ex-schwach-061",
@@ -8384,7 +8644,8 @@
         "present"
       ]
     ],
-    "hint_en": "to thank"
+    "hint_en": "to thank",
+    "also": null
   },
   {
     "id": "ex-schwach-062",
@@ -8422,7 +8683,8 @@
         "pen"
       ]
     ],
-    "hint_en": "to lend"
+    "hint_en": "to lend",
+    "also": null
   },
   {
     "id": "ex-schwach-063",
@@ -8468,7 +8730,8 @@
         "story"
       ]
     ],
-    "hint_en": "to tell"
+    "hint_en": "to tell",
+    "also": null
   },
   {
     "id": "ex-schwach-064",
@@ -8518,7 +8781,8 @@
         "authority"
       ]
     ],
-    "hint_en": "to hope"
+    "hint_en": "to hope",
+    "also": null
   },
   {
     "id": "ex-schwach-065",
@@ -8564,7 +8828,8 @@
         "of the teacher"
       ]
     ],
-    "hint_en": "to laugh"
+    "hint_en": "to laugh",
+    "also": null
   },
   {
     "id": "ex-schwach-066",
@@ -8598,7 +8863,8 @@
         "diligence"
       ]
     ],
-    "hint_en": "to praise"
+    "hint_en": "to praise",
+    "also": null
   },
   {
     "id": "ex-schwach-067",
@@ -8632,7 +8898,8 @@
         "truth"
       ]
     ],
-    "hint_en": "to say"
+    "hint_en": "to say",
+    "also": null
   },
   {
     "id": "ex-schwach-068",
@@ -8670,7 +8937,8 @@
         "medicine"
       ]
     ],
-    "hint_en": "to prescribe"
+    "hint_en": "to prescribe",
+    "also": null
   },
   {
     "id": "ex-schwach-069",
@@ -8712,7 +8980,8 @@
         "birthday"
       ]
     ],
-    "hint_en": "to congratulate"
+    "hint_en": "to congratulate",
+    "also": null
   },
   {
     "id": "ex-schwach-070",
@@ -8754,7 +9023,8 @@
         "weekend"
       ]
     ],
-    "hint_en": "to look forward to"
+    "hint_en": "to look forward to",
+    "also": null
   },
   {
     "id": "ex-schwach-071",
@@ -8796,7 +9066,8 @@
         "delay"
       ]
     ],
-    "hint_en": "to apologise"
+    "hint_en": "to apologise",
+    "also": null
   },
   {
     "id": "ex-schwach-072",
@@ -8838,7 +9109,8 @@
         "tomorrow"
       ]
     ],
-    "hint_en": "to remember"
+    "hint_en": "to remember",
+    "also": null
   },
   {
     "id": "ex-schwach-073",
@@ -8876,7 +9148,8 @@
         "immediately"
       ]
     ],
-    "hint_en": "to notice"
+    "hint_en": "to notice",
+    "also": null
   },
   {
     "id": "ex-schwach-074",
@@ -8918,7 +9191,8 @@
         "course"
       ]
     ],
-    "hint_en": "to pay attention to"
+    "hint_en": "to pay attention to",
+    "also": null
   },
   {
     "id": "ex-schwach-075",
@@ -8956,7 +9230,8 @@
         "neighbour"
       ]
     ],
-    "hint_en": "to greet"
+    "hint_en": "to greet",
+    "also": null
   },
   {
     "id": "ex-schwach-076",
@@ -8998,7 +9273,8 @@
         "topic"
       ]
     ],
-    "hint_en": "to express"
+    "hint_en": "to express",
+    "also": null
   },
   {
     "id": "ex-schwach-077",
@@ -9040,7 +9316,8 @@
         null
       ]
     ],
-    "hint_en": "to tell / to share"
+    "hint_en": "to tell / to share",
+    "also": null
   },
   {
     "id": "ex-schwach-078",
@@ -9090,7 +9367,8 @@
         "accident"
       ]
     ],
-    "hint_en": "to inform"
+    "hint_en": "to inform",
+    "also": null
   },
   {
     "id": "ex-schwach-079",
@@ -9132,7 +9410,8 @@
         "not"
       ]
     ],
-    "hint_en": "to answer"
+    "hint_en": "to answer",
+    "also": null
   },
   {
     "id": "ex-schwach-080",
@@ -9178,7 +9457,8 @@
         "trip"
       ]
     ],
-    "hint_en": "to wish"
+    "hint_en": "to wish",
+    "also": null
   },
   {
     "id": "ex-schwach-081",
@@ -9224,7 +9504,8 @@
         "washing"
       ]
     ],
-    "hint_en": "to sort"
+    "hint_en": "to sort",
+    "also": null
   },
   {
     "id": "ex-schwach-082",
@@ -9270,7 +9551,8 @@
         "boss"
       ]
     ],
-    "hint_en": "to clarify"
+    "hint_en": "to clarify",
+    "also": null
   },
   {
     "id": "ex-schwach-083",
@@ -9312,7 +9594,8 @@
         "tape"
       ]
     ],
-    "hint_en": "to glue / to tape"
+    "hint_en": "to glue / to tape",
+    "also": null
   },
   {
     "id": "ex-schwach-084",
@@ -9358,7 +9641,8 @@
         "project"
       ]
     ],
-    "hint_en": "to estimate"
+    "hint_en": "to estimate",
+    "also": null
   },
   {
     "id": "ex-schwach-085",
@@ -9400,7 +9684,8 @@
         "hike"
       ]
     ],
-    "hint_en": "to reach"
+    "hint_en": "to reach",
+    "also": null
   },
   {
     "id": "ex-schwach-086",
@@ -9450,7 +9735,8 @@
         null
       ]
     ],
-    "hint_en": "to pick up"
+    "hint_en": "to pick up",
+    "also": null
   },
   {
     "id": "ex-schwach-087",
@@ -9496,7 +9782,8 @@
         "Tuesday"
       ]
     ],
-    "hint_en": "to postpone"
+    "hint_en": "to postpone",
+    "also": null
   },
   {
     "id": "ex-schwach-088",
@@ -9542,7 +9829,8 @@
         "traffic light"
       ]
     ],
-    "hint_en": "to stop"
+    "hint_en": "to stop",
+    "also": null
   },
   {
     "id": "ex-schwach-089",
@@ -9588,7 +9876,8 @@
         "job interview"
       ]
     ],
-    "hint_en": "to iron"
+    "hint_en": "to iron",
+    "also": null
   },
   {
     "id": "ex-schwach-090",
@@ -9630,7 +9919,8 @@
         "exam"
       ]
     ],
-    "hint_en": "to expect"
+    "hint_en": "to expect",
+    "also": null
   },
   {
     "id": "ex-schwach-091",
@@ -9676,7 +9966,8 @@
         "corner"
       ]
     ],
-    "hint_en": "to move"
+    "hint_en": "to move",
+    "also": null
   },
   {
     "id": "ex-schwach-092",
@@ -9714,7 +10005,8 @@
         "regularly"
       ]
     ],
-    "hint_en": "to maintain"
+    "hint_en": "to maintain",
+    "also": null
   },
   {
     "id": "ex-schwach-093",
@@ -9764,7 +10056,8 @@
         "field"
       ]
     ],
-    "hint_en": "to pass"
+    "hint_en": "to pass",
+    "also": null
   },
   {
     "id": "ex-schwach-094",
@@ -9814,7 +10107,8 @@
         "o'clock"
       ]
     ],
-    "hint_en": "to finish"
+    "hint_en": "to finish",
+    "also": null
   },
   {
     "id": "ex-schwach-095",
@@ -9856,7 +10150,8 @@
         "of the seller"
       ]
     ],
-    "hint_en": "to check"
+    "hint_en": "to check",
+    "also": null
   },
   {
     "id": "ex-schwach-096",
@@ -9902,7 +10197,8 @@
         "list"
       ]
     ],
-    "hint_en": "to put"
+    "hint_en": "to put",
+    "also": null
   },
   {
     "id": "ex-schwach-097",
@@ -9944,7 +10240,8 @@
         "room"
       ]
     ],
-    "hint_en": "to dim"
+    "hint_en": "to dim",
+    "also": null
   },
   {
     "id": "ex-schwach-098",
@@ -9990,7 +10287,8 @@
         "o'clock"
       ]
     ],
-    "hint_en": "to start"
+    "hint_en": "to start",
+    "also": null
   },
   {
     "id": "ex-schwach-099",
@@ -10036,7 +10334,8 @@
         "salt"
       ]
     ],
-    "hint_en": "to season"
+    "hint_en": "to season",
+    "also": null
   },
   {
     "id": "ex-schwach-100",
@@ -10086,7 +10385,8 @@
         "lesson / hour"
       ]
     ],
-    "hint_en": "to review / to repeat"
+    "hint_en": "to review / to repeat",
+    "also": null
   },
   {
     "id": "ex-l4-dativ-001",
@@ -10132,7 +10432,8 @@
         "book"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-002",
@@ -10178,7 +10479,8 @@
         "ring"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-003",
@@ -10224,7 +10526,8 @@
         "task"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-004",
@@ -10270,7 +10573,8 @@
         "present"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-005",
@@ -10316,7 +10620,8 @@
         "flowers"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-006",
@@ -10366,7 +10671,8 @@
         "bill"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-007",
@@ -10412,7 +10718,8 @@
         "car"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-008",
@@ -10458,7 +10765,8 @@
         "way"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-009",
@@ -10504,7 +10812,8 @@
         "e-mail"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-010",
@@ -10550,7 +10859,8 @@
         "truth"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-011",
@@ -10600,7 +10910,8 @@
         "medicine"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-012",
@@ -10615,7 +10926,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Schüler. The English says plural, which would be den Schülern. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Sie",
@@ -10646,7 +10957,8 @@
         "rules"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-013",
@@ -10692,7 +11004,8 @@
         "pen"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-014",
@@ -10738,7 +11051,8 @@
         "bicycle"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-015",
@@ -10784,7 +11098,8 @@
         "restaurant"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-016",
@@ -10830,7 +11145,8 @@
         "documents"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-017",
@@ -10876,7 +11192,8 @@
         "photos"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-018",
@@ -10930,7 +11247,8 @@
         "in front of"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-019",
@@ -10976,7 +11294,8 @@
         "postcard"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-020",
@@ -11022,7 +11341,8 @@
         "place / seat"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-021",
@@ -11068,7 +11388,8 @@
         "problem"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-022",
@@ -11114,7 +11435,8 @@
         "dress"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-023",
@@ -11129,7 +11451,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kunde. The English says plural, which would be den Kunden. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -11164,7 +11486,8 @@
         "at / on"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-024",
@@ -11210,7 +11533,8 @@
         "food"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-025",
@@ -11225,7 +11549,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kollege. The English says plural, which would be den Kollegen. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Ich",
@@ -11256,7 +11580,8 @@
         "file"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-026",
@@ -11306,7 +11631,8 @@
         "grammar"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-027",
@@ -11352,7 +11678,8 @@
         "ball"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-028",
@@ -11367,7 +11694,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Besucher. The English says plural, which would be den Besuchern. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -11398,7 +11725,8 @@
         "museum"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-029",
@@ -11444,7 +11772,8 @@
         "money"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-030",
@@ -11486,7 +11815,8 @@
         "help"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-031",
@@ -11532,7 +11862,8 @@
         "flowers"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-032",
@@ -11578,7 +11909,8 @@
         "symptoms"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-033",
@@ -11624,7 +11956,8 @@
         "coffee"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-034",
@@ -11670,7 +12003,8 @@
         "message"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-035",
@@ -11685,7 +12019,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Nachbar. The English says plural, which would be den Nachbarn. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Er",
@@ -11716,7 +12050,8 @@
         "ladder"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-036",
@@ -11762,7 +12097,8 @@
         "plan"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-037",
@@ -11812,7 +12148,8 @@
         "task"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-038",
@@ -11862,7 +12199,8 @@
         "in front of"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-039",
@@ -11908,7 +12246,8 @@
         "shirt"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-040",
@@ -11954,7 +12293,8 @@
         "way"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-041",
@@ -12004,7 +12344,8 @@
         "question"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-042",
@@ -12050,7 +12391,8 @@
         "key"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-043",
@@ -12096,7 +12438,8 @@
         "cake"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-044",
@@ -12142,7 +12485,8 @@
         "documents"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-045",
@@ -12188,7 +12532,8 @@
         "office"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-046",
@@ -12238,7 +12583,8 @@
         "food / meal"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-047",
@@ -12284,7 +12630,8 @@
         "book"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-048",
@@ -12299,7 +12646,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Schüler. The English says plural, which would be den Schülern. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Der",
@@ -12334,7 +12681,8 @@
         "homework"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-049",
@@ -12380,7 +12728,8 @@
         "jacket"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-050",
@@ -12395,7 +12744,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kunde. The English says plural, which would be den Kunden. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -12426,7 +12775,8 @@
         "contract"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-051",
@@ -12472,7 +12822,8 @@
         "glass"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-052",
@@ -12518,7 +12869,8 @@
         "o'clock"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-053",
@@ -12564,7 +12916,8 @@
         "apartment"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-054",
@@ -12610,7 +12963,8 @@
         "plan"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-055",
@@ -12656,7 +13010,8 @@
         "bag"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-056",
@@ -12706,7 +13061,8 @@
         "receipt"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-057",
@@ -12752,7 +13108,8 @@
         "report"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-058",
@@ -12798,7 +13155,8 @@
         "picture"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-059",
@@ -12813,7 +13171,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Nachbar. The English says plural, which would be den Nachbarn. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Ich",
@@ -12844,7 +13202,8 @@
         "rules"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-060",
@@ -12890,7 +13249,8 @@
         "menu"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-061",
@@ -12940,7 +13300,8 @@
         "coat"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-062",
@@ -12986,7 +13347,8 @@
         "sweets"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-063",
@@ -13032,7 +13394,8 @@
         "exhibition"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-064",
@@ -13078,7 +13441,8 @@
         "bicycle"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-065",
@@ -13124,7 +13488,8 @@
         "excuse note"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-066",
@@ -13139,7 +13504,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kollege. The English says plural, which would be den Kollegen. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Ich",
@@ -13170,7 +13535,8 @@
         "presentation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-067",
@@ -13224,7 +13590,8 @@
         "in front of"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-068",
@@ -13270,7 +13637,8 @@
         "bill"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-069",
@@ -13316,7 +13684,8 @@
         "answer"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-070",
@@ -13362,7 +13731,8 @@
         "problem"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-071",
@@ -13377,7 +13747,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Patient. The English says plural, which would be den Patienten. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Der",
@@ -13412,7 +13782,8 @@
         "treatment"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-072",
@@ -13458,7 +13829,8 @@
         "set menu"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-073",
@@ -13473,7 +13845,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kind. The English says plural, which would be den Kindern. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -13504,7 +13876,8 @@
         "playground"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-074",
@@ -13550,7 +13923,8 @@
         "plant"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-075",
@@ -13565,7 +13939,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kunde. The English says plural, which would be den Kunden. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Er",
@@ -13596,7 +13970,8 @@
         "explanation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-076",
@@ -13642,7 +14017,8 @@
         "exercise book"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-077",
@@ -13692,7 +14068,8 @@
         "plan"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-078",
@@ -13738,7 +14115,8 @@
         "invitation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-079",
@@ -13784,7 +14162,8 @@
         "present"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-080",
@@ -13799,7 +14178,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kollege. The English says plural, which would be den Kollegen. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Ich",
@@ -13830,7 +14209,8 @@
         "task"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-081",
@@ -13845,7 +14225,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Gast. The English says plural, which would be den Gästen. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Der",
@@ -13880,7 +14260,8 @@
         "food / meal"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-082",
@@ -13926,7 +14307,8 @@
         "key"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-083",
@@ -13972,7 +14354,8 @@
         "changes"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-084",
@@ -13987,7 +14370,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Nachbar. The English says plural, which would be den Nachbarn. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Sie",
@@ -14018,7 +14401,8 @@
         "tool"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-085",
@@ -14064,7 +14448,8 @@
         "goods"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-086",
@@ -14110,7 +14495,8 @@
         "exit"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-087",
@@ -14160,7 +14546,8 @@
         "book"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-088",
@@ -14206,7 +14593,8 @@
         "registration"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-089",
@@ -14252,7 +14640,8 @@
         "tip"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-090",
@@ -14298,7 +14687,8 @@
         "situation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-091",
@@ -14313,7 +14703,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Schüler. The English says plural, which would be den Schülern. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Der",
@@ -14348,7 +14738,8 @@
         "solution"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-092",
@@ -14394,7 +14785,8 @@
         "letter"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-093",
@@ -14440,7 +14832,8 @@
         "room"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-094",
@@ -14486,7 +14879,8 @@
         "toy"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-095",
@@ -14532,7 +14926,8 @@
         "answer"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-096",
@@ -14578,7 +14973,8 @@
         "complaints"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-097",
@@ -14628,7 +15024,8 @@
         "coffee"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-098",
@@ -14643,7 +15040,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kunde. The English says plural, which would be den Kunden. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -14674,7 +15071,8 @@
         "confirmation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-099",
@@ -14720,7 +15118,8 @@
         "city"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-100",
@@ -14770,7 +15169,8 @@
         "off"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-001",
@@ -14808,7 +15208,8 @@
         "man"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-002",
@@ -14846,7 +15247,8 @@
         "woman"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-003",
@@ -14884,7 +15286,8 @@
         "teacher"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-004",
@@ -14922,7 +15325,8 @@
         "doctor"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-005",
@@ -14960,7 +15364,8 @@
         "friend"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-006",
@@ -15002,7 +15407,8 @@
         "family"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-007",
@@ -15017,7 +15423,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kollege. The English says plural, which would be den Kollegen. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Sie",
@@ -15040,7 +15446,8 @@
         "colleague"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-008",
@@ -15078,7 +15485,8 @@
         "child"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-009",
@@ -15093,7 +15501,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Nachbar. The English says plural, which would be den Nachbarn. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -15116,7 +15524,8 @@
         "neighbour"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-010",
@@ -15154,7 +15563,8 @@
         "instruction"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-011",
@@ -15196,7 +15606,8 @@
         "pupil"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-012",
@@ -15234,7 +15645,8 @@
         "sister"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-013",
@@ -15272,7 +15684,8 @@
         "boss"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-014",
@@ -15287,7 +15700,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Tourist. The English says plural, which would be den Touristen. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -15310,7 +15723,8 @@
         "tourist"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-015",
@@ -15348,7 +15762,8 @@
         "e-mail"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-016",
@@ -15390,7 +15805,8 @@
         "apartment"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-017",
@@ -15428,7 +15844,8 @@
         "story"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-018",
@@ -15466,7 +15883,8 @@
         "mother"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-019",
@@ -15481,7 +15899,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Gast. The English says plural, which would be den Gästen. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -15504,7 +15922,8 @@
         "guest"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-020",
@@ -15542,7 +15961,8 @@
         "rule"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-021",
@@ -15584,7 +16004,8 @@
         "class"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-022",
@@ -15622,7 +16043,8 @@
         "friend"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-023",
@@ -15660,7 +16082,8 @@
         "way"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-024",
@@ -15675,7 +16098,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kunde. The English says plural, which would be den Kunden. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -15698,7 +16121,8 @@
         "customer"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-025",
@@ -15713,7 +16137,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kollege. The English says plural, which would be den Kollegen. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Ich",
@@ -15736,7 +16160,8 @@
         "colleague"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-026",
@@ -15778,7 +16203,8 @@
         "library"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-027",
@@ -15816,7 +16242,8 @@
         "neighbour"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-028",
@@ -15854,7 +16281,8 @@
         "message"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-029",
@@ -15892,7 +16320,8 @@
         "teacher"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-030",
@@ -15930,7 +16359,8 @@
         "plan"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-031",
@@ -15945,7 +16375,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Patient. The English says plural, which would be den Patienten. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Der",
@@ -15972,7 +16402,8 @@
         "patient"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-032",
@@ -16010,7 +16441,8 @@
         "doctor"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-033",
@@ -16048,7 +16480,8 @@
         "club"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-034",
@@ -16086,7 +16519,8 @@
         "family"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-035",
@@ -16124,7 +16558,8 @@
         "host"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-036",
@@ -16166,7 +16601,8 @@
         "child"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-037",
@@ -16204,7 +16640,8 @@
         "rumour"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-038",
@@ -16242,7 +16679,8 @@
         "father"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-039",
@@ -16280,7 +16718,8 @@
         "enquiry"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-040",
@@ -16318,7 +16757,8 @@
         "voice"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-041",
@@ -16333,7 +16773,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Schüler. The English says plural, which would be den Schülern. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Der",
@@ -16360,7 +16800,8 @@
         "pupil"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-042",
@@ -16402,7 +16843,8 @@
         "person"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-043",
@@ -16440,7 +16882,8 @@
         "colleague"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-044",
@@ -16478,7 +16921,8 @@
         "street"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-045",
@@ -16516,7 +16960,8 @@
         "winner"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-046",
@@ -16558,7 +17003,8 @@
         "family"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-047",
@@ -16573,7 +17019,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Experte. The English says plural, which would be den Experten. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Sie",
@@ -16596,7 +17042,8 @@
         "expert"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-048",
@@ -16611,7 +17058,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Nachbar. The English says plural, which would be den Nachbarn. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Er",
@@ -16634,7 +17081,8 @@
         "neighbour"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-049",
@@ -16672,7 +17120,8 @@
         "audience"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-050",
@@ -16710,7 +17159,8 @@
         "regulation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-051",
@@ -16752,7 +17202,8 @@
         "team"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-052",
@@ -16790,7 +17241,8 @@
         "police"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-053",
@@ -16828,7 +17280,8 @@
         "group"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-054",
@@ -16843,7 +17296,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Freund. The English says plural, which would be den Freunden. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -16866,7 +17319,8 @@
         "friend"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-055",
@@ -16904,7 +17358,8 @@
         "salesman"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-056",
@@ -16946,7 +17401,8 @@
         "company"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-057",
@@ -16984,7 +17440,8 @@
         "statement"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-058",
@@ -17022,7 +17479,8 @@
         "colleague"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-059",
@@ -17060,7 +17518,8 @@
         "applicant"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-060",
@@ -17098,7 +17557,8 @@
         "advice"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-061",
@@ -17113,7 +17573,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kind. The English says plural, which would be den Kindern. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Der",
@@ -17140,7 +17600,8 @@
         "child"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-062",
@@ -17178,7 +17639,8 @@
         "adviser"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-063",
@@ -17193,7 +17655,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kunde. The English says plural, which would be den Kunden. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Er",
@@ -17216,7 +17678,8 @@
         "customer"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-064",
@@ -17254,7 +17717,8 @@
         "direction"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-065",
@@ -17292,7 +17756,8 @@
         "winner"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-066",
@@ -17334,7 +17799,8 @@
         "student"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-067",
@@ -17349,7 +17815,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Zeuge. The English says plural, which would be den Zeugen. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Sie",
@@ -17372,7 +17838,8 @@
         "witness"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-068",
@@ -17410,7 +17877,8 @@
         "grandmother"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-069",
@@ -17425,7 +17893,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Zuhörer. The English says plural, which would be den Zuhörern. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -17448,7 +17916,8 @@
         "listener"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-070",
@@ -17486,7 +17955,8 @@
         "recommendation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-071",
@@ -17528,7 +17998,8 @@
         "experience"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-072",
@@ -17543,7 +18014,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Flüchtling. The English says plural, which would be den Flüchtlingen. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Sie",
@@ -17566,7 +18037,8 @@
         "refugee"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-073",
@@ -17604,7 +18076,8 @@
         "team"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-074",
@@ -17619,7 +18092,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Unterstützer. The English says plural, which would be den Unterstützern. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -17642,7 +18115,8 @@
         "supporter"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-075",
@@ -17680,7 +18154,8 @@
         "friend"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-076",
@@ -17722,7 +18197,8 @@
         "city"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-077",
@@ -17737,7 +18213,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kollege. The English says plural, which would be den Kollegen. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Sie",
@@ -17760,7 +18236,8 @@
         "colleague"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-078",
@@ -17798,7 +18275,8 @@
         "road sign"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-079",
@@ -17836,7 +18314,8 @@
         "enquiry"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-080",
@@ -17851,7 +18330,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Lehrer. The English says plural, which would be den Lehrern. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Ich",
@@ -17874,7 +18353,8 @@
         "teacher"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-081",
@@ -17916,7 +18396,8 @@
         "employee"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-082",
@@ -17954,7 +18435,8 @@
         "result"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-083",
@@ -17992,7 +18474,8 @@
         "pupil"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-084",
@@ -18030,7 +18513,8 @@
         "tradition"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-085",
@@ -18068,7 +18552,8 @@
         "couple"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-086",
@@ -18110,7 +18595,8 @@
         "owner"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-087",
@@ -18125,7 +18611,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kranke. The English says plural, which would be den Kranken. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Sie",
@@ -18148,7 +18634,8 @@
         "sick person"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-088",
@@ -18186,7 +18673,8 @@
         "parents"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-089",
@@ -18224,7 +18712,8 @@
         "theory"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-090",
@@ -18262,7 +18751,8 @@
         "law"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-091",
@@ -18304,7 +18794,8 @@
         "trainee"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-092",
@@ -18342,7 +18833,8 @@
         "instinct"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-093",
@@ -18380,7 +18872,8 @@
         "generation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-094",
@@ -18418,7 +18911,8 @@
         "organisation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-095",
@@ -18456,7 +18950,8 @@
         "explanation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-096",
@@ -18498,7 +18993,8 @@
         "child"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-097",
@@ -18513,7 +19009,7 @@
     "tags": [
       "dativ"
     ],
-    "note": null,
+    "note": "The hint (der/das) makes it singular: dem Kunde. The English says plural, which would be den Kunden. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Sie",
@@ -18536,7 +19032,8 @@
         "customer"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "den"
   },
   {
     "id": "ex-l4-dativ-verben-098",
@@ -18574,7 +19071,8 @@
         "rule"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-099",
@@ -18612,7 +19110,8 @@
         "system"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-dativ-verben-100",
@@ -18650,7 +19149,8 @@
         "audience"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-001",
@@ -18688,7 +19188,8 @@
         "man"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-002",
@@ -18726,7 +19227,8 @@
         "bag"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-003",
@@ -18764,7 +19266,8 @@
         "book"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-004",
@@ -18802,7 +19305,8 @@
         "music"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-005",
@@ -18840,7 +19344,8 @@
         "coffee"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-006",
@@ -18878,7 +19383,8 @@
         "friend"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-007",
@@ -18916,7 +19422,8 @@
         "key"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-008",
@@ -18954,7 +19461,8 @@
         "solution"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-009",
@@ -18992,7 +19500,8 @@
         "apple"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-010",
@@ -19030,7 +19539,8 @@
         "door"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-011",
@@ -19068,7 +19578,8 @@
         "bicycle"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-012",
@@ -19106,7 +19617,8 @@
         "answer"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-013",
@@ -19144,7 +19656,8 @@
         "teacher"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-014",
@@ -19182,7 +19695,8 @@
         "film"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-015",
@@ -19220,7 +19734,8 @@
         "pizza"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-016",
@@ -19235,7 +19750,7 @@
     "tags": [
       "akkusativ"
     ],
-    "note": null,
+    "note": "The hint (der) makes it singular: den Kollege. The English says plural, which would be die Kollegen. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -19258,7 +19773,8 @@
         "colleague"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "die"
   },
   {
     "id": "ex-l4-akkusativ-017",
@@ -19296,7 +19812,8 @@
         "present"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-018",
@@ -19334,7 +19851,8 @@
         "dress"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-019",
@@ -19372,7 +19890,8 @@
         "problem"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-020",
@@ -19410,7 +19929,8 @@
         "trip"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-021",
@@ -19448,7 +19968,8 @@
         "e-mail"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-022",
@@ -19486,7 +20007,8 @@
         "newspaper"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-023",
@@ -19524,7 +20046,8 @@
         "doctor"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-024",
@@ -19562,7 +20085,8 @@
         "bus"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-025",
@@ -19604,7 +20128,8 @@
         "well"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-026",
@@ -19642,7 +20167,8 @@
         "message"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-027",
@@ -19680,7 +20206,8 @@
         "work"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-028",
@@ -19718,7 +20245,8 @@
         "result"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-029",
@@ -19756,7 +20284,8 @@
         "window"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-030",
@@ -19794,7 +20323,8 @@
         "water"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-031",
@@ -19832,7 +20362,8 @@
         "car"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-032",
@@ -19870,7 +20401,8 @@
         "apartment"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-033",
@@ -19908,7 +20440,8 @@
         "help"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-034",
@@ -19950,7 +20483,8 @@
         "loudly"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-035",
@@ -19992,7 +20526,8 @@
         "with"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-036",
@@ -20030,7 +20565,8 @@
         "break"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-037",
@@ -20068,7 +20604,8 @@
         "star"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-038",
@@ -20106,7 +20643,8 @@
         "text"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-039",
@@ -20144,7 +20682,8 @@
         "situation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-040",
@@ -20182,7 +20721,8 @@
         "food / meal"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-041",
@@ -20220,7 +20760,8 @@
         "job"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-042",
@@ -20258,7 +20799,8 @@
         "novel"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-043",
@@ -20296,7 +20838,8 @@
         "museum"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-044",
@@ -20334,7 +20877,8 @@
         "bread"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-045",
@@ -20372,7 +20916,8 @@
         "noise"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-046",
@@ -20410,7 +20955,8 @@
         "accident"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-047",
@@ -20448,7 +20994,8 @@
         "backpack"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-048",
@@ -20486,7 +21033,8 @@
         "talk"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-049",
@@ -20524,7 +21072,8 @@
         "window"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-050",
@@ -20562,7 +21111,8 @@
         "shop"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-051",
@@ -20600,7 +21150,8 @@
         "picture"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-052",
@@ -20638,7 +21189,8 @@
         "language"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-053",
@@ -20676,7 +21228,8 @@
         "tea"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-054",
@@ -20714,7 +21267,8 @@
         "apartment"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-055",
@@ -20752,7 +21306,8 @@
         "letter"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-056",
@@ -20790,7 +21345,8 @@
         "song"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-057",
@@ -20828,7 +21384,8 @@
         "problem"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-058",
@@ -20866,7 +21423,8 @@
         "shoes"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-059",
@@ -20904,7 +21462,8 @@
         "solution"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-060",
@@ -20942,7 +21501,8 @@
         "project"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-061",
@@ -20980,7 +21540,8 @@
         "report"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-062",
@@ -21018,7 +21579,8 @@
         "radio"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-063",
@@ -21056,7 +21618,8 @@
         "school"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-064",
@@ -21094,7 +21657,8 @@
         "appointment"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-065",
@@ -21132,7 +21696,8 @@
         "advantage"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-066",
@@ -21170,7 +21735,8 @@
         "jacket"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-067",
@@ -21208,7 +21774,8 @@
         "rule"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-068",
@@ -21246,7 +21813,8 @@
         "plan"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-069",
@@ -21284,7 +21852,8 @@
         "soup"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-070",
@@ -21322,7 +21891,8 @@
         "instructions"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-071",
@@ -21360,7 +21930,8 @@
         "place / seat"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-072",
@@ -21398,7 +21969,8 @@
         "possibility"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-073",
@@ -21436,7 +22008,8 @@
         "ticket"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-074",
@@ -21474,7 +22047,8 @@
         "voice"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-075",
@@ -21512,7 +22086,8 @@
         "city"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-076",
@@ -21527,7 +22102,7 @@
     "tags": [
       "akkusativ"
     ],
-    "note": null,
+    "note": "The hint (der) makes it singular: den Freund. The English says plural, which would be die Freunde. Both are accepted; ask Markus which he meant.",
     "gloss": [
       [
         "Wir",
@@ -21550,7 +22125,8 @@
         "friend"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": "die"
   },
   {
     "id": "ex-l4-akkusativ-077",
@@ -21588,7 +22164,8 @@
         "message"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-078",
@@ -21626,7 +22203,8 @@
         "picture"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-079",
@@ -21664,7 +22242,8 @@
         "computer"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-080",
@@ -21702,7 +22281,8 @@
         "discussion"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-081",
@@ -21740,7 +22320,8 @@
         "mistake"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-082",
@@ -21778,7 +22359,8 @@
         "contract"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-083",
@@ -21816,7 +22398,8 @@
         "course"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-084",
@@ -21854,7 +22437,8 @@
         "suggestion"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-085",
@@ -21892,7 +22476,8 @@
         "criticism"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-086",
@@ -21930,7 +22515,8 @@
         "furniture"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-087",
@@ -21968,7 +22554,8 @@
         "task"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-088",
@@ -22006,7 +22593,8 @@
         "solution"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-089",
@@ -22044,7 +22632,8 @@
         "cake"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-090",
@@ -22082,7 +22671,8 @@
         "e-mail"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-091",
@@ -22120,7 +22710,8 @@
         "chance"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-092",
@@ -22158,7 +22749,8 @@
         "explanation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-093",
@@ -22196,7 +22788,8 @@
         "newspaper"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-094",
@@ -22234,7 +22827,8 @@
         "family"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-095",
@@ -22272,7 +22866,8 @@
         "answer"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-096",
@@ -22310,7 +22905,8 @@
         "meeting"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-097",
@@ -22352,7 +22948,8 @@
         "not"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-098",
@@ -22390,7 +22987,8 @@
         "story"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-099",
@@ -22428,7 +23026,8 @@
         "mobile phone"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-100",
@@ -22470,7 +23069,8 @@
         "clearly"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-001",
@@ -22508,7 +23108,8 @@
         "umbrella"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-002",
@@ -22546,7 +23147,8 @@
         "invitation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-003",
@@ -22584,7 +23186,8 @@
         "laptop"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-004",
@@ -22622,7 +23225,8 @@
         "parking space"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-005",
@@ -22660,7 +23264,8 @@
         "table"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-006",
@@ -22698,7 +23303,8 @@
         "coat"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-007",
@@ -22736,7 +23342,8 @@
         "ticket"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-008",
@@ -22774,7 +23381,8 @@
         "topic"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-009",
@@ -22812,7 +23420,8 @@
         "suitcase"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-010",
@@ -22850,7 +23459,8 @@
         "dictionary"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-011",
@@ -22888,7 +23498,8 @@
         "tyre"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-012",
@@ -22926,7 +23537,8 @@
         "exhibition"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-013",
@@ -22964,7 +23576,8 @@
         "photo"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-014",
@@ -23002,7 +23615,8 @@
         "party"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-015",
@@ -23040,7 +23654,8 @@
         "bill"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-016",
@@ -23078,7 +23693,8 @@
         "information"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-017",
@@ -23116,7 +23732,8 @@
         "toothbrush"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-018",
@@ -23154,7 +23771,8 @@
         "password"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-019",
@@ -23192,7 +23810,8 @@
         "difference"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-020",
@@ -23230,7 +23849,8 @@
         "product"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-021",
@@ -23268,7 +23888,8 @@
         "application"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-022",
@@ -23306,7 +23927,8 @@
         "candidate"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-023",
@@ -23344,7 +23966,8 @@
         "torch"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-024",
@@ -23382,7 +24005,8 @@
         "move"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-025",
@@ -23420,7 +24044,8 @@
         "salad"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-026",
@@ -23458,7 +24083,8 @@
         "offer"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-027",
@@ -23496,7 +24122,8 @@
         "customer service"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-028",
@@ -23534,7 +24161,8 @@
         "regulation"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-029",
@@ -23572,7 +24200,8 @@
         "contract"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-030",
@@ -23610,7 +24239,8 @@
         "address"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-031",
@@ -23648,7 +24278,8 @@
         "car"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-032",
@@ -23686,7 +24317,8 @@
         "calendar"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-033",
@@ -23728,7 +24360,8 @@
         "down"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-034",
@@ -23766,7 +24399,8 @@
         "advantage"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-035",
@@ -23804,7 +24438,8 @@
         "tool"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-036",
@@ -23842,7 +24477,8 @@
         "tree"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-037",
@@ -23880,7 +24516,8 @@
         "paper"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-038",
@@ -23918,7 +24555,8 @@
         "question"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-039",
@@ -23956,7 +24594,8 @@
         "rice"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-040",
@@ -23994,7 +24633,8 @@
         "kitchen"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-041",
@@ -24032,7 +24672,8 @@
         "mirror"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-042",
@@ -24070,7 +24711,8 @@
         "suggestion"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-043",
@@ -24108,7 +24750,8 @@
         "printer"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-044",
@@ -24146,7 +24789,8 @@
         "podcast"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-045",
@@ -24184,7 +24828,8 @@
         "note"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-046",
@@ -24222,7 +24867,8 @@
         "wall"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-047",
@@ -24260,7 +24906,8 @@
         "parcel"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-048",
@@ -24298,7 +24945,8 @@
         "appointment"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-049",
@@ -24336,7 +24984,8 @@
         "charger"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-050",
@@ -24374,7 +25023,8 @@
         "helmet"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-051",
@@ -24412,7 +25062,8 @@
         "program"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-052",
@@ -24450,7 +25101,8 @@
         "market"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-053",
@@ -24488,7 +25140,8 @@
         "medicine"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-054",
@@ -24526,7 +25179,8 @@
         "itinerary"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-055",
@@ -24568,7 +25222,8 @@
         "carefully"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-056",
@@ -24606,7 +25261,8 @@
         "carpet"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-057",
@@ -24644,7 +25300,8 @@
         "ring"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-058",
@@ -24682,7 +25339,8 @@
         "floor"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-059",
@@ -24720,7 +25378,8 @@
         "dessert"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-060",
@@ -24758,7 +25417,8 @@
         "vehicle"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-061",
@@ -24796,7 +25456,8 @@
         "insurance"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   },
   {
     "id": "ex-l4-akkusativ-2-062",
@@ -24834,6 +25495,7 @@
         "comment"
       ]
     ],
-    "hint_en": null
+    "hint_en": null,
+    "also": null
   }
 ]
