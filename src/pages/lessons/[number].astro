@@ -110,8 +110,8 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
               {setsOf.length > 0 && (
                 <ul class="hw-sets">
                   {setsOf.map((s) => (
-                    <li>
-                      <span>{s.label} <span class="muted small">({s.count})</span></span>
+                    <li data-set={s.set} data-total={s.count}>
+                      <span>{s.label} <span class="muted small">({s.count})</span><br /><span class="small muted sheet-status">not started</span></span>
                       {s.mode && <a class="btn btn-primary small" href={url('/quiz/') + `?mode=${s.mode}&sheet=${s.set}&title=${encodeURIComponent(s.label)}&back=lessons/${lesson.data.number}/`}>Do the sheet</a>}
                     </li>
                   ))}
@@ -122,19 +122,6 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
         })}
       </ul>
     )}
-    <div
-      id="sheet-results"
-      hidden
-      data-sets={JSON.stringify(lesson.data.homework.flatMap((h) => h.sets))}
-      data-set-ids={JSON.stringify(Object.fromEntries(lesson.data.homework.flatMap((h) => h.sets).map((set) => [set, exercises.filter((e) => e.set === set).map((e) => e.id)])))}
-      data-set-labels={JSON.stringify(Object.fromEntries(lesson.data.homework.flatMap((h) => h.sets).map((set) => [set, SET_LABEL[set] ?? set])))}
-    >
-      <h3>Results on this device</h3>
-      <table class="results">
-        <thead><tr><th>Sheet</th><th>Score</th><th>Completed</th></tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
   </section>
 
   <section class="section prose" aria-labelledby="notes">
@@ -160,44 +147,28 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
     ))}
     <p class="small"><a href={url(`/vocab/`) + `?lesson=${lesson.data.number}`}>Open in the vocab table →</a></p>
     <script>
-      // Results of the homework sheets on this lesson, from this browser's storage.
+      // Per-block homework summary from this browser's answer history: the latest answer to
+      // every question counts, so it reflects the sheet as it stands right now.
       {
-        const sets = new Set(JSON.parse(document.getElementById('sheet-results')!.dataset.sets || '[]'));
-        let rows: any[] = [];
-        try { rows = JSON.parse(localStorage.getItem('german-sheet-results') || '[]') || []; } catch { rows = []; }
-        rows = rows.filter((r) => sets.has(r.sheet));
-        // Sheets done before runs were recorded: reconstruct from the per-question history.
-        const setIds: Record<string, string[]> = JSON.parse(document.getElementById('sheet-results')!.dataset.setIds || '{}');
-        const labels: Record<string, string> = JSON.parse(document.getElementById('sheet-results')!.dataset.setLabels || '{}');
+        const ids: Record<string, string[]> = JSON.parse(document.getElementById('hw-set-ids')!.textContent || '{}');
         let stats: Record<string, any> = {};
         try { stats = JSON.parse(localStorage.getItem('german-quiz-stats-v1') || '{}') || {}; } catch { stats = {}; }
-        for (const [set, ids] of Object.entries(setIds)) {
-          if (rows.some((r) => r.sheet === set)) continue;
-          const done = ids.map((id) => stats[id]).filter(Boolean);
-          if (!done.length) continue;
-          const firstTry = done.filter((x) => x.errors === 0).length;
-          const latest = done.filter((x) => x.lastCorrect !== undefined);
-          const latestRight = latest.filter((x) => x.lastCorrect).length;
-          rows.push({
-            sheet: set, title: labels[set] ?? set, derived: true,
-            answered: done.length, total: ids.length, correct: firstTry,
-            latest: latest.length ? `${latestRight} / ${latest.length} right on the latest try` : null,
-            complete: done.length === ids.length, at: new Date(Math.max(...done.map((x) => x.last || 0))).toISOString(),
-          });
-        }
-        if (rows.length) {
-          const box = document.getElementById('sheet-results')!;
-          const tb = box.querySelector('tbody')!;
-          for (const r of rows) {
-            const tr = document.createElement('tr');
-            const pct = r.answered ? Math.round((100 * r.correct) / r.answered) : 0;
-            let score = r.complete ? `${pct} % (${r.correct} / ${r.total})` : `${pct} % (${r.correct} / ${r.answered}, ended early)`;
-            if (r.derived) score = `${pct} % right first time (${r.correct} / ${r.answered} answered${r.complete ? '' : ` of ${r.total}`})${r.latest ? ` · ${r.latest}` : ''}`;
-            tr.innerHTML = `<td>${r.title}</td><td>${score}</td><td>${new Date(r.at).toLocaleString()}</td>`;
-            tb.append(tr);
-          }
-          box.hidden = false;
-        }
+        const when = (t: number) => new Date(t).toLocaleString(undefined, { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+        document.querySelectorAll<HTMLElement>('.hw-sets li[data-set]').forEach((li) => {
+          const set = li.dataset.set!;
+          const total = Number(li.dataset.total);
+          const done = (ids[set] || []).map((id) => stats[id]).filter(Boolean);
+          const out = li.querySelector<HTMLElement>('.sheet-status')!;
+          if (!done.length) return;
+          const correct = done.filter((x) => (x.lastCorrect !== undefined ? x.lastCorrect : x.errors === 0)).length;
+          const pct = Math.round((100 * correct) / done.length);
+          const last = Math.max(...done.map((x) => x.last || 0));
+          let saved: any = null;
+          try { saved = JSON.parse(localStorage.getItem(`german-sheet-progress:${set}`) || 'null'); } catch { saved = null; }
+          const where = saved && saved.index > 0 && saved.index < saved.total ? ` · continue from #${saved.index + 1}` : '';
+          out.textContent = `${done.length} / ${total} answered · ${correct} correct (${pct} %) · last answered ${when(last)}${where}`;
+          out.classList.toggle('complete', done.length === total);
+        });
       }
       document.getElementById('show-all')?.addEventListener('click', (ev) => {
         document.querySelectorAll<HTMLElement>('.words li.extra').forEach((li) => (li.hidden = false));
@@ -225,6 +196,8 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
     </section>
   )}
 
+  <script type="application/json" id="hw-set-ids" set:html={JSON.stringify(Object.fromEntries(lesson.data.homework.flatMap((h) => h.sets).map((set) => [set, exercises.filter((e) => e.set === set).map((e) => e.id)])))} />
+
   <nav class="pager" aria-label="Lesson navigation">
     {prev ? <a href={url(`/lessons/${prev.data.number}/`)}>← Lesson {prev.data.number}</a> : <span />}
     {next ? <a href={url(`/lessons/${next.data.number}/`)}>Lesson {next.data.number} →</a> : <span />}
@@ -242,10 +215,7 @@ const next = all.find((l) => l.data.number === lesson.data.number + 1);
   .hw-sets { list-style: none; padding: 0; margin: 0.4rem 0 0 1.6rem; display: grid; gap: 0.3rem; }
   .hw-sets li { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.3rem 0; border-bottom: 1px solid var(--border); }
   .btn.small { padding: 0.3em 0.8em; font-size: 0.9rem; }
-  #sheet-results { margin-top: 1rem; max-width: 40rem; }
-  #sheet-results h3 { margin: 0 0 0.4rem; font-size: 0.95rem; }
-  .results { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
-  .results th, .results td { text-align: left; padding: 0.3em 0.5em; border-bottom: 1px solid var(--border); }
+  .sheet-status.complete { color: var(--ok); }
   .box { font-size: 1.1em; }
   .group h3 { margin-top: 1.25rem; }
   /* one grid for the whole list so the English column lines up across rows */
