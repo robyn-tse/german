@@ -68,8 +68,8 @@ Most important to start: **zu, bei, nach**.
 
 in, an, auf, neben, hinter, über, unter, vor, zwischen
 
-| | | |
-|---|---|---|
+| | | | |
+|---|---|---|---|
 | in | in, into | über | over, above, about |
 | an | on (vertical), at, by (rivers, coasts) | unter | under, below |
 | auf | on (horizontal) | vor | in front of, before (time) |
