@@ -75,7 +75,9 @@ thing end to end.
    field still goes in the body, but as content (a table, a rule), not as a note about content.
    Copy the originals to `public/sources/lesson-NN/` so they are served by the site (an `.rtfd`
    bundle: copy its `TXT.rtf` as `<name>.rtf`); list those filenames in `sources` and link them
-   from the *Materials* section with `../../sources/lesson-NN/<file>`. Then open the previous
+   from the *Materials* section with `../../sources/lesson-NN/<file>`. A reference image Robyn wants on the
+   sheet (lesson 5's bubble diagram) is embedded with a raw `<img src="../../sources/lesson-NN/<file>">`
+   wrapped in a link to itself, not with markdown image syntax (Astro would try to import it). Then open the previous
    lesson's file and mark its homework `done: true`.
 4. **Vocab.** Decide first what *is* vocab. Lesson handouts, worksheets and phrase lists are; a
    coursebook glossary or dictionary-style reference (like the 103-page English Compass word list in

@@ -23,6 +23,7 @@ homework:
 sources:
   - Lesson5_Notes.txt
   - Praepositionen_Espanol_English.pdf
+  - Praepositionen_Dativ_Akkusativ.webp
   - Robyn_T.rtf
   - 100_Wechselpraepositionen.rtf
   - Praepositionen_DAT_Akk.rtf
@@ -32,6 +33,8 @@ sources:
 ## The preposition decides the case
 
 Once a preposition is present, the case is fixed, whatever the verb.
+
+<a href="../../sources/lesson-05/Praepositionen_Dativ_Akkusativ.webp"><img src="../../sources/lesson-05/Praepositionen_Dativ_Akkusativ.webp" alt="Präpositionen mit Dativ und Akkusativ: Dativ (ab, außer, zu, nach, bei, von, aus, mit, seit, gegenüber), Akkusativ (bis, durch, für, ohne, gegen, um), both (in, an, auf, neben, hinter, über, unter, vor, zwischen). Wo? → Dativ, Wohin? → Akkusativ." width="1324" height="934" loading="lazy" /></a>
 
 ### Always Dativ
 
@@ -133,6 +136,7 @@ in, an, auf, neben, hinter, über, unter, vor, zwischen
 
 - [Lesson notes](../../sources/lesson-05/Lesson5_Notes.txt)
 - [Präpositionen mit Dativ und Akkusativ](../../sources/lesson-05/Praepositionen_Espanol_English.pdf) (bubble sheet with Spanish and English meanings; print it as a cheat sheet)
+- [Bubble sheet as an image](../../sources/lesson-05/Praepositionen_Dativ_Akkusativ.webp)
 - [Class notes](../../sources/lesson-05/Robyn_T.rtf)
 - [100 Wechselpräpositionen](../../sources/lesson-05/100_Wechselpraepositionen.rtf) (homework)
 - [100 gemischte Präpositionen: Akkusativ & Dativ](../../sources/lesson-05/Praepositionen_DAT_Akk.rtf) (homework)
