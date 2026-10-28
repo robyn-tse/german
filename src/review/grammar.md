@@ -233,8 +233,6 @@ The subject does the action **to itself**: *Ich wasche **mich*** (I wash myself)
 | | Die Friseurin kämmt **die Kundin**. | The hairdresser combs the customer's hair. |
 | **Perfekt always with haben** | Ich **habe mich** erinnert. | I remembered. |
 
-Always reflexive: sich beeilen (to hurry), sich erholen (to recover / rest), sich erkälten (to catch a cold), sich verspäten (to be late).
-
 <details class="more">
 <summary>Common reflexive verbs, A1/A2 (25)</summary>
 

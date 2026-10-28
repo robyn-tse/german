@@ -322,6 +322,10 @@ after checking, and the results list mistakes by topic. It is the same practice 
 `data-section="mixed"`; the page-order `keys` list in `review.astro` must match `SECTION_SETS` and the
 section order.
 
+**Section rail** (added 2026-10-28): a "Topics" list (Mixed review, the ten sections, Top) that is always
+reachable: a sticky panel on the right at ≥ 76rem, a floating "Topics" button bottom right below that.
+It highlights the section on screen.
+
 ### Grammar topics (fixed, in curriculum order)
 
 `articles`, `verb-conjugation`, `plurals`, `prefixes`, `declension`, `perfekt`, `clauses`,
