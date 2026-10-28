@@ -296,7 +296,7 @@ The subject does the action **to itself**: *Ich wasche **mich*** (I wash myself)
 
 Exceptions: **sein** (to be) and **bleiben** (to stay) take sein even though nothing moves.
 
-**Partizip II: four rules**
+**Past participle: how to form it**
 
 | Verb type | Pattern | Examples |
 |---|---|---|
