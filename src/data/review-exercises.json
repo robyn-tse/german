@@ -1,1 +1,5594 @@
-[]
+[
+  {
+    "id": "ex-mixed-genitiv-001",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Das ist das Auto ___ . (der Mann; maskulin)",
+    "hint": null,
+    "answer": "des Mannes",
+    "full_de": "Das ist das Auto des Mannes.",
+    "en": "That is the man’s car.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Auto",
+        "car"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "Mann;",
+        "man"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-002",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Die Tür ___ ist offen. (das Haus; Neutrum)",
+    "hint": null,
+    "answer": "des Hauses",
+    "full_de": "Die Tür des Hauses ist offen.",
+    "en": "The door of the house is open.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Tür",
+        "door"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "offen.",
+        "open"
+      ],
+      [
+        "(das",
+        null
+      ],
+      [
+        "Haus;",
+        "house"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-003",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Der Name ___ ist Paul. (das Kind; Neutrum)",
+    "hint": null,
+    "answer": "des Kindes",
+    "full_de": "Der Name des Kindes ist Paul.",
+    "en": "The child’s name is Paul.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": "Both des Kindes and des Kinds are correct.",
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Name",
+        "name"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "Paul.",
+        "Paul"
+      ],
+      [
+        "(das",
+        null
+      ],
+      [
+        "Kind;",
+        "child"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": "des Kinds"
+  },
+  {
+    "id": "ex-mixed-genitiv-004",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Das Zimmer ___ ist groß. (mein Bruder; maskulin)",
+    "hint": null,
+    "answer": "meines Bruders",
+    "full_de": "Das Zimmer meines Bruders ist groß.",
+    "en": "My brother’s room is big.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Zimmer",
+        "room"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "groß.",
+        "big"
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Bruder;",
+        "brother"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-005",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Die Farbe ___ gefällt mir. (das Kleid; Neutrum)",
+    "hint": null,
+    "answer": "des Kleides",
+    "full_de": "Die Farbe des Kleides gefällt mir.",
+    "en": "I like the color of the dress.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": "Both des Kleides and des Kleids are correct.",
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Farbe",
+        "color"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "gefällt",
+        "pleases"
+      ],
+      [
+        "mir.",
+        "me"
+      ],
+      [
+        "(das",
+        null
+      ],
+      [
+        "Kleid;",
+        "dress"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": "des Kleids"
+  },
+  {
+    "id": "ex-mixed-genitiv-006",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Der Hund ___ ist klein. (die Frau; feminin)",
+    "hint": null,
+    "answer": "der Frau",
+    "full_de": "Der Hund der Frau ist klein.",
+    "en": "The woman’s dog is small.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Hund",
+        "dog"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "klein.",
+        "small"
+      ],
+      [
+        "(die",
+        null
+      ],
+      [
+        "Frau;",
+        "woman"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-007",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Das Ende ___ war gut. (der Film; maskulin)",
+    "hint": null,
+    "answer": "des Films",
+    "full_de": "Das Ende des Films war gut.",
+    "en": "The end of the film was good.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": "Both des Films and des Filmes are correct.",
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Ende",
+        "end"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "war",
+        "was"
+      ],
+      [
+        "gut.",
+        "good"
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "Film;",
+        "film"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": "des Filmes"
+  },
+  {
+    "id": "ex-mixed-genitiv-008",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Die Tasche ___ liegt hier. (meine Mutter; feminin)",
+    "hint": null,
+    "answer": "meiner Mutter",
+    "full_de": "Die Tasche meiner Mutter liegt hier.",
+    "en": "My mother’s bag is here.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Tasche",
+        "bag"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "liegt",
+        "lies"
+      ],
+      [
+        "hier.",
+        "here"
+      ],
+      [
+        "(meine",
+        "my"
+      ],
+      [
+        "Mutter;",
+        "mother"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-009",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Der Garten ___ ist schön. (unser Nachbar; maskulin)",
+    "hint": null,
+    "answer": "unseres Nachbarn",
+    "full_de": "Der Garten unseres Nachbarn ist schön.",
+    "en": "Our neighbor’s garden is nice.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Garten",
+        "garden"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "schön.",
+        "nice"
+      ],
+      [
+        "(unser",
+        "our"
+      ],
+      [
+        "Nachbar;",
+        "neighbor"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-010",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Die Fenster ___ sind offen. (das Zimmer; Neutrum)",
+    "hint": null,
+    "answer": "des Zimmers",
+    "full_de": "Die Fenster des Zimmers sind offen.",
+    "en": "The windows of the room are open.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Fenster",
+        "windows"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "sind",
+        "are"
+      ],
+      [
+        "offen.",
+        "open"
+      ],
+      [
+        "(das",
+        null
+      ],
+      [
+        "Zimmer;",
+        "room"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-011",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Der Geburtstag ___ ist morgen. (mein Vater; maskulin)",
+    "hint": null,
+    "answer": "meines Vaters",
+    "full_de": "Der Geburtstag meines Vaters ist morgen.",
+    "en": "My father’s birthday is tomorrow.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Geburtstag",
+        "birthday"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "morgen.",
+        "tomorrow"
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Vater;",
+        "father"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-012",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Die Schule ___ ist neu. (das Mädchen; Neutrum)",
+    "hint": null,
+    "answer": "des Mädchens",
+    "full_de": "Die Schule des Mädchens ist neu.",
+    "en": "The girl’s school is new.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Schule",
+        "school"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "neu.",
+        "new"
+      ],
+      [
+        "(das",
+        null
+      ],
+      [
+        "Mädchen;",
+        "girl"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-013",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Die Farbe ___ ist rot. (der Ball; maskulin)",
+    "hint": null,
+    "answer": "des Balls",
+    "full_de": "Die Farbe des Balls ist rot.",
+    "en": "The ball’s color is red.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": "Both des Balls and des Balles are correct.",
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Farbe",
+        "color"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "rot.",
+        "red"
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "Ball;",
+        "ball"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": "des Balles"
+  },
+  {
+    "id": "ex-mixed-genitiv-014",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Das Fahrrad ___ ist kaputt. (mein Freund; maskulin)",
+    "hint": null,
+    "answer": "meines Freundes",
+    "full_de": "Das Fahrrad meines Freundes ist kaputt.",
+    "en": "My friend’s bicycle is broken.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Fahrrad",
+        "bicycle"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "kaputt.",
+        "broken"
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Freund;",
+        "friend"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-015",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Die Katze ___ schläft. (die Familie; feminin)",
+    "hint": null,
+    "answer": "der Familie",
+    "full_de": "Die Katze der Familie schläft.",
+    "en": "The family’s cat is sleeping.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Katze",
+        "cat"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "schläft.",
+        "sleeps"
+      ],
+      [
+        "(die",
+        null
+      ],
+      [
+        "Familie;",
+        "family"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-016",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Der Titel ___ ist kurz. (das Buch; Neutrum)",
+    "hint": null,
+    "answer": "des Buches",
+    "full_de": "Der Titel des Buches ist kurz.",
+    "en": "The title of the book is short.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": "Both des Buches and des Buchs are correct.",
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Titel",
+        "title"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "kurz.",
+        "short"
+      ],
+      [
+        "(das",
+        null
+      ],
+      [
+        "Buch;",
+        "book"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": "des Buchs"
+  },
+  {
+    "id": "ex-mixed-genitiv-017",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Die Arbeit ___ ist schwer. (der Lehrer; maskulin)",
+    "hint": null,
+    "answer": "des Lehrers",
+    "full_de": "Die Arbeit des Lehrers ist schwer.",
+    "en": "The teacher’s work is hard.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Arbeit",
+        "work"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "schwer.",
+        "hard"
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "Lehrer;",
+        "teacher"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-018",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Das Dach ___ ist alt. (das Haus; Neutrum)",
+    "hint": null,
+    "answer": "des Hauses",
+    "full_de": "Das Dach des Hauses ist alt.",
+    "en": "The roof of the house is old.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Dach",
+        "roof"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "alt.",
+        "old"
+      ],
+      [
+        "(das",
+        null
+      ],
+      [
+        "Haus;",
+        "house"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-019",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Der Schlüssel ___ fehlt. (meine Schwester; feminin)",
+    "hint": null,
+    "answer": "meiner Schwester",
+    "full_de": "Der Schlüssel meiner Schwester fehlt.",
+    "en": "My sister’s key is missing.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Schlüssel",
+        "key"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "fehlt.",
+        "is missing"
+      ],
+      [
+        "(meine",
+        "my"
+      ],
+      [
+        "Schwester;",
+        "sister"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-genitiv-020",
+    "lesson": null,
+    "set": "mixed-genitiv",
+    "prompt_de": "Die Namen ___ stehen hier. (die Kinder; Plural)",
+    "hint": null,
+    "answer": "der Kinder",
+    "full_de": "Die Namen der Kinder stehen hier.",
+    "en": "The children’s names are written here.",
+    "vocab_id": null,
+    "tags": [
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Namen",
+        "names"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "stehen",
+        "are written"
+      ],
+      [
+        "hier.",
+        "here"
+      ],
+      [
+        "(die",
+        null
+      ],
+      [
+        "Kinder;",
+        "children"
+      ],
+      [
+        "Plural)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-001",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Ich helfe ___ . (der Mann; maskulin)",
+    "hint": null,
+    "answer": "dem Mann",
+    "full_de": "Ich helfe dem Mann.",
+    "en": "I am helping the man.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "helfe",
+        "help"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "Mann;",
+        "man"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-002",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Sie gibt ___ ein Buch. (das Kind; Neutrum)",
+    "hint": null,
+    "answer": "dem Kind",
+    "full_de": "Sie gibt dem Kind ein Buch.",
+    "en": "She gives the child a book.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "gibt",
+        "gives"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ein",
+        "a"
+      ],
+      [
+        "Buch.",
+        "book"
+      ],
+      [
+        "(das",
+        null
+      ],
+      [
+        "Kind;",
+        "child"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-003",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Wir danken ___ . (die Lehrerin; feminin)",
+    "hint": null,
+    "answer": "der Lehrerin",
+    "full_de": "Wir danken der Lehrerin.",
+    "en": "We thank the teacher.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "danken",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(die",
+        null
+      ],
+      [
+        "Lehrerin;",
+        "teacher"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-004",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Er spricht mit ___ . (sein Freund; maskulin)",
+    "hint": null,
+    "answer": "seinem Freund",
+    "full_de": "Er spricht mit seinem Freund.",
+    "en": "He is talking with his friend.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "spricht",
+        "speaks"
+      ],
+      [
+        "mit",
+        "with"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(sein",
+        "his"
+      ],
+      [
+        "Freund;",
+        "friend"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-005",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Ich fahre mit ___ zur Schule. (der Bus; maskulin)",
+    "hint": null,
+    "answer": "dem Bus",
+    "full_de": "Ich fahre mit dem Bus zur Schule.",
+    "en": "I go to school by bus.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "fahre",
+        "go"
+      ],
+      [
+        "mit",
+        "with"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "zur",
+        "to the"
+      ],
+      [
+        "Schule.",
+        "school"
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "Bus;",
+        "bus"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-006",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Das Geschenk ist von ___ . (meine Mutter; feminin)",
+    "hint": null,
+    "answer": "meiner Mutter",
+    "full_de": "Das Geschenk ist von meiner Mutter.",
+    "en": "The gift is from my mother.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Geschenk",
+        "gift"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "von",
+        "from"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(meine",
+        "my"
+      ],
+      [
+        "Mutter;",
+        "mother"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-007",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Wir wohnen bei ___ . (unsere Oma; feminin)",
+    "hint": null,
+    "answer": "unserer Oma",
+    "full_de": "Wir wohnen bei unserer Oma.",
+    "en": "We live at our grandma’s house.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "wohnen",
+        "live"
+      ],
+      [
+        "bei",
+        "at"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(unsere",
+        "our"
+      ],
+      [
+        "Oma;",
+        "grandma"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-008",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Er hilft ___ beim Kochen. (seine Schwester; feminin)",
+    "hint": null,
+    "answer": "seiner Schwester",
+    "full_de": "Er hilft seiner Schwester beim Kochen.",
+    "en": "He helps his sister with cooking.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "beim",
+        "with the"
+      ],
+      [
+        "Kochen.",
+        "cooking"
+      ],
+      [
+        "(seine",
+        "his"
+      ],
+      [
+        "Schwester;",
+        "sister"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-009",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Ich schreibe ___ eine Nachricht. (mein Freund; maskulin)",
+    "hint": null,
+    "answer": "meinem Freund",
+    "full_de": "Ich schreibe meinem Freund eine Nachricht.",
+    "en": "I am writing my friend a message.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "schreibe",
+        "write"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "eine",
+        "a"
+      ],
+      [
+        "Nachricht.",
+        "message"
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Freund;",
+        "friend"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-010",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Das Kind spielt mit ___ . (der Hund; maskulin)",
+    "hint": null,
+    "answer": "dem Hund",
+    "full_de": "Das Kind spielt mit dem Hund.",
+    "en": "The child is playing with the dog.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Kind",
+        "child"
+      ],
+      [
+        "spielt",
+        "plays"
+      ],
+      [
+        "mit",
+        "with"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "Hund;",
+        "dog"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-011",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Kannst du ___ bitte antworten? (die Frau; feminin)",
+    "hint": null,
+    "answer": "der Frau",
+    "full_de": "Kannst du der Frau bitte antworten?",
+    "en": "Can you please answer the woman?",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Kannst",
+        "can"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "bitte",
+        "please"
+      ],
+      [
+        "antworten?",
+        "answer"
+      ],
+      [
+        "(die",
+        null
+      ],
+      [
+        "Frau;",
+        "woman"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-012",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Ich schenke ___ Blumen. (meine Mutter; feminin)",
+    "hint": null,
+    "answer": "meiner Mutter",
+    "full_de": "Ich schenke meiner Mutter Blumen.",
+    "en": "I give my mother flowers.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "schenke",
+        "give"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Blumen.",
+        "flowers"
+      ],
+      [
+        "(meine",
+        "my"
+      ],
+      [
+        "Mutter;",
+        "mother"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-013",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Sie fährt mit ___ in die Stadt. (ihr Bruder; maskulin)",
+    "hint": null,
+    "answer": "ihrem Bruder",
+    "full_de": "Sie fährt mit ihrem Bruder in die Stadt.",
+    "en": "She goes to town with her brother.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "fährt",
+        "goes"
+      ],
+      [
+        "mit",
+        "with"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "in",
+        "in"
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Stadt.",
+        "town"
+      ],
+      [
+        "(ihr",
+        "her"
+      ],
+      [
+        "Bruder;",
+        "brother"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-014",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Der Arzt hilft ___ . (der Patient; maskulin)",
+    "hint": null,
+    "answer": "dem Patienten",
+    "full_de": "Der Arzt hilft dem Patienten.",
+    "en": "The doctor helps the patient.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Arzt",
+        "doctor"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "Patient;",
+        "patient"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-015",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Ich erzähle ___ eine Geschichte. (die Kinder; Plural)",
+    "hint": null,
+    "answer": "den Kindern",
+    "full_de": "Ich erzähle den Kindern eine Geschichte.",
+    "en": "I tell the children a story.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "erzähle",
+        "tell"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "eine",
+        "a"
+      ],
+      [
+        "Geschichte.",
+        "story"
+      ],
+      [
+        "(die",
+        null
+      ],
+      [
+        "Kinder;",
+        "children"
+      ],
+      [
+        "Plural)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-016",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Wir danken ___ für die Hilfe. (unser Nachbar; maskulin)",
+    "hint": null,
+    "answer": "unserem Nachbarn",
+    "full_de": "Wir danken unserem Nachbarn für die Hilfe.",
+    "en": "We thank our neighbor for the help.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "danken",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "für",
+        "for"
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Hilfe.",
+        "help"
+      ],
+      [
+        "(unser",
+        "our"
+      ],
+      [
+        "Nachbar;",
+        "neighbor"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-017",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Er gibt ___ den Schlüssel. (seine Frau; feminin)",
+    "hint": null,
+    "answer": "seiner Frau",
+    "full_de": "Er gibt seiner Frau den Schlüssel.",
+    "en": "He gives his wife the key.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "gibt",
+        "gives"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "den",
+        "the"
+      ],
+      [
+        "Schlüssel.",
+        "key"
+      ],
+      [
+        "(seine",
+        "his"
+      ],
+      [
+        "Frau;",
+        "woman"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-018",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Ich sitze neben ___ . (mein Vater; maskulin)",
+    "hint": null,
+    "answer": "meinem Vater",
+    "full_de": "Ich sitze neben meinem Vater.",
+    "en": "I am sitting next to my father.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sitze",
+        "sit"
+      ],
+      [
+        "neben",
+        "next to"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Vater;",
+        "father"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-019",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Das Essen schmeckt ___ gut. (wir)",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Das Essen schmeckt uns gut.",
+    "en": "The food tastes good to us.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Essen",
+        "food"
+      ],
+      [
+        "schmeckt",
+        "tastes"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "gut.",
+        "good"
+      ],
+      [
+        "(wir)",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-dativ-020",
+    "lesson": null,
+    "set": "mixed-dativ",
+    "prompt_de": "Sie kommt aus ___ . (die Schule; feminin)",
+    "hint": null,
+    "answer": "der Schule",
+    "full_de": "Sie kommt aus der Schule.",
+    "en": "She is coming from the school.",
+    "vocab_id": null,
+    "tags": [
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "kommt",
+        "comes"
+      ],
+      [
+        "aus",
+        "from"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(die",
+        null
+      ],
+      [
+        "Schule;",
+        "school"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-001",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Ich sehe ___ . (der Hund; maskulin)",
+    "hint": null,
+    "answer": "den Hund",
+    "full_de": "Ich sehe den Hund.",
+    "en": "I see the dog.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "Hund;",
+        "dog"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-002",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Sie kauft ___ . (eine Tasche; feminin)",
+    "hint": null,
+    "answer": "eine Tasche",
+    "full_de": "Sie kauft eine Tasche.",
+    "en": "She buys a bag.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "kauft",
+        "buys"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(eine",
+        null
+      ],
+      [
+        "Tasche;",
+        "bag"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-003",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Wir lesen ___ . (das Buch; Neutrum)",
+    "hint": null,
+    "answer": "das Buch",
+    "full_de": "Wir lesen das Buch.",
+    "en": "We are reading the book.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "lesen",
+        "read"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(das",
+        null
+      ],
+      [
+        "Buch;",
+        "book"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-004",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Er besucht ___ . (seine Oma; feminin)",
+    "hint": null,
+    "answer": "seine Oma",
+    "full_de": "Er besucht seine Oma.",
+    "en": "He is visiting his grandma.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "besucht",
+        "visits"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(seine",
+        "his"
+      ],
+      [
+        "Oma;",
+        "grandma"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-005",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Ich suche ___ . (mein Schlüssel; maskulin)",
+    "hint": null,
+    "answer": "meinen Schlüssel",
+    "full_de": "Ich suche meinen Schlüssel.",
+    "en": "I am looking for my key.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "suche",
+        "look for"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Schlüssel;",
+        "key"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-006",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Sie trinkt ___ . (der Kaffee; maskulin)",
+    "hint": null,
+    "answer": "den Kaffee",
+    "full_de": "Sie trinkt den Kaffee.",
+    "en": "She drinks the coffee.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "trinkt",
+        "drinks"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "Kaffee;",
+        "coffee"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-007",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Wir hören ___ . (die Musik; feminin)",
+    "hint": null,
+    "answer": "die Musik",
+    "full_de": "Wir hören die Musik.",
+    "en": "We are listening to the music.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "hören",
+        "listen to"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(die",
+        null
+      ],
+      [
+        "Musik;",
+        "music"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-008",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Er braucht ___ . (ein Stift; maskulin)",
+    "hint": null,
+    "answer": "einen Stift",
+    "full_de": "Er braucht einen Stift.",
+    "en": "He needs a pen.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "braucht",
+        "needs"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(ein",
+        null
+      ],
+      [
+        "Stift;",
+        "pen"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-009",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Ich kenne ___ . (der neue Lehrer; maskulin)",
+    "hint": null,
+    "answer": "den neuen Lehrer",
+    "full_de": "Ich kenne den neuen Lehrer.",
+    "en": "I know the new teacher.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "kenne",
+        "know"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "neue",
+        "new"
+      ],
+      [
+        "Lehrer;",
+        "teacher"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-010",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Sie öffnet ___ . (das Fenster; Neutrum)",
+    "hint": null,
+    "answer": "das Fenster",
+    "full_de": "Sie öffnet das Fenster.",
+    "en": "She opens the window.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "öffnet",
+        "opens"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(das",
+        null
+      ],
+      [
+        "Fenster;",
+        "windows"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-011",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Wir besuchen ___ . (unsere Freunde; Plural)",
+    "hint": null,
+    "answer": "unsere Freunde",
+    "full_de": "Wir besuchen unsere Freunde.",
+    "en": "We are visiting our friends.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "besuchen",
+        "visit"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(unsere",
+        "our"
+      ],
+      [
+        "Freunde;",
+        "friends"
+      ],
+      [
+        "Plural)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-012",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Er nimmt ___ . (der Bus; maskulin)",
+    "hint": null,
+    "answer": "den Bus",
+    "full_de": "Er nimmt den Bus.",
+    "en": "He takes the bus.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "nimmt",
+        "takes"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "Bus;",
+        "bus"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-013",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Ich esse ___ . (ein Apfel; maskulin)",
+    "hint": null,
+    "answer": "einen Apfel",
+    "full_de": "Ich esse einen Apfel.",
+    "en": "I eat an apple.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "esse",
+        "eat"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(ein",
+        null
+      ],
+      [
+        "Apfel;",
+        "apple"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-014",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Sie trägt ___ . (ihr Kleid; Neutrum)",
+    "hint": null,
+    "answer": "ihr Kleid",
+    "full_de": "Sie trägt ihr Kleid.",
+    "en": "She is wearing her dress.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "trägt",
+        "wears"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(ihr",
+        "her"
+      ],
+      [
+        "Kleid;",
+        "dress"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-015",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Er ruft ___ an. (seine Schwester; feminin)",
+    "hint": null,
+    "answer": "seine Schwester",
+    "full_de": "Er ruft seine Schwester an.",
+    "en": "He calls his sister.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "ruft",
+        "calls"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "an.",
+        "up"
+      ],
+      [
+        "(seine",
+        "his"
+      ],
+      [
+        "Schwester;",
+        "sister"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-016",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Ich mache ___ . (die Hausaufgaben; Plural)",
+    "hint": null,
+    "answer": "die Hausaufgaben",
+    "full_de": "Ich mache die Hausaufgaben.",
+    "en": "I do the homework.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": "The sheet translates this as \"my homework\", but the hint is die Hausaufgaben, so the answer is \"die Hausaufgaben\" (the homework).",
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "mache",
+        "do"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(die",
+        null
+      ],
+      [
+        "Hausaufgaben;",
+        "homework"
+      ],
+      [
+        "Plural)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-017",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Wir brauchen ___ . (ein Tisch; maskulin)",
+    "hint": null,
+    "answer": "einen Tisch",
+    "full_de": "Wir brauchen einen Tisch.",
+    "en": "We need a table.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "brauchen",
+        "need"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(ein",
+        null
+      ],
+      [
+        "Tisch;",
+        "table"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-018",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Sie findet ___ . (ihr Handy; Neutrum)",
+    "hint": null,
+    "answer": "ihr Handy",
+    "full_de": "Sie findet ihr Handy.",
+    "en": "She finds her phone.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "findet",
+        "finds"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(ihr",
+        "her"
+      ],
+      [
+        "Handy;",
+        "phone"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-019",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Ich frage ___ . (der Arzt; maskulin)",
+    "hint": null,
+    "answer": "den Arzt",
+    "full_de": "Ich frage den Arzt.",
+    "en": "I ask the doctor.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "frage",
+        "ask"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(der",
+        null
+      ],
+      [
+        "Arzt;",
+        "doctor"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-akkusativ-020",
+    "lesson": null,
+    "set": "mixed-akkusativ",
+    "prompt_de": "Er besucht ___ . (seine Eltern; Plural)",
+    "hint": null,
+    "answer": "seine Eltern",
+    "full_de": "Er besucht seine Eltern.",
+    "en": "He is visiting his parents.",
+    "vocab_id": null,
+    "tags": [
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "besucht",
+        "visits"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(seine",
+        "his"
+      ],
+      [
+        "Eltern;",
+        "parents"
+      ],
+      [
+        "Plural)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-001",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Das Buch liegt auf ___ . (auf; Wo?; der Tisch; maskulin)",
+    "hint": null,
+    "answer": "dem Tisch",
+    "full_de": "Das Buch liegt auf dem Tisch.",
+    "en": "The book is on the table.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Buch",
+        "book"
+      ],
+      [
+        "liegt",
+        "lies"
+      ],
+      [
+        "auf",
+        "on"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(auf;",
+        "on"
+      ],
+      [
+        "Wo?;",
+        "where?"
+      ],
+      [
+        "der",
+        null
+      ],
+      [
+        "Tisch;",
+        "table"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-002",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Ich lege das Buch auf ___ . (auf; Wohin?; der Tisch; maskulin)",
+    "hint": null,
+    "answer": "den Tisch",
+    "full_de": "Ich lege das Buch auf den Tisch.",
+    "en": "I put the book on the table.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "lege",
+        "put"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Buch",
+        "book"
+      ],
+      [
+        "auf",
+        "on"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(auf;",
+        "on"
+      ],
+      [
+        "Wohin?;",
+        "where to?"
+      ],
+      [
+        "der",
+        null
+      ],
+      [
+        "Tisch;",
+        "table"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-003",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Die Katze schläft unter ___ . (unter; Wo?; das Bett; Neutrum)",
+    "hint": null,
+    "answer": "dem Bett",
+    "full_de": "Die Katze schläft unter dem Bett.",
+    "en": "The cat is sleeping under the bed.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Katze",
+        "cat"
+      ],
+      [
+        "schläft",
+        "sleeps"
+      ],
+      [
+        "unter",
+        "under"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(unter;",
+        "under"
+      ],
+      [
+        "Wo?;",
+        "where?"
+      ],
+      [
+        "das",
+        null
+      ],
+      [
+        "Bett;",
+        "bed"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-004",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Der Hund läuft unter ___ . (unter; Wohin?; der Tisch; maskulin)",
+    "hint": null,
+    "answer": "den Tisch",
+    "full_de": "Der Hund läuft unter den Tisch.",
+    "en": "The dog runs under the table.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Hund",
+        "dog"
+      ],
+      [
+        "läuft",
+        "runs"
+      ],
+      [
+        "unter",
+        "under"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(unter;",
+        "under"
+      ],
+      [
+        "Wohin?;",
+        "where to?"
+      ],
+      [
+        "der",
+        null
+      ],
+      [
+        "Tisch;",
+        "table"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-005",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Wir sind in ___ . (in; Wo?; die Küche; feminin)",
+    "hint": null,
+    "answer": "der Küche",
+    "full_de": "Wir sind in der Küche.",
+    "en": "We are in the kitchen.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "sind",
+        "are"
+      ],
+      [
+        "in",
+        "in"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(in;",
+        "in"
+      ],
+      [
+        "Wo?;",
+        "where?"
+      ],
+      [
+        "die",
+        null
+      ],
+      [
+        "Küche;",
+        "kitchen"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-006",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Wir gehen in ___ . (in; Wohin?; die Küche; feminin)",
+    "hint": null,
+    "answer": "die Küche",
+    "full_de": "Wir gehen in die Küche.",
+    "en": "We are going into the kitchen.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "gehen",
+        "go"
+      ],
+      [
+        "in",
+        "into"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(in;",
+        "into"
+      ],
+      [
+        "Wohin?;",
+        "where to?"
+      ],
+      [
+        "die",
+        null
+      ],
+      [
+        "Küche;",
+        "kitchen"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-007",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Das Bild hängt an ___ . (an; Wo?; die Wand; feminin)",
+    "hint": null,
+    "answer": "der Wand",
+    "full_de": "Das Bild hängt an der Wand.",
+    "en": "The picture is hanging on the wall.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Bild",
+        "picture"
+      ],
+      [
+        "hängt",
+        "hangs"
+      ],
+      [
+        "an",
+        "up"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(an;",
+        "on"
+      ],
+      [
+        "Wo?;",
+        "where?"
+      ],
+      [
+        "die",
+        null
+      ],
+      [
+        "Wand;",
+        "wall"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-008",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Ich hänge das Bild an ___ . (an; Wohin?; die Wand; feminin)",
+    "hint": null,
+    "answer": "die Wand",
+    "full_de": "Ich hänge das Bild an die Wand.",
+    "en": "I hang the picture on the wall.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "hänge",
+        "hang"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Bild",
+        "picture"
+      ],
+      [
+        "an",
+        "up"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(an;",
+        "on"
+      ],
+      [
+        "Wohin?;",
+        "where to?"
+      ],
+      [
+        "die",
+        null
+      ],
+      [
+        "Wand;",
+        "wall"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-009",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Das Auto steht vor ___ . (vor; Wo?; das Haus; Neutrum)",
+    "hint": null,
+    "answer": "dem Haus",
+    "full_de": "Das Auto steht vor dem Haus.",
+    "en": "The car is in front of the house.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Auto",
+        "car"
+      ],
+      [
+        "steht",
+        "stands"
+      ],
+      [
+        "vor",
+        "in front of"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(vor;",
+        "in front of"
+      ],
+      [
+        "Wo?;",
+        "where?"
+      ],
+      [
+        "das",
+        null
+      ],
+      [
+        "Haus;",
+        "house"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-010",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Ich stelle das Auto vor ___ . (vor; Wohin?; das Haus; Neutrum)",
+    "hint": null,
+    "answer": "das Haus",
+    "full_de": "Ich stelle das Auto vor das Haus.",
+    "en": "I park the car in front of the house.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "stelle",
+        "put"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Auto",
+        "car"
+      ],
+      [
+        "vor",
+        "in front of"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(vor;",
+        "in front of"
+      ],
+      [
+        "Wohin?;",
+        "where to?"
+      ],
+      [
+        "das",
+        null
+      ],
+      [
+        "Haus;",
+        "house"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-011",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Der Stuhl steht neben ___ . (neben; Wo?; der Tisch; maskulin)",
+    "hint": null,
+    "answer": "dem Tisch",
+    "full_de": "Der Stuhl steht neben dem Tisch.",
+    "en": "The chair is next to the table.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Stuhl",
+        "chair"
+      ],
+      [
+        "steht",
+        "stands"
+      ],
+      [
+        "neben",
+        "next to"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(neben;",
+        "next to"
+      ],
+      [
+        "Wo?;",
+        "where?"
+      ],
+      [
+        "der",
+        null
+      ],
+      [
+        "Tisch;",
+        "table"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-012",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Ich stelle den Stuhl neben ___ . (neben; Wohin?; der Tisch; maskulin)",
+    "hint": null,
+    "answer": "den Tisch",
+    "full_de": "Ich stelle den Stuhl neben den Tisch.",
+    "en": "I put the chair next to the table.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "stelle",
+        "put"
+      ],
+      [
+        "den",
+        "the"
+      ],
+      [
+        "Stuhl",
+        "chair"
+      ],
+      [
+        "neben",
+        "next to"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(neben;",
+        "next to"
+      ],
+      [
+        "Wohin?;",
+        "where to?"
+      ],
+      [
+        "der",
+        null
+      ],
+      [
+        "Tisch;",
+        "table"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-013",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Die Lampe hängt über ___ . (über; Wo?; der Tisch; maskulin)",
+    "hint": null,
+    "answer": "dem Tisch",
+    "full_de": "Die Lampe hängt über dem Tisch.",
+    "en": "The lamp is hanging above the table.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Lampe",
+        "lamp"
+      ],
+      [
+        "hängt",
+        "hangs"
+      ],
+      [
+        "über",
+        "above"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(über;",
+        "above"
+      ],
+      [
+        "Wo?;",
+        "where?"
+      ],
+      [
+        "der",
+        null
+      ],
+      [
+        "Tisch;",
+        "table"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-014",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Ich hänge die Lampe über ___ . (über; Wohin?; der Tisch; maskulin)",
+    "hint": null,
+    "answer": "den Tisch",
+    "full_de": "Ich hänge die Lampe über den Tisch.",
+    "en": "I hang the lamp above the table.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "hänge",
+        "hang"
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Lampe",
+        "lamp"
+      ],
+      [
+        "über",
+        "above"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(über;",
+        "above"
+      ],
+      [
+        "Wohin?;",
+        "where to?"
+      ],
+      [
+        "der",
+        null
+      ],
+      [
+        "Tisch;",
+        "table"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-015",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Das Kind steht zwischen ___ . (zwischen; Wo?; die Eltern; Plural)",
+    "hint": null,
+    "answer": "den Eltern",
+    "full_de": "Das Kind steht zwischen den Eltern.",
+    "en": "The child is standing between the parents.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Kind",
+        "child"
+      ],
+      [
+        "steht",
+        "stands"
+      ],
+      [
+        "zwischen",
+        "between"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(zwischen;",
+        "between"
+      ],
+      [
+        "Wo?;",
+        "where?"
+      ],
+      [
+        "die",
+        null
+      ],
+      [
+        "Eltern;",
+        "parents"
+      ],
+      [
+        "Plural)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-016",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Das Kind läuft zwischen ___ . (zwischen; Wohin?; die Eltern; Plural)",
+    "hint": null,
+    "answer": "die Eltern",
+    "full_de": "Das Kind läuft zwischen die Eltern.",
+    "en": "The child runs between the parents.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition",
+      "wechsel"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Kind",
+        "child"
+      ],
+      [
+        "läuft",
+        "runs"
+      ],
+      [
+        "zwischen",
+        "between"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(zwischen;",
+        "between"
+      ],
+      [
+        "Wohin?;",
+        "where to?"
+      ],
+      [
+        "die",
+        null
+      ],
+      [
+        "Eltern;",
+        "parents"
+      ],
+      [
+        "Plural)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-017",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Ich gehe mit ___ in die Stadt. (mit; mein Freund; maskulin)",
+    "hint": null,
+    "answer": "meinem Freund",
+    "full_de": "Ich gehe mit meinem Freund in die Stadt.",
+    "en": "I am going to town with my friend.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "gehe",
+        "go"
+      ],
+      [
+        "mit",
+        "with"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "in",
+        "into"
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Stadt.",
+        "town"
+      ],
+      [
+        "(mit;",
+        "with"
+      ],
+      [
+        "mein",
+        "my"
+      ],
+      [
+        "Freund;",
+        "friend"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-018",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Das Geschenk ist für ___ . (für; meine Mutter; feminin)",
+    "hint": null,
+    "answer": "meine Mutter",
+    "full_de": "Das Geschenk ist für meine Mutter.",
+    "en": "The gift is for my mother.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Geschenk",
+        "gift"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "für",
+        "for"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(für;",
+        "for"
+      ],
+      [
+        "meine",
+        "my"
+      ],
+      [
+        "Mutter;",
+        "mother"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-019",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Er kommt aus ___ . (aus; das Büro; Neutrum)",
+    "hint": null,
+    "answer": "dem Büro",
+    "full_de": "Er kommt aus dem Büro.",
+    "en": "He is coming from the office.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "kommt",
+        "comes"
+      ],
+      [
+        "aus",
+        "from"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(aus;",
+        "from"
+      ],
+      [
+        "das",
+        null
+      ],
+      [
+        "Büro;",
+        "office"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-praep-020",
+    "lesson": null,
+    "set": "mixed-praep",
+    "prompt_de": "Wir warten auf ___ . (auf; der Bus; maskulin)",
+    "hint": null,
+    "answer": "den Bus",
+    "full_de": "Wir warten auf den Bus.",
+    "en": "We are waiting for the bus.",
+    "vocab_id": null,
+    "tags": [
+      "praeposition"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "warten",
+        "wait"
+      ],
+      [
+        "auf",
+        "on"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        ".",
+        null
+      ],
+      [
+        "(auf;",
+        "on"
+      ],
+      [
+        "der",
+        null
+      ],
+      [
+        "Bus;",
+        "bus"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-001",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Ich dusche ___.",
+    "hint": "sich duschen",
+    "answer": "mich",
+    "full_de": "Ich dusche mich.",
+    "en": "I take a shower.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "dusche",
+        "shower"
+      ],
+      [
+        "___.",
+        null
+      ]
+    ],
+    "hint_en": "to shower",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-002",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Du wäschst ___.",
+    "hint": "sich waschen",
+    "answer": "dich",
+    "full_de": "Du wäschst dich.",
+    "en": "You wash yourself.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Du",
+        "you"
+      ],
+      [
+        "wäschst",
+        "wash"
+      ],
+      [
+        "___.",
+        null
+      ]
+    ],
+    "hint_en": "to wash (oneself)",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-003",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Ich stehe auf und ziehe ___ an.",
+    "hint": "sich anziehen",
+    "answer": "mich",
+    "full_de": "Ich stehe auf und ziehe mich an.",
+    "en": "I get up and get dressed.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "stehe",
+        "get"
+      ],
+      [
+        "auf",
+        "up"
+      ],
+      [
+        "und",
+        "and"
+      ],
+      [
+        "ziehe",
+        "put"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "an.",
+        "on"
+      ]
+    ],
+    "hint_en": "to get dressed",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-004",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Er zieht ___ aus und geht ins Bett.",
+    "hint": "sich ausziehen",
+    "answer": "sich",
+    "full_de": "Er zieht sich aus und geht ins Bett.",
+    "en": "He gets undressed and goes to bed.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "zieht",
+        "takes"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "aus",
+        "off"
+      ],
+      [
+        "und",
+        "and"
+      ],
+      [
+        "geht",
+        "goes"
+      ],
+      [
+        "ins",
+        "into the"
+      ],
+      [
+        "Bett.",
+        "bed"
+      ]
+    ],
+    "hint_en": "to get undressed",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-005",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Sonntags bade ich ___.",
+    "hint": "sich baden",
+    "answer": "mich",
+    "full_de": "Sonntags bade ich mich.",
+    "en": "On Sundays I have a bath.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sonntags",
+        "on Sundays"
+      ],
+      [
+        "bade",
+        "bathe"
+      ],
+      [
+        "ich",
+        "I"
+      ],
+      [
+        "___.",
+        null
+      ]
+    ],
+    "hint_en": "to have a bath",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-006",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Das Brandenburger Tor befindet ___ in Berlin.",
+    "hint": "sich befinden",
+    "answer": "sich",
+    "full_de": "Das Brandenburger Tor befindet sich in Berlin.",
+    "en": "The Brandenburg Gate is in Berlin.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Brandenburger",
+        "Brandenburg"
+      ],
+      [
+        "Tor",
+        "Gate"
+      ],
+      [
+        "befindet",
+        "is located"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "in",
+        "in"
+      ],
+      [
+        "Berlin.",
+        "Berlin"
+      ]
+    ],
+    "hint_en": "to be located",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-007",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Die Schüler beschweren ___ über den schweren Test.",
+    "hint": "sich beschweren (über)",
+    "answer": "sich",
+    "full_de": "Die Schüler beschweren sich über den schweren Test.",
+    "en": "The students are complaining about the difficult test.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Schüler",
+        "students"
+      ],
+      [
+        "beschweren",
+        "complain"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "über",
+        "about"
+      ],
+      [
+        "den",
+        "the"
+      ],
+      [
+        "schweren",
+        "difficult"
+      ],
+      [
+        "Test.",
+        "test"
+      ]
+    ],
+    "hint_en": "to complain (about)",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-008",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Wir freuen ___ auf die Ferien.",
+    "hint": "sich freuen",
+    "answer": "uns",
+    "full_de": "Wir freuen uns auf die Ferien.",
+    "en": "We are looking forward to the holidays.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "freuen",
+        "look forward"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "auf",
+        "to"
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Ferien.",
+        "holidays"
+      ]
+    ],
+    "hint_en": "to be happy / to look forward to",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-009",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Wie geht es dir? Fühlst du ___ heute besser?",
+    "hint": "sich fühlen",
+    "answer": "dich",
+    "full_de": "Wie geht es dir? Fühlst du dich heute besser?",
+    "en": "How are you? Are you feeling better today?",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wie",
+        "how"
+      ],
+      [
+        "geht",
+        "goes"
+      ],
+      [
+        "es",
+        "it"
+      ],
+      [
+        "dir?",
+        "to you"
+      ],
+      [
+        "Fühlst",
+        "feel"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "heute",
+        "today"
+      ],
+      [
+        "besser?",
+        "better"
+      ]
+    ],
+    "hint_en": "to feel",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-010",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Sie informieren ___ über die Sehenswürdigkeiten der Stadt.",
+    "hint": "sich informieren",
+    "answer": "sich",
+    "full_de": "Sie informieren sich über die Sehenswürdigkeiten der Stadt.",
+    "en": "They are finding out about the city's sights.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "they"
+      ],
+      [
+        "informieren",
+        "inform"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "über",
+        "about"
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Sehenswürdigkeiten",
+        "sights"
+      ],
+      [
+        "der",
+        "of the"
+      ],
+      [
+        "Stadt.",
+        "city"
+      ]
+    ],
+    "hint_en": "to find out",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-011",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Interessiert ihr ___ für Geschichte?",
+    "hint": "sich interessieren",
+    "answer": "euch",
+    "full_de": "Interessiert ihr euch für Geschichte?",
+    "en": "Are you interested in history?",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Interessiert",
+        "interest"
+      ],
+      [
+        "ihr",
+        "you all"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "für",
+        "for"
+      ],
+      [
+        "Geschichte?",
+        "history"
+      ]
+    ],
+    "hint_en": "to be interested",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-012",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Kämm ___ bitte! Deine Haare sind ganz zerzaust.",
+    "hint": "sich kämmen",
+    "answer": "dich",
+    "full_de": "Kämm dich bitte! Deine Haare sind ganz zerzaust.",
+    "en": "Please comb your hair! It's all messy.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Kämm",
+        "comb"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "bitte!",
+        "please"
+      ],
+      [
+        "Deine",
+        "your"
+      ],
+      [
+        "Haare",
+        "hair"
+      ],
+      [
+        "sind",
+        "is"
+      ],
+      [
+        "ganz",
+        "totally"
+      ],
+      [
+        "zerzaust.",
+        "messy"
+      ]
+    ],
+    "hint_en": "to comb one's hair",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-013",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Wollen wir ___ an den Strand legen?",
+    "hint": "sich legen",
+    "answer": "uns",
+    "full_de": "Wollen wir uns an den Strand legen?",
+    "en": "Shall we lie down on the beach?",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wollen",
+        "want"
+      ],
+      [
+        "wir",
+        "we"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "an",
+        "on"
+      ],
+      [
+        "den",
+        "the"
+      ],
+      [
+        "Strand",
+        "beach"
+      ],
+      [
+        "legen?",
+        "lay"
+      ]
+    ],
+    "hint_en": "to lie down",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-014",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Mein Vater rasiert ___ nicht mehr.",
+    "hint": "sich rasieren",
+    "answer": "sich",
+    "full_de": "Mein Vater rasiert sich nicht mehr.",
+    "en": "My father doesn't shave any more.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Mein",
+        "my"
+      ],
+      [
+        "Vater",
+        "father"
+      ],
+      [
+        "rasiert",
+        "shaves"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "nicht",
+        "not"
+      ],
+      [
+        "mehr.",
+        "any more"
+      ]
+    ],
+    "hint_en": "to shave",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-015",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Setzen Sie ___, bitte!",
+    "hint": "sich setzen",
+    "answer": "sich",
+    "full_de": "Setzen Sie sich, bitte!",
+    "en": "Please sit down!",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Setzen",
+        "sit"
+      ],
+      [
+        "Sie",
+        "you (formal)"
+      ],
+      [
+        "___,",
+        null
+      ],
+      [
+        "bitte!",
+        "please"
+      ]
+    ],
+    "hint_en": "to sit down",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-016",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Er stellt ___ auf den Stuhl, dann kann ihn jeder sehen.",
+    "hint": "sich stellen",
+    "answer": "sich",
+    "full_de": "Er stellt sich auf den Stuhl, dann kann ihn jeder sehen.",
+    "en": "He stands on the chair so that everyone can see him.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "stellt",
+        "puts"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "auf",
+        "on"
+      ],
+      [
+        "den",
+        "the"
+      ],
+      [
+        "Stuhl,",
+        "chair"
+      ],
+      [
+        "dann",
+        "then"
+      ],
+      [
+        "kann",
+        "can"
+      ],
+      [
+        "ihn",
+        "him"
+      ],
+      [
+        "jeder",
+        "everyone"
+      ],
+      [
+        "sehen.",
+        "see"
+      ]
+    ],
+    "hint_en": "to stand (somewhere)",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-017",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Triffst du ___ morgen mit Beate?",
+    "hint": "sich treffen",
+    "answer": "dich",
+    "full_de": "Triffst du dich morgen mit Beate?",
+    "en": "Are you meeting Beate tomorrow?",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Triffst",
+        "meet"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "morgen",
+        "tomorrow"
+      ],
+      [
+        "mit",
+        "with"
+      ],
+      [
+        "Beate?",
+        "Beate"
+      ]
+    ],
+    "hint_en": "to meet",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-018",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Ich bin vom Rad gestürzt und habe ___ verletzt.",
+    "hint": "sich verletzen",
+    "answer": "mich",
+    "full_de": "Ich bin vom Rad gestürzt und habe mich verletzt.",
+    "en": "I fell off my bike and hurt myself.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "bin",
+        "am"
+      ],
+      [
+        "vom",
+        "from the"
+      ],
+      [
+        "Rad",
+        "bike"
+      ],
+      [
+        "gestürzt",
+        "fallen"
+      ],
+      [
+        "und",
+        "and"
+      ],
+      [
+        "habe",
+        "have"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "verletzt.",
+        "hurt"
+      ]
+    ],
+    "hint_en": "to hurt oneself",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-019",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Wir müssen ___ leider schon verabschieden.",
+    "hint": "sich verabschieden",
+    "answer": "uns",
+    "full_de": "Wir müssen uns leider schon verabschieden.",
+    "en": "Unfortunately we have to say goodbye already.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "müssen",
+        "must"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "leider",
+        "unfortunately"
+      ],
+      [
+        "schon",
+        "already"
+      ],
+      [
+        "verabschieden.",
+        "say goodbye"
+      ]
+    ],
+    "hint_en": "to say goodbye",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-020",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Ich möchte ___ kurz vorstellen. Ich heiße Erwin.",
+    "hint": "sich vorstellen",
+    "answer": "mich",
+    "full_de": "Ich möchte mich kurz vorstellen. Ich heiße Erwin.",
+    "en": "I'd like to briefly introduce myself. My name is Erwin.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "möchte",
+        "would like"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "kurz",
+        "briefly"
+      ],
+      [
+        "vorstellen.",
+        "introduce"
+      ],
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "heiße",
+        "am called"
+      ],
+      [
+        "Erwin.",
+        "Erwin"
+      ]
+    ],
+    "hint_en": "to introduce oneself",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-021",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Du bürstest ___ die Haare.",
+    "hint": "sich die Haare bürsten",
+    "answer": "dir",
+    "full_de": "Du bürstest dir die Haare.",
+    "en": "You brush your hair.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Du",
+        "you"
+      ],
+      [
+        "bürstest",
+        "brush"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Haare.",
+        "hair"
+      ]
+    ],
+    "hint_en": "to brush one's hair",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-022",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Ich habe ___ die Haare gekämmt.",
+    "hint": "sich die Haare kämmen",
+    "answer": "mir",
+    "full_de": "Ich habe mir die Haare gekämmt.",
+    "en": "I combed my hair.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "habe",
+        "have"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Haare",
+        "hair"
+      ],
+      [
+        "gekämmt.",
+        "combed"
+      ]
+    ],
+    "hint_en": "to comb one's hair",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-023",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Ich ziehe ___ eine Jacke an.",
+    "hint": "sich etwas anziehen",
+    "answer": "mir",
+    "full_de": "Ich ziehe mir eine Jacke an.",
+    "en": "I put on a jacket.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "ziehe",
+        "put"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "eine",
+        "a"
+      ],
+      [
+        "Jacke",
+        "jacket"
+      ],
+      [
+        "an.",
+        "on"
+      ]
+    ],
+    "hint_en": "to put something on",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-024",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Du ziehst ___ die Schuhe aus.",
+    "hint": "sich etwas ausziehen",
+    "answer": "dir",
+    "full_de": "Du ziehst dir die Schuhe aus.",
+    "en": "You take your shoes off.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Du",
+        "you"
+      ],
+      [
+        "ziehst",
+        "take"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Schuhe",
+        "shoes"
+      ],
+      [
+        "aus.",
+        "off"
+      ]
+    ],
+    "hint_en": "to take something off",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-025",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Ich putze ___ jeden Morgen und Abend die Zähne.",
+    "hint": "sich etwas putzen",
+    "answer": "mir",
+    "full_de": "Ich putze mir jeden Morgen und Abend die Zähne.",
+    "en": "I brush my teeth every morning and evening.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "putze",
+        "clean"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "jeden",
+        "every"
+      ],
+      [
+        "Morgen",
+        "morning"
+      ],
+      [
+        "und",
+        "and"
+      ],
+      [
+        "Abend",
+        "evening"
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Zähne.",
+        "teeth"
+      ]
+    ],
+    "hint_en": "to clean / to brush something",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-026",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Hast du ___ wehgetan?",
+    "hint": "sich wehtun",
+    "answer": "dir",
+    "full_de": "Hast du dir wehgetan?",
+    "en": "Did you hurt yourself?",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Hast",
+        "have"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "wehgetan?",
+        "hurt"
+      ]
+    ],
+    "hint_en": "to hurt oneself",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-027",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Ich setze ___.",
+    "hint": "sich setzen",
+    "answer": "mich",
+    "full_de": "Ich setze mich.",
+    "en": "I sit down.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "setze",
+        "sit"
+      ],
+      [
+        "___.",
+        null
+      ]
+    ],
+    "hint_en": "to sit down",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-028",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Er hat ___ geduscht.",
+    "hint": "sich duschen",
+    "answer": "sich",
+    "full_de": "Er hat sich geduscht.",
+    "en": "He took a shower.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "hat",
+        "has"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "geduscht.",
+        "showered"
+      ]
+    ],
+    "hint_en": "to shower",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-029",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Ich ruhe ___ aus.",
+    "hint": "sich ausruhen",
+    "answer": "mich",
+    "full_de": "Ich ruhe mich aus.",
+    "en": "I rest.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "ruhe",
+        "rest"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "aus.",
+        "up"
+      ]
+    ],
+    "hint_en": "to rest",
+    "also": null
+  },
+  {
+    "id": "ex-r-reflexiv-030",
+    "lesson": null,
+    "set": "r-reflexiv",
+    "prompt_de": "Du föhnst ___ die Haare.",
+    "hint": "sich die Haare föhnen",
+    "answer": "dir",
+    "full_de": "Du föhnst dir die Haare.",
+    "en": "You blow-dry your hair.",
+    "vocab_id": null,
+    "tags": [
+      "reflexiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Du",
+        "you"
+      ],
+      [
+        "föhnst",
+        "blow-dry"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Haare.",
+        "hair"
+      ]
+    ],
+    "hint_en": "to blow-dry one's hair",
+    "also": null
+  }
+]
