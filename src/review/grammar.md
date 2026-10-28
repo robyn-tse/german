@@ -300,9 +300,9 @@ Always reflexive: sich beeilen (to hurry), sich erholen (to recover / rest), sic
 
 | sein | haben |
 |---|---|
-| **movement** from A to B: gehen (to go), fahren (to drive / travel), fliegen (to fly), laufen (to run / walk), springen (to jump), kommen (to come), aufstehen (to get up) | **everything else**, especially verbs with an object |
-| **change of state**: werden (to become), wachsen (to grow), sterben (to die), einschlafen (to fall asleep), verschwinden (to disappear) | **reflexive verbs** |
-| always: **sein** (to be), **bleiben** (to stay), **werden** (to become), **passieren** (to happen) | no movement: sitzen (to sit), stehen (to stand), liegen (to lie) |
+| **movement** and **change of state**: gehen (to go), fahren (to drive), fliegen (to fly), kommen (to come), aufstehen (to get up), werden (to become), einschlafen (to fall asleep) | **no movement**: essen (to eat), kaufen (to buy), lesen (to read), sitzen (to sit), sich erinnern (to remember) |
+
+Exceptions: **sein** (to be) and **bleiben** (to stay) take sein even though nothing moves.
 
 **Partizip II: four rules**
 
