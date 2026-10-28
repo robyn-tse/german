@@ -141,8 +141,8 @@ Take the stem (infinitive minus **-en**) and add the ending.
 
 | | Case | Example | English |
 |---|---|---|---|
-| **Wo?** where? (no movement) | **Dativ** | Ich bin in **dem** Garten. | I am in the garden. |
-| **Wohin?** where to? (A → B) | **Akkusativ** | Ich gehe in **den** Garten. | I go into the garden. |
+| **Wo?** (no movement) | **Dativ** | Ich bin in **dem** Garten. | I am in the garden. |
+| **Wohin?** (movement) | **Akkusativ** | Ich gehe in **den** Garten. | I go into the garden. |
 
 ## 6. Personal pronouns
 
