@@ -41,8 +41,6 @@ Take the stem (infinitive minus **-en**) and add the ending.
 
 <a href="../sources/review/artikel-endungen.webp"><img src="../sources/review/artikel-endungen.webp" alt="Noun endings by gender. Masculine: -ant, -ent, -er, -ich, -ismus, -ist, -ast, -ling. Feminine: -heit, -keit, -schaft, -ung, -ie, -anz, -enz, -ik. Neuter: -ment, -um, -tum, -chen, -ma, -em, -nis." width="474" height="670" loading="lazy" class="narrow" /></a>
 
-<p class="chart-note"><strong>How to read it:</strong> find the noun's ending in one of the three columns; the column gives the article. Die Zeit<strong>ung</strong> (the newspaper) → feminine column → <strong>die</strong>. Red notes are exceptions: <em>der</em> Moment (the moment), <em>die</em> Polizistin (the policewoman).</p>
-
 <div class="practice" data-section="artikel"></div>
 
 ## 3. The four cases
@@ -130,8 +128,6 @@ Take the stem (infinitive minus **-en**) and add the ending.
 
 <a href="../sources/lesson-05/Praepositionen_Dativ_Akkusativ.webp"><img src="../sources/lesson-05/Praepositionen_Dativ_Akkusativ.webp" alt="Präpositionen mit Dativ und Akkusativ: Dativ (ab, außer, zu, nach, bei, von, aus, mit, seit, gegenüber), Akkusativ (bis, durch, für, ohne, gegen, um), both (in, an, auf, neben, hinter, über, unter, vor, zwischen). Wo? → Dativ, Wohin? → Akkusativ." width="1324" height="934" loading="lazy" /></a>
 
-<p class="chart-note"><strong>How to read it:</strong> a preposition in the yellow circle only takes <strong>Dativ</strong>; one in the green circle only takes <strong>Akkusativ</strong>. The nine in the <strong>overlap</strong> can take either, and you choose by the verb: <strong>no movement</strong> (Wo? where?) → Dativ, <strong>movement</strong> from A to B (Wohin? where to?) → Akkusativ. <em>Das Buch liegt auf <strong>dem</strong> Tisch</em> (The book is lying on the table) / <em>Ich lege das Buch auf <strong>den</strong> Tisch</em> (I put the book on the table). The lists under the arrows show the same noun both ways (der Kasten = the box, die Lade = the drawer, das Regal = the shelf, die Mappen = the folders), and the short forms (in dem → im, in das → ins).</p>
-
 | Always Dativ | Always Akkusativ | Wechsel (Dativ or Akkusativ) |
 |---|---|---|
 | ab – from | bis – until | in – in, into |
@@ -211,8 +207,6 @@ Take the stem (infinitive minus **-en**) and add the ending.
 - **euer** loses its middle e when it takes an ending: **eure** Mutter (your mother), **eurem** Vater (your father, Dativ).
 
 <a href="../sources/review/possessivpronomen.webp"><img src="../sources/review/possessivpronomen.webp" alt="Die Possessivpronomen im Deutschen: table of mein, dein, sein, ihr, sein, unser, euer, ihr in Nominativ, Genitiv, Dativ and Akkusativ for masculine/neuter, feminine and plural." width="1400" height="799" loading="lazy" /></a>
-
-<p class="chart-note"><strong>How to read it:</strong> pick the owner's column (ich → mein…), then the row for the case and the gender of the thing owned. <em>Ich helfe ___ Schwester</em> (I help my sister): owner ich, helfen → Dativ, die Schwester → feminine → <strong>meiner</strong>. The pattern of endings is the same as ein/einen/einem.</p>
 
 <div class="practice" data-section="possessivpronomen"></div>
 
@@ -342,7 +336,5 @@ Watch out: denken (to think) → **gedacht**, kennen (to know) → **gekannt**, 
 </details>
 
 <a href="../sources/review/top5-perfekt.webp"><img src="../sources/review/top5-perfekt.webp" alt="Top 5 Verben im Perfekt: sein – Ich bin im Urlaub gewesen. werden – Sie ist Lehrerin geworden. machen – Er hat einen Ausflug gemacht. geben – Wir haben ihm einen Tipp gegeben. gehen – Die Kinder sind in die Schule gegangen." width="1000" height="700" loading="lazy" /></a>
-
-<p class="chart-note"><strong>How to read it:</strong> the highlighted words are the two halves of the Perfekt: haben/sein in second position, Partizip II at the end. <em>Ich bin im Urlaub gewesen</em> (I was on holiday) · <em>Sie ist Lehrerin geworden</em> (She became a teacher) · <em>Er hat einen Ausflug gemacht</em> (He went on a trip) · <em>Wir haben ihm einen Tipp gegeben</em> (We gave him a tip) · <em>Die Kinder sind in die Schule gegangen</em> (The children went to school). sein, werden, gehen take <strong>sein</strong>; machen, geben take <strong>haben</strong>.</p>
 
 <div class="practice" data-section="perfekt"></div>

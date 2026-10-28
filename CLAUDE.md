@@ -292,8 +292,8 @@ accusative verbs, prepositions and case, personal pronouns, possessive pronouns,
 prefixes, Perfekt. Personal pronouns, possessives and reflexives are allowed here as their own sections
 even though they are not among the ten curriculum topic files (Markus's Plan.pdf lists them as smaller
 topics). Still source-only. Charts Robyn sent (except the Mentorium question-word chart, cut at her request) are embedded as the original images from
-`public/sources/review/` (originals in `inbox/archive/review-2026-10-27/`), each followed by a
-`chart-note` paragraph saying how to read it. Exception: the two Personalpronomen charts were converted
+`public/sources/review/` (originals in `inbox/archive/review-2026-10-27/`), with no "how to read it"
+notes (Robyn cut them on 2026-10-28). Exception: the two Personalpronomen charts were converted
 to text tables at Robyn's request (originals still archived). Every German example on the page carries
 an English translation, and every verb list has glosses. Long word lists (dative verbs, reflexive verbs, strong verbs)
 sit inside collapsed `<details class="more">` blocks. Do not embed the four adjective-ending case tables
