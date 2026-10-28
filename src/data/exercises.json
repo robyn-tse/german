@@ -4175,12 +4175,37 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Mann steht an der Tür.",
-    "en": null,
+    "en": "The man is standing at the door.",
     "vocab_id": "mann",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Mann",
+        "man"
+      ],
+      [
+        "steht",
+        "stands"
+      ],
+      [
+        "an",
+        "at"
+      ],
+      [
+        "der",
+        "the"
+      ],
+      [
+        "Tür.",
+        "door"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4192,12 +4217,33 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Frau liest ein Buch.",
-    "en": null,
+    "en": "The woman is reading a book.",
     "vocab_id": "frau",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Frau",
+        "woman"
+      ],
+      [
+        "liest",
+        "reads"
+      ],
+      [
+        "ein",
+        "a"
+      ],
+      [
+        "Buch.",
+        "book"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4209,12 +4255,33 @@
     "hint": null,
     "answer": "das",
     "full_de": "Das Kind spielt im Garten.",
-    "en": null,
+    "en": "The child is playing in the garden.",
     "vocab_id": "kind",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Kind",
+        "child"
+      ],
+      [
+        "spielt",
+        "plays"
+      ],
+      [
+        "im",
+        "in the"
+      ],
+      [
+        "Garten.",
+        "garden"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4226,12 +4293,25 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Hund schläft.",
-    "en": null,
+    "en": "The dog is sleeping.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Hund",
+        "dog"
+      ],
+      [
+        "schläft.",
+        "sleeps"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4243,12 +4323,29 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Katze läuft schnell.",
-    "en": null,
+    "en": "The cat runs fast.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Katze",
+        "cat"
+      ],
+      [
+        "läuft",
+        "runs"
+      ],
+      [
+        "schnell.",
+        "fast"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4260,12 +4357,29 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Schule ist groß.",
-    "en": null,
+    "en": "The school is big.",
     "vocab_id": "schule",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Schule",
+        "school"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "groß.",
+        "big"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4277,12 +4391,29 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Tisch ist schwer.",
-    "en": null,
+    "en": "The table is heavy.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Tisch",
+        "table"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "schwer.",
+        "heavy"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4294,12 +4425,29 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Lampe ist hell.",
-    "en": null,
+    "en": "The lamp is bright.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Lampe",
+        "lamp"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "hell.",
+        "bright"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4311,12 +4459,33 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Stuhl steht am Fenster.",
-    "en": null,
+    "en": "The chair is by the window.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Stuhl",
+        "chair"
+      ],
+      [
+        "steht",
+        "stands"
+      ],
+      [
+        "am",
+        "by the"
+      ],
+      [
+        "Fenster.",
+        "window"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4328,12 +4497,29 @@
     "hint": null,
     "answer": "das",
     "full_de": "Das Auto ist neu.",
-    "en": null,
+    "en": "The car is new.",
     "vocab_id": "auto",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Auto",
+        "car"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "neu.",
+        "new"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4345,12 +4531,29 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Bus fährt langsam.",
-    "en": null,
+    "en": "The bus is going slowly.",
     "vocab_id": "bus",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Bus",
+        "bus"
+      ],
+      [
+        "fährt",
+        "drives"
+      ],
+      [
+        "langsam.",
+        "slowly"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4362,12 +4565,29 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Zug kommt pünktlich.",
-    "en": null,
+    "en": "The train is arriving on time.",
     "vocab_id": "zug",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Zug",
+        "train"
+      ],
+      [
+        "kommt",
+        "comes"
+      ],
+      [
+        "pünktlich.",
+        "on time"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4379,12 +4599,29 @@
     "hint": null,
     "answer": "das",
     "full_de": "Das Haus ist alt.",
-    "en": null,
+    "en": "The house is old.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Haus",
+        "house"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "alt.",
+        "old"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4396,12 +4633,29 @@
     "hint": null,
     "answer": "das",
     "full_de": "Das Fenster ist offen.",
-    "en": null,
+    "en": "The window is open.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Fenster",
+        "window"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "offen.",
+        "open"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4413,12 +4667,29 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Tür ist zu.",
-    "en": null,
+    "en": "The door is closed.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Tür",
+        "door"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "zu.",
+        "closed"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4430,12 +4701,37 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Apfel liegt auf dem Tisch.",
-    "en": null,
+    "en": "The apple is on the table.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Apfel",
+        "apple"
+      ],
+      [
+        "liegt",
+        "lies"
+      ],
+      [
+        "auf",
+        "on"
+      ],
+      [
+        "dem",
+        "the"
+      ],
+      [
+        "Tisch.",
+        "table"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4447,12 +4743,29 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Banane ist gelb.",
-    "en": null,
+    "en": "The banana is yellow.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Banane",
+        "banana"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "gelb.",
+        "yellow"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4464,12 +4777,29 @@
     "hint": null,
     "answer": "das",
     "full_de": "Das Brot ist frisch.",
-    "en": null,
+    "en": "The bread is fresh.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Brot",
+        "bread"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "frisch.",
+        "fresh"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4481,12 +4811,29 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Milch ist kalt.",
-    "en": null,
+    "en": "The milk is cold.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Milch",
+        "milk"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "kalt.",
+        "cold"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4498,12 +4845,29 @@
     "hint": null,
     "answer": "das",
     "full_de": "Das Wasser ist klar.",
-    "en": null,
+    "en": "The water is clear.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Wasser",
+        "water"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "klar.",
+        "clear"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4515,12 +4879,29 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Lehrer spricht laut.",
-    "en": null,
+    "en": "The teacher speaks loudly.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Lehrer",
+        "teacher"
+      ],
+      [
+        "spricht",
+        "speaks"
+      ],
+      [
+        "laut.",
+        "loudly"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4532,12 +4913,25 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Schülerin schreibt.",
-    "en": null,
+    "en": "The student is writing.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Schülerin",
+        "student (f.)"
+      ],
+      [
+        "schreibt.",
+        "writes"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4549,12 +4943,33 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Arzt arbeitet im Krankenhaus.",
-    "en": null,
+    "en": "The doctor works at the hospital.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Arzt",
+        "doctor"
+      ],
+      [
+        "arbeitet",
+        "works"
+      ],
+      [
+        "im",
+        "in the"
+      ],
+      [
+        "Krankenhaus.",
+        "hospital"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4566,12 +4981,37 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Uhr hängt an der Wand.",
-    "en": null,
+    "en": "The clock is hanging on the wall.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Uhr",
+        "clock"
+      ],
+      [
+        "hängt",
+        "hangs"
+      ],
+      [
+        "an",
+        "at"
+      ],
+      [
+        "der",
+        "the"
+      ],
+      [
+        "Wand.",
+        "wall"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4583,12 +5023,37 @@
     "hint": null,
     "answer": "das",
     "full_de": "Das Buch liegt auf dem Tisch.",
-    "en": null,
+    "en": "The book is on the table.",
     "vocab_id": "buch",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Buch",
+        "book"
+      ],
+      [
+        "liegt",
+        "lies"
+      ],
+      [
+        "auf",
+        "on"
+      ],
+      [
+        "dem",
+        "the"
+      ],
+      [
+        "Tisch.",
+        "table"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4600,12 +5065,25 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Sonne scheint.",
-    "en": null,
+    "en": "The sun is shining.",
     "vocab_id": "sonne",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Sonne",
+        "sun"
+      ],
+      [
+        "scheint.",
+        "shines"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4617,12 +5095,37 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Mond ist hoch am Himmel.",
-    "en": null,
+    "en": "The moon is high in the sky.",
     "vocab_id": "mond",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Mond",
+        "moon"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "hoch",
+        "high"
+      ],
+      [
+        "am",
+        "by the"
+      ],
+      [
+        "Himmel.",
+        "sky"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4634,13 +5137,26 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Sterne funkeln.",
-    "en": null,
+    "en": "The stars are twinkling.",
     "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Sterne",
+        "stars"
+      ],
+      [
+        "funkeln.",
+        "twinkle"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4652,12 +5168,29 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Blume ist schön.",
-    "en": null,
+    "en": "The flower is beautiful.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Blume",
+        "flower"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "schön.",
+        "beautiful"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4669,12 +5202,29 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Baum ist groß.",
-    "en": null,
+    "en": "The tree is big.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Baum",
+        "tree"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "groß.",
+        "big"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4686,13 +5236,26 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Schüler lachen.",
-    "en": null,
+    "en": "The students are laughing.",
     "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Schüler",
+        "students"
+      ],
+      [
+        "lachen.",
+        "laugh"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4704,13 +5267,30 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Freunde spielen Fußball.",
-    "en": null,
+    "en": "The friends are playing football.",
     "vocab_id": "freund",
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Freunde",
+        "friends"
+      ],
+      [
+        "spielen",
+        "play"
+      ],
+      [
+        "Fußball.",
+        "football"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4722,13 +5302,38 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Eltern warten vor der Schule.",
-    "en": null,
+    "en": "The parents are waiting in front of the school.",
     "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Eltern",
+        "parents"
+      ],
+      [
+        "warten",
+        "wait"
+      ],
+      [
+        "vor",
+        "in front of"
+      ],
+      [
+        "der",
+        "the"
+      ],
+      [
+        "Schule.",
+        "school"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4740,12 +5345,29 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Familie isst zusammen.",
-    "en": null,
+    "en": "The family eats together.",
     "vocab_id": "familie",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Familie",
+        "family"
+      ],
+      [
+        "isst",
+        "eats"
+      ],
+      [
+        "zusammen.",
+        "together"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4757,12 +5379,29 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Katze trinkt Milch.",
-    "en": null,
+    "en": "The cat is drinking milk.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Katze",
+        "cat"
+      ],
+      [
+        "trinkt",
+        "drinks"
+      ],
+      [
+        "Milch.",
+        "milk"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4774,12 +5413,25 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Vogel singt.",
-    "en": null,
+    "en": "The bird is singing.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Vogel",
+        "bird"
+      ],
+      [
+        "singt.",
+        "sings"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4791,12 +5443,29 @@
     "hint": null,
     "answer": "das",
     "full_de": "Das Schwimmbad ist kalt.",
-    "en": null,
+    "en": "The swimming pool is cold.",
     "vocab_id": "schwimmbad",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Schwimmbad",
+        "swimming pool"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "kalt.",
+        "cold"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4808,12 +5477,29 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Park ist grün.",
-    "en": null,
+    "en": "The park is green.",
     "vocab_id": "park",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Park",
+        "park"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "grün.",
+        "green"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4825,13 +5511,30 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Spiele sind interessant.",
-    "en": null,
+    "en": "The games are interesting.",
     "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Spiele",
+        "games"
+      ],
+      [
+        "sind",
+        "are"
+      ],
+      [
+        "interessant.",
+        "interesting"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4843,13 +5546,30 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Lehrerinnen arbeiten heute.",
-    "en": null,
+    "en": "The teachers are working today.",
     "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Lehrerinnen",
+        "teachers (f.)"
+      ],
+      [
+        "arbeiten",
+        "work"
+      ],
+      [
+        "heute.",
+        "today"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4861,13 +5581,26 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Kinder schreiben.",
-    "en": null,
+    "en": "The children are writing.",
     "vocab_id": "kind",
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Kinder",
+        "children"
+      ],
+      [
+        "schreiben.",
+        "write"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4879,13 +5612,34 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Bäume stehen im Wald.",
-    "en": null,
+    "en": "The trees stand in the forest.",
     "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Bäume",
+        "trees"
+      ],
+      [
+        "stehen",
+        "stand"
+      ],
+      [
+        "im",
+        "in the"
+      ],
+      [
+        "Wald.",
+        "forest"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4897,13 +5651,38 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Bücher liegen auf dem Regal.",
-    "en": null,
+    "en": "The books are on the shelf.",
     "vocab_id": "buch",
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Bücher",
+        "books"
+      ],
+      [
+        "liegen",
+        "lie"
+      ],
+      [
+        "auf",
+        "on"
+      ],
+      [
+        "dem",
+        "the"
+      ],
+      [
+        "Regal.",
+        "shelf"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4915,12 +5694,29 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Klasse ist laut.",
-    "en": null,
+    "en": "The class is loud.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Klasse",
+        "class"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "laut.",
+        "loudly"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4932,13 +5728,30 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Tische sind sauber.",
-    "en": null,
+    "en": "The tables are clean.",
     "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Tische",
+        "tables"
+      ],
+      [
+        "sind",
+        "are"
+      ],
+      [
+        "sauber.",
+        "clean"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4950,13 +5763,30 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Türen sind geschlossen.",
-    "en": null,
+    "en": "The doors are closed.",
     "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Türen",
+        "doors"
+      ],
+      [
+        "sind",
+        "are"
+      ],
+      [
+        "geschlossen.",
+        "closed"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4968,13 +5798,30 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Schüler lesen Bücher.",
-    "en": null,
+    "en": "The students are reading books.",
     "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Schüler",
+        "students"
+      ],
+      [
+        "lesen",
+        "read"
+      ],
+      [
+        "Bücher.",
+        "books"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -4986,12 +5833,25 @@
     "hint": null,
     "answer": "das",
     "full_de": "Das Mädchen tanzt.",
-    "en": null,
+    "en": "The girl is dancing.",
     "vocab_id": "maedchen",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Mädchen",
+        "girl"
+      ],
+      [
+        "tanzt.",
+        "dances"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5003,12 +5863,29 @@
     "hint": null,
     "answer": "der",
     "full_de": "Der Junge rennt schnell.",
-    "en": null,
+    "en": "The boy runs fast.",
     "vocab_id": "junge",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Junge",
+        "boy"
+      ],
+      [
+        "rennt",
+        "runs"
+      ],
+      [
+        "schnell.",
+        "fast"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5020,13 +5897,34 @@
     "hint": null,
     "answer": "die",
     "full_de": "Die Tiere schlafen im Zoo.",
-    "en": null,
+    "en": "The animals sleep at the zoo.",
     "vocab_id": null,
     "tags": [
       "artikel",
       "plural"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Tiere",
+        "animals"
+      ],
+      [
+        "schlafen",
+        "sleep"
+      ],
+      [
+        "im",
+        "in the"
+      ],
+      [
+        "Zoo.",
+        "zoo"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5038,12 +5936,29 @@
     "hint": null,
     "answer": "eine",
     "full_de": "Das ist eine Schwester.",
-    "en": null,
+    "en": "That is a sister.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Schwester.",
+        "sister"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5055,12 +5970,29 @@
     "hint": null,
     "answer": "eine",
     "full_de": "Ich sehe eine Frau.",
-    "en": null,
+    "en": "I see a woman.",
     "vocab_id": "frau",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Frau.",
+        "woman"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5072,12 +6004,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Hier ist ein Kind.",
-    "en": null,
+    "en": "Here is a child.",
     "vocab_id": "kind",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Hier",
+        "here"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Kind.",
+        "child"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5089,12 +6038,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Haus.",
-    "en": null,
+    "en": "That is a house.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Haus.",
+        "house"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5106,12 +6072,29 @@
     "hint": null,
     "answer": "eine",
     "full_de": "Sie hat eine Tasche.",
-    "en": null,
+    "en": "She has a bag.",
     "vocab_id": "tasche",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "hat",
+        "has"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Tasche.",
+        "bag"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5123,12 +6106,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Er ist ein Lehrer.",
-    "en": null,
+    "en": "He is a teacher.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Lehrer.",
+        "teacher"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5140,12 +6140,29 @@
     "hint": null,
     "answer": "eine",
     "full_de": "Ich suche eine Katze.",
-    "en": null,
+    "en": "I am looking for a cat.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "suche",
+        "am looking for"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Katze.",
+        "cat"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5157,12 +6174,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Stuhl.",
-    "en": null,
+    "en": "That is a chair.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Stuhl.",
+        "chair"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5174,12 +6208,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Ich finde ein Buch.",
-    "en": null,
+    "en": "I find a book.",
     "vocab_id": "buch",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "finde",
+        "find"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Buch.",
+        "book"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5191,12 +6242,29 @@
     "hint": null,
     "answer": "eine",
     "full_de": "Das ist eine Lampe.",
-    "en": null,
+    "en": "That is a lamp.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Lampe.",
+        "lamp"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5208,12 +6276,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Hier ist ein Tisch.",
-    "en": null,
+    "en": "Here is a table.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Hier",
+        "here"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Tisch.",
+        "table"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5225,12 +6310,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Auto.",
-    "en": null,
+    "en": "That is a car.",
     "vocab_id": "auto",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Auto.",
+        "car"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5242,12 +6344,29 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Er trinkt einen Saft.",
-    "en": null,
+    "en": "He is drinking a juice.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "trinkt",
+        "drinks"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Saft.",
+        "juice"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5259,12 +6378,29 @@
     "hint": null,
     "answer": "eine",
     "full_de": "Das ist eine Freundin.",
-    "en": null,
+    "en": "That is a friend.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Freundin.",
+        "friend (f.)"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5276,12 +6412,29 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Ich brauche einen Stift.",
-    "en": null,
+    "en": "I need a pen.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "brauche",
+        "need"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Stift.",
+        "pen"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5293,12 +6446,29 @@
     "hint": null,
     "answer": "eine",
     "full_de": "Sie kauft eine Blume.",
-    "en": null,
+    "en": "She is buying a flower.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "kauft",
+        "buys"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Blume.",
+        "flower"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5310,12 +6480,29 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Ich sehe einen Vogel.",
-    "en": null,
+    "en": "I see a bird.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Vogel.",
+        "bird"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5327,12 +6514,29 @@
     "hint": null,
     "answer": "eine",
     "full_de": "Das ist eine Schule.",
-    "en": null,
+    "en": "That is a school.",
     "vocab_id": "schule",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Schule.",
+        "school"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5344,12 +6548,29 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Ich kenne einen Arzt.",
-    "en": null,
+    "en": "I know a doctor.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "kenne",
+        "know"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Arzt.",
+        "doctor"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5361,12 +6582,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Hier ist ein Fahrrad.",
-    "en": null,
+    "en": "Here is a bicycle.",
     "vocab_id": "fahrrad",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Hier",
+        "here"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Fahrrad.",
+        "bicycle"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5378,12 +6616,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Zug.",
-    "en": null,
+    "en": "That is a train.",
     "vocab_id": "zug",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Zug.",
+        "train"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5395,12 +6650,29 @@
     "hint": null,
     "answer": "eine",
     "full_de": "Sie hat eine Idee.",
-    "en": null,
+    "en": "She has an idea.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "hat",
+        "has"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Idee.",
+        "idea"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5412,12 +6684,29 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Ich finde einen Schlüssel.",
-    "en": null,
+    "en": "I find a key.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "finde",
+        "find"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Schlüssel.",
+        "key"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5429,12 +6718,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Apfel.",
-    "en": null,
+    "en": "That is an apple.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Apfel.",
+        "apple"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5446,12 +6752,29 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Ich sehe einen Hund.",
-    "en": null,
+    "en": "I see a dog.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Hund.",
+        "dog"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5463,12 +6786,29 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Er hat einen Bruder.",
-    "en": null,
+    "en": "He has a brother.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "hat",
+        "has"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Bruder.",
+        "brother"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5480,12 +6820,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Fenster.",
-    "en": null,
+    "en": "That is a window.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Fenster.",
+        "window"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5497,12 +6854,33 @@
     "hint": null,
     "answer": "einer",
     "full_de": "Ich lebe in einer Stadt.",
-    "en": null,
+    "en": "I live in a city.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "lebe",
+        "live"
+      ],
+      [
+        "in",
+        "in"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Stadt.",
+        "city"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5514,12 +6892,29 @@
     "hint": null,
     "answer": "eine",
     "full_de": "Sie hat eine Frage.",
-    "en": null,
+    "en": "She has a question.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "hat",
+        "has"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Frage.",
+        "question"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5531,12 +6926,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Problem.",
-    "en": null,
+    "en": "That is a problem.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Problem.",
+        "problem"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5548,12 +6960,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Ich habe ein Spiel.",
-    "en": null,
+    "en": "I have a game.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "habe",
+        "have"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Spiel.",
+        "game"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5565,12 +6994,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Lehrerzimmer.",
-    "en": null,
+    "en": "That is a staff room.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Lehrerzimmer.",
+        "staff room"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5582,12 +7028,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Ich esse ein Brot.",
-    "en": null,
+    "en": "I am eating a piece of bread.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "esse",
+        "eat"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Brot.",
+        "bread"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5599,12 +7062,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Buchladen.",
-    "en": null,
+    "en": "That is a bookshop.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Buchladen.",
+        "bookshop"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5616,12 +7096,29 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Sie hat einen Rucksack.",
-    "en": null,
+    "en": "She has a backpack.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "hat",
+        "has"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Rucksack.",
+        "backpack"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5633,12 +7130,33 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Ich schenke dir einen Ball.",
-    "en": null,
+    "en": "I am giving you a ball.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "schenke",
+        "give (as a gift)"
+      ],
+      [
+        "dir",
+        "you"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Ball.",
+        "ball"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5650,12 +7168,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Supermarkt.",
-    "en": null,
+    "en": "That is a supermarket.",
     "vocab_id": "supermarkt",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Supermarkt.",
+        "supermarket"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5667,12 +7202,29 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Ich sehe einen Stern.",
-    "en": null,
+    "en": "I see a star.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Stern.",
+        "star"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5684,12 +7236,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Flughafen.",
-    "en": null,
+    "en": "That is an airport.",
     "vocab_id": "flughafen",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Flughafen.",
+        "airport"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5701,12 +7270,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Ich höre ein Lied.",
-    "en": null,
+    "en": "I hear a song.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "höre",
+        "hear"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Lied.",
+        "song"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5718,12 +7304,29 @@
     "hint": null,
     "answer": "eine",
     "full_de": "Das ist eine Uhr.",
-    "en": null,
+    "en": "That is a clock.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Uhr.",
+        "clock"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5735,12 +7338,29 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Ich sehe einen Park.",
-    "en": null,
+    "en": "I see a park.",
     "vocab_id": "park",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Park.",
+        "park"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5752,12 +7372,29 @@
     "hint": null,
     "answer": "eine",
     "full_de": "Sie braucht eine Pizza.",
-    "en": null,
+    "en": "She needs a pizza.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "braucht",
+        "needs"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Pizza.",
+        "pizza"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5769,12 +7406,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Balkon.",
-    "en": null,
+    "en": "That is a balcony.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Balkon.",
+        "balcony"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5786,12 +7440,29 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Ich finde einen Job.",
-    "en": null,
+    "en": "I find a job.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "finde",
+        "find"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Job.",
+        "job"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5803,12 +7474,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Meer.",
-    "en": null,
+    "en": "That is a sea.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Meer.",
+        "sea"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5820,12 +7508,29 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Ich habe einen Plan.",
-    "en": null,
+    "en": "I have a plan.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "habe",
+        "have"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Plan.",
+        "plan"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5837,12 +7542,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Zoo.",
-    "en": null,
+    "en": "That is a zoo.",
     "vocab_id": "zoo",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Zoo.",
+        "zoo"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5854,12 +7576,33 @@
     "hint": null,
     "answer": "einen",
     "full_de": "Sie sieht einen Mann dort.",
-    "en": null,
+    "en": "She sees a man there.",
     "vocab_id": "mann",
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "sieht",
+        "sees"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Mann",
+        "man"
+      ],
+      [
+        "dort.",
+        "there"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },
@@ -5871,12 +7614,29 @@
     "hint": null,
     "answer": "ein",
     "full_de": "Das ist ein Geschenk.",
-    "en": null,
+    "en": "That is a gift.",
     "vocab_id": null,
     "tags": [
       "artikel"
     ],
-    "gloss": null,
+    "gloss": [
+      [
+        "Das",
+        "that"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Geschenk.",
+        "gift"
+      ]
+    ],
     "hint_en": null,
     "also": null
   },

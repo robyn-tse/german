@@ -24,6 +24,8 @@ Take the stem (infinitive minus **-en**) and add the ending.
 | er / sie / es | g**i**bt | l**ie**st | spr**i**cht |
 | wir / ihr / sie | geben / gebt / geben | lesen / lest / lesen | sprechen / sprecht / sprechen |
 
+<div class="practice" data-section="praesens"></div>
+
 ## 2. Articles and gender
 
 | | <span class="g g-der">masculine</span> | <span class="g g-die">feminine</span> | <span class="g g-das">neuter</span> | plural |
@@ -40,6 +42,8 @@ Take the stem (infinitive minus **-en**) and add the ending.
 <a href="../sources/review/artikel-endungen.webp"><img src="../sources/review/artikel-endungen.webp" alt="Noun endings by gender. Masculine: -ant, -ent, -er, -ich, -ismus, -ist, -ast, -ling. Feminine: -heit, -keit, -schaft, -ung, -ie, -anz, -enz, -ik. Neuter: -ment, -um, -tum, -chen, -ma, -em, -nis." width="474" height="670" loading="lazy" class="narrow" /></a>
 
 <p class="chart-note"><strong>How to read it:</strong> find the noun's ending in one of the three columns; the column gives the article. Die Zeit<strong>ung</strong> (the newspaper) → feminine column → <strong>die</strong>. Red notes are exceptions: <em>der</em> Moment (the moment), <em>die</em> Polizistin (the policewoman).</p>
+
+<div class="practice" data-section="artikel"></div>
 
 ## 3. The four cases
 
@@ -73,6 +77,8 @@ Take the stem (infinitive minus **-en**) and add the ending.
 - Masculine and neuter nouns add **-es** if short (one syllable) or ending in -s, -ß, -z, -x, -sch: des Mann**es** (of the man), des Haus**es** (of the house).
 - Otherwise they add **-s**: des Lehrer**s** (of the teacher), des Auto**s** (of the car).
 - Feminine and plural nouns add nothing: der Frau (of the woman), der Eltern (of the parents).
+
+<div class="practice" data-section="faelle"></div>
 
 ## 4. Dative vs. accusative verbs
 
@@ -116,6 +122,8 @@ Take the stem (infinitive minus **-en**) and add the ending.
 | Das Auto **gehört der** Mutter. | The car belongs to the mother. |
 | Ich **helfe dem** Mann. | I help the man. |
 
+<div class="practice" data-section="verben-kasus"></div>
+
 ## 5. Prepositions and case
 
 **A preposition fixes the case, whatever the verb.**
@@ -143,6 +151,8 @@ Take the stem (infinitive minus **-en**) and add the ending.
 |---|---|---|---|
 | **Wo?** (no movement) | **Dativ** | Ich bin in **dem** Garten. | I am in the garden. |
 | **Wohin?** (movement) | **Akkusativ** | Ich gehe in **den** Garten. | I go into the garden. |
+
+<div class="practice" data-section="praepositionen"></div>
 
 ## 6. Personal pronouns
 
@@ -187,6 +197,8 @@ Take the stem (infinitive minus **-en**) and add the ending.
 | Ich schenke | **sie** *(pronoun, Akk)* | meiner Oma. *(Dativ)* | I give them to my grandma. |
 | Ich schenke | **sie** *(pronoun, Akk)* | **ihr**. *(pronoun, Dat)* | I give them to her. |
 
+<div class="practice" data-section="personalpronomen"></div>
+
 ## 7. Possessive pronouns
 
 | my | your | his / its | her | our | your (all) | their / your (formal) |
@@ -201,6 +213,8 @@ Take the stem (infinitive minus **-en**) and add the ending.
 <a href="../sources/review/possessivpronomen.webp"><img src="../sources/review/possessivpronomen.webp" alt="Die Possessivpronomen im Deutschen: table of mein, dein, sein, ihr, sein, unser, euer, ihr in Nominativ, Genitiv, Dativ and Akkusativ for masculine/neuter, feminine and plural." width="1400" height="799" loading="lazy" /></a>
 
 <p class="chart-note"><strong>How to read it:</strong> pick the owner's column (ich → mein…), then the row for the case and the gender of the thing owned. <em>Ich helfe ___ Schwester</em> (I help my sister): owner ich, helfen → Dativ, die Schwester → feminine → <strong>meiner</strong>. The pattern of endings is the same as ein/einen/einem.</p>
+
+<div class="practice" data-section="possessivpronomen"></div>
 
 ## 8. Reflexive verbs
 
@@ -254,6 +268,8 @@ Always reflexive: sich beeilen (to hurry), sich erholen (to recover / rest), sic
 
 </details>
 
+<div class="practice" data-section="reflexiv"></div>
+
 ## 9. Separable and inseparable prefixes
 
 | | Separable (trennbar) | Inseparable (untrennbar) |
@@ -267,6 +283,8 @@ Always reflexive: sich beeilen (to hurry), sich erholen (to recover / rest), sic
 | statement: verb second, prefix last | Ich **stehe** um 6 Uhr **auf**. | I get up at 6 o'clock. |
 | yes/no question: verb first | **Kaufst** du heute **ein**? | Are you going shopping today? |
 | with a modal verb: whole verb at the end | Ich **muss** morgen früh **aufstehen**. | I have to get up early tomorrow. |
+
+<div class="practice" data-section="praefixe"></div>
 
 ## 10. Perfekt (past)
 
@@ -326,3 +344,5 @@ Watch out: denken (to think) → **gedacht**, kennen (to know) → **gekannt**, 
 <a href="../sources/review/top5-perfekt.webp"><img src="../sources/review/top5-perfekt.webp" alt="Top 5 Verben im Perfekt: sein – Ich bin im Urlaub gewesen. werden – Sie ist Lehrerin geworden. machen – Er hat einen Ausflug gemacht. geben – Wir haben ihm einen Tipp gegeben. gehen – Die Kinder sind in die Schule gegangen." width="1000" height="700" loading="lazy" /></a>
 
 <p class="chart-note"><strong>How to read it:</strong> the highlighted words are the two halves of the Perfekt: haben/sein in second position, Partizip II at the end. <em>Ich bin im Urlaub gewesen</em> (I was on holiday) · <em>Sie ist Lehrerin geworden</em> (She became a teacher) · <em>Er hat einen Ausflug gemacht</em> (He went on a trip) · <em>Wir haben ihm einen Tipp gegeben</em> (We gave him a tip) · <em>Die Kinder sind in die Schule gegangen</em> (The children went to school). sein, werden, gehen take <strong>sein</strong>; machen, geben take <strong>haben</strong>.</p>
+
+<div class="practice" data-section="perfekt"></div>

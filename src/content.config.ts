@@ -141,4 +141,14 @@ const genderRules = defineCollection({
   }),
 });
 
-export const collections = { lessons, grammar, vocab, exercises, genderRules };
+// ---------------------------------------------------------------------------
+// Review exercises: homework sheets Robyn sent with the Review page request
+// (not tied to a lesson, so `lesson` is null). Only the Review page's
+// practice boxes read these; the Quiz page does not.
+// ---------------------------------------------------------------------------
+const reviewExercises = defineCollection({
+  loader: file('src/data/review-exercises.json'),
+  schema: exerciseSchema.extend({ lesson: z.number().int().positive().nullable().default(null) }),
+});
+
+export const collections = { lessons, grammar, vocab, exercises, genderRules, reviewExercises };

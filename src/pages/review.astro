@@ -23,7 +23,126 @@ const sections = getHeadings()
   <article class="prose review"><Content /></article>
 
   <p class="small top"><a href="#">↑ Back to top</a></p>
+  <script type="application/json" id="pool-url" set:html={JSON.stringify(`${import.meta.env.BASE_URL.replace(/\/$/, '')}/review-pool.json`)} />
 </Base>
+
+<script>
+  import { compareTyped } from '../lib/compare.js';
+  import { loadStats, record } from '../lib/quiz-stats.js';
+
+  type Ex = {
+    id: string; prompt_de: string; hint: string | null; hint_en: string | null; answer: string;
+    also: string | null; full_de: string; en: string | null; note: string | null; gloss: [string, string | null][];
+  };
+
+  const ROUND = 25;
+  const poolUrl = JSON.parse(document.getElementById('pool-url')!.textContent!);
+  let poolsPromise: Promise<Record<string, Ex[]>> | null = null;
+  const loadPools = () => (poolsPromise ??= fetch(poolUrl).then((r) => r.json()));
+  const stats = loadStats();
+
+  const esc = (s: string) =>
+    s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+  const shuffle = <T,>(a: T[]) => {
+    const b = a.slice();
+    for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; }
+    return b;
+  };
+  const col = (de: string, en: string | null, cls = '') =>
+    `<span class="w ${cls}"><span class="en">${en ? esc(en) : ''}</span><span class="de">${esc(de)}</span></span>`;
+  const candidates = (e: Ex) => [{ text: e.answer, note: null }, ...(e.also ? [{ text: e.also, note: e.note }] : [])];
+
+  for (const slot of document.querySelectorAll<HTMLElement>('.practice')) {
+    const section = slot.dataset.section!;
+    slot.innerHTML = `
+      <details class="more practice-box">
+        <summary>Practise: ${ROUND} homework questions</summary>
+        <div class="pq" aria-live="polite"><p class="muted small">Loading…</p></div>
+      </details>`;
+    const details = slot.querySelector('details')!;
+    const box = slot.querySelector<HTMLElement>('.pq')!;
+    let started = false;
+    details.addEventListener('toggle', async () => {
+      if (!details.open || started) return;
+      started = true;
+      const pool = (await loadPools())[section] ?? [];
+      if (!pool.length) { box.innerHTML = '<p class="muted small">No homework questions for this topic yet.</p>'; return; }
+      run(box, pool, shuffle(pool).slice(0, ROUND));
+    });
+  }
+
+  function run(box: HTMLElement, pool: Ex[], queue: Ex[]) {
+    let i = 0;
+    const wrong: Ex[] = [];
+
+    function ask() {
+      if (i >= queue.length) return finish();
+      const e = queue[i];
+      const hint = e.hint ? col(`(${e.hint})`, e.hint_en, 'hint') : '';
+      box.innerHTML = `
+        <p class="small muted pq-count">Question ${i + 1} of ${queue.length}${wrong.length ? ` · ${wrong.length} wrong` : ''}</p>
+        <p class="pq-prompt" lang="de">${e.gloss.map(([t, g]) => col(t, g)).join('')}${hint}</p>
+        ${e.en ? `<p class="small muted pq-en">${esc(e.en)}</p>` : ''}
+        <form class="pq-form"><input type="text" name="a" autocomplete="off" autocapitalize="off" spellcheck="false" lang="de" aria-label="Your answer" placeholder="Fill the gap${(e.prompt_de.match(/___/g) || []).length > 1 ? 's, in order' : ''}" /><button class="btn btn-primary" type="submit">Check</button></form>
+        <div class="pq-fb" hidden></div>`;
+      const form = box.querySelector('form')!;
+      const input = form.querySelector('input')!;
+      input.focus({ preventScroll: true });
+      form.addEventListener('submit', (ev) => { ev.preventDefault(); grade(e, input.value); });
+    }
+
+    function grade(e: Ex, given: string) {
+      if (!given.trim()) return;
+      const r = compareTyped(given, candidates(e));
+      record(stats, e.id, r.correct);
+      if (!r.correct) wrong.push(e);
+      box.querySelector('form')!.hidden = true;
+      const fb = box.querySelector<HTMLElement>('.pq-fb')!;
+      fb.hidden = false;
+      const notes = [...r.notes, ...(e.note && !r.notes.includes(e.note) ? [e.note] : [])];
+      fb.innerHTML = `
+        <p class="pq-verdict ${r.correct ? (r.exact ? 'ok' : 'warn') : 'bad'}">${r.correct ? (r.exact ? 'Correct' : 'Correct, but…') : 'Not quite'}</p>
+        ${r.correct ? '' : `<p><span class="muted">You typed:</span> <s>${esc(given.trim())}</s></p>`}
+        <p class="pq-full" lang="de">${esc(e.full_de)}</p>
+        ${notes.length ? `<ul class="small">${notes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : ''}
+        ${r.correct ? '' : `<form class="pq-form pq-retype"><input type="text" autocomplete="off" autocapitalize="off" spellcheck="false" lang="de" aria-label="Type the correct answer" placeholder="Retype the answer" /><button class="btn" type="submit">OK</button></form>`}
+        <button class="btn btn-primary pq-next" type="button" ${r.correct ? '' : 'disabled'}>${i + 1 < queue.length ? 'Next' : 'See results'}</button>`;
+      const next = fb.querySelector<HTMLButtonElement>('.pq-next')!;
+      next.addEventListener('click', () => { i++; ask(); box.querySelector<HTMLInputElement>('input')?.scrollIntoView({ block: 'nearest' }); });
+      const retype = fb.querySelector<HTMLFormElement>('.pq-retype');
+      if (retype) {
+        const ri = retype.querySelector('input')!;
+        ri.focus({ preventScroll: true });
+        retype.addEventListener('submit', (ev) => {
+          ev.preventDefault();
+          if (compareTyped(ri.value, candidates(e)).correct) {
+            retype.outerHTML = '<p class="small ok-text">Right. Carry on.</p>';
+            next.disabled = false;
+            next.focus();
+          } else {
+            ri.select();
+          }
+        });
+      } else {
+        next.focus({ preventScroll: true });
+      }
+    }
+
+    function finish() {
+      const right = queue.length - wrong.length;
+      box.innerHTML = `
+        <p class="pq-verdict ${wrong.length ? 'warn' : 'ok'}">${right} of ${queue.length} right first time</p>
+        <div class="pq-actions">
+          ${wrong.length ? '<button class="btn btn-primary" type="button" data-act="retry">Retry the ones I got wrong</button>' : ''}
+          <button class="btn" type="button" data-act="new">Another ${Math.min(ROUND, pool.length)}</button>
+        </div>`;
+      box.querySelector('[data-act=retry]')?.addEventListener('click', () => run(box, pool, shuffle(wrong)));
+      box.querySelector('[data-act=new]')!.addEventListener('click', () => run(box, pool, shuffle(pool).slice(0, ROUND)));
+    }
+
+    ask();
+  }
+</script>
 
 <style>
   .intro { max-width: var(--measure); }
@@ -80,5 +199,32 @@ const sections = getHeadings()
   @media (prefers-reduced-motion: reduce) {
     .review :global(details.more > summary::before) { transition: none; }
   }
+  /* Practice box: homework format, English above each German word. */
+  .review :global(.practice-box) { border-color: var(--accent); }
+  .review :global(.practice-box > summary) { color: var(--accent); }
+  .review :global(.pq) { padding: 0 0.9rem 0.9rem; }
+  .review :global(.pq-count) { margin: 0 0 0.25rem; }
+  .review :global(.pq-prompt) {
+    display: flex; flex-wrap: wrap; align-items: flex-end; gap: 0.2em 0.55em;
+    font-size: 1.35rem; font-weight: 600; line-height: 1.15; margin: 0.5rem 0;
+  }
+  .review :global(.pq-prompt .w) { display: inline-flex; flex-direction: column; align-items: flex-start; white-space: nowrap; }
+  .review :global(.pq-prompt .en) { font-size: 0.55em; font-weight: 400; color: var(--accent); line-height: 1.3; min-height: 1.3em; }
+  .review :global(.pq-prompt .hint .de) { color: var(--muted); font-weight: 400; }
+  .review :global(.pq-en) { margin: 0 0 0.75rem; font-style: italic; }
+  .review :global(.pq-form) { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.5rem 0; }
+  .review :global(.pq-form input) {
+    flex: 1 1 12rem; font-size: 1.1rem; padding: 0.5em 0.7em; color: var(--fg);
+    border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg);
+  }
+  .review :global(.pq-fb) { margin-top: 0.5rem; padding: 0.75rem; border-radius: var(--radius); background: var(--surface-2); }
+  .review :global(.pq-fb p) { margin: 0 0 0.4rem; }
+  .review :global(.pq-fb s) { color: var(--bad); }
+  .review :global(.pq-full) { font-size: 1.1rem; font-weight: 600; }
+  .review :global(.pq-verdict) { font-weight: 700; margin: 0.25rem 0 0.5rem; }
+  .review :global(.pq-verdict.ok), .review :global(.ok-text) { color: var(--ok); }
+  .review :global(.pq-verdict.warn) { color: var(--warn); }
+  .review :global(.pq-verdict.bad) { color: var(--bad); }
+  .review :global(.pq-actions) { display: flex; flex-wrap: wrap; gap: 0.5rem; }
   .top { margin-top: 2.5rem; }
 </style>
