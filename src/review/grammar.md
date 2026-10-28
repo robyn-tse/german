@@ -144,11 +144,6 @@ Take the stem (infinitive minus **-en**) and add the ending.
 | **Wo?** where? (no movement) | **Dativ** | Ich bin in **dem** Garten. | I am in the garden. |
 | **Wohin?** where to? (A → B) | **Akkusativ** | Ich gehe in **den** Garten. | I go into the garden. |
 
-| Movement → Akkusativ | No movement → Dativ |
-|---|---|
-| setzen (to set / seat), stellen (to put, standing), legen (to lay down), sich setzen (to sit down) | sitzen (to sit), stehen (to stand), liegen (to lie), verstecken (to hide) |
-| Er hängt das Bild an **die** Wand. *He hangs the picture on the wall.* | Das Bild hängt an **der** Wand. *The picture hangs on the wall.* |
-
 ## 6. Personal pronouns
 
 | English | Nominativ | Akkusativ | Dativ |
