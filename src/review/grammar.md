@@ -126,7 +126,7 @@ Take the stem (infinitive minus **-en**) and add the ending.
 
 ## 5. Prepositions and case
 
-**A preposition fixes the case, whatever the verb.**
+**A preposition fixes the case. For the two-way prepositions in the middle: no movement (Wo?) → Dativ, movement (Wohin?) → Akkusativ.**
 
 <a href="../sources/lesson-05/Praepositionen_Dativ_Akkusativ.webp"><img src="../sources/lesson-05/Praepositionen_Dativ_Akkusativ.webp" alt="Präpositionen mit Dativ und Akkusativ: Dativ (ab, außer, zu, nach, bei, von, aus, mit, seit, gegenüber), Akkusativ (bis, durch, für, ohne, gegen, um), both (in, an, auf, neben, hinter, über, unter, vor, zwischen). Wo? → Dativ, Wohin? → Akkusativ." width="1324" height="934" loading="lazy" /></a>
 
