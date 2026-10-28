@@ -335,6 +335,14 @@ Watch out: denken (to think) → **gedacht**, kennen (to know) → **gekannt**, 
 
 </details>
 
-<a href="../sources/review/top5-perfekt.webp"><img src="../sources/review/top5-perfekt.webp" alt="Top 5 Verben im Perfekt: sein – Ich bin im Urlaub gewesen. werden – Sie ist Lehrerin geworden. machen – Er hat einen Ausflug gemacht. geben – Wir haben ihm einen Tipp gegeben. gehen – Die Kinder sind in die Schule gegangen." width="1000" height="700" loading="lazy" /></a>
+**Top 5 verbs in the Perfekt (everyday use)**
+
+| Verb | German | English |
+|---|---|---|
+| sein (to be) | Ich **bin** im Urlaub **gewesen**. | I was on holiday. |
+| werden (to become) | Sie **ist** Lehrerin **geworden**. | She became a teacher. |
+| machen (to make / do) | Er **hat** einen Ausflug **gemacht**. | He went on a trip. |
+| geben (to give) | Wir **haben** ihm einen Tipp **gegeben**. | We gave him a tip. |
+| gehen (to go) | Die Kinder **sind** in die Schule **gegangen**. | The children went to school. |
 
 <div class="practice" data-section="perfekt"></div>
