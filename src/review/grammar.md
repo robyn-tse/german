@@ -278,7 +278,7 @@ The subject does the action **to itself**: *Ich wasche **mich*** (I wash myself)
 
 <div class="practice" data-section="praefixe"></div>
 
-## 10. Perfekt (past)
+## 10. Present perfect (past tense)
 
 **haben / sein** (conjugated, second position) + **Partizip II** (at the end).
 
