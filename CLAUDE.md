@@ -283,6 +283,22 @@ sources: ["Lektion3.rtf", "Lektion3_HA.rtf"]
 ---
 ```
 
+## Review page (`/review/`)
+
+`src/review/grammar.md`, rendered by `src/pages/review.astro`: a one-page grammar cheat sheet, rules and
+tables only, about a screen per topic. Added 2026-10-27 at Robyn's request. Ten sections in this order
+(each builds on the last): present tense, articles and gender, the four cases (incl. Genitiv), dative vs
+accusative verbs, prepositions and case, personal pronouns, possessive pronouns, reflexive verbs,
+prefixes, Perfekt. Personal pronouns, possessives and reflexives are allowed here as their own sections
+even though they are not among the ten curriculum topic files (Markus's Plan.pdf lists them as smaller
+topics). Still source-only. Charts Robyn sent are embedded as the original images from
+`public/sources/review/` (originals in `inbox/archive/review-2026-10-27/`), each followed by a
+`chart-note` paragraph saying how to read it. Do not embed the four adjective-ending case tables
+(lesson 3 PNGs) here: Robyn chose Markus's article tables instead until adjectives are taught. Errors
+inside images are left as they are. Left out on purpose: modal verbs, Futur I, sentence structure,
+question words (too little material), and `Robbie.rtf` (another student's notes). When a lesson adds
+grammar, update the matching Review section too.
+
 ### Grammar topics (fixed, in curriculum order)
 
 `articles`, `verb-conjugation`, `plurals`, `prefixes`, `declension`, `perfekt`, `clauses`,

@@ -1,0 +1,66 @@
+---
+import Base from '../layouts/Base.astro';
+import { Content, getHeadings } from '../review/grammar.md';
+
+// Section list for the jump menu, built from the markdown's ## headings.
+const sections = getHeadings()
+  .filter((h) => h.depth === 2)
+  .map((h) => ({ slug: h.slug, label: h.text.replace(/^\d+\.\s*/, '').replace(/\s*\(.*\)$/, '') }));
+---
+<Base title="Review" description="Grammar review sheet: one page, ten topics.">
+  <p class="small muted">Review · grammar</p>
+  <h1>Grammar review</h1>
+  <p class="muted small intro">Everything from Markus's grammar materials on one page, in the order each topic builds on the last. Tap a chart to open it full size.</p>
+
+  <nav class="jump" aria-label="Sections">
+    <ol>
+      {sections.map((s, i) => (
+        <li><a href={`#${s.slug}`}><span class="n">{i + 1}</span>{s.label}</a></li>
+      ))}
+    </ol>
+  </nav>
+
+  <article class="prose review"><Content /></article>
+
+  <p class="small top"><a href="#">↑ Back to top</a></p>
+</Base>
+
+<style>
+  .intro { max-width: var(--measure); }
+
+  .jump ol {
+    list-style: none; margin: 1rem 0 0.5rem; padding: 0;
+    display: flex; flex-wrap: wrap; gap: 0.4rem;
+    max-width: var(--measure);
+  }
+  .jump a {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    padding: 0.3rem 0.65rem 0.3rem 0.35rem;
+    border: 1px solid var(--border); border-radius: 999px;
+    background: var(--surface);
+    color: var(--fg); text-decoration: none; font-size: 0.85rem; line-height: 1.3;
+  }
+  .jump a:hover { border-color: var(--accent); background: var(--accent-soft); }
+  .jump .n {
+    display: inline-grid; place-items: center;
+    min-width: 1.35rem; height: 1.35rem; border-radius: 999px;
+    background: var(--accent-soft); color: var(--accent);
+    font-size: 0.75rem; font-weight: 700;
+  }
+
+  /* Each topic reads as its own block; headings land below the top edge when jumped to. */
+  .review :global(h2) { scroll-margin-top: 1rem; margin-top: 2.5em; }
+  .review :global(img.narrow) { max-width: 20rem; }
+  .review :global(.pair) { display: grid; gap: 0.75rem; }
+  .review :global(.pair img) { margin: 0; }
+  @media (min-width: 40rem) {
+    .review :global(.pair) { grid-template-columns: 1fr 1fr; }
+  }
+  .review :global(.chart-note) {
+    margin: -0.75rem 0 1.5rem; padding: 0.6rem 0.85rem;
+    background: var(--accent-soft); border-radius: var(--radius);
+    font-size: 0.9rem; line-height: 1.5;
+  }
+  .review :global(.chart-note strong) { color: var(--fg); }
+  .top { margin-top: 2.5rem; }
+</style>
