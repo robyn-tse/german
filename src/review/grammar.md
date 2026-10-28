@@ -149,11 +149,6 @@ Take the stem (infinitive minus **-en**) and add the ending.
 | setzen (to set / seat), stellen (to put, standing), legen (to lay down), sich setzen (to sit down) | sitzen (to sit), stehen (to stand), liegen (to lie), verstecken (to hide) |
 | Er hängt das Bild an **die** Wand. *He hangs the picture on the wall.* | Das Bild hängt an **der** Wand. *The picture hangs on the wall.* |
 
-- **auf** = horizontal surfaces: das Dach (the roof). **an** = vertical surfaces, die Wand (the wall), and the water's edge (lake, sea, river).
-- **nach** for cities and countries: nach Berlin (to Berlin). But **in die** Schweiz (to Switzerland).
-
-**Short forms:** in dem → **im** · in das → **ins** · an dem → **am** · an das → **ans** · zu dem → **zum** · zu der → **zur** · bei dem → **beim** · von dem → **vom**
-
 ## 6. Personal pronouns
 
 | English | Nominativ | Akkusativ | Dativ |
