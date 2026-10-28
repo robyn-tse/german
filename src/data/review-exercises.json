@@ -5590,5 +5590,9677 @@
     ],
     "hint_en": "to blow-dry one's hair",
     "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-001",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich sehe ___ (du).",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Ich sehe dich.",
+    "en": "I see you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-002",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er hilft ___ (ich).",
+    "hint": null,
+    "answer": "mir",
+    "full_de": "Er hilft mir.",
+    "en": "He helps me.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich).",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-003",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir kennen ___ (sie, Sg.).",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Wir kennen sie.",
+    "en": "We know her.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "kennen",
+        "know"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "she"
+      ],
+      [
+        "Sg.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-004",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie ruft ___ (wir) an.",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Sie ruft uns an.",
+    "en": "She calls us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "ruft",
+        "calls"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir)",
+        "we"
+      ],
+      [
+        "an.",
+        "(call) up"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-005",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Kannst du ___ (ich) hören?",
+    "hint": null,
+    "answer": "mich",
+    "full_de": "Kannst du mich hören?",
+    "en": "Can you hear me?",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Kannst",
+        "can"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich)",
+        "I"
+      ],
+      [
+        "hören?",
+        "hear"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-006",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Der Lehrer fragt ___ (du).",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Der Lehrer fragt dich.",
+    "en": "The teacher asks you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Lehrer",
+        "teacher"
+      ],
+      [
+        "fragt",
+        "asks"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-007",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich gebe ___ (er) das Buch.",
+    "hint": null,
+    "answer": "ihm",
+    "full_de": "Ich gebe ihm das Buch.",
+    "en": "I give him the book.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "gebe",
+        "give"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er)",
+        "he"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Buch.",
+        "book"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-008",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie zeigt ___ (wir) den Weg.",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Sie zeigt uns den Weg.",
+    "en": "She shows us the way.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "zeigt",
+        "shows"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir)",
+        "we"
+      ],
+      [
+        "den",
+        "the"
+      ],
+      [
+        "Weg.",
+        "way"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-009",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir besuchen ___ (sie, Pl.).",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Wir besuchen sie.",
+    "en": "We visit them.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "besuchen",
+        "visit"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "they"
+      ],
+      [
+        "Pl.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-010",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er liebt ___ (sie, Sg.).",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Er liebt sie.",
+    "en": "He loves her.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "liebt",
+        "loves"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "she"
+      ],
+      [
+        "Sg.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-011",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich danke ___ (du).",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Ich danke dir.",
+    "en": "I thank you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "danke",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-012",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Kannst du ___ (wir) helfen?",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Kannst du uns helfen?",
+    "en": "Can you help us?",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Kannst",
+        "can"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir)",
+        "we"
+      ],
+      [
+        "helfen?",
+        "help"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-013",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie sieht ___ (ich) im Park.",
+    "hint": null,
+    "answer": "mich",
+    "full_de": "Sie sieht mich im Park.",
+    "en": "She sees me in the park.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "sieht",
+        "sees"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich)",
+        "I"
+      ],
+      [
+        "im",
+        "in the"
+      ],
+      [
+        "Park.",
+        "park"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-014",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir treffen ___ (er) heute.",
+    "hint": null,
+    "answer": "ihn",
+    "full_de": "Wir treffen ihn heute.",
+    "en": "We meet him today.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "treffen",
+        "meet"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er)",
+        "he"
+      ],
+      [
+        "heute.",
+        "today"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-015",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich schicke ___ (du) eine Nachricht.",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Ich schicke dir eine Nachricht.",
+    "en": "I send you a message.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "schicke",
+        "send"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du)",
+        "you"
+      ],
+      [
+        "eine",
+        "a"
+      ],
+      [
+        "Nachricht.",
+        "message"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-016",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er bringt ___ (wir) Kaffee.",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Er bringt uns Kaffee.",
+    "en": "He brings us coffee.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "bringt",
+        "brings"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir)",
+        "we"
+      ],
+      [
+        "Kaffee.",
+        "coffee"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-017",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich verstehe ___ (sie, Sg.) nicht.",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Ich verstehe sie nicht.",
+    "en": "I don't understand her.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "verstehe",
+        "understand"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "she"
+      ],
+      [
+        "Sg.)",
+        null
+      ],
+      [
+        "nicht.",
+        "not"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-018",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie ruft ___ (er) später an.",
+    "hint": null,
+    "answer": "ihn",
+    "full_de": "Sie ruft ihn später an.",
+    "en": "She calls him later.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "ruft",
+        "calls"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er)",
+        "he"
+      ],
+      [
+        "später",
+        "later"
+      ],
+      [
+        "an.",
+        "(call) up"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-019",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir hören ___ (du) gut.",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Wir hören dich gut.",
+    "en": "We can hear you clearly.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "hören",
+        "hear"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du)",
+        "you"
+      ],
+      [
+        "gut.",
+        "well"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-020",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Kannst du ___ (ich) helfen?",
+    "hint": null,
+    "answer": "mir",
+    "full_de": "Kannst du mir helfen?",
+    "en": "Can you help me?",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Kannst",
+        "can"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich)",
+        "I"
+      ],
+      [
+        "helfen?",
+        "help"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-021",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich sehe ___ (er) jeden Tag.",
+    "hint": null,
+    "answer": "ihn",
+    "full_de": "Ich sehe ihn jeden Tag.",
+    "en": "I see him every day.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er)",
+        "he"
+      ],
+      [
+        "jeden",
+        "every"
+      ],
+      [
+        "Tag.",
+        "day"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-022",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie hilft ___ (ich) immer.",
+    "hint": null,
+    "answer": "mir",
+    "full_de": "Sie hilft mir immer.",
+    "en": "She always helps me.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich)",
+        "I"
+      ],
+      [
+        "immer.",
+        "always"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-023",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir geben ___ (du) Geld.",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Wir geben dir Geld.",
+    "en": "We give you money.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": "The sheet's English has 'the money', but the German has no article: Geld = money.",
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "geben",
+        "give"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du)",
+        "you"
+      ],
+      [
+        "Geld.",
+        "money"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-024",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er fragt ___ (wir) etwas.",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Er fragt uns etwas.",
+    "en": "He asks us something.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "fragt",
+        "asks"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir)",
+        "we"
+      ],
+      [
+        "etwas.",
+        "something"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-025",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich lade ___ (sie, Pl.) ein.",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Ich lade sie ein.",
+    "en": "I invite them.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "lade",
+        "invite"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "they"
+      ],
+      [
+        "Pl.)",
+        null
+      ],
+      [
+        "ein.",
+        "(invite) in"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-026",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie besucht ___ (ich).",
+    "hint": null,
+    "answer": "mich",
+    "full_de": "Sie besucht mich.",
+    "en": "She visits me.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "besucht",
+        "visits"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich).",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-027",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Kannst du ___ (er) sehen?",
+    "hint": null,
+    "answer": "ihn",
+    "full_de": "Kannst du ihn sehen?",
+    "en": "Can you see him?",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Kannst",
+        "can"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er)",
+        "he"
+      ],
+      [
+        "sehen?",
+        "see"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-028",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir danken ___ (du).",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Wir danken dir.",
+    "en": "We thank you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "danken",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-029",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er liebt ___ (wir).",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Er liebt uns.",
+    "en": "He loves us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "liebt",
+        "loves"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir).",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-030",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich schreibe ___ (sie, Sg.).",
+    "hint": null,
+    "answer": "ihr",
+    "full_de": "Ich schreibe ihr.",
+    "en": "I write to her.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "schreibe",
+        "write"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "she"
+      ],
+      [
+        "Sg.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-031",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie bringt ___ (ich) das Buch.",
+    "hint": null,
+    "answer": "mir",
+    "full_de": "Sie bringt mir das Buch.",
+    "en": "She brings me the book.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "bringt",
+        "brings"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich)",
+        "I"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Buch.",
+        "book"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-032",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir verstehen ___ (du).",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Wir verstehen dich.",
+    "en": "We understand you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "verstehen",
+        "understand"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-033",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er hilft ___ (sie, Sg.).",
+    "hint": null,
+    "answer": "ihr",
+    "full_de": "Er hilft ihr.",
+    "en": "He helps her.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "she"
+      ],
+      [
+        "Sg.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-034",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich sehe ___ (wir) im Spiegel.",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Ich sehe uns im Spiegel.",
+    "en": "I see us in the mirror.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir)",
+        "we"
+      ],
+      [
+        "im",
+        "in the"
+      ],
+      [
+        "Spiegel.",
+        "mirror"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-035",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie ruft ___ (du) morgen an.",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Sie ruft dich morgen an.",
+    "en": "She will call you tomorrow.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "ruft",
+        "calls"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du)",
+        "you"
+      ],
+      [
+        "morgen",
+        "tomorrow"
+      ],
+      [
+        "an.",
+        "(call) up"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-036",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir geben ___ (sie, Pl.) die Tickets.",
+    "hint": null,
+    "answer": "ihnen",
+    "full_de": "Wir geben ihnen die Tickets.",
+    "en": "We give them the tickets.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "geben",
+        "give"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "they"
+      ],
+      [
+        "Pl.)",
+        null
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Tickets.",
+        "tickets"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-037",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er besucht ___ (ich) morgen.",
+    "hint": null,
+    "answer": "mich",
+    "full_de": "Er besucht mich morgen.",
+    "en": "He will visit me tomorrow.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "besucht",
+        "visits"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich)",
+        "I"
+      ],
+      [
+        "morgen.",
+        "tomorrow"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-038",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich danke ___ (er).",
+    "hint": null,
+    "answer": "ihm",
+    "full_de": "Ich danke ihm.",
+    "en": "I thank him.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "danke",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er).",
+        "he"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-039",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie liebt ___ (du).",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Sie liebt dich.",
+    "en": "She loves you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "liebt",
+        "loves"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-040",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir sehen ___ (sie, Sg.).",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Wir sehen sie.",
+    "en": "We see her.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "sehen",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "she"
+      ],
+      [
+        "Sg.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-041",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich bringe ___ (du) das Essen.",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Ich bringe dir das Essen.",
+    "en": "I bring you the food.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "bringe",
+        "bring"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du)",
+        "you"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Essen.",
+        "food"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-042",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er zeigt ___ (wir) sein Haus.",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Er zeigt uns sein Haus.",
+    "en": "He shows us his house.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "zeigt",
+        "shows"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir)",
+        "we"
+      ],
+      [
+        "sein",
+        "his"
+      ],
+      [
+        "Haus.",
+        "house"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-043",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie fragt ___ (ich) etwas.",
+    "hint": null,
+    "answer": "mich",
+    "full_de": "Sie fragt mich etwas.",
+    "en": "She asks me something.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "fragt",
+        "asks"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich)",
+        "I"
+      ],
+      [
+        "etwas.",
+        "something"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-044",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir helfen ___ (du).",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Wir helfen dir.",
+    "en": "We help you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "helfen",
+        "help"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-045",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich besuche ___ (er).",
+    "hint": null,
+    "answer": "ihn",
+    "full_de": "Ich besuche ihn.",
+    "en": "I visit him.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "besuche",
+        "visit"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er).",
+        "he"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-046",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie ruft ___ (wir) an.",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Sie ruft uns an.",
+    "en": "She calls us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "ruft",
+        "calls"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir)",
+        "we"
+      ],
+      [
+        "an.",
+        "(call) up"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-047",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er gibt ___ (ich) einen Rat.",
+    "hint": null,
+    "answer": "mir",
+    "full_de": "Er gibt mir einen Rat.",
+    "en": "He gives me some advice.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "gibt",
+        "gives"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich)",
+        "I"
+      ],
+      [
+        "einen",
+        "a"
+      ],
+      [
+        "Rat.",
+        "piece of advice"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-048",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir sehen ___ (du) im Kino.",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Wir sehen dich im Kino.",
+    "en": "We see you at the cinema.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "sehen",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du)",
+        "you"
+      ],
+      [
+        "im",
+        "in the"
+      ],
+      [
+        "Kino.",
+        "cinema"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-049",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich danke ___ (sie, Pl.).",
+    "hint": null,
+    "answer": "ihnen",
+    "full_de": "Ich danke ihnen.",
+    "en": "I thank them.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "danke",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "they"
+      ],
+      [
+        "Pl.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-050",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie versteht ___ (ich).",
+    "hint": null,
+    "answer": "mich",
+    "full_de": "Sie versteht mich.",
+    "en": "She understands me.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "versteht",
+        "understands"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich).",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-051",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir geben ___ (er) das Buch.",
+    "hint": null,
+    "answer": "ihm",
+    "full_de": "Wir geben ihm das Buch.",
+    "en": "We give him the book.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "geben",
+        "give"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er)",
+        "he"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Buch.",
+        "book"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-052",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich sehe ___ (du) heute.",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Ich sehe dich heute.",
+    "en": "I see you today.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du)",
+        "you"
+      ],
+      [
+        "heute.",
+        "today"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-053",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er hilft ___ (wir).",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Er hilft uns.",
+    "en": "He helps us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir).",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-054",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie besucht ___ (ich).",
+    "hint": null,
+    "answer": "mich",
+    "full_de": "Sie besucht mich.",
+    "en": "She visits me.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "besucht",
+        "visits"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich).",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-055",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir lieben ___ (sie, Sg.).",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Wir lieben sie.",
+    "en": "We love her.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "lieben",
+        "love"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "she"
+      ],
+      [
+        "Sg.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-056",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich schreibe ___ (du).",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Ich schreibe dir.",
+    "en": "I write to you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "schreibe",
+        "write"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-057",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er bringt ___ (sie, Pl.) Wasser.",
+    "hint": null,
+    "answer": "ihnen",
+    "full_de": "Er bringt ihnen Wasser.",
+    "en": "He brings them water.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "bringt",
+        "brings"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "they"
+      ],
+      [
+        "Pl.)",
+        null
+      ],
+      [
+        "Wasser.",
+        "water"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-058",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie sieht ___ (wir).",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Sie sieht uns.",
+    "en": "She sees us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "sieht",
+        "sees"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir).",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-059",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir fragen ___ (du).",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Wir fragen dich.",
+    "en": "We ask you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "fragen",
+        "ask"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-060",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich danke ___ (er).",
+    "hint": null,
+    "answer": "ihm",
+    "full_de": "Ich danke ihm.",
+    "en": "I thank him.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "danke",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er).",
+        "he"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-061",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er besucht ___ (wir).",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Er besucht uns.",
+    "en": "He visits us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "besucht",
+        "visits"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir).",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-062",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie hilft ___ (du).",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Sie hilft dir.",
+    "en": "She helps you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-063",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir sehen ___ (ich).",
+    "hint": null,
+    "answer": "mich",
+    "full_de": "Wir sehen mich.",
+    "en": "We see me.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": "Grammatical, but an unusual sentence (we and me at the same time); it drills the form mich.",
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "sehen",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich).",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-064",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich gebe ___ (sie, Sg.) das Buch.",
+    "hint": null,
+    "answer": "ihr",
+    "full_de": "Ich gebe ihr das Buch.",
+    "en": "I give her the book.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "gebe",
+        "give"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "she"
+      ],
+      [
+        "Sg.)",
+        null
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Buch.",
+        "book"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-065",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er ruft ___ (du) an.",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Er ruft dich an.",
+    "en": "He calls you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "ruft",
+        "calls"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du)",
+        "you"
+      ],
+      [
+        "an.",
+        "(call) up"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-066",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie bringt ___ (wir) Essen.",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Sie bringt uns Essen.",
+    "en": "She brings us food.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "bringt",
+        "brings"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir)",
+        "we"
+      ],
+      [
+        "Essen.",
+        "food"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-067",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir danken ___ (du).",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Wir danken dir.",
+    "en": "We thank you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "danken",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-068",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich sehe ___ (sie, Pl.).",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Ich sehe sie.",
+    "en": "I see them.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "they"
+      ],
+      [
+        "Pl.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-069",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er hilft ___ (du).",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Er hilft dir.",
+    "en": "He helps you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-070",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie liebt ___ (wir).",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Sie liebt uns.",
+    "en": "She loves us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "liebt",
+        "loves"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir).",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-071",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir besuchen ___ (er).",
+    "hint": null,
+    "answer": "ihn",
+    "full_de": "Wir besuchen ihn.",
+    "en": "We visit him.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "besuchen",
+        "visit"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er).",
+        "he"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-072",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich schreibe ___ (du) einen Brief.",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Ich schreibe dir einen Brief.",
+    "en": "I write you a letter.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "schreibe",
+        "write"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du)",
+        "you"
+      ],
+      [
+        "einen",
+        "a"
+      ],
+      [
+        "Brief.",
+        "letter"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-073",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er zeigt ___ (ich) das Foto.",
+    "hint": null,
+    "answer": "mir",
+    "full_de": "Er zeigt mir das Foto.",
+    "en": "He shows me the photo.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "zeigt",
+        "shows"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich)",
+        "I"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Foto.",
+        "photo"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-074",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie fragt ___ (wir).",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Sie fragt uns.",
+    "en": "She asks us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "fragt",
+        "asks"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir).",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-075",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir sehen ___ (du).",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Wir sehen dich.",
+    "en": "We see you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "sehen",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-076",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich danke ___ (sie, Sg.).",
+    "hint": null,
+    "answer": "ihr",
+    "full_de": "Ich danke ihr.",
+    "en": "I thank her.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "danke",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "she"
+      ],
+      [
+        "Sg.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-077",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er liebt ___ (ich).",
+    "hint": null,
+    "answer": "mich",
+    "full_de": "Er liebt mich.",
+    "en": "He loves me.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "liebt",
+        "loves"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich).",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-078",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie hilft ___ (wir).",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Sie hilft uns.",
+    "en": "She helps us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir).",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-079",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir geben ___ (du) das Buch.",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Wir geben dir das Buch.",
+    "en": "We give you the book.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "geben",
+        "give"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du)",
+        "you"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Buch.",
+        "book"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-080",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich sehe ___ (er).",
+    "hint": null,
+    "answer": "ihn",
+    "full_de": "Ich sehe ihn.",
+    "en": "I see him.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er).",
+        "he"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-081",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er besucht ___ (sie, Pl.).",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Er besucht sie.",
+    "en": "He visits them.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "besucht",
+        "visits"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "they"
+      ],
+      [
+        "Pl.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-082",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie bringt ___ (ich) das Essen.",
+    "hint": null,
+    "answer": "mir",
+    "full_de": "Sie bringt mir das Essen.",
+    "en": "She brings me the food.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "bringt",
+        "brings"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich)",
+        "I"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Essen.",
+        "food"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-083",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir danken ___ (du).",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Wir danken dir.",
+    "en": "We thank you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "danken",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-084",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich sehe ___ (wir).",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Ich sehe uns.",
+    "en": "I see us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir).",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-085",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er hilft ___ (sie, Sg.).",
+    "hint": null,
+    "answer": "ihr",
+    "full_de": "Er hilft ihr.",
+    "en": "He helps her.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "she"
+      ],
+      [
+        "Sg.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-086",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie liebt ___ (du).",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Sie liebt dich.",
+    "en": "She loves you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "liebt",
+        "loves"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-087",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir besuchen ___ (ich).",
+    "hint": null,
+    "answer": "mich",
+    "full_de": "Wir besuchen mich.",
+    "en": "We visit me.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": "Grammatical, but an unusual sentence (we and me at the same time); it drills the form mich.",
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "besuchen",
+        "visit"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich).",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-088",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich gebe ___ (er) das Geld.",
+    "hint": null,
+    "answer": "ihm",
+    "full_de": "Ich gebe ihm das Geld.",
+    "en": "I give him the money.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "gebe",
+        "give"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er)",
+        "he"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Geld.",
+        "money"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-089",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er sieht ___ (du).",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Er sieht dich.",
+    "en": "He sees you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "sieht",
+        "sees"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-090",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie hilft ___ (wir).",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Sie hilft uns.",
+    "en": "She helps us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir).",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-091",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir danken ___ (sie, Pl.).",
+    "hint": null,
+    "answer": "ihnen",
+    "full_de": "Wir danken ihnen.",
+    "en": "We thank them.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "danken",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "they"
+      ],
+      [
+        "Pl.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-092",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich sehe ___ (du).",
+    "hint": null,
+    "answer": "dich",
+    "full_de": "Ich sehe dich.",
+    "en": "I see you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-093",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er bringt ___ (ich) das Buch.",
+    "hint": null,
+    "answer": "mir",
+    "full_de": "Er bringt mir das Buch.",
+    "en": "He brings me the book.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "bringt",
+        "brings"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich)",
+        "I"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Buch.",
+        "book"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-094",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie besucht ___ (wir).",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Sie besucht uns.",
+    "en": "She visits us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "besucht",
+        "visits"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir).",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-095",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir helfen ___ (du).",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Wir helfen dir.",
+    "en": "We help you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "helfen",
+        "help"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-096",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich liebe ___ (sie, Sg.).",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Ich liebe sie.",
+    "en": "I love her.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "liebe",
+        "love"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sie,",
+        "she"
+      ],
+      [
+        "Sg.).",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-097",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Er fragt ___ (ich).",
+    "hint": null,
+    "answer": "mich",
+    "full_de": "Er fragt mich.",
+    "en": "He asks me.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "fragt",
+        "asks"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ich).",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-098",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Sie gibt ___ (wir) die Antwort.",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Sie gibt uns die Antwort.",
+    "en": "She gives us the answer.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "gibt",
+        "gives"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(wir)",
+        "we"
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Antwort.",
+        "answer"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-099",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Wir sehen ___ (er).",
+    "hint": null,
+    "answer": "ihn",
+    "full_de": "Wir sehen ihn.",
+    "en": "We see him.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "sehen",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(er).",
+        "he"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-personalpronomen-100",
+    "lesson": null,
+    "set": "r-personalpronomen",
+    "prompt_de": "Ich danke ___ (du).",
+    "hint": null,
+    "answer": "dir",
+    "full_de": "Ich danke dir.",
+    "en": "I thank you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "danke",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(du).",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-001",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Anna ist meine Freundin. ___ wohnt in Berlin. (Anna)",
+    "hint": null,
+    "answer": "Sie",
+    "full_de": "Anna ist meine Freundin. Sie wohnt in Berlin.",
+    "en": "Anna is my friend. She lives in Berlin.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Anna",
+        "Anna"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "meine",
+        "my"
+      ],
+      [
+        "Freundin.",
+        "friend"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "wohnt",
+        "lives"
+      ],
+      [
+        "in",
+        "in"
+      ],
+      [
+        "Berlin.",
+        "Berlin"
+      ],
+      [
+        "(Anna)",
+        "Anna"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-002",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Ich sehe Peter. Ich grüße ___. (Peter)",
+    "hint": null,
+    "answer": "ihn",
+    "full_de": "Ich sehe Peter. Ich grüße ihn.",
+    "en": "I see Peter. I greet him.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "Peter.",
+        "Peter"
+      ],
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "grüße",
+        "greet"
+      ],
+      [
+        "___.",
+        null
+      ],
+      [
+        "(Peter)",
+        "Peter"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-003",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Kannst du ___ bitte helfen? (ich)",
+    "hint": null,
+    "answer": "mir",
+    "full_de": "Kannst du mir bitte helfen?",
+    "en": "Can you please help me?",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Kannst",
+        "can"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "bitte",
+        "please"
+      ],
+      [
+        "helfen?",
+        "help"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-004",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Paul ist zu Hause. Wir besuchen ___ heute. (Paul)",
+    "hint": null,
+    "answer": "ihn",
+    "full_de": "Paul ist zu Hause. Wir besuchen ihn heute.",
+    "en": "Paul is at home. We are visiting him today.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Paul",
+        "Paul"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "zu",
+        "at"
+      ],
+      [
+        "Hause.",
+        "home"
+      ],
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "besuchen",
+        "visit"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "heute.",
+        "today"
+      ],
+      [
+        "(Paul)",
+        "Paul"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-005",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Lisa und Mia lernen Deutsch. ___ haben morgen einen Test. (Lisa und Mia)",
+    "hint": null,
+    "answer": "Sie",
+    "full_de": "Lisa und Mia lernen Deutsch. Sie haben morgen einen Test.",
+    "en": "Lisa and Mia are learning German. They have a test tomorrow.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Lisa",
+        "Lisa"
+      ],
+      [
+        "und",
+        "and"
+      ],
+      [
+        "Mia",
+        "Mia"
+      ],
+      [
+        "lernen",
+        "learn"
+      ],
+      [
+        "Deutsch.",
+        "German"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "haben",
+        "have"
+      ],
+      [
+        "morgen",
+        "tomorrow"
+      ],
+      [
+        "einen",
+        "a"
+      ],
+      [
+        "Test.",
+        "test"
+      ],
+      [
+        "(Lisa",
+        "Lisa"
+      ],
+      [
+        "und",
+        "and"
+      ],
+      [
+        "Mia)",
+        "Mia"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-006",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Ich besuche meine Eltern. Ich sehe ___ am Abend. (meine Eltern)",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Ich besuche meine Eltern. Ich sehe sie am Abend.",
+    "en": "I am visiting my parents. I will see them in the evening.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "besuche",
+        "visit"
+      ],
+      [
+        "meine",
+        "my"
+      ],
+      [
+        "Eltern.",
+        "parents"
+      ],
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "am",
+        "in the"
+      ],
+      [
+        "Abend.",
+        "evening"
+      ],
+      [
+        "(meine",
+        "my"
+      ],
+      [
+        "Eltern)",
+        "parents"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-007",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Mein Bruder hat Geburtstag. Ich schenke ___ ein Buch. (mein Bruder)",
+    "hint": null,
+    "answer": "ihm",
+    "full_de": "Mein Bruder hat Geburtstag. Ich schenke ihm ein Buch.",
+    "en": "It is my brother's birthday. I am giving him a book.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Mein",
+        "my"
+      ],
+      [
+        "Bruder",
+        "brother"
+      ],
+      [
+        "hat",
+        "has"
+      ],
+      [
+        "Geburtstag.",
+        "birthday"
+      ],
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "schenke",
+        "give"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ein",
+        "a"
+      ],
+      [
+        "Buch.",
+        "book"
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Bruder)",
+        "brother"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-008",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Wo seid ___? Ich warte auf euch. (ihr)",
+    "hint": null,
+    "answer": "ihr",
+    "full_de": "Wo seid ihr? Ich warte auf euch.",
+    "en": "Where are you? I am waiting for you.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wo",
+        "where"
+      ],
+      [
+        "seid",
+        "are"
+      ],
+      [
+        "___?",
+        null
+      ],
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "warte",
+        "wait"
+      ],
+      [
+        "auf",
+        "for"
+      ],
+      [
+        "euch.",
+        "you all"
+      ],
+      [
+        "(ihr)",
+        "you all"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-009",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Die Lehrerin erklärt ___ die Aufgabe. (wir)",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Die Lehrerin erklärt uns die Aufgabe.",
+    "en": "The teacher explains the task to us.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Lehrerin",
+        "teacher"
+      ],
+      [
+        "erklärt",
+        "explains"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Aufgabe.",
+        "task"
+      ],
+      [
+        "(wir)",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-010",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Kennst du die Kinder? Ich sehe ___ oft. (die Kinder)",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Kennst du die Kinder? Ich sehe sie oft.",
+    "en": "Do you know the children? I often see them.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Kennst",
+        "know"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Kinder?",
+        "children"
+      ],
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "oft.",
+        "often"
+      ],
+      [
+        "(die",
+        "the"
+      ],
+      [
+        "Kinder)",
+        "children"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-011",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Mein Vater arbeitet viel. ___ ist oft müde. (mein Vater)",
+    "hint": null,
+    "answer": "Er",
+    "full_de": "Mein Vater arbeitet viel. Er ist oft müde.",
+    "en": "My father works a lot. He is often tired.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Mein",
+        "my"
+      ],
+      [
+        "Vater",
+        "father"
+      ],
+      [
+        "arbeitet",
+        "works"
+      ],
+      [
+        "viel.",
+        "a lot"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "oft",
+        "often"
+      ],
+      [
+        "müde.",
+        "tired"
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Vater)",
+        "father"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-012",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Ich möchte mit dir sprechen. Hörst du ___ zu? (ich)",
+    "hint": null,
+    "answer": "mir",
+    "full_de": "Ich möchte mit dir sprechen. Hörst du mir zu?",
+    "en": "I want to talk to you. Are you listening to me?",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "möchte",
+        "would like"
+      ],
+      [
+        "mit",
+        "with"
+      ],
+      [
+        "dir",
+        "you"
+      ],
+      [
+        "sprechen.",
+        "speak"
+      ],
+      [
+        "Hörst",
+        "listen"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "zu?",
+        "(listen) to"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-013",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Frau Klein ruft an. Kannst du ___ später anrufen? (Frau Klein)",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Frau Klein ruft an. Kannst du sie später anrufen?",
+    "en": "Mrs. Klein is calling. Can you call her later?",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Frau",
+        "Mrs."
+      ],
+      [
+        "Klein",
+        "Klein"
+      ],
+      [
+        "ruft",
+        "calls"
+      ],
+      [
+        "an.",
+        "(call) up"
+      ],
+      [
+        "Kannst",
+        "can"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "später",
+        "later"
+      ],
+      [
+        "anrufen?",
+        "call"
+      ],
+      [
+        "(Frau",
+        "Mrs."
+      ],
+      [
+        "Klein)",
+        "Klein"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-014",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Wir sind heute zu Hause. Kommst du zu ___? (wir)",
+    "hint": null,
+    "answer": "uns",
+    "full_de": "Wir sind heute zu Hause. Kommst du zu uns?",
+    "en": "We are at home today. Are you coming to us?",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "sind",
+        "are"
+      ],
+      [
+        "heute",
+        "today"
+      ],
+      [
+        "zu",
+        "at"
+      ],
+      [
+        "Hause.",
+        "home"
+      ],
+      [
+        "Kommst",
+        "come"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "zu",
+        "to"
+      ],
+      [
+        "___?",
+        null
+      ],
+      [
+        "(wir)",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-015",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Wo ist mein Handy? Ich kann ___ nicht finden. (mein Handy)",
+    "hint": null,
+    "answer": "es",
+    "full_de": "Wo ist mein Handy? Ich kann es nicht finden.",
+    "en": "Where is my phone? I can't find it.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wo",
+        "where"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "mein",
+        "my"
+      ],
+      [
+        "Handy?",
+        "phone"
+      ],
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "kann",
+        "can"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "nicht",
+        "not"
+      ],
+      [
+        "finden.",
+        "find"
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Handy)",
+        "phone"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-016",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Mein Bruder und ich fahren nach Graz. ___ nehmen den Zug. (mein Bruder und ich)",
+    "hint": null,
+    "answer": "Wir",
+    "full_de": "Mein Bruder und ich fahren nach Graz. Wir nehmen den Zug.",
+    "en": "My brother and I are going to Graz. We are taking the train.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Mein",
+        "my"
+      ],
+      [
+        "Bruder",
+        "brother"
+      ],
+      [
+        "und",
+        "and"
+      ],
+      [
+        "ich",
+        "I"
+      ],
+      [
+        "fahren",
+        "go"
+      ],
+      [
+        "nach",
+        "to"
+      ],
+      [
+        "Graz.",
+        "Graz"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "nehmen",
+        "take"
+      ],
+      [
+        "den",
+        "the"
+      ],
+      [
+        "Zug.",
+        "train"
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Bruder",
+        "brother"
+      ],
+      [
+        "und",
+        "and"
+      ],
+      [
+        "ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-017",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Der Arzt hilft dem Mann. Er gibt ___ eine Tablette. (der Mann)",
+    "hint": null,
+    "answer": "ihm",
+    "full_de": "Der Arzt hilft dem Mann. Er gibt ihm eine Tablette.",
+    "en": "The doctor helps the man. He gives him a tablet.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Arzt",
+        "doctor"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "dem",
+        "the"
+      ],
+      [
+        "Mann.",
+        "man"
+      ],
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "gibt",
+        "gives"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "eine",
+        "a"
+      ],
+      [
+        "Tablette.",
+        "tablet"
+      ],
+      [
+        "(der",
+        "the"
+      ],
+      [
+        "Mann)",
+        "man"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-018",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Ich kenne die Frau nicht. Kennst du ___? (die Frau)",
+    "hint": null,
+    "answer": "sie",
+    "full_de": "Ich kenne die Frau nicht. Kennst du sie?",
+    "en": "I don't know the woman. Do you know her?",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "kenne",
+        "know"
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Frau",
+        "woman"
+      ],
+      [
+        "nicht.",
+        "not"
+      ],
+      [
+        "Kennst",
+        "know"
+      ],
+      [
+        "du",
+        "you"
+      ],
+      [
+        "___?",
+        null
+      ],
+      [
+        "(die",
+        "the"
+      ],
+      [
+        "Frau)",
+        "woman"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-019",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Die Kinder sind müde. Die Mutter liest ___ eine Geschichte vor. (die Kinder)",
+    "hint": null,
+    "answer": "ihnen",
+    "full_de": "Die Kinder sind müde. Die Mutter liest ihnen eine Geschichte vor.",
+    "en": "The children are tired. Their mother reads them a story.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Kinder",
+        "children"
+      ],
+      [
+        "sind",
+        "are"
+      ],
+      [
+        "müde.",
+        "tired"
+      ],
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Mutter",
+        "mother"
+      ],
+      [
+        "liest",
+        "reads"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "eine",
+        "a"
+      ],
+      [
+        "Geschichte",
+        "story"
+      ],
+      [
+        "vor.",
+        "aloud"
+      ],
+      [
+        "(die",
+        "the"
+      ],
+      [
+        "Kinder)",
+        "children"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-personal-020",
+    "lesson": null,
+    "set": "mixed-personal",
+    "prompt_de": "Das Buch liegt hier. ___ ist sehr interessant. (das Buch)",
+    "hint": null,
+    "answer": "Es",
+    "full_de": "Das Buch liegt hier. Es ist sehr interessant.",
+    "en": "The book is here. It is very interesting.",
+    "vocab_id": null,
+    "tags": [
+      "personalpronomen"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Buch",
+        "book"
+      ],
+      [
+        "liegt",
+        "lies"
+      ],
+      [
+        "hier.",
+        "here"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "sehr",
+        "very"
+      ],
+      [
+        "interessant.",
+        "interesting"
+      ],
+      [
+        "(das",
+        "the"
+      ],
+      [
+        "Buch)",
+        "book"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-001",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (mein Bruder) ist heute zu Hause.",
+    "hint": null,
+    "answer": "Mein",
+    "full_de": "Mein Bruder ist heute zu Hause.",
+    "en": "My brother is at home today.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Bruder)",
+        "brother"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "heute",
+        "today"
+      ],
+      [
+        "zu",
+        "at"
+      ],
+      [
+        "Hause.",
+        "home"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-002",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (meine Schwester) lernt Englisch.",
+    "hint": null,
+    "answer": "Meine",
+    "full_de": "Meine Schwester lernt Englisch.",
+    "en": "My sister is learning English.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(meine",
+        "my"
+      ],
+      [
+        "Schwester)",
+        "sister"
+      ],
+      [
+        "lernt",
+        "is learning"
+      ],
+      [
+        "Englisch.",
+        "English"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-003",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (dein Vater) arbeitet im Büro.",
+    "hint": null,
+    "answer": "Dein",
+    "full_de": "Dein Vater arbeitet im Büro.",
+    "en": "Your father works in the office.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(dein",
+        "your"
+      ],
+      [
+        "Vater)",
+        "father"
+      ],
+      [
+        "arbeitet",
+        "works"
+      ],
+      [
+        "im",
+        "in the"
+      ],
+      [
+        "Büro.",
+        "office"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-004",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (deine Mutter) kocht das Essen.",
+    "hint": null,
+    "answer": "Deine",
+    "full_de": "Deine Mutter kocht das Essen.",
+    "en": "Your mother is cooking the food.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(deine",
+        "your"
+      ],
+      [
+        "Mutter)",
+        "mother"
+      ],
+      [
+        "kocht",
+        "is cooking"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Essen.",
+        "food"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-005",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (sein Hund) spielt im Garten.",
+    "hint": null,
+    "answer": "Sein",
+    "full_de": "Sein Hund spielt im Garten.",
+    "en": "His dog is playing in the garden.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(sein",
+        "his"
+      ],
+      [
+        "Hund)",
+        "dog"
+      ],
+      [
+        "spielt",
+        "plays"
+      ],
+      [
+        "im",
+        "in the"
+      ],
+      [
+        "Garten.",
+        "garden"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-006",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (ihre Katze) schläft auf dem Sofa.",
+    "hint": null,
+    "answer": "Ihre",
+    "full_de": "Ihre Katze schläft auf dem Sofa.",
+    "en": "Her cat is sleeping on the sofa.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(ihre",
+        "her"
+      ],
+      [
+        "Katze)",
+        "cat"
+      ],
+      [
+        "schläft",
+        "sleeps"
+      ],
+      [
+        "auf",
+        "on"
+      ],
+      [
+        "dem",
+        "the"
+      ],
+      [
+        "Sofa.",
+        "sofa"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-007",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (unser Lehrer) erklärt die Aufgabe.",
+    "hint": null,
+    "answer": "Unser",
+    "full_de": "Unser Lehrer erklärt die Aufgabe.",
+    "en": "Our teacher explains the exercise.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(unser",
+        "our"
+      ],
+      [
+        "Lehrer)",
+        "teacher"
+      ],
+      [
+        "erklärt",
+        "explains"
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Aufgabe.",
+        "task"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-008",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (unsere Freunde) kommen heute zu Besuch.",
+    "hint": null,
+    "answer": "Unsere",
+    "full_de": "Unsere Freunde kommen heute zu Besuch.",
+    "en": "Our friends are coming to visit today.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(unsere",
+        "our"
+      ],
+      [
+        "Freunde)",
+        "friends"
+      ],
+      [
+        "kommen",
+        "come"
+      ],
+      [
+        "heute",
+        "today"
+      ],
+      [
+        "zu",
+        "to"
+      ],
+      [
+        "Besuch.",
+        "visit"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-009",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (euer Kind) spielt draußen.",
+    "hint": null,
+    "answer": "Euer",
+    "full_de": "Euer Kind spielt draußen.",
+    "en": "Your child is playing outside.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(euer",
+        "your"
+      ],
+      [
+        "Kind)",
+        "child"
+      ],
+      [
+        "spielt",
+        "plays"
+      ],
+      [
+        "draußen.",
+        "outside"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-010",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (ihre Eltern) wohnen in London.",
+    "hint": null,
+    "answer": "Ihre",
+    "full_de": "Ihre Eltern wohnen in London.",
+    "en": "Their parents live in London.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(ihre",
+        "their"
+      ],
+      [
+        "Eltern)",
+        "parents"
+      ],
+      [
+        "wohnen",
+        "live"
+      ],
+      [
+        "in",
+        "in"
+      ],
+      [
+        "London.",
+        "London"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-011",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (mein Auto) ist sehr alt.",
+    "hint": null,
+    "answer": "Mein",
+    "full_de": "Mein Auto ist sehr alt.",
+    "en": "My car is very old.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Auto)",
+        "car"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "sehr",
+        "very"
+      ],
+      [
+        "alt.",
+        "old"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-012",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (deine Bücher) liegen auf dem Tisch.",
+    "hint": null,
+    "answer": "Deine",
+    "full_de": "Deine Bücher liegen auf dem Tisch.",
+    "en": "Your books are on the table.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(deine",
+        "your"
+      ],
+      [
+        "Bücher)",
+        "books"
+      ],
+      [
+        "liegen",
+        "lie"
+      ],
+      [
+        "auf",
+        "on"
+      ],
+      [
+        "dem",
+        "the"
+      ],
+      [
+        "Tisch.",
+        "table"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-013",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (sein Bruder) wohnt in Wien.",
+    "hint": null,
+    "answer": "Sein",
+    "full_de": "Sein Bruder wohnt in Wien.",
+    "en": "His brother lives in Vienna.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(sein",
+        "his"
+      ],
+      [
+        "Bruder)",
+        "brother"
+      ],
+      [
+        "wohnt",
+        "lives"
+      ],
+      [
+        "in",
+        "in"
+      ],
+      [
+        "Wien.",
+        "Vienna"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-014",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (unsere Schule) ist sehr groß.",
+    "hint": null,
+    "answer": "Unsere",
+    "full_de": "Unsere Schule ist sehr groß.",
+    "en": "Our school is very big.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(unsere",
+        "our"
+      ],
+      [
+        "Schule)",
+        "school"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "sehr",
+        "very"
+      ],
+      [
+        "groß.",
+        "big"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-015",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (ihre Kinder) gehen in den Park.",
+    "hint": null,
+    "answer": "Ihre",
+    "full_de": "Ihre Kinder gehen in den Park.",
+    "en": "Their children are going to the park.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(ihre",
+        "their"
+      ],
+      [
+        "Kinder)",
+        "children"
+      ],
+      [
+        "gehen",
+        "go"
+      ],
+      [
+        "in",
+        "to"
+      ],
+      [
+        "den",
+        "the"
+      ],
+      [
+        "Park.",
+        "park"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-016",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Das ist das Auto ___ (mein Vater).",
+    "hint": null,
+    "answer": "meines",
+    "full_de": "Das ist das Auto meines Vaters.",
+    "en": "This is my father's car.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": "Masculine and neuter nouns add -(e)s in the genitive: meines Vaters.",
+    "gloss": [
+      [
+        "Das",
+        "this"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Auto",
+        "car"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Vater).",
+        "father"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-017",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Die Farbe ___ (meine Tasche) ist blau.",
+    "hint": null,
+    "answer": "meiner",
+    "full_de": "Die Farbe meiner Tasche ist blau.",
+    "en": "The color of my bag is blue.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Farbe",
+        "colour"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(meine",
+        "my"
+      ],
+      [
+        "Tasche)",
+        "bag"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "blau.",
+        "blue"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-018",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Der Hund ___ (dein Bruder) ist freundlich.",
+    "hint": null,
+    "answer": "deines",
+    "full_de": "Der Hund deines Bruders ist freundlich.",
+    "en": "The dog of your brother is friendly.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": "Masculine and neuter nouns add -(e)s in the genitive: deines Bruders.",
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Hund",
+        "dog"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(dein",
+        "your"
+      ],
+      [
+        "Bruder)",
+        "brother"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "freundlich.",
+        "friendly"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-019",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Das Zimmer ___ (deine Schwester) ist groß.",
+    "hint": null,
+    "answer": "deiner",
+    "full_de": "Das Zimmer deiner Schwester ist groß.",
+    "en": "The room of your sister is big.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Zimmer",
+        "room"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(deine",
+        "your"
+      ],
+      [
+        "Schwester)",
+        "sister"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "groß.",
+        "big"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-020",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Der Name ___ (sein Lehrer) ist bekannt.",
+    "hint": null,
+    "answer": "seines",
+    "full_de": "Der Name seines Lehrers ist bekannt.",
+    "en": "The name of his teacher is well known.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": "Masculine and neuter nouns add -(e)s in the genitive: seines Lehrers.",
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Name",
+        "name"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sein",
+        "his"
+      ],
+      [
+        "Lehrer)",
+        "teacher"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "bekannt.",
+        "well known"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-021",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Die Tür ___ (ihre Wohnung) ist offen.",
+    "hint": null,
+    "answer": "ihrer",
+    "full_de": "Die Tür ihrer Wohnung ist offen.",
+    "en": "The door of her apartment is open.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Tür",
+        "door"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ihre",
+        "her"
+      ],
+      [
+        "Wohnung)",
+        "apartment"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "offen.",
+        "open"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-022",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Das Spielzeug ___ (unser Kind) liegt hier.",
+    "hint": null,
+    "answer": "unseres",
+    "full_de": "Das Spielzeug unseres Kindes liegt hier.",
+    "en": "The toy of our child is lying here.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": "Masculine and neuter nouns add -(e)s in the genitive: unseres Kindes.",
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Spielzeug",
+        "toy"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(unser",
+        "our"
+      ],
+      [
+        "Kind)",
+        "child"
+      ],
+      [
+        "liegt",
+        "lies"
+      ],
+      [
+        "hier.",
+        "here"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-023",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Die Bücher ___ (unsere Schüler) sind neu.",
+    "hint": null,
+    "answer": "unserer",
+    "full_de": "Die Bücher unserer Schüler sind neu.",
+    "en": "The books of our students are new.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Bücher",
+        "books"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(unsere",
+        "our"
+      ],
+      [
+        "Schüler)",
+        "students"
+      ],
+      [
+        "sind",
+        "are"
+      ],
+      [
+        "neu.",
+        "new"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-024",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Die Farbe ___ (euer Haus) ist weiß.",
+    "hint": null,
+    "answer": "eures",
+    "full_de": "Die Farbe eures Hauses ist weiß.",
+    "en": "The color of your house is white.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": "Masculine and neuter nouns add -(e)s in the genitive: eures Hauses.",
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Farbe",
+        "colour"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(euer",
+        "your"
+      ],
+      [
+        "Haus)",
+        "house"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "weiß.",
+        "white"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-025",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Der Garten ___ (ihre Eltern) ist schön.",
+    "hint": null,
+    "answer": "ihrer",
+    "full_de": "Der Garten ihrer Eltern ist schön.",
+    "en": "The garden of their parents is beautiful.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Garten",
+        "garden"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ihre",
+        "their"
+      ],
+      [
+        "Eltern)",
+        "parents"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "schön.",
+        "beautiful"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-026",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Der Titel ___ (mein Buch) ist interessant.",
+    "hint": null,
+    "answer": "meines",
+    "full_de": "Der Titel meines Buches ist interessant.",
+    "en": "The title of my book is interesting.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": "Masculine and neuter nouns add -(e)s in the genitive: meines Buches.",
+    "gloss": [
+      [
+        "Der",
+        "the"
+      ],
+      [
+        "Titel",
+        "title"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Buch)",
+        "book"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "interessant.",
+        "interesting"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-027",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Die Tasche ___ (dein Freund) ist schwarz.",
+    "hint": null,
+    "answer": "deines",
+    "full_de": "Die Tasche deines Freundes ist schwarz.",
+    "en": "The bag of your friend is black.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": "Masculine and neuter nouns add -(e)s in the genitive: deines Freundes.",
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Tasche",
+        "bag"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(dein",
+        "your"
+      ],
+      [
+        "Freund)",
+        "friend"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "schwarz.",
+        "black"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-028",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Das Ende ___ (sein Film) ist traurig.",
+    "hint": null,
+    "answer": "seines",
+    "full_de": "Das Ende seines Films ist traurig.",
+    "en": "The ending of his film is sad.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": "Masculine and neuter nouns add -(e)s in the genitive: seines Films.",
+    "gloss": [
+      [
+        "Das",
+        "the"
+      ],
+      [
+        "Ende",
+        "end"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sein",
+        "his"
+      ],
+      [
+        "Film)",
+        "film"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "traurig.",
+        "sad"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-029",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Die Fenster ___ (unser Haus) sind groß.",
+    "hint": null,
+    "answer": "unseres",
+    "full_de": "Die Fenster unseres Hauses sind groß.",
+    "en": "The windows of our house are big.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": "Masculine and neuter nouns add -(e)s in the genitive: unseres Hauses.",
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Fenster",
+        "windows"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(unser",
+        "our"
+      ],
+      [
+        "Haus)",
+        "house"
+      ],
+      [
+        "sind",
+        "are"
+      ],
+      [
+        "groß.",
+        "big"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-030",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Die Namen ___ (ihre Kinder) stehen hier.",
+    "hint": null,
+    "answer": "ihrer",
+    "full_de": "Die Namen ihrer Kinder stehen hier.",
+    "en": "The names of their children are written here.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "genitiv"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Namen",
+        "names"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ihre",
+        "their"
+      ],
+      [
+        "Kinder)",
+        "children"
+      ],
+      [
+        "stehen",
+        "are written"
+      ],
+      [
+        "hier.",
+        "here"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-031",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Ich helfe ___ (mein Bruder).",
+    "hint": null,
+    "answer": "meinem",
+    "full_de": "Ich helfe meinem Bruder.",
+    "en": "I help my brother.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "helfe",
+        "help"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Bruder).",
+        "brother"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-032",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Sie gibt ___ (meine Schwester) ein Geschenk.",
+    "hint": null,
+    "answer": "meiner",
+    "full_de": "Sie gibt meiner Schwester ein Geschenk.",
+    "en": "She gives my sister a present.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "gibt",
+        "gives"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(meine",
+        "my"
+      ],
+      [
+        "Schwester)",
+        "sister"
+      ],
+      [
+        "ein",
+        "a"
+      ],
+      [
+        "Geschenk.",
+        "present"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-033",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Wir danken ___ (dein Vater).",
+    "hint": null,
+    "answer": "deinem",
+    "full_de": "Wir danken deinem Vater.",
+    "en": "We thank your father.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "danken",
+        "thank"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(dein",
+        "your"
+      ],
+      [
+        "Vater).",
+        "father"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-034",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Er hilft ___ (deine Mutter) beim Kochen.",
+    "hint": null,
+    "answer": "deiner",
+    "full_de": "Er hilft deiner Mutter beim Kochen.",
+    "en": "He helps your mother with the cooking.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "hilft",
+        "helps"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(deine",
+        "your"
+      ],
+      [
+        "Mutter)",
+        "mother"
+      ],
+      [
+        "beim",
+        "with the"
+      ],
+      [
+        "Kochen.",
+        "cooking"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-035",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Ich gebe ___ (sein Freund) das Buch.",
+    "hint": null,
+    "answer": "seinem",
+    "full_de": "Ich gebe seinem Freund das Buch.",
+    "en": "I give his friend the book.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "gebe",
+        "give"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sein",
+        "his"
+      ],
+      [
+        "Freund)",
+        "friend"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Buch.",
+        "book"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-036",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Sie erzählt ___ (ihre Tochter) eine Geschichte.",
+    "hint": null,
+    "answer": "ihrer",
+    "full_de": "Sie erzählt ihrer Tochter eine Geschichte.",
+    "en": "She tells her daughter a story.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "erzählt",
+        "tells"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ihre",
+        "her"
+      ],
+      [
+        "Tochter)",
+        "daughter"
+      ],
+      [
+        "eine",
+        "a"
+      ],
+      [
+        "Geschichte.",
+        "story"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-037",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Wir helfen ___ (unser Lehrer).",
+    "hint": null,
+    "answer": "unserem",
+    "full_de": "Wir helfen unserem Lehrer.",
+    "en": "We help our teacher.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "helfen",
+        "help"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(unser",
+        "our"
+      ],
+      [
+        "Lehrer).",
+        "teacher"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-038",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Er gibt ___ (unsere Kinder) Süßigkeiten.",
+    "hint": null,
+    "answer": "unseren",
+    "full_de": "Er gibt unseren Kindern Süßigkeiten.",
+    "en": "He gives our children sweets.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": "Plural nouns add -n in the dative: unseren Kindern.",
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "gibt",
+        "gives"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(unsere",
+        "our"
+      ],
+      [
+        "Kinder)",
+        "children"
+      ],
+      [
+        "Süßigkeiten.",
+        "sweets"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-039",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Ich schreibe ___ (euer Vater) einen Brief.",
+    "hint": null,
+    "answer": "eurem",
+    "full_de": "Ich schreibe eurem Vater einen Brief.",
+    "en": "I write your father a letter.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "schreibe",
+        "write"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(euer",
+        "your"
+      ],
+      [
+        "Vater)",
+        "father"
+      ],
+      [
+        "einen",
+        "a"
+      ],
+      [
+        "Brief.",
+        "letter"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-040",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Sie bringt ___ (ihre Eltern) Kaffee.",
+    "hint": null,
+    "answer": "ihren",
+    "full_de": "Sie bringt ihren Eltern Kaffee.",
+    "en": "She brings their parents coffee.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "bringt",
+        "brings"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ihre",
+        "their"
+      ],
+      [
+        "Eltern)",
+        "parents"
+      ],
+      [
+        "Kaffee.",
+        "coffee"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-041",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Er zeigt ___ (mein Freund) das Foto.",
+    "hint": null,
+    "answer": "meinem",
+    "full_de": "Er zeigt meinem Freund das Foto.",
+    "en": "He shows my friend the photo.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "zeigt",
+        "shows"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Freund)",
+        "friend"
+      ],
+      [
+        "das",
+        "the"
+      ],
+      [
+        "Foto.",
+        "photo"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-042",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Ich schenke ___ (deine Schwester) Blumen.",
+    "hint": null,
+    "answer": "deiner",
+    "full_de": "Ich schenke deiner Schwester Blumen.",
+    "en": "I give your sister flowers.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "schenke",
+        "give"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(deine",
+        "your"
+      ],
+      [
+        "Schwester)",
+        "sister"
+      ],
+      [
+        "Blumen.",
+        "flowers"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-043",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Wir helfen ___ (sein Bruder) bei den Hausaufgaben.",
+    "hint": null,
+    "answer": "seinem",
+    "full_de": "Wir helfen seinem Bruder bei den Hausaufgaben.",
+    "en": "We help his brother with his homework.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "helfen",
+        "help"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sein",
+        "his"
+      ],
+      [
+        "Bruder)",
+        "brother"
+      ],
+      [
+        "bei",
+        "with"
+      ],
+      [
+        "den",
+        "the"
+      ],
+      [
+        "Hausaufgaben.",
+        "homework"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-044",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Sie bringt ___ (unsere Lehrerin) die Unterlagen.",
+    "hint": null,
+    "answer": "unserer",
+    "full_de": "Sie bringt unserer Lehrerin die Unterlagen.",
+    "en": "She brings our teacher the documents.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "bringt",
+        "brings"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(unsere",
+        "our"
+      ],
+      [
+        "Lehrerin)",
+        "teacher"
+      ],
+      [
+        "die",
+        "the"
+      ],
+      [
+        "Unterlagen.",
+        "documents"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-045",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Er erzählt ___ (ihre Kinder) eine Geschichte.",
+    "hint": null,
+    "answer": "ihren",
+    "full_de": "Er erzählt ihren Kindern eine Geschichte.",
+    "en": "He tells their children a story.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": "Plural nouns add -n in the dative: ihren Kindern.",
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "erzählt",
+        "tells"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ihre",
+        "their"
+      ],
+      [
+        "Kinder)",
+        "children"
+      ],
+      [
+        "eine",
+        "a"
+      ],
+      [
+        "Geschichte.",
+        "story"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-046",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Ich sehe ___ (mein Bruder).",
+    "hint": null,
+    "answer": "meinen",
+    "full_de": "Ich sehe meinen Bruder.",
+    "en": "I see my brother.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Bruder).",
+        "brother"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-047",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Sie besucht ___ (meine Schwester).",
+    "hint": null,
+    "answer": "meine",
+    "full_de": "Sie besucht meine Schwester.",
+    "en": "She visits my sister.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "besucht",
+        "visits"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(meine",
+        "my"
+      ],
+      [
+        "Schwester).",
+        "sister"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-048",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Wir kennen ___ (dein Vater).",
+    "hint": null,
+    "answer": "deinen",
+    "full_de": "Wir kennen deinen Vater.",
+    "en": "We know your father.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "kennen",
+        "know"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(dein",
+        "your"
+      ],
+      [
+        "Vater).",
+        "father"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-049",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Er ruft ___ (deine Mutter) an.",
+    "hint": null,
+    "answer": "deine",
+    "full_de": "Er ruft deine Mutter an.",
+    "en": "He calls your mother.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "ruft",
+        "calls"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(deine",
+        "your"
+      ],
+      [
+        "Mutter)",
+        "mother"
+      ],
+      [
+        "an.",
+        "(call) up"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-050",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Ich liebe ___ (sein Hund).",
+    "hint": null,
+    "answer": "seinen",
+    "full_de": "Ich liebe seinen Hund.",
+    "en": "I love his dog.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "liebe",
+        "love"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sein",
+        "his"
+      ],
+      [
+        "Hund).",
+        "dog"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-051",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Sie sucht ___ (ihre Katze).",
+    "hint": null,
+    "answer": "ihre",
+    "full_de": "Sie sucht ihre Katze.",
+    "en": "She is looking for her cat.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "sucht",
+        "is looking for"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ihre",
+        "her"
+      ],
+      [
+        "Katze).",
+        "cat"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-052",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Wir besuchen ___ (unser Lehrer).",
+    "hint": null,
+    "answer": "unseren",
+    "full_de": "Wir besuchen unseren Lehrer.",
+    "en": "We visit our teacher.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "besuchen",
+        "visit"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(unser",
+        "our"
+      ],
+      [
+        "Lehrer).",
+        "teacher"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-053",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Er sieht ___ (unsere Freunde).",
+    "hint": null,
+    "answer": "unsere",
+    "full_de": "Er sieht unsere Freunde.",
+    "en": "He sees our friends.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "sieht",
+        "sees"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(unsere",
+        "our"
+      ],
+      [
+        "Freunde).",
+        "friends"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-054",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Ich kaufe ___ (euer Auto).",
+    "hint": null,
+    "answer": "euer",
+    "full_de": "Ich kaufe euer Auto.",
+    "en": "I buy your car.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "kaufe",
+        "buy"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(euer",
+        "your"
+      ],
+      [
+        "Auto).",
+        "car"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-055",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Sie besucht ___ (ihre Eltern).",
+    "hint": null,
+    "answer": "ihre",
+    "full_de": "Sie besucht ihre Eltern.",
+    "en": "She visits their parents.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "besucht",
+        "visits"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ihre",
+        "their"
+      ],
+      [
+        "Eltern).",
+        "parents"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-056",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Er liest ___ (mein Buch).",
+    "hint": null,
+    "answer": "mein",
+    "full_de": "Er liest mein Buch.",
+    "en": "He reads my book.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Er",
+        "he"
+      ],
+      [
+        "liest",
+        "reads"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(mein",
+        "my"
+      ],
+      [
+        "Buch).",
+        "book"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-057",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Ich nehme ___ (deine Tasche).",
+    "hint": null,
+    "answer": "deine",
+    "full_de": "Ich nehme deine Tasche.",
+    "en": "I take your bag.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "nehme",
+        "take"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(deine",
+        "your"
+      ],
+      [
+        "Tasche).",
+        "bag"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-058",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Wir treffen ___ (sein Bruder).",
+    "hint": null,
+    "answer": "seinen",
+    "full_de": "Wir treffen seinen Bruder.",
+    "en": "We meet his brother.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "treffen",
+        "meet"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(sein",
+        "his"
+      ],
+      [
+        "Bruder).",
+        "brother"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-059",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Sie putzt ___ (unser (das) Haus).",
+    "hint": null,
+    "answer": "unser",
+    "full_de": "Sie putzt unser Haus.",
+    "en": "She cleans our house.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Sie",
+        "she"
+      ],
+      [
+        "putzt",
+        "cleans"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(unser",
+        "our"
+      ],
+      [
+        "(das)",
+        null
+      ],
+      [
+        "Haus).",
+        "house"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-060",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Ich sehe ___ (ihre Kinder).",
+    "hint": null,
+    "answer": "ihre",
+    "full_de": "Ich sehe ihre Kinder.",
+    "en": "I see their children.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": "The sheet's English says 'your children', but the hint is ihre Kinder, so it is their (or her) children. 'Your children' would be eure Kinder (ihr) or Ihre Kinder (Sie).",
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "sehe",
+        "see"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(ihre",
+        "their"
+      ],
+      [
+        "Kinder).",
+        "children"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-061",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (der) Bruder (ich)",
+    "hint": null,
+    "answer": "Mein",
+    "full_de": "Mein Bruder",
+    "en": "My brother",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Brüder.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(der)",
+        null
+      ],
+      [
+        "Bruder",
+        "brother"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-062",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (die) Tante (du)",
+    "hint": null,
+    "answer": "Deine",
+    "full_de": "Deine Tante",
+    "en": "Your aunt",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Tanten.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Tante",
+        "aunt"
+      ],
+      [
+        "(du)",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-063",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ Mutter (ich)",
+    "hint": null,
+    "answer": "Meine",
+    "full_de": "Meine Mutter",
+    "en": "My mother",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Mütter. The sheet gives no article here; Mutter is feminine: die Mutter.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "Mutter",
+        "mother"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-064",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (der) Freund (du)",
+    "hint": null,
+    "answer": "Dein",
+    "full_de": "Dein Freund",
+    "en": "Your friend",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Freunde.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(der)",
+        null
+      ],
+      [
+        "Freund",
+        "friend"
+      ],
+      [
+        "(du)",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-065",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (das) Haus (sie)",
+    "hint": null,
+    "answer": "Ihr",
+    "full_de": "Ihr Haus",
+    "en": "Her (or their) house",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Häuser.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(das)",
+        null
+      ],
+      [
+        "Haus",
+        "house"
+      ],
+      [
+        "(sie)",
+        "she / they"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-066",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (das) Auto (ich)",
+    "hint": null,
+    "answer": "Mein",
+    "full_de": "Mein Auto",
+    "en": "My car",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Autos.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(das)",
+        null
+      ],
+      [
+        "Auto",
+        "car"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-067",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (der) Lehrer (wir)",
+    "hint": null,
+    "answer": "Unser",
+    "full_de": "Unser Lehrer",
+    "en": "Our teacher",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Lehrer.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(der)",
+        null
+      ],
+      [
+        "Lehrer",
+        "teacher"
+      ],
+      [
+        "(wir)",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-068",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (die) Adresse (du)",
+    "hint": null,
+    "answer": "Deine",
+    "full_de": "Deine Adresse",
+    "en": "Your address",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Adressen.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Adresse",
+        "address"
+      ],
+      [
+        "(du)",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-069",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (der) Stift (ich)",
+    "hint": null,
+    "answer": "Mein",
+    "full_de": "Mein Stift",
+    "en": "My pen",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Stifte.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(der)",
+        null
+      ],
+      [
+        "Stift",
+        "pen"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-070",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (die) Katze (ich)",
+    "hint": null,
+    "answer": "Meine",
+    "full_de": "Meine Katze",
+    "en": "My cat",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Katzen.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Katze",
+        "cat"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-071",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (das) Zimmer (du)",
+    "hint": null,
+    "answer": "Dein",
+    "full_de": "Dein Zimmer",
+    "en": "Your room",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Zimmer.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(das)",
+        null
+      ],
+      [
+        "Zimmer",
+        "room"
+      ],
+      [
+        "(du)",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-072",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (das) Handy (ich)",
+    "hint": null,
+    "answer": "Mein",
+    "full_de": "Mein Handy",
+    "en": "My phone",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Handys.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(das)",
+        null
+      ],
+      [
+        "Handy",
+        "phone"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-073",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (die) Familie (ich)",
+    "hint": null,
+    "answer": "Meine",
+    "full_de": "Meine Familie",
+    "en": "My family",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Familien.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Familie",
+        "family"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-074",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (der) Kaffee (du)",
+    "hint": null,
+    "answer": "Dein",
+    "full_de": "Dein Kaffee",
+    "en": "Your coffee",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(der)",
+        null
+      ],
+      [
+        "Kaffee",
+        "coffee"
+      ],
+      [
+        "(du)",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-075",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (die) Tasche (du)",
+    "hint": null,
+    "answer": "Deine",
+    "full_de": "Deine Tasche",
+    "en": "Your bag",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Taschen.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Tasche",
+        "bag"
+      ],
+      [
+        "(du)",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-076",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (das) Buch (ich)",
+    "hint": null,
+    "answer": "Mein",
+    "full_de": "Mein Buch",
+    "en": "My book",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Bücher.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(das)",
+        null
+      ],
+      [
+        "Buch",
+        "book"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-077",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (das) Fahrrad (du)",
+    "hint": null,
+    "answer": "Dein",
+    "full_de": "Dein Fahrrad",
+    "en": "Your bike",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Fahrräder.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(das)",
+        null
+      ],
+      [
+        "Fahrrad",
+        "bike"
+      ],
+      [
+        "(du)",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-078",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (der) Computer (ich)",
+    "hint": null,
+    "answer": "Mein",
+    "full_de": "Mein Computer",
+    "en": "My computer",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Computer.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(der)",
+        null
+      ],
+      [
+        "Computer",
+        "computer"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-079",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (die) Flasche (ich)",
+    "hint": null,
+    "answer": "Meine",
+    "full_de": "Meine Flasche",
+    "en": "My bottle",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Flaschen.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Flasche",
+        "bottle"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-080",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (die) Gitarre (du)",
+    "hint": null,
+    "answer": "Deine",
+    "full_de": "Deine Gitarre",
+    "en": "Your guitar",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Plural: die Gitarren.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Gitarre",
+        "guitar"
+      ],
+      [
+        "(du)",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-081",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (das) Kleid ist sehr hübsch. (du)",
+    "hint": null,
+    "answer": "Dein",
+    "full_de": "Dein Kleid ist sehr hübsch.",
+    "en": "Your dress is very pretty.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(das)",
+        null
+      ],
+      [
+        "Kleid",
+        "dress"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "sehr",
+        "very"
+      ],
+      [
+        "hübsch.",
+        "pretty"
+      ],
+      [
+        "(du)",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-082",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (der) Bruder wohnt in München. (er)",
+    "hint": null,
+    "answer": "Sein",
+    "full_de": "Sein Bruder wohnt in München.",
+    "en": "His brother lives in Munich.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(der)",
+        null
+      ],
+      [
+        "Bruder",
+        "brother"
+      ],
+      [
+        "wohnt",
+        "lives"
+      ],
+      [
+        "in",
+        "in"
+      ],
+      [
+        "München.",
+        "Munich"
+      ],
+      [
+        "(er)",
+        "he"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-083",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (die) Katze ist schwarz. (wir)",
+    "hint": null,
+    "answer": "Unsere",
+    "full_de": "Unsere Katze ist schwarz.",
+    "en": "Our cat is black.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Katze",
+        "cat"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "schwarz.",
+        "black"
+      ],
+      [
+        "(wir)",
+        "we"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-084",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Wie ist ___ (die) Adresse? (Sie)",
+    "hint": null,
+    "answer": "Ihre",
+    "full_de": "Wie ist Ihre Adresse?",
+    "en": "What is your address?",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wie",
+        "how"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Adresse?",
+        "address"
+      ],
+      [
+        "(Sie)",
+        "you (formal)"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-085",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (die) Wohnung ist sehr groß. (ich)",
+    "hint": null,
+    "answer": "Meine",
+    "full_de": "Meine Wohnung ist sehr groß.",
+    "en": "My apartment is very big.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Wohnung",
+        "apartment"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "sehr",
+        "very"
+      ],
+      [
+        "groß.",
+        "big"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-086",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (die) Frauen kommt aus Argentinien. (er)",
+    "hint": null,
+    "answer": "Seine",
+    "full_de": "Seine Frau kommt aus Argentinien.",
+    "en": "His wife comes from Argentina.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "The sheet has the plural Frauen with the singular verb kommt. It should be Seine Frau kommt aus Argentinien (his wife) or Seine Frauen kommen …; seine is right either way.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Frauen",
+        "women"
+      ],
+      [
+        "kommt",
+        "comes"
+      ],
+      [
+        "aus",
+        "from"
+      ],
+      [
+        "Argentinien.",
+        "Argentina"
+      ],
+      [
+        "(er)",
+        "he"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-087",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (die) Beine sind lang. (sie)",
+    "hint": null,
+    "answer": "Ihre",
+    "full_de": "Ihre Beine sind lang.",
+    "en": "Her legs are long.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "sie here can be she or they: ihre = her or their.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Beine",
+        "legs"
+      ],
+      [
+        "sind",
+        "are"
+      ],
+      [
+        "lang.",
+        "long"
+      ],
+      [
+        "(sie)",
+        "she / they"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-088",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (der) Onkel hat ein schönes Haus. (ich)",
+    "hint": null,
+    "answer": "Mein",
+    "full_de": "Mein Onkel hat ein schönes Haus.",
+    "en": "My uncle has a beautiful house.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(der)",
+        null
+      ],
+      [
+        "Onkel",
+        "uncle"
+      ],
+      [
+        "hat",
+        "has"
+      ],
+      [
+        "ein",
+        "a"
+      ],
+      [
+        "schönes",
+        "beautiful"
+      ],
+      [
+        "Haus.",
+        "house"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-089",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Wo wohnen ___ (die) Eltern? (du)",
+    "hint": null,
+    "answer": "deine",
+    "full_de": "Wo wohnen deine Eltern?",
+    "en": "Where do your parents live?",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wo",
+        "where"
+      ],
+      [
+        "wohnen",
+        "live"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Eltern?",
+        "parents"
+      ],
+      [
+        "(du)",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-090",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Woher kommt ___ (die) Freundin? (du)",
+    "hint": null,
+    "answer": "deine",
+    "full_de": "Woher kommt deine Freundin?",
+    "en": "Where does your girlfriend come from?",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "Freundin can mean girlfriend or (female) friend.",
+    "gloss": [
+      [
+        "Woher",
+        "where from"
+      ],
+      [
+        "kommt",
+        "comes"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Freundin?",
+        "girlfriend"
+      ],
+      [
+        "(du)",
+        "you"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-091",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Das ist ___ neues (das) Handy. (ich)",
+    "hint": null,
+    "answer": "mein",
+    "full_de": "Das ist mein neues Handy.",
+    "en": "This is my new phone.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Das",
+        "this"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "neues",
+        "new"
+      ],
+      [
+        "(das)",
+        null
+      ],
+      [
+        "Handy.",
+        "phone"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-092",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "Ist das ___ (das) Auto? (ihr)",
+    "hint": null,
+    "answer": "euer",
+    "full_de": "Ist das euer Auto?",
+    "en": "Is that your car?",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ist",
+        "is"
+      ],
+      [
+        "das",
+        "that"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "(das)",
+        null
+      ],
+      [
+        "Auto?",
+        "car"
+      ],
+      [
+        "(ihr)",
+        "you all"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-093",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (die) Haare sind blond. (sie)",
+    "hint": null,
+    "answer": "Ihre",
+    "full_de": "Ihre Haare sind blond.",
+    "en": "Her hair is blond.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": "sie here can be she or they: ihre = her or their.",
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(die)",
+        null
+      ],
+      [
+        "Haare",
+        "hair"
+      ],
+      [
+        "sind",
+        "are"
+      ],
+      [
+        "blond.",
+        "blond"
+      ],
+      [
+        "(sie)",
+        "she / they"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-r-possessiv-094",
+    "lesson": null,
+    "set": "r-possessiv",
+    "prompt_de": "___ (der) Sohn spricht drei Sprachen. (ich)",
+    "hint": null,
+    "answer": "Mein",
+    "full_de": "Mein Sohn spricht drei Sprachen.",
+    "en": "My son speaks three languages.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "___",
+        null
+      ],
+      [
+        "(der)",
+        null
+      ],
+      [
+        "Sohn",
+        "son"
+      ],
+      [
+        "spricht",
+        "speaks"
+      ],
+      [
+        "drei",
+        "three"
+      ],
+      [
+        "Sprachen.",
+        "languages"
+      ],
+      [
+        "(ich)",
+        "I"
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-possessiv-001",
+    "lesson": null,
+    "set": "mixed-possessiv",
+    "prompt_de": "Ich habe einen Bruder. ___ Bruder ist nett. (ich; maskulin)",
+    "hint": null,
+    "answer": "Mein",
+    "full_de": "Ich habe einen Bruder. Mein Bruder ist nett.",
+    "en": "I have a brother. My brother is nice.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "habe",
+        "have"
+      ],
+      [
+        "einen",
+        "a"
+      ],
+      [
+        "Bruder.",
+        "brother"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Bruder",
+        "brother"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "nett.",
+        "nice"
+      ],
+      [
+        "(ich;",
+        "I"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-possessiv-002",
+    "lesson": null,
+    "set": "mixed-possessiv",
+    "prompt_de": "Wo ist ___ Tasche? (du; feminin)",
+    "hint": null,
+    "answer": "deine",
+    "full_de": "Wo ist deine Tasche?",
+    "en": "Where is your bag?",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wo",
+        "where"
+      ],
+      [
+        "ist",
+        "is"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Tasche?",
+        "bag"
+      ],
+      [
+        "(du;",
+        "you"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-possessiv-003",
+    "lesson": null,
+    "set": "mixed-possessiv",
+    "prompt_de": "Tom liebt ___ Frau. (Tom; feminin)",
+    "hint": null,
+    "answer": "seine",
+    "full_de": "Tom liebt seine Frau.",
+    "en": "Tom loves his wife.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Tom",
+        "Tom"
+      ],
+      [
+        "liebt",
+        "loves"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Frau.",
+        "wife"
+      ],
+      [
+        "(Tom;",
+        "Tom"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-possessiv-004",
+    "lesson": null,
+    "set": "mixed-possessiv",
+    "prompt_de": "Wir besuchen ___ Oma. (wir; feminin)",
+    "hint": null,
+    "answer": "unsere",
+    "full_de": "Wir besuchen unsere Oma.",
+    "en": "We are visiting our grandma.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "besuchen",
+        "visit"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Oma.",
+        "grandma"
+      ],
+      [
+        "(wir;",
+        "we"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-possessiv-005",
+    "lesson": null,
+    "set": "mixed-possessiv",
+    "prompt_de": "Ich helfe ___ Schwester. (du; feminin)",
+    "hint": null,
+    "answer": "deiner",
+    "full_de": "Ich helfe deiner Schwester.",
+    "en": "I am helping your sister.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ich",
+        "I"
+      ],
+      [
+        "helfe",
+        "help"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Schwester.",
+        "sister"
+      ],
+      [
+        "(du;",
+        "you"
+      ],
+      [
+        "feminin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-possessiv-006",
+    "lesson": null,
+    "set": "mixed-possessiv",
+    "prompt_de": "Peter fährt mit ___ Auto. (Peter; Neutrum)",
+    "hint": null,
+    "answer": "seinem",
+    "full_de": "Peter fährt mit seinem Auto.",
+    "en": "Peter drives his car.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": "The sheet's English says 'Peter goes by car', which drops 'his': mit seinem Auto = with/in his car.",
+    "gloss": [
+      [
+        "Peter",
+        "Peter"
+      ],
+      [
+        "fährt",
+        "drives"
+      ],
+      [
+        "mit",
+        "with"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Auto.",
+        "car"
+      ],
+      [
+        "(Peter;",
+        "Peter"
+      ],
+      [
+        "Neutrum)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-possessiv-007",
+    "lesson": null,
+    "set": "mixed-possessiv",
+    "prompt_de": "Ist das ___ Mantel? (Sie; höfliche Anrede; maskulin)",
+    "hint": null,
+    "answer": "Ihr",
+    "full_de": "Ist das Ihr Mantel?",
+    "en": "Is that your coat?",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "nominativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Ist",
+        "is"
+      ],
+      [
+        "das",
+        "that"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Mantel?",
+        "coat"
+      ],
+      [
+        "(Sie;",
+        "you (formal)"
+      ],
+      [
+        "höfliche",
+        null
+      ],
+      [
+        "Anrede;",
+        null
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-possessiv-008",
+    "lesson": null,
+    "set": "mixed-possessiv",
+    "prompt_de": "Die Kinder spielen mit ___ Hund. (die Kinder; maskulin)",
+    "hint": null,
+    "answer": "ihrem",
+    "full_de": "Die Kinder spielen mit ihrem Hund.",
+    "en": "The children are playing with their dog.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Die",
+        "the"
+      ],
+      [
+        "Kinder",
+        "children"
+      ],
+      [
+        "spielen",
+        "play"
+      ],
+      [
+        "mit",
+        "with"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Hund.",
+        "dog"
+      ],
+      [
+        "(die",
+        "the"
+      ],
+      [
+        "Kinder;",
+        "children"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-possessiv-009",
+    "lesson": null,
+    "set": "mixed-possessiv",
+    "prompt_de": "Anna sucht ___ Schlüssel. (Anna; maskulin)",
+    "hint": null,
+    "answer": "ihren",
+    "full_de": "Anna sucht ihren Schlüssel.",
+    "en": "Anna is looking for her key.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "akkusativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Anna",
+        "Anna"
+      ],
+      [
+        "sucht",
+        "is looking for"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Schlüssel.",
+        "key"
+      ],
+      [
+        "(Anna;",
+        "Anna"
+      ],
+      [
+        "maskulin)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
+  },
+  {
+    "id": "ex-mixed-possessiv-010",
+    "lesson": null,
+    "set": "mixed-possessiv",
+    "prompt_de": "Wir wohnen bei ___ Eltern. (wir; Plural)",
+    "hint": null,
+    "answer": "unseren",
+    "full_de": "Wir wohnen bei unseren Eltern.",
+    "en": "We live with our parents.",
+    "vocab_id": null,
+    "tags": [
+      "possessiv",
+      "dativ"
+    ],
+    "note": null,
+    "gloss": [
+      [
+        "Wir",
+        "we"
+      ],
+      [
+        "wohnen",
+        "live"
+      ],
+      [
+        "bei",
+        "with"
+      ],
+      [
+        "___",
+        null
+      ],
+      [
+        "Eltern.",
+        "parents"
+      ],
+      [
+        "(wir;",
+        "we"
+      ],
+      [
+        "Plural)",
+        null
+      ]
+    ],
+    "hint_en": null,
+    "also": null
   }
 ]
