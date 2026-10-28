@@ -302,6 +302,19 @@ inside images are left as they are. Left out on purpose: modal verbs, Futur I, s
 question words (too little material), and `Robbie.rtf` (another student's notes). When a lesson adds
 grammar, update the matching Review section too.
 
+**Practice boxes.** Each section ends with `<div class="practice" data-section="<key>">`, which the
+page script turns into a collapsed "Practise: 25 homework questions" box: a random 25 from that
+section's pool, in homework format (English above each word, checked on Enter, wrong answers must be
+retyped before Next), then "Retry the ones I got wrong" / "Another 25". Pools come from
+`/review-pool.json` (`src/pages/review-pool.json.ts`), fetched on first open; `SECTION_SETS` there maps
+each section to exercise sets. Questions come from `src/data/exercises.json` and from
+`src/data/review-exercises.json` (collection `reviewExercises`, `lesson: null`, not used by the Quiz
+page): the homework sheets Robyn sent on 2026-10-27 (PersonalPronomen, Possessive docx, Mixed
+Exercise, Partizip Übungen, Perfekt 1–4) plus `r-reflexiv`, 30 items built from the example sentences
+of the Reflexive Verben handout (there was no reflexive homework). Answer keys and English for these
+were worked out by Claude. Only entries with `gloss` enter a pool. When a lesson adds a homework
+sheet, add its set to the matching section in `SECTION_SETS`.
+
 ### Grammar topics (fixed, in curriculum order)
 
 `articles`, `verb-conjugation`, `plurals`, `prefixes`, `declension`, `perfekt`, `clauses`,
