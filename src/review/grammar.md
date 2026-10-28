@@ -298,7 +298,8 @@ Always reflexive: sich beeilen (to hurry), sich erholen (to recover / rest), sic
 
 Watch out: denken (to think) → **gedacht**, kennen (to know) → **gekannt**, nennen (to name) → **genannt**, rennen (to run) → **gerannt** (sein).
 
-**Common strong verbs**
+<details class="more">
+<summary>Common strong verbs (26)</summary>
 
 | haben | | | sein | | |
 |---|---|---|---|---|---|
@@ -319,6 +320,8 @@ Watch out: denken (to think) → **gedacht**, kennen (to know) → **gekannt**, 
 | liegen | gelegen | to lie | | | |
 | beginnen | begonnen | to begin | | | |
 | bekommen | bekommen | to get / receive | | | |
+
+</details>
 
 <a href="../sources/review/top5-perfekt.webp"><img src="../sources/review/top5-perfekt.webp" alt="Top 5 Verben im Perfekt: sein – Ich bin im Urlaub gewesen. werden – Sie ist Lehrerin geworden. machen – Er hat einen Ausflug gemacht. geben – Wir haben ihm einen Tipp gegeben. gehen – Die Kinder sind in die Schule gegangen." width="1000" height="700" loading="lazy" /></a>
 

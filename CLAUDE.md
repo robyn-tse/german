@@ -295,7 +295,7 @@ topics). Still source-only. Charts Robyn sent (except the Mentorium question-wor
 `public/sources/review/` (originals in `inbox/archive/review-2026-10-27/`), each followed by a
 `chart-note` paragraph saying how to read it. Exception: the two Personalpronomen charts were converted
 to text tables at Robyn's request (originals still archived). Every German example on the page carries
-an English translation, and every verb list has glosses. Long word lists (dative verbs, reflexive verbs)
+an English translation, and every verb list has glosses. Long word lists (dative verbs, reflexive verbs, strong verbs)
 sit inside collapsed `<details class="more">` blocks. Do not embed the four adjective-ending case tables
 (lesson 3 PNGs) here: Robyn chose Markus's article tables instead until adjectives are taught. Errors
 inside images are left as they are. Left out on purpose: modal verbs, Futur I, sentence structure,
