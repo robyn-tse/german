@@ -62,5 +62,23 @@ const sections = getHeadings()
     font-size: 0.9rem; line-height: 1.5;
   }
   .review :global(.chart-note strong) { color: var(--fg); }
+  /* Long word lists start collapsed. */
+  .review :global(details.more) {
+    margin: 1rem 0 1.5rem; border: 1px solid var(--border); border-radius: var(--radius);
+    background: var(--surface);
+  }
+  .review :global(details.more > summary) {
+    cursor: pointer; padding: 0.7rem 0.9rem; font-weight: 600; color: var(--accent);
+    list-style: none; display: flex; align-items: center; gap: 0.5rem;
+  }
+  .review :global(details.more > summary::-webkit-details-marker) { display: none; }
+  .review :global(details.more > summary::before) {
+    content: '▸'; transition: transform 0.15s; display: inline-block;
+  }
+  .review :global(details.more[open] > summary::before) { transform: rotate(90deg); }
+  .review :global(details.more > table) { margin: 0 0.6rem 0.6rem; width: calc(100% - 1.2rem); }
+  @media (prefers-reduced-motion: reduce) {
+    .review :global(details.more > summary::before) { transition: none; }
+  }
   .top { margin-top: 2.5rem; }
 </style>

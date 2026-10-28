@@ -11,11 +11,11 @@ Take the stem (infinitive minus **-en**) and add the ending.
 | you all | ihr | **-t** | kauf**t** | habt | seid |
 | they / you (formal) | sie / Sie | **-en** | kauf**en** | haben | sind |
 
-- **Weak verbs** (about 80 %): the stem never changes. kaufen, wohnen, kochen.
+- **Weak verbs** (about 80 %): the stem never changes. kaufen (to buy), wohnen (to live), kochen (to cook).
 - **Strong verbs** change the stem vowel in **du** and **er/sie/es** only. The plural is regular.
 - **haben** and **sein** are irregular: memorise them.
 - **Sie** (capital S) is formal "you" and takes the plural form.
-- Verbs in **-eln** drop the *e* in the ich-form: ich entwick**le**.
+- Verbs in **-eln** drop the *e* in the ich-form: ich entwick**le** (I develop).
 
 | | geben (to give) | lesen (to read) | sprechen (to speak) |
 |---|---|---|---|
@@ -34,25 +34,25 @@ Take the stem (infinitive minus **-en**) and add the ending.
 
 - The plural is always **die**.
 - **ein** has no plural, because it means *one*.
-- **kein** is a *k* in front of *ein*: kein Mann, keine Frau, kein Haus.
-- The noun's ending usually tells you the gender. **Ge-** at the start is usually **das** (das Gemüse).
+- **kein** is a *k* in front of *ein*: kein Mann (no man), keine Frau (no woman), kein Haus (no house).
+- The noun's ending usually tells you the gender. **Ge-** at the start is usually **das**: das Gemüse (the vegetables).
 
 <a href="../sources/review/artikel-endungen.webp"><img src="../sources/review/artikel-endungen.webp" alt="Noun endings by gender. Masculine: -ant, -ent, -er, -ich, -ismus, -ist, -ast, -ling. Feminine: -heit, -keit, -schaft, -ung, -ie, -anz, -enz, -ik. Neuter: -ment, -um, -tum, -chen, -ma, -em, -nis." width="474" height="670" loading="lazy" class="narrow" /></a>
 
-<p class="chart-note"><strong>How to read it:</strong> find the noun's ending in one of the three columns; the column gives the article. Die Zeit<strong>ung</strong> → feminine column → <strong>die</strong>. Red notes are exceptions (<em>der</em> Moment, <em>die</em> Polizistin).</p>
+<p class="chart-note"><strong>How to read it:</strong> find the noun's ending in one of the three columns; the column gives the article. Die Zeit<strong>ung</strong> (the newspaper) → feminine column → <strong>die</strong>. Red notes are exceptions: <em>der</em> Moment (the moment), <em>die</em> Polizistin (the policewoman).</p>
 
 ## 3. The four cases
 
 <a href="../sources/review/faelle-fragewoerter.webp"><img src="../sources/review/faelle-fragewoerter.webp" alt="Die vier Fälle und ihre Fragewörter: Nominativ – wer oder was? Genitiv – wessen? Dativ – wem? Akkusativ – wen oder was?" width="1400" height="799" loading="lazy" /></a>
 
-<p class="chart-note"><strong>How to read it:</strong> ask the question about the word you need. The answer tells you the case. <em>Wem gebe ich das Buch?</em> – dem Mann → Dativ. <em>Wen sehe ich?</em> – den Mann → Akkusativ.</p>
+<p class="chart-note"><strong>How to read it:</strong> ask the question about the word you need. The answer tells you the case. <em>Wem gebe ich das Buch?</em> (To whom do I give the book?) – dem Mann → Dativ. <em>Wen sehe ich?</em> (Whom do I see?) – den Mann → Akkusativ.</p>
 
-| Case | Job | Question | Example |
-|---|---|---|---|
-| **Nominativ** | subject: who does it | wer? was? | **Der** Mann steht an der Tür. |
-| **Akkusativ** | direct object: what is acted on | wen? was? | Ich sehe **den** Mann. |
-| **Dativ** | indirect object: to whom | wem? | Ich gebe **dem** Mann das Buch. |
-| **Genitiv** | possession: whose | wessen? | das Buch **des** Mannes |
+| Case | Job | Question | Example | English |
+|---|---|---|---|---|
+| **Nominativ** | subject: who does it | wer? was? (who? what?) | **Der** Mann steht an der Tür. | The man is standing at the door. |
+| **Akkusativ** | direct object: what is acted on | wen? was? (whom? what?) | Ich sehe **den** Mann. | I see the man. |
+| **Dativ** | indirect object: to whom | wem? (to whom?) | Ich gebe **dem** Mann das Buch. | I give the man the book. |
+| **Genitiv** | possession: whose | wessen? (whose?) | das Buch **des** Mannes | the man's book |
 
 | der | <span class="g g-der">m</span> | <span class="g g-die">f</span> | <span class="g g-das">n</span> | pl |
 |---|---|---|---|---|
@@ -70,21 +70,27 @@ Take the stem (infinitive minus **-en**) and add the ending.
 
 - Only the **masculine** changes from Nominativ to Akkusativ: der → **den**, ein → **einen**.
 - One **Nominativ** (the subject) per sentence.
-- The verb is always in **second position**. Subject and object can swap places; the articles show who does what. *Den Ball fängt der Hund* = *Der Hund fängt den Ball*.
+- The verb is always in **second position**. Subject and object can swap places; the articles show who does what. *Den Ball fängt der Hund* = *Der Hund fängt den Ball* (The dog catches the ball).
 
 **Genitiv** shows possession: *das Auto **des** Bruders* (the brother's car).
 
-- Masculine and neuter nouns add **-es** if short (one syllable) or ending in -s, -ß, -z, -x, -sch: des Mann**es**, des Haus**es**.
-- Otherwise they add **-s**: des Lehrer**s**, des Auto**s**.
-- Feminine and plural nouns add nothing: der Frau, der Eltern.
+- Masculine and neuter nouns add **-es** if short (one syllable) or ending in -s, -ß, -z, -x, -sch: des Mann**es** (of the man), des Haus**es** (of the house).
+- Otherwise they add **-s**: des Lehrer**s** (of the teacher), des Auto**s** (of the car).
+- Feminine and plural nouns add nothing: der Frau (of the woman), der Eltern (of the parents).
 
 ## 4. Dative vs. accusative verbs
 
 - **The verb decides the case**, not the word order.
 - About **80 %** of verbs take **Akkusativ**. If a verb is not on the list below, use Akkusativ.
-- With two objects: **subject + verb + Dativ + Akkusativ**. *Ich gebe **dem** Mann **das** Buch.*
+- With two objects: **subject + verb + Dativ + Akkusativ**.
 
-**Dative verbs to memorise**
+| German | English |
+|---|---|
+| Ich gebe **dem** Mann **das** Buch. | I give the man the book. |
+| Wir kaufen **dem** Lehrer **ein** Geschenk. | We buy the teacher a present. |
+
+<details class="more">
+<summary>Dative verbs to memorise (34)</summary>
 
 | | | | |
 |---|---|---|---|
@@ -106,7 +112,13 @@ Take the stem (infinitive minus **-en**) and add the ending.
 | widersprechen | to contradict | wünschen | to wish |
 | zuhören | to listen to | zustimmen | to agree with |
 
-*Das Essen **schmeckt mir**. Das Auto **gehört der** Mutter. Ich **helfe dem** Mann.*
+</details>
+
+| German | English |
+|---|---|
+| Das Essen **schmeckt mir**. | The food tastes good to me. |
+| Das Auto **gehört der** Mutter. | The car belongs to the mother. |
+| Ich **helfe dem** Mann. | I help the man. |
 
 ## 5. Prepositions and case
 
@@ -114,7 +126,7 @@ Take the stem (infinitive minus **-en**) and add the ending.
 
 <a href="../sources/lesson-05/Praepositionen_Dativ_Akkusativ.webp"><img src="../sources/lesson-05/Praepositionen_Dativ_Akkusativ.webp" alt="Präpositionen mit Dativ und Akkusativ: Dativ (ab, außer, zu, nach, bei, von, aus, mit, seit, gegenüber), Akkusativ (bis, durch, für, ohne, gegen, um), both (in, an, auf, neben, hinter, über, unter, vor, zwischen). Wo? → Dativ, Wohin? → Akkusativ." width="1324" height="934" loading="lazy" /></a>
 
-<p class="chart-note"><strong>How to read it:</strong> a preposition in the yellow circle only takes <strong>Dativ</strong>; one in the green circle only takes <strong>Akkusativ</strong>. The nine in the <strong>overlap</strong> can take either, and you choose by the verb: <strong>no movement</strong> (Wo?) → Dativ, <strong>movement</strong> from A to B (Wohin?) → Akkusativ. <em>Das Buch liegt auf <strong>dem</strong> Tisch</em> / <em>Ich lege das Buch auf <strong>den</strong> Tisch</em>. The lists under the arrows show the same noun both ways, and the short forms (in dem → im, in das → ins).</p>
+<p class="chart-note"><strong>How to read it:</strong> a preposition in the yellow circle only takes <strong>Dativ</strong>; one in the green circle only takes <strong>Akkusativ</strong>. The nine in the <strong>overlap</strong> can take either, and you choose by the verb: <strong>no movement</strong> (Wo? where?) → Dativ, <strong>movement</strong> from A to B (Wohin? where to?) → Akkusativ. <em>Das Buch liegt auf <strong>dem</strong> Tisch</em> (The book is lying on the table) / <em>Ich lege das Buch auf <strong>den</strong> Tisch</em> (I put the book on the table). The lists under the arrows show the same noun both ways (der Kasten = the box, die Lade = the drawer, das Regal = the shelf, die Mappen = the folders), and the short forms (in dem → im, in das → ins).</p>
 
 | Always Dativ | Always Akkusativ | Wechsel (Dativ or Akkusativ) |
 |---|---|---|
@@ -131,18 +143,18 @@ Take the stem (infinitive minus **-en**) and add the ending.
 
 **Wechselpräpositionen: Wo? or Wohin?**
 
-| | Case | Example |
-|---|---|---|
-| **Wo?** where? (no movement) | **Dativ** | Ich bin in **dem** Garten. |
-| **Wohin?** where to? (A → B) | **Akkusativ** | Ich gehe in **den** Garten. |
+| | Case | Example | English |
+|---|---|---|---|
+| **Wo?** where? (no movement) | **Dativ** | Ich bin in **dem** Garten. | I am in the garden. |
+| **Wohin?** where to? (A → B) | **Akkusativ** | Ich gehe in **den** Garten. | I go into the garden. |
 
 | Movement → Akkusativ | No movement → Dativ |
 |---|---|
-| setzen, stellen, legen, sich setzen | sitzen, stehen, liegen, verstecken |
-| Er hängt das Bild an **die** Wand. | Das Bild hängt an **der** Wand. |
+| setzen (to set / seat), stellen (to put, standing), legen (to lay down), sich setzen (to sit down) | sitzen (to sit), stehen (to stand), liegen (to lie), verstecken (to hide) |
+| Er hängt das Bild an **die** Wand. *He hangs the picture on the wall.* | Das Bild hängt an **der** Wand. *The picture hangs on the wall.* |
 
-- **auf** = horizontal surfaces (das Dach). **an** = vertical surfaces (die Wand) and the water's edge (lake, sea, river).
-- **nach** for cities and countries (nach Berlin), but **in die** Schweiz.
+- **auf** = horizontal surfaces: das Dach (the roof). **an** = vertical surfaces, die Wand (the wall), and the water's edge (lake, sea, river).
+- **nach** for cities and countries: nach Berlin (to Berlin). But **in die** Schweiz (to Switzerland).
 
 **Short forms:** in dem → **im** · in das → **ins** · an dem → **am** · an das → **ans** · zu dem → **zum** · zu der → **zur** · bei dem → **beim** · von dem → **vom**
 
@@ -160,16 +172,34 @@ Take the stem (infinitive minus **-en**) and add the ending.
 | they / them | sie | sie | ihnen |
 | you (formal) | Sie | Sie | Ihnen |
 
-- Same rule as the articles: the verb or preposition picks the case. *Ich sehe **dich*** (sehen → Akk). *Ich helfe **dir*** (helfen → Dat). *Er kommt mit **uns*** (mit → Dat).
-- The Dativ ending matches the article: er → ih**m** like der → de**m**; sie → ih**r** like die → de**r**.
-- **Word order:** a pronoun in the Akkusativ comes **before** the Dativ. *Ich schenke meiner Oma Blumen* → *Ich schenke **sie** meiner Oma* → *Ich schenke **sie ihr***.
+- Same rule as the articles: the verb or preposition picks the case.
 
-<div class="pair">
-<a href="../sources/review/personalpronomen-dativ.webp"><img src="../sources/review/personalpronomen-dativ.webp" alt="Personalpronomen Dativ: ich mir, du dir, er/es ihm, sie ihr, wir uns, ihr euch, sie ihnen, Sie Ihnen. Merke: er/der → ihm/dem, sie/die → ihr/der, es/das → ihm/dem." width="740" height="519" loading="lazy" /></a>
-<a href="../sources/review/personalpronomen-akkusativ.webp"><img src="../sources/review/personalpronomen-akkusativ.webp" alt="Personalpronomen Akkusativ: ich mich, du dich, er ihn, sie sie, es es, wir uns, ihr euch, sie sie, Sie Sie. Im Satz steht das Personalpronomen im Akkusativ vor dem Dativ." width="740" height="529" loading="lazy" /></a>
-</div>
+**Dativ** — after dative verbs (helfen, danken …) and dative prepositions (mit, zu, bei …)
 
-<p class="chart-note"><strong>How to read them:</strong> left column = the subject form (ich, du …), coloured column = the form after a dative verb or preposition (left chart) or as a direct object (right chart). The <em>Merke</em> box shows the Dativ pronoun ends in the same letter as the article: ih<strong>m</strong>/de<strong>m</strong>, ih<strong>r</strong>/de<strong>r</strong>.</p>
+| German | English |
+|---|---|
+| Hilfst du **mir** bitte? – Ja, ich helfe **dir**! | Will you help me, please? – Yes, I'll help you! |
+| Wie geht es **Ihnen**? | How are you? (formal) |
+| Schmeckt es **euch**? | Does it taste good to you all? |
+| Er kommt mit **uns**. | He is coming with us. |
+| Das hängt von **ihr** ab. | That depends on her. |
+
+**Merke** (remember): the Dativ pronoun ends in the same letter as the Dativ article.
+
+| | er | sie | es |
+|---|---|---|---|
+| Nominativ | er / der | sie / die | es / das |
+| Dativ | ih**m** / de**m** | ih**r** / de**r** | ih**m** / de**m** |
+
+**Akkusativ** — the direct object: *Ich sehe **dich*** (I see you).
+
+**Word order:** in a sentence, the Akkusativ pronoun comes **before** the Dativ (*Im Satz steht das Personalpronomen im Akkusativ vor dem Dativ*).
+
+| German | | | English |
+|---|---|---|---|
+| Ich schenke | meiner Oma *(Dativ)* | Blumen. *(Akkusativ)* | I give my grandma flowers. |
+| Ich schenke | **sie** *(pronoun, Akk)* | meiner Oma. *(Dativ)* | I give them to my grandma. |
+| Ich schenke | **sie** *(pronoun, Akk)* | **ihr**. *(pronoun, Dat)* | I give them to her. |
 
 ## 7. Possessive pronouns
 
@@ -177,34 +207,42 @@ Take the stem (infinitive minus **-en**) and add the ending.
 |---|---|---|---|---|---|---|
 | mein | dein | sein | ihr | unser | euer | ihr / Ihr |
 
-- They take the **same endings as ein**: ein Bruder → **mein** Bruder, einen Bruder → **meinen** Bruder, einem Bruder → **meinem** Bruder.
-- Unlike ein, they have a plural: **meine** Eltern, **meinen** Eltern (Dativ).
+- They take the **same endings as ein**: ein Bruder → **mein** Bruder (my brother), einen Bruder → **meinen** Bruder, einem Bruder → **meinem** Bruder.
+- Unlike ein, they have a plural: **meine** Eltern (my parents), **meinen** Eltern (Dativ).
 - **ihr** means *her* or *their*; **Ihr** with a capital is formal *your*.
-- **euer** loses its middle e when it takes an ending: **eure** Mutter, **eurem** Vater.
+- **euer** loses its middle e when it takes an ending: **eure** Mutter (your mother), **eurem** Vater (your father, Dativ).
 
 <a href="../sources/review/possessivpronomen.webp"><img src="../sources/review/possessivpronomen.webp" alt="Die Possessivpronomen im Deutschen: table of mein, dein, sein, ihr, sein, unser, euer, ihr in Nominativ, Genitiv, Dativ and Akkusativ for masculine/neuter, feminine and plural." width="1400" height="799" loading="lazy" /></a>
 
-<p class="chart-note"><strong>How to read it:</strong> pick the owner's column (ich → mein…), then the row for the case and the gender of the thing owned. <em>Ich helfe ___ Schwester</em>: owner ich, Dativ, feminine → <strong>meiner</strong>. The pattern of endings is the same as ein/einen/einem.</p>
+<p class="chart-note"><strong>How to read it:</strong> pick the owner's column (ich → mein…), then the row for the case and the gender of the thing owned. <em>Ich helfe ___ Schwester</em> (I help my sister): owner ich, helfen → Dativ, die Schwester → feminine → <strong>meiner</strong>. The pattern of endings is the same as ein/einen/einem.</p>
 
 ## 8. Reflexive verbs
 
-The subject does the action **to itself**: *Ich wasche **mich***. Verb + the reflexive pronoun that matches the subject.
+The subject does the action **to itself**: *Ich wasche **mich*** (I wash myself). Verb + the reflexive pronoun that matches the subject.
 
-| | Akkusativ | Dativ |
+| | Akkusativ | Dativ | English |
+|---|---|---|---|
+| ich | mich | mir | myself |
+| du | dich | dir | yourself |
+| er / sie / es | sich | sich | himself / herself / itself |
+| wir | uns | uns | ourselves |
+| ihr | euch | euch | yourselves |
+| sie / Sie | sich | sich | themselves / yourself (formal) |
+
+| Rule | German | English |
 |---|---|---|
-| ich | mich | mir |
-| du | dich | dir |
-| er / sie / es | sich | sich |
-| wir | uns | uns |
-| ihr | euch | euch |
-| sie / Sie | sich | sich |
+| **Akkusativ** by default | Ich kämme **mich**. | I comb my hair. |
+| **Dativ** when there's another object (only ich/du differ: mich/mir, dich/dir) | Ich putze **mir** die Zähne. | I brush my teeth. |
+| **Position**: straight after the conjugated verb | Ich ruhe **mich** aus. | I rest. |
+| In a question: after the subject | Kämmst du **dich**? | Are you combing your hair? |
+| Reflexive only when done to yourself | Die Friseurin kämmt **sich**. | The hairdresser combs her own hair. |
+| | Die Friseurin kämmt **die Kundin**. | The hairdresser combs the customer's hair. |
+| **Perfekt always with haben** | Ich **habe mich** erinnert. | I remembered. |
 
-- **Akkusativ** by default: *Ich kämme **mich**.*
-- **Dativ** when the sentence has another object: *Ich putze **mir** die Zähne.* Only ich and du look different (mich/mir, dich/dir).
-- **Position:** straight after the conjugated verb. *Ich ruhe **mich** aus.* In a question, after the subject: *Kämmst du **dich**?*
-- Some verbs are **always** reflexive: sich beeilen, sich erholen, sich erkälten, sich verspäten.
-- Others are reflexive only when you do it to yourself: *Die Friseurin kämmt **sich*** vs *Die Friseurin kämmt **die Kundin***.
-- **Perfekt always with haben:** *Ich **habe mich** erinnert.*
+Always reflexive: sich beeilen (to hurry), sich erholen (to recover / rest), sich erkälten (to catch a cold), sich verspäten (to be late).
+
+<details class="more">
+<summary>Common reflexive verbs, A1/A2 (25)</summary>
 
 | Akkusativ (A1/A2) | | Dativ (A1/A2) | |
 |---|---|---|---|
@@ -228,67 +266,74 @@ The subject does the action **to itself**: *Ich wasche **mich***. Verb + the ref
 | sich vorstellen | to introduce oneself | | |
 | sich waschen | to wash | | |
 
+</details>
+
 ## 9. Separable and inseparable prefixes
 
 | | Separable (trennbar) | Inseparable (untrennbar) |
 |---|---|---|
 | Prefixes | ab-, an-, auf-, aus-, bei-, ein-, mit-, nach-, vor-, weg-, zu-, zurück-, her-, hin-, los-, um-, fern-, vorbei- … | be-, emp-, ent-, er-, ge-, miss-, ver-, zer- |
-| Present | prefix goes to the **end**: Ich räume das Zimmer **auf**. | never splits: Ich **be**suche dich. |
-| Perfekt | **ge** in the middle: auf**ge**räumt | **no ge**: besucht, verstanden |
+| Present | prefix goes to the **end**: Ich räume das Zimmer **auf**. *I tidy up the room.* | never splits: Ich **be**suche dich. *I visit you.* |
+| Perfekt | **ge** in the middle: auf**ge**räumt (tidied up) | **no ge**: besucht (visited), verstanden (understood) |
 
-| Sentence type | Example |
-|---|---|
-| statement: verb second, prefix last | Ich **stehe** um 6 Uhr **auf**. |
-| yes/no question: verb first | **Kaufst** du heute **ein**? |
-| with a modal verb: whole verb at the end | Ich **muss** morgen früh **aufstehen**. |
+| Sentence type | Example | English |
+|---|---|---|
+| statement: verb second, prefix last | Ich **stehe** um 6 Uhr **auf**. | I get up at 6 o'clock. |
+| yes/no question: verb first | **Kaufst** du heute **ein**? | Are you going shopping today? |
+| with a modal verb: whole verb at the end | Ich **muss** morgen früh **aufstehen**. | I have to get up early tomorrow. |
 
 ## 10. Perfekt (past)
 
 **haben / sein** (conjugated, second position) + **Partizip II** (at the end).
-*Ich **habe** das Buch **gelesen**. Er **ist** in die Schule **gegangen**.*
+
+| German | English |
+|---|---|
+| Ich **habe** das Buch **gelesen**. | I read the book. / I have read the book. |
+| Er **ist** in die Schule **gegangen**. | He went to school. |
+| Ich **bin** in den Garten **gelaufen**. | I ran into the garden. (movement → sein) |
+| Ich **habe** im Garten **gesessen**. | I sat in the garden. (no movement → haben) |
+| Ich **habe mich** erinnert. | I remembered. (reflexive → haben) |
 
 | sein | haben |
 |---|---|
-| **movement** from A to B: gehen, fahren, fliegen, laufen, springen, kommen, aufstehen | **everything else**, especially verbs with an object: Ich habe ein Buch gelesen. |
-| **change of state**: werden, wachsen, sterben, einschlafen, verschwinden | **reflexive verbs**: Ich habe mich erinnert. |
-| always: **sein** (gewesen), **bleiben** (geblieben), **werden** (geworden), **passieren** | no movement: Ich habe im Garten **gesessen**. |
-
-*Ich **bin** in den Garten **gelaufen*** (movement) · *Ich **habe** im Garten **gesessen*** (no movement)
+| **movement** from A to B: gehen (to go), fahren (to drive / travel), fliegen (to fly), laufen (to run / walk), springen (to jump), kommen (to come), aufstehen (to get up) | **everything else**, especially verbs with an object |
+| **change of state**: werden (to become), wachsen (to grow), sterben (to die), einschlafen (to fall asleep), verschwinden (to disappear) | **reflexive verbs** |
+| always: **sein** (to be), **bleiben** (to stay), **werden** (to become), **passieren** (to happen) | no movement: sitzen (to sit), stehen (to stand), liegen (to lie) |
 
 **Partizip II: four rules**
 
 | Verb type | Pattern | Examples |
 |---|---|---|
-| weak (regular) | **ge**…**t** | gekauft, gemacht, gespielt, gehabt |
-| strong (irregular) | **ge**…**en** | gelesen, gesprochen, gefahren, gegeben |
-| inseparable be-, er-, ent-, ver-, zer-, miss- | **no ge-** | besucht, bestellt, verstanden, verloren, missverstanden |
-| ending in **-ieren** | **no ge-**, …**iert** | studiert, probiert, organisiert, telefoniert |
-| separable | **ge** between prefix and stem | aufgeräumt, eingekauft, abgeholt, angezogen |
+| weak (regular) | **ge**…**t** | gekauft (bought), gemacht (made / done), gespielt (played), gehabt (had) |
+| strong (irregular) | **ge**…**en** | gelesen (read), gesprochen (spoken), gefahren (driven), gegeben (given) |
+| inseparable be-, er-, ent-, ver-, zer-, miss- | **no ge-** | besucht (visited), bestellt (ordered), verstanden (understood), verloren (lost), missverstanden (misunderstood) |
+| ending in **-ieren** | **no ge-**, …**iert** | studiert (studied), probiert (tried), organisiert (organised), telefoniert (phoned) |
+| separable | **ge** between prefix and stem | aufgeräumt (tidied up), eingekauft (shopped), abgeholt (picked up), angezogen (put on / dressed) |
 
-Watch out: denken → **gedacht**, kennen → **gekannt**, nennen → **genannt**, rennen → **gerannt** (sein).
+Watch out: denken (to think) → **gedacht**, kennen (to know) → **gekannt**, nennen (to name) → **genannt**, rennen (to run) → **gerannt** (sein).
 
 **Common strong verbs**
 
-| haben | | sein | |
-|---|---|---|---|
-| essen | gegessen | gehen | gegangen |
-| trinken | getrunken | kommen | gekommen |
-| schlafen | geschlafen | fahren | gefahren |
-| sehen | gesehen | fliegen | geflogen |
-| lesen | gelesen | laufen | gelaufen |
-| schreiben | geschrieben | springen | gesprungen |
-| sprechen | gesprochen | bleiben | geblieben |
-| geben | gegeben | werden | geworden |
-| nehmen | genommen | sein | gewesen |
-| finden | gefunden | | |
-| helfen | geholfen | | |
-| treffen | getroffen | | |
-| sitzen | gesessen | | |
-| stehen | gestanden | | |
-| liegen | gelegen | | |
-| beginnen | begonnen | | |
-| bekommen | bekommen | | |
+| haben | | | sein | | |
+|---|---|---|---|---|---|
+| essen | gegessen | to eat | gehen | gegangen | to go |
+| trinken | getrunken | to drink | kommen | gekommen | to come |
+| schlafen | geschlafen | to sleep | fahren | gefahren | to drive / travel |
+| sehen | gesehen | to see | fliegen | geflogen | to fly |
+| lesen | gelesen | to read | laufen | gelaufen | to run / walk |
+| schreiben | geschrieben | to write | springen | gesprungen | to jump |
+| sprechen | gesprochen | to speak | bleiben | geblieben | to stay |
+| geben | gegeben | to give | werden | geworden | to become |
+| nehmen | genommen | to take | sein | gewesen | to be |
+| finden | gefunden | to find | | | |
+| helfen | geholfen | to help | | | |
+| treffen | getroffen | to meet | | | |
+| sitzen | gesessen | to sit | | | |
+| stehen | gestanden | to stand | | | |
+| liegen | gelegen | to lie | | | |
+| beginnen | begonnen | to begin | | | |
+| bekommen | bekommen | to get / receive | | | |
 
 <a href="../sources/review/top5-perfekt.webp"><img src="../sources/review/top5-perfekt.webp" alt="Top 5 Verben im Perfekt: sein – Ich bin im Urlaub gewesen. werden – Sie ist Lehrerin geworden. machen – Er hat einen Ausflug gemacht. geben – Wir haben ihm einen Tipp gegeben. gehen – Die Kinder sind in die Schule gegangen." width="1000" height="700" loading="lazy" /></a>
 
-<p class="chart-note"><strong>How to read it:</strong> the highlighted words are the two halves of the Perfekt: haben/sein in second position, Partizip II at the end. sein, werden, gehen take <strong>sein</strong>; machen, geben take <strong>haben</strong>.</p>
+<p class="chart-note"><strong>How to read it:</strong> the highlighted words are the two halves of the Perfekt: haben/sein in second position, Partizip II at the end. <em>Ich bin im Urlaub gewesen</em> (I was on holiday) · <em>Sie ist Lehrerin geworden</em> (She became a teacher) · <em>Er hat einen Ausflug gemacht</em> (He went on a trip) · <em>Wir haben ihm einen Tipp gegeben</em> (We gave him a tip) · <em>Die Kinder sind in die Schule gegangen</em> (The children went to school). sein, werden, gehen take <strong>sein</strong>; machen, geben take <strong>haben</strong>.</p>
