@@ -315,6 +315,13 @@ of the Reflexive Verben handout (there was no reflexive homework). Answer keys a
 were worked out by Claude. Only entries with `gloss` enter a pool. When a lesson adds a homework
 sheet, add its set to the matching section in `SECTION_SETS`.
 
+**Mixed review** (added 2026-10-28): a box at the top of the page, under the section buttons, open by
+default, that draws 25 questions spread evenly across all ten pools (2–3 per topic) and shuffles them.
+Each question has a "Which topic?" link that reveals the section (linked); the topic is always shown
+after checking, and the results list mistakes by topic. It is the same practice component with
+`data-section="mixed"`; the page-order `keys` list in `review.astro` must match `SECTION_SETS` and the
+section order.
+
 ### Grammar topics (fixed, in curriculum order)
 
 `articles`, `verb-conjugation`, `plurals`, `prefixes`, `declension`, `perfekt`, `clauses`,

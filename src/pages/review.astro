@@ -6,6 +6,9 @@ import { Content, getHeadings } from '../review/grammar.md';
 const sections = getHeadings()
   .filter((h) => h.depth === 2)
   .map((h) => ({ slug: h.slug, label: h.text.replace(/^\d+\.\s*/, '').replace(/\s*\(.*\)$/, '') }));
+// Practice-pool keys, in the same order as the sections (see review-pool.json.ts).
+const keys = ['praesens', 'artikel', 'faelle', 'verben-kasus', 'praepositionen', 'personalpronomen', 'possessivpronomen', 'reflexiv', 'praefixe', 'perfekt'];
+const topics = Object.fromEntries(keys.map((k, i) => [k, { n: i + 1, ...sections[i] }]));
 ---
 <Base title="Review" description="Grammar review sheet: one page, ten topics.">
   <p class="small muted">Review · grammar</p>
@@ -20,9 +23,16 @@ const sections = getHeadings()
     </ol>
   </nav>
 
+  <section class="mixed review" aria-labelledby="mixed-h">
+    <h2 id="mixed-h">Mixed review</h2>
+    <p class="small muted">25 homework questions from all ten topics, shuffled together. Tap <em>Which topic?</em> if you want a hint.</p>
+    <div class="practice" data-section="mixed"></div>
+  </section>
+
   <article class="prose review"><Content /></article>
 
   <p class="small top"><a href="#">↑ Back to top</a></p>
+  <script type="application/json" id="topics" set:html={JSON.stringify(topics)} />
   <script type="application/json" id="pool-url" set:html={JSON.stringify(`${import.meta.env.BASE_URL.replace(/\/$/, '')}/review-pool.json`)} />
 </Base>
 
@@ -33,7 +43,9 @@ const sections = getHeadings()
   type Ex = {
     id: string; prompt_de: string; hint: string | null; hint_en: string | null; answer: string;
     also: string | null; full_de: string; en: string | null; note: string | null; gloss: [string, string | null][];
+    topic?: string; // set in the mixed box: the section key
   };
+  const topics: Record<string, { n: number; slug: string; label: string }> = JSON.parse(document.getElementById('topics')!.textContent!);
 
   const ROUND = 25;
   const poolUrl = JSON.parse(document.getElementById('pool-url')!.textContent!);
@@ -52,26 +64,54 @@ const sections = getHeadings()
     `<span class="w ${cls}"><span class="en">${en ? esc(en) : ''}</span><span class="de">${esc(de)}</span></span>`;
   const candidates = (e: Ex) => [{ text: e.answer, note: null }, ...(e.also ? [{ text: e.also, note: e.note }] : [])];
 
+  // Mixed round: spread the 25 across every topic (2–3 each), then shuffle them together.
+  function mixedDraw(pools: Record<string, Ex[]>) {
+    const keys = shuffle(Object.keys(topics).filter((k) => pools[k]?.length));
+    const bags = Object.fromEntries(keys.map((k) => [k, shuffle(pools[k]).map((e) => ({ ...e, topic: k }))]));
+    const out: Ex[] = [];
+    for (let r = 0; out.length < ROUND && keys.some((k) => bags[k].length); r++) {
+      for (const k of keys) { if (out.length < ROUND && bags[k].length) out.push(bags[k].pop()!); }
+    }
+    return shuffle(out);
+  }
+
   for (const slot of document.querySelectorAll<HTMLElement>('.practice')) {
     const section = slot.dataset.section!;
+    const mixed = section === 'mixed';
     slot.innerHTML = `
-      <details class="more practice-box">
-        <summary>Practise: ${ROUND} homework questions</summary>
+      <details class="more practice-box"${mixed ? ' open' : ''}>
+        <summary>${mixed ? `Start: ${ROUND} mixed questions` : `Practise: ${ROUND} homework questions`}</summary>
         <div class="pq" aria-live="polite"><p class="muted small">Loading…</p></div>
       </details>`;
     const details = slot.querySelector('details')!;
     const box = slot.querySelector<HTMLElement>('.pq')!;
     let started = false;
-    details.addEventListener('toggle', async () => {
+    const start = async () => {
       if (!details.open || started) return;
       started = true;
-      const pool = (await loadPools())[section] ?? [];
+      const pools = await loadPools();
+      if (mixed) return run(box, () => mixedDraw(pools), mixedDraw(pools));
+      const pool = pools[section] ?? [];
       if (!pool.length) { box.innerHTML = '<p class="muted small">No homework questions for this topic yet.</p>'; return; }
-      run(box, pool, shuffle(pool).slice(0, ROUND));
-    });
+      const draw = () => shuffle(pool).slice(0, ROUND);
+      run(box, draw, draw());
+    };
+    if (mixed) {
+      // The mixed box sits open at the top; load its questions only when it scrolls into view.
+      box.innerHTML = '<p class="muted small">Loading…</p>';
+      new IntersectionObserver((entries, obs) => {
+        if (entries.some((en) => en.isIntersecting)) { obs.disconnect(); start(); }
+      }).observe(slot);
+    }
+    details.addEventListener('toggle', start);
   }
 
-  function run(box: HTMLElement, pool: Ex[], queue: Ex[]) {
+  const topicHtml = (k: string) => {
+    const t = topics[k];
+    return t ? `<a href="#${t.slug}">${t.n}. ${esc(t.label)}</a>` : '';
+  };
+
+  function run(box: HTMLElement, draw: () => Ex[], queue: Ex[]) {
     let i = 0;
     const wrong: Ex[] = [];
 
@@ -83,8 +123,11 @@ const sections = getHeadings()
         <p class="small muted pq-count">Question ${i + 1} of ${queue.length}${wrong.length ? ` · ${wrong.length} wrong` : ''}</p>
         <p class="pq-prompt" lang="de">${e.gloss.map(([t, g]) => col(t, g)).join('')}${hint}</p>
         ${e.en ? `<p class="small muted pq-en">${esc(e.en)}</p>` : ''}
+        ${e.topic ? `<p class="pq-topic small"><button class="linkish" type="button" data-act="topic">Which topic?</button><span hidden>Topic: ${topicHtml(e.topic)}</span></p>` : ''}
         <form class="pq-form"><input type="text" name="a" autocomplete="off" autocapitalize="off" spellcheck="false" lang="de" aria-label="Your answer" placeholder="Fill the gap${(e.prompt_de.match(/___/g) || []).length > 1 ? 's, in order' : ''}" /><button class="btn btn-primary" type="submit">Check</button></form>
         <div class="pq-fb" hidden></div>`;
+      const tb = box.querySelector<HTMLButtonElement>('[data-act=topic]');
+      tb?.addEventListener('click', () => { tb.hidden = true; (tb.nextElementSibling as HTMLElement).hidden = false; input.focus({ preventScroll: true }); });
       const form = box.querySelector('form')!;
       const input = form.querySelector('input')!;
       input.focus({ preventScroll: true });
@@ -104,6 +147,7 @@ const sections = getHeadings()
         <p class="pq-verdict ${r.correct ? (r.exact ? 'ok' : 'warn') : 'bad'}">${r.correct ? (r.exact ? 'Correct' : 'Correct, but…') : 'Not quite'}</p>
         ${r.correct ? '' : `<p><span class="muted">You typed:</span> <s>${esc(given.trim())}</s></p>`}
         <p class="pq-full" lang="de">${esc(e.full_de)}</p>
+        ${e.topic ? `<p class="small muted">Topic: ${topicHtml(e.topic)}</p>` : ''}
         ${notes.length ? `<ul class="small">${notes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>` : ''}
         ${r.correct ? '' : `<form class="pq-form pq-retype"><input type="text" autocomplete="off" autocapitalize="off" spellcheck="false" lang="de" aria-label="Type the correct answer" placeholder="Retype the answer" /><button class="btn" type="submit">OK</button></form>`}
         <button class="btn btn-primary pq-next" type="button" ${r.correct ? '' : 'disabled'}>${i + 1 < queue.length ? 'Next' : 'See results'}</button>`;
@@ -130,14 +174,19 @@ const sections = getHeadings()
 
     function finish() {
       const right = queue.length - wrong.length;
+      // In the mixed box, show which topics the mistakes came from.
+      const byTopic: Record<string, number> = {};
+      for (const e of wrong) if (e.topic) byTopic[e.topic] = (byTopic[e.topic] ?? 0) + 1;
+      const weak = Object.entries(byTopic).sort((a, b) => b[1] - a[1]);
       box.innerHTML = `
         <p class="pq-verdict ${wrong.length ? 'warn' : 'ok'}">${right} of ${queue.length} right first time</p>
+        ${weak.length ? `<p class="small"><span class="muted">Mistakes by topic:</span></p><ul class="small pq-weak">${weak.map(([k, n]) => `<li>${topicHtml(k)}: ${n}</li>`).join('')}</ul>` : ''}
         <div class="pq-actions">
           ${wrong.length ? '<button class="btn btn-primary" type="button" data-act="retry">Retry the ones I got wrong</button>' : ''}
-          <button class="btn" type="button" data-act="new">Another ${Math.min(ROUND, pool.length)}</button>
+          <button class="btn" type="button" data-act="new">Another ${ROUND}</button>
         </div>`;
-      box.querySelector('[data-act=retry]')?.addEventListener('click', () => run(box, pool, shuffle(wrong)));
-      box.querySelector('[data-act=new]')!.addEventListener('click', () => run(box, pool, shuffle(pool).slice(0, ROUND)));
+      box.querySelector('[data-act=retry]')?.addEventListener('click', () => run(box, draw, shuffle(wrong)));
+      box.querySelector('[data-act=new]')!.addEventListener('click', () => run(box, draw, draw()));
     }
 
     ask();
@@ -226,5 +275,11 @@ const sections = getHeadings()
   .review :global(.pq-verdict.warn) { color: var(--warn); }
   .review :global(.pq-verdict.bad) { color: var(--bad); }
   .review :global(.pq-actions) { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .mixed { max-width: var(--measure); margin-top: 1.75rem; }
+  .mixed h2 { margin: 0 0 0.25rem; }
+  .mixed p { margin: 0; }
+  .review :global(.pq-topic), .mixed :global(.pq-topic) { margin: 0 0 0.5rem; }
+  .mixed :global(.pq-topic a), .mixed :global(.pq-weak a) { color: var(--accent); }
+  .mixed :global(.linkish) { all: unset; cursor: pointer; color: var(--accent); text-decoration: underline; font-size: 0.875rem; }
   .top { margin-top: 2.5rem; }
 </style>
