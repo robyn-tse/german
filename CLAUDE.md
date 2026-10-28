@@ -291,7 +291,7 @@ tables only, about a screen per topic. Added 2026-10-27 at Robyn's request. Ten 
 accusative verbs, prepositions and case, personal pronouns, possessive pronouns, reflexive verbs,
 prefixes, Perfekt. Personal pronouns, possessives and reflexives are allowed here as their own sections
 even though they are not among the ten curriculum topic files (Markus's Plan.pdf lists them as smaller
-topics). Still source-only. Charts Robyn sent are embedded as the original images from
+topics). Still source-only. Charts Robyn sent (except the Mentorium question-word chart, cut at her request) are embedded as the original images from
 `public/sources/review/` (originals in `inbox/archive/review-2026-10-27/`), each followed by a
 `chart-note` paragraph saying how to read it. Exception: the two Personalpronomen charts were converted
 to text tables at Robyn's request (originals still archived). Every German example on the page carries

@@ -43,10 +43,6 @@ Take the stem (infinitive minus **-en**) and add the ending.
 
 ## 3. The four cases
 
-<a href="../sources/review/faelle-fragewoerter.webp"><img src="../sources/review/faelle-fragewoerter.webp" alt="Die vier Fälle und ihre Fragewörter: Nominativ – wer oder was? Genitiv – wessen? Dativ – wem? Akkusativ – wen oder was?" width="1400" height="799" loading="lazy" /></a>
-
-<p class="chart-note"><strong>How to read it:</strong> ask the question about the word you need. The answer tells you the case. <em>Wem gebe ich das Buch?</em> (To whom do I give the book?) – dem Mann → Dativ. <em>Wen sehe ich?</em> (Whom do I see?) – den Mann → Akkusativ.</p>
-
 | Case | Job | Question | Example | English |
 |---|---|---|---|---|
 | **Nominativ** | subject: who does it | wer? was? (who? what?) | **Der** Mann steht an der Tür. | The man is standing at the door. |
